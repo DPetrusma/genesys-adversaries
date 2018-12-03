@@ -1,6 +1,16 @@
 [
 	{
-		"name": "Astrogation",
+		"name": "Alchemy",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+    {
+		"name": "Arcana",
+		"characteristic": "Intellect",
+		"type": "Magic"
+	},
+    {
+		"name": "Astrocartography",
 		"characteristic": "Intellect",
 		"type": "General"
 	},
@@ -54,6 +64,15 @@
 		"characteristic": "Willpower",
 		"type": "General"
 	},
+	{
+		"name": "Divine",
+		"characteristic": "Willpower",
+		"type": "Magic"
+	},
+	{
+		"name": "Driving",
+		"characteristic": "Agility",
+		
 	{
 		"name": "Gunnery",
 		"characteristic": "Agility",
@@ -115,8 +134,23 @@
 		"type": "Combat"
 	},
 	{
+		"name": "Melee: Light",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Melee: Heavy",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
 		"name": "Negotiation",
 		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Operating",
+		"characteristic": "Intellect",
 		"type": "General"
 	},
 	{
@@ -140,6 +174,11 @@
 		"type": "General"
 	},
 	{
+		"name": "Primal",
+		"characteristic": "Cunning",
+		"type": "Magic"
+	},
+	{
 		"name": "Ranged: Heavy",
 		"characteristic": "Agility",
 		"type": "Combat"
@@ -152,6 +191,11 @@
 	{
 		"name": "Resilience",
 		"characteristic": "Brawn",
+		"type": "General"
+	},
+	{
+		"name": "Riding",
+		"characteristic": "Agility",
 		"type": "General"
 	},
 	{

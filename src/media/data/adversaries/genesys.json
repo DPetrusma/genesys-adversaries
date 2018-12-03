@@ -1,0 +1,152 @@
+[
+	{
+		"name": "Valroth Demon",
+		"type": "Apex Nemesis",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 45,
+            "strain": 30,
+			"defence": [2, 1]
+		},
+		"skills": {
+            "Athletics": 3,
+            "Cool": 3,
+			"Discipline": 4,
+			"Leadership": 3,
+			"Melee: Light": 4,
+			"Resilience": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Demon", "Terrifying 4", "Devastating", "Fireborn", "Magic Resistance 1",
+            {
+                "name": "Fire and Shadow",
+                "description": "A valroth is surrounded by magical flames and shadows, granting it +1 Defense. For each ranged band farther than Engaged that an enemy is from a valroth, increase its Defense by 1"
+            },
+            {
+                "name": "Hellfire Aura",
+                "description": "A creature that begins its turn in Engaged range with a Valroth suffers 4 wounds from the demon's blazing aura"
+            },
+            "Multiattack",
+            {
+                "name": "Whip Drag",
+                "description": "A valroth that Ensnares a target with its whip may suffer 2 strain to drag the target one range band closer, to a minimum of Engaged. While a target is Ensnared, the valroth cannot use its whip to make attacks."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Flaming Sword",
+				"skill": "Melee: Light",
+				"damage": 16,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Barbed Whip",
+				"skill": "Melee: Light",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ensnare 3", "Pierce 2"]
+			}
+		],
+		"tags": ["species:Demon", "source:Genesys Creature Catalogue", "homebrew"]
+	},
+	{
+		"name": "Lemurian Darter",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5
+		},
+		"skills": [ "Athletics", "Coordination", "Melee: Light", "Vigilance" ],
+		"abilities": ["Cat-Like Acrobatics", "Standing Leap", "Spider Climb",
+            {
+                "name": "Scurry",
+                "description": "Darters are extremely fleet of foot and gain an additional free maneuver per turn. They still may not perform more than two maneuvers per turn, however."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Bone Club",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["species:Lemurian", "source:AngryGM", "homebrew"]
+	},
+	{
+		"name": "Lemurian Behemoth",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15
+		},
+		"skills": {
+            "Athletics": 3,
+            "Coordination": 2,
+            "Brawl": 1,
+            "Resilience": 1,
+            "Vigilance": 1
+        },
+		"abilities": ["Cat-Like Acrobatics", "Standing Leap", "Spider Climb",
+            {
+                "name": "Pounce",
+                "description": "If the behemoth moves from short range to engaged, including straight down from above, and succeeds with a Kick attack on the same turn, the behemoth may make an opposed Athletics vs. Athletics check targeting one engaged opponent, as an incidental, to knock that opponent prone. If the target is knocked prone, the behemoth can make one Bite attack against it as a bonus action."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Slam",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+                "qualities": ["Linked 1"]
+			},
+            {
+				"name": "Kick",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged"
+			},
+            {
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+                "qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["species:Lemurian", "source:AngryGM", "homebrew"]
+	}
+]
