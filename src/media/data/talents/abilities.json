@@ -111,6 +111,10 @@
 		"name": "Camouflaged (Jungle)",
 		"description": "When in jungle environments, add :boost::boost: to all Stealth checks."
 	},
+    {
+		"name": "Cat-Like Acrobatics",
+        "description": "Lemurians do not suffer damage from falls from short range. If a Lemurian falls further than short range, it suffers damage for the fall as normal."
+    },
 	{
 		"name": "Changeling",
 		"description": "As an action may suffer 3 Strain and make an :average: Resilience check. If successful may change appearance to that of any observed Silhoutte 1 character. An observing character must make an opposed Perception vs. Deception check to detect that something is amiss."
@@ -204,6 +208,10 @@
 		"description": "When incapacitated, daly­rakes make one out-of-turn Brawl attack against one opponent with whom they are engaged. This check gains :boost:."
 	},
 	{
+		"name": "Demon",
+		"description": "A demon is immune to poison and disease. A demon doubles its soak vs. non-magical attacks."
+	},
+	{
 		"name": "Dense Feathers",
 		"description": "Immune to the effects of cold and hazardous weather."
 	},
@@ -214,6 +222,10 @@
 	{
 		"name": "Detect Force-Sensitivity",
 		"description": "The vornskr may make an :average: Perception check to detect all Force-sensitive creatures or characters with a Force rating within Medium range; this ability functions regardless of intervening terrain or material."
+	},
+	{
+		"name": "Devastating",
+		"description": "Add +40 to Critical injury rolls against opponents."
 	},
 	{
 		"name": "Dive Attack",
@@ -290,6 +302,10 @@
 	{
 		"name": "Fire Sweep",
 		"description": "As an action, can make a :hard: ranged combat check to inflict one hit that deals base damage with its built-in twin blasters on up to two targets within Medium range, plus one additional target per :advantage: on the check; it can only hit each target once this way."
+	},
+	{
+		"name": "Fireborn",
+		"description": "Does not suffer damage from natural heat or flame, and doubles its soak against magical fire."
 	},
 	{
 		"name": "Firefighter",
@@ -472,6 +488,10 @@
 		"description": "Add :boost: lo all checks made to defend its designated master."
 	},
 	{
+		"name": "Magic Resistance",
+		"description": "Upgrade the difficulty of any magic skill check targeting this adversary {ranks|times}."
+	},
+	{
 		"name": "Luck Be a Lady",
 		"description": "Once per encounter, Lando may reroll a skill check."
 	},
@@ -486,6 +506,10 @@
 	{
 		"name": "Military Analyst",
 		"description": "M-3PO-series military protocol droids allow allies to add :boost: to any Knowledge (Warfare) checks that benefit from an understanding of logistics or military procedure."
+	},
+	{
+		"name": "Multiattack",
+		"description": "Does not need to increase the difficulty of combat checks to attack with two weapons."
 	},
 	{
 		"name": "Natural Camouflage",
@@ -660,9 +684,17 @@
 		"description": "Spaceport staff add :boost: to all Vigilance and Perception checks when in the Spaceport Administrator’s presence."
 	},
 	{
+		"name": "Spider Climb",
+		"description": "The Lemurian can climb difficult surfaces, including upside down on ceilings, without penalty."
+	},
+    {
 		"name": "Soothing Song",
 		"description": "The jubba bird may make an :average: Charm check to heal 1 Strain per :success: from all creatures within Medium range."
 	},
+    {
+		"name": "Standing Leap",
+        "description": "As a maneuver, the Lemurian may jump up to short range in any direction, including straight up."
+    },    
 	{
 		"name": "Sticky Saliva",
 		"description": "Knytix produce viscous saliva that can be used as an adhesive."
@@ -741,7 +773,7 @@
 	},
 	{
 		"name": "Terrifying",
-		"description": "Upon first sight, an individual must make a :hard: fear check."
+		"description": "Upon first sight, an individual must make a fear check with a difficulty equal to the adversary's ranks in Terrifying."
 	},
 	{
 		"name": "Terrifying Howl",
