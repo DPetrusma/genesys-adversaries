@@ -72,7 +72,8 @@
 	{
 		"name": "Driving",
 		"characteristic": "Agility",
-		
+        "type": "General"
+    },		
 	{
 		"name": "Gunnery",
 		"characteristic": "Agility",
