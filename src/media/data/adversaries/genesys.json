@@ -59,7 +59,7 @@
 				"qualities": ["Ensnare 3", "Pierce 2"]
 			}
 		],
-		"tags": ["species:Demon", "source:Genesys Creature Catalogue", "homebrew"]
+		"tags": ["species:Demon", "source:Genesys Creature Catalogue", "homebrew", "Combat CR:12", "Social CR:8"]
 	},
 	{
 		"name": "Lemurian Darter",
