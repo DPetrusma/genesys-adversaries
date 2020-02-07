@@ -36,10 +36,13 @@ In the build directory run `npm install`. Once everything has installed run any 
 For Windows:
 
 - Download npm from https://nodejs.org/en/download/.
+- I needed to downgrade node.js to 10.x
 - Add C:\Program Files\nodejs\ to your path.
+- I needed to change some version for gulp saas. Open your package.json file and in that you will see gulp-saas in the dev dependencies. Change "gulp-sass": "^2.0.4" to "gulp-sass": "^3.1.0", run npm install
 - Switch to your build directory and run `npm install`.
 - Then run `npm install react@15.6.1`, and then `npm install react-dom@15.6.1`.
 - To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
+- I had to copy react.min.js and react-dom.min.js from build/node_modules/react (or react-dom)/dist to the dev/[VERSION]/media/js/vendor folder, and rename to react.production.min.js and react-dom.production.min.js
 
 ## Host Locally
 

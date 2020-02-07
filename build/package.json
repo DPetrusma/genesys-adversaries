@@ -15,14 +15,14 @@
     "gulp-jsoncombine": "^1.0.3",
     "gulp-preprocess": "^2.0.0",
     "gulp-s3": "^0.3.0",
-    "gulp-sass": "^2.3.2",
+    "gulp-sass": "^3.1.0",
     "merge-stream": "^1.0.0"
   },
   "dependencies": {
     "babel-polyfill": "^6.16.0",
     "nanoajax": "^0.4.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
     "react-remarkable": "^1.1.1",
     "systemjs": "^0.19.39"
   },
