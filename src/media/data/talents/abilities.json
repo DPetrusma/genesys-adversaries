@@ -834,5 +834,25 @@
 	{
 		"name": "Southern Nikto",
 		"description": "Add 1 rank in Perception. A Southern Nikto may add :boost: to Perception and Vigilance checks to detect sound."
+	},
+	{
+		"name": "Death Sight",
+		"description": "When making skill checks, this adversary removes all :setback: imposed due to darkness"
+	},
+	{
+		"name": "Undead",
+		"description": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins"
+	},
+	{
+		"name": "Incorporeal",
+		"description": "May move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this adversary before applying soak, unless the attack came from a magical source such as a spell or magical weapon"
+	},
+	{
+		"name": "Life Drain",
+		"description": "Each time a target is wounded by this adversary, it must make a :hard: Resilience check or have its Wound and Strain threshold reduced by two until the next sunrise. If either threshold is reduced to zero, the target dies. It will rise as a spectre or zombie under the control of its killer at the next nightfall"
+	},
+	{
+		"name": "Sunlight Vulnerability",
+		"description": "When exposed to natural sunlight, this adversary suffers 2 Wounds per turn until it is out of the sunlight. If reduced to zero Wounds, it collapses"
 	}
 ]

@@ -184,5 +184,11 @@
 		"type": "Passive",
 		"description": "Add 10 times the Vicious rating to the critical roll.",
 		"ranked": true
+	},
+	{
+		"name": "Special",
+		"type": "Passive",
+		"description": "Unique quality defined in the adversary's abilities",
+		"ranked": false
 	}
 ]
