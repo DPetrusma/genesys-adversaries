@@ -1,0 +1,268 @@
+[
+	{
+		"name": "Valroth Demon",
+		"type": "Apex Nemesis",
+		"description": "These huge, fiery demons are the greatest of their kind. They appear as massive horned figures wreathed in infernal fire and writhing shadows, wielding a huge flaming sword and a cruelly barbed whip. Many serve as champions and executioners for their infernal masters. All other demons obey their commands, and they often lead hordes of demons into battle.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 45,
+            "strain": 30,
+			"defence": [2, 1]
+		},
+		"skills": {
+            "Athletics": 3,
+            "Cool": 3,
+			"Discipline": 4,
+			"Leadership": 3,
+			"Melee: Light": 4,
+			"Resilience": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Demon", "Terrifying 4", "Devastating", "Fireborn", "Magic Resistance 1",
+            {
+                "name": "Fire and Shadow",
+                "description": "A valroth is surrounded by magical flames and shadows, granting it +1 Defense. For each ranged band farther than Engaged that an enemy is from a valroth, increase its Defense by 1"
+            },
+            {
+                "name": "Hellfire Aura",
+                "description": "A creature that begins its turn in Engaged range with a Valroth suffers 4 wounds from the demon's blazing aura"
+            },
+            "Multiattack",
+            {
+                "name": "Whip Drag",
+                "description": "A valroth that Ensnares a target with its whip may suffer 2 strain to drag the target one range band closer, to a minimum of Engaged. While a target is Ensnared, the valroth cannot use its whip to make attacks."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Flaming Sword",
+				"skill": "Melee: Light",
+				"damage": 16,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"]
+			},
+			{
+				"name": "Barbed Whip",
+				"skill": "Melee: Light",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ensnare 3", "Pierce 2"]
+			}
+		],
+		"tags": ["species:Demon", "source:Genesys Creature Catalogue", "homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Setting:Fantasy"]
+	},
+	{
+		"name": "Auroch",
+		"type": "Rival",
+		"description": "These large, shaggy herbivores are commonly used as beasts of burden. While largely docile, they can be very dangerous when injured or frightened.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Athletics": 1,
+			"Brawl": 1,
+			"Resilience": 1
+		},
+		"abilities": ["Silhouette 2", "Beast of Burden 8"],
+		"weapons": [
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1", "Knockdown"]
+			}
+		],
+		"tags": ["category:Beast", "species:Auroch", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Zombie",
+		"type": "Minion",
+		"description": "Mindless and relentless, zombies stagger slowly towards any living creature they see. Their only impulse is to kill. They present little challenge in small numbers, but they are often accompanied by necromancers, or more powerful undead.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0, 0]
+		},
+		"skills": ["Brawl", "Vigilance"],
+		"abilities": ["Undead"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged"
+			}
+		],
+		"tags": ["category:Undead", "species:Corporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Wraith",
+		"type": "Rival",
+		"description": "When a supremely evil person dies, they sometimes leave behind a malevolent echo of themselves, known as a wraith. Wraiths exist only to destroy life. Their incorporeal nature and life-draining attacks make them terrifying opponents.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [3, 3]
+		},
+		"skills": {
+            "Cool": 2,
+			"Brawl": 2,
+			"Discipline": 2,
+			"Stealth": 3
+		},
+		"talents": ["Finesse"],
+		"abilities": ["Undead", "Death Sight", "Incorporeal", "Life Drain", "Sunlight Vulnerability"],
+		"weapons": [
+			{
+				"name": "Draining Touch",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Knockdown", "Special"]
+			}
+		],
+		"tags": ["category:Undead", "species:Incorporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Wight",
+		"type": "Rival",
+		"description": "Wights are undead warriors whose lust for battle is stronger than the grave. They are frequently found haunting the tombs, cairns, and barrows where they were once laid to rest.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"defence": [3, 2]
+		},
+		"skills": {
+            "Athletics": 1,
+			"Melee: Light": 3,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Undead", "Death Sight", "Incorporeal", "Life Drain", "Sunlight Vulnerability"],
+		"weapons": [
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1", "Deflection 1", "Inaccurate 1", "Knockdown"]
+			}
+		],
+		"gear": ["Ancient Platemail (+1 Defense, +2 Soak)"],
+		"tags": ["category:Undead", "species:Corporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Will O'Wisp",
+		"type": "Rival",
+		"description": "Will o' wisps are evil undead vestiges that manifest as small, glowing balls of light. They feed on fear and despair, and frequently lure travellers into dangerous environments or monster lairs to feed on their fear. Skilled magic users can sometimes extract the essence of a fallen wisp to create a lightstone.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [1, 1]
+		},
+		"skills": {
+            "Brawl": 2,
+			"Deception": 3,
+			"Stealth": 3
+		},
+		"abilities": ["Undead", "Flyer", "Incorporeal", "Silhouette 0", "Sunlight Vulnerability",
+			{
+				"name": "Deceptive Illumination",
+				"description": "A will o' wisp can shed light out to Medium range, or as little as Engaged range. It can appear as candlelight, torchlight, or virtually any form of luminescence it chooses. It can change the range of its illumination, or its appearance, as an incidental"
+			},
+			{
+				"name": "Invisibility",
+				"description": "As an action, a will o' wisp may turn invisible, extinguishing its light. It may sustain this invisibility by spending a maneuver to concentrate each turn. It cannot remain invisible if it attacks"
+			},
+			{
+				"name": "Consume Life",
+				"description": "Once per turn, a will o' wisp engaged with an Incapacitated creature may attempt to consume its life as an incidental. The creature must make an :average: Resilience check or die immediately. If the creature dies, the will o' wisp regains 6 wounds"
+			}
+			],
+		"weapons": [
+			{
+				"name": "Shock",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun 4", "Vicious 1"]
+			}
+		],
+		"tags": ["category:Undead", "species:Incorporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	}
+]
