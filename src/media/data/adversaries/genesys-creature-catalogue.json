@@ -264,5 +264,81 @@
 			}
 		],
 		"tags": ["category:Undead", "species:Incorporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Vampire, Dracul",
+		"type": "Nemesis",
+		"description": "Vampires of the Dracul bloodline are formidable warriors and cunning deceivers. They are quite adept at blending into civilized societies, which they prey on from the inside. It is not until a town or village is overrun with vampire spawn that the truth of the Dracul's masquerade is revealed. No two Dracul vampires are the same: some may have powers other than those listed here.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+            "strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+            "Athletics": 3,
+            "Coordination": 3,
+			"Brawl": 4,
+			"Charm": 3,
+			"Coercion": 4,
+			"Melee: Light": 4,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Sunlight Vulnerability",
+            {
+                "name": "Regeneration",
+                "description": "A Dracul vampire heals 3 wounds at the start of their turn, unless they are in direct sunlight"
+            },
+            {
+                "name": "Vampire's Embrace",
+                "description": "A vampire that Ensnares its target with its Claws attack may spend 2 Advantage or Triumph to make a Bite attack against the target. If the bite attack is successful, the vampire heals damage equal to the damage inflicted after soak"
+            },
+            {
+                "name": "Mesmeric Gaze",
+                "description": "As a maneuver, a Dracul vampire may attempt to mesmerise a target. This is a Coercion check opposed by the target's Discipline. If the vampire succeeds, the target is immobilized until the end of its next turn. The vampire may spend :advantage::advantage::advantage: on the check to stagger the target as well. If the check generates :triumph: for the vampire, instead of immobilizing and/or staggering the target, the vampire may spend 3 strain to choose the target's next maneuver and action"
+            },
+            {
+                "name": "Mist Form",
+                "description": "A vampire reduced to 0 wounds dissolves into an eerie mist, and attempts to return to its resting place. If it cannot return to its resting place before dawn, or is exposed to direct sunlight, it is destroyed. If it reaches its resting place, it reforms and is Incapacitated until the next sunset, when it arises, fully restored. If the vampire is slain in its resting place while Incapacitated, it is destroyed"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Vicious 2"]
+			},
+			{
+				"name": "Vampiric Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 3"]
+			},
+			{
+				"name": "Fine Sword",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Defensive 1"]
+			}
+		],
+		"tags": ["category:Undead", "species:Vampire", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	}
 ]
