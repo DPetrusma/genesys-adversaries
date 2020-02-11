@@ -81,118 +81,33 @@ Main tasks:
 
 ## Completed Adversaries
 
-- core books
-	- Age of Rebellion
-	- Edge of the Empire
-	- Force and Destiny
-- gm kits
-	- EotE (Debts to Pay)
-	- AoR (Dead in the water)
-	- Fad (Hidden Depths)
-- source books
-	- Lords of Nal Hutta
-	- Strongholds of Resistance
-	- Suns of Fortune
-	- Nexus of Power
-	- Dawn of Rebellion
-	- Rise of the Separatists
-- career books
-	- *Dangerous Covenants (no stats)*
-	- Enter the Unknown (5 droids)
-	- Desparate Allies
-	- Endless Vigil
-	- Far Horizons
-	- *Fly Casual (no stats)*
-	- *Forged in Battle (no stats)*
-	- Keeping the Peace
-	- Knights of Fate
-	- Lead by Example
-	- *No Disintegrations (no stats)*
-	- Savage Spirits
-	- Special Modifications
-	- Stay on Target
-	- *Unlimited Power (no stats)*
-	- Fully Operational
-	- Cyphers and Masks
-	- Disciples of Harmony
-- beginner's games
-	- Age of Rebellion (Takeover at Whisper Base)
-	- Edge of the Empire (Escape from Mos Shuuta)
-	- Force and Destiny (Mountaintop Rescue)
-	- The Force Awakens (Discovery on Jakku)
-- adventure books
-	- Beyond the Rim
-	- Chronicles of the Gatekeeper
-	- Jewel of Yavin
-	- Friends Like These
-	- Ghosts of Dathomir
-	- Mask of the Pirate Queen
-	- Onslaught at Arda I
-	- Rescue at Glare Peak
-	- Under a Black Sun
-- adventures
-	- A Call for Heroes (TFA follow on adventure)
-	- A Deal Gone Wrong
-	- A Quick Stopover
-	- Beyond the Boiling Sea
-	- Beyond the Rim
-	- Crates of Krayts (EotE Beta adventure)
-	- Chronicles of the Gatekeeper
-	- Claustrophobia
-	- Conical Six Summit
-	- Dead in the Water (AoR GM Kit)
-	- Debts to Pay (EotE GM Kit)
-	- Escape from Mos Shuuta
-	- Exploring the Acablas Ruins
-	- Friends Like These
-	- Ghosts of Dathomir
-	- Hard Bargain
-	- Hidden Depths (FaD GM Kit)
-	- If It Sounds too Good to be True...
-	- In Too Deep
-	- Jewel of Yavin
-	- Lessons from the Past
-	- Long Arm of the Law
-	- Lost Knowledge (FaD Beta adventure)
-	- Mask of the Pirate Queen
-	- Onslaught at Arda I
-	- Operation Shadowpoint (AoR follow on adventure)
-	- Operation: Shell Game (AoR Beta game)
-	- Perlemian Haul
-	- Phantoms in the Dark
-	- Rescue at Glare Peak
-	- Rubbing Slimy Elbows
-	- Sabacc Game on the Row
-	- Taming the Dragon
-	- Takeover at Whisper Base
-	- The Corellian Shuffle
-	- The Dead Road
-	- The Geharr Incident
-	- The Long Arm of the Hutt (EotE follow on adventure)
-	- The Light Within
-	- The Menagerie
-	- The Trial of Skill
-	- Toydarian Grocery Shopping
-	- Trouble Brewing
-	- Tunnel Delving
-	- Under a Black Sun
-	- Vault of Justice
-	- Welcome Aboard
-	- Witch’s Wrath
-	- Lure of the Lost (FaD follow on adventure)
+- 
+
+### In-Progress Adversaries
+
+- Creature Catalogue
 
 ### Missing Adversaries
 
-- career books
-	- AoR
-	- FaD
-	- EotE
-	Allies and Adversaries
-	Rise of the Separatists
+- Core Rulebook
+- Expanded Player's Guide
+
+### Changes from source
+
+- CC Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
+- Spectre: Ability can raise more spectres
 
 ## TODO
 
 - Favicon
-- Links between adversaries
-- Print multiple tabs
+- Lots of Genesys Adversaries
+- Change the reference to Star Wars Adversaries to Genesys Adversaries or something
+- Get the source link updated
+- Make it clear somehow that the credit goes to Stoo Goff for the design - I want it obvious that it was "Built by Stoo Goff, nlx3647, and SkyJedi", not me
+- Maybe fiddle with some of the colours and icons to make them less SW and more Genesys
+- Make spells work better somehow?
+- Make implement work better somehow?
+
+## Notes
+- DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead
 

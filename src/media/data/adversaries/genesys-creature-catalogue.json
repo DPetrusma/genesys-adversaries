@@ -60,7 +60,7 @@
 				"qualities": ["Ensnare 3", "Pierce 2"]
 			}
 		],
-		"tags": ["species:Demon", "source:Genesys Creature Catalogue", "homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Setting:Fantasy"]
+		"tags": ["Infernal", "Demon", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
 	},
 	{
 		"name": "Auroch",
@@ -95,7 +95,7 @@
 				"qualities": ["Inaccurate 1", "Knockdown"]
 			}
 		],
-		"tags": ["category:Beast", "species:Auroch", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Beast", "Auroch", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Zombie",
@@ -133,7 +133,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["category:Undead", "species:Corporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
+		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wraith",
@@ -170,7 +170,7 @@
 				"qualities": ["Breach 1", "Knockdown", "Special"]
 			}
 		],
-		"tags": ["category:Undead", "species:Incorporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Wight",
@@ -215,7 +215,7 @@
 			}
 		],
 		"gear": ["Ancient Platemail (+1 Defense, +2 Soak)"],
-		"tags": ["category:Undead", "species:Corporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Will O'Wisp",
@@ -263,7 +263,7 @@
 				"qualities": ["Stun 4", "Vicious 1"]
 			}
 		],
-		"tags": ["category:Undead", "species:Incorporeal", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Vampire, Dracul",
@@ -295,15 +295,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2"],
-		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Sunlight Vulnerability",
-            {
-                "name": "Regeneration",
-                "description": "A Dracul vampire heals 3 wounds at the start of their turn, unless they are in direct sunlight"
-            },
-            {
-                "name": "Vampire's Embrace",
-                "description": "A vampire that Ensnares its target with its Claws attack may spend 2 Advantage or Triumph to make a Bite attack against the target. If the bite attack is successful, the vampire heals damage equal to the damage inflicted after soak"
-            },
+		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Sunlight Vulnerability", "Vampire Regeneration", "Vampire's Embrace",
             {
                 "name": "Mesmeric Gaze",
                 "description": "As a maneuver, a Dracul vampire may attempt to mesmerise a target. This is a Coercion check opposed by the target's Discipline. If the vampire succeeds, the target is immobilized until the end of its next turn. The vampire may spend :advantage::advantage::advantage: on the check to stagger the target as well. If the check generates :triumph: for the vampire, instead of immobilizing and/or staggering the target, the vampire may spend 3 strain to choose the target's next maneuver and action"
@@ -339,6 +331,273 @@
 				"qualities": ["Accurate 1", "Defensive 1"]
 			}
 		],
-		"tags": ["category:Undead", "species:Vampire", "source:Creature Catalogue", "Setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Vampire, Orlok",
+		"type": "Nemesis",
+		"description": "Vampires of the Orlok bloodline are grotesque creatures that skulk through the  shadows, spreading pestilence and horror in their wake. Most take up residence in sewers, cave systems, abandoned tombs or castles, attended by their feral spawn and swarms of vermin. No two Orlok vampires are the same: some may have powers other than those listed here.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 22,
+            "strain": 16,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Athletics": 3,
+            "Coordination": 3,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Perception": 3,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Sunlight Vulnerability", "Vampire Regeneration", "Vampire's Embrace", "Wall Crawler",
+            {
+                "name": "Command Beasts",
+                "description": "An Orlok vampire can direct the actions of certain beasts (rats, bats, insects, spiders, wolves) with a Willpower lower than 3 within Long range as an out-of-turn incidental"
+            },
+            {
+                "name": "Pestilent Bite",
+                "description": "A living target bitten by an Orlok vampire must make a :daunting: check or become afflicted with a wasting disease. The target immediately reduces its wound and strain thresholds by four each. Each day, the target must repeat this check until it succeeds, or dies. A character that dies from the wasting disease, or dies while afflicted by it, will rise at nightfall as a vampire spawn"
+            },
+            {
+                "name": "Mist Form",
+                "description": "A vampire reduced to 0 wounds dissolves into an eerie mist, and attempts to return to its resting place. If it cannot return to its resting place before dawn, or is exposed to direct sunlight, it is destroyed. If it reaches its resting place, it reforms and is Incapacitated until the next sunset, when it arises, fully restored. If the vampire is slain in its resting place while Incapacitated, it is destroyed"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Vicious 2"]
+			},
+			{
+				"name": "Vampiric Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 3"]
+			}
+		],
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Vampire Spawn",
+		"type": "Minion",
+		"description": "Vampire spawn are newly turned vampires, and are often nearly feral, seeking only to slake their thirst upon the living. They are usually subservient to the vampire that created them, but sometimes they are abandoned to wander on their own. While they are much weaker than true vampires, when they band together in packs, they can be daunting foes.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 7,
+			"defence": [0, 0]
+		},
+		"skills": ["Brawl", "Perception", "Stealth", "Vigilance"],
+		"abilities": ["Undead", "Death Sight", "Sunlight Vulnerability", "Vampire Regeneration", "Vampire's Embrace"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2", "Vicious 1"]
+			}
+		],
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Spectre",
+		"type": "Minion",
+		"description": "A lesser form of undead created by a wraith, a spectre is aware that it has been cheated of passing into the afterlife. It feels nothing but rage and hatred towards the living.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [2, 2]
+		},
+		"skills": ["Brawl", "Stealth"],
+		"abilities": ["Undead", "Death Sight", "Incorporeal", "Life Drain", "Sunlight Vulnerability"],
+		"weapons": [
+			{
+				"name": "Draining Touch",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Special"]
+			}
+		],
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Mummy Lord",
+		"type": "Nemesis",
+		"description": "Mummy lords are the reanimated remains of great sorcerer-kings. They jealously guard their tombs and secrets, annihilating trespassers and tomb robbers without mercy. While they superficially resemble lesser mummies, they are usually clad in rotting finery and jewelry befitting their status in life. All are potent spellcasters.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 24,
+            "strain": 18,
+			"defence": [1, 1]
+		},
+		"skills": {
+            "Arcana": 3,
+			"Brawl": 3,
+			"Knowledge (Lore)": 4,
+			"Melee: Light": 4,
+			"Resilience": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Magic Resistance 1", "Ponderous", "Embalmed Toughness", "Master Sorcerer",
+            {
+                "name": "Curse of the Pharaoh",
+                "description": "A living creature struck by a mummy lord’s fist attack must make a :daunting: Resilience check. If they fail, they are afflicted with the Curse of the Pharaoh: Reduce their wound and strain thresholds by 6, and subtract one from all ability checks. They must repeat this check each day [with the same result for failure] until they succeed, or are Incapacitated [at which point they die and turn to dust]. The curse can be broken by Divine magic by succeeding at a :daunting: Divine check"
+            },
+            {
+                "name": "Spells",
+                "description": "A mummy lord can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following: Sandstorm [choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per Success, with the Disorient 2 and Knockdown qualities]; Aegis of Thoth [make a :hard: Arcana check; if successful, until the end of the mummy lord’s next turn, reduce the damage of all hits against them by one, plus one for every 2 Success, and the mummy lord gains +3 defense. The mummy lord can maintain these effects with the concentrate maneuver];Summon Scarabs [make a :hard: Arcana check; if successful, the mummy lord summons a scarab swarm at engaged range. The scarab swarm is an ally to the mummy lord]"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Fist",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown"]
+			}
+		],
+		"gear": ["Pharaoh's Crown (Implement; functions as a Druidic Circlet, but affects non-living summoned creatures)", "Pharaoh's Crook (Implement; functions as a magical staff)"],
+		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Bugbear",
+		"type": "Minion",
+		"description": "The largest and strongest of the goblinoids, bugbears rule over their weaker kin without mercy. They are surprisingly stealthy, and favor ambushes followed by overwhelming violence.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 7,
+			"defence": [0, 0]
+		},
+		"skills": ["Athletics", "Melee: Heavy", "Perception", "Skulduggery", "Stealth"],
+		"abilities": ["Ambusher", "Brutal Opportunist"],
+		"weapons": [
+			{
+				"name": "Morningstar",
+				"skill": "Melee: Heavy",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Sunder", "Inaccurate 1"]
+			}
+		],
+		"gear": ["Oiled chainmail (+2 soak, no stealth penalty)"],
+		"tags": ["Humanoid", "Goblinoid", "Bugbear", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Ancient Wurm",
+		"type": "Apex Nemesis",
+		"description": "An ancient wurm is a truly terrifying colossal beast with two huge forelimbs and a serpentine body. They spend most of their time asleep, but when they wake, they can ravage nations.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 60,
+            "strain": 40,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Athletics": 2,
+            "Brawl": 2,
+			"Resilience": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 5", "Terrifying 4", "Colossal", "Sweeping Attack" ],
+		"weapons": [
+			{
+				"name": "Massive Jaws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1", "Vicious 4"]
+			},
+			{
+				"name": "Massive Claws",
+				"skill": "Brawl",
+				"damage": 18,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Concussive 2", "Ensnare 2", "Auto-Fire"]
+			},
+			{
+				"name": "Thunderous Roar",
+				"skill": "Resilience",
+				"damage": 10,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow Firing 3"]
+			}
+		],
+		"tags": ["Monster", "Wurm", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
 	}
 ]
