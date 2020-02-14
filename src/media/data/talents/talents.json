@@ -1770,7 +1770,7 @@
 	},
 	{
 		"name": "Swift",
-		"description": "Do not suffer usual pen­alties for moving through difficult terrain."
+		"description": "Do not suffer usual penalties for moving through difficult terrain."
 	},
 	{
 		"name": "Tactical Combat Training",
@@ -1944,5 +1944,9 @@
 	{
 		"name": "Works Like a Charm",
 		"description": "Once per session, the character may make one skill check using Presence, rather than the characteristic linked to that skill."
+	},
+	{
+		"name": "Signature Spell",
+		"description": "When casting the specified signature spell, reduce the difficulty of the check by one."
 	}
 ]

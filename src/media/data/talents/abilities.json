@@ -958,5 +958,17 @@
 	{
 		"name": "Iceborn",
 		"description": "Does not suffer damage from natural cold or ice, and doubles soak for purposes of reducing damage from magical cold"
+	},
+	{
+		"name": "Rampage",
+		"description": "If this adversary incapacitates an enemy, it may immediately attack another engaged target"
+	},
+	{
+		"name": "Paralyzing Touch",
+		"description": "A living target hit by this creature's claws must make an :average: Resilience check. If it fails, it is staggered until the end of the encounter. At the end of each of its turns, it may attempt another :average: Resilience check to escape the effect. Divine Healing may also undo the effect."
+	},
+	{
+		"name": "Slime",
+		"description": "Immune to blindness, deafness, any mind-affecting ability or skill, acid, or knockdown"
 	}
 ]

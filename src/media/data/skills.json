@@ -268,5 +268,20 @@
 		"name": "Knowledge: Xenology",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Lore",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Forbidden",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Geography",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
 	}
 ]

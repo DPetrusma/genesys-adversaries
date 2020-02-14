@@ -97,6 +97,9 @@ Main tasks:
 - CC Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
 - Spectre: Ability can raise more spectres
 - Instances of "Melee" fixed: CC Gorgul Demon claws changed to Brawl, CC Malithar Demon swords changed to Melee: Light and Tail lash changed to Brawl, CC Cyclops club changed to Melee: Light, CC Hill Giant club changed to Melee: Light, CC Fire Giant sword changed to Melee: Light, CC Frost Giant axe changed to Melee: Light
+- CC Gnoll Night vision changed to Darkvision
+- CC Some abilities renamed to match existing Star Wars or Genesys
+- CC Lich removed Phylactery as it's mostly narrative
 
 ## TODO
 
@@ -108,6 +111,8 @@ Main tasks:
 - Maybe fiddle with some of the colours and icons to make them less SW and more Genesys
 - Make spells work better somehow?
 - Make implement work better somehow?
+- Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
+- CC Dreadgazer to use opposed checks?
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead

@@ -486,7 +486,7 @@
 		"skills": {
             "Arcana": 3,
 			"Brawl": 3,
-			"Knowledge (Lore)": 4,
+			"Knowledge: Lore": 4,
 			"Melee: Light": 4,
 			"Resilience": 3,
 			"Vigilance": 3
@@ -512,7 +512,7 @@
 				"qualities": ["Concussive 1", "Knockdown"]
 			}
 		],
-		"gear": ["Pharaoh's Crown (Implement; functions as a Druidic Circlet, but affects non-living summoned creatures)", "Pharaoh's Crook (Implement; functions as a magical staff)"],
+		"gear": ["Pharaoh's Crown (Implement; when the mummy lord casts the Conjure spell to summon an ally, adding the Summon Ally effect does not increase its difficulty. In addition, the creature(s) remain summoned until the end of the encounter without the mummy lord having to use the concentrate maneuver)", "Pharaoh's Crook (Implement; functions as a magical staff)"],
 		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
@@ -1123,7 +1123,7 @@
 	{
 		"name": "Hell Bat Swarm",
 		"type": "Rival",
-		"description": "ough they appear to be hideous bat-like beasts, these winged terrors are true demons. They wheel about in swarms over the battlefields where their greater kin fight, blinding foes and feeding on the fallen.",
+		"description": "Though they appear to be hideous bat-like beasts, these winged terrors are true demons. They wheel about in swarms over the battlefields where their greater kin fight, blinding foes and feeding on the fallen.",
 		"characteristics": {
 			"Brawn": 1,
 			"Agility": 3,
@@ -1141,7 +1141,7 @@
 			"Brawl": 1,
 			"Coordination": 3
 		},
-		"abilities": ["Silhouette 0, Flyer", 
+		"abilities": ["Silhouette 0", "Flyer", 
 			"Demonic", 
 			{"name": "Teeming Threat", "description": "as a maneuver, a swarm may engage all living targets within Short range, and take an attack action against each target"}, 
 			{"name": "Swarm", "description": "halve the damage dealt to the swarm before applying soak, unless the weapon has the Blast or Burn quality [regardless of whether the quality is activated]"}, 
@@ -1153,7 +1153,7 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3","may spend 2 Advantage to inflict 2 additional wounds.",""]
+				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 2 additional wounds."]
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -1856,7 +1856,7 @@
 			},
 			{
 				"name": "Large Shield",
-				"skill": "Melee (Light)",
+				"skill": "Melee: Light",
 				"damage": 6,
 				"critical": 6,
 				"range": "Engaged",
@@ -1903,7 +1903,7 @@
 		"weapons": [
 			{
 				"name": "Swords",
-				"skill": "Melee (Light)",
+				"skill": "Melee: Light",
 				"damage": 8,
 				"critical": 2,
 				"range": "Engaged",
@@ -2021,7 +2021,7 @@
 			"Vigilance": 2
 		},
 		"abilities": ["Abilities:", 
-			{"name": "Slime", "description": "a black slime is immune to blindness, deafness, any mind-affecting ability or skill, acid, or knockdown"}, 
+			"Slime", 
 			{"name": "Amorphous", "description": "as an incidental, a black slime may increase or decrease its silhouette by 1"}, 
 			"Wall Crawler", 
 			{"name": "Flailing Pseudopods", "description": "A black slime does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"}, 
@@ -3509,5 +3509,1722 @@
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Bugbear Chief",
+		"type": "Rival",
+		"description": "Bugbears rule by strength, cunning, and fighting prowess. The scars on their chiefs serve as badges of honour, and as a warning.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Melee: Heavy": 3,
+			"Perception": 1,
+			"Skulduggery": 2,
+			"Stealth": 2
+		},
+		"abilities": [
+			"Ambusher",
+			{"name": "Brutal Opportunist", "description": "a bugbear chief gains 1 Boost on its attack roll and +1 damage when it attacks a target that has not yet acted in the turn"}, 
+			{"name": "Strength of Will", "description": "as an out-of-turn incidental, a bugbear chief may use its own Willpower for any Discipline check required of an allied bugbear within Short range"}],
+		"weapons": [
+			{
+				"name": "Morningstar",
+				"skill": "Melee (Heavy)",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Sunder","Inaccurate 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Boglok",
+		"type": "Minion",
+		"description": "gloks dwell in swamps, tropical jungles, and other damp places. They are not evil, but they are highly territorial. They use their own secretions to poison their weapons.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1,0]
+		},
+		"skills": ["Coordination","Melee: Light","Survival"],
+		"abilities": [
+			{"name": "Amphibious", "description": "a Boglok may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}, 
+			{"name": "Poisoned Weapons", "description": "if a boglok wounds a target, the target must immediately make a Hard Resilence check. Failure means the target is immobilized for one round, plus one round per Setback generated. Despair on a successful or failed check means the target is staggered for one round"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Boglok Boss",
+		"type": "Rival",
+		"description": "Boglok hunting parties are led by bosses. While not the most formidable opponents, a boss can keep his hunters focused on bringing down a tough opponent.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Coordination": 2,
+			"Melee: Light": 2,
+			"Survival": 2
+		},
+		"abilities": [
+			{"name": "Amphibious", "description": "a Boglok boss may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}, 
+			"Pack Instincts", 
+			{"name": "Poisoned Weapons", "description": "if a boglok boss wounds a target, the target must immediately make a Hard Resilence check. Failure means the target is immobilized for one round, plus one round per Setback generated. Despair on a successful or failed check means the target is staggered for one round"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Gnoll",
+		"type": "Minion",
+		"description": "Cruel, savage marauders, gnolls are hated and feared by all. Much like the hyaenas they resemble, gnoll packs are dominated by females rather than males.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 7,
+			"defence": [1,1]
+		},
+		"skills": ["Athletics","Brawl","Melee: Light","Perception","Survival"],
+		"abilities": [ "Darkvision",  "Rampage"],
+		"weapons": [
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Gnoll Pack Lord",
+		"type": "Rival",
+		"description": "A gnoll pack lord is the fiercest of her kind in a given pack. She can inspire her cackling followers to new heights of mayhem and savagery.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 13,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Perception": 2,
+			"Survival": 1
+		},
+		"abilities": [
+			"Darkvision", 
+			"Rampage",
+			{"name": "Incite Rampage", "description": "Once per turn, as a maneuver, a gnoll pack lord can compel an allied gnoll within Short range to make a melee attack against an engaged opponent"}],
+		"weapons": [
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Goblin",
+		"type": "Minion",
+		"description": "Weak but cunning, goblins value strength in numbers above all else (except living to fight another day).",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [2,1]
+		},
+		"skills": ["Athletics","Melee: Light","Ranged","Stealth","Survival"],
+		"abilities": [
+			{"name": "Silhouette 0, Discretion", "description": "a goblin may disengage as an incidental rather than a maneuver"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 1,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			},
+			{
+				"name": "Short Bow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Inaccurate 1"]
+			}
+		],		
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Goblin Boss",
+		"type": "Rival",
+		"description": "Goblin bosses are crafty survivors who know when to run off and leave their comrades to die valiantly.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Melee: Light": 2,
+			"Ranged": 2,
+			"Stealth": 2,
+			"Survival": 1
+		},
+		"abilities": ["Silhouette 0", 
+			{"name": "Discretion", "description": "a goblin boss may disengage as an incidental rather than a maneuver"}, 
+			{"name": "Die For Me!", "description": "if struck by an attack, a goblin boss may spend 2 Setback to cause an unengaged goblin within Short range to be hit by the attack instead"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 2,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			},
+			{
+				"name": "Short Bow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Kobold Warrior",
+		"type": "Minion",
+		"description": "These humanoid canines love gems and precious metals, and are frequently found in abandoned mines, though a tribe will occasionally assault and occupy a working mine. They are especially hated by dwarves.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [2,1]
+		},
+		"skills": ["Athletics","Brawl","Melee: Light","Perception","Vigilance"],
+		"abilities": ["Pack Instincts"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Kobold Spearman",
+		"type": "Minion",
+		"description": "Kobolds dislike complex weapons, and avoid bows and crossbows. Spearmen are capable of hurling javelins with great accuracy. They usually carry enough light spears or javelins to last an entire encounter.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Melee: Light","Perception","Ranged","Stealth"],
+		"abilities": [
+			"Pack Instincts"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Light Spears",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Defensive 1","Accurate 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Kobold Shaman",
+		"type": "Rival",
+		"description": "These kobolds have learned the rudiments of Divine magic, and use their powers to protect, heal, and strengthen their tribe. Kobolds usually worship Hurnos, but some more savage tribes may serve Nerukk.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Divine": 2,
+			"Knowledge: Lore": 2,
+			"Melee: Heavy": 2,
+			"Perception": 2
+		},
+		"abilities": [
+			"Pack Instincts", 
+			{"name": "Strength of the Pack", "description": "a kobold shaman is immune to fear or Coercion while any allied kobolds are in line of sight"},
+			{"name": "Spiteful Curse", "description": "Add :boost::boost: to magic actions that target a character who has previously inflicted wounds on the kobold shaman during this encounter"},
+            {
+                "name": "Spells",
+                "description": "Kobold shamans can choose any magic action allowed for the Divine skill, and may select additional spell effects as normal. The spells they use most often are the following: Agonizing Hex [choose a target at short or medium range for this attack and make an Average Divine check. If successful, this magic attack inflicts 6 damage +1 damage per success, with the Disorient 2 and Knockdown qualities]; Bad Luck [choose a target at short or medium range and make a Hard Divine check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the kobold shamans’s next turn, and when the target makes a check, may change one Setback die to a face displaying Failure. The kobold shaman may maintain these effects by performing the concentrate maneuver); Restore the Pack [choose an allied target at short or medium range and make an Average Divine check. The target and one other allied target within range are healed for one wound per success, and remove a status effect from which they are suffering. Advantage can be also be spent to affect additional targets, one target per Advantage]"
+            }],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Staff",
+				"skill": "Melee: Heavy",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			}
+		],
+		"gear": ["Kobold fetish (Implement; the kobold shaman may add the Additional Target quality and the first Range effect to an attack spell without increasing the difficulty)", "Bone robed armound (+1 soak, +1 defense)"],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Kobold Alpha",
+		"type": "Rival",
+		"description": "These burly kobolds dominate their packs through strength and ferocity. They will never back down from a fight if any packmates are still fighting.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			"Pack Instincts", 
+			{"name": "Strength of the Pack", "description": "a kobold alpha is immune to fear or Coercion while any allied kobolds are in line of sight"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Greater Kobold",
+		"type": "Nemesis",
+		"description": "Greater kobolds tower over their kin, and dominate the tribes in which they dwell. Most tribes rarely have more than two or three greater kobolds, as these powerful creatures chafe at any perceived threat to their supremacy.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [3,3]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Leadership": 3,
+			"Melee: Light": 3,
+			"Perception": 3,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Pack Instincts", 
+			{"name": "Leader of the Pack", "description": "a greater kobold is immune to fear or Coercion"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 1"]
+			},
+			{
+				"name": "Huge Sword",
+				"skill": "Melee: Light",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 1"]
+			},
+			{
+				"name": "Bulwark Shield",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2","Deflection 3","Inaccurate 2","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Tae Ew Sauran",
+		"type": "Minion",
+		"description": "Bloodthirsty and violent, Tae Ew Sauran will aggressively defend their territory from intruders, and will hunt human prey as readily as animal.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6,
+			"defence": [2,1]
+		},
+		"skills": ["Athletics","Melee: Light","Ranged","Stealth","Survival"],
+		"abilities": [
+			{"name": "Amphibious", "description": "a Tae Ew Sauran may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			},
+			{
+				"name": "Thrown Spear",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Pierce 1","Limited Ammo 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Tae Ew Sauran Shaman",
+		"type": "Rival",
+		"description": "A Tae Ew Sauran shaman guides its tribe to new hunting grounds, and grants them strength in battle. They are formidable opponents.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Melee: Light": 2,
+			"Ranged": 1,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"abilities": [
+			{"name": "Amphibious", "description": "a Tae Ew Sauran shaman may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}, 
+			{"name": "Battle Strength", "description": "as a maneuver, a Tae Ew Sauran shaman may spend a Story Point to grant itself or an allied Tae Ew Sauran within Short range +3 damage on its next attack"}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			},
+			{
+				"name": "Thrown Spear",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Pierce 1","Limited Ammo 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Ratten",
+		"type": "Minion",
+		"description": "Cunning and furtive, Ratten frequently dwell in the shadows and sewers of greater civilizations, plotting murder and domination.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [2,1]
+		},
+		"skills": ["Athletics","Brawl","Melee: Light","Skulduggery","Stealth"],
+		"abilities": [
+			"Ambusher",
+			{"name": "Rat Fever", "description": "a target wounded by a Ratten's bite must make a Hard Resilence check. On a failure, their Brawn characteristic is reduced by one, and they are disoriented. This effect lasts until they receive treatment, either an Average Medicine check, or magical Restoration"}],
+		"weapons": [
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 1,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Ratten Shadeblade",
+		"type": "Rival",
+		"description": "While not exactly leaders, shadeblades are valued, and feared, members of Ratten warpacks. Their scythe-like blades have brought down many unwary foes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Melee: Light": 2,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"abilities": [
+			"Ambusher",
+			{"name": "Backstabber", "description": "on a successful melee attack, a Ratten shadeblade may spend a Story Point to add +3 damage to one hit"}, 
+			{"name": "Dual Wielder", "description": "a Ratten shadeblade decreases the difficulty of the next combined combat check it makes during the same turn by one"}, 
+			{"name": "Rat Fever", "description": "a target wounded by a Ratten shadeblade's bite must make a Hard Resilence check. On a failure, their Brawn characteristic is reduced by one, and they are disoriented. This effect lasts until they receive treatment, either an Average Medicine check, or magical Restoration"}],
+		"weapons": [
+			{
+				"name": "Scythe Blades",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Sea Devil",
+		"type": "Minion",
+		"description": "These monstrous marine marauders are greatly feared by sailors and coastal communities. They dislike bright light, and prefer to attack their surface targets during the dark of the new moon.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Coercion","Melee: Light","Ranged","Stealth"],
+		"abilities": ["Amphibious"],
+		"weapons": [
+			{
+				"name": "Trident",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Vicious 1"]
+			},
+			{
+				"name": "Weighted Net",
+				"skill": "Ranged",
+				"damage": 0,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 4","Disorient 4. Limited Ammo 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Sea Devil Myrmidon",
+		"type": "Rival",
+		"description": "Most who see a sea devil myrmidon flee at once. Their hulking, four-armed, hammerheaded forms mean death has arrived.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Melee: Light": 3,
+			"Melee: Heavy": 3,
+			"Ranged": 1,
+			"Stealth": 2
+		},
+		"abilities": [
+			{"name": "Amphibious", "description": "a sea devil may breathe underwater without penalty, and never suffers movement penalties for moving through water"}, 
+			{"name": "Blood in the Water", "description": "a sea devil myrmidon gains +2 damage against any target that has suffered one or more Wounds"}, 
+			{"name": "Multiattack", "description": "A sea devil myrmidon does not increase the difficulty of combined checks to attack with all of its weapons, and may spend 2 Advantage or Triumph to hit with each additional weapon"}],
+		"weapons": [
+			{
+				"name": "Great Trident",
+				"skill": "Melee (Heavy)",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Pierce 1","Vicious 2"]
+			},
+			{
+				"name": "Weighted Net",
+				"skill": "Ranged",
+				"damage": 0,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 4","Disorient 4","Limited Ammo 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Troglodyte",
+		"type": "Minion",
+		"description": "These sly, degenerate subterranean reptilians are hated for their sadistic ways and their unbearable stench.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 7,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Stealth","Survival"],
+		"abilities": [
+			"Nightvision", 
+			{"name": "Nauseating Stench", "description": "any character that begins their turn engaged with a troglodyte must make a Hard Resilence check. On a success, they are disoriented for one round. On a failure, they are staggered for one round. A Triumph on this check means they do not have to make the check again during this encounter"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Grasping Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Troglodyte Berserker",
+		"type": "Rival",
+		"description": "Slow-witted but incredibly savage, troglodyte berserkers are kept pacified with strange mushrooms and cave moulds until they are needed for battle.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3,
+			"Stealth": 1,
+			"Survival": 2
+		},
+		"abilities": [
+			"Nightvision", 
+			{"name": "Nauseating Stench", "description": "any character that begins their turn engaged with a troglodyte berserker must make a Hard Resilence check. On a success, they are disoriented for one round. On a failure, they are staggered for one round. A Triumph on this check means they do not have to make the check again during this encounter"}, 
+			{"name": "Furious", "description": "a troglodye berserker is immune to fear or Coercion"}, 
+			{"name": "Berserker", "description": "when a troglodyte berserker suffers one or more wounds, it deals +1 damage with all attacks. If it suffers a Critically Injury, it deals +2 damage with all attacks"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Grasping Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Ensnare 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Ghast",
+		"type": "Rival",
+		"description": "These wicked undead are often found leading packs of ghouls, turning a band of savages into a fearsome threat.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Stealth": 2
+		},
+		"abilities": [
+			"Death Sight",
+			"Undead", 
+			{"name": "Stench", "description": "any character that begins their turn engaged with a ghast must make an Average Resilience check. On a success, they are disoriented for one round. On a failure, they are staggered for one round. A Triumph on this check means they do not have to make the check again during this encounter"}, 
+			{"name": "Defiant Undead", "description": "increase the difficulty of any Divine check made against a ghast by one"}, 
+			"Paralyzing Touch"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Filthy Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Special"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Ghoul",
+		"type": "Minion",
+		"description": "Ferocious and nearly mindless, ghouls hunger for the flesh of the dead. When they can't find dead flesh to devour, they find living flesh and make it dead as quickly as possible.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl"],
+		"abilities": [
+			"Death Sight",
+			"Undead", 
+			"Paralyzing Touch"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Filthy Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Special"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Hullathoin",
+		"type": "Apex Nemesis",
+		"description": "A hullathoin is among the most powerful and destructive of all undead. It resembles a gargantuan quadrupedal reptile with a vaguely crocodilian head. It has a mottled, rotting grey and black hide, and is covered in leaking, pustulent sores. Two long, barbed tentacles extend from its shoulders. A hullathoin is usually surrounded by a cloud of bloodfiend stirges, and accompanied by packs of vampire spawn, zombies, ghouls, and other undead. Despite its bestial appearance, a hullathoin is highly Intellect, and will coordinate the attacks of its minions to its greatest advantage.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 50,
+			"strain": 40,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Leadership": 3,
+			"Ranged": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 4", 
+			"Death Sight", 
+			"Undead", 
+			"Terrifying 4", 
+			{"name": "Colossal", "description": "If a hullathoin suffers a Critical Injury, subtract -30 from the Critical Injury result"}, 
+			{"name": "Command Undead", "description": "a hullathoin can direct the actions of any undead with a Willpower lower than 3 within Long range as an out-of-turn incidental"}, 
+			{"name": "Expel Stirges", "description": "as a maneuver, a hullathoin may spend a Story Point to expel a stirge swarm from its body. The swarm appears at engaged range of the hullathoin, and can act immediately. The stirges will attack any living targets engaged with the hullathoin, or move to the nearest living targets"}, 
+			"Multiattack",
+			{"name": "Pus Explosion", "description": "once per encounter as an action, a hullathoin may convulse its body, spewing its toxic pus in all directions. This affects all living targets within Short range. Affected targets must make a Daunting Resilience check or suffer four wounds and be staggered until the end of their next turn. Targets who succeed at their check suffer two wounds and are disoriented until the end of their next turn. A Despair result means the target takes damage again on their next turn, and the effects are extended by one turn"}, 
+			{"name": "Toxic Tentacles", "description": "targets wounded by a hullathoin's tentacles must make a Hard Resilience check as an out-of-turn incidental or suffer four additional wounds from its venom. If the check generates Despair, they must check again on their next turn. If a hullathoin Ensnares a target with its tentacle attack, it can drag the target one range band closer to it [to a minimum range of engaged] as an incidental"}],
+		"weapons": [
+			{
+				"name": "Crushing Bite",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 4"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown","Vicious 3"]
+			},
+			{
+				"name": "Toxic Tentacles",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Ensnare 3","Linked 1","Special"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Mummified Jackal",
+		"type": "Minion",
+		"description": "These creatures are often found guarding tombs and sacred sites, as vigilant and relentless in death as they were in life.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Resilience","Vigilance"],
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			"Embalmed Toughness", 
+			{"name": "Pack Tactics", "description": "when using the assist maneuver, wolves add 2 Boost instead of 1"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Mummy",
+		"type": "Rival",
+		"description": "Mummies are preserved corpses reanimated to serve as guardians. While slow moving, they are immensely tough and strong. They are especially feared for the terrible wasting curse they can inflict on defilers of their tombs.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Melee: Light": 3,
+			"Resilience": 3,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			{"name": "Slow Moving", "description": "a mummy can spend no more than one maneuver per turn to move"}, 
+			"Embalmed Toughness",
+			{"name": "Mummy’s Curse", "description": "a living creature struck by a mummy’s fist attack must make a Hard Resilience check. If they fail, they are afflicted with the mummy’s curse: reduce their wound and strain thresholds by 4, and subtract one from all ability checks. They must repeat this check each day [with the same result for failure] until they succeed, or are Incapacitated (at which point they die and turn to dust"}],
+		"weapons": [
+			{
+				"name": "Fist",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Necromantic Swarm",
+		"type": "Rival",
+		"description": "A necromantic swarm consists of innumerable dismembered body parts, including hands, feet, arms, legs, and heads. Necromancers with particularly horrid senses of humour occasionally animate necromantic swarms to protect their lairs (or simply out of boredom and a surplus of spare parts).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 32,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Death Sight", 
+			"Undead", 
+			"Terrifying 3", 
+			{"name": "Teeming Threat", "description": "as a maneuver, a swarm may engage all living targets within Short range, and take an attack action against each target"}, 
+			{"name": "Swarm", "description": "halve the damage dealt to the swarm before applying soak, unless the weapon has the Blast or Burn quality [regardless of whether the quality is activated]"}, 
+			{"name": "Show of Hands", "description": "enemies who are Engaged with a necromantic swarm at the start of their turn must make a Hard Resilience check as an incidental or suffer 4 wounds"}],
+		"weapons": [
+			{
+				"name": "Body Parts",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Reanimated Hand",
+		"type": "Rival",
+		"description": "A reanimated hand is a combination of alchemy and necromancy. The creature appears as a severed hand, but monstrously huge, with a toothy maw in its palm. It moves about by walking on its fingers, and pounces upon victims to crush them in its grip while savaging them with its bite. They are often found in the lairs of evil wizards or powerful undead.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			{"name": "Magic Resistance", "description": "a reanimated hand upgrades the difficulty of any magic skill check targeting it by one"}, 
+			{"name": "Flying Punch", "description": "a reanimated hand may ball into a fist and launch itself at an enemy. If it hits, it becomes Engaged with that enemy as an incidental"}, 
+			{"name": "Death Grip", "description": "if a reanimated hand Ensnares a target with its Smack attack, it grips the target tightly and begins to squeeze, while ferociously biting at the same time. The target suffers 4 additional wounds, and is immobilized. The target suffers another 4 wounds each turn that the hand continues its Death Grip. Either the target (or an ally"}],
+		"weapons": [
+			{
+				"name": "Punch",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Disorient 3","Knockdown"]
+			},
+			{
+				"name": "Smack",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Skeleton",
+		"type": "Minion",
+		"description": "The most common form of undead, animated skeletons are found in crypts, tombs, dungeons, and anywhere that necromancers are active. They are silent, tenacious, and dangerous in large numbers.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1,1]
+		},
+		"skills": ["Melee: Light","Perception","Ranged","Resilience","Vigilance"],
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			{"name": "Undying", "description": "may spend 3 Setback from any check made by a PC to return one previously defeated skeleton to an existing minion group, removing damage from the group accordingly. Spend Despair to return two skeletons to a minion group"}],
+		"weapons": [
+			{
+				"name": "Rusted blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "worn bow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Skeleton Mage",
+		"type": "Rival",
+		"description": "Skeleton mages are undead created from fallen spellcasters. They still retain much of their former magical power, and are clever, deadly foes.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Cool": 2,
+			"Knowledge: Lore": 3,
+			"Perception": 2
+		},
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			{"name": "Enervating Curse", "description": "A skeleton mage may make a Hard Arcana check against a target, if successful, the target reduces its Ability for all checks by one until the end of its next turn. In addition, if the target suffers strain for any reason, they suffer 1 additional strain"}, 
+			{"name": "Ghostly Barrier", "description": "A skeleton mage is surrounded by a misty barrier that increases Defense by one and adds +1 Soak"}],
+		"weapons": [
+			{
+				"name": "Ice Spear",
+				"skill": "Arcana",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Ensnare 3","Vicious 3"]
+			},
+			{
+				"name": "Icy Blast",
+				"skill": "Arcana",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Blast 3","Ensnare 3 Staff (+4 to magic attacks"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Skeleton Warrior",
+		"type": "Rival",
+		"description": "Some skeletons are imbued with greater necromantic power, or contain some vestige of the warrior from whom they were created. These skeleton warriors are often found leading other skeletons, and are formidable opponents.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [3,2]
+		},
+		"skills": {
+			"Melee: Light": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Resilience": 2,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Death Sight", 
+			"Undead", 
+			{ "name": "Skeleton Commander", "description": "Any skeleton minion groups within Medium range of a skeleton warrior gain +2 damage."}],
+		"weapons": [
+			{
+				"name": "Steel blade",
+				"skill": "Melee (Light)",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "longbow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": [""]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee (Light)",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Viscid Cube",
+		"type": "Rival",
+		"description": "Viscid cubes slide through dungeon halls, devouring all organic matter they encounter. Many times adventurers do not notice the cube until it is too late.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Cool": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2", "Slime", "Wall Crawler", 
+			{"name": "Transparent", "description": "Even when the cube is in plain sight, it takes a :hard: Vigilance check to spot a cube that has neither moved nor attacked. A creature that tries to enter the cube's space while unaware of the cube is automatically engulfed."}, 
+			{
+				"name": "Engulf",
+				"description": "A viscid cube's primary method of attack is brutally simple: it engulfs and dissolves its victims. A cube may use its action to attempt to engulf a target it is Engaged with. The target must make a :hard: Coordination check to avoid being engulfed. If the target succeeds, they remain at Engaged range of the cube. If the target is engulfed, it is pulled into the cube, where it is immobilized and begins to suffocate. At the beginning of its turn, the target suffers 3 wounds from the cube's acidic interior and 3 strain each round until it is freed, escapes, or is incapacitated. When the cube moves, the engulfed target moves with it. An engulfed creature can try to escape by taking an action to make a :hard: Athletics check. On a success, the creature escapes to Engaged range of the cube. A creature Engaged with the cube may attempt to pull an object or creature from within the cube. This is an opposed Athletics check against the cube. If successful, the selected object or creature is drawn out of the cube. Whether successful or not, the creature attempting the action suffers 3 wounds. A viscid cube can engulf up to 10 Silhouette 0 creatures, 4 Silhouette 1 creatures, or 1 Silhouette 2 creature."
+			}],
+		"weapons": [
+			{
+				"name": "Psuedopods",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Dreadgazer",
+		"type": "Apex Nemesis",
+		"description": "A dreadgazer is a malevolent spherical being 10' in diameter, armour plated, with a huge central eye over a drooling maw of sharp teeth. Ten smaller eyestalks emerge from its surface, peering angrily about in all directions. It moves by hovering silently through the air. Cruel, paranoid, and highly Intellect, the dreadgazer is one of the most terrifying enemies adventurers can face.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 30,
+            "strain": 25,
+			"defence": [1, 1]
+		},
+		"skills": {
+            "Arcana": 4,
+			"Brawl": 3,
+            "Cool": 3,
+			"Discipline": 3,
+			"Perception": 4,
+			"Resilience": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 2", "Terrifying 4", "Flyer", "Nightvision",
+            {
+                "name": "Anti-Magic Field",
+                "description": "As an incidental, the dreadgazer may aim its central eye at a target within Long range. That target, and anyone within Short range of that target, is unable to use magic skills, and magical properties of items become non-functional. The dreadgazer may not target foes affected by Anti-Magic Field with Eye Blast that turn"
+            },
+            {
+                "name": "0) Eye Blast",
+                "description": "As an action, the dreadgazer may attack with three of its eyestalks, selected at random from the abilities below [reroll any duplicates], against one to three targets within Long range. The dreadgazer suffers no penalty for targeting  creatures at Engaged range. Each attack is an average Arcana check."
+            },
+            {
+                "name": "1) Charm Ray",
+                "description": "The target takes no damage, but must make a Daunting Discipline check as an out-of-turn incidental. If it fails, it is controlled by the dreadgazer until the end of its next turn. The dreadgazer may choose the target's maneuvers and actions, but while affected, the target is disoriented."
+            },
+            {
+                "name": "2) Paralyzing Ray",
+                "description": "The target takes no damage, but must make a Daunting Resilence check as an out-of-turn incidental. If it fails, it is immobilized and staggered until the end of its next turn."
+            },
+            {
+                "name": "3) Fear Ray",
+                "description": "The target takes no damage, but must make a Daunting Discipline check as an out-of-turn incidental. If it fails, it must spend its next turn using all maneuvers and actions to flee away from the dreadgazer."
+            },
+            {
+                "name": "4) Slowing Ray",
+                "description": "The target takes no damage, but must make a Daunting Resilence check as an out-of-turn incidental. If it fails, on its next turn the target may only use one maneuver, cannot downgrade its action to a maneuver, and cannot change range bands. The target also suffers three Setback on any actions it takes."
+            },
+            {
+                "name": "5) Enervation Ray",
+                "description": "This attack deals 8 damage, with a Critical Rating of 4. The target must make a Daunting Resilence check as an out-of-turn incidental. If it fails, it suffers additional damage equal to half of its remaining Wounds, and suffers an equal amount of Strain."
+            },
+            {
+                "name": "6) Telekinetic Ray",
+                "description": "The target takes no damage, but is immobilized until the end of its next turn, and must make a Daunting Resilence check as an out-of-turn incidental. If it fails, it is moved one range band in a direction of the dreadgazer's choice. The dreadgazer may spend 3 Advantage or Triumph on the check to move the target an additional range band. It may do this more than once."
+            },
+            {
+                "name": "7) Sleep Ray",
+                "description": "The target takes no damage, but must make a Daunting Discipline check as an out-of-turn incidental. If it fails, it falls asleep for four rounds. The target is awakened early if it takes damage, or if another character engages it and takes an action to wake it."
+            },
+            {
+                "name": "8) Petrification Ray",
+                "description": "The target must make a Daunting Resilience check as an out-of-turn incidental. If it fails, it is immobilized and disoriented until the end of its next turn, when it may make another Daunting Resilience check as an out-of-turn incidental. If it succeeds, the effect ends. If the second check fails, the target is turned to stone and indefinitely Incapacitated. This may be dispelled by a successful Daunting Arcana check, or the character may be restored by a successful Daunting Heal check (using Divine or Primal)."
+            },
+            {
+                "name": "9) Disintegration Ray",
+                "description": "The target must make a Daunting Coordination check as an out-of-turn incidental. If it fails, the attack deals 16 damage with the Pierce 5 and Vicious 5 qualities, and a Critical Rating of 2. If this attack incapacitates the target, it is considered disintegrated into dust; no resurrection is possible. If the target is a Silhouette 2 or smaller non-magical object or creation of magical force, it is disintegrated. If the target is a Silhouette 3 or larger object or creation of magical force, this ray disintegrates a l0-foot sphere of it."
+            },
+            {
+                "name": "10) Death Ray",
+                "description": "The target must make a Daunting Coordination check as an out-of-turn incidental. If it fails, the attack deals 16 damage with the Breach 1 and Vicious 5 qualities, and a Critical Rating of 2. A living target that is Incapacitated by this attack dies immediately."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Toothy Jaws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Eye Blast",
+				"skill": "Arcana",
+				"damage": 8,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Special"]
+			}
+		],
+		"tags": ["Monster", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD", "Fantasy"]
+	},
+	{
+		"name": "Lich",
+		"type": "Apex Nemesis",
+		"description": "Liches are powerful, evil spellcasters who have conquered death. They typically appear as desiccated or skeletonized humans in ancient robes, bearing artifacts of great power, with coldly glowing eyes. These beings are extraordinarily Intellect, foresighted, and cruel: it is very hard to take a lich by surprise, and even harder to permanently destroy one. A lich’s soul is tied to a special item called a phylactery. This item is always carefully hidden. If a lich is destroyed, it gains a new body in seven days, appearing within 5 feet of the phylactery. If its phylactery is destroyed, a lich cannot reform, and is permanently destroyed",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 22,
+            "strain": 30,
+			"defence": [2, 2]
+		},
+		"skills": {
+            "Arcana": 5,
+			"Brawl": 3,
+			"Cool": 3,
+			"Coercion": 4,
+			"Discipline": 4,
+			"Knowledge: Lore": 5,
+			"Knowledge: Forbidden": 5,
+			"Leadership": 3,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Resilience": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2", "Signature Spell"],
+		"abilities": ["Undead", "Terrifying 4", "Death Sight", "Master Sorcerer",
+            {
+                "name": "Spell Turning",
+                "description": "When targeted by a magic skill check, a lich may spend a Story Point and suffer 4 strain as an out-of-turn incidental to cause the spell to target another character instead"
+            },
+            {
+                "name": "Spells",
+                "description": "A lich can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells a lich uses most often are the following: Disintegrate [choose a target at short or medium range for this attack and make a :hard: Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per :success:, with the Pierce 5, Vicious 5 and Sunder qualities, and a Critical Rating of 2]; Ice Storm (Signature Spell) [choose a target at short or medium range for this attack and make a Hard Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per Success, with the Blast 5, Ensnare 5, and Vicious 5 qualities, and a Critical Rating of 2. If the Blast quality is triggered, it affects all targets within short range of the target rather than engaged]; Arcane Barrier [make a Hard Arcana check; if successful, until the end of the lich’s next turn, reduce the damage of all hits against them by one, plus one for every Success, and the lich gains +5 defense (to a maximum of 4). The lich can maintain these effects with the concentrate maneuver]"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Icy Claw",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Stun 5"]
+			}
+		],
+		"gear": ["Diadem of Power (Implement; the lich may add the Deadly and Empowered qualities to an attack spell without increasing the difficulty. Add :advantage: to the result of any successful spell check)", "Archmagus Robes (+1 soak, +2 defense)"],
+		"tags": ["Undead", "True Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Beetle, Giant Bombardier",
+		"type": "Rival",
+		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. While most are similar in nature, these giant beetles are aggressive hunters, and are feared for their ability to spray a blast of super-heated caustic fluid when attacked.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Swift"],
+		"weapons": [
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "Caustic Blast",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 6", "Burn 3", "Concussive 1", "Slow-Firing 2"]
+			}
+		],
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Beetle, Giant Death",
+		"type": "Rival",
+		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. While most are similar in nature, these giant beetles are easily recognized by the “death's head” markings on their carapace, and are scavengers and carrion eaters, but will aggressively attack anything they consider a threat. Their huge mandibles are deadly.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Swift"],
+		"weapons": [
+			{
+				"name": "Scythe Mandibles",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2", "Vicious 2"]
+			}
+		],
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+	},
+	{
+		"name": "Beetle, Giant Fire",
+		"type": "Rival",
+		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. The luminous eyes of fire beetles continue to provide smokeless illumination for days after the beetle's demise. Hunting fire beetles is often a rite of passage for new delvers.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Swift"],
+		"weapons": [
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 2"]
+			}
+		],
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	}
 ]
