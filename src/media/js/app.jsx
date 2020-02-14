@@ -410,6 +410,8 @@ class App extends React.Component {
 					<p>This is a fork of Star Wars Adversaries, where most of the work was done. Want to support the future development of <em>Star Wars: Adversaries</em>?</p>
 					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
 					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
+					<h3>Credits for Adversaries</h3>
+					<p>Those with a Source of "Creature Catalogue" are designed by <a href="https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/">Direach</a> of the Fantasy Flight Games Genesys forum</p>
 				</div>
 			</div>
 			: null;
