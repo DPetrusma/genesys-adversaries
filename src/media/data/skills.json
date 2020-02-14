@@ -180,6 +180,11 @@
 		"type": "Magic"
 	},
 	{
+		"name": "Ranged",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
 		"name": "Ranged: Heavy",
 		"characteristic": "Agility",
 		"type": "Combat"

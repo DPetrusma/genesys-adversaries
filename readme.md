@@ -96,6 +96,7 @@ Main tasks:
 
 - CC Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
 - Spectre: Ability can raise more spectres
+- Instances of "Melee" fixed: CC Gorgul Demon claws changed to Brawl, CC Malithar Demon swords changed to Melee: Light and Tail lash changed to Brawl, CC Cyclops club changed to Melee: Light, CC Hill Giant club changed to Melee: Light, CC Fire Giant sword changed to Melee: Light, CC Frost Giant axe changed to Melee: Light
 
 ## TODO
 

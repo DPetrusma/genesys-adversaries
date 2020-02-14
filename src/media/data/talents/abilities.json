@@ -212,7 +212,7 @@
 		"description": "When incapacitated, daly­rakes make one out-of-turn Brawl attack against one opponent with whom they are engaged. This check gains :boost:."
 	},
 	{
-		"name": "Demon",
+		"name": "Demonic",
 		"description": "A demon is immune to poison and disease. A demon doubles its soak vs. non-magical attacks."
 	},
 	{
@@ -452,7 +452,7 @@
 		"description": "Thanks to their finely honed senses of sight and hearing, they gain :boost: on all Perception checks."
 	},
 	{
-		"name": "Leap",
+		"name": "Leap (Star Wars)",
 		"description": "Add :boost::boost: to all Athletics checks made to perform vertical or horizontal jumps."
 	},
 	{
@@ -513,7 +513,7 @@
 	},
 	{
 		"name": "Multiattack",
-		"description": "Does not need to increase the difficulty of combat checks to attack with two weapons."
+		"description": "Does not need to increase the difficulty of combined combat checks to attack with two weapons."
 	},
 	{
 		"name": "Natural Camouflage",
@@ -760,7 +760,7 @@
 		"description": "May perform a maneuver to direct one allied minion group within Medium range; the group may perform an immediate free maneuver or add :boost: to its next check."
 	},
 	{
-		"name": "Trained Mount",
+		"name": "Trained Mount (Star Wars)",
 		"description": "Add {ranks|boost} to a rider’s Survival checks while mounted."
 	},
 	{
@@ -784,7 +784,7 @@
 		"description": "Anyone hearing the howl of a wrix must make a :hard: Discipline check or become disoriented for one round plus one additional round for every :threat: generated; spend :despair: to stagger the target for one round."
 	},
 	{
-		"name": "Tunnelling",
+		"name": "Tunnelling (Star Wars)",
 		"description": "Using their powerful maws and their quick-acting acidic saliva, tunnel worms can move through solid stone as if it were difficult terrain."
 	},
 	{
@@ -868,7 +868,7 @@
 		"description": "A vampire that Ensnares its target with its Claws attack may spend 2 Advantage or Triumph to make a Bite attack against the target. If the bite attack is successful, the vampire heals damage equal to the damage inflicted after soak"
 	},
 	{
-		"name": "wall Crawler",
+		"name": "Wall Crawler",
 		"description": "May move along walls or ceilings without penalty"
 	},
 	{
@@ -890,5 +890,73 @@
 	{
 		"name": "Sweeping Attack",
 		"description": "Does not need to increase the difficulty of a combat check by 1 to use auto-fire"
+	},
+	{
+		"name": "Trained Mount",
+		"description": "Add {ranks|boost} to a rider’s Riding checks while mounted."
+	},
+	{
+		"name": "Sweep",
+		"description": "The creature can spend :advantage::advantage: on a successful Brawl check to hit an additional target that is Engaged with the first target"
+	},
+	{
+		"name": "Improved Multiattack",
+		"description": "A brachyuru does not increase the difficulty of combined checks to attack with its claws, hands, and bite, and may spend 1 Advantage or Triumph to hit with each additional weapon"
+	},
+	{
+		"name": "Destructive",
+		"description": "Add +20 to Critical injury rolls against opponents."
+	},
+	{
+		"name": "Construct",
+		"description": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins"
+	},
+	{
+		"name": "Impact Vulnerability",
+		"description": "Increase soak by 2 against slashing or piercing weapons, but hammers, maces, flails, or greataxes deal +2 damage per hit"
+	},
+	{
+		"name": "Fire Absorption",
+		"description": "Takes no damage for magical or non-magical fire. If attacked with fire, resolve the attack as normal, but this adversary heals a number of wounds equal to the damage dealt"
+	},
+	{
+		"name": "Swarm",
+		"description": "Halve the damage dealt to the swarm before applying soak, unless the weapon has the Blast or Burn quality [regardless of whether the quality is activated]"
+	},
+	{
+		"name": "Teeming Threat",
+		"description": "As a maneuver, a swarm may engage all living targets within Short range, and take an attack action against each target"
+	},
+	{
+		"name": "Darkvision",
+		"description": "When making skill checks, remove up to :setback::setback: due to darkness."
+	},
+	{
+		"name": "Hover",
+		"description": "This creature can hover."
+	},
+	{
+		"name": "Leap",
+		"description": "As a maneuver, may engage a target on the ground from any point within Medium range"
+	},
+	{
+		"name": "Voracious",
+		"description": "Enemies who are Engaged with this swarm at the start of their turn must make a :hard: Resilience check as an incidental or suffer 4 wounds"
+	},
+	{
+		"name": "Tunneling",
+		"description": "Can burrow through the earth as normal movement, and can burrow through rocky earth as difficult terrain. Cannot burrow through solid stone."
+	},
+	{
+		"name": "Swoop Attack",
+		"description": "After making a Brawl combat check while flying, can move from engaged to short range of the target as an incidental."
+	},
+	{
+		"name": "Tremorsense",
+		"description": "As long as this adversary is in contact with the ground, it cannot be blinded or deafened, and is unaffected by light conditions"
+	},
+	{
+		"name": "Iceborn",
+		"description": "Does not suffer damage from natural cold or ice, and doubles soak for purposes of reducing damage from magical cold"
 	}
 ]

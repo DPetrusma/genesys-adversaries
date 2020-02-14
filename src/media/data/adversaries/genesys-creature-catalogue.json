@@ -27,7 +27,7 @@
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2"],
-		"abilities": ["Demon", "Terrifying 4", "Devastating", "Fireborn", "Magic Resistance 1",
+		"abilities": ["Demonic", "Terrifying 4", "Devastating", "Fireborn", "Magic Resistance 1",
             {
                 "name": "Fire and Shadow",
                 "description": "A valroth is surrounded by magical flames and shadows, granting it +1 Defense. For each ranged band farther than Engaged that an enemy is from a valroth, increase its Defense by 1"
@@ -595,10 +595,53 @@
 				"damage": 10,
 				"critical": 4,
 				"range": "Medium",
-				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow Firing 3"]
+				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow-Firing 3"]
 			}
 		],
 		"tags": ["Monster", "Wurm", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+	},
+		{
+		"name": "Bear",
+		"type": "Rival",
+		"description": "This profile can be used to represent any large bear, like a grizzly or polar bear (add cold immunity for polar bears).",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Resilience": 2
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Camel",
@@ -607,7 +650,7 @@
 		"characteristics": {
 			"Brawn": 3,
 			"Agility": 1,
-			"Intelligence": 1,
+			"Intellect": 1,
 			"Cunning": 1,
 			"Willpower": 2,
 			"Presence": 1
@@ -623,9 +666,9 @@
 			"Survival": 1
 		},
 		"abilities": ["Silhouette 2", 
-			{"name": "Trained Mount 1", "description": "add 1 Boost to a rider's Riding checks while mounted"}, 
+			"Trained Mount 1", 
 			{"name": "Sand Walker", "description": "remove 1 Setback from any checks made to traverse sandy or desert terrain"}, 
-			{"name": "Beast of Burden 5", "description": "add 5 to encumbrance threshold"}],
+			"Beast of Burden 5"],
 		"weapons": [
 			{
 				"name": "Hooves",
@@ -636,7 +679,293 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy","Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Crocodile",
+		"type": "Rival",
+		"description": "This profile can be used for any large crocodilian creature (alligators, caimans).",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 1,
+			"Stealth": 2,
+			"Resilience": 1
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Elk",
+		"type": "Rival",
+		"description": "These large, powerful beasts dwell in remote forests. They prefer to avoid combat, but will fight fiercely if pressed.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Sure Footed", "description": "elk suffer no penalties when moving through difficult terrain"}],
+		"weapons": [
+			{
+				"name": "Antlers",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1"]
+			},
+			{
+				"name": "Hooves",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Horse",
+		"type": "Rival",
+		"description": "This profile represents a typical work or riding horse.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1
+		},
+		"abilities": ["Silhouette 2", "Trained Mount 1"],
+		"weapons": [
+			{
+				"name": "Hooves",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Rhinoceros",
+		"type": "Rival",
+		"description": "Large, powerful, and easily angered, rhinoceroses are remarkable but dangerous animals.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 2,
+			"Survival": 2
+		},
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Goring Horn",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
+			},
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Disorient 3","Inaccurate 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Riding Elephant",
+		"type": "Rival",
+		"description": "A trained elephant makes for an impressive and dangerous mount.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 26,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Resilience": 2
+		},
+		"abilities": ["Silhouette 3", 
+			"Sweep", 
+			"Trample", 
+			"Trained Mount 1",
+			"Beast of Burden 15"],
+		"weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Concussive 1"]
+			},
+			{
+				"name": "Feet",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Tiger",
+		"type": "Rival",
+		"description": "This profile can be used for most great cats.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Cool": 3,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"abilities": [
+			{"name": "Fierce Pounce", "description": "if a tiger uses the aim maneuver, it gains the Knockdown quality on its next claw attack"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Warhorse",
+		"type": "Rival",
+		"description": "Bred and trained for military use, a warhorse is a powerful asset to any fighting force, and a reliable companion to a soldier or knight.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1
+		},
+		"abilities": ["Silhouette 2", "Trained Mount 2"],
+		"weapons": [
+			{
+				"name": "Trampling Hooves",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Wolf",
@@ -645,7 +974,7 @@
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
-			"Intelligence": 1,
+			"Intellect": 1,
 			"Cunning": 3,
 			"Willpower": 1,
 			"Presence": 1
@@ -668,6 +997,2517 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy","Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Wooly Mammoth",
+		"type": "Rival",
+		"description": "A powerful, heavily furred elephantine beast native to colder climates, mammoths are known for their massive tusks and irritable temperament.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 28,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Survival": 2,
+			"Resilience": 2
+		},
+		"abilities": ["Silhouette 3", 
+			"Sweep", 
+			"Trample", 
+			"Beast of Burden 18"],
+		"weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Concussive 1"]
+			},
+			{
+				"name": "Feet",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Lost Souls",
+		"type": "Minion",
+		"description": "The damned souls of those who have sold their souls to the infernal powers, these pitiful creatures are playthings and fodder to even lesser demons. They are often herded into battle for the amusement of their masters.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Resilience"],
+		"abilities": [
+			"Demonic", 
+			{"name": "Aura of Despair", "description": "any non-demonic creature Engaged with a troupe of lost souls increases the difficulty of any Willpower-based skill check they make by one"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Lesser Demon",
+		"type": "Minion",
+		"description": "While clumsy, slow, and stupid, lesser demons can still prove very dangerous in large numbers. As the least of the true demons, they are particularly vicious towards lost souls, and anyone else they can bully or torment. Though they can vary greatly in appearance, all lesser demons use the same stat block.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Resilience","Vigilance"],
+		"abilities": [
+			"Demonic", 
+			{"name": "Miasma", "description": "any non-demonic creature within Short range of lesser demons must make a Hard Resilience check at the start of their turn, or suffer 2 strain from their nauseating emissions"}, 
+			{"name": "Strength in Numbers", "description": "if there is more than one minion group of lesser demons within Short range of each other, all such groups gain +1 damage"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Hell Bat Swarm",
+		"type": "Rival",
+		"description": "ough they appear to be hideous bat-like beasts, these winged terrors are true demons. They wheel about in swarms over the battlefields where their greater kin fight, blinding foes and feeding on the fallen.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 30,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 3
+		},
+		"abilities": ["Silhouette 0, Flyer", 
+			"Demonic", 
+			{"name": "Teeming Threat", "description": "as a maneuver, a swarm may engage all living targets within Short range, and take an attack action against each target"}, 
+			{"name": "Swarm", "description": "halve the damage dealt to the swarm before applying soak, unless the weapon has the Blast or Burn quality [regardless of whether the quality is activated]"}, 
+			{"name": "Blinding Swarm", "description": "enemies who are Engaged with a hell bat swarm suffer 2 Setback on all checks"}],
+		"weapons": [
+			{
+				"name": "Piercing Bites",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","may spend 2 Advantage to inflict 2 additional wounds.",""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Barbakul Demon",
+		"type": "Rival",
+		"description": "Commonly called spined demons, these cunning creatures are exceptionally alert and stealthy, and often serve as the scouts and watchdogs of a demonic warhost. Barbakul are not as physically formidable as other demons, but their barbed hides and long piercing claws make them more than a match for most mortal foes.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 3,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Demonic", 
+			{"name": "Impalement", "description": "a barbakul may spend 3 Threat or Despair on a melee combat check targeting them to cause the attacker to suffer 4 wounds from its barbed spikes"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Linked 1"]
+			},
+			{
+				"name": "bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Narcarex Demon",
+		"type": "Rival",
+		"description": "When most races think of demons, these creatures are what come to mind. Narcarex, also called hellfire demons, are horned, winged, leering demons with red skin, cloven hooves, and long tails ending in a barbed tip. In battle, hellfire demons are wreathed in unholy flames, searing their enemies as they impale them with their vicious tridents.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Heavy": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Flyer", 
+			"Demonic", 
+			{"name": "Hellfire Aura", "description": "a creature that begins its turn in Engaged range with a narcarex suffers 2 wounds from the demon's blazing aura"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Demonic Trident",
+				"skill": "Melee (Heavy)",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Linked 2","Vicious 2"]
+			},
+			{
+				"name": "Tail Lash",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Pierce 1"]
+			},
+			{
+				"name": "Hurl Hellfire",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Burn 2","Blast 6"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Antenoran Demon",
+		"type": "Rival",
+		"description": "Not all the realms of Hell are fiery; some are frozen wastelands. Antenoran demons hail from these icy regions, and are as cold and merciless as their homelands. Resembling a monstrous cross between a praying mantis and a dinosaur, antenorans often command warbands of weaker demons, driving them into battle while brandishing their terrible frigid polearms.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 2,
+			"Leadership": 2,
+			"Melee: Heavy": 3,
+			"Resilience": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Demonic", 
+			"Iceborn", 
+			{"name": "Icy Barrier", "description": "an antenoran may spend a Story Point to summon a barrier of ice within Short range to separate its enemies, or to enclose them. This can take the form of a wall up to 60 feet long, 10 feet high, and a foot thick, or a hemispherical dome 20 feet in height. The wall can be breached with a Daunting Athletics check, or by dealing 10 or more points of damage in a single attack. The barrier is unnaturally frigid: non-demonic creatures in Engaged range of the barrier, or enclosed within it, suffer 3 wounds per turn from the brutal cold"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Frigid Polearm",
+				"skill": "Melee (Heavy)",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Ensnare 3","Pierce 3","Sunder"]
+			},
+			{
+				"name": "Spiked Tail",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Brachyuru Demon",
+		"type": "Rival",
+		"description": "These large, powerful demons revel in physical combat, and eagerly charge into battle against any foe. Brachyuru demons are massive, scaly humanoids with two sets of arms: one pair at the shoulders, ending in huge, crushing claws, and another pair emerging from their chest, with nimble, clawed fingers. Their heads resemble a hideous cross between a dog and a goat. Their legs end in savagely clawed feet. Every part of a brachyuru can, and is, used to attack.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Cool": 2,
+			"Resilience": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Demonic", 
+			{"name": "Fearless", "description": "a brachyuru is immune to Coercion and fear from any source"}, 
+			"Magic Resistance 1", 
+			{"name": "Power Word: Stun", "description": "as a maneuver, a brachyuru may spend a Story Point to target an enemy in Short range with a blasphemous word of power. The target must succeed at a Hard Discipline check or be staggered until the end of its next turn. If the target succeeds, it is immobilized instead. In either case, the target suffers 4 strain"}, 
+			"Improved Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Pierce 2","Sunder"]
+			},
+			{
+				"name": "Hands",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Linked 1","Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Gorgul Demon",
+		"type": "Nemesis",
+		"description": "These demons are grotesquely obese, flabby creatures with wide, bulging eyes, absurdly large ears, oversized mouths, and extremely long, thin arms. While their appearance is somewhat comical, gorgul demons are terrifying opponents. They use their long arms to snatch opponents and shove them into their gaping mouths, where they are swallowed whole. A gorgul's stomach is transparent, so the gorgul can watch its prey digesting in its corpulent belly. They take enormous joy in this, emitting a continuous high-pitched giggle while grabbing for their next victim.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 30,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Resilience": 4,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 3", 
+			"Demonic", 
+			"Magic Resistance 1", 
+			{"name": "Corpulent", "description": "If a gorgul suffers a Critical Injury, subtract -30 from the Critical Injury result"}, 
+			{"name": "Pest Control", "description": "a gorgul does not increase the difficulty of combat checks made against smaller targets"}, 
+			{"name": "Swallow Whole", "description": "if a gorgul Ensnares a target of Silhouette 2 or smaller with its claw attack, it may spend 3 Advantage or Triumph to swallow the target. While swallowed, the target is immobilized and begins to suffocate, and suffers 4 wounds at the start of its turn each round until it escapes or is Incapacitated. A target Incapacitated this way is digested and unrecoverable. A target may be freed by dealing at least 5 wounds to the gorgul with a bladed or piercing weapon in a single attack, allowing the target to escape the demon’s belly. A gorgul’s belly will reseal itself at the start of its turn. A gorgul can swallow up to two Silhouette 2 creatures, 8 Silhouette 1 creatures, or any number of Silhouette 0 creatures at one time. Anyone seeing a friend or ally trapped within the belly of a gorgul must make an Average fear check as an out-of-turn incidental"}, 
+			{"name": "Giggle Fit", "description": "while a gorgul has one or more targets swallowed, it emits a hideous, high-pitched giggling sound. All non-demonic creatures within Medium range must make a Hard Discipline check at the start of their turn as an incidental, or suffer 2 strain from the unnerving sound"}, 
+			{"name": "Ponderous", "description": "a gorgul can spend no more than one maneuver per turn to move"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1","Ensnare 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Malithar Demon",
+		"type": "Nemesis",
+		"description": "Beautiful and lethal are the two words that best describe malithar demons. They have the heads and torsos of exceedingly beautiful women, with six arms, and a long, powerful serpentine lower body. They wield a weapon in each of their hands, preferring swords. While they are highly effective in battle, malithar most often act as captains for demonic hosts, as lesser demons crave malithar approval and will follow their orders eagerly.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 26,
+			"strain": 18,
+			"defence": [4,2]
+		},
+		"skills": {
+			"Coordination": 3,
+			"Cool": 3,
+			"Leadership": 2,
+			"Melee: Light": 4,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Demonic", 
+			"Magic Resistance 1", 
+			"Multiattack", 
+			{"name": "Rain of Steel", "description": "a malithar has six limbs, and wields a weapon in each hand. A malithar does not increase the difficulty of its attacks to activate auto-fire, can activate auto-fire with 1 Advantage, and its initial target does not need to be the target with the highest difficulty and defense"}, 
+			{"name": "Constrict", "description": "if a malithar Ensnares a target with its tail, it may use a maneuver to constrict the target. While constricted, the target is immobilized, and suffers 3 wounds per round at the start of its turn. A malithar can maintain constriction by spending a maneuver each round to do so, but cannot use maneuvers to move while doing so, and cannot make tail attacks. A target may escape the constriction by succeeding at an opposed Athletics check"}],
+		"weapons": [
+			{
+				"name": "Demonic Swords",
+				"skill": "Melee: Light",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 2","Vicious 2","Auto-Fire"]
+			},
+			{
+				"name": "Tail Lash",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Cyclops",
+		"type": "Nemesis",
+		"description": "Cyclopes are colossal, one-eyed giants with a single large horn protruding from their foreheads. They live alone, often tending herds of aurochs or giant sheep, and are fiercely territorial. Cyclopes are not smart, but they are among the most powerful giantkin, and can quickly kill unprepared intruders.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 33,
+			"strain": 29,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Resilience": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 3", 
+			"Devastating", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Huge club",
+				"skill": "Melee: Light",
+				"damage": 12,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Inaccurate 1","Knockdown","Prepare 1",""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Hill Giant",
+		"type": "Nemesis",
+		"description": "Hill giants are the most loutish and stupid of the true giants. They are clumsy, voracious oafs that shamble about the land, eating everything they can find. They are particularly feared by farmers and settlers.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 28,
+			"strain": 22,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Ranged": 1
+		},
+		"abilities": ["Silhouette 3", 
+			"Destructive",
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Huge club",
+				"skill": "Melee: Light",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Inaccurate 1","Knockdown","Prepare 1"]
+			},
+			{
+				"name": "sack of boulders",
+				"skill": "Ranged",
+				"damage": 9,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Inaccurate 1","Blast 6","Concussive 1","Knockdown","Slow-Firing 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Fire Giant",
+		"type": "Nemesis",
+		"description": "Skilled craftsmen and brutal tyrants, fire giants are the most militaristic and organized of the giantkin. They prefer to live in volcanic regions, and are often accompanied by tamed hellhounds or salamanders.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 36,
+			"strain": 24,
+			"defence": [3,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Light": 3,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 3", 
+			"Destructive",
+			{"name": "Fireborn", "description": "a fire giant does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire"}, 
+			{"name": "Greatsword Sweep", "description": "on a successful Melee check, a fire giant can spend 2 Advantage per target to hit additional targets within Short range"}, 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Huge greatsword",
+				"skill": "Melee: Light",
+				"damage": 12,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Defensive 2","Pierce 2","Unwieldy 5"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Frost Giant",
+		"type": "Nemesis",
+		"description": "Savage raiders and merciless killers, frost giants terrorize the northern lands. They are often accompanied by trained winter wolves.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 30,
+			"strain": 24,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Resilience": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 3", 
+			"Destructive",
+			"Iceborn", 
+			{"name": "Berserk", "description": "A frost giant that suffers five or more wounds goes berserk, dealing +2 damage. If a frost giant suffers a Critical Injury, the bonus damage increases to +4 for the rest of the combat"}, 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Huge greataxe",
+				"skill": "Melee: Light",
+				"damage": 12,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 5"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Stone Giant",
+		"type": "Nemesis",
+		"description": "Stone giants dwell far from civilization on high mountains, in deep valleys, or in enormous cave systems. They are territorial, but generally will not attack unless provoked. They can throw boulders with extraordinary accuracy.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 32,
+			"strain": 26,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 3", 
+			"Devastating", 
+			{"name": "Stony Skin", "description": "If a stone giant suffers a Critical Injury, subtract -20 from the Critical Injury result"}, 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Stony fists",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Concussive 1","Disorient 4","Knockdown"]
+			},
+			{
+				"name": "Hurled Boulders",
+				"skill": "Ranged",
+				"damage": 12,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Blast 10","Concussive 1","Knockdown","Slow-Firing 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Bone Golem",
+		"type": "Nemesis",
+		"description": "Bone golems are horrid constructions created by necromancers. The bones of dozens or hundreds of creatures are fused together into a grotesque humanoid shape. While not the most powerful of their kind, bone golems are among the most frightening to encounter.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Construct", 
+			"Magic Resistance 1", 
+			{"name": "Terrifying", "description": "at the start of the encounter, all of their opponents must make a Hard fear check as an out-of-turn incidental. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy"}, 
+			{"name": "Impalement", "description": "a bone golem may spend 3 Threat or Despair on a melee combat check targeting them to cause the attacker to suffer 6 wounds from its bony spikes"}, 
+			"Impact Vulnerability"],
+		"weapons": [
+			{
+				"name": "Bone claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Knockdown"]
+			},
+			{
+				"name": "hurled bone spikes",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 1","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Brass Golem",
+		"type": "Nemesis",
+		"description": "these golems are forged from articulated enchanted brass, and filled with a superheated fluid. They often have animal heads, especially bull heads. Brass golems are often used as temple guardians.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 22,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee: Heavy": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Construct", 
+			"Magic Resistance 1", 
+			"Fire Absorption",
+			{"name": "Super-heated Spray", "description": "a brass golem may spend 3 Threat or Despair on a melee combat check targeting them to cause the attacker to suffer 6 wounds from its super-heated fluid"}, 
+			{"name": "Achilles' Heel", "description": "a brass golem has a valve somewhere on its body that, if opened, will release its super-heated animating fluid. This requires a Hard Perception check or a Daunting Vigilance check to notice. In order to open the valve, a character must be Engaged with the brass golem, and make a Daunting Skulduggery check. If they succeed, the fluid begins to rush out, and the brass golem suffers 4 wounds per round at the start of its turn until the valve is closed, or until it is defeated. The character that opens the valve will suffer 4 wounds from the fluid"}],
+		"weapons": [
+			{
+				"name": "Large Greataxe",
+				"skill": "Melee (Heavy)",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Flesh Golem",
+		"type": "Nemesis",
+		"description": "Another frequent creation of necromancers and mad alchemists, flesh golems are abhorrent amalgamations of various dead beings stitched together into a greater form. They are difficult to control, and frequently run amok.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Construct", 
+			"Magic Resistance 1", 
+			{"name": "Lightning Absorption", "description": "a flesh golem takes no damage for magical or non-magical fire. If attacked with lightning, resolve the attack as normal, but the flesh golem heals a number of wounds equal to the damage dealt"}, 
+			{"name": "Aversion to Fire", "description": "if a flesh golem is damaged by fire, it suffers 2 Setback on its next skill check"}, 
+			{"name": "Berserk", "description": "A flesh that suffers five or more wounds goes berserk, dealing +2 damage. If a flesh golem suffers a Critical Injury, the bonus damage increases to +4 for the rest of the combat"}, 
+			{"name": "Fists of Fury", "description": "a flesh golem does not increase the difficulty of combined checks to attack with both fists"}],
+		"weapons": [
+			{
+				"name": "Huge Fists",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Iron Golem",
+		"type": "Nemesis",
+		"description": "Among the most powerful of all golems, iron golems are usually created by archmages as guardians of their greatest treasures. These implacable creations are nearly impossible to stop.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 30,
+			"strain": 24,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Melee: Light": 3,
+			"Ranged": 3,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Construct", 
+			{"name": "Greater Magic Resistance", "description": "an iron golem upgrades the difficulty of any magic skill check targeting it by two. Any offensive spell targeting an iron golem that generates 3 Threat or Despair reflects back on the caster"}, 
+			"Fire Absorption", 
+			{"name": "Juggernaut", "description": "an iron golem is immune to immobilize, knockdown, forced movement, or any effect or condition that would inhibit its movement."}],
+		"weapons": [
+			{
+				"name": "Large Sword",
+				"skill": "Melee (Heavy)",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Accurate 1"]
+			},
+			{
+				"name": "Large Shield",
+				"skill": "Melee (Light)",
+				"damage": 6,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 2","Deflection 2","Knockdown"]
+			},
+			{
+				"name": "Poison Breath",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Stone Golem",
+		"type": "Nemesis",
+		"description": "These golems often take the form of humanoid stone statues, and can be difficult to detect when still. They are frequently constructed with multiple limbs, each wielding a weapon, and can attack relentlessly with all of them.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 18,
+			"defence": [4,0]
+		},
+		"skills": {
+			"Melee: Light": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Construct", 
+			"Magic Resistance 1", 
+			"Impact Vulnerability", 
+			{"name": "Multiple Limbs", "description": "a stone golem has four to six limbs, and wields a weapon in each hand. A stone golem does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"}],
+		"weapons": [
+			{
+				"name": "Swords",
+				"skill": "Melee (Light)",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 1","Auto-fire"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+		{
+		"name": "Basilisk",
+		"type": "Rival",
+		"description": "Basilisks are ponderous, eight-legged subterranean predators, well-known and feared for their petrifying gaze.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 3,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"abilities": [
+			"Nightvision", 
+			{"name": "Petrifying Gaze", "description": "as a maneuver, a basilisk can force a target within Medium range to meet its deadly gaze. The basilisk makes an opposed Perception vs. Discipline check. If the target has not yet acted this turn, downgrade the difficulty by one. If the check succeeds, the target is immobilized and disoriented until the end of its next turn, when it may make a Hard Resilience check as an incidental. If it succeeds, the effect ends. If it fails, the target is turned to stone and indefinitely Incapacitated. This may be dispelled by an ally with a successful Hard Arcana check, or the character may be restored by a successful Hard Heal check (using Divine or Primal"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Bat, Giant",
+		"type": "Rival",
+		"description": "These creatures are large and aggressive nocturnal predators. Giant bats are often found in caves and shadowy forests. They use their powerful sonic attacks to cripple and bring down prey from the air, then land to feast on their helpless victims.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Ranged": 2,
+			"Stealth": 3,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Blindsight", "description": "giant bats are unaffected by darkness penalties as long as they can hear"}, 
+			"Flyer"],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Sonic Shriek",
+				"skill": "Ranged",
+				"damage": 4,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Stun Damage","Stun 3","Slow-Firing 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Black Slime",
+		"type": "Rival",
+		"description": "Tireless, mindless, and eternally hungry, black slime is one of the most feared perils of the deep places of the world. The potent acid of its seething form dissolves everything but stone.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Abilities:", 
+			{"name": "Slime", "description": "a black slime is immune to blindness, deafness, any mind-affecting ability or skill, acid, or knockdown"}, 
+			{"name": "Amorphous", "description": "as an incidental, a black slime may increase or decrease its silhouette by 1"}, 
+			"Wall Crawler", 
+			{"name": "Flailing Pseudopods", "description": "A black slime does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"}, 
+			{"name": "Corrosive Form", "description": "any weapon or object not made of stone that strikes a black slime is immediately damaged by one step. Any creature not made of stone that succeeds in a Brawl attack against a black slime suffers 6 damage. Any armour made of metal, wood, or leather that is struck by a black slime is immediately damaged by one step (in addition to its pseudopod's Sunder quality"}],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Auto-fire","Burn 2","Sunder"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Cave Fisher",
+		"type": "Rival",
+		"description": "ese subterranean arachnids resemble large, flat, stone-coloured scorpions with eight legs and two large, shearing claws. They lurk in elevated places in caves and caverns, dangling transparent filaments to ensnare prey. When a living creature blunders into a filament, it is quickly reeled up to the cave fisher to be dismembered and devoured.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Dark Vision", "description": "a cave fisher suffers no Perception penalties even in complete darkness"}, 
+			"Wall Crawler", 
+			{"name": "Anchored", "description": "a cave fisher may use a maneuver to anchor itself. While anchored, it is immune to forced movement and knockdown. It can anchor itself to a floor, wall, or ceiling. It cannot take maneuvers to move while anchored. It may cease being anchored as an incidental"}, 
+			{"name": "Filaments", "description": "A cave fisher extrudes a long, transparent, highly adhesive filament to capture prey. It requires a Hard Vigilance check to notice a cave fisher filament. A target that touches the filament is automatically ensnared. A cave fisher may also shoot its filament out to capture prey, though this is not its preferred method of attack. A filament can be escaped with a Hard Athletics check, or severed by dealing 5 wounds to it [Soak 3]. Severing a filament does not injure a cave fisher. A cave fisher can extrude a replacement filament on its turn as a maneuver"}, 
+			{"name": "Reel", "description": "if a cave fisher Ensnares a target with a filament, it may use a maneuver to drag the target to itself"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Pierce 1"]
+			},
+			{
+				"name": "Filaments",
+				"skill": "Ranged",
+				"damage": 0,
+				"critical": 6,
+				"range": "Medium",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Chimera",
+		"type": "Nemesis",
+		"description": "Chimeras are horrible magical hybrid beasts with the hindquarters of a giant goat, the forequarters of a lion, the tail and wings of a dragon, and the heads of all three creatures. They are cruel predators who revel in violence, and will attack anything they perceive to be prey or a rival (i.e. virtually anything).",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"strain": 19,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2,
+			"Stealth": 3
+		},
+		"abilities": ["Flyer", "Silhouette 2", "Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws and Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			},
+			{
+				"name": "Fire Breath",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Coeurl",
+		"type": "Rival",
+		"description": "This creature resembles a huge, six-legged black panther, with two long, spiked tentacles protruding from its shoulders, and terrible glowing eyes. Also known as the “black destroyer”, the coeurl magically displaces light, appearing to be several feet away from its actual position... which is usually closer than you think.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Coordination": 2,
+			"Perception": 3,
+			"Stealth": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Nightvision", 
+			{"name": "Displacement", "description": "while it is not incapacitated or staggered, a coeurl gains 4 dice of concealment from its displacement ability. When an enemy takes a maneuver to engage a coeurl, it must succeed at a Hard Perception check as an incidental; if it fails, it engages the coeurl's displaced form rather than the creature itself"}, 
+			{"name": "Agile", "description": "a coeurl can perform a second maneuver to move without suffering strain. It still cannot exceed the limit of two maneuvers in a turn"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare 2","Linked 1"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Eagle, Giant",
+		"type": "Rival",
+		"description": "This profile can be used for any very large, predatory avian creature.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 4,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Flyer", 
+			"Swoop Attack"],
+		"weapons": [
+			{
+				"name": "Razor Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Pierce 2","Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Ettin",
+		"type": "Nemesis",
+		"description": "These powerful two-headed giants are foul-smelling and bad-tempered. Thankfully, they prize solitude, and typically dwell far away from civilization. They are very difficult to surprise, and too aggressive to outwit.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 24,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Melee: Light": 2,
+			"Perception": 3,
+			"Resilience": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Two Heads", "description": "an ettin may take a second maneuver each turn for free, but may take no more than two maneuvers total"}, 
+			{"name": "Better Than One", "description": "any effect that blinds, charms, disorients, knocks out, or staggers an ettin requires two additional Advantage to affect an ettin, even if the effect is normally automatic"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Huge Axe",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Huge Morningstar",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Sunder"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Gargoyle",
+		"type": "Rival",
+		"description": "These creatures are evil earth elementals that dwell on the Material Plane. They can pose as grotesque statues for long periods of time, even years or decades, until they decide to attack. By folding their wings over themselves, they can also disguise themselves as rocks, boulders, or stone outcroppings.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Flyer", 
+			{"name": "False Appearance", "description": "while a gargoyle remains motionless, it is virtually indistinguishable from a stone statue or natural stone, depending on how it has concealed itself. It takes a Formidable Perception check to identify a stationary gargoyle"}, 
+			{"name": "Rake", "description": "if a gargoyle attacks on the same turn in which it engages a target, its claw attack gains the Linked 1 quality against that target"}, 
+			"Swoop Attack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Griffon",
+		"type": "Rival",
+		"description": "Griffons are powerful predators, as adept at fighting on the ground as in the air.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Flyer", 
+			"Swoop Attack"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Wing Buffet",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 3","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Griffon, Owl",
+		"type": "Nemesis",
+		"description": "Owl griffons are larger and more deadly examples of their kind, easily recognized by their owl heads, wings, and talons. They prefer to hunt at night, and are nearly silent until they attack.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"strain": 16,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 3,
+			"Coordination": 2,
+			"Perception": 3,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Nightvision", 
+			"Flyer", 
+			{"name": "Silent Strike", "description": "an owl griffon that succeeds at an opposed Stealth vs Vigilance check may add any Advantage gained from the check as both successes on Initiative and as bonus damage on its first attack"}, 
+			"Swoop Attack"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Linked 1"]
+			},
+			{
+				"name": "Wing Buffet",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Stun 3","Knockdown"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Hellhound",
+		"type": "Minion",
+		"description": "Hellhounds are hulking canines that resemble mastiffs with fiery glowing eyes, and flames licking along their black coats. They are often kept as pets and guard dogs by fire giants.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Perception","Ranged"],
+		"abilities": [
+			"Pack Instincts", 
+			{"name": "Fireborn", "description": "a hellhound does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Hydra",
+		"type": "Nemesis",
+		"description": "A hydra is a massive reptilian predator, with a powerful sauropod-like body, and five shark-like heads on long, serpentine necks. They are renowned, and feared, for their ability to regrow their severed heads. Hydras are endlessly voracious, and will gladly feed on any living (or dead) creature they can catch. They are also extremely difficult to surprise, thanks to their multiple heads.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 40,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 3,
+			"Resilience": 2,
+			"Vigilance": 4
+		},
+		"abilities": ["Silhouette 4", 
+			{"name": "Amphibious", "description": "a hydra may remain submerged for up to one hour, and suffers no movement penalties in water"}, 
+			{"name": "Terrifying", "description": "at the start of the encounter, all of their opponents must make a Hard fear check as an out-of-turn incidental. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy"}, 
+			{"name": "Colossal", "description": "If a hydra suffers a Critical Injury, subtract -20 from the Critical Injury result"}, 
+			{"name": "Pest Control", "description": "a hydra does not increase the difficulty of combat checks made against smaller targets"}, 
+			{"name": "Regeneration", "description": "a hydra regenerates 8 wounds at the end of its turn. If the hydra suffered damage from fire or acid since its last turn, reduce the regeneration to four wounds"}, 
+			{"name": "Many Heads", "description": "A hydra attacks with its many heads, biting any targets within reach. A hydra does not increase the difficulty of the combat check, to use auto-fire, and only requires 1 Advantage to activate auto-fire, but it cannot assign more than three hits to a single target each round. Triumph is treated as 2 Advantage for the purposes of activating auto-fire"}, 
+			{"name": "Tail Sweep", "description": "once per round, a hydra may spend 3 Threat or Despair generated by an opponent's melee attack check to automatically hit the opponent with a tail sweep attack for base damage"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": [""]
+			},
+			{
+				"name": "Tail Sweep",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Short",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Landshark",
+		"type": "Rival",
+		"description": "The landshark, or bulette, is supposedly the result of sorcerous crossbreeding. It is a voracious, nomadic predator that greedily devours anything it can catch.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Perception": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Tremorsense", 
+			"Tunneling", 
+			"Leap", 
+			{"name": "Erupt", "description": "while tunneling, the landshark may use its Ground Burst attack against a target within Short range"}],
+		"weapons": [
+			{
+				"name": "Shearing Bite",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Ground Burst",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Blast 6","Concussive 1","Knockdown","Prepare 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Landshark, Ancient",
+		"type": "Nemesis",
+		"description": "Landsharks never stop growing, even as adults, though they do so much more slowly. An ancient landshark is a truly terrible monster, as insatiable as it is unstoppable.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 30,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Perception": 3,
+			"Resilience": 2,
+			"Vigilance": 3
+		},
+		"abilities": ["Silhouette 3", 
+			"Tremorsense", 
+			"Tunneling", 
+			"Leap", 
+			{"name": "Erupt", "description": "while tunneling, an ancient landshark may use its Ground Burst attack against a target within Short range"}],
+		"weapons": [
+			{
+				"name": "Shearing Bite",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 4"]
+			},
+			{
+				"name": "Ground Burst",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Blast 8","Concussive 1","Knockdown","Prepare 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Manticore",
+		"type": "Nemesis",
+		"description": "A savage, clever predator born of sorcerous crossbreeding, manticores are monsters in every sense of the word. A manticore has a vaguely humanoid head with multiple rows of teeth, the body of a lion or tiger, and sweeping draconic wings. Its long tail ends in a cluster of spikes, which it can hurl with deadly accuracy.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"strain": 19,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2,
+			"Stealth": 3
+		},
+		"abilities": ["Flyer", "Silhouette 2", 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws and Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 2","Vicious 2"]
+			},
+			{
+				"name": "Tail Spikes",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Slow-Firing 1","Pierce 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Mimic",
+		"type": "Rival",
+		"description": "These shapeshifting predators are the bane of dungeon delvers. They take the forms of inanimate objects, such as doors, tables, and treasure chests; when prey comes within reach, or touches the mimic, it sprouts pseudopods and attacks.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 2,
+			"Stealth": 3
+		},
+		"abilities": [
+			"Nightvision", 
+			{"name": "False Appearance", "description": "as an action, a mimic may perfectly imitate an inanimate object of silhouette 0-2. While it remains motionless, a mimic is indistinguishable from an ordinary object"}, 
+			{"name": "Adhesive", "description": "a mimic is highly adhesive. Increase the difficulty of any check to escape its Ensnare by 1"}],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Ensnare 4"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 1","Pierce 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Mind Slayer",
+		"type": "Apex Nemesis",
+		"description": "Remnants of an ancient species from an unknown world, mind slayers dwell in the darkness, enslaving weaker beings and devouring their brains for sustenance and pleasure. They are abhorred by all other species. Mind slayers are frequently accompanied by obedient thralls, and are occasionally willing to parley.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 30,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 4,
+			"Brawl": 3,
+			"Charm": 4,
+			"Cool": 3,
+			"Coercion": 4,
+			"Deception": 4,
+			"Leadership": 3,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Stealth": 3
+		},
+		"abilities": [
+			"Nightvision",
+			{"name": "Magic Resistance", "description": "increase the difficulty of any spell or magical effect targeting a mind slayer by one"}, 
+			{"name": "Psionic Awareness", "description": "a mind slayer is aware of any living, thinking creature within Medium range. Attempts by a living, thinking creature to hide from a mind slayer automatically fail"}, 
+			{"name": "Sacrifice Thrall", "description": "if a mind slayer is struck by an attack, it may spend 2 Setback to cause an unengaged, active thrall within Short range to suffer the attack instead"}, 
+			{"name": "Domination", "description": "as an action, a mind flayer may spend a Story Point to dominate a living, thinking target. This is an Arcana check opposed by the target's Discipline. If the target fails, the mind slayer may choose the target's next maneuver and action, but the target is disoriented"}, 
+			{"name": "Devour Brain", "description": "as an action, a mind slayer may use Devour Brain against an engaged target Ensnared by its tentacles, or staggered by its Mind Blast. A target incapacitated by this attack is killed, and its brain devoured by the mind slayer. When a mind slayer devours a brain, it heals 5 Wounds and recovers 10 Strain"}, 
+			{"name": "Mind Blast", "description": "as an action, a mind slayer may use Mind Blast. The mind slayer may target any number of living, thinking creatures within range. A target successfully hit by Mind Blast must make a Daunting Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of the encounter. It may make another Daunting Discipline check at the end of each of its turns to recover from the effect"}],
+		"weapons": [
+			{
+				"name": "Tentacles",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			},
+			{
+				"name": "Mind Blast",
+				"skill": "Arcana",
+				"damage": 9,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Slow-Firing 2"]
+			},
+			{
+				"name": "Devour Brain",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5","Vicious 5"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Owlbear",
+		"type": "Rival",
+		"description": "Few creatures are as bad-tempered and aggressive as the owlbear. They fearlessly attack anything that intrudes on their territory, regardless of size.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Nightvision", 
+			{"name": "Berserker", "description": "when an owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"}, 
+			"Fearless", 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Vicious 2"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Owlbear, Dire",
+		"type": "Nemesis",
+		"description": "The only thing more bad-tempered and aggressive than an owlbear is a dire owlbear. These massive predators dominate their territory and ferociously assault any intruders.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 26,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Nightvision", 
+			{"name": "Berserker", "description": "when a dire owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"}, 
+			"Fearless", 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Knockdown","Vicious 3"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Roper",
+		"type": "Nemesis",
+		"description": "These abominations mimic rock formations in caves and caverns, and greedily devour any living prey that comes too close, drawing them in with their adhesive tentacles, and devouring them with powerful jaws.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Perception": 3,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Nightvision",
+			{"name": "Anchored", "description": "a roper is immune to forced movement and knockdown. It can anchor itself to a floor, wall, or ceiling. It cannot move from its location during an encounter"}, 
+			{"name": "Perfect Mimic", "description": "when a roper is inactive, it cannot be discerned from a normal cave formation"}, 
+			{"name": "Flailing Tendrils", "description": "A roper does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"}, 
+			{"name": "Tendrils", "description": "A roper may have six active tendrils at a time. A roper can't use the same tendril on more than one target at a time. A tendril can be escaped with a Hard Athletics check, or severed by dealing 6 wounds to it [Soak 4]. Severing a tendril does not injure a roper. A roper can extrude a replacement tendril on its turn as a maneuver"}, 
+			{"name": "Reel", "description": "if a roper Ensnares a target with a tentacle, it may use a maneuver to drag the target to its jaws and make a free Bite attack"}],
+		"weapons": [
+			{
+				"name": "Tendrils",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 4","Auto-fire"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Rust Monster",
+		"type": "Rival",
+		"description": "These subterranean scavengers are the bane of many adventurers. While normally docile, even friendly, they eagerly seek to corrode and consume any ferrous metal they can (usually in the form of armour and weapons).",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Perception": 3,
+			"Stealth": 3
+		},
+		"abilities": [
+			{"name": "Scent Iron", "description": "a rust monster can determine the location and volume of any ferrous metal within Short range. It is attracted to quantity over quality"}, 
+			{"name": "Eyes on the Prize", "description": "a rust monster suffers no Setback for targeting specific items with its Antenna Strike"}, 
+			{"name": "Rust Metal", "description": "any ferrous metal item struck by a rust monster's Antenna Strike is immediately damage by one step. The rust monster can spend 1 Advantage to damage it an additional step. It can do this as many times as it has Advantage to do so, until the item is destroyed"}],
+		"weapons": [
+			{
+				"name": "Weak Bite",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "Antenna Strike",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Scarab Swarm",
+		"type": "Rival",
+		"description": "Frequently found in ancient tombs, these brightly coloured beetles can quickly and easily reduce a party of unwary adventurers to gleaming bones.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 36,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination ": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Teeming Threat", 
+			"Swarm", 
+			"Voracious"],
+		"weapons": [
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","may spend 2 Advantage to inflict 3 strain.",""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Scorpion, Giant",
+		"type": "Rival",
+		"description": "Nearsighted, methodical hunters, giant scorpions can be very dangerous to the unwary.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"abilities": [
+			{"name": "Death Sting", "description": "when incapacitated, a giant scorpion makes one out-of-turn Brawl attack with its stinger against an engaged opponent. This check gains 1 Boost, and +2 damage"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": [""]
+			},
+			{
+				"name": "Poisonous Stinger",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 3","Pierce 3","Prepare 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Spider, Giant",
+		"type": "Rival",
+		"description": "Giant spiders are found in nearly every adventuring environment. These arachnid predators are patient stalkers, waiting for prey to enter their webs, or walk within reach of their deadly fangs. Some are ambush predators, while others are swift hunters that aggressively pursue prey. This latter variety usually does not use webbing, but their bite attacks are more deadly.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Coordination": 2,
+			"Ranged": 1,
+			"Stealth": 2,
+			"Vigilance ": 3
+		},
+		"abilities": ["Wall Crawler"],
+		"weapons": [
+			{
+				"name": "Venomous fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 2","Pierce 3"]
+			},
+			{
+				"name": "acid spit",
+				"skill": "Ranged",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Spider Broodling, Giant",
+		"type": "Minion",
+		"description": "Even newly-hatched giant spiders can be a dangerous threat to adventurers. These creatures are voracious from the moment they emerge from their eggs, and eagerly swarm any available prey. They lack the ability to spit venom, but their bite is just as deadly as an adult's, and their webbing just as strong.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": [ "Brawl", "Cool", "Coordination", "Stealth", "Vigilance" ],
+		"abilities": ["Wall Crawler"],
+		"weapons": [
+			{
+				"name": "Venomous fangs",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 2","Pierce 3"]
+			},
+			{
+				"name": "webbing",
+				"skill": "Ranged",
+				"damage": 1,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Spider Matriarch, Giant",
+		"type": "Nemesis",
+		"description": "Giant spider matriarchs are huge creatures that possess much greater Intellect than most of their kind. Despite their size, they are quite stealthy.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Coordination": 4,
+			"Ranged": 2,
+			"Stealth": 3,
+			"Vigilance ": 3
+		},
+		"abilities": ["Silhouette 2", "Wall Crawler", 
+			{"name": "Hatch Broodlings", "description": "a giant spider matriarch may spend a maneuver to hatch a clutch of its eggs, adding a spider broodling minion group to the encounter. The broodlings may act immediately"}, 
+			{"name": "Paralytic Venom", "description": "a target wounded by a giant spider matriarch's fangs must make a Hard Resilience check or be staggered until the end of its next turn. The giant spider matriarch may expend 2 Threat or Despair to extend the duration of the paralysis by one round"}],
+		"weapons": [
+			{
+				"name": "Venomous fangs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 2","Pierce 3"]
+			},
+			{
+				"name": "acid spit",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Stirge",
+		"type": "Minion",
+		"description": "Stirges are small flying monsters that feed on the blood of living creatures. They are fearless and persistent until they are satiated. While individually weak, they are dangerous in large numbers.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [1,1]
+		},
+		"skills": ["Brawl","Coordination"],
+		"abilities": ["Silhouette 0", "Flyer", 
+			{"name": "Attach", "description": "After a successful attack, a flock of stirges may spend 2 Advantage to attach to their target. On subsequent turns, a target with stirges attached suffers 3 wounds at the start of their turn. As an action, the target or an ally may make an Average Athletics check to remove the attached stirges"}],
+		"weapons": [
+			{
+				"name": "Proboscis",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","may spend 2 Advantage to inflict 2 additional wounds.",""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Stirge Swarm",
+		"type": "Rival",
+		"description": "A colony of hungry stirges can be a deadly threat to an adventuring party.",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 36,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination ": 2
+		},
+		"abilities": ["Silhouette 0", "Flyer", 
+			"Teeming Threat", 
+			"Swarm", 
+			"Voracious"],
+		"weapons": [
+			{
+				"name": "Proboscis",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","may spend 2 Advantage to inflict 2 additional wounds.",""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Troll, Cave",
+		"type": "Apex Nemesis",
+		"description": "Slow and stupid, but immensely strong and resilient, cave trolls are sometimes used as living war machines by cruel humanoids. They are frequently as dangerous to their allies as to their enemies.",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 40,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"abilities": ["Silhouette 3", 
+			"Nightvision", 
+			{"name": "Sweep Attack", "description": "(on a successful Brawl check, a cave troll can spend 2 Advantage per target to hit additional targets engaged with the first target"}, 
+			{"name": "Regeneration", "description": "at the start of its turn, a cave troll automatically heals 3 Wounds, unless the damage was dealt by fire or acid"}, 
+			{"name": "Chow Down", "description": "a cave troll that has Ensnared a target with its claws may spend 2 Advantage or Triumph to make a Crushing Bite attack against that target"}],
+		"weapons": [
+			{
+				"name": "Rending Claws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 3"]
+			},
+			{
+				"name": "Crushing Bite",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 5","Vicious 4"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Troll, Swamp",
+		"type": "Rival",
+		"description": "Cruel, cunning, and eternally hungry, swamp trolls are a constant threat to river traffic and freshwater port communities.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 3,
+			"Stealth": 3,
+			"Survival": 3
+		},
+		"abilities": ["Silhouette 2", 
+			"Amphibious", 
+			{"name": "Regeneration", "description": "at the start of its turn, a swamp troll automatically heals 2 Wounds, unless the damage was dealt by fire or acid"}, 
+			"Fearless"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Savage Bite",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Tunnel Hulk",
+		"type": "Rival",
+		"description": "These murderous, insectoid abominations tunnel through the underworld, endlessly searching for prey. Their powerful claws can bore through solid rock, and their mind-scrambling gaze makes escape impossible for their victims.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Cool": 3,
+			"Perception": 3,
+			"Resilience": 2,
+			"Stealth": 2
+		},
+		"abilities": ["Silhouette 2", 
+			"Tremorsense", 
+			{"name": "Confusing Gaze", "description": "as a maneuver, a tunnel hulk can force a target within Short range to meet its potent gaze. If the target has not yet acted during the encounter, it cannot avoid the tunnel hulk's gaze. The target must make a Hard Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of its next turn. A tunnel hulk may use 2 Setback generated by the target to cause the target to see the closest ally as an enemy, whom it must attack when it can next act. A creature may avoid the tunnel hulk's gaze by tightly closing its eyes or averting its gaze. In either case, while avoiding the tunnel hulk's gaze, the creature is treated as if it is suffering the Blinded Critical Injury"}, 
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Linked 1","Sunder"]
+			},
+			{
+				"name": "Mandibles",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Winged Ape",
+		"type": "Rival",
+		"description": "These beasts resemble gorillas with red eyes and huge, batlike wings. They often serve evil sorcerers as sentries and guardians. They take sadistic glee in picking up victims and dropping them from high in the air.",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"abilities": ["Flyer", 
+			{"name": "Carry Off", "description": "if a winged ape hits a Silhouette 1 or smaller target with its Claws, it may force the target to make an opposed Athletics check. If the target fails, it is carried aloft by the winged ape, and is treated as Short range from the ground. The target can make another opposed Athletics check on its turn to break free, but will then fall if it has no means of flight. The winged ape can drop a carried target as an incidental on its next turn"}, 
+			"Swoop Attack"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Winter Wolf",
+		"type": "Minion",
+		"description": "These creatures look like white wolves, but they are actually cunning magical beasts. Winter wolves are frequently tamed by frost giants to serve as hunting hounds and guardians.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Perception","Ranged"],
+		"abilities": [
+			"Pack Instincts", 
+			"Iceborn"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Yeti",
+		"type": "Rival",
+		"description": "This profile can be used for many large, savage, humanoid types. Just change their abilities to suit the terrain.",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 3,
+			"Stealth": 3,
+			"Survival": 3
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Camouflage", "description": "in snowy or mountainous environments, add 2 Boost to Stealth checks"}, 
+			{"name": "Cold Adapted", "description": "yeti are immune to the effects of cold or freezing environments"}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 3"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	}
 ]
