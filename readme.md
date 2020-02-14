@@ -113,6 +113,7 @@ Main tasks:
 - Make implement work better somehow?
 - Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
 - CC Dreadgazer to use opposed checks?
+- Spellchecks, capitilisation, and grammar
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead
