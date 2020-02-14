@@ -599,5 +599,75 @@
 			}
 		],
 		"tags": ["Monster", "Wurm", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+	},
+	{
+		"name": "Camel",
+		"type": "Rival",
+		"description": "Foul tempered and belligerent, camels nevertheless make excellent mounts and beasts of burden in arid desert environments.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intelligence": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Survival": 1
+		},
+		"abilities": ["Silhouette 2", 
+			{"name": "Trained Mount 1", "description": "add 1 Boost to a rider's Riding checks while mounted"}, 
+			{"name": "Sand Walker", "description": "remove 1 Setback from any checks made to traverse sandy or desert terrain"}, 
+			{"name": "Beast of Burden 5", "description": "add 5 to encumbrance threshold"}],
+		"weapons": [
+			{
+				"name": "Hooves",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": [""]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy","Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Wolf",
+		"type": "Minion",
+		"description": "This profile can be used for many types of pack-hunting creatures.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intelligence": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Perception"],
+		"abilities": [
+			{"name": "Pack Tactics", "description": "if more than one wolf is engaged with a target, all wolves engaged with that target gain 1 Boost die to combat checks"}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy","Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	}
 ]
