@@ -50,8 +50,7 @@
 				"damage": 16,
 				"critical": 2,
 				"range": "Short",
-				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"],
-				"notes": "a tesst note for\n\n Valroth"
+				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"]
 			},
 			{
 				"name": "Barbed Whip",
@@ -62,7 +61,7 @@
 				"qualities": ["Ensnare 3", "Pierce 2"]
 			}
 		],
-		"tags": ["Infernal", "Demon", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+		"tags": ["Infernal", "Demon", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
 	},
 	{
 		"name": "Auroch",
@@ -511,7 +510,19 @@
             },
             {
                 "name": "Spells",
-                "description": "A mummy lord can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following: Sandstorm [choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities]; Aegis of Thoth [make a :hard: Arcana check; if successful, until the end of the mummy lord’s next turn, reduce the damage of all hits against them by one, plus one for every 2 Success, and the mummy lord gains +3 defense. The mummy lord can maintain these effects with the concentrate maneuver];Summon Scarabs [make a :hard: Arcana check; if successful, the mummy lord summons a scarab swarm at engaged range. The scarab swarm is an ally to the mummy lord]"
+                "description": "A mummy lord can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following."
+            },
+            {
+                "name": "Spells: Sandstorm",
+                "description": "Choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities."
+            },
+            {
+                "name": "SpellsL Aegis of Thoth",
+                "description": "Make a :hard: Arcana check; if successful, until the end of the mummy lord’s next turn, reduce the damage of all hits against them by one, plus one for every 2 Success, and the mummy lord gains +3 defense. The mummy lord can maintain these effects with the concentrate maneuver."
+            },
+            {
+                "name": "Spells: Summon Scarabs",
+                "description": "Make a :hard: Arcana check; if successful, the mummy lord summons a scarab swarm at engaged range. The scarab swarm is an ally to the mummy lord."
             }
         ],
 		"weapons": [
@@ -525,7 +536,7 @@
 			}
 		],
 		"gear": ["Pharaoh's Crown (Implement; when the mummy lord casts the Conjure spell to summon an ally, adding the Summon Ally effect does not increase its difficulty. In addition, the creature(s) remain summoned until the end of the encounter without the mummy lord having to use the concentrate maneuver)", "Pharaoh's Crook (Implement; functions as a magical staff)"],
-		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "setting: Fantasy", "setting: Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Bugbear",
@@ -612,7 +623,7 @@
 				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow-Firing 3"]
 			}
 		],
-		"tags": ["Monster", "Wurm", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+		"tags": ["Monster", "Wurm", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
 	},
 		{
 		"name": "Bear",
@@ -3286,7 +3297,8 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 2 additional wounds.",""]
+				"qualities": ["Pierce 3"],
+				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -3324,7 +3336,8 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 2 additional wounds.",""]
+				"qualities": ["Pierce 3"],
+				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -5164,13 +5177,14 @@
 				"qualities": ["Special"]
 			}
 		],
-		"tags": ["Monster", "source:Genesys Creature Catalogue", "Homebrew", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD", "Fantasy"]
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD", "Fantasy"]
 	},
 	{
 		"name": "Lich",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
+		"notes": "A lich’s soul is tied to a special item called a phylactery. This item is always carefully hidden. If a lich is destroyed, it gains a new body in seven days, appearing within 5 feet of the phylactery. If its phylactery is destroyed, a lich cannot reform, and is permanently destroyed.",
 		"type": "Apex Nemesis",
-		"description": "Liches are powerful, evil spellcasters who have conquered death. They typically appear as desiccated or skeletonized humans in ancient robes, bearing artifacts of great power, with coldly glowing eyes. These beings are extraordinarily Intellect, foresighted, and cruel: it is very hard to take a lich by surprise, and even harder to permanently destroy one. A lich’s soul is tied to a special item called a phylactery. This item is always carefully hidden. If a lich is destroyed, it gains a new body in seven days, appearing within 5 feet of the phylactery. If its phylactery is destroyed, a lich cannot reform, and is permanently destroyed",
+		"description": "Liches are powerful, evil spellcasters who have conquered death. They typically appear as desiccated or skeletonized humans in ancient robes, bearing artifacts of great power, with coldly glowing eyes. These beings are extraordinarily Intellect, foresighted, and cruel: it is very hard to take a lich by surprise, and even harder to permanently destroy one.",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 3,
