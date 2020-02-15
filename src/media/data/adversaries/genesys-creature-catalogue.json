@@ -1,6 +1,7 @@
 [
 	{
 		"name": "Valroth Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "These huge, fiery demons are the greatest of their kind. They appear as massive horned figures wreathed in infernal fire and writhing shadows, wielding a huge flaming sword and a cruelly barbed whip. Many serve as champions and executioners for their infernal masters. All other demons obey their commands, and they often lead hordes of demons into battle.",
 		"characteristics": {
@@ -49,7 +50,8 @@
 				"damage": 16,
 				"critical": 2,
 				"range": "Short",
-				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"]
+				"qualities": ["Burn 2", "Defensive 1", "Pierce 2", "Vicious 2"],
+				"notes": "a tesst note for\n\n Valroth"
 			},
 			{
 				"name": "Barbed Whip",
@@ -64,6 +66,7 @@
 	},
 	{
 		"name": "Auroch",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These large, shaggy herbivores are commonly used as beasts of burden. While largely docile, they can be very dangerous when injured or frightened.",
 		"characteristics": {
@@ -99,6 +102,7 @@
 	},
 	{
 		"name": "Zombie",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Mindless and relentless, zombies stagger slowly towards any living creature they see. Their only impulse is to kill. They present little challenge in small numbers, but they are often accompanied by necromancers, or more powerful undead.",
 		"characteristics": {
@@ -137,6 +141,7 @@
 	},
 	{
 		"name": "Wraith",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "When a supremely evil person dies, they sometimes leave behind a malevolent echo of themselves, known as a wraith. Wraiths exist only to destroy life. Their incorporeal nature and life-draining attacks make them terrifying opponents.",
 		"characteristics": {
@@ -174,6 +179,7 @@
 	},
 	{
 		"name": "Wight",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Wights are undead warriors whose lust for battle is stronger than the grave. They are frequently found haunting the tombs, cairns, and barrows where they were once laid to rest.",
 		"characteristics": {
@@ -219,6 +225,7 @@
 	},
 	{
 		"name": "Will O'Wisp",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Will o' wisps are evil undead vestiges that manifest as small, glowing balls of light. They feed on fear and despair, and frequently lure travellers into dangerous environments or monster lairs to feed on their fear. Skilled magic users can sometimes extract the essence of a fallen wisp to create a lightstone.",
 		"characteristics": {
@@ -267,6 +274,7 @@
 	},
 	{
 		"name": "Vampire, Dracul",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Vampires of the Dracul bloodline are formidable warriors and cunning deceivers. They are quite adept at blending into civilized societies, which they prey on from the inside. It is not until a town or village is overrun with vampire spawn that the truth of the Dracul's masquerade is revealed. No two Dracul vampires are the same: some may have powers other than those listed here.",
 		"characteristics": {
@@ -335,6 +343,7 @@
 	},
 	{
 		"name": "Vampire, Orlok",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Vampires of the Orlok bloodline are grotesque creatures that skulk through the  shadows, spreading pestilence and horror in their wake. Most take up residence in sewers, cave systems, abandoned tombs or castles, attended by their feral spawn and swarms of vermin. No two Orlok vampires are the same: some may have powers other than those listed here.",
 		"characteristics": {
@@ -397,6 +406,7 @@
 	},
 	{
 		"name": "Vampire Spawn",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Vampire spawn are newly turned vampires, and are often nearly feral, seeking only to slake their thirst upon the living. They are usually subservient to the vampire that created them, but sometimes they are abandoned to wander on their own. While they are much weaker than true vampires, when they band together in packs, they can be daunting foes.",
 		"characteristics": {
@@ -436,6 +446,7 @@
 	},
 	{
 		"name": "Spectre",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "A lesser form of undead created by a wraith, a spectre is aware that it has been cheated of passing into the afterlife. It feels nothing but rage and hatred towards the living.",
 		"characteristics": {
@@ -467,6 +478,7 @@
 	},
 	{
 		"name": "Mummy Lord",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Mummy lords are the reanimated remains of great sorcerer-kings. They jealously guard their tombs and secrets, annihilating trespassers and tomb robbers without mercy. While they superficially resemble lesser mummies, they are usually clad in rotting finery and jewelry befitting their status in life. All are potent spellcasters.",
 		"characteristics": {
@@ -517,6 +529,7 @@
 	},
 	{
 		"name": "Bugbear",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "The largest and strongest of the goblinoids, bugbears rule over their weaker kin without mercy. They are surprisingly stealthy, and favor ambushes followed by overwhelming violence.",
 		"characteristics": {
@@ -549,6 +562,7 @@
 	},
 	{
 		"name": "Ancient Wurm",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "An ancient wurm is a truly terrifying colossal beast with two huge forelimbs and a serpentine body. They spend most of their time asleep, but when they wake, they can ravage nations.",
 		"characteristics": {
@@ -602,6 +616,7 @@
 	},
 		{
 		"name": "Bear",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used to represent any large bear, like a grizzly or polar bear (add cold immunity for polar bears).",
 		"characteristics": {
@@ -645,6 +660,7 @@
 	},
 	{
 		"name": "Camel",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Foul tempered and belligerent, camels nevertheless make excellent mounts and beasts of burden in arid desert environments.",
 		"characteristics": {
@@ -683,6 +699,7 @@
 	},
 	{
 		"name": "Crocodile",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used for any large crocodilian creature (alligators, caimans).",
 		"characteristics": {
@@ -720,6 +737,7 @@
 	},
 	{
 		"name": "Elk",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These large, powerful beasts dwell in remote forests. They prefer to avoid combat, but will fight fiercely if pressed.",
 		"characteristics": {
@@ -764,6 +782,7 @@
 	},
 	{
 		"name": "Horse",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile represents a typical work or riding horse.",
 		"characteristics": {
@@ -798,6 +817,7 @@
 	},
 	{
 		"name": "Rhinoceros",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Large, powerful, and easily angered, rhinoceroses are remarkable but dangerous animals.",
 		"characteristics": {
@@ -841,6 +861,7 @@
 	},
 	{
 		"name": "Riding Elephant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A trained elephant makes for an impressive and dangerous mount.",
 		"characteristics": {
@@ -887,6 +908,7 @@
 	},
 	{
 		"name": "Tiger",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used for most great cats.",
 		"characteristics": {
@@ -935,6 +957,7 @@
 	},
 	{
 		"name": "Warhorse",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Bred and trained for military use, a warhorse is a powerful asset to any fighting force, and a reliable companion to a soldier or knight.",
 		"characteristics": {
@@ -969,6 +992,7 @@
 	},
 	{
 		"name": "Wolf",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "This profile can be used for many types of pack-hunting creatures.",
 		"characteristics": {
@@ -1001,6 +1025,7 @@
 	},
 	{
 		"name": "Wooly Mammoth",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A powerful, heavily furred elephantine beast native to colder climates, mammoths are known for their massive tusks and irritable temperament.",
 		"characteristics": {
@@ -1047,6 +1072,7 @@
 	},
 		{
 		"name": "Lost Souls",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "The damned souls of those who have sold their souls to the infernal powers, these pitiful creatures are playthings and fodder to even lesser demons. They are often herded into battle for the amusement of their masters.",
 		"characteristics": {
@@ -1080,6 +1106,7 @@
 	},
 	{
 		"name": "Lesser Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "While clumsy, slow, and stupid, lesser demons can still prove very dangerous in large numbers. As the least of the true demons, they are particularly vicious towards lost souls, and anyone else they can bully or torment. Though they can vary greatly in appearance, all lesser demons use the same stat block.",
 		"characteristics": {
@@ -1122,6 +1149,7 @@
 	},
 	{
 		"name": "Hell Bat Swarm",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Though they appear to be hideous bat-like beasts, these winged terrors are true demons. They wheel about in swarms over the battlefields where their greater kin fight, blinding foes and feeding on the fallen.",
 		"characteristics": {
@@ -1160,6 +1188,7 @@
 	},
 	{
 		"name": "Barbakul Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Commonly called spined demons, these cunning creatures are exceptionally alert and stealthy, and often serve as the scouts and watchdogs of a demonic warhost. Barbakul are not as physically formidable as other demons, but their barbed hides and long piercing claws make them more than a match for most mortal foes.",
 		"characteristics": {
@@ -1208,6 +1237,7 @@
 	},
 	{
 		"name": "Narcarex Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "When most races think of demons, these creatures are what come to mind. Narcarex, also called hellfire demons, are horned, winged, leering demons with red skin, cloven hooves, and long tails ending in a barbed tip. In battle, hellfire demons are wreathed in unholy flames, searing their enemies as they impale them with their vicious tridents.",
 		"characteristics": {
@@ -1265,6 +1295,7 @@
 	},
 	{
 		"name": "Antenoran Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Not all the realms of Hell are fiery; some are frozen wastelands. Antenoran demons hail from these icy regions, and are as cold and merciless as their homelands. Resembling a monstrous cross between a praying mantis and a dinosaur, antenorans often command warbands of weaker demons, driving them into battle while brandishing their terrible frigid polearms.",
 		"characteristics": {
@@ -1315,6 +1346,7 @@
 	},
 	{
 		"name": "Brachyuru Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These large, powerful demons revel in physical combat, and eagerly charge into battle against any foe. Brachyuru demons are massive, scaly humanoids with two sets of arms: one pair at the shoulders, ending in huge, crushing claws, and another pair emerging from their chest, with nimble, clawed fingers. Their heads resemble a hideous cross between a dog and a goat. Their legs end in savagely clawed feet. Every part of a brachyuru can, and is, used to attack.",
 		"characteristics": {
@@ -1372,6 +1404,7 @@
 	},
 	{
 		"name": "Gorgul Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "These demons are grotesquely obese, flabby creatures with wide, bulging eyes, absurdly large ears, oversized mouths, and extremely long, thin arms. While their appearance is somewhat comical, gorgul demons are terrifying opponents. They use their long arms to snatch opponents and shove them into their gaping mouths, where they are swallowed whole. A gorgul's stomach is transparent, so the gorgul can watch its prey digesting in its corpulent belly. They take enormous joy in this, emitting a continuous high-pitched giggle while grabbing for their next victim.",
 		"characteristics": {
@@ -1416,6 +1449,7 @@
 	},
 	{
 		"name": "Malithar Demon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Beautiful and lethal are the two words that best describe malithar demons. They have the heads and torsos of exceedingly beautiful women, with six arms, and a long, powerful serpentine lower body. They wield a weapon in each of their hands, preferring swords. While they are highly effective in battle, malithar most often act as captains for demonic hosts, as lesser demons crave malithar approval and will follow their orders eagerly.",
 		"characteristics": {
@@ -1467,6 +1501,7 @@
 	},
 		{
 		"name": "Cyclops",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Cyclopes are colossal, one-eyed giants with a single large horn protruding from their foreheads. They live alone, often tending herds of aurochs or giant sheep, and are fiercely territorial. Cyclopes are not smart, but they are among the most powerful giantkin, and can quickly kill unprepared intruders.",
 		"characteristics": {
@@ -1508,6 +1543,7 @@
 	},
 	{
 		"name": "Hill Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Hill giants are the most loutish and stupid of the true giants. They are clumsy, voracious oafs that shamble about the land, eating everything they can find. They are particularly feared by farmers and settlers.",
 		"characteristics": {
@@ -1555,6 +1591,7 @@
 	},
 	{
 		"name": "Fire Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Skilled craftsmen and brutal tyrants, fire giants are the most militaristic and organized of the giantkin. They prefer to live in volcanic regions, and are often accompanied by tamed hellhounds or salamanders.",
 		"characteristics": {
@@ -1596,6 +1633,7 @@
 	},
 	{
 		"name": "Frost Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Savage raiders and merciless killers, frost giants terrorize the northern lands. They are often accompanied by trained winter wolves.",
 		"characteristics": {
@@ -1639,6 +1677,7 @@
 	},
 	{
 		"name": "Stone Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Stone giants dwell far from civilization on high mountains, in deep valleys, or in enormous cave systems. They are territorial, but generally will not attack unless provoked. They can throw boulders with extraordinary accuracy.",
 		"characteristics": {
@@ -1687,6 +1726,7 @@
 	},
 		{
 		"name": "Bone Golem",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Bone golems are horrid constructions created by necromancers. The bones of dozens or hundreds of creatures are fused together into a grotesque humanoid shape. While not the most powerful of their kind, bone golems are among the most frightening to encounter.",
 		"characteristics": {
@@ -1736,6 +1776,7 @@
 	},
 	{
 		"name": "Brass Golem",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "these golems are forged from articulated enchanted brass, and filled with a superheated fluid. They often have animal heads, especially bull heads. Brass golems are often used as temple guardians.",
 		"characteristics": {
@@ -1776,6 +1817,7 @@
 	},
 	{
 		"name": "Flesh Golem",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Another frequent creation of necromancers and mad alchemists, flesh golems are abhorrent amalgamations of various dead beings stitched together into a greater form. They are difficult to control, and frequently run amok.",
 		"characteristics": {
@@ -1818,6 +1860,7 @@
 	},
 	{
 		"name": "Iron Golem",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Among the most powerful of all golems, iron golems are usually created by archmages as guardians of their greatest treasures. These implacable creations are nearly impossible to stop.",
 		"characteristics": {
@@ -1875,6 +1918,7 @@
 	},
 	{
 		"name": "Stone Golem",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "These golems often take the form of humanoid stone statues, and can be difficult to detect when still. They are frequently constructed with multiple limbs, each wielding a weapon, and can attack relentlessly with all of them.",
 		"characteristics": {
@@ -1914,6 +1958,7 @@
 	},
 		{
 		"name": "Basilisk",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Basilisks are ponderous, eight-legged subterranean predators, well-known and feared for their petrifying gaze.",
 		"characteristics": {
@@ -1952,6 +1997,7 @@
 	},
 	{
 		"name": "Bat, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These creatures are large and aggressive nocturnal predators. Giant bats are often found in caves and shadowy forests. They use their powerful sonic attacks to cripple and bring down prey from the air, then land to feast on their helpless victims.",
 		"characteristics": {
@@ -2000,6 +2046,7 @@
 	},
 	{
 		"name": "Black Slime",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Tireless, mindless, and eternally hungry, black slime is one of the most feared perils of the deep places of the world. The potent acid of its seething form dissolves everything but stone.",
 		"characteristics": {
@@ -2040,6 +2087,7 @@
 	},
 	{
 		"name": "Cave Fisher",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "ese subterranean arachnids resemble large, flat, stone-coloured scorpions with eight legs and two large, shearing claws. They lurk in elevated places in caves and caverns, dangling transparent filaments to ensnare prey. When a living creature blunders into a filament, it is quickly reeled up to the cave fisher to be dismembered and devoured.",
 		"characteristics": {
@@ -2090,6 +2138,7 @@
 	},
 	{
 		"name": "Chimera",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Chimeras are horrible magical hybrid beasts with the hindquarters of a giant goat, the forequarters of a lion, the tail and wings of a dragon, and the heads of all three creatures. They are cruel predators who revel in violence, and will attack anything they perceive to be prey or a rival (i.e. virtually anything).",
 		"characteristics": {
@@ -2143,6 +2192,7 @@
 	},
 	{
 		"name": "Coeurl",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This creature resembles a huge, six-legged black panther, with two long, spiked tentacles protruding from its shoulders, and terrible glowing eyes. Also known as the “black destroyer”, the coeurl magically displaces light, appearing to be several feet away from its actual position... which is usually closer than you think.",
 		"characteristics": {
@@ -2192,6 +2242,7 @@
 	},
 	{
 		"name": "Eagle, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used for any very large, predatory avian creature.",
 		"characteristics": {
@@ -2230,6 +2281,7 @@
 	},
 	{
 		"name": "Ettin",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "These powerful two-headed giants are foul-smelling and bad-tempered. Thankfully, they prize solitude, and typically dwell far away from civilization. They are very difficult to surprise, and too aggressive to outwit.",
 		"characteristics": {
@@ -2280,6 +2332,7 @@
 	},
 	{
 		"name": "Gargoyle",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These creatures are evil earth elementals that dwell on the Material Plane. They can pose as grotesque statues for long periods of time, even years or decades, until they decide to attack. By folding their wings over themselves, they can also disguise themselves as rocks, boulders, or stone outcroppings.",
 		"characteristics": {
@@ -2317,6 +2370,7 @@
 	},
 	{
 		"name": "Griffon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Griffons are powerful predators, as adept at fighting on the ground as in the air.",
 		"characteristics": {
@@ -2372,6 +2426,7 @@
 	},
 	{
 		"name": "Griffon, Owl",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Owl griffons are larger and more deadly examples of their kind, easily recognized by their owl heads, wings, and talons. They prefer to hunt at night, and are nearly silent until they attack.",
 		"characteristics": {
@@ -2432,6 +2487,7 @@
 	},
 	{
 		"name": "Hellhound",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Hellhounds are hulking canines that resemble mastiffs with fiery glowing eyes, and flames licking along their black coats. They are often kept as pets and guard dogs by fire giants.",
 		"characteristics": {
@@ -2465,6 +2521,7 @@
 	},
 	{
 		"name": "Hydra",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "A hydra is a massive reptilian predator, with a powerful sauropod-like body, and five shark-like heads on long, serpentine necks. They are renowned, and feared, for their ability to regrow their severed heads. Hydras are endlessly voracious, and will gladly feed on any living (or dead) creature they can catch. They are also extremely difficult to surprise, thanks to their multiple heads.",
 		"characteristics": {
@@ -2518,6 +2575,7 @@
 	},
 	{
 		"name": "Landshark",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "The landshark, or bulette, is supposedly the result of sorcerous crossbreeding. It is a voracious, nomadic predator that greedily devours anything it can catch.",
 		"characteristics": {
@@ -2567,6 +2625,7 @@
 	},
 	{
 		"name": "Landshark, Ancient",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Landsharks never stop growing, even as adults, though they do so much more slowly. An ancient landshark is a truly terrible monster, as insatiable as it is unstoppable.",
 		"characteristics": {
@@ -2617,6 +2676,7 @@
 	},
 	{
 		"name": "Manticore",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "A savage, clever predator born of sorcerous crossbreeding, manticores are monsters in every sense of the word. A manticore has a vaguely humanoid head with multiple rows of teeth, the body of a lion or tiger, and sweeping draconic wings. Its long tail ends in a cluster of spikes, which it can hurl with deadly accuracy.",
 		"characteristics": {
@@ -2663,6 +2723,7 @@
 	},
 	{
 		"name": "Mimic",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These shapeshifting predators are the bane of dungeon delvers. They take the forms of inanimate objects, such as doors, tables, and treasure chests; when prey comes within reach, or touches the mimic, it sprouts pseudopods and attacks.",
 		"characteristics": {
@@ -2710,6 +2771,7 @@
 	},
 	{
 		"name": "Mind Slayer",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "Remnants of an ancient species from an unknown world, mind slayers dwell in the darkness, enslaving weaker beings and devouring their brains for sustenance and pleasure. They are abhorred by all other species. Mind slayers are frequently accompanied by obedient thralls, and are occasionally willing to parley.",
 		"characteristics": {
@@ -2776,6 +2838,7 @@
 	},
 	{
 		"name": "Owlbear",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Few creatures are as bad-tempered and aggressive as the owlbear. They fearlessly attack anything that intrudes on their territory, regardless of size.",
 		"characteristics": {
@@ -2824,6 +2887,7 @@
 	},
 	{
 		"name": "Owlbear, Dire",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "The only thing more bad-tempered and aggressive than an owlbear is a dire owlbear. These massive predators dominate their territory and ferociously assault any intruders.",
 		"characteristics": {
@@ -2874,6 +2938,7 @@
 	},
 	{
 		"name": "Roper",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "These abominations mimic rock formations in caves and caverns, and greedily devour any living prey that comes too close, drawing them in with their adhesive tentacles, and devouring them with powerful jaws.",
 		"characteristics": {
@@ -2926,6 +2991,7 @@
 	},
 	{
 		"name": "Rust Monster",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These subterranean scavengers are the bane of many adventurers. While normally docile, even friendly, they eagerly seek to corrode and consume any ferrous metal they can (usually in the form of armour and weapons).",
 		"characteristics": {
@@ -2973,6 +3039,7 @@
 	},
 	{
 		"name": "Scarab Swarm",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Frequently found in ancient tombs, these brightly coloured beetles can quickly and easily reduce a party of unwary adventurers to gleaming bones.",
 		"characteristics": {
@@ -3010,6 +3077,7 @@
 	},
 	{
 		"name": "Scorpion, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Nearsighted, methodical hunters, giant scorpions can be very dangerous to the unwary.",
 		"characteristics": {
@@ -3055,6 +3123,7 @@
 	},
 	{
 		"name": "Spider, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Giant spiders are found in nearly every adventuring environment. These arachnid predators are patient stalkers, waiting for prey to enter their webs, or walk within reach of their deadly fangs. Some are ambush predators, while others are swift hunters that aggressively pursue prey. This latter variety usually does not use webbing, but their bite attacks are more deadly.",
 		"characteristics": {
@@ -3101,6 +3170,7 @@
 	},
 	{
 		"name": "Spider Broodling, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Even newly-hatched giant spiders can be a dangerous threat to adventurers. These creatures are voracious from the moment they emerge from their eggs, and eagerly swarm any available prey. They lack the ability to spit venom, but their bite is just as deadly as an adult's, and their webbing just as strong.",
 		"characteristics": {
@@ -3140,6 +3210,7 @@
 	},
 	{
 		"name": "Spider Matriarch, Giant",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Giant spider matriarchs are huge creatures that possess much greater Intellect than most of their kind. Despite their size, they are quite stealthy.",
 		"characteristics": {
@@ -3189,6 +3260,7 @@
 	},
 	{
 		"name": "Stirge",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Stirges are small flying monsters that feed on the blood of living creatures. They are fearless and persistent until they are satiated. While individually weak, they are dangerous in large numbers.",
 		"characteristics": {
@@ -3221,6 +3293,7 @@
 	},
 	{
 		"name": "Stirge Swarm",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A colony of hungry stirges can be a deadly threat to an adventuring party.",
 		"characteristics": {
@@ -3258,6 +3331,7 @@
 	},
 	{
 		"name": "Troll, Cave",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "Slow and stupid, but immensely strong and resilient, cave trolls are sometimes used as living war machines by cruel humanoids. They are frequently as dangerous to their allies as to their enemies.",
 		"characteristics": {
@@ -3307,6 +3381,7 @@
 	},
 	{
 		"name": "Troll, Swamp",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Cruel, cunning, and eternally hungry, swamp trolls are a constant threat to river traffic and freshwater port communities.",
 		"characteristics": {
@@ -3354,6 +3429,7 @@
 	},
 	{
 		"name": "Tunnel Hulk",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These murderous, insectoid abominations tunnel through the underworld, endlessly searching for prey. Their powerful claws can bore through solid rock, and their mind-scrambling gaze makes escape impossible for their victims.",
 		"characteristics": {
@@ -3403,6 +3479,7 @@
 	},
 	{
 		"name": "Winged Ape",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These beasts resemble gorillas with red eyes and huge, batlike wings. They often serve evil sorcerers as sentries and guardians. They take sadistic glee in picking up victims and dropping them from high in the air.",
 		"characteristics": {
@@ -3441,6 +3518,7 @@
 	},
 	{
 		"name": "Winter Wolf",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "These creatures look like white wolves, but they are actually cunning magical beasts. Winter wolves are frequently tamed by frost giants to serve as hunting hounds and guardians.",
 		"characteristics": {
@@ -3474,6 +3552,7 @@
 	},
 	{
 		"name": "Yeti",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used for many large, savage, humanoid types. Just change their abilities to suit the terrain.",
 		"characteristics": {
@@ -3512,6 +3591,7 @@
 	},
 		{
 		"name": "Bugbear Chief",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Bugbears rule by strength, cunning, and fighting prowess. The scars on their chiefs serve as badges of honour, and as a warning.",
 		"characteristics": {
@@ -3552,6 +3632,7 @@
 	},
 	{
 		"name": "Boglok",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "gloks dwell in swamps, tropical jungles, and other damp places. They are not evil, but they are highly territorial. They use their own secretions to poison their weapons.",
 		"characteristics": {
@@ -3585,6 +3666,7 @@
 	},
 	{
 		"name": "Boglok Boss",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Boglok hunting parties are led by bosses. While not the most formidable opponents, a boss can keep his hunters focused on bringing down a tough opponent.",
 		"characteristics": {
@@ -3623,6 +3705,7 @@
 	},
 	{
 		"name": "Gnoll",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Cruel, savage marauders, gnolls are hated and feared by all. Much like the hyaenas they resemble, gnoll packs are dominated by females rather than males.",
 		"characteristics": {
@@ -3662,6 +3745,7 @@
 	},
 	{
 		"name": "Gnoll Pack Lord",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A gnoll pack lord is the fiercest of her kind in a given pack. She can inspire her cackling followers to new heights of mayhem and savagery.",
 		"characteristics": {
@@ -3710,6 +3794,7 @@
 	},
 	{
 		"name": "Goblin",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Weak but cunning, goblins value strength in numbers above all else (except living to fight another day).",
 		"characteristics": {
@@ -3758,6 +3843,7 @@
 	},
 	{
 		"name": "Goblin Boss",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Goblin bosses are crafty survivors who know when to run off and leave their comrades to die valiantly.",
 		"characteristics": {
@@ -3813,6 +3899,7 @@
 	},
 	{
 		"name": "Kobold Warrior",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "These humanoid canines love gems and precious metals, and are frequently found in abandoned mines, though a tribe will occasionally assault and occupy a working mine. They are especially hated by dwarves.",
 		"characteristics": {
@@ -3860,6 +3947,7 @@
 	},
 	{
 		"name": "Kobold Spearman",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Kobolds dislike complex weapons, and avoid bows and crossbows. Spearmen are capable of hurling javelins with great accuracy. They usually carry enough light spears or javelins to last an entire encounter.",
 		"characteristics": {
@@ -3900,6 +3988,7 @@
 	},
 	{
 		"name": "Kobold Shaman",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These kobolds have learned the rudiments of Divine magic, and use their powers to protect, heal, and strengthen their tribe. Kobolds usually worship Hurnos, but some more savage tribes may serve Nerukk.",
 		"characteristics": {
@@ -3953,6 +4042,7 @@
 	},
 	{
 		"name": "Kobold Alpha",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These burly kobolds dominate their packs through strength and ferocity. They will never back down from a fight if any packmates are still fighting.",
 		"characteristics": {
@@ -4008,6 +4098,7 @@
 	},
 	{
 		"name": "Greater Kobold",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Nemesis",
 		"description": "Greater kobolds tower over their kin, and dominate the tribes in which they dwell. Most tribes rarely have more than two or three greater kobolds, as these powerful creatures chafe at any perceived threat to their supremacy.",
 		"characteristics": {
@@ -4066,6 +4157,7 @@
 	},
 	{
 		"name": "Tae Ew Sauran",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Bloodthirsty and violent, Tae Ew Sauran will aggressively defend their territory from intruders, and will hunt human prey as readily as animal.",
 		"characteristics": {
@@ -4114,6 +4206,7 @@
 	},
 	{
 		"name": "Tae Ew Sauran Shaman",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A Tae Ew Sauran shaman guides its tribe to new hunting grounds, and grants them strength in battle. They are formidable opponents.",
 		"characteristics": {
@@ -4169,6 +4262,7 @@
 	},
 	{
 		"name": "Ratten",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Cunning and furtive, Ratten frequently dwell in the shadows and sewers of greater civilizations, plotting murder and domination.",
 		"characteristics": {
@@ -4218,6 +4312,7 @@
 	},
 	{
 		"name": "Ratten Shadeblade",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "While not exactly leaders, shadeblades are valued, and feared, members of Ratten warpacks. Their scythe-like blades have brought down many unwary foes.",
 		"characteristics": {
@@ -4267,6 +4362,7 @@
 	},
 	{
 		"name": "Sea Devil",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "These monstrous marine marauders are greatly feared by sailors and coastal communities. They dislike bright light, and prefer to attack their surface targets during the dark of the new moon.",
 		"characteristics": {
@@ -4306,6 +4402,7 @@
 	},
 	{
 		"name": "Sea Devil Myrmidon",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Most who see a sea devil myrmidon flee at once. Their hulking, four-armed, hammerheaded forms mean death has arrived.",
 		"characteristics": {
@@ -4363,6 +4460,7 @@
 	},
 	{
 		"name": "Troglodyte",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "These sly, degenerate subterranean reptilians are hated for their sadistic ways and their unbearable stench.",
 		"characteristics": {
@@ -4404,6 +4502,7 @@
 	},
 	{
 		"name": "Troglodyte Berserker",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Slow-witted but incredibly savage, troglodyte berserkers are kept pacified with strange mushrooms and cave moulds until they are needed for battle.",
 		"characteristics": {
@@ -4452,6 +4551,7 @@
 	},
 		{
 		"name": "Ghast",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "These wicked undead are often found leading packs of ghouls, turning a band of savages into a fearsome threat.",
 		"characteristics": {
@@ -4500,6 +4600,7 @@
 	},
 	{
 		"name": "Ghoul",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Ferocious and nearly mindless, ghouls hunger for the flesh of the dead. When they can't find dead flesh to devour, they find living flesh and make it dead as quickly as possible.",
 		"characteristics": {
@@ -4542,6 +4643,7 @@
 	},
 	{
 		"name": "Hullathoin",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "A hullathoin is among the most powerful and destructive of all undead. It resembles a gargantuan quadrupedal reptile with a vaguely crocodilian head. It has a mottled, rotting grey and black hide, and is covered in leaking, pustulent sores. Two long, barbed tentacles extend from its shoulders. A hullathoin is usually surrounded by a cloud of bloodfiend stirges, and accompanied by packs of vampire spawn, zombies, ghouls, and other undead. Despite its bestial appearance, a hullathoin is highly Intellect, and will coordinate the attacks of its minions to its greatest advantage.",
 		"characteristics": {
@@ -4605,6 +4707,7 @@
 	},
 	{
 		"name": "Mummified Jackal",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "These creatures are often found guarding tombs and sacred sites, as vigilant and relentless in death as they were in life.",
 		"characteristics": {
@@ -4640,6 +4743,7 @@
 	},
 	{
 		"name": "Mummy",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Mummies are preserved corpses reanimated to serve as guardians. While slow moving, they are immensely tough and strong. They are especially feared for the terrible wasting curse they can inflict on defilers of their tombs.",
 		"characteristics": {
@@ -4681,6 +4785,7 @@
 	},
 	{
 		"name": "Necromantic Swarm",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A necromantic swarm consists of innumerable dismembered body parts, including hands, feet, arms, legs, and heads. Necromancers with particularly horrid senses of humour occasionally animate necromantic swarms to protect their lairs (or simply out of boredom and a surplus of spare parts).",
 		"characteristics": {
@@ -4721,6 +4826,7 @@
 	},
 	{
 		"name": "Reanimated Hand",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "A reanimated hand is a combination of alchemy and necromancy. The creature appears as a severed hand, but monstrously huge, with a toothy maw in its palm. It moves about by walking on its fingers, and pounces upon victims to crush them in its grip while savaging them with its bite. They are often found in the lairs of evil wizards or powerful undead.",
 		"characteristics": {
@@ -4770,6 +4876,7 @@
 	},
 	{
 		"name": "Skeleton",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "The most common form of undead, animated skeletons are found in crypts, tombs, dungeons, and anywhere that necromancers are active. They are silent, tenacious, and dangerous in large numbers.",
 		"characteristics": {
@@ -4812,6 +4919,7 @@
 	},
 	{
 		"name": "Skeleton Mage",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Skeleton mages are undead created from fallen spellcasters. They still retain much of their former magical power, and are clever, deadly foes.",
 		"characteristics": {
@@ -4860,6 +4968,7 @@
 	},
 	{
 		"name": "Skeleton Warrior",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Some skeletons are imbued with greater necromantic power, or contain some vestige of the warrior from whom they were created. These skeleton warriors are often found leading other skeletons, and are formidable opponents.",
 		"characteristics": {
@@ -4916,6 +5025,7 @@
 	},
 	{
 		"name": "Viscid Cube",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Viscid cubes slide through dungeon halls, devouring all organic matter they encounter. Many times adventurers do not notice the cube until it is too late.",
 		"characteristics": {
@@ -4959,6 +5069,7 @@
 	},
 	{
 		"name": "Dreadgazer",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "A dreadgazer is a malevolent spherical being 10' in diameter, armour plated, with a huge central eye over a drooling maw of sharp teeth. Ten smaller eyestalks emerge from its surface, peering angrily about in all directions. It moves by hovering silently through the air. Cruel, paranoid, and highly Intellect, the dreadgazer is one of the most terrifying enemies adventurers can face.",
 		"characteristics": {
@@ -4991,47 +5102,47 @@
                 "description": "As an incidental, the dreadgazer may aim its central eye at a target within Long range. That target, and anyone within Short range of that target, is unable to use magic skills, and magical properties of items become non-functional. The dreadgazer may not target foes affected by Anti-Magic Field with Eye Blast that turn"
             },
             {
-                "name": "0) Eye Blast",
+                "name": "Eye Blast",
                 "description": "As an action, the dreadgazer may attack with three of its eyestalks, selected at random from the abilities below [reroll any duplicates], against one to three targets within Long range. The dreadgazer suffers no penalty for targeting  creatures at Engaged range. Each attack is an :average: Arcana check."
             },
             {
-                "name": "1) Charm Ray",
+                "name": "Eye Blast 01: Charm Ray",
                 "description": "The target takes no damage, but must make a :daunting: Discipline check as an out-of-turn incidental. If it fails, it is controlled by the dreadgazer until the end of its next turn. The dreadgazer may choose the target's maneuvers and actions, but while affected, the target is disoriented."
             },
             {
-                "name": "2) Paralyzing Ray",
+                "name": "Eye Blast 02: Paralyzing Ray",
                 "description": "The target takes no damage, but must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, it is immobilized and staggered until the end of its next turn."
             },
             {
-                "name": "3) Fear Ray",
+                "name": "Eye Blast 03: Fear Ray",
                 "description": "The target takes no damage, but must make a :daunting: Discipline check as an out-of-turn incidental. If it fails, it must spend its next turn using all maneuvers and actions to flee away from the dreadgazer."
             },
             {
-                "name": "4) Slowing Ray",
+                "name": "Eye Blast 04: Slowing Ray",
                 "description": "The target takes no damage, but must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, on its next turn the target may only use one maneuver, cannot downgrade its action to a maneuver, and cannot change range bands. The target also suffers three Setback on any actions it takes."
             },
             {
-                "name": "5) Enervation Ray",
+                "name": "Eye Blast 05: Enervation Ray",
                 "description": "This attack deals 8 damage, with a Critical Rating of 4. The target must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, it suffers additional damage equal to half of its remaining Wounds, and suffers an equal amount of Strain."
             },
             {
-                "name": "6) Telekinetic Ray",
+                "name": "Eye Blast 06: Telekinetic Ray",
                 "description": "The target takes no damage, but is immobilized until the end of its next turn, and must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, it is moved one range band in a direction of the dreadgazer's choice. The dreadgazer may spend :advantage::advantage::advantage: or :triumph: on the check to move the target an additional range band. It may do this more than once."
             },
             {
-                "name": "7) Sleep Ray",
+                "name": "Eye Blast 07: Sleep Ray",
                 "description": "The target takes no damage, but must make a :daunting: Discipline check as an out-of-turn incidental. If it fails, it falls asleep for four rounds. The target is awakened early if it takes damage, or if another character engages it and takes an action to wake it."
             },
             {
-                "name": "8) Petrification Ray",
+                "name": "Eye Blast 08: Petrification Ray",
                 "description": "The target must make a :daunting: Resilience check as an out-of-turn incidental. If it fails, it is immobilized and disoriented until the end of its next turn, when it may make another :daunting: Resilience check as an out-of-turn incidental. If it succeeds, the effect ends. If the second check fails, the target is turned to stone and indefinitely Incapacitated. This may be dispelled by a successful :daunting: Arcana check, or the character may be restored by a successful :daunting: Heal check (using Divine or Primal)."
             },
             {
-                "name": "9) Disintegration Ray",
+                "name": "Eye Blast 09: Disintegration Ray",
                 "description": "The target must make a :daunting: Coordination check as an out-of-turn incidental. If it fails, the attack deals 16 damage with the Pierce 5 and Vicious 5 qualities, and a Critical Rating of 2. If this attack incapacitates the target, it is considered disintegrated into dust; no resurrection is possible. If the target is a Silhouette 2 or smaller non-magical object or creation of magical force, it is disintegrated. If the target is a Silhouette 3 or larger object or creation of magical force, this ray disintegrates a l0-foot sphere of it."
             },
             {
-                "name": "10) Death Ray",
+                "name": "Eye Blast 10: Death Ray",
                 "description": "The target must make a :daunting: Coordination check as an out-of-turn incidental. If it fails, the attack deals 16 damage with the Breach 1 and Vicious 5 qualities, and a Critical Rating of 2. A living target that is Incapacitated by this attack dies immediately."
             }
         ],
@@ -5057,6 +5168,7 @@
 	},
 	{
 		"name": "Lich",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Apex Nemesis",
 		"description": "Liches are powerful, evil spellcasters who have conquered death. They typically appear as desiccated or skeletonized humans in ancient robes, bearing artifacts of great power, with coldly glowing eyes. These beings are extraordinarily Intellect, foresighted, and cruel: it is very hard to take a lich by surprise, and even harder to permanently destroy one. A lich’s soul is tied to a special item called a phylactery. This item is always carefully hidden. If a lich is destroyed, it gains a new body in seven days, appearing within 5 feet of the phylactery. If its phylactery is destroyed, a lich cannot reform, and is permanently destroyed",
 		"characteristics": {
@@ -5095,8 +5207,20 @@
             },
             {
                 "name": "Spells",
-                "description": "A lich can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells a lich uses most often are the following: Disintegrate [choose a target at short or medium range for this attack and make a :hard: Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per :success:, with the Pierce 5, Vicious 5 and Sunder qualities, and a Critical Rating of 2]; Ice Storm (Signature Spell) [choose a target at short or medium range for this attack and make a :hard: Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per :success:, with the Blast 5, Ensnare 5, and Vicious 5 qualities, and a Critical Rating of 2. If the Blast quality is triggered, it affects all targets within short range of the target rather than engaged]; Arcane Barrier [make a :hard: Arcana check; if successful, until the end of the lich’s next turn, reduce the damage of all hits against them by one, plus one for every Success, and the lich gains +5 defense (to a maximum of 4). The lich can maintain these effects with the concentrate maneuver]"
-            }
+                "description": "A lich can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells a lich uses most often are the following"
+            },
+			{
+				"name": "Spells: Disintegrate",
+				"description": "Choose a target at short or medium range for this attack and make a :hard: Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per :success:, with the Pierce 5, Vicious 5 and Sunder qualities, and a Critical Rating of 2."
+			},
+			{
+				"name": "Spells: Ice Storm (Signature Spell)",
+				"description": "Choose a target at short or medium range for this attack and make a :hard: Arcana check. If successful, this magic attack inflicts 10 damage +1 damage per :success:, with the Blast 5, Ensnare 5, and Vicious 5 qualities, and a Critical Rating of 2. If the Blast quality is triggered, it affects all targets within short range of the target rather than engaged."
+			},
+			{
+				"name": "Spells: Arcane Barrier",
+				"description": "Make a :hard: Arcana check; if successful, until the end of the lich’s next turn, reduce the damage of all hits against them by one, plus one for every Success, and the lich gains +5 defense (to a maximum of 4). The lich can maintain these effects with the concentrate maneuver."
+			}
         ],
 		"weapons": [
 			{
@@ -5113,6 +5237,7 @@
 	},
 	{
 		"name": "Beetle, Giant Bombardier",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. While most are similar in nature, these giant beetles are aggressive hunters, and are feared for their ability to spray a blast of super-heated caustic fluid when attacked.",
 		"characteristics": {
@@ -5157,6 +5282,7 @@
 	},
 	{
 		"name": "Beetle, Giant Death",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. While most are similar in nature, these giant beetles are easily recognized by the “death's head” markings on their carapace, and are scavengers and carrion eaters, but will aggressively attack anything they consider a threat. Their huge mandibles are deadly.",
 		"characteristics": {
@@ -5193,6 +5319,7 @@
 	},
 	{
 		"name": "Beetle, Giant Fire",
+		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Giant beetles are a common threat found in nearly every non-arctic environment. Some, like fire beetles, are a valuable resource to fledgling adventurers. The luminous eyes of fire beetles continue to provide smokeless illumination for days after the beetle's demise. Hunting fire beetles is often a rite of passage for new delvers.",
 		"characteristics": {
