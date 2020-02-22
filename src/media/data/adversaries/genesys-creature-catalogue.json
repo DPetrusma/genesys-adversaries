@@ -61,7 +61,7 @@
 				"qualities": ["Ensnare 3", "Pierce 2"]
 			}
 		],
-		"tags": ["Infernal", "Demon", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+		"tags": ["Infernal", "Demon", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "setting:Fantasy"]
 	},
 	{
 		"name": "Auroch",
@@ -97,7 +97,7 @@
 				"qualities": ["Inaccurate 1", "Knockdown"]
 			}
 		],
-		"tags": ["Beast", "Auroch", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Beast", "Auroch", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Zombie",
@@ -136,7 +136,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
+		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wraith",
@@ -174,7 +174,7 @@
 				"qualities": ["Breach 1", "Knockdown", "Special"]
 			}
 		],
-		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Wight",
@@ -220,7 +220,7 @@
 			}
 		],
 		"gear": ["Ancient Platemail (+1 Defense, +2 Soak)"],
-		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Will O'Wisp",
@@ -269,7 +269,7 @@
 				"qualities": ["Stun 4", "Vicious 1"]
 			}
 		],
-		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Vampire, Dracul",
@@ -338,7 +338,7 @@
 				"qualities": ["Accurate 1", "Defensive 1"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Vampire, Orlok",
@@ -401,7 +401,7 @@
 				"qualities": ["Pierce 3", "Vicious 3"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Vampire Spawn",
@@ -441,7 +441,7 @@
 				"qualities": ["Ensnare 2", "Vicious 1"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Spectre",
@@ -473,7 +473,7 @@
 				"qualities": ["Breach 1", "Special"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Mummy Lord",
@@ -569,7 +569,7 @@
 			}
 		],
 		"gear": ["Oiled chainmail (+2 soak, no stealth penalty)"],
-		"tags": ["Humanoid", "Goblinoid", "Bugbear", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Humanoid", "Goblinoid", "Bugbear", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Ancient Wurm",
@@ -623,7 +623,7 @@
 				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow-Firing 3"]
 			}
 		],
-		"tags": ["Monster", "Wurm", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "Fantasy"]
+		"tags": ["Monster", "Wurm", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "setting:Fantasy"]
 	},
 		{
 		"name": "Bear",
@@ -667,7 +667,7 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Camel",
@@ -706,7 +706,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Crocodile",
@@ -744,7 +744,7 @@
 				"qualities": ["Ensnare 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Elk",
@@ -789,7 +789,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Horse",
@@ -824,7 +824,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Rhinoceros",
@@ -868,7 +868,7 @@
 				"qualities": ["Knockdown","Disorient 3","Inaccurate 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Riding Elephant",
@@ -915,7 +915,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Tiger",
@@ -964,7 +964,7 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Warhorse",
@@ -999,7 +999,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Wolf",
@@ -1032,7 +1032,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Wooly Mammoth",
@@ -1079,7 +1079,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Lost Souls",
@@ -1113,7 +1113,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Lesser Demon",
@@ -1156,7 +1156,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Hell Bat Swarm",
@@ -1195,7 +1195,7 @@
 				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 2 additional wounds."]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Barbakul Demon",
@@ -1244,7 +1244,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Narcarex Demon",
@@ -1302,7 +1302,7 @@
 				"qualities": ["Burn 2","Blast 6"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Antenoran Demon",
@@ -1353,7 +1353,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Brachyuru Demon",
@@ -1411,7 +1411,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Gorgul Demon",
@@ -1456,7 +1456,7 @@
 				"qualities": ["Accurate 1","Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Malithar Demon",
@@ -1508,7 +1508,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Cyclops",
@@ -1550,7 +1550,7 @@
 				"qualities": ["Inaccurate 1","Knockdown","Prepare 1",""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Hill Giant",
@@ -1598,7 +1598,7 @@
 				"qualities": ["Inaccurate 1","Blast 6","Concussive 1","Knockdown","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Fire Giant",
@@ -1640,7 +1640,7 @@
 				"qualities": ["Defensive 2","Pierce 2","Unwieldy 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Frost Giant",
@@ -1684,7 +1684,7 @@
 				"qualities": ["Pierce 3","Vicious 2","Cumbersome 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Stone Giant",
@@ -1733,7 +1733,7 @@
 				"qualities": ["Blast 10","Concussive 1","Knockdown","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Bone Golem",
@@ -1783,7 +1783,7 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Brass Golem",
@@ -1824,7 +1824,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Flesh Golem",
@@ -1867,7 +1867,7 @@
 				"qualities": ["Disorient 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Iron Golem",
@@ -1925,7 +1925,7 @@
 				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Stone Golem",
@@ -1965,7 +1965,7 @@
 				"qualities": ["Defensive 1","Pierce 1","Auto-fire"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Basilisk",
@@ -2004,7 +2004,7 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myth", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Bat, Giant",
@@ -2053,7 +2053,7 @@
 				"qualities": ["Pierce 2","Stun Damage","Stun 3","Slow-Firing 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Black Slime",
@@ -2094,7 +2094,7 @@
 				"qualities": ["Auto-fire","Burn 2","Sunder"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Cave Fisher",
@@ -2145,7 +2145,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Chimera",
@@ -2199,7 +2199,7 @@
 				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myth", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Coeurl",
@@ -2249,7 +2249,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Eagle, Giant",
@@ -2288,7 +2288,7 @@
 				"qualities": ["Linked 1","Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Ettin",
@@ -2339,7 +2339,7 @@
 				"qualities": ["Pierce 2","Sunder"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myth", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Gargoyle",
@@ -2377,7 +2377,7 @@
 				"qualities": ["Pierce 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Griffon",
@@ -2433,7 +2433,7 @@
 				"qualities": ["Stun 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Griffon, Owl",
@@ -2494,7 +2494,7 @@
 				"qualities": ["Stun 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Hellhound",
@@ -2528,7 +2528,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Hydra",
@@ -2582,7 +2582,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myth", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Landshark",
@@ -2632,7 +2632,7 @@
 				"qualities": ["Blast 6","Concussive 1","Knockdown","Prepare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Landshark, Ancient",
@@ -2683,7 +2683,7 @@
 				"qualities": ["Blast 8","Concussive 1","Knockdown","Prepare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Manticore",
@@ -2730,7 +2730,7 @@
 				"qualities": ["Slow-Firing 1","Pierce 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myth", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Mimic",
@@ -2778,7 +2778,7 @@
 				"qualities": ["Burn 1","Pierce 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Mind Slayer",
@@ -2845,7 +2845,7 @@
 				"qualities": ["Pierce 5","Vicious 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Owlbear",
@@ -2894,7 +2894,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Owlbear, Dire",
@@ -2945,7 +2945,7 @@
 				"qualities": ["Pierce 2","Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Roper",
@@ -2998,7 +2998,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Rust Monster",
@@ -3046,7 +3046,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Scarab Swarm",
@@ -3084,7 +3084,7 @@
 				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 3 strain.",""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Scorpion, Giant",
@@ -3130,7 +3130,7 @@
 				"qualities": ["Burn 3","Pierce 3","Prepare 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Spider, Giant",
@@ -3177,7 +3177,7 @@
 				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Spider Broodling, Giant",
@@ -3217,7 +3217,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Spider Matriarch, Giant",
@@ -3267,7 +3267,7 @@
 				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Stirge",
@@ -3301,7 +3301,7 @@
 				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Stirge Swarm",
@@ -3340,7 +3340,7 @@
 				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Troll, Cave",
@@ -3390,7 +3390,7 @@
 				"qualities": ["Pierce 5","Vicious 4"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Troll, Swamp",
@@ -3438,7 +3438,7 @@
 				"qualities": ["Pierce 3","Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Tunnel Hulk",
@@ -3488,7 +3488,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Winged Ape",
@@ -3527,7 +3527,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Winter Wolf",
@@ -3561,7 +3561,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Yeti",
@@ -3600,7 +3600,7 @@
 				"qualities": ["Pierce 2","Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Bugbear Chief",
@@ -3641,7 +3641,7 @@
 				"qualities": ["Pierce 2","Sunder","Inaccurate 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Boglok",
@@ -3675,7 +3675,7 @@
 				"qualities": ["Accurate 1","Defensive 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Boglok Boss",
@@ -3714,7 +3714,7 @@
 				"qualities": ["Accurate 1","Defensive 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Gnoll",
@@ -3754,7 +3754,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Gnoll Pack Lord",
@@ -3803,7 +3803,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Goblin",
@@ -3852,7 +3852,7 @@
 				"qualities": ["Inaccurate 1"]
 			}
 		],		
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Goblin Boss",
@@ -3908,7 +3908,7 @@
 				"qualities": ["Inaccurate 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Kobold Warrior",
@@ -3956,7 +3956,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Kobold Spearman",
@@ -3997,7 +3997,7 @@
 				"qualities": ["Defensive 1","Accurate 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Kobold Shaman",
@@ -4051,7 +4051,7 @@
 			}
 		],
 		"gear": ["Kobold fetish (Implement; the kobold shaman may add the Additional Target quality and the first Range effect to an attack spell without increasing the difficulty)", "Bone robed armound (+1 soak, +1 defense)"],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Kobold Alpha",
@@ -4107,7 +4107,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Greater Kobold",
@@ -4166,7 +4166,7 @@
 				"qualities": ["Defensive 2","Deflection 3","Inaccurate 2","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Tae Ew Sauran",
@@ -4215,7 +4215,7 @@
 				"qualities": ["Pierce 1","Limited Ammo 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Tae Ew Sauran Shaman",
@@ -4271,7 +4271,7 @@
 				"qualities": ["Pierce 1","Limited Ammo 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Ratten",
@@ -4321,7 +4321,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Ratten Shadeblade",
@@ -4371,7 +4371,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Sea Devil",
@@ -4411,7 +4411,7 @@
 				"qualities": ["Ensnare 4","Disorient 4. Limited Ammo 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Sea Devil Myrmidon",
@@ -4469,7 +4469,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Troglodyte",
@@ -4511,7 +4511,7 @@
 				"qualities": ["Ensnare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Troglodyte Berserker",
@@ -4560,7 +4560,7 @@
 				"qualities": ["Pierce 1","Ensnare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 		{
 		"name": "Ghast",
@@ -4609,7 +4609,7 @@
 				"qualities": ["Special"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Ghoul",
@@ -4652,7 +4652,7 @@
 				"qualities": ["Special"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Hullathoin",
@@ -4716,7 +4716,7 @@
 				"qualities": ["Ensnare 3","Linked 1","Special"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Mummified Jackal",
@@ -4752,7 +4752,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Mummy",
@@ -4794,7 +4794,7 @@
 				"qualities": ["Concussive 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Necromantic Swarm",
@@ -4835,7 +4835,7 @@
 				"qualities": ["Disorient 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Reanimated Hand",
@@ -4885,7 +4885,7 @@
 				"qualities": ["Ensnare 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Skeleton",
@@ -4928,7 +4928,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Skeleton Mage",
@@ -4977,7 +4977,7 @@
 				"qualities": ["Blast 3","Ensnare 3 Staff (+4 to magic attacks"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Skeleton Warrior",
@@ -5034,7 +5034,7 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Viscid Cube",
@@ -5078,7 +5078,7 @@
 				"qualities": ["Burn 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Dreadgazer",
@@ -5177,7 +5177,7 @@
 				"qualities": ["Special"]
 			}
 		],
-		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD", "Fantasy"]
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD", "setting:Fantasy"]
 	},
 	{
 		"name": "Lich",
@@ -5247,7 +5247,7 @@
 			}
 		],
 		"gear": ["Diadem of Power (Implement; the lich may add the Deadly and Empowered qualities to an attack spell without increasing the difficulty. Add :advantage: to the result of any successful spell check)", "Archmagus Robes (+1 soak, +2 defense)"],
-		"tags": ["Undead", "True Undead", "source:Creature Catalogue", "Homebrew", "Fantasy", "Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Undead", "True Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Beetle, Giant Bombardier",
@@ -5292,7 +5292,7 @@
 				"qualities": ["Blast 6", "Burn 3", "Concussive 1", "Slow-Firing 2"]
 			}
 		],
-		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Beetle, Giant Death",
@@ -5329,7 +5329,7 @@
 				"qualities": ["Pierce 2", "Vicious 2"]
 			}
 		],
-		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	},
 	{
 		"name": "Beetle, Giant Fire",
@@ -5366,6 +5366,6 @@
 				"qualities": ["Burn 2"]
 			}
 		],
-		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
+		"tags": ["Monster", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBA", "Social CR:TBA", "General CR:TBA"]
 	}
 ]

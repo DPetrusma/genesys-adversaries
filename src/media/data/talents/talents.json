@@ -1948,5 +1948,13 @@
 	{
 		"name": "Signature Spell",
 		"description": "When casting the specified signature spell, reduce the difficulty of the check by one."
+	},
+	{
+		"name": "Can't We Talk about This?",
+		"description": "This character can make an opposed Charm versus Discipline check targeting a character within medium range; if successful, the target cannot attack this character until the end of this character’s next turn; may spend :advantage::advantage: to increase the effect’s duration by one additional turn; this effect ends immediately if this character attacks the target"
+	},
+	{
+		"name": "Bullrush",
+		"description": "When making a Brawl, Melee: Heavy, or Melee: Light combat check after using a maneuver to engage a target, may spend :advantage::advantage::advantage: or :triumph: to knock the target prone and move them up to one range band away from this character"
 	}
 ]

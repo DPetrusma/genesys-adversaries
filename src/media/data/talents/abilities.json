@@ -848,8 +848,16 @@
 		"description": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins"
 	},
 	{
+		"name": "Spirit",
+		"description": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins"
+	},
+	{
 		"name": "Incorporeal",
 		"description": "May move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this adversary before applying soak, unless the attack came from a magical source such as a spell or magical weapon"
+	},
+	{
+		"name": "Ghostly",
+		"description": "May move over or through terrain (including doors and walls) without penalty. Halve the damage dealt to this adversary before applying soak, unless the attack came from a magical source such as a spell or legendary weapon"
 	},
 	{
 		"name": "Life Drain",
@@ -900,6 +908,10 @@
 		"description": "The creature can spend :advantage::advantage: on a successful Brawl check to hit an additional target that is Engaged with the first target"
 	},
 	{
+		"name": "Improved Sweep",
+		"description": "The creature can spend :advantage: on a successful Brawl check to hit an additional target that is Engaged with the first target"
+	},
+	{
 		"name": "Improved Multiattack",
 		"description": "A brachyuru does not increase the difficulty of combined checks to attack with its claws, hands, and bite, and may spend 1 Advantage or Triumph to hit with each additional weapon"
 	},
@@ -909,7 +921,7 @@
 	},
 	{
 		"name": "Construct",
-		"description": "Does not need to breathe, eat, or drink, and can survive underwater; immune to poisons and toxins"
+		"description": "Does not need to breathe, eat, or drink, and can survive in vacuum and underwater; immune to poisons and toxins"
 	},
 	{
 		"name": "Impact Vulnerability",
@@ -970,5 +982,73 @@
 	{
 		"name": "Slime",
 		"description": "Immune to blindness, deafness, any mind-affecting ability or skill, acid, or knockdown"
+	},
+	{
+		"name": "Threatening",
+		"description": "When providing assistance on another character's Coercion checks, add :success: to results for each minion in the group beyond the first."
+	},
+	{
+		"name": "Direct Access",
+		"description": "When jacking in from within the same building as the target server, automatically succeeds when making an access system check."
+	},
+	{
+		"name": "Bioroid",
+		"description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."
+	},
+	{
+		"name": "Telepresence",
+		"description": "Can operate independently, or can be controlled directly by an operator via wireless link; if being controlled, the drone counts as having ranks in any skill equal to the controller's ranks in that skill."
+	},
+	{
+		"name": "Leading Question",
+		"description": "Once per encounter, may spend a Story Point to learn one Motivation of any one other character in the encounter."
+	},
+	{
+		"name": "Corporate Oversight",
+		"description": "When performing the assist maneuver, add :success::threat::threat: to the result instead of adding :boost:."
+	},
+	{
+		"name": "Lawful Authority",
+		"description": "Add :success: to the results of any social skill checks made when interacting with residents of New Angeles."
+	},
+	{
+		"name": "Psychic",
+		"description": "As a maneuver may make and :average: Vigilance check to learn the surface thoughts of all other characters in medium range."
+	},
+	{
+		"name": "Mob Mentality",
+		"description": "Add :boost: to all checks this character makes if part of a group of three or more minions."
+	},
+	{
+		"name": "Apparent Precognition",
+		"description": "Once per encounter when making a combat check, may use Discipline and Willpower instead of the normal skill and characteristic."
+	},
+	{
+		"name": "Charismatic Menace",
+		"description": "Allies within short range add :advantage: to checks they make; opponents within short range add :threat: to checks they make."
+	},
+	{
+		"name": "Let's Make a Deal",
+		"description": "If this character knows an opponent's Desire Motivation, when they inflict strain on the opponent, the opponent suffers 4 additional strain."
+	},
+	{
+		"name": "Momentum",
+		"description": "If this character performs a move maneuver, they add +3 to the damage of one hit of any successful Brawl or Melee combat checks they make during the same turn."
+	},
+	{
+		"name": "Maul",
+		"description": "Add :boost::boost: to Brawl checks against prone or immobilized targets."
+	},
+	{
+		"name": "Creature of the Aenlong",
+		"description": "Reduce the difficulty of Arcana checks by one, to a minimum of :easy:, and increases the base damage of Attack spells by three."
+	},
+	{
+		"name": "Amorphous",
+		"description": "As an incidental, may increase or decrease its silhouette by 1"
+	},
+	{
+		"name": "Inconspicuous",
+		"description": "When in it's natural element or habitat, this creature appears indistinguishable from the environment; a character can make a :hard: Perception or Vigilance check to identify it"
 	}
 ]
