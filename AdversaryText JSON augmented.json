@@ -2,28 +2,28 @@
 		"name": "Ancient Dragon",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 8,
+			"wounds": 45,
+			"strain": 34,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Arcana": 4,
-			"Brawl": 4
+			"Brawl": 4,
 			"Charm": 3,
-			"Coercion": 4
+			"Coercion": 4,
 			"Cool": 3,
-			"Discipline": 4
+			"Discipline": 4,
 			"Ranged": 4,
-			"Resilience": 4
+			"Resilience": 4,
 			"Runes": 4,
 			"Vigilance": 3
 		},
@@ -51,37 +51,37 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Sunder","Vicious 5"]
-			},
+			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:17", "Social CR: 10", General CR: 10"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:17", "Social CR: 10", "General CR: 10"]
 	},
 	{
 		"name": "Assassin",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [4,3]
 		},
 		"skills": {
 			"Cool": 2,
-			"Coordination": 3
+			"Coordination": 3,
 			"Deception": 3,
-			"Medicine": 2
+			"Medicine": 2,
 			"Melee: Light": 2,
-			"Perception": 2
+			"Perception": 2,
 			"Ranged": 2,
-			"Skulduggery": 3
+			"Skulduggery": 3,
 			"Stealth": 4,
 			"Vigilance": 3
 		},
@@ -124,29 +124,28 @@
 				"qualities": ["Unwieldy 2"]
 			},
 		],
-		"gear": ["A variety of concealing cloaks."],
+		"gear": ["A variety of concealing cloaks"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", General CR: 6"]
 	},
 	{
 		"name": "Aymhelin Scion",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Brawl": 3,
 			"Resilience": 4
 		},
@@ -170,24 +169,23 @@
 		"name": "Bane Spider",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Coordination": 2,
-			"Ranged": 1
+			"Ranged": 1,
 			"Stealth": 2,
 			"Vigilance": 3
 		},
@@ -227,24 +225,23 @@
 		"name": "Barghest",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Perception": 3,
-			"Resilience": 3
+			"Resilience": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Swift"],
@@ -269,26 +266,25 @@
 		"name": "Baronial Knight",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 16,
+			"defence": [4,3]
 		},
 		"skills": {
 			"Athletics": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Leadership": 1,
-			"Melee: Light": 3
+			"Melee: Light": 3,
 			"Resilience": 2,
-			"Riding": 3
+			"Riding": 3,
 			"Vigilance": 2
 		},
 		"talents": [],
@@ -326,20 +322,20 @@
 		"name": "Beastman",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
 		},
-		"skills": ["Brawl","Perception","Vigilance."],
-		"talents": ],
+		"skills": ["Brawl","Perception","Vigilance"],
+		"talents": [],
 		"abilities": [
 			{"name": "Bestial Rage", "description": "A beastman or beastman minion group that has taken damage reduces the Critical rating of its attacks to 1"}],
 		"weapons": [
@@ -348,8 +344,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
 		"gear": [],
@@ -359,19 +354,19 @@
 		"name": "Berserker",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
 		},
-		"skills": ["Brawl","Melee: Light","Resilience","Survival."],
+		"skills": ["Brawl","Melee: Light","Resilience","Survival"],
 		"talents": [],
 		"abilities": [
 			{"name": "Bone Spurs", "description": "A berserker who is targeted by a melee combat check may spend :threat::threat::threat: or :despair: to cause the attacker to suffer 3 wounds."}, 
@@ -382,8 +377,7 @@
 				"skill": "Melee: Light",
 				"damage": 6,
 				"critical": 4,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
 		"gear": [],
@@ -393,22 +387,22 @@
 		"name": "Bloodsister And Nightseer",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 17,
+			"strain": 17,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Divine": 3,
-			"Coercion": 3
+			"Coercion": 3,
 			"Cool": 2,
 			"Knowledge: Forbidden": 4,
 			"Melee: Light": 1
@@ -423,29 +417,28 @@
 			{"name": "Spells| Exsanguinate", "description": "Select one target at short or medium range for this curse and make a :hard: Divine check. If the check is successful, until the end of the witch’s next turn, the target deceases the ability of any skill checks they make by one and suffers one additional wound each time they suffer wounds. The witch can maintain these effects with the concentrate maneuver."}],
 		"weapons": [
 		],
-		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Leather Armor: +1 soak."],
+		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Leather Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", General CR: 4"]
 	},
 	{
 		"name": "Brigand Leader",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Cool": 2,
-			"Leadership": 1
+			"Leadership": 1,
 			"Ranged": 2,
 			"Melee: Light": 2
 		},
@@ -477,26 +470,26 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown."]
 			},
 		],
-		"gear": ["Padded Armor: +1 soak."],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", General CR: 4"]
+		"gear": ["Padded Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", General CR: TDB"]
 	},
 	{
 		"name": "Brigand",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
 		},
-		"skills": ["Cool","Melee: Light","Ranged."],
+		"skills": ["Cool","Melee: Light","Ranged"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -505,39 +498,37 @@
 				"skill": "Melee: Light",
 				"damage": 6,
 				"critical": 4,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", General CR: 4"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", General CR: TDB"]
 	},
 	{
 		"name": "Carnivorous Flora",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 3,
-			"Resilience": 2
+			"Resilience": 2,
 			"Stealth": 4
 		},
 		"talents": [],
 		"abilities": [
 			{"name": "Drag", "description": "a carnivorous flora can use a maneuver to move a target affected by its thorny vines’ Ensnare quality to engaged range."}, 
-			{"name": "Inconspicuous", "description": "a carnivorous flora in a natural environment appears indistinguishable from an ordinary plant; a character can make a :hard: Perception or Vigilance check to identify a carnivorous flora."}, 
+			"Inconspicuous", 
 			{"name": "Rooted", "description": "a carnivorous flora cannot perform maneuvers to move."}, "Silhouette 2", 
 			{"name": "Unexpected Attack", "description": "a carnivorous flora that has not been yet been identified as a threat uses Stealth to determine initiative."}],
 		"weapons": [
@@ -565,18 +556,17 @@
 		"name": "City Guard",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 13,
+			"defence": [2,1]
 		},
 		"skills": {
 			"Discipline": 1,
@@ -601,32 +591,31 @@
 				"damage": 3,
 				"critical": 6,
 				"range": "Engaged",
-				"qualities": ["Defen-sive 1","Deflection 1","Inaccurate 2","Knockdown."]
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
 			},
 		],
-		"gear": ["Leather Armor: +1 soak."],
+		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
 		"name": "Coachman",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Brawl": 1,
-			"Ranged": 1
+			"Ranged": 1,
 			"Riding": 2,
 			"Vigilance": 2
 		},
@@ -638,35 +627,33 @@
 				"skill": "Melee: Light Damage 3",
 				"damage": 3,
 				"critical": (Engaged),
-				"range": "Accurate 1
-",
+				"range": "Accurate 1"
 				},
 		],
-		"gear": ["Padded Armor: +1 soak."],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", General CR: 1"]
+		"gear": ["Padded Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", General CR: TBD"]
 	},
 	{
 		"name": "Danne Bulvert",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
-			"Coordination": 2
+			"Coordination": 2,
 			"Deception": 2,
-			"Melee: Light": 2
+			"Melee: Light": 2,
 			"Skulduggery": 3,
 			"Stealth": 3
 		},
@@ -691,28 +678,28 @@
 			},
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", General CR: 1"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", General CR: TBD"]
 	},
 	{
 		"name": "Death Knight",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 20,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
-			"Discipline": 3
+			"Discipline": 3,
 			"Melee: Heavy": 3,
 			"Melee: Light": 3,
 			"Resilience": 2,
@@ -741,36 +728,35 @@
 				"qualities": ["Cumbersome 3","Linked 1","Unwieldy 3"]
 			},
 		],
-		"gear": ["Battered Armor: +2 soak, +1 defense.","war mount see page 105"],
+		"gear": ["Battered Armor: +2 soak, +1 defense.","War mount (see page 105 of RoT)"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 2", General CR: 3"]
 	},
 	{
 		"name": "Deep Elf",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [1,1]
 		},
 		"skills": {
-			"Discipline": 2
-			"Knowledge: Forbidden": 3
+			"Discipline": 2,
+			"Knowledge: Forbidden": 3,
 			"Melee: Light": 3,
-			"Skulduggery": 2
+			"Skulduggery": 2,
 			"Stealth": 3
 		},
 		"talents": ["Dual Wielder"],
 		"abilities": [
-			{"name": "Shadow Training", "description": "Enemies add :setback: to magic checks targeting a Deep Elf ."}],
+			{"name": "Shadow Training", "description": "Enemies add :setback: to magic checks targeting a Deep Elf"}],
 		"weapons": [
 			{
 				"name": "Two Freezing Blades",
@@ -788,22 +774,22 @@
 		"name": "Deepwood Archer",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 4,
+			"defence": [1,1]
 		},
-		"skills": ["Cool","Ranged","Perception","Vigilance."],
-		"talents": ],
+		"skills": ["Cool","Ranged","Perception","Vigilance"],
+		"talents": [],
 		"abilities": [
-			{"name": "Point Blank Shot", "description": "When making a Ranged combat check targeting an opponent the Deepwood Archer is engaged with, increase the difficulty once (instead of the twice)."}],
+			{"name": "Point Blank Shot", "description": "When making a Ranged combat check targeting an opponent the Deepwood Archer is engaged with, increase the difficulty once (instead of twice)."}],
 		"weapons": [
 			{
 				"name": "Deepwood Longbow",
@@ -814,31 +800,31 @@
 				"qualities": ["Accurate 1","Cumbersome 3","Superior","Unwieldy 3"]
 			},
 		],
-		"gear": ["Leather Armor: +1 soak."],
+		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", General CR: 1"]
 	},
 	{
 		"name": "Dimora",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Arcana": 3,
-			"Brawl": 2
+			"Brawl": 2,
 			"Cool": 3,
-			"Knowledge: Lore": 3
+			"Knowledge: Lore": 3,
 			"Melee: Light": 2,
 			"Stealth": 2
 		},
@@ -875,28 +861,28 @@
 		"name": "Djinn",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 25,
+			"strain": 25,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 5,
-			"Brawl": 3
+			"Brawl": 3,
 			"Charm": 3,
-			"Cool": 3
+			"Cool": 3,
 			"Deception": 4,
 			"Discipline": 4,
 			"Lore": 4,
-			"Melee: Light": 3
+			"Melee: Light": 3,
 			"Negotiation": 4,
 			"Vigilance": 3
 		},
@@ -913,8 +899,7 @@
 				"skill": "Melee: Light",
 				"damage": 9,
 				"critical": 2,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 			{
 				"name": "Illusionary Claws",
@@ -932,24 +917,23 @@
 		"name": "Dragon Hybrid",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Melee: Heavy": 1,
-			"Ranged": 2
+			"Ranged": 2,
 			"Resilience": 2,
 			"Vigilance": 1
 		},
@@ -982,35 +966,35 @@
 				"qualities": ["Vicious 1"]
 			},
 		],
-		"gear": ["Scale Armor: +2 soak."],
+		"gear": ["Scale Armor: +2 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", General CR: 1"]
 	},
 	{
 		"name": "Dwarf Ancestral Specter",
 		"type": "Rival",
+		"notes": "Dwarf opponents are not affected by the Dwarf Ancestral Specter's Terrifying ability",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [3,2]
 		},
 		"skills": {
 			"Discipline": 3,
 			"Melee: Light": 3
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			{"name": "Ancestral Gaze", "description": "While within short range of a Dwarf Ancestral Specter, living Dwarves add :success: to their combat checks and :triumph: if the opponent is a dragon."}, 
 			{"name": "Ghostly", "description": "Dwarf Ancestral Specters ignore the effects of terrain and darkness."}, 
-			{"name": "Terrifying", "description": "At the start of the encounter, all of their opponents who are not Dwarves must make a :hard: fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy."}, 
+			"Terrifying 3", 
 			"Undead"],
 		"weapons": [
 			{
@@ -1029,54 +1013,53 @@
 		"name": "Dwarf Guilder",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Melee: Light": 2,
-			"Ranged": 2
+			"Ranged": 2,
 			"Resilience": 2
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			"Darkvision", 
 			{"name": "Guild Member", "description": "When performing a check related to their specific guild, Dwarf Guilders upgrade the ability of the check twice."}],
 		"weapons": [
 		],
-		"gear": ["Guild tools and scrolls."],
+		"gear": ["Guild tools and scrolls"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 2", General CR: 2"]
 	},
 	{
 		"name": "Dwarven Dragon Hunter",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 17,
+			"strain": 18,
+			"defence": [1,1]
 		},
 		"skills": {
-			"Discipline": 4
+			"Discipline": 4,
 			"Melee: Light": 3,
-			"Ranged": 4
+			"Ranged": 4,
 			"Resilience": 3,
 			"Survival": 3
 		},
@@ -1117,28 +1100,28 @@
 		"name": "Eliza Farrow",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 3,
-			"Brawl": 2
+			"Brawl": 2,
 			"Charm": 3,
-			"Cool": 3
-			"Discipline": 3
-			"Knowledge: Forbidden": 4
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Forbidden": 4,
 			"Negotiation": 3,
-			"Ranged": 3
+			"Ranged": 3,
 			"Riding": 2,
 			"Vigilance": 2
 		},
@@ -1164,30 +1147,29 @@
 			},
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", General CR: 3"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", General CR: TBD"]
 	},
 	{
 		"name": "Farrow’s Guard",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Cool": 2,
-			"Discipline": 1
+			"Discipline": 1,
 			"Ranged": 2,
-			"Riding": 1
+			"Riding": 1,
 			"Melee: Light": 2,
 			"Vigilance": 1
 		},
@@ -1221,33 +1203,33 @@
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown."]
 			},
 		],
-		"gear": ["Leather Armor: +1 soak."],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", General CR: 3"]
+		"gear": ["Leather Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", General CR: TBD"]
 	},
 	{
 		"name": "Feral Dragon",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 8,
+			"wounds": 41,
+			"strain": 20,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 4,
 			"Coercion": 4,
 			"Cool": 3,
-			"Discipline": 4
+			"Discipline": 4,
 			"Ranged": 4,
-			"Resilience": 4
+			"Resilience": 4,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2","Swift"],
@@ -1280,22 +1262,21 @@
 		"name": "Ferrox",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Coordination": 1,
 			"Resilience": 1
 		},
@@ -1329,19 +1310,19 @@
 		"name": "Flesh Ripper",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 6,
+			"defence": [1,1]
 		},
-		"skills": ["Brawl","Cool","Resilience","Vigilance."],
+		"skills": ["Brawl","Cool","Resilience","Vigilance"],
 		"talents": ["Swift"],
 		"abilities": [
 			"Terrifying 3"],
@@ -1370,22 +1351,22 @@
 		"name": "Forest Guardian",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 25,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Brawl": 2,
 			"Resilience": 3
 		},
@@ -1409,18 +1390,18 @@
 		"name": "Giant",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 8,
+			"wounds": 33,
+			"strain": 29,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -1447,22 +1428,21 @@
 		"name": "Giant Snake",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 3,
-			"Resilience": 2
+			"Resilience": 2,
 			"Stealth": 2
 		},
 		"talents": [],
@@ -1493,24 +1473,24 @@
 		"name": "Gnome Minstrel",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 7,
+			"strain": 11,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Charm": 3,
-			"Coordination": 1
+			"Coordination": 1,
 			"Knowledge: Geography": 2,
-			"Stealth": 1
+			"Stealth": 1,
 			"Verse": 2
 		},
 		"talents": ["Encouraging Song"],
@@ -1521,26 +1501,27 @@
 			{"name": "Spells| Demoralizing Stanza", "description": "Select one target within short range and make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, the target decreases the ability of any skill checks they make by one. The minstrel can sustain this effect with the concentrate maneuver."}],
 		"weapons": [
 		],
-		"gear": ["Lute, pipes, and other musical instruments.","Colorful garb."],
+		"gear": ["Lute, pipes, and other musical instruments.","Colorful garb"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 2", General CR: 3"]
 	},
 	{
 		"name": "Goblin",
 		"type": "Minion",
+		"note": "Choose either Jagged Blade or Crude Bow for their weapon",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1,0]
 		},
-		"skills": ["Brawl","Cool","Deception","Melee: Light","Ranged","Stealth."],
+		"skills": ["Brawl","Cool","Deception","Melee: Light","Ranged","Stealth"],
 		"talents": [],
 		"abilities": [
 			"Darkvision", 
@@ -1551,11 +1532,8 @@
 				"skill": "Melee: Light",
 				"damage": 5,
 				"critical": 3,
-				"range": "Engaged.
-",
-				},
-		],
-		"gear": [" or",
+				"range": "Engaged"
+			},
 			{
 				"name": "Crude Bow",
 				"skill": "Ranged",
@@ -1563,51 +1541,42 @@
 				"critical": 4,
 				"range": "Medium",
 				"qualities": ["Unwieldy 2"]
-			},"Crude Bow: Ranged; Damage 6; Critical 4; Range (Medium); Unwieldy 2",
-			{
-				"name": "Wooden Buckler",
-				"skill": "Melee: Light",
-				"damage": 2,
-				"critical": 6,
-				"range": "Engaged",
-				"qualities": ["Defensive 1","Inaccurate 2","pointy teeth Brawl"]
-			},"Wooden Buckler: Melee: Light; Damage 2; Critical 6; Range (Engaged); Defensive 1, Inaccurate 2, pointy teeth Brawl; Damage 3; Critical 3; Range (Engaged); Vicious 1","Grimy Patchwork Armor: +1 soak."],
+			}
+		],
+		"gear": ["Grimy Patchwork Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
 		"name": "Goblin Witcher",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 16,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Cool": 2,
-			"Deception": 2
+			"Deception": 2,
 			"Arcana": 3,
 			"Knowledge: Forbidden": 2,
 			"Stealth": 1
 		},
 		"talents": ["Adversary 1","Dark Insight"],
 		"abilities": [
-			{"name": "Dark Vision", "description": "When making skill checks, goblins remove up to :setback::setback: imposed due to darkness."}, 
+			"Darkvision",
 			{"name": "Spiteful Curse", "description": "Add :boost::boost: to magic actions that target a character who has previously inflicted wounds on the goblin witcher during this encounter."}, 
 			{"name": "Spells", "description": "Goblin witchers can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following:"}, 
 			{"name": "Spells| Agonizing Hex", "description": "Choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 6 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities."}, 
 			{"name": "Spells| Bad Luck", "description": "Choose a target at short or medium range and make a :hard: Arcana check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the goblin witcher’s next turn, and when the target makes a check, may change one :setback: to a face displaying f. The goblin witcher may maintain these effects by performing the concentrate maneuver."}],
 		"weapons": [
-		],
-		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.",
 			{
 				"name": "Pointy Teeth",
 				"skill": "Brawl",
@@ -1615,29 +1584,31 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},"Pointy Teeth: Brawl; Damage 3; Critical 3; Range (Engaged); Vicious 1","Robed bone armor: +1 soak, +1 defense."],
+			}
+		],
+		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Robed bone armor: +1 soak, +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 2", General CR: 2"]
 	},
 	{
 		"name": "Greyhaven Wizard",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Discipline": 2,
 			"Knowledge: Lore": 4,
 			"Runes": 3
@@ -1647,36 +1618,34 @@
 			{"name": "Spells", "description": "A wizard can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
 			{"name": "Spells| Fireball", "description": "Choose one target at short or medium range and make a :hard: Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Blast 4 and Burn 4 qualities."}, 
 			{"name": "Spells| Magic Shield", "description": "Make a :hard: Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every :success::success:, and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."}],
-		"weapons": [
-		],
-		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty.","Heavy Robes: +1 defense."],
+		"weapons": [],
+		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty.","Heavy Robes: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", General CR: 5"]
 	},
 	{
 		"name": "Grotesque",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
 			"Melee: Light": 3,
 			"Ranged": 2,
-			"Resilience": 2
+			"Resilience": 2,
 			"Vigilance": 2
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			{"name": "Bone Spurs", "description": "A grotesque may spend :threat::threat::threat: or :despair: on a melee combat check targeting them to inflict 6 damage on the attacker."}, 
 			{"name": "Killing Frenzy", "description": "A grotesque adds :boost::boost: to all melee combat checks, but attackers add :boost: to all combat checks targeting the grotesque."}],
@@ -1687,7 +1656,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Ensnare 1","Knockdow."]
+				"qualities": ["Ensnare 1","Knockdown"]
 			},
 			{
 				"name": "Hurled Bone Shards",
@@ -1705,27 +1674,26 @@
 		"name": "Gurak Tol",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 2
+			"Brawl": 2,
 			"Resilience": 2
 		},
 		"talents": ["Swift"],
 		"abilities": [
-			{"name": "Tail Catapult", "description": "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown."}],
+			{"name": "Tail Catapult", "description": "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown"}],
 		"weapons": [
 			{
 				"name": "Claws and Fangs",
@@ -1741,36 +1709,36 @@
 				"damage": 7,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Disorient 3","Knockdown."]
+				"qualities": ["Disorient 3","Knockdown"]
 			},
 		],
-		"gear": ["When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak. 7"],
+		"gear": ["When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak."],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", General CR: 1"]
 	},
 	{
 		"name": "Ice Wyrm",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 8,
+			"wounds": 31,
+			"strain": 20,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 4,
-			"Coercion": 4
+			"Coercion": 4,
 			"Cool": 3,
-			"Discipline": 3
+			"Discipline": 3,
 			"Ranged": 4,
-			"Resilience": 4
+			"Resilience": 4,
 			"Stealth": 3,
 			"Vigilance": 3
 		},
@@ -1803,20 +1771,20 @@
 		"name": "Ice-Blood Warrior",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
 		},
-		"skills": ["Cool","Brawl","Melee: Light","Resilience."],
-		"talents": ],
+		"skills": ["Cool","Brawl","Melee: Light","Resilience"],
+		"talents": [],
 		"abilities": [
 			{"name": "Ice Madness", "description": "Upgrade the difficulty of social skill checks targeting an ice-blood warrior once."}],
 		"weapons": [
@@ -1844,27 +1812,26 @@
 		"name": "Ironbound",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 15,
+			"defence": [3,2]
 		},
 		"skills": {
 			"Discipline": 3,
 			"Melee: Heavy": 3,
 			"Melee: Light": 3,
-			"Resilience": 3
+			"Resilience": 3,
 			"Vigilance": 3
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			{"name": "Graven Wards", "description": "Increase the difficulty of all spells that target an ironbound twice."}, 
 			{"name": "Strength of Iron", "description": "An ironbound can wield a Melee: Heavy weapon in one hand."}, 
@@ -1894,27 +1861,26 @@
 		"name": "Kennsir Dwarf",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 15,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Melee: Light": 3,
 			"Resilience": 3,
 			"Skulduggery": 2,
-			"Stealth": 2
+			"Stealth": 2,
 			"Survival": 2
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			"Darkvision", 
 			{"name": "Tunnel Fighter", "description": "Add :boost::boost: to combat checks Kennsir Dwarves make in enclosed spaces."}],
@@ -1928,27 +1894,27 @@
 				"qualities": ["Pierce 2"]
 			},
 		],
-		"gear": ["Smokebombs, vials of poison gas."],
+		"gear": ["Smokebombs, vials of poison gas"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", General CR: 3"]
 	},
 	{
 		"name": "Kobold",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0,0]
 		},
-		"skills": ["Brawl","Melee: Light","Skulduggery."],
-		"talents": ],
+		"skills": ["Brawl","Melee: Light","Skulduggery"],
+		"talents": [],
 		"abilities": [
 			{"name": "Not Another!", "description": "In an encounter with any number of kobolds, the GM may spend :threat::threat: from any check made by a PC to add one kobold to an existing minion group, or spend :despair: to add a new minion group of three kobolds to the encounter."}, "Silhouette 0"],
 		"weapons": [
@@ -1965,8 +1931,7 @@
 				"skill": "Melee: Light",
 				"damage": 4,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
 		"gear": [],
@@ -1976,28 +1941,27 @@
 		"name": "Lava Elemental",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Vigilance": 2
 		},
-		"talents": ],
+		"talents": [],
 		"abilities": [
 			"Amorphous", 
-			{"name": "Inconspicuous", "description": "A lava elemental in a natural pool of molten rock appears indistinguishable from ordinary lava; a character can make a :hard: Perception or Vigilance check to identify a lava elemental."}],
+			"Inconspicuous"],
 		"weapons": [
 			{
 				"name": "Pseudopods",
@@ -2005,7 +1969,7 @@
 				"damage": 7,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Burn 2","Sunder."]
+				"qualities": ["Burn 2","Sunder"]
 			},
 			{
 				"name": "Lava Projectile",
@@ -2023,22 +1987,21 @@
 		"name": "Leonx",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Swift"],
@@ -2061,24 +2024,23 @@
 		"name": "Leonx Rider",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 15,
+			"defence": [2,1]
 		},
 		"skills": {
 			"Cool": 2,
-			"Melee: Heavy": 2
+			"Melee: Heavy": 2,
 			"Riding": 2,
-			"Survival": 2
+			"Survival": 2,
 			"Vigilance": 2
 		},
 		"talents": [],
@@ -2091,7 +2053,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Accurate 1","Defensive 1,"]
+				"qualities": ["Accurate 1","Defensive 1"]
 			},
 		],
 		"gear": ["Leather Armor: +1 soak, Leonx see page 180"],
@@ -2101,28 +2063,28 @@
 		"name": "Lord Of Bilehall",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Arcana": 3,
-			"Brawl": 2
+			"Brawl": 2,
 			"Charm": 3,
-			"Cool": 3
-			"Discipline": 3
-			"Knowledge: Forbidden": 5
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Forbidden": 5,
 			"Negotiation": 3,
-			"Ranged": 3
+			"Ranged": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2","Dark Insight"],
@@ -2145,26 +2107,26 @@
 				"qualities": ["Ensnare 1","Vicious 2"]
 			},
 		],
-		"gear": ["Magic Staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty."],
+		"gear": ["Magic Staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 5", General CR: 7"]
 	},
 	{
 		"name": "Lorimor Marine",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1,0]
 		},
-		"skills": ["Athletics","Cool","Melee: Light."],
+		"skills": ["Athletics","Cool","Melee: Light"],
 		"talents": [],
 		"abilities": [
 			{"name": "Sea Legs", "description": "A Lorimor marine does not add :setback: to checks due to unstable footing on a ship or boat, or in a similar environment."}],
@@ -2178,31 +2140,30 @@
 				"qualities": ["Defensive 1"]
 			},
 		],
-		"gear": ["Scale Breastplate: +1 soak."],
+		"gear": ["Scale Breastplate: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
 		"name": "Lost Knight",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 15,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Melee: Light": 3,
-			"Resilience": 2
+			"Resilience": 2,
 			"Survival": 1
 		},
 		"talents": [],
@@ -2218,25 +2179,24 @@
 				"qualities": ["Defensive 1"]
 			},
 		],
-		"gear": ["heraldic plate armor +2 soak, +1 defense."],
+		"gear": ["Heraldic plate armor (+2 soak, +1 defense)"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", General CR: 2"]
 	},
 	{
 		"name": "Magistrate Edmin Cawl",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 1,
@@ -2250,27 +2210,27 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["Fine clothing, sash of office."],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", General CR: 2"]
+		"gear": ["Fine clothing, sash of office"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", General CR:TBD"]
 	},
 	{
 		"name": "Makhim",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 6,
+			"defence": [0,0]
 		},
-		"skills": ["Brawl","Ranged","Survival","Stealth","Vigilance."],
-		"talents": ],
+		"skills": ["Brawl","Ranged","Survival","Stealth","Vigilance"],
+		"talents": [],
 		"abilities": [
 			"Multiattack"],
 		"weapons": [
@@ -2306,22 +2266,22 @@
 		"name": "Manticore",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 21,
+			"strain": 19,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 3
+			"Brawl": 3,
 			"Ranged": 2
 		},
 		"talents": [],
@@ -2333,8 +2293,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 			{
 				"name": "Tail Stinger",
@@ -2352,24 +2311,24 @@
 		"name": "Mavaris Skain, Necromancer",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 13,
+			"strain": 17,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 3,
-			"Cool": 2
-			"Discipline": 2
-			"Knowledge: Forbidden": 3
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Forbidden": 3,
 			"Melee: Light": 1,
 			"Vigilance": 1
 		},
@@ -2380,8 +2339,6 @@
 			{"name": "Spells| Wilt", "description": "Choose two targets within short range and make an :average: Arcana check; if the check succeeds, Skain can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."}, 
 			{"name": "Spells| Wall of Bones", "description": "Make a :hard: Arcana check; if the check succeeds, Skain reduces the damage of all hits he suffers by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting Skain generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; Skain may perform the concentrate maneuver to maintain the effects of this barrier."}],
 		"weapons": [
-		],
-		"gear": ["One Staff: Add +4 damage to magic attacks and first Range effect does not increase difficulty; heal 1 wound after damaging a target with a spell.",
 			{
 				"name": "Sacrificial Dagger",
 				"skill": "Melee: Light",
@@ -2389,36 +2346,38 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Accurate 1","Vicious 1"]
-			},"Sacrificial Dagger: Melee: Light; Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to curse spells with no increase in difficulty."],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 1", General CR: 1"]
+			}
+		],
+		"gear": ["One Staff: Add +4 damage to magic attacks and first Range effect does not increase difficulty; heal 1 wound after damaging a target with a spell.", "Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to curse spells with no increase in difficulty"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", General CR:TBD"]
 	},
 	{
 		"name": "Merriod",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 22,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 4,
-			"Brawl": 3
+			"Brawl": 3,
 			"Stealth": 2,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
 		"abilities": [
 			"Amphibious", 
-			{"name": "Monstrous Limbs", "description": "A merriod does not increase the difficulty of combined checks to attack with its claws, tentacles, and jaws, and may spend :advantage::advantage: or :triumph: to hit with each additional weapon."}, "Silhouette 2", 
+			{"name": "Monstrous Limbs", "description": "A merriod does not increase the difficulty of combined checks to attack with its claws, tentacles, and jaws, and may spend :advantage::advantage: or :triumph: to hit with each additional weapon."}, "Multiattack","Silhouette 2", 
 			"Terrifying 3"],
 		"weapons": [
 			{
@@ -2435,7 +2394,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Short",
-				"qualities": ["Ensnare 3","Linked 1,"]
+				"qualities": ["Ensnare 3","Linked 1"]
 			},
 			{
 				"name": "Jaws",
@@ -2447,24 +2406,24 @@
 			},
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 1", General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", General CR:TBD"]
 	},
 	{
 		"name": "Minor Elemental",
+		"note": "I might need to separate these into different elements",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
 		},
 		"skills": {
 			"Brawl": 2,
@@ -2475,7 +2434,7 @@
 		"talents": [],
 		"abilities": [
 			"Amorphous", 
-			{"name": "Inconspicuous", "description": "A minor elemental in a natural environment appears indistinguishable from an ordinary example of its element; a character can make a :hard: Perception or Vigilance check to identify a minor elemental."}],
+			"Inconspicuous"],
 		"weapons": [
 			{
 				"name": "Pseudopods",
@@ -2493,24 +2452,23 @@
 		"name": "Naga Priestess",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 16,
+			"defence": [4,4]
 		},
 		"skills": {
 			"Brawl": 2,
-			"Charm": 3
+			"Charm": 3,
 			"Cool": 3,
-			"Coordination": 4
+			"Coordination": 4,
 			"Leadership": 3
 		},
 		"talents": ["Adversary 1"],
@@ -2523,13 +2481,15 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 2,
-				"range": "[Engaged]",
-				"qualities": ["Pierce 1","Vicious 2"]
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 2"],
+				"notes": "A character wounded by this weapon by make a :hard: Resilience check or suffer 4 additional wounds, and must check again on their net turn if the check generates :despair:"
 			},
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 5", General CR: 3"]
 	},
+	XXXXXXXXXXX=========>>>>>>>>><<<<<<<<<<<<<<
 	{
 		"name": "Necromancer",
 		"type": "Nemesis",
@@ -2549,8 +2509,8 @@
 		},
 		"skills": {
 			"Arcana": 3,
-			"Cool": 2
-			"Discipline": 2
+			"Cool": 2,
+			"Discipline": 2,
 			"Knowledge: Forbidden": 3,
 			"Melee: Light": 1,
 			"Vigilance": 1
@@ -2571,7 +2531,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Accurate 1","Vicious 1;"]
-			},"Ceremonial Dagger: Melee: Light; Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1;","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty."],
+			},"Ceremonial Dagger: Melee: Light; Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1;","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", General CR: 6"]
 	},
 	{
@@ -2592,7 +2552,7 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Athletics": 2
+			"Athletics": 2,
 			"Melee: Heavy": 2,
 			"Perception": 1,
 			"Ranged": 2
@@ -2607,8 +2567,7 @@
 				"skill": "Melee",
 				"damage": 10,
 				"critical": 4,
-				"range": "Engaged, Disorient 2, Knockdown.
-",
+				"range": "Engaged, Disorient 2, Knockdown."
 				},
 			{
 				"name": "Spiked Chain",
@@ -2619,7 +2578,7 @@
 				"qualities": ["Ensnare 2","Knockdown."]
 			},
 		],
-		"gear": ["Scavenged Armor: +2 soak."],
+		"gear": ["Scavenged Armor: +2 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 1", General CR: 2"]
 	},
 	{
@@ -2641,9 +2600,9 @@
 		},
 		"skills": {
 			"Leadership": 2,
-			"Melee": 2
+			"Melee": 2,
 			"Knowledge: Lore": 3,
-			"Primal": 3
+			"Primal": 3,
 			"Survival": 3,
 			"Vigilance": 2
 		},
@@ -2662,7 +2621,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},"Hatchet: Melee: Light; Damage 5; Critical 3; Range (Engaged); Vicious 1","Bark Cloak: +1 defense."],
+			},"Hatchet: Melee: Light; Damage 5; Critical 3; Range (Engaged); Vicious 1","Bark Cloak: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", General CR: 3"]
 	},
 	{
@@ -2696,8 +2655,7 @@
 				"skill": "Ranged",
 				"damage": 7,
 				"critical": 3,
-				"range": "Accurate 1, Limited Ammo 1
-",
+				"range": "Accurate 1, Limited Ammo 1"
 				},
 			{
 				"name": "Axe",
@@ -2708,7 +2666,7 @@
 				"qualities": ["Vicious 1"]
 			},
 		],
-		"gear": ["Leather Armor: +1 soak.","Extra spears.","Armored Gurak Tol mount."],
+		"gear": ["Leather Armor: +1 soak.","Extra spears.","Armored Gurak Tol mount"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -2741,7 +2699,7 @@
 			{"name": "Spells| Ancestral Strength", "description": "The spiritspeaker chooses two allies within short range and makes a :hard: Primal check. If the check is successful, the spiritspeaker may affect additional targets in range by spending :advantage: for each additional target. Targets affected by this spell increase the ability of skill checks they make until the end of the spiritspeaker’s next turn by one. The spiritspeaker may sustain the effects of this spell by performing the concentrate maneuver."}],
 		"weapons": [
 		],
-		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty.","Beast-Hide Robes: +1 defense."],
+		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty.","Beast-Hide Robes: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", General CR: 3"]
 	},
 	{
@@ -2760,7 +2718,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Brawl","Cool","Coordination","Melee: Light."],
+		"skills": ["Brawl","Cool","Coordination","Melee: Light"],
 		"talents": ["Quick Draw"],
 		"abilities": [],
 		"weapons": [
@@ -2795,9 +2753,9 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Divine": 2,
-			"Knowledge: Lore": 3
+			"Knowledge: Lore": 3,
 			"Melee: Light": 2,
 			"Vigilance": 1
 		},
@@ -2812,11 +2770,10 @@
 				"skill": "Melee: Light",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Heavy Robes: +1 defense."],
+		"gear": ["Heavy Robes: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 3", General CR: 2"]
 	},
 	{
@@ -2838,7 +2795,7 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coordination": 2
+			"Coordination": 2,
 			"Perception": 2,
 			"Vigilance": 3
 		},
@@ -2852,8 +2809,7 @@
 				"skill": "Brawl",
 				"damage": 6,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 			{
 				"name": "Buffeting Wings",
@@ -2883,7 +2839,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Melee: Light","Perception","Ranged","Resilience","Vigilance."],
+		"skills": ["Melee: Light","Perception","Ranged","Resilience","Vigilance"],
 		"talents": [],
 		"abilities": [
 			"Undead", 
@@ -2894,19 +2850,17 @@
 				"skill": "Melee",
 				"damage": 5,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 			{
 				"name": "Worn Bow",
 				"skill": "Ranged",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium.
-",
+				"range": "Medium."
 				},
 		],
-		"gear": ["Antique Mail: +1 soak."],
+		"gear": ["Antique Mail: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -2928,9 +2882,9 @@
 		},
 		"skills": {
 			"Cool": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Brawl": 3,
-			"Melee: Light": 3
+			"Melee: Light": 3,
 			"Resilience": 3
 		},
 		"talents": ["Adversary 1"],
@@ -2977,7 +2931,7 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Resilience": 3
+			"Resilience": 3,
 			"Survival": 2,
 			"Vigilance": 1
 		},
@@ -3085,7 +3039,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Cool","Brawl","Melee: Light","Ranged","Survival","Stealth."],
+		"skills": ["Cool","Brawl","Melee: Light","Ranged","Survival","Stealth"],
 		"talents": ["Swift"],
 		"abilities": [
 			{"name": "Pounce", "description": "May spend :advantage::advantage: from an initiative check to perform a free maneuver before the first round of combat."}],
@@ -3129,9 +3083,9 @@
 		},
 		"skills": {
 			"Cool": 2,
-			"Brawl": 4
+			"Brawl": 4,
 			"Melee: Light": 3,
-			"Ranged": 3
+			"Ranged": 3,
 			"Survival": 3,
 			"Stealth": 3
 		},
@@ -3178,7 +3132,7 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Brawl": 2,
 			"Perception": 3
 		},
@@ -3216,7 +3170,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Melee: Light","Perception","Ranged","Vigilance."],
+		"skills": ["Melee: Light","Perception","Ranged","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -3225,16 +3179,14 @@
 				"skill": "Melee: Light",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 			{
 				"name": "Old Bow",
 				"skill": "Ranged",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium.
-",
+				"range": "Medium."
 				},
 		],
 		"gear": [],
@@ -3259,7 +3211,7 @@
 		},
 		"skills": {
 			"Athletics": 4,
-			"Brawl": 4
+			"Brawl": 4,
 			"Resilience": 4
 		},
 		"talents": ["Swift"],
@@ -3315,9 +3267,9 @@
 		},
 		"skills": {
 			"Coercion": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Melee: Heavy": 3,
-			"Leadership": 2
+			"Leadership": 2,
 			"Resilience": 2
 		},
 		"talents": ["Whirlwind"],
@@ -3333,7 +3285,7 @@
 				"qualities": ["Inaccurate 1","Knockdown","Vicious 2"]
 			},
 		],
-		"gear": ["Stolen Patchwork Armor: +1 soak."],
+		"gear": ["Stolen Patchwork Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -3355,7 +3307,7 @@
 		},
 		"skills": {
 			"Arcana": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Discipline": 2,
 			"Knowledge: Lore": 4
 		},
@@ -3368,7 +3320,7 @@
 			{"name": "Spells| Squall", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:. The storm sorceress may spend :advantage: on the check to move the target or a character engaged with the target up to one range band in any direction."}],
 		"weapons": [
 		],
-		"gear": ["Magic Staff: The first Range effect added to a spell does not increase its difficulty; increase damage of Attack spells by +4","Robes: +1 defense."],
+		"gear": ["Magic Staff: The first Range effect added to a spell does not increase its difficulty; increase damage of Attack spells by +4","Robes: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 4", General CR: 5"]
 	},
 	{
@@ -3390,7 +3342,7 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Deception": 2,
 			"Melee: Light": 3
 		},
@@ -3404,10 +3356,10 @@
 				"damage": 5,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Defensive 1","Pierce 3,"]
+				"qualities": ["Defensive 1","Pierce 3"]
 			},
 		],
-		"gear": ["Fancy clothes."],
+		"gear": ["Fancy clothes"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", General CR: 1"]
 	},
 	{
@@ -3429,9 +3381,9 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Deception": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Negotiation": 3
 		},
 		"talents": [],
@@ -3443,11 +3395,10 @@
 				"skill": "Melee: Light",
 				"damage": 4,
 				"critical": 3,
-				"range": "Engaged,
-",
+				"range": "Engaged,"
 				},
 		],
-		"gear": ["Fine clothing."],
+		"gear": ["Fine clothing"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 5", General CR: 4"]
 	},
 	{
@@ -3469,9 +3420,9 @@
 		},
 		"skills": {
 			"Cool": 2,
-			"Coordination": 2
+			"Coordination": 2,
 			"Deception": 2,
-			"Melee: Light": 2
+			"Melee: Light": 2,
 			"Skulduggery": 3,
 			"Stealth": 3
 		},
@@ -3571,7 +3522,7 @@
 		},
 		"skills": {
 			"Cool": 2,
-			"Ranged": 3
+			"Ranged": 3,
 			"Stealth": 2
 		},
 		"talents": [],
@@ -3587,7 +3538,7 @@
 				"qualities": ["Unwieldy 3"]
 			},
 		],
-		"gear": ["Leather Armor: +1 soak."],
+		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 4", General CR: 6"]
 	},
 	{
@@ -3606,7 +3557,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Cool","Brawl","Melee: Light","Resilience."],
+		"skills": ["Cool","Brawl","Melee: Light","Resilience"],
 		"talents": [],
 		"abilities": [
 			{"name": "Aggressive Fighter", "description": "Weik warriors add :advantage: to combined checks they make to attack with two melee weapons."}],
@@ -3658,9 +3609,9 @@
 		},
 		"skills": {
 			"Athletics": 4,
-			"Brawl": 4
+			"Brawl": 4,
 			"Coercion": 4,
-			"Resilience": 4
+			"Resilience": 4,
 			"Stealth": 3,
 			"Vigilance": 3
 		},
@@ -3709,8 +3660,8 @@
 		},
 		"skills": {
 			"Divine": 3,
-			"Cool": 1
-			"Knowledge: Forbidden": 3
+			"Cool": 1,
+			"Knowledge: Forbidden": 3,
 			"Melee: Light": 1
 		},
 		"talents": ["Adversary 1","Dark Insight"],
@@ -3730,7 +3681,7 @@
 				"qualities": ["Vicious 1"]
 			},
 		],
-		"gear": ["Bone Armor: +1 soak."],
+		"gear": ["Bone Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", General CR: 3"]
 	},
 	{
@@ -3752,7 +3703,7 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Discipline": 2,
 			"Ranged": 1
 		},
@@ -3768,7 +3719,7 @@
 				"damage": 2,
 				"critical": 1,
 				"range": "Engaged",
-				"qualities": ["Breach 1","Stun Damage,"]
+				"qualities": ["Breach 1","Stun Damage"]
 			},
 			{
 				"name": "Wailing Cry",
@@ -3801,7 +3752,7 @@
 		},
 		"skills": {
 			"Brawl": 4,
-			"Discipline": 3
+			"Discipline": 3,
 			"Resilience": 4,
 			"Vigilance": 2
 		},
@@ -3849,11 +3800,11 @@
 		},
 		"skills": {
 			"Arcana": 1,
-			"Brawl": 2
+			"Brawl": 2,
 			"Cool": 3,
-			"Ranged": 2
+			"Ranged": 2,
 			"Resilience": 2,
-			"Runes": 1
+			"Runes": 1,
 			"Vigilance": 3
 		},
 		"talents": ["Swift"],
@@ -3900,11 +3851,11 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Coercion": 4,
-			"Leadership": 3
+			"Leadership": 3,
 			"Melee": 4,
-			"Ranged: Light": 3
+			"Ranged: Light": 3,
 			"Streetwise": 4,
 			"Vigilance": 2
 		},
@@ -3949,10 +3900,10 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Mechanics."],
+		"skills": ["Athletics","Mechanics"],
 		"talents": [],
 		"abilities": [
-			{"name": "Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."}],
+			"Bioroid"],
 		"weapons": [
 		],
 		"gear": [],
@@ -3977,18 +3928,18 @@
 		},
 		"skills": {
 			"Charm": 4,
-			"Cool": 4
+			"Cool": 4,
 			"Coordination": 2,
-			"Deception": 3
+			"Deception": 3,
 			"Knowledge: Society": 3,
 			"Perception": 2
 		},
 		"talents": ["Natural"],
 		"abilities": [
-			{"name": "Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."}],
+			"Bioroid"],
 		"weapons": [
 		],
-		"gear": ["Fuzzy restraints."],
+		"gear": ["Fuzzy restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 5", General CR: 3"]
 	},
 	{
@@ -4009,12 +3960,12 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Athletics": 3
+			"Athletics": 3,
 			"Computers: Hacking": 2,
 			"Cool": 4,
-			"Knowledge: The Net": 2
+			"Knowledge: The Net": 2,
 			"Skulduggery": 4,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 1
 		},
 		"talents": ["Distinctive Style"],
@@ -4038,7 +3989,7 @@
 				"qualities": ["Blast 7","Burn 3"]
 			},
 		],
-		"gear": ["Skulljack, Portable Terminal with Crypsis (SotB p. 137)-protected by Hadrian's Wall (SotB p. 133)."],
+		"gear": ["Skulljack, Portable Terminal with Crypsis (SotB p. 137)-protected by Hadrian's Wall (SotB p. 133)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", General CR: 7"]
 	},
 	{
@@ -4062,14 +4013,14 @@
 			"Brawl": 4,
 			"Coercion": 5,
 			"Coordination": 2,
-			"Discipline": 3
+			"Discipline": 3,
 			"Gunnery": 4,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2","Grenadier"],
 		"abilities": [
-			{"name": "Combat Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins."}, 
+			"Mechanical", 
 			{"name": "Enhanced Auto-Bracing", "description": "Using the Auto-fire quality does not increase the difficulty of combat checks; each time the Ares triggers and additional hit, it suffers 1 strain."}],
 		"weapons": [
 			{
@@ -4105,7 +4056,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Concussive 1","Knockdown","Sunder."]
-			},"Armored Fist: Brawl; Damage 8; Critical 4; Range (Engaged); Concussive 1, Knockdown, Sunder."],
+			},"Armored Fist: Brawl; Damage 8; Critical 4; Range (Engaged); Concussive 1, Knockdown, Sunder"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:15", "Social CR: 3", General CR: 4"]
 	},
 	{
@@ -4127,11 +4078,11 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 3
+			"Coercion": 3,
 			"Cool": 2,
-			"Deception": 1
+			"Deception": 1,
 			"Knowledge: Society": 2,
-			"Melee": 2
+			"Melee": 2,
 			"Negotiation": 3,
 			"Perception": 2
 		},
@@ -4148,7 +4099,7 @@
 				"qualities": ["Disorient 3","Stun Damage."]
 			},
 		],
-		"gear": ["Legal PAD, expensive suit."],
+		"gear": ["Legal PAD, expensive suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", General CR: 3"]
 	},
 	{
@@ -4169,13 +4120,13 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Cool": 4
-			"Computers: Hacking": 2
-			"Computers: Sysops": 5
-			"Knowledge: Society": 4
-			"Knowledge: The Net": 4
+			"Cool": 4,
+			"Computers: Hacking": 2,
+			"Computers: Sysops": 5,
+			"Knowledge: Society": 4,
+			"Knowledge: The Net": 4,
 			"Perception": 3,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 3
 		},
 		"talents": ["Nethunter","Snare"],
@@ -4203,7 +4154,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Perception","Vigilance."],
+		"skills": ["Perception","Vigilance"],
 		"talents": [],
 		"abilities": [
 			{"name": "Early Warning", "description": "Adds :boost: to its operator's checks to determine Initiative."}, 
@@ -4233,14 +4184,14 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Sysops": 2
+			"Computers: Sysops": 2,
 			"Deception": 2,
-			"Discipline": 4
-			"Knowledge: Science": 2
+			"Discipline": 4,
+			"Knowledge: Science": 2,
 			"Knowledge: Society": 2,
 			"Perception": 2,
 			"Ranged: Light": 1,
-			"Streetwise": 1
+			"Streetwise": 1,
 			"Vigilance": 4
 		},
 		"talents": ["Adversary 2","Probing Question"],
@@ -4258,7 +4209,7 @@
 				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
 			},
 		],
-		"gear": ["Trenchcoat, NAPD badge, restraints."],
+		"gear": ["Trenchcoat, NAPD badge, restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 8", General CR: 5"]
 	},
 	{
@@ -4317,7 +4268,7 @@
 			"Deception": 2,
 			"Knowledge: Society": 2,
 			"Perception": 3,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Clever Retort","Customer Service"],
@@ -4333,7 +4284,7 @@
 				"qualities": ["Disorient 3","Stun Damage."]
 			},
 		],
-		"gear": ["PAD, bouncers."],
+		"gear": ["PAD, bouncers"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", General CR: 4"]
 	},
 	{
@@ -4352,7 +4303,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Perception","Ranged: Light."],
+		"skills": ["Perception","Ranged: Light"],
 		"talents": [],
 		"abilities": [
 			"Flyer", 
@@ -4444,7 +4395,7 @@
 			{"name": "Office Drone", "description": "When this character makes a social skill check, they add :advantage::threat: to the result."}],
 		"weapons": [
 		],
-		"gear": ["Corporate PAD."],
+		"gear": ["Corporate PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -4470,7 +4421,7 @@
 			"Deception": 2,
 			"Knowledge: Society": 1,
 			"Leadership": 3,
-			"Negotiation": 2
+			"Negotiation": 2,
 			"Perception": 2
 		},
 		"talents": [],
@@ -4499,7 +4450,7 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Sysops": 2
+			"Computers: Sysops": 2,
 			"Knowledge: The Net": 2,
 			"Mechanics": 1,
 			"Perception": 1,
@@ -4510,7 +4461,7 @@
 			{"name": "Reinforce", "description": "As a maneuver, may increase the strength of one active piece of ice by 1 until the end of the corporate sysop's next turn."}],
 		"weapons": [
 		],
-		"gear": [" PAD, corporate ID, snacks."],
+		"gear": [" PAD, corporate ID, snacks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 2"]
 	},
 	{
@@ -4531,9 +4482,9 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Hacking": 4
+			"Computers: Hacking": 4,
 			"Computers: Sysops": 2,
-			"Cool": 3
+			"Cool": 3,
 			"Deception": 3,
 			"Knowledge: The Net": 2,
 			"Ranged: Light": 2,
@@ -4576,7 +4527,7 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Perception": 2,
 			"Vigilance": 2
 		},
@@ -4616,13 +4567,13 @@
 		},
 		"skills": {
 			"Athletics": 4,
-			"Cool": 2
+			"Cool": 2,
 			"Coordination": 1,
-			"Deception": 3
+			"Deception": 3,
 			"Melee": 3,
-			"Ranged: Heavy": 4
+			"Ranged: Heavy": 4,
 			"Perception": 3,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Stealth": 3,
 			"Vigilance": 2
 		},
@@ -4646,7 +4597,7 @@
 				"qualities": ["Disorient 3","Stun Damage."]
 			},
 		],
-		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants."],
+		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 2", General CR: 5"]
 	},
 	{
@@ -4668,11 +4619,11 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Coordination": 2
+			"Coordination": 2,
 			"Discipline": 3,
-			"Knowledge: Science": 3
+			"Knowledge: Science": 3,
 			"Knowledge: Society": 3,
-			"Leadership": 3
+			"Leadership": 3,
 			"Medicine": 3
 		},
 		"talents": ["Adversary 1"],
@@ -4680,7 +4631,7 @@
 			{"name": "Expert Instruction", "description": "When this character performs the assist maneuver, upgrade the ability of the check once instead of adding :boost:."}],
 		"weapons": [
 		],
-		"gear": ["Bonsai tree, instructor's holodisplay with full suite of lessons."],
+		"gear": ["Bonsai tree, instructor's holodisplay with full suite of lessons"],
 		"tags": ["source:ADS #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", General CR: 5"]
 	},
 	{
@@ -4699,7 +4650,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Brawl","Coercion","Melee."],
+		"skills": ["Athletics","Brawl","Coercion","Melee"],
 		"talents": ["Berserk"],
 		"abilities": [],
 		"weapons": [
@@ -4740,11 +4691,10 @@
 				"skill": "Melee",
 				"damage": 3,
 				"critical": 4,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Backpack of personal goods."],
+		"gear": ["Backpack of personal goods"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", General CR: 2"]
 	},
 	{
@@ -4766,13 +4716,13 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Mechanics": 3,
-			"Medicine": 2
+			"Medicine": 2,
 			"Melee": 1,
-			"Perception": 3
+			"Perception": 3,
 			"Ranged: Light": 3,
-			"Streetwise": 2
+			"Streetwise": 2,
 			"Survival": 2,
 			"Vigilance": 1
 		},
@@ -4784,8 +4734,7 @@
 				"skill": "Ranged: Light",
 				"damage": 7,
 				"critical": 3,
-				"range": "Medium, Inaccurate 1, Limited Ammo 4
-",
+				"range": "Medium, Inaccurate 1, Limited Ammo 4"
 				},
 		],
 		"gear": ["Backpack full of supplies, medical kit, rope, flashlight"],
@@ -4810,11 +4759,11 @@
 		},
 		"skills": {
 			"Coercion": 5,
-			"Cool": 1
+			"Cool": 1,
 			"Discipline": 4,
-			"Deception": 2
+			"Deception": 2,
 			"Leadership": 2,
-			"Negotiation": 2
+			"Negotiation": 2,
 			"Perception": 3,
 			"Streetwise": 3
 		},
@@ -4824,7 +4773,7 @@
 			{"name": "That's a Nice Home You Have There", "description": "Once per encounter, may make an opposed Coercion versus Vigilance check targeting one other character in the current encounter; if successful, the target suffers 2 strain per :success:; may spend :advantage::advantage: to affect one additional character in the current encounter and have them suffer and equal amount of strain, and spend :triumph: to stagger one affected target until the end of this character's next turn."}],
 		"weapons": [
 		],
-		"gear": ["Smart business suit, PAD loaded with contact information for "freelance contractors"."],
+		"gear": ["Smart business suit, PAD loaded with contact information for "freelance contractors""],
 		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 8", General CR: 6"]
 	},
 	{
@@ -4845,7 +4794,7 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Athletics": 1
+			"Athletics": 1,
 			"Knowledge: Science": 2,
 			"Medicine": 3,
 			"Perception": 1,
@@ -4863,7 +4812,7 @@
 				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
 			},
 		],
-		"gear": ["Medkit, medical scanner PAD, 2 slap-patches."],
+		"gear": ["Medkit, medical scanner PAD, 2 slap-patches"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -4884,14 +4833,14 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Hacking": 3
+			"Computers: Hacking": 3,
 			"Computers: Sysops": 3,
 			"Gunnery": 2,
-			"Knowledge: The Net": 3
+			"Knowledge: The Net": 3,
 			"Perception": 2,
-			"Piloting": 2
+			"Piloting": 2,
 			"Ranged: Light": 2,
-			"Stealth": 2
+			"Stealth": 2,
 			"Survival": 2
 		},
 		"talents": ["Adversary 2","Drone Master"],
@@ -4907,7 +4856,7 @@
 				"qualities": ["Accurate 1","Burn 1"]
 			},
 		],
-		"gear": ["Skin Suit: 2 defense, +2 soak, +2 wound threshold.","Up to four drones of various types","Encrypted suit rig with BMI with Corroder (SotB p. 136) and Crypsis (SotB p 137)-protected by Archer (SotB p. 134) and Ice Wall (SotB p. 134)."],
+		"gear": ["Skin Suit: 2 defense, +2 soak, +2 wound threshold.","Up to four drones of various types","Encrypted suit rig with BMI with Corroder (SotB p. 136) and Crypsis (SotB p 137)-protected by Archer (SotB p. 134) and Ice Wall (SotB p. 134)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 2", General CR: 7"]
 	},
 	{
@@ -4929,9 +4878,9 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Discipline": 1,
-			"Ranged Heavy": 2
+			"Ranged Heavy": 2,
 			"Ranged: Light": 2,
 			"Vigilance": 1
 		},
@@ -4963,7 +4912,7 @@
 				"qualities": ["Disorient 3","Knockdown."]
 			},
 		],
-		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour."],
+		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour"],
 		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -4985,9 +4934,9 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Coercion": 2
+			"Coercion": 2,
 			"Cool": 4,
-			"Deception": 2
+			"Deception": 2,
 			"Knowledge: Society": 2,
 			"Vigilance": 3
 		},
@@ -4996,7 +4945,7 @@
 			"Leading Question"],
 		"weapons": [
 		],
-		"gear": ["Light "Bulletproof" Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit."],
+		"gear": ["Light "Bulletproof" Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", General CR: 3"]
 	},
 	{
@@ -5028,7 +4977,7 @@
 		},
 		"talents": ["Adversary 2","Good Cop 2"],
 		"abilities": [
-			{"name": "Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."}, 
+			"Bioroid", 
 			{"name": "Non-Lethal Apprehension", "description": "Only needs to spend :advantage: to trigger Disorient, Knockdown, and Stun qualities."}],
 		"weapons": [
 			{
@@ -5062,10 +5011,10 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
-			"Charm": 4
-			"Computers: Hacking": 3
-			"Deception": 5
+			"Brawl": 2,
+			"Charm": 4,
+			"Computers: Hacking": 3,
+			"Deception": 5,
 			"Knowledge: Society": 1,
 			"Perception": 3,
 			"Ranged: Light": 3,
@@ -5086,7 +5035,7 @@
 				"qualities": ["Accurate 1","Burn 1"]
 			},
 		],
-		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental."],
+		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
 		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", General CR: 5"]
 	},
 	{
@@ -5108,9 +5057,9 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Medicine": 1,
-			"Piloting": 2
+			"Piloting": 2,
 			"Ranged: Light": 2,
 			"Vigilance": 3
 		},
@@ -5135,7 +5084,7 @@
 				"qualities": ["Stun 3"]
 			},
 		],
-		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD, 1 slap-patch."],
+		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD, 1 slap-patch"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", General CR: 2"]
 	},
 	{
@@ -5194,7 +5143,7 @@
 		},
 		"skills": {
 			"Cool": 3,
-			"Computers": 2
+			"Computers": 2,
 			"Mechanics": 1,
 			"Piloting": 2
 		},
@@ -5202,7 +5151,7 @@
 		"abilities": ["None"],
 		"weapons": [
 		],
-		"gear": ["Custom computer terminal, energy drinks."],
+		"gear": ["Custom computer terminal, energy drinks"],
 		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -5224,9 +5173,9 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Cool": 4
+			"Cool": 4,
 			"Coordination": 2,
-			"Perception": 2
+			"Perception": 2,
 			"Stealth": 5,
 			"Vigilance": 4
 		},
@@ -5264,13 +5213,13 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Mechanics","Resilience."],
+		"skills": ["Athletics","Mechanics","Resilience"],
 		"talents": [],
 		"abilities": [
 			{"name": "Air Filter Implant", "description": "Immune to inhaled poisons and toxins."}],
 		"weapons": [
 		],
-		"gear": ["Durable Clothing: +1 Soak."],
+		"gear": ["Durable Clothing: +1 Soak"],
 		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -5289,7 +5238,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Coercion","Melee","Vigilance."],
+		"skills": ["Coercion","Melee","Vigilance"],
 		"talents": [],
 		"abilities": [
 			"Mob Mentality"],
@@ -5303,7 +5252,7 @@
 				"qualities": ["Knockdown."]
 			},
 		],
-		"gear": ["Durable clothing: +1 soak."],
+		"gear": ["Durable clothing: +1 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -5325,7 +5274,7 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Negotiation": 2,
 			"Streetwise": 2
 		},
@@ -5334,7 +5283,7 @@
 			{"name": "Rile Them Up", "description": "Once per encounter, may make an :average: Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional :success:) becomes a Human First Extremist; these NPCs for a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along."}],
 		"weapons": [
 		],
-		"gear": ["PAD."],
+		"gear": ["PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", General CR: 1"]
 	},
 	{
@@ -5356,7 +5305,7 @@
 		},
 		"skills": {
 			"Coordination": 1,
-			"Perception": 2
+			"Perception": 2,
 			"Gunnery": 1,
 			"Vigilance": 2
 		},
@@ -5413,9 +5362,9 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Coordination": 2
+			"Coordination": 2,
 			"Stealth": 1,
-			"Resilience": 3
+			"Resilience": 3,
 			"Survival": 3
 		},
 		"talents": [],
@@ -5453,16 +5402,16 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Athletics": 1
-			"Computers: Hacking": 3
-			"Computers: Sysops": 3
-			"Deception": 2
-			"Knowledge: The Net": 3
-			"Knowledge: Society": 3
+			"Athletics": 1,
+			"Computers: Hacking": 3,
+			"Computers: Sysops": 3,
+			"Deception": 2,
+			"Knowledge: The Net": 3,
+			"Knowledge: Society": 3,
 			"Perception": 2,
-			"Ranged: Light": 2
+			"Ranged: Light": 2,
 			"Skulduggery": 2,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1","Determined Hunter","Improved Defensive Sysops"],
@@ -5474,8 +5423,7 @@
 				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium.
-",
+				"range": "Medium."
 				},
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","PAD, customized cyber rig, NAPD badge"],
@@ -5501,7 +5449,7 @@
 		"skills": {
 			"Charm": 5,
 			"Cool": 4,
-			"Knowledge: Society": 3
+			"Knowledge: Society": 3,
 			"Leadership": 3,
 			"Negotiation": 4,
 			"Vigilance": 2
@@ -5512,7 +5460,7 @@
 			{"name": "Nice Guy", "description": "After targeting this character with a Coercion or Deception check, if the check generated uncancelled :threat:, double the amount of :threat: generated."}],
 		"weapons": [
 		],
-		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth."],
+		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth"],
 		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 10", General CR: 3"]
 	},
 	{
@@ -5533,11 +5481,11 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Hacking": 4
+			"Computers: Hacking": 4,
 			"Computers: Sysops": 1,
-			"Cool": 2
+			"Cool": 2,
 			"Deception": 3,
-			"Operating": 2
+			"Operating": 2,
 			"Resilience": 3
 		},
 		"talents": ["Burn Through","Net Warrior"],
@@ -5551,11 +5499,10 @@
 				"skill": "Ranged: Light",
 				"damage": 5,
 				"critical": 4,
-				"range": "Short.
-",
+				"range": "Short."
 				},
 		],
-		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)."],
+		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)"],
 		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", General CR: 8"]
 	},
 	{
@@ -5583,7 +5530,7 @@
 			"Knowledge: Society": 2,
 			"Perception": 2,
 			"Piloting": 4,
-			"Stealth": 1
+			"Stealth": 1,
 			"Streetwise": 2,
 			"Vigilance": 2
 		},
@@ -5592,7 +5539,7 @@
 			{"name": "Max Throttle", "description": "When piloting or driving a vehicle, its max speed is increased by 1"}],
 		"weapons": [
 		],
-		"gear": ["Flight suit, leather jacket, custom hopper (use luxury hopper profile (page 113 SotB) with encumbrance capacity 40, hopperbike."],
+		"gear": ["Flight suit, leather jacket, custom hopper (use luxury hopper profile (page 113 SotB) with encumbrance capacity 40, hopperbike"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", General CR: 6"]
 	},
 	{
@@ -5614,8 +5561,8 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Cool": 1
-			"Knowledge: Science": 2
+			"Cool": 1,
+			"Knowledge: Science": 2,
 			"Knowledge: Society": 3,
 			"Negotiation": 3,
 			"Streetwise": 1
@@ -5624,7 +5571,7 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["Legal PAD."],
+		"gear": ["Legal PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", General CR: 3"]
 	},
 	{
@@ -5646,11 +5593,11 @@
 		},
 		"skills": {
 			"Charm": 4,
-			"Cool": 3
+			"Cool": 3,
 			"Deception": 2,
 			"Knowledge: Society": 3,
 			"Leadership": 1,
-			"Perception": 3
+			"Perception": 3,
 			"Streetwise": 2,
 			"Vigilance": 3
 		},
@@ -5681,10 +5628,10 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 4
+			"Brawl": 4,
 			"Coercion": 4,
-			"Cool": 2
-			"Discipline": 4
+			"Cool": 2,
+			"Discipline": 4,
 			"Knowledge: Society": 3,
 			"Leadership": 3,
 			"Perception": 2,
@@ -5728,11 +5675,10 @@
 				"skill": "Brawl: Damage 5",
 				"damage": 3,
 				"critical": (Engaged),
-				"range": "Disorient 1, Knockdown, Sunder.
-",
+				"range": "Disorient 1, Knockdown, Sunder."
 				},
 		],
-		"gear": ["Trenchcoat with hidden pockets and holsters: +1 soak.","Cocktail dress."],
+		"gear": ["Trenchcoat with hidden pockets and holsters: +1 soak.","Cocktail dress"],
 		"tags": ["source:U", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", General CR: 4"]
 	},
 	{
@@ -5754,9 +5700,9 @@
 		},
 		"skills": {
 			"Cool": 2,
-			"Leadership": 3
+			"Leadership": 3,
 			"Perception": 2,
-			"Ranged: Heav": 2
+			"Ranged: Heav": 2,
 			"Skulduggery": 1
 		},
 		"talents": ["Inspiring Rhetoric"],
@@ -5771,7 +5717,7 @@
 				"qualities": ["Burn 1","Inferior."]
 			},
 		],
-		"gear": ["Armored Space Suit: +2 soak."],
+		"gear": ["Armored Space Suit: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 3", General CR: 2"]
 	},
 	{
@@ -5790,7 +5736,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Coercion Melee","Ranged: Light","Streetwise","Vigilance."],
+		"skills": ["Coercion Melee","Ranged: Light","Streetwise","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -5811,7 +5757,7 @@
 				"qualities": ["Vicious 1"]
 			},
 		],
-		"gear": ["Aviator glasses."],
+		"gear": ["Aviator glasses"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -5848,7 +5794,7 @@
 				"qualities": ["Inaccurate 1"]
 			},
 		],
-		"gear": ["Integrated construction and repair tools."],
+		"gear": ["Integrated construction and repair tools"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -5870,11 +5816,11 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coercion": 3
+			"Coercion": 3,
 			"Driving": 2,
-			"Knowledge: Science": 1
+			"Knowledge: Science": 1,
 			"Leadership": 3,
-			"Mechanics": 2
+			"Mechanics": 2,
 			"Perception": 2,
 			"Ranged: Light": 1
 		},
@@ -5923,7 +5869,7 @@
 			"Charm": 3,
 			"Cool": 3,
 			"Deception": 4,
-			"Discipline": 2
+			"Discipline": 2,
 			"Leadership": 4,
 			"Negotiation": 4,
 			"Perception": 3,
@@ -5935,7 +5881,7 @@
 			{"name": "Ominous Reputation", "description": "When an opponent targets this character with a check, the opponent suffers 2 strain."}],
 		"weapons": [
 		],
-		"gear": ["Expensive suit with built-in PAD, credstick with unlmited funds, teacup giraffe, personal assistant."],
+		"gear": ["Expensive suit with built-in PAD, credstick with unlmited funds, teacup giraffe, personal assistant"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 11", General CR: 4"]
 	},
 	{
@@ -5957,11 +5903,11 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Cool": 1
+			"Cool": 1,
 			"Melee": 3,
 			"Ranged: Heavy": 3,
 			"Ranged: Light": 2,
-			"Stealth": 2
+			"Stealth": 2,
 			"Survival": 3,
 			"Vigilance": 3
 		},
@@ -5993,7 +5939,7 @@
 				"qualities": ["Vicious 2"]
 			},
 		],
-		"gear": ["Light Body Armor: +2 soak."],
+		"gear": ["Light Body Armor: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", General CR: 3"]
 	},
 	{
@@ -6015,13 +5961,13 @@
 		},
 		"skills": {
 			"Charm": 5,
-			"Cool": 1
+			"Cool": 1,
 			"Deception": 4,
-			"Leadership": 3
+			"Leadership": 3,
 			"Negotiation": 4,
 			"Perception": 1,
 			"Ranged: Light": 2,
-			"Streetwise": 2
+			"Streetwise": 2,
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1","Laugh It Off"],
@@ -6037,7 +5983,7 @@
 				"qualities": ["Inaccurate 1"]
 			},
 		],
-		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside."],
+		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside"],
 		"tags": ["source:U", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", General CR: 3"]
 	},
 	{
@@ -6061,10 +6007,10 @@
 			"Coordination": 3,
 			"Cool": 5,
 			"Deception": 4,
-			"Melee": 2
-			"Ranged: Light": 4
+			"Melee": 2,
+			"Ranged: Light": 4,
 			"Skulduggery": 4,
-			"Stealth": 5
+			"Stealth": 5,
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 2","Unremarkable"],
@@ -6111,14 +6057,14 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Coercion": 4
+			"Coercion": 4,
 			"Cool": 3,
-			"Discipline": 3
-			"Knowledge: Society": 4
+			"Discipline": 3,
+			"Knowledge: Society": 4,
 			"Leadership": 4,
 			"Negotiation": 5,
 			"Perception": 3,
-			"Streetwise": 4
+			"Streetwise": 4,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2","Improved Field Commander"],
@@ -6157,15 +6103,15 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Coercion": 4
+			"Coercion": 4,
 			"Discipline": 3,
-			"Melee": 4
+			"Melee": 4,
 			"Perception": 3,
-			"Driving": 3
-			"Ranged: Light": 5
-			"Ranged: Heavy": 5
+			"Driving": 3,
+			"Ranged: Light": 5,
+			"Ranged: Heavy": 5,
 			"Skulduggery": 4,
-			"Stealth": 4
+			"Stealth": 4,
 			"Streetwise": 4,
 			"Vigilance": 3
 		},
@@ -6187,8 +6133,7 @@
 				"skill": "Ranged: Heavy",
 				"damage": 10,
 				"critical": 2, Range (Extreme),
-				"range": "Cumbersome 3, Pierce 5, Slow-Firing 1, reduce difficulty of combat checks made at long and extreme range by 1
-",
+				"range": "Cumbersome 3, Pierce 5, Slow-Firing 1, reduce difficulty of combat checks made at long and extreme range by 1"
 				},
 		],
 		"gear": ["Suit with reinforced fiber weave: +1 soak","Camdrone, PAD, credstick with untraceable fund account"],
@@ -6213,11 +6158,11 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Coercion": 3
+			"Coercion": 3,
 			"Cool": 2,
-			"Knowledge: Science": 2
+			"Knowledge: Science": 2,
 			"Perception": 3,
-			"Ranged: Light": 2
+			"Ranged: Light": 2,
 			"Vigilance": 3
 		},
 		"talents": ["Good and Bad Cop"],
@@ -6233,7 +6178,7 @@
 				"qualities": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage."]
 			},
 		],
-		"gear": ["2 snap locks, pocket flask, NAPD PAD."],
+		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 4", General CR: 4"]
 	},
 	{
@@ -6255,9 +6200,9 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Discipline": 1
+			"Discipline": 1,
 			"Perception": 4,
-			"Resilience": 2
+			"Resilience": 2,
 			"Survival": 3
 		},
 		"talents": [],
@@ -6291,7 +6236,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Coercion","Leadership","Melee","Ranged: Light","Vigilance."],
+		"skills": ["Athletics","Coercion","Leadership","Melee","Ranged: Light","Vigilance"],
 		"talents": [],
 		"abilities": [
 			"Lawful Authority"],
@@ -6313,7 +6258,7 @@
 				"qualities": ["Disorient 3","Stun Damage."]
 			},
 		],
-		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks."],
+		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -6332,7 +6277,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Brawl","Coercion","Melee","Vigilance."],
+		"skills": ["Athletics","Brawl","Coercion","Melee","Vigilance"],
 		"talents": [],
 		"abilities": [
 			{"name": "Disperse!", "description": "Once per encounter, as an action, may force all non-NAPD characters within medium range to make an :average: Discipline check as an out-of-turn incidental; those who fail must spend their next turn moving away from this character or minion group and attempting to leave the encounter if possible."}],
@@ -6350,11 +6295,10 @@
 				"skill": "Melee, Damage 4",
 				"damage": 5,
 				"critical": (Engaged),
-				"range": "Defensive 2, Deflection 2, Inaccurate 2
-",
+				"range": "Defensive 2, Deflection 2, Inaccurate 2"
 				},
 		],
-		"gear": ["Riot Armor: +2 soak.","Smoke grenades, 4 snap locks."],
+		"gear": ["Riot Armor: +2 soak.","Smoke grenades, 4 snap locks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -6376,9 +6320,9 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Ranged: Heavy": 2,
-			"Ranged: Light": 2
+			"Ranged: Light": 2,
 			"Stealth": 2,
 			"Vigilance": 2
 		},
@@ -6411,7 +6355,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			},
 		],
-		"gear": ["Body Armor: +2 soak."],
+		"gear": ["Body Armor: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", General CR: 2"]
 	},
 	{
@@ -6432,13 +6376,13 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Charm": 2
-			"Computers: Hacking": 5
+			"Charm": 2,
+			"Computers: Hacking": 5,
 			"Computers: Sysops": 3,
 			"Cool": 3,
-			"Knowledge: The Net": 3
+			"Knowledge: The Net": 3,
 			"Mechanics": 3,
-			"Stealth": 1
+			"Stealth": 1,
 			"Survival": 1,
 			"Vigilance": 3
 		},
@@ -6470,7 +6414,7 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Brawl": 3
+			"Brawl": 3,
 			"Cool": 3,
 			"Driving": 1,
 			"Perception": 2,
@@ -6493,8 +6437,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 5, Range (Engaged),
-				"range": "Disorient 2, Slow-firing 2, Stun Damage.
-",
+				"range": "Disorient 2, Slow-firing 2, Stun Damage."
 				},
 		],
 		"gear": [],
@@ -6518,9 +6461,9 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Hacking": 1
+			"Computers: Hacking": 1,
 			"Cool": 3,
-			"Deception": 2
+			"Deception": 2,
 			"Knowledge: Society": 1,
 			"Perception": 3,
 			"Skulduggery": 2
@@ -6529,7 +6472,7 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["Discrete monocam, camdrone, fake idents, encrypted PAD."],
+		"gear": ["Discrete monocam, camdrone, fake idents, encrypted PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -6551,11 +6494,11 @@
 		},
 		"skills": {
 			"Coercion": 3,
-			"Cool": 4
+			"Cool": 4,
 			"Deception": 3,
 			"Knowledge: Society": 2,
 			"Leadership": 3,
-			"Ranged: Light": 3
+			"Ranged: Light": 3,
 			"Skulduggery": 2,
 			"Streetwise": 4
 		},
@@ -6573,7 +6516,7 @@
 				"qualities": ["Accurate 1","Burn 1"]
 			},
 		],
-		"gear": ["Gold chains, nice suit."],
+		"gear": ["Gold chains, nice suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 5", General CR: 6"]
 	},
 	{
@@ -6595,11 +6538,11 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Discipline": 2,
-			"Ranged: Heavy": 2
+			"Ranged: Heavy": 2,
 			"Resilience": 1,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1","Street Fighter"],
@@ -6622,7 +6565,7 @@
 				"qualities": ["Concussive 2","Knockdown","Prepare 1"]
 			},
 		],
-		"gear": ["Light Armor Vest: +2 soak.","Oversized suit with hidden holsters."],
+		"gear": ["Light Armor Vest: +2 soak.","Oversized suit with hidden holsters"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 1", General CR: 2"]
 	},
 	{
@@ -6641,7 +6584,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Brawl","Coercion","Ranged: Light."],
+		"skills": ["Brawl","Coercion","Ranged: Light"],
 		"talents": [],
 		"abilities": [
 			"Threatening"],
@@ -6684,12 +6627,12 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Charm": 1
-			"Computers: Hacking": 3
+			"Charm": 1,
+			"Computers: Hacking": 3,
 			"Computers: Sysops": 3,
 			"Cool": 2,
-			"Knowledge: Science": 3
-			"Knowledge: The Net": 4
+			"Knowledge: Science": 3,
+			"Knowledge: The Net": 4,
 			"Perception": 3,
 			"Ranged: Light": 1
 		},
@@ -6724,7 +6667,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Discipline","Ranged: Heavy","Vigilance."],
+		"skills": ["Discipline","Ranged: Heavy","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -6737,7 +6680,7 @@
 				"qualities": ["Auto-fire."]
 			},
 		],
-		"gear": ["Plasteel carapace: 1 defense, +2 soak."],
+		"gear": ["Plasteel carapace: 1 defense, +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -6759,9 +6702,9 @@
 		},
 		"skills": {
 			"Coercion": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Brawl": 3,
-			"Ranged: Light": 2
+			"Ranged: Light": 2,
 			"Streetwise": 3,
 			"Vigilance": 3
 		},
@@ -6808,15 +6751,15 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Cool": 3,
-			"Coordination": 2
+			"Coordination": 2,
 			"Discipline": 3,
-			"Gunnery": 3
+			"Gunnery": 3,
 			"Leadership": 3,
 			"Ranged: Heavy": 3,
 			"Resilience": 2,
-			"Stealth": 2
+			"Stealth": 2,
 			"Survival": 3
 		},
 		"talents": ["Adversary 2","Deadeye"],
@@ -6871,14 +6814,14 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Cool": 4
-			"Deception": 3
+			"Cool": 4,
+			"Deception": 3,
 			"Knowledge: Society": 5,
 			"Piloting": 2,
 			"Ranged: Light": 3,
 			"Skulduggery": 4,
 			"Stealth": 3,
-			"Streetwise": 5
+			"Streetwise": 5,
 			"Vigilance": 4
 		},
 		"talents": ["Adversary 2","Bad Habit"],
@@ -6917,8 +6860,8 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Discipline": 2
-			"Knowledge: Science": 2
+			"Discipline": 2,
+			"Knowledge: Science": 2,
 			"Knowledge: Society": 2,
 			"Negotiation": 2,
 			"Perception": 3,
@@ -6929,7 +6872,7 @@
 			{"name": "Red Tape", "description": "During social encounters, may spend :threat::threat::threat: generated by an opponent to discover (or invent) a legal violation that requires a fine, fee, or additional authorization form that the opponent must complete before accomplishing their goals."}],
 		"weapons": [
 		],
-		"gear": ["Inspection PAD."],
+		"gear": ["Inspection PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -6951,18 +6894,18 @@
 		},
 		"skills": {
 			"Athletics": 4,
-			"Brawl": 2
-			"Computers: Hacking": 4
-			"Computers: Sysops": 2
+			"Brawl": 2,
+			"Computers: Hacking": 4,
+			"Computers: Sysops": 2,
 			"Coordination": 4,
 			"Discipline": 5,
 			"Perception": 3,
-			"Piloting": 2
-			"Ranged: Light": 4
+			"Piloting": 2,
+			"Ranged: Light": 4,
 			"Ranged: Heavy": 4,
 			"Gunnery": 4,
 			"Resilience": 4,
-			"Stealth": 2
+			"Stealth": 2,
 			"Survival": 2,
 			"Vigilance": 3
 		},
@@ -7011,11 +6954,11 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 3
+			"Coercion": 3,
 			"Cool": 3,
-			"Perception": 3
+			"Perception": 3,
 			"Skulduggery": 2,
-			"Streetwise": 2
+			"Streetwise": 2,
 			"Vigilance": 2
 		},
 		"talents": [],
@@ -7024,7 +6967,7 @@
 			"Leading Question"],
 		"weapons": [
 		],
-		"gear": ["PAD, camdrone, monocam, press credentials."],
+		"gear": ["PAD, camdrone, monocam, press credentials"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", General CR: 4"]
 	},
 	{
@@ -7045,7 +6988,7 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Discipline": 2
+			"Discipline": 2,
 			"Knowledge: Science": 3,
 			"Negotiation": 2,
 			"Medicine": 2,
@@ -7056,7 +6999,7 @@
 			{"name": "Research Team Member", "description": "When providing skill assistance, may reroll up to two of the dice in the pool before resolving the check."}],
 		"weapons": [
 		],
-		"gear": ["Networked PAD, holodisplay, lab coat."],
+		"gear": ["Networked PAD, holodisplay, lab coat"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -7075,7 +7018,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Perception","Vigilance."],
+		"skills": ["Perception","Vigilance"],
 		"talents": ["Big Guns"],
 		"abilities": [
 			"Flyer", 
@@ -7107,15 +7050,15 @@
 			"Athletics": 4,
 			"Coordination": 2,
 			"Medicine": 3,
-			"Perception": 4
+			"Perception": 4,
 			"Resilience": 3
 		},
 		"talents": ["Swift"],
 		"abilities": [
-			{"name": "Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."}],
+			"Bioroid"],
 		"weapons": [
 		],
-		"gear": ["Spotlight, climbing gear, O2 tank, medkit, 2 slap patches."],
+		"gear": ["Spotlight, climbing gear, O2 tank, medkit, 2 slap patches"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -7136,10 +7079,10 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Cool": 1
-			"Knowledge: Society": 4
+			"Cool": 1,
+			"Knowledge: Society": 4,
 			"Negotiation": 3,
-			"Perception": 3
+			"Perception": 3,
 			"Streetwise": 3,
 			"Vigilance": 2
 		},
@@ -7173,9 +7116,9 @@
 			"Brawl": 4,
 			"Coercion": 5,
 			"Coordination": 2,
-			"Discipline": 3
+			"Discipline": 3,
 			"Gunnery": 4,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1"],
@@ -7220,7 +7163,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Coercion","Knowledge: Society","Ranged: Light","Vigilance."],
+		"skills": ["Coercion","Knowledge: Society","Ranged: Light","Vigilance"],
 		"talents": [],
 		"abilities": [
 			{"name": "Uncomfortable Inspection", "description": "When searching a character or their possessions, that character suffers 2 strain."}],
@@ -7253,14 +7196,14 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Charm","Knowledge: Science","Perception."],
+		"skills": ["Charm","Knowledge: Science","Perception"],
 		"talents": [],
 		"abilities": [
 			{"name": "Too Clever", "description": "When interacting with this character, characters may spend :advantage: to recover 2 strain, and GMs may spend :threat: to inflict 2 strain."}, 
-			{"name": "Bioroid", "description": "Does not need to breathe, eat, or drink; can survive in vacuum and underwater; is immune to poisons and toxins; and cannot knowingly endanger humans."}],
+			"Bioroid"],
 		"weapons": [
 		],
-		"gear": ["Order PAD."],
+		"gear": ["Order PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", General CR: 2"]
 	},
 	{
@@ -7282,13 +7225,13 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 1
+			"Brawl": 1,
 			"Coordination": 2,
-			"Driving": 2
+			"Driving": 2,
 			"Piloting": 2,
-			"Ranged: Light": 2
+			"Ranged: Light": 2,
 			"Stealth": 2,
-			"Streetwise": 2
+			"Streetwise": 2,
 			"Vigilance": 2
 		},
 		"talents": ["Swift"],
@@ -7304,7 +7247,7 @@
 				"qualities": ["Disorient 2","Slow-Firing 2","Stun Damage."]
 			},
 		],
-		"gear": ["Good running shoes, encrypted datasticks."],
+		"gear": ["Good running shoes, encrypted datasticks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", General CR: 4"]
 	},
 	{
@@ -7326,7 +7269,7 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coercion": 3
+			"Coercion": 3,
 			"Discipline": 3,
 			"Knowledge: Society": 1,
 			"Ranged: Light": 1
@@ -7345,7 +7288,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			},
 		],
-		"gear": ["Heavy Jacket with Crusade logo: +1 soak.","PAD."],
+		"gear": ["Heavy Jacket with Crusade logo: +1 soak.","PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", General CR: 1"]
 	},
 	{
@@ -7364,7 +7307,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Brawl","Coercion","Melee","Ranged: Light","Streetwise."],
+		"skills": ["Brawl","Coercion","Melee","Ranged: Light","Streetwise"],
 		"talents": [],
 		"abilities": [
 			"Threatening"],
@@ -7374,8 +7317,7 @@
 				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium.
-",
+				"range": "Medium."
 				},
 			{
 				"name": "Mono-switchblade",
@@ -7408,11 +7350,11 @@
 		},
 		"skills": {
 			"Coercion": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Melee": 2,
-			"Leadership": 2
+			"Leadership": 2,
 			"Negotiation": 1,
-			"Ranged: Light": 1
+			"Ranged: Light": 1,
 			"Skulduggery": 3,
 			"Streetwise": 3
 		},
@@ -7458,7 +7400,7 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Deception": 2
+			"Deception": 2,
 			"Knowledge: Science": 3,
 			"Mechanics": 3,
 			"Medicine": 3,
@@ -7477,7 +7419,7 @@
 				"qualities": ["Blast 4","Knockdown","Vicious 2"]
 			},
 		],
-		"gear": ["4 Slap-patches","Various cybernetics, emergency medkit, portable toolkit."],
+		"gear": ["4 Slap-patches","Various cybernetics, emergency medkit, portable toolkit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -7534,7 +7476,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown."]
-			},"Power-augmented Exosuit fists: Brawl; Damage 7; Critical 4; Range (Engaged); Knockdown.","SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours."],
+			},"Power-augmented Exosuit fists: Brawl; Damage 7; Critical 4; Range (Engaged); Knockdown.","SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 2", General CR: 2"]
 	},
 	{
@@ -7553,7 +7495,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Discipline","Melee","Ranged: Heavy","Vigilance."],
+		"skills": ["Athletics","Discipline","Melee","Ranged: Heavy","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -7574,7 +7516,7 @@
 				"qualities": ["Pierce 2"]
 			},
 		],
-		"gear": ["Environmentally Sealed Plasteel carapace: 1 defense, +2 soak.","Disposable zero-G maneuvering pack."],
+		"gear": ["Environmentally Sealed Plasteel carapace: 1 defense, +2 soak.","Disposable zero-G maneuvering pack"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -7595,9 +7537,9 @@
 			"defence": [,]
 		},
 		"skills": {
-			"Computers: Hacking": 2
-			"Computer: Sysops": 3
-			"Knowledge: The Net": 4
+			"Computers: Hacking": 2,
+			"Computer: Sysops": 3,
+			"Knowledge: The Net": 4,
 			"Mechanics": 2,
 			"Perception": 2
 		},
@@ -7607,7 +7549,7 @@
 			{"name": "Swordbreaker Programs", "description": "May make a :hard: Computers (Sysops) check targeting one opponent on the system to damage one of their active icebreakers one step, plus one additional step per :advantage:."}],
 		"weapons": [
 		],
-		"gear": ["PAD, BMI, and custom offensive rig with personal icebreakers (Gordian Blade [SotB p. 137], Battering Ram [SotB p. 136], and Garrote [SotB p. 137])."],
+		"gear": ["PAD, BMI, and custom offensive rig with personal icebreakers (Gordian Blade [SotB p. 137], Battering Ram [SotB p. 136], and Garrote [SotB p. 137])"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 8"]
 	},
 	{
@@ -7626,7 +7568,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Charm."],
+		"skills": ["Charm"],
 		"talents": [],
 		"abilities": [
 			{"name": "Too Cute", "description": "When any character makes a check to recover strain while engaged with this character, they recover 2 additional strain."}, 
@@ -7637,11 +7579,10 @@
 				"skill": "Brawl",
 				"damage": 0,
 				"critical": 8,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Gentle doe eyes."],
+		"gear": ["Gentle doe eyes"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -7663,9 +7604,9 @@
 		},
 		"skills": {
 			"Driving": 3,
-			"Mechanics": 2
+			"Mechanics": 2,
 			"Operating": 3,
-			"Perception": 3
+			"Perception": 3,
 			"Piloting": 3,
 			"Vigilance": 3
 		},
@@ -7673,7 +7614,7 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["Cybernetic eye implant."],
+		"gear": ["Cybernetic eye implant"],
 		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", General CR: 4"]
 	},
 	{
@@ -7695,11 +7636,11 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Charm": 3
+			"Charm": 3,
 			"Computers: Hacking": 2,
-			"Cool": 4
-			"Deception": 3
-			"Knowledge: Science": 2
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Science": 2,
 			"Knowledge: Society": 3,
 			"Mechanics": 2,
 			"Negotiation": 3
@@ -7762,7 +7703,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Athletics","Brawl","Survival."],
+		"skills": ["Athletics","Brawl","Survival"],
 		"talents": [],
 		"abilities": [
 			"Mob Mentality"],
@@ -7800,11 +7741,11 @@
 			"Athletics": 4,
 			"Coordination": 4,
 			"Cool": 3,
-			"Driving": 3
+			"Driving": 3,
 			"Knowledge: Society": 1,
 			"Piloting": 3,
 			"Ranged: Light": 1,
-			"Stealth": 1
+			"Stealth": 1,
 			"Streetwise": 4,
 			"Survival": 4
 		},
@@ -7820,7 +7761,7 @@
 				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
 			},
 		],
-		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight."],
+		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", General CR: 7"]
 	},
 	{
@@ -7842,15 +7783,15 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 4
+			"Brawl": 4,
 			"Computers: Hacking": 3,
-			"Cool": 4
+			"Cool": 4,
 			"Coordination": 5,
 			"Discipline": 2,
 			"Melee": 4,
-			"Perception": 2
+			"Perception": 2,
 			"Skulduggery": 3,
-			"Stealth": 5
+			"Stealth": 5,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2","Archaic Arms Master"],
@@ -7897,9 +7838,9 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 1
+			"Coercion": 1,
 			"Cool": 1,
-			"Coordination": 2
+			"Coordination": 2,
 			"Knowledge: Society": 2
 		},
 		"talents": ["Proper Upbringing 2"],
@@ -7907,7 +7848,7 @@
 			{"name": "I'll Tell My Parents!", "description": "When this character inflicts strain using a social skill check, they inflict 2 additional strain."}],
 		"weapons": [
 		],
-		"gear": ["High-end wearable PAD."],
+		"gear": ["High-end wearable PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", General CR: 1"]
 	},
 {
@@ -7926,8 +7867,7 @@
 				"skill": "Melee: Light",
 				"damage": 6,
 				"critical": 2,
-				"range": "Vicious 2
-",
+				"range": "Vicious 2"
 				},
 		],
 		"gear": [],
@@ -7935,9 +7875,9 @@
 	},
 {
 			"Charm": 3,
-			"Coercion": 3
+			"Coercion": 3,
 			"Deception": 3,
-			"Divine": 4
+			"Divine": 4,
 			"Knowledge": 4,
 			"Perception": 3,
 			"Ranged": 4,
@@ -7960,7 +7900,7 @@
 				"qualities": ["Auto-fire","Burn 4"]
 			},
 		],
-		"gear": ["Several enchanted trinkets."],
+		"gear": ["Several enchanted trinkets"],
 		"tags": ["source:EPG", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 6", General CR: 9"]
 	},
 {
@@ -7976,14 +7916,14 @@
 			{"name": "Spells| Endless Dance", "description": "This character chooses one target within short range and makes an :average: Primal check; upon success, the target is immobilized, suffers 1 strain and 1 wound at the start of their turn, and adds jj to all checks they make; on their turn, the target may make a :daunting: Discipline or Resilience check to end these effects; can sustain the effects of this spell by performing the concentrate maneuver."}],
 		"weapons": [
 		],
-		"gear": ["Piles of leaves or twine that appear to be valuables."],
+		"gear": ["Piles of leaves or twine that appear to be valuables"],
 		"tags": ["source:EPG", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 5", General CR: 2"]
 	},
 {
 			"Athletics": 3,
 			"Brawl": 3,
 			"Coercion": 3,
-			"Melee: Heavy": 2
+			"Melee: Heavy": 2,
 			"Perception": 3
 		},
 		"talents": ["Bullrush"],
@@ -8051,9 +7991,9 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Deception": 2,
-			"Knowledge": 2
+			"Knowledge": 2,
 			"Negotiation": 2,
 			"Vigilance": 1
 		},
@@ -8062,7 +8002,7 @@
 			{"name": "Local Politics", "description": "Once per session, may choose one character operating in their area of influence (community, precinct, or county, for example); until the end of the session, the target must upgrade the difficulty of any social skill checks they make to interact with inhabitants of this area once."}],
 		"weapons": [
 		],
-		"gear": ["Cell phone, tablet."],
+		"gear": ["Cell phone, tablet"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:1", "Social CR: 5", General CR: 3"]
 	},
 	{
@@ -8084,9 +8024,9 @@
 		},
 		"skills": {
 			"Coercion": 1,
-			"Cool": 1
+			"Cool": 1,
 			"Leadership": 1,
-			"Melee": 2
+			"Melee": 2,
 			"Streetwise": 3,
 			"Vigilance": 1
 		},
@@ -8102,7 +8042,7 @@
 				"qualities": ["Pierce 2"]
 			},
 		],
-		"gear": ["Heavy Leather Clothing: +2 soak."],
+		"gear": ["Heavy Leather Clothing: +2 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:4", "Social CR: 2", General CR: 1"]
 	},
 	{
@@ -8124,13 +8064,13 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Deception": 2,
-			"Ranged Light": 2
+			"Ranged Light": 2,
 			"Brawl": 2,
-			"Skulduggery": 3
+			"Skulduggery": 3,
 			"Stealth": 3,
-			"Streetwise": 3
+			"Streetwise": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2","Natural"],
@@ -8142,11 +8082,10 @@
 				"skill": "Ranged: Light",
 				"damage": 5,
 				"critical": 4,
-				"range": "Short.
-",
+				"range": "Short."
 				},
 		],
-		"gear": ["Encrypted cell phone."],
+		"gear": ["Encrypted cell phone"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:5", "Social CR: 4", General CR: 5"]
 	},
 	{
@@ -8168,11 +8107,11 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Cool": 1
+			"Cool": 1,
 			"Coercion": 3,
-			"Deception": 1
+			"Deception": 1,
 			"Leadership": 2,
-			"Negotiation": 1
+			"Negotiation": 1,
 			"Vigilance": 3
 		},
 		"talents": ["Improved Scathing Tirade"],
@@ -8180,7 +8119,7 @@
 			{"name": "Good at Needling", "description": "If this character knows an opponent’s Flaw Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain."}],
 		"weapons": [
 		],
-		"gear": ["Fine clothing, official credentials or badge of office."],
+		"gear": ["Fine clothing, official credentials or badge of office"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 5", General CR: 2"]
 	},
 	{
@@ -8199,7 +8138,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Brawl","Coercion","Ranged: Heavy."],
+		"skills": ["Brawl","Coercion","Ranged: Heavy"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -8212,7 +8151,7 @@
 				"qualities": ["Auto-fire."]
 			},
 		],
-		"gear": ["Fatigues: +1 soak."],
+		"gear": ["Fatigues: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8231,7 +8170,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Brawl","Coercion","Melee."],
+		"skills": ["Brawl","Coercion","Melee"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -8248,11 +8187,10 @@
 				"skill": "Melee",
 				"damage": 5,
 				"critical": 3,
-				"range": "Engaged
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Heavy Clothing: +1 soak."],
+		"gear": ["Heavy Clothing: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8274,9 +8212,9 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 2
+			"Brawl": 2,
 			"Stealth": 2,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 2
 		},
 		"talents": [],
@@ -8355,9 +8293,9 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Coercion": 3
+			"Coercion": 3,
 			"Resilience": 4,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
@@ -8405,12 +8343,12 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 3
+			"Brawl": 3,
 			"Charm": 2,
 			"Coercion": 2,
 			"Cool": 3,
 			"Coordination": 2,
-			"Deception": 2
+			"Deception": 2,
 			"Perception": 3,
 			"Ranged: Light": 2,
 			"Stealth": 3,
@@ -8461,13 +8399,13 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Deception": 3
-			"Discipline": 2
-			"Knowledge: Science": 4
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Science": 4,
 			"Mechanics": 3,
-			"Medicine": 4
+			"Medicine": 4,
 			"Melee": 2,
-			"Skulduggery": 1
+			"Skulduggery": 1,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2"],
@@ -8485,7 +8423,7 @@
 				"qualities": ["Pierce 3"]
 			},
 		],
-		"gear": ["Heavy lab coat: +1 soak.","Galvanic device of terrifying potential, notebook filled with results of forbidden experiments."],
+		"gear": ["Heavy lab coat: +1 soak.","Galvanic device of terrifying potential, notebook filled with results of forbidden experiments"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:6", "Social CR: 7", General CR: 5"]
 	},
 	{
@@ -8507,11 +8445,11 @@
 		},
 		"skills": {
 			"Brawl": 3,
-			"Cool": 3
-			"Discipline": 4
-			"Knowledge: Supernatural": 4
+			"Cool": 3,
+			"Discipline": 4,
+			"Knowledge: Supernatural": 4,
 			"Perception": 4,
-			"Stealth": 3
+			"Stealth": 3,
 			"Survival": 3,
 			"Vigilance": 3
 		},
@@ -8529,7 +8467,7 @@
 				"qualities": ["Concussive 1","Ensnare 1","Knockdown."]
 			},
 		],
-		"gear": ["Enchanted bandages (+4 soak)."],
+		"gear": ["Enchanted bandages (+4 soak)"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:9", "Social CR: 5", General CR: 7"]
 	},
 	{
@@ -8586,7 +8524,7 @@
 				"qualities": ["Knock-down","Vicious 3"]
 			},
 		],
-		"gear": ["Ancient but well-preserved clothing, deeds to assorted estates."],
+		"gear": ["Ancient but well-preserved clothing, deeds to assorted estates"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:9", "Social CR: 7", General CR: 10"]
 	},
 	{
@@ -8627,7 +8565,7 @@
 				"qualities": ["Inferior","Limited Ammo 1"]
 			},
 		],
-		"gear": ["Sports pads: +1 soak, 1 defense."],
+		"gear": ["Sports pads: +1 soak, 1 defense"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8649,11 +8587,11 @@
 		},
 		"skills": {
 			"Coercion": 2,
-			"Cool": 2
+			"Cool": 2,
 			"Discipline": 2,
-			"Leadership": 2
+			"Leadership": 2,
 			"Medicine": 2,
-			"Ranged: Heavy": 2
+			"Ranged: Heavy": 2,
 			"Vigilance": 2
 		},
 		"talents": [],
@@ -8669,7 +8607,7 @@
 				"qualities": ["Blast 4","Knockdown","Vicious 2"]
 			},
 		],
-		"gear": ["Homespun armor: +2 soak.","Badge of office, ledger book."],
+		"gear": ["Homespun armor: +2 soak.","Badge of office, ledger book"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8702,7 +8640,7 @@
 				"qualities": ["Vicious 2"]
 			},
 		],
-		"gear": ["Rags, several pieces of scrap."],
+		"gear": ["Rags, several pieces of scrap"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8726,9 +8664,9 @@
 			"Athletics": 3,
 			"Brawl": 2,
 			"Cool": 4,
-			"Perception": 3
+			"Perception": 3,
 			"Ranged: Heavy": 1,
-			"Stealth": 3
+			"Stealth": 3,
 			"Vigilance": 2
 		},
 		"talents": [""],
@@ -8778,9 +8716,9 @@
 			"Brawl": 3,
 			"Coercion": 4,
 			"Leadership": 2,
-			"Melee": 2
+			"Melee": 2,
 			"Ranged: Light": 2,
-			"Survival": 3
+			"Survival": 3,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2"],
@@ -8805,7 +8743,7 @@
 				"qualities": ["Vicious 3"]
 			},
 		],
-		"gear": ["Spiky armor: +2 soak, when targeted by a melee combat check, may spend :threat::threat: or :despair: to have the attacker suffer 2 wounds.","Megaphone."],
+		"gear": ["Spiky armor: +2 soak, when targeted by a melee combat check, may spend :threat::threat: or :despair: to have the attacker suffer 2 wounds.","Megaphone"],
 		"tags": ["source:EPG", "Official", "setting:Modern", "Combat CR:6", "Social CR: 4", General CR: 3"]
 	},
 	{
@@ -8824,7 +8762,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Coercion","Melee","Perception","Piloting","Ranged: Light","Vigilance."],
+		"skills": ["Coercion","Melee","Perception","Piloting","Ranged: Light","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -8833,19 +8771,17 @@
 				"skill": "Ranged: Light",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium.
-",
+				"range": "Medium."
 				},
 			{
 				"name": "Cutlass",
 				"skill": "Melee",
 				"damage": 4,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Vest and Storm Coat: +1 soak."],
+		"gear": ["Vest and Storm Coat: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:2", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -8868,7 +8804,7 @@
 		},
 		"skills": {
 			"Brawl": 1,
-			"Perception": 1
+			"Perception": 1,
 			"Survival": 1,
 			"Vigilance": 1
 		},
@@ -8908,11 +8844,11 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Coercion": 3
+			"Coercion": 3,
 			"Deception": 3,
-			"Leadership": 3
+			"Leadership": 3,
 			"Melee": 2,
-			"Negotiation": 3
+			"Negotiation": 3,
 			"Perception": 2,
 			"Ranged: Light": 2
 		},
@@ -8937,7 +8873,7 @@
 				"qualities": ["Defensive 1","Pierce 2"]
 			},
 		],
-		"gear": ["Fine clothing."],
+		"gear": ["Fine clothing"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 6", General CR: 3"]
 	},
 	{
@@ -8959,9 +8895,9 @@
 		},
 		"skills": {
 			"Discipline": 2,
-			"Melee": 2
+			"Melee": 2,
 			"Perception": 2,
-			"Piloting": 2
+			"Piloting": 2,
 			"Ranged: Heavy": 2,
 			"Vigilance": 2
 		},
@@ -8982,11 +8918,10 @@
 				"skill": "Melee",
 				"damage": 5,
 				"critical": 3,
-				"range": "Engaged.
-",
+				"range": "Engaged"
 				},
 		],
-		"gear": ["Armored Uniform: +1 soak."],
+		"gear": ["Armored Uniform: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 2", General CR: 2"]
 	},
 	{
@@ -9008,11 +8943,11 @@
 		},
 		"skills": {
 			"Coercion": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Leadership": 2,
-			"Perception": 3
+			"Perception": 3,
 			"Ranged: Light": 3,
-			"Melee": 3
+			"Melee": 3,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 1","Coordinated Assault 3"],
@@ -9028,7 +8963,7 @@
 				"qualities": ["Pierce 2","Vicious 3","laser pistol Ranged: Light"]
 			},
 		],
-		"gear": ["Heavy Sealed Armor: +2 soak.","Platinum-Weave Cloak.","Crimson banner of glorious conquest, sniveling servant to carry banner of glorious conquest."],
+		"gear": ["Heavy Sealed Armor: +2 soak.","Platinum-Weave Cloak.","Crimson banner of glorious conquest, sniveling servant to carry banner of glorious conquest"],
 		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:8", "Social CR: 5", General CR: 3"]
 	},
 	{
@@ -9085,7 +9020,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Coercion","Coordination","Gunnery","Ranged: Heavy","Melee","Vigilance."],
+		"skills": ["Coercion","Coordination","Gunnery","Ranged: Heavy","Melee","Vigilance"],
 		"talents": [],
 		"abilities": [
 			{"name": "Strength In Numbers", "description": "Adds :boost: to combat checks when there are at least two other friendly nemeses, rivals, or minion groups engaged in the encounter. Add :setback: to combat checks when there are no other friendly nemeses, rivals, or minion groups engaged in the encounter."}],
@@ -9139,7 +9074,7 @@
 			"Coercion": 3,
 			"Discipline": 3,
 			"Negotiation": 2,
-			"Perception": 3
+			"Perception": 3,
 			"Vigilance": 3
 		},
 		"talents": ["Adversary 2"],
@@ -9149,7 +9084,7 @@
 			{"name": "Dominate", "description": "Once per encounter, as an action, may make an opposed Discipline versus Discipline check against one living target within medium range. If successful, during the target’s next turn, the telepath dictates what actions and maneuvers they perform. GMs should avoid actions that lead to unavoidable character death, however, such as jumping off towering cliffs or shooting oneself in the head, since that’s just not fun."}],
 		"weapons": [
 		],
-		"gear": ["Hoverchair, robes."],
+		"gear": ["Hoverchair, robes"],
 		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -9171,7 +9106,7 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Stealth": 3
+			"Stealth": 3,
 			"Survival": 3,
 			"Vigilance": 3
 		},
@@ -9218,9 +9153,9 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Coercion": 3
+			"Coercion": 3,
 			"Discipline": 3,
-			"Knowledge": 3
+			"Knowledge": 3,
 			"Medicine": 3,
 			"Ranged Light": 1
 		},
@@ -9237,7 +9172,7 @@
 				"qualities": ["Burn 1"]
 			},
 		],
-		"gear": ["Lab coat, goggles."],
+		"gear": ["Lab coat, goggles"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:4", "Social CR: 3", General CR: 4"]
 	},
 	{
@@ -9256,7 +9191,7 @@
 			"wounds": ,
 			"defence": [,]
 		},
-		"skills": ["Discipline","Melee","Ranged Heavy."],
+		"skills": ["Discipline","Melee","Ranged Heavy"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -9269,7 +9204,7 @@
 				"qualities": ["Damage 4"]
 			},
 		],
-		"gear": ["Armor Vest: +1 soak."],
+		"gear": ["Armor Vest: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -9291,11 +9226,11 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Discipline": 2,
-			"Perception": 2
+			"Perception": 2,
 			"Ranged Light": 2,
-			"Skulduggery": 3
+			"Skulduggery": 3,
 			"Stealth": 3,
 			"Vigilance": 3
 		},
@@ -9321,7 +9256,7 @@
 				"qualities": ["Pierce 3","Vicious 2"]
 			},
 		],
-		"gear": ["Combat Armor and Curiously Tough Skin: +2 soak."],
+		"gear": ["Combat Armor and Curiously Tough Skin: +2 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:5", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -9343,9 +9278,9 @@
 		},
 		"skills": {
 			"Athletics": 4,
-			"Brawl": 3
+			"Brawl": 3,
 			"Coercion": 3,
-			"Perception": 2
+			"Perception": 2,
 			"Resilience": 2,
 			"Survival": 4
 		},
@@ -9391,9 +9326,9 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 3
+			"Brawl": 3,
 			"Cool": 3,
-			"Coordination": 2
+			"Coordination": 2,
 			"Perception": 2,
 			"Stealth": 2
 		},
@@ -9433,7 +9368,7 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 1
+			"Brawl": 1,
 			"Coercion": 2,
 			"Resilience": 3
 		},
@@ -9471,9 +9406,9 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Brawl": 1
+			"Brawl": 1,
 			"Charm": 2,
-			"Perception": 1
+			"Perception": 1,
 			"Survival": 1,
 			"Vigilance": 2
 		},
@@ -9512,9 +9447,9 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Brawl": 2
+			"Brawl": 2,
 			"Discipline": 2,
-			"Survival": 2
+			"Survival": 2,
 			"Vigilance": 3
 		},
 		"talents": [],
@@ -9552,7 +9487,7 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Perception": 3,
 			"Vigilance": 3
 		},
@@ -9672,9 +9607,9 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Brawl": 4
+			"Brawl": 4,
 			"Perception": 3,
-			"Stealth": 2
+			"Stealth": 2,
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 1"],
@@ -9712,7 +9647,7 @@
 		},
 		"skills": {
 			"Brawl": 2,
-			"Coercion": 2
+			"Coercion": 2,
 			"Perception": 2,
 			"Survival": 2
 		},
@@ -9784,9 +9719,9 @@
 		},
 		"skills": {
 			"Cool": 3,
-			"Deception": 3
+			"Deception": 3,
 			"Discipline": 3,
-			"Knowledge": 4
+			"Knowledge": 4,
 			"Perception": 2,
 			"Vigilance": 2
 		},
@@ -9817,9 +9752,9 @@
 		},
 		"skills": {
 			"Charm": 1,
-			"Coercion": 3
+			"Coercion": 3,
 			"Discipline": 1,
-			"Knowledge": 4
+			"Knowledge": 4,
 			"Leadership": 3,
 			"Perception": 1
 		},
@@ -9828,7 +9763,7 @@
 			{"name": "Let Me Get You Something", "description": "Once per encounter, this character may give another character 100 currency to downgrade the difficulty of the next social check they make targeting that character."}],
 		"weapons": [
 		],
-		"gear": ["Formal clothing, expensive jewelry, unlimited funds."],
+		"gear": ["Formal clothing, expensive jewelry, unlimited funds"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 3", General CR: 2"]
 	},
 	{
@@ -9850,9 +9785,9 @@
 		},
 		"skills": {
 			"Cool": 1,
-			"Discipline": 2
+			"Discipline": 2,
 			"Knowledge": 3,
-			"Medicine": 4
+			"Medicine": 4,
 			"Negotiation": 1,
 			"Perception": 1
 		},
@@ -9861,7 +9796,7 @@
 			{"name": "Time to Heal", "description": "If this character is caring for a character who is benefiting from natural rest, the resting character heals 2 wounds each night and decreases the difficulty of any Resilience checks they make to heal Critical Injuries by 1, to a minimum of :easy:."}],
 		"weapons": [
 		],
-		"gear": ["Healer’s garb, doctor’s tools."],
+		"gear": ["Healer’s garb, doctor’s tools"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -9883,9 +9818,9 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Computers": 3
+			"Computers": 3,
 			"Knowledge": 1,
-			"Mechanics": 3
+			"Mechanics": 3,
 			"Negotiation": 2,
 			"Perception": 3
 		},
@@ -9894,7 +9829,7 @@
 			{"name": "Many Hands Make Light the Load", "description": "If this character provides assistance when another character makes a Mechanics check to repair a vehicle, increase the hull trauma or system strain repaired by 2; if the check is being made to repair a Critical Hit, reduce the difficulty of the check by 1, to a minimum of :easy:; this is in addition to the other benefits of assistance."}],
 		"weapons": [
 		],
-		"gear": ["Toolkit."],
+		"gear": ["Toolkit"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", General CR: 3"]
 	},
 	{
@@ -9926,7 +9861,7 @@
 				"qualities": ["Disorient 1","Knockdown."]
 			},
 		],
-		"gear": ["Work clothes."],
+		"gear": ["Work clothes"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", General CR: 1"]
 	},
 	{
@@ -9948,11 +9883,11 @@
 		},
 		"skills": {
 			"Charm": 3,
-			"Cool": 2
+			"Cool": 2,
 			"Deception": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Knowledge": 3,
-			"Leadership": 3
+			"Leadership": 3,
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1","Clever Retort","Ruinous Repartee"],
@@ -9960,7 +9895,7 @@
 			{"name": "Let’s Make a Deal", "description": "If this character knows an opponent’s Desire Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain."}],
 		"weapons": [
 		],
-		"gear": ["Formal clothing."],
+		"gear": ["Formal clothing"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 8", General CR: 3"]
 	},
 	{
@@ -9982,7 +9917,7 @@
 		},
 		"skills": {
 			"Charm": 1,
-			"Leadership": 3
+			"Leadership": 3,
 			"Operating": 1,
 			"Vigilance": 2
 		},
@@ -10016,7 +9951,7 @@
 			{"name": "Red Tape", "description": "Once per encounter, as an action, make an opposed Knowledge versus Cool check targeting one character in the encounter; if successful, the target increases the difficulty of all social skill checks they make by two, to a maximum of :formidable:, until the end of the encounter."}],
 		"weapons": [
 		],
-		"gear": ["Attire appropriate to the place of work."],
+		"gear": ["Attire appropriate to the place of work"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", General CR: 2"]
 	},
 	{
@@ -10038,9 +9973,9 @@
 		},
 		"skills": {
 			"Charm": 2,
-			"Cool": 3
+			"Cool": 3,
 			"Deception": 3,
-			"Knowledge": 2
+			"Knowledge": 2,
 			"Negotiation": 3,
 			"Streetwise": 1
 		},
@@ -10048,7 +9983,7 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["Rumpled and worn professional attire."],
+		"gear": ["Rumpled and worn professional attire"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 5", General CR: 2"]
 	},
 	{
@@ -10070,9 +10005,9 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Coercion": 1
+			"Coercion": 1,
 			"Ranged": 3,
-			"Survival": 4
+			"Survival": 4,
 			"Vigilance": 3
 		},
 		"talents": ["Hamstring Shot"],
@@ -10104,11 +10039,11 @@
 			"Charm": 2,
 			"Cool": 1,
 			"Knowledge": 2,
-			"Mechanics": 1
+			"Mechanics": 1,
 			"Negotiation": 1,
-			"Resilience": 3
+			"Resilience": 3,
 			"Streetwise": 2,
-			"Survival": 2
+			"Survival": 2,
 			"Vigilance": 3
 		},
 		"talents": ["Animal Companion"],
@@ -10124,7 +10059,7 @@
 				"qualities": ["Disorient 2","Knockdown."]
 			},
 		],
-		"gear": ["Rugged clothes."],
+		"gear": ["Rugged clothes"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 2", General CR: 4"]
 	},
 	{
@@ -10148,7 +10083,7 @@
 			"Charm": 1,
 			"Coordination": 2,
 			"Gunnery": 3,
-			"Mechanics": 1
+			"Mechanics": 1,
 			"Piloting": 4,
 			"Ranged": 2,
 			"Vigilance": 2
@@ -10179,9 +10114,9 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Brawl": 2
+			"Brawl": 2,
 			"Coercion": 2,
-			"Coordination": 3
+			"Coordination": 3,
 			"Discipline": 2,
 			"Melee": 2
 		},
@@ -10212,9 +10147,9 @@
 		},
 		"skills": {
 			"Athletics": 1,
-			"Cool": 1
+			"Cool": 1,
 			"Discipline": 3,
-			"Melee": 3
+			"Melee": 3,
 			"Ranged": 3,
 			"Vigilance": 3
 		},
@@ -10244,12 +10179,12 @@
 		},
 		"skills": {
 			"Cool": 1,
-			"Discipline": 1
+			"Discipline": 1,
 			"Drive": 2,
 			"Leadership": 2,
 			"Melee": 2,
 			"Perception": 1,
-			"Ranged": 2
+			"Ranged": 2,
 			"Survival": 1
 		},
 		"talents": ["Adversary 1","Field Commander"],
@@ -10278,9 +10213,9 @@
 		},
 		"skills": {
 			"Coercion": 4,
-			"Cool": 2
+			"Cool": 2,
 			"Knowledge": 3,
-			"Leadership": 5
+			"Leadership": 5,
 			"Melee": 1,
 			"Ranged": 1
 		},
@@ -10289,7 +10224,7 @@
 			{"name": "Strategic Coordination", "description": "Once per encounter, may make a :daunting: Leadership check; if successful, until the end of the encounter, all allies in the encounter may perform an additional move maneuver on their turn without downgrading their action or suffering strain—but they still may only perform two maneuvers during their turn."}],
 		"weapons": [
 		],
-		"gear": ["Uniform."],
+		"gear": ["Uniform"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR: 6", General CR: 3"]
 	},
 	{
@@ -10335,7 +10270,7 @@
 		},
 		"skills": {
 			"Athletics": 3,
-			"Cool": 3
+			"Cool": 3,
 			"Discipline": 2,
 			"Medicine": 2,
 			"Melee": 2,
@@ -10345,7 +10280,7 @@
 		"abilities": [],
 		"weapons": [
 		],
-		"gear": ["2 painkillers (or setting equivalent), medical supplies (can make Medicine checks without penalty)."],
+		"gear": ["2 painkillers (or setting equivalent), medical supplies (can make Medicine checks without penalty)"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", General CR: 3"]
 	},
 	{
@@ -10367,11 +10302,11 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Cool": 3
+			"Cool": 3,
 			"Melee": 1,
-			"Perception": 3
+			"Perception": 3,
 			"Ranged": 3,
-			"Stealth": 3
+			"Stealth": 3,
 			"Survival": 4
 		},
 		"talents": ["Adversary 2","Hamstring Shot","Heightened Awareness"],
@@ -10400,11 +10335,11 @@
 		},
 		"skills": {
 			"Athletics": 2,
-			"Discipline": 2
+			"Discipline": 2,
 			"Mechanics": 4,
-			"Melee": 3
+			"Melee": 3,
 			"Perception": 2,
-			"Ranged": 2
+			"Ranged": 2,
 			"Resilience": 4
 		},
 		"talents": [],
