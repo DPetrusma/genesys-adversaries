@@ -2489,23 +2489,22 @@
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 5", General CR: 3"]
 	},
-	XXXXXXXXXXX=========>>>>>>>>><<<<<<<<<<<<<<
 	{
 		"name": "Necromancer",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 3,
@@ -2538,18 +2537,18 @@
 		"name": "Ogre",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 7,
+			"wounds": 20,
+			"strain": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -2585,18 +2584,17 @@
 		"name": "Onoit Shaman",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 8,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Leadership": 2,
@@ -2612,8 +2610,6 @@
 			{"name": "Spells| Winter Gale", "description": "Choose one target at short or medium range and make a :hard: Primal check. If successful, this magic attack inflicts 7 damage +1 damage per :success:, with the Blast 3 and Ensnare 3 item qualities."}, 
 			{"name": "Spells| Healing Gust", "description": "Choose two targets at up to short range and make an :average: Primal check. If successful, the targets heal 1 wound per :success: and 1 strain per :advantage:; the shaman may affect additional targets by spending :advantage: per target."}],
 		"weapons": [
-		],
-		"gear": ["Oaken staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty.",
 			{
 				"name": "Hatchet",
 				"skill": "Melee: Light",
@@ -2621,25 +2617,26 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},"Hatchet: Melee: Light; Damage 5; Critical 3; Range (Engaged); Vicious 1","Bark Cloak: +1 defense"],
+			}
+		],
+		"gear": ["Oaken staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty."],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", General CR: 3"]
 	},
 	{
 		"name": "Orc Outrider",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Melee: Light": 2,
@@ -2673,18 +2670,18 @@
 		"name": "Orc Spiritspeaker",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 15,
+			"strain": 17,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Cool": 2,
@@ -2706,17 +2703,17 @@
 		"name": "Pirate",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1,0]
 		},
 		"skills": ["Brawl","Cool","Coordination","Melee: Light"],
 		"talents": ["Quick Draw"],
@@ -2738,18 +2735,17 @@
 		"name": "Priest Of Kellos",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 16,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Charm": 2,
@@ -2780,18 +2776,17 @@
 		"name": "Razorwing",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0,1]
 		},
 		"skills": {
 			"Brawl": 2,
@@ -2810,7 +2805,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Engaged"
-				},
+			},
 			{
 				"name": "Buffeting Wings",
 				"skill": "Brawl",
@@ -2827,17 +2822,17 @@
 		"name": "Reanimate",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1,1]
 		},
 		"skills": ["Melee: Light","Perception","Ranged","Resilience","Vigilance"],
 		"talents": [],
@@ -2851,14 +2846,14 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged"
-				},
+			},
 			{
 				"name": "Worn Bow",
 				"skill": "Ranged",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium."
-				},
+				"range": "Medium"
+			},
 		],
 		"gear": ["Antique Mail: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", General CR: 1"]
@@ -2867,18 +2862,18 @@
 		"name": "Rune Golem",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 7,
+			"wounds": 25,
+			"strain": 22,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
@@ -2916,18 +2911,17 @@
 		"name": "Salamander",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 3,
@@ -2955,18 +2949,17 @@
 		"name": "Scorpion Swarm",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 36,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 1,
@@ -2993,17 +2986,17 @@
 		"name": "Shade",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 0,
+			"wounds": 6,
+			"defence": [2,2]
 		},
 		"skills": ["Brawl","Cool","Discipline"],
 		"talents": [],
@@ -3027,17 +3020,17 @@
 		"name": "Singhara Hunter",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
 		},
 		"skills": ["Cool","Brawl","Melee: Light","Ranged","Survival","Stealth"],
 		"talents": ["Swift"],
@@ -3068,18 +3061,18 @@
 		"name": "Singhara Pridelord",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 20,
+			"strain": 16,
+			"defence": [3,3]
 		},
 		"skills": {
 			"Cool": 2,
@@ -3099,7 +3092,8 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Accurate 1 or Ranged"]
+				"qualities": ["Accurate 1"],
+				"notes": "Can be thrown up to Short range, with an otherwise identical profile"
 			},
 			{
 				"name": "Claws and Teeth",
@@ -3117,18 +3111,17 @@
 		"name": "Siren",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Charm": 3,
@@ -3158,17 +3151,17 @@
 		"name": "Skeleton",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 4,
+			"defence": [1,1]
 		},
 		"skills": ["Melee: Light","Perception","Ranged","Vigilance"],
 		"talents": [],
@@ -3196,18 +3189,18 @@
 		"name": "Spined Thresher",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 7,
+			"wounds": 25,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -3252,18 +3245,18 @@
 		"name": "Splig, King Of All Golbins",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 20,
+			"strain": 11,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Coercion": 2,
@@ -3273,7 +3266,7 @@
 			"Resilience": 2
 		},
 		"talents": ["Whirlwind"],
-		"abilities": ["King of the Goblins! Upgrade the difficulty of combat checks targeting Splig once for each minion group of goblins within short range of him. If the check fails, one individual minion is defeated.", 
+		"abilities": [ {"name": "King of the Goblins!", "description": "Upgrade the difficulty of combat checks targeting Splig once for each minion group of goblins within short range of him. If the check fails, one individual minion is defeated."}, 
 			{"name": "Lucky Escape", "description": "When Splig would be defeated due to exceeding his wound threshold or strain threshold, or for any reason, he may spend 1 Story Point to instead escape in a suitably fortunate and cowardly fashion. All other goblins in the encounter are immediately defeated."}],
 		"weapons": [
 			{
@@ -3292,18 +3285,18 @@
 		"name": "Storm Sorceress",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 15,
+			"strain": 18,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Arcana": 3,
@@ -3327,18 +3320,18 @@
 		"name": "Sword Poet",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 18,
+			"strain": 16,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -3366,18 +3359,17 @@
 		"name": "Tamalir Guildmaster",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -3405,18 +3397,17 @@
 		"name": "Thieves Guild Cutpurse",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
@@ -3453,18 +3444,18 @@
 		"name": "True Fae",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 17,
+			"strain": 19,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Arcana": 3,
@@ -3507,18 +3498,17 @@
 		"name": "Viper Legion Archer",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
@@ -3545,17 +3535,17 @@
 		"name": "Weik Warrior",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 6,
+			"defence": [1,0]
 		},
 		"skills": ["Cool","Brawl","Melee: Light","Resilience"],
 		"talents": [],
@@ -3594,18 +3584,17 @@
 		"name": "Wendigo",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -3645,18 +3634,17 @@
 		"name": "Witch And Warlock",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Divine": 3,
@@ -3688,18 +3676,17 @@
 		"name": "Wraith",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 0,
+			"wounds": 19,
+			"defence": [3,3]
 		},
 		"skills": {
 			"Brawl": 3,
@@ -3737,18 +3724,18 @@
 		"name": "Wyrm Of The Deep",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 9,
+			"wounds": 28,
+			"strain": 24,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Brawl": 4,
@@ -3785,18 +3772,17 @@
 		"name": "Young Dragon",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 23,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Arcana": 1,
@@ -3832,6 +3818,7 @@
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 2", General CR: 3"]
 	},
+	XXXXXXXXXXXXXXXX
 	{
 		"name": "Aaron Marron",
 		"type": "Nemesis",
