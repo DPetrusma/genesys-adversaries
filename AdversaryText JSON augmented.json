@@ -3818,23 +3818,22 @@
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 2", General CR: 3"]
 	},
-	XXXXXXXXXXXXXXXX
 	{
 		"name": "Aaron Marron",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 17,
+			"strain": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -3865,27 +3864,27 @@
 				"damage": 8,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Burn 1","Prepare 1","Sunder."]
+				"qualities": ["Burn 1","Prepare 1","Sunder"]
 			},
 		],
 		"gear": ["Sleeveless shirt, bandannas, silver crossed pistols on chain"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 5", General CR: 4"]
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 5", General CR: 4"]
 	},
 	{
 		"name": "Adam Industrial Labor Bioroid",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 6,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Mechanics"],
 		"talents": [],
@@ -3900,18 +3899,17 @@
 		"name": "Adonis and Eve Pleasure Bioroid",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 4,
@@ -3933,18 +3931,17 @@
 		"name": "Anarch Troublemaker",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 3,
@@ -3982,19 +3979,20 @@
 	{
 		"name": "Ares Combat Bioroid",
 		"type": "Nemesis",
+		"note": "Choose either the Integrated Rotary Cannon or the Integrated Heavy Gauss Rifle",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 10,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 4,
@@ -4018,8 +4016,6 @@
 				"range": "Long",
 				"qualities": ["Auto-fire."]
 			},
-		],
-		"gear": [" or",
 			{
 				"name": "Integrated Heavy Gauss Rifle",
 				"skill": "Gunnery",
@@ -4027,7 +4023,7 @@
 				"critical": 2,
 				"range": "Extreme",
 				"qualities": ["Breach 1","Slow-firing 1"]
-			},"Integrated Heavy Gauss Rifle: Gunnery; Damage 10; Critical 2; Range (Extreme); Breach 1, Slow-firing 1",
+			},
 			{
 				"name": "Integrated Micro-missile Launcher",
 				"skill": "Gunnery",
@@ -4035,7 +4031,7 @@
 				"critical": 4,
 				"range": "Long",
 				"qualities": ["Blast 10","Guided 3","Limited Ammo 3"]
-			},"Integrated Micro-missile Launcher: Gunnery; Damage 12; Critical 4; Range (Long); Blast 10, Guided 3, Limited Ammo 3",
+			},
 			{
 				"name": "Armored Fist",
 				"skill": "Brawl",
@@ -4043,25 +4039,25 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Concussive 1","Knockdown","Sunder."]
-			},"Armored Fist: Brawl; Damage 8; Critical 4; Range (Engaged); Concussive 1, Knockdown, Sunder"],
+			}
+		],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:15", "Social CR: 3", General CR: 4"]
 	},
 	{
 		"name": "Assistant District Attorney",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -4093,18 +4089,18 @@
 		"name": "Bernice Mai",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 9,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 4,
@@ -4123,23 +4119,23 @@
 		"weapons": [
 		],
 		"gear": ["High-end encrypted rig with voice and haptic controls, business suit"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", General CR: 9"]
+		"tags": ["source:RMC #2", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 9"]
 	},
 	{
 		"name": "Camdrone",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 2,
+			"defence": [0,2]
 		},
 		"skills": ["Perception","Vigilance"],
 		"talents": [],
@@ -4157,18 +4153,18 @@
 		"name": "Caprice Nisei",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [4,4]
 		},
 		"skills": {
 			"Computers: Sysops": 2,
@@ -4199,6 +4195,7 @@
 		"gear": ["Trenchcoat, NAPD badge, restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 8", General CR: 5"]
 	},
+	XXXXXXXXXX
 	{
 		"name": "Civic Brigadier",
 		"type": "Minion",
