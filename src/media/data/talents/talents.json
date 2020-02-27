@@ -1956,5 +1956,14 @@
 	{
 		"name": "Bullrush",
 		"description": "When making a Brawl, Melee: Heavy, or Melee: Light combat check after using a maneuver to engage a target, may spend :advantage::advantage::advantage: or :triumph: to knock the target prone and move them up to one range band away from this character"
+	},
+	{
+		"name": "Knack for It",
+		"description": "Remove {ranks|setback} from certain skill checks",
+		"ranked": true
+	},
+	{
+		"name": "Proper Upbringing",
+		"description": "When making a social skill check in the company of fellow risties, may suffer up to 2 strain to add up to {ranks|advantage} to the check"
 	}
 ]

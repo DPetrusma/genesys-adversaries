@@ -114,6 +114,11 @@ Main tasks:
 - Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
 - CC Dreadgazer to use opposed checks?
 - Spellchecks, capitilisation, and grammar
+- Double-check Science Fiction tags for Source: RC#X. They all got cut off
+- Think about how to do the Knack for It talent, since each instance chooses different skills
+- In fact, I will need to go through all of the SotB talents...most of them won't be in the file
+- Fix commas between } and ]
+- Young Ristie WT
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead

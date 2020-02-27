@@ -675,7 +675,7 @@
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 2","Stun Damage."]
+				"qualities": ["Disorient 2","Stun Damage"]
 			},
 		],
 		"gear": [],
@@ -1004,7 +1004,7 @@
 				"damage": 7,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Stun Damage."]
+				"qualities": ["Stun Damage"]
 			},
 		],
 		"gear": [],
@@ -3011,7 +3011,7 @@
 				"damage": 1,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Breach 1","Stun Damage."]
+				"qualities": ["Breach 1","Stun Damage"]
 			},
 		],
 		"gear": [],
@@ -3435,7 +3435,7 @@
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 2","Stun Damage."]
+				"qualities": ["Disorient 2","Stun Damage"]
 			},
 		],
 		"gear": [],
@@ -3715,7 +3715,7 @@
 				"damage": 2,
 				"critical": 5,
 				"range": "medium",
-				"qualities": ["Breach 1","Stun Damage."]
+				"qualities": ["Breach 1","Stun Damage"]
 			},
 		],
 		"gear": [],
@@ -4015,7 +4015,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire."]
+				"qualities": ["Auto-fire"]
 			},
 			{
 				"name": "Integrated Heavy Gauss Rifle",
@@ -4080,7 +4080,7 @@
 				"damage": 4,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 3","Stun Damage."]
+				"qualities": ["Disorient 3","Stun Damage"]
 			},
 		],
 		"gear": ["Legal PAD, expensive suit"],
@@ -4190,28 +4190,27 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 		],
 		"gear": ["Trenchcoat, NAPD badge, restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 8", "General CR: 5"]
 	},
-	XXXXXXXXXX
 	{
 		"name": "Civic Brigadier",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Driving","Knowledge: Society","Mechanics","Melee"],
 		"talents": [],
@@ -4234,18 +4233,18 @@
 		"name": "Club Owner",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -4266,27 +4265,27 @@
 				"damage": 4,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 3","Stun Damage."]
+				"qualities": ["Disorient 3","Stun Damage"]
 			},
 		],
 		"gear": ["PAD, bouncers"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
 	},
 	{
-		"name": "Combat Drone",
+		"name": "Combat Drone (SotB)",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,2]
 		},
 		"skills": ["Perception","Ranged: Light"],
 		"talents": [],
@@ -4309,7 +4308,7 @@
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
 	},
 	{
-		"name": "Combat Drone",
+		"name": "Combat Drone (GCR)",
 		"type": "Rival",
 		"characteristics": {
 			"Brawn": 1,
@@ -4352,18 +4351,17 @@
 		"name": "Corporate Bioroids",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -4386,18 +4384,17 @@
 		"name": "Corporate Manager",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 9,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 1,
@@ -4420,18 +4417,17 @@
 		"name": "Corporate Sysop",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Computers: Sysops": 2,
@@ -4445,25 +4441,25 @@
 			{"name": "Reinforce", "description": "As a maneuver, may increase the strength of one active piece of ice by 1 until the end of the corporate sysop's next turn."}],
 		"weapons": [
 		],
-		"gear": [" PAD, corporate ID, snacks"],
+		"gear": ["PAD, corporate ID, snacks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 2"]
 	},
 	{
 		"name": "Criminal Runner",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 14,
+			"strain": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Computers: Hacking": 4,
@@ -4496,18 +4492,17 @@
 		"name": "Cyberdog",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 8,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -4536,18 +4531,18 @@
 		"name": "Cybermod Bounty Hunter",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 16,
+			"strain": 11,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -4570,7 +4565,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Short",
-				"qualities": ["Knockdown","Stun Damage."]
+				"qualities": ["Knockdown","Stun Damage"]
 			},
 			{
 				"name": "Stun Baton",
@@ -4578,7 +4573,7 @@
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 3","Stun Damage."]
+				"qualities": ["Disorient 3","Stun Damage"]
 			},
 		],
 		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants"],
@@ -4588,18 +4583,18 @@
 		"name": "Desai Tutor Clone",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -4622,17 +4617,17 @@
 		"name": "Diesel Bro",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Brawl","Coercion","Melee"],
 		"talents": ["Berserk"],
@@ -4654,17 +4649,17 @@
 		"name": "Disenfrancisto",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 5,
+			"defence": [1,1]
 		},
 		"skills": ["Melee","Resilience","Streetwise","Survival","Vigilance"],
 		"talents": [],
@@ -4685,18 +4680,17 @@
 		"name": "Disenfrancisto Survivalist",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -4728,18 +4722,18 @@
 		"name": "Elizabeth Mills",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Coercion": 5,
@@ -4764,18 +4758,17 @@
 		"name": "EMS First Responder",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 11,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -4793,7 +4786,7 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 		],
 		"gear": ["Medkit, medical scanner PAD, 2 slap-patches"],
@@ -4803,18 +4796,18 @@
 		"name": "EWS Raider",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Computers: Hacking": 3,
@@ -4896,24 +4889,23 @@
 			},
 		],
 		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour"],
-		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:TDB", "Social CR: 2", "General CR: 4"]
 	},
 	{
 		"name": "Field Anchor",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 11,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -4935,18 +4927,18 @@
 		"name": "Floyd 2X3A7C",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -4969,28 +4961,28 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 		],
 		"gear": ["Badge, rosary"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 3", "General CR: 4"]
 	},
 	{
-		"name": "Gabriel "El Lobo" Santiago",
+		"name": "Gabriel 'El Lobo' Santiago",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -5019,24 +5011,23 @@
 			},
 		],
 		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 5"]
+		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 5"]
 	},
 	{
 		"name": "G-Mod Bodyguard",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
@@ -5056,7 +5047,7 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 			{
 				"name": "Stun-knuckles",
@@ -5067,25 +5058,25 @@
 				"qualities": ["Stun 3"]
 			},
 		],
-		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD, 1 slap-patch"],
+		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD", "1 slap-patch"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", "General CR: 2"]
 	},
 	{
 		"name": "G-Modstrocity",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 7,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 1,
@@ -5141,18 +5132,17 @@
 		"name": "Hellion",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 9,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Brawl": 3,
@@ -5184,17 +5174,17 @@
 		"name": "Henry Labor Clone",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 7,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Mechanics","Resilience"],
 		"talents": [],
@@ -5203,23 +5193,23 @@
 		"weapons": [
 		],
 		"gear": ["Durable Clothing: +1 Soak"],
-		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:ADS #11", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
 	},
 	{
 		"name": "Human First Extremist",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
 		},
 		"skills": ["Coercion","Melee","Vigilance"],
 		"talents": [],
@@ -5242,18 +5232,17 @@
 		"name": "Humanity Labor Rep",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -5263,7 +5252,7 @@
 		},
 		"talents": ["Scathing Tirade"],
 		"abilities": [
-			{"name": "Rile Them Up", "description": "Once per encounter, may make an :average: Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional :success:) becomes a Human First Extremist; these NPCs for a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along."}],
+			{"name": "Rile Them Up", "description": "Once per encounter, may make an :average: Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional :success:) becomes a Human First Extremist; these NPCs form a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along."}],
 		"weapons": [
 		],
 		"gear": ["PAD"],
@@ -5272,19 +5261,19 @@
 	{
 		"name": "Hunter-Killer Drone",
 		"type": "Rival",
+		"note": "May be armed with either a Micro-missile pod, or Armor-piercing Missiles",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 15,
+			"defence": [0,1]
 		},
 		"skills": {
 			"Coordination": 1,
@@ -5304,7 +5293,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire."]
+				"qualities": ["Auto-fire"]
 			},
 			{
 				"name": "Micro-missile pod",
@@ -5314,8 +5303,6 @@
 				"range": "Long",
 				"qualities": ["Blast 10","Guided 3","Limited Ammo 6"]
 			},
-		],
-		"gear": [" or",
 			{
 				"name": "Armor-piercing Missiles",
 				"skill": "Gunnery",
@@ -5323,25 +5310,26 @@
 				"critical": 2,
 				"range": "Extreme",
 				"qualities": ["Breach 2","Guided 4","Limited Ammo 2"]
-			},"Armor-piercing Missiles: Gunnery; Damage 20; Critical 2; Range (Extreme); Breach 2, Guided 4, Limited Ammo 2"],
+			}
+		],
+		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
 	},
 	{
 		"name": "Hyperrat Swarm",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 30,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Brawl": 3,
@@ -5361,7 +5349,8 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Knockdown","Vicious 2","gains Pierce 2 against prone targets."]
+				"qualities": ["Knockdown","Vicious 2"],
+				"notes": "Gains Pierce 2 against prone targets."
 			},
 		],
 		"gear": [],
@@ -5371,18 +5360,18 @@
 		"name": "Inez Delgado",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 15,
+			"strain": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -5416,18 +5405,18 @@
 		"name": "Jackson Howard",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 10,
+			"strain": 19,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 5,
@@ -5439,29 +5428,29 @@
 		},
 		"talents": ["Laugh It Off"],
 		"abilities": [
-			{"name": "Flattery Gets You Everywhere", "description": "If t his character knows an opponent's Strength Motivation, when this character inflicts strain on the opponent, the opponent suffers 3 additional strain."}, 
+			{"name": "Flattery Gets You Everywhere", "description": "If this character knows an opponent's Strength Motivation, when this character inflicts strain on the opponent, the opponent suffers 3 additional strain."}, 
 			{"name": "Nice Guy", "description": "After targeting this character with a Coercion or Deception check, if the check generated uncancelled :threat:, double the amount of :threat: generated."}],
 		"weapons": [
 		],
 		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 10", "General CR: 3"]
+		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 10", "General CR: 3"]
 	},
 	{
 		"name": "Ji "Noise" Reilly",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 13,
+			"strain": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Computers: Hacking": 4,
@@ -5492,18 +5481,18 @@
 		"name": "Kati Jones",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -5529,18 +5518,17 @@
 		"name": "Liberty Society Rep",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -5561,18 +5549,18 @@
 		"name": "Lily Lockwell",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 20,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 4,
@@ -5596,18 +5584,18 @@
 		"name": "Lívia Teixeira",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -5626,7 +5614,7 @@
 		},
 		"talents": ["Adversary 3","Deadeye"],
 		"abilities": [
-			{"name": "Los Scorpiones Boss", "description": "May spend a maneuver to direct all Los Scorpiones characters in the current encounter; each may immediately perform :advantage: free maneuver or add s to the results of their next check."}, 
+			{"name": "Los Scorpiones Boss", "description": "May spend a maneuver to direct all Los Scorpiones characters in the current encounter; each may immediately perform a free maneuver or add :success: to the results of their next check."}, 
 			{"name": "Extreme G-modded Physique", "description": "Before making an Athletics, Brawl, Melee, or Resilience check, may suffer 1 strain to add :success::success: to the results."}],
 		"weapons": [
 			{
@@ -5655,31 +5643,31 @@
 			},
 			{
 				"name": "G-modded fists and feet",
-				"skill": "Brawl: Damage 5",
-				"damage": 3,
-				"critical": (Engaged),
-				"range": "Disorient 1, Knockdown, Sunder."
-				},
+				"skill": "Brawl",
+				"Damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown", "Sunder"]
+				}
 		],
 		"gear": ["Trenchcoat with hidden pockets and holsters: +1 soak.","Cocktail dress"],
-		"tags": ["source:U", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
 	},
 	{
 		"name": "Loonie Revolutionary",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 2,
@@ -5697,7 +5685,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Burn 1","Inferior."]
+				"qualities": ["Burn 1","Inferior"]
 			},
 		],
 		"gear": ["Armored Space Suit: +2 soak"],
@@ -5707,19 +5695,19 @@
 		"name": "Los Scorpiones Cascares",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 7,
+			"defence": [0,0]
 		},
-		"skills": ["Coercion Melee","Ranged: Light","Streetwise","Vigilance"],
+		"skills": ["Coercion", "Melee","Ranged: Light","Streetwise","Vigilance"],
 		"talents": [],
 		"abilities": [],
 		"weapons": [
@@ -5747,18 +5735,17 @@
 		"name": "Maintenance Drone",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 8,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 3,
@@ -5784,18 +5771,17 @@
 		"name": "Melange Overseer",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
@@ -5835,18 +5821,18 @@
 		"name": "Megacorp Exec",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -5871,18 +5857,18 @@
 		"name": "Mercenary Vet",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 16,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -5903,7 +5889,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Accurate 1","Auto-fire."]
+				"qualities": ["Accurate 1","Auto-fire"]
 			},
 			{
 				"name": "2 Monofilament Grenades",
@@ -5929,18 +5915,18 @@
 		"name": "Miguel Moreno",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 5,
@@ -5967,24 +5953,24 @@
 			},
 		],
 		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside"],
-		"tags": ["source:U", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
 	},
 	{
 		"name": "Monica Singh",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 16,
+			"strain": 16,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Coordination": 3,
@@ -6025,18 +6011,18 @@
 		"name": "Mr. Li",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -6065,24 +6051,24 @@
 			},
 		],
 		"gear": ["Expensive suit, numerous members of 14k, smug expression"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 11", "General CR: 6"]
+		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 11", "General CR: 6"]
 	},
 	{
 		"name": "Mr. Stone",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 3,
@@ -6115,29 +6101,30 @@
 				"name": "Scoped Gauss Rifle",
 				"skill": "Ranged: Heavy",
 				"damage": 10,
-				"critical": 2, Range (Extreme),
-				"range": "Cumbersome 3, Pierce 5, Slow-Firing 1, reduce difficulty of combat checks made at long and extreme range by 1"
-				},
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Cumbersome 3", "Pierce 5", "Slow-Firing 1"],
+				"notes": "Reduce difficulty of combat checks made at long and extreme range by 1"
+				}
 		],
 		"gear": ["Suit with reinforced fiber weave: +1 soak","Camdrone, PAD, credstick with untraceable fund account"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR: 4", "General CR: 7"]
+		"tags": ["source:RMC #15", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR: 4", "General CR: 7"]
 	},
 	{
 		"name": "NAPD Detective",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -6158,7 +6145,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Medium",
-				"qualities": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage."]
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
 			},
 		],
 		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
@@ -6168,18 +6155,17 @@
 		"name": "NAPD Hachi-Inu K8 Unit",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Brawl": 3,
@@ -6207,17 +6193,17 @@
 		"name": "NAPD Patrol Officer",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Coercion","Leadership","Melee","Ranged: Light","Vigilance"],
 		"talents": [],
@@ -6230,7 +6216,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Medium",
-				"qualities": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage."]
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
 			},
 			{
 				"name": "Stun Baton",
@@ -6238,7 +6224,7 @@
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 3","Stun Damage."]
+				"qualities": ["Disorient 3","Stun Damage"]
 			},
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks"],
@@ -6248,17 +6234,17 @@
 		"name": "NAPD Riot Police",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 7,
+			"defence": [2,2]
 		},
 		"skills": ["Athletics","Brawl","Coercion","Melee","Vigilance"],
 		"talents": [],
@@ -6271,15 +6257,16 @@
 				"damage": 8,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Concussive 2","Knockdown","Prepare 1","Stun Damage."]
+				"qualities": ["Concussive 2","Knockdown","Prepare 1","Stun Damage"]
 			},
 			{
 				"name": "Riot Shield",
-				"skill": "Melee, Damage 4",
-				"damage": 5,
-				"critical": (Engaged),
-				"range": "Defensive 2, Deflection 2, Inaccurate 2"
-				},
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Deflection 2", "Inaccurate 2"]
+				}
 		],
 		"gear": ["Riot Armor: +2 soak.","Smoke grenades, 4 snap locks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -6288,18 +6275,17 @@
 		"name": "NAPD SWAT",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -6319,7 +6305,8 @@
 				"damage": 10,
 				"critical": 2,
 				"range": "Extreme",
-				"qualities": ["Cumbersome 2","Pierce 5","Slow-Firing 1","reduce difficulty of combat checks at long range or greater by 1"]
+				"qualities": ["Cumbersome 2","Pierce 5","Slow-Firing 1"],
+				"notes": "Reduce difficulty of combat checks at long range or greater by 1"
 			},
 			{
 				"name": "HHI SP-10 Shotgun",
@@ -6327,7 +6314,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Short",
-				"qualities": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 5","Knockdown","Stun Damage","Vicious 2 6"]
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 5, Knockdown, Stun Damage , Vicious 2"]
 			},
 			{
 				"name": "Backup Fletcher Pistol",
@@ -6336,27 +6323,27 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Body Armor: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 2"]
 	},
 	{
-		"name": "Olivia "Chaos Theory" Ortiz",
+		"name": "Olivia 'Chaos Theory' Ortiz",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 9,
+			"strain": 14,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Charm": 2,
@@ -6376,24 +6363,23 @@
 		"weapons": [
 		],
 		"gear": ["Tool kit","Dinosaurus rig with Corroder, Faerie, and Torch (pages 136-138 of SotB)-protected by Dinosaurus ice (use rules for Syn 22 on page 135 of SotB)"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 11"]
+		"tags": ["source:RMC #4", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 11"]
 	},
 	{
 		"name": "Omoi Security Clone",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 1,
@@ -6413,35 +6399,35 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 			{
 				"name": "Palm Stunner",
 				"skill": "Brawl",
 				"damage": 5,
-				"critical": 5, Range (Engaged),
-				"range": "Disorient 2, Slow-firing 2, Stun Damage."
-				},
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Slow-firing 2", "Stun Damage"]
+				}
 		],
 		"gear": [],
-		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:ADS #14", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
 	},
 	{
 		"name": "Opticon Foundation Watchdog",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 9,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Computers: Hacking": 1,
@@ -6462,18 +6448,18 @@
 		"name": "Orgcrime Lieutenant",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Coercion": 3,
@@ -6506,18 +6492,17 @@
 		"name": "Orgcrime Heavy",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -6546,7 +6531,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Concussive 2","Knockdown","Prepare 1"]
-			},
+			}
 		],
 		"gear": ["Light Armor Vest: +2 soak.","Oversized suit with hidden holsters"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 1", "General CR: 2"]
@@ -6555,17 +6540,17 @@
 		"name": "Orgcrime Muscle",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
 		},
 		"skills": ["Brawl","Coercion","Ranged: Light"],
 		"talents": [],
@@ -6587,7 +6572,7 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Cheap Padded Suit: +1 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -6596,18 +6581,18 @@
 		"name": "Principled Runner",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Charm": 1,
@@ -6628,8 +6613,8 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
-			},
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
 		],
 		"gear": ["Armored Utility Vest: +1 defense, +1 soak.","BMI.","Big rig with Athena (SotB p. 136) and Yog.0 (SotB p. 138)- protected by Hawk's Eye (SotB p. 134) and Fire Wall (SotB p. 133)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 3", "General CR: 8"]
@@ -6638,17 +6623,17 @@
 		"name": "Private Military Contractor",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 5,
+			"defence": [1,1]
 		},
 		"skills": ["Discipline","Ranged: Heavy","Vigilance"],
 		"talents": [],
@@ -6660,8 +6645,8 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire."]
-			},
+				"qualities": ["Auto-fire"]
+			}
 		],
 		"gear": ["Plasteel carapace: 1 defense, +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 1"]
@@ -6670,18 +6655,18 @@
 		"name": "Rachel Beckmann",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Coercion": 3,
@@ -6710,7 +6695,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Accurate 1"]
-			},
+			}
 		],
 		"gear": ["Ballistic Vest: +2 soak","Set of restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 3", "General CR: 3"]
@@ -6719,18 +6704,18 @@
 		"name": "Rashida Jaheem",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 17,
+			"strain": 14,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -6747,7 +6732,7 @@
 		},
 		"talents": ["Adversary 2","Deadeye"],
 		"abilities": [
-			{"name": "Ruthless Efficiency", "description": "Before making a combat check, may spend one Story Point to reduce the number of a needed to activate item qualities or trigger effects by one to a minimum of one."}, 
+			{"name": "Ruthless Efficiency", "description": "Before making a combat check, may spend one Story Point to reduce the number of :advantage: needed to activate item qualities or trigger effects by one, to a minimum of one."}, 
 			{"name": "Well Oiled Machine", "description": "While within medium range of this character, allies may perform a second maneuver without suffering strain."}],
 		"weapons": [
 			{
@@ -6756,7 +6741,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Accurate 1","Auto-fire."]
+				"qualities": ["Accurate 1","Auto-fire"]
 			},
 			{
 				"name": "Suit-mounted Micro-missle",
@@ -6773,27 +6758,27 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Plasteel Carapace Armor: +2 soak, 1 defense","Encrypted field radio"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 4", "General CR: 5"]
+		"tags": ["source:RMC #17", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 4", "General CR: 5"]
 	},
 	{
 		"name": "Raymond Flint",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [1,0]
 		},
 		"skills": {
 			"Charm": 3,
@@ -6820,27 +6805,26 @@
 				"critical": 2,
 				"range": "Ranged Medium",
 				"qualities": ["Blast 4","Pierce 2","Vicious 3"]
-			},
+			}
 		],
 		"gear": ["Heavy Trenchcoat: +1 soak","Smokes, PAD, fedora"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 5", "General CR: 11"]
+		"tags": ["source:RMC #18", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 5", "General CR: 11"]
 	},
 	{
 		"name": "Regulator",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 8,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Discipline": 2,
@@ -6862,18 +6846,18 @@
 		"name": "Reina Roja",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 20,
+			"strain": 16,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -6904,7 +6888,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire."]
+				"qualities": ["Auto-fire"]
 			},
 			{
 				"name": "Fletcher Pistol",
@@ -6913,27 +6897,26 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Pierce 2","Vicious 2"]
-			},
+			}
 		],
-		"gear": ["Skin Suit: +2 soak, +2 defense, +2 wound threshold","Cybereyes, skulljack (allows Reina to "go deep" during network encounters, p. 105 SotB)","Deep Red portable console with Athena and Garrote (p. 136-137 SotB)-protected by Archer and Enigma (p. 134-135 SotB)","Minion group of 4 camdrones, minion group of 4 combat drones (p. 233 SotB)"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 6", "General CR: 12"]
+		"gear": ["Skin Suit: +2 soak, +2 defense, +2 wound threshold","Cybereyes, skulljack (allows Reina to 'go deep' during network encounters, p. 105 SotB)","Deep Red portable console with Athena and Garrote (p. 136-137 SotB)-protected by Archer and Enigma (p. 134-135 SotB)","Minion group of 4 camdrones, minion group of 4 combat drones (p. 233 SotB)"],
+		"tags": ["source:RMC #19", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 6", "General CR: 12"]
 	},
 	{
 		"name": "Reporter",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -6957,18 +6940,17 @@
 		"name": "Researcher",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Discipline": 2,
@@ -6989,17 +6971,17 @@
 		"name": "Retail Drone",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,1]
 		},
 		"skills": ["Perception","Vigilance"],
 		"talents": ["Big Guns"],
@@ -7016,18 +6998,17 @@
 		"name": "Rex Search and Rescue Bioroid",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 6,
+			"wounds": 6,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -7048,18 +7029,18 @@
 		"name": "Ristie Collector",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 5
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"strain": 15,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Cool": 1,
@@ -7082,18 +7063,18 @@
 		"name": "Rogue Nisei Clone",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 20,
+			"defence": [4,4]
 		},
 		"skills": {
 			"Brawl": 4,
@@ -7125,7 +7106,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Prepare 1","Sunder","Unwieldy 3","Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 8", "General CR: 8"]
@@ -7134,17 +7115,17 @@
 		"name": "SEA Yellow Jacket",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
 		},
 		"skills": ["Coercion","Knowledge: Society","Ranged: Light","Vigilance"],
 		"talents": [],
@@ -7157,7 +7138,7 @@
 				"damage": 5,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Disorient 4","Stun 3","Stun Damage."]
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
 			},
 		],
 		"gear": ["Security PAD, 2 snap locks"],
@@ -7167,17 +7148,17 @@
 		"name": "Seth Bioroidista",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 5,
+			"defence": [0,0]
 		},
 		"skills": ["Charm","Knowledge: Science","Perception"],
 		"talents": [],
@@ -7193,18 +7174,17 @@
 		"name": "Sneaker Net Courier",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -7227,8 +7207,8 @@
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
-				"qualities": ["Disorient 2","Slow-Firing 2","Stun Damage."]
-			},
+				"qualities": ["Disorient 2","Slow-Firing 2","Stun Damage"]
+			}
 		],
 		"gear": ["Good running shoes, encrypted datasticks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 4"]
@@ -7237,18 +7217,17 @@
 		"name": "Starlight Templar",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Brawl": 2,
@@ -7269,7 +7248,7 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Heavy Jacket with Crusade logo: +1 soak.","PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", "General CR: 1"]
@@ -7278,17 +7257,17 @@
 		"name": "Streetbanger",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
 		},
 		"skills": ["Brawl","Coercion","Melee","Ranged: Light","Streetwise"],
 		"talents": [],
@@ -7309,7 +7288,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": ["Synthleather Jacket: +1 soak","Extensive tattoos and piercings"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -7318,18 +7297,17 @@
 		"name": "Streetbanger Leader",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 16,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Coercion": 2,
@@ -7360,7 +7338,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Burn 1","Prepare 1","Sunder","Unwieldy 2"]
-			},
+			}
 		],
 		"gear": ["Leather Jacket with Gang Colors: +1 soak","PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 3", "General CR: 2"]
@@ -7369,18 +7347,17 @@
 		"name": "Street Doc",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Deception": 2,
@@ -7408,19 +7385,19 @@
 	{
 		"name": "SXC Exosuit Pilot",
 		"type": "Rival",
+		"notes": "May choose either a Heavy fletcher or a Laser Cannon",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 7,
+			"wounds": 20,
+			"defence": [1,1]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -7442,16 +7419,14 @@
 				"range": "Medium",
 				"qualities": ["Blast 6","Pierce 4","Vicious 3"]
 			},
-		],
-		"gear": ["or",
 			{
-				"name": "Laster Cannon",
+				"name": "Laser Cannon",
 				"skill": "Gunnery",
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
 				"qualities": ["Accurate 1","Burn 1","Cumbersome 4"]
-			},"Laster Cannon: Gunnery; Damage 10; Critical 3; Range (Long); Accurate 1, Burn 1, Cumbersome 4",
+			},
 			{
 				"name": "Power-augmented Exosuit fists",
 				"skill": "Brawl",
@@ -7459,24 +7434,26 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},"Power-augmented Exosuit fists: Brawl; Damage 7; Critical 4; Range (Engaged); Knockdown.","SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours"],
+			}
+		],
+		"gear": ["SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 2", "General CR: 2"]
 	},
 	{
 		"name": "SXC Trooper",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 6,
+			"defence": [1,1]
 		},
 		"skills": ["Athletics","Discipline","Melee","Ranged: Heavy","Vigilance"],
 		"talents": [],
@@ -7506,18 +7483,18 @@
 		"name": "SYNC Globalsec Agent",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Computers: Hacking": 2,
@@ -7539,17 +7516,17 @@
 		"name": "Teacup Giraffe",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0,0]
 		},
 		"skills": ["Charm"],
 		"talents": [],
@@ -7563,27 +7540,26 @@
 				"damage": 0,
 				"critical": 8,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Gentle doe eyes"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
 	},
 	{
-		"name": "Tenma Driver Clone(Rival)",
-		"type": "enma Driver Clone(Rival",
+		"name": "Tenma Driver Clone",
+		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 8,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Driving": 3,
@@ -7604,18 +7580,18 @@
 		"name": "Thomas Haas",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 4
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 12,
+			"strain": 11,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -7641,18 +7617,17 @@
 		"name": "Toy Drone",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 5,
+			"wounds": 8,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -7674,17 +7649,17 @@
 		"name": "Urban Peccary",
 		"type": "Minion",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"defence": [,]
+			"soak": 2,
+			"wounds": 7,
+			"defence": [0,0]
 		},
 		"skills": ["Athletics","Brawl","Survival"],
 		"talents": [],
@@ -7698,7 +7673,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -7707,18 +7682,17 @@
 		"name": "Urban Adventurer",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 4,
@@ -7742,7 +7716,7 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 7"]
@@ -7751,18 +7725,18 @@
 		"name": "Yakuza Assassin",
 		"type": "Nemesis",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 1
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [2,2]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -7779,8 +7753,8 @@
 		},
 		"talents": ["Adversary 2","Archaic Arms Master"],
 		"abilities": [
-			{"name": "Quiet Code", "description": "When making a Computer (Hacking) check, h may not be spent to alert other users to the assassin's presence."}, 
-			{"name": "Subtle Death", "description": "When making a Brawl check, may spend :advantage::advantage: or t to apply a dose of contact poison to the target; the target must immediately make a :hard: Resilience check as an incidental; if they fail, they suffer 5 wounds plus 1 wound per h; d means they must make the check again at the start of their next turn, as the poison remains in their system."}],
+			{"name": "Quiet Code", "description": "When making a Computer (Hacking) check, :threat: may not be spent to alert other users to the assassin's presence."}, 
+			{"name": "Subtle Death", "description": "When making a Brawl check, may spend :advantage::advantage: or :triumph: to apply a dose of contact poison to the target; the target must immediately make a :hard: Resilience check as an incidental; if they fail, they suffer 5 wounds plus 1 wound per :threat:; :despair: means they must make the check again at the start of their next turn, as the poison remains in their system."}],
 		"weapons": [
 			{
 				"name": "Charged Crystal Katana",
@@ -7788,7 +7762,7 @@
 				"damage": 6,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Defensive 1","Pierce 3","Reinforced."]
+				"qualities": ["Defensive 1","Pierce 3","Reinforced"]
 			},
 			{
 				"name": "Fists and feet",
@@ -7796,8 +7770,8 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Disorient 1","Knockdown","Stun 5","Stun Damage."]
-			},
+				"qualities": ["Disorient 1","Knockdown","Stun 5","Stun Damage"]
+			}
 		],
 		"gear": ["Optical Camouflage Suit: +2 Defense.","Pocket Rig with One-Shot Icebreakers: Spend a Story Point to add :success::success::success: to a successful check to break ice.","Climbing gear"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 8"]
@@ -7806,18 +7780,17 @@
 		"name": "Young Ristie",
 		"type": "Rival",
 		"characteristics": {
-			"Brawn": ,
-			"Agility": ,
-			"Intellect": ,
-			"Cunning": ,
-			"Willpower": ,
-			"Presence": 
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 3
 		},
 		"derived": {
-			"soak": ,
-			"wounds": ,
-			"strain": ,
-			"defence": [,]
+			"soak": 1,
+			"wounds": 10,
+			"defence": [0,0]
 		},
 		"skills": {
 			"Charm": 2,
@@ -8237,7 +8210,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire."]
+				"qualities": ["Auto-fire"]
 			},
 		],
 		"gear": ["Fatigues: +1 soak"],
