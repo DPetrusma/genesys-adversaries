@@ -1,4 +1,4 @@
-{
+[
 	{
 		"name": "Ancient Dragon",
 		"type": "Nemesis",
@@ -123,7 +123,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Unwieldy 2"]
-			},
+			}
 		],
 		"gear": ["A variety of concealing cloaks"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 6"]
@@ -161,7 +161,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 3"]
@@ -209,7 +209,7 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Burn 2","Pierce 3"]
-			},
+			}
 		],
 		"gear": [" or",
 			{
@@ -258,7 +258,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
@@ -314,7 +314,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Defensive 2","Deflection 2","Inaccurate 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Plate Armor: +2 soak, +1 defense.","War Mount: see RoT page 105"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 2"]
@@ -346,7 +346,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -379,7 +379,7 @@
 				"damage": 6,
 				"critical": 4,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -469,7 +469,7 @@
 				"critical": 6,
 				"range": "Engaged",
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Padded Armor: +1 soak"],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", "General CR: TDB"]
@@ -500,7 +500,7 @@
 				"damage": 6,
 				"critical": 4,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": [],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", "General CR: TDB"]
@@ -548,7 +548,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -593,7 +593,7 @@
 				"critical": 6,
 				"range": "Engaged",
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -627,9 +627,9 @@
 				"name": "Dagger",
 				"skill": "Melee: Light Damage 3",
 				"damage": 3,
-				"critical": (Engaged),
+				"critical": "Engaged",
 				"range": "Accurate 1"
-				},
+				}
 		],
 		"gear": ["Padded Armor: +1 soak"],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
@@ -676,7 +676,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 2","Stun Damage"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
@@ -727,7 +727,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Cumbersome 3","Linked 1","Unwieldy 3"]
-			},
+			}
 		],
 		"gear": ["Battered Armor: +2 soak, +1 defense.","War mount (see page 105 of RoT)"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 2", "General CR: 3"]
@@ -766,7 +766,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Accurate 1","Sunder"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 2", "General CR: 3"]
@@ -799,7 +799,7 @@
 				"critical": 2,
 				"range": "Extreme",
 				"qualities": ["Accurate 1","Cumbersome 3","Superior","Unwieldy 3"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
@@ -853,7 +853,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Disorient 2","Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 3", "General CR: 3"]
@@ -909,7 +909,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 12", "General CR: 10"]
@@ -965,7 +965,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": ["Scale Armor: +2 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 1"]
@@ -1005,7 +1005,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Stun Damage"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 2"]
@@ -1092,7 +1092,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Blast 6","Burn 2","Limited Ammo 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 3"]
@@ -1145,7 +1145,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Ensnare 1","Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
@@ -1202,7 +1202,7 @@
 				"critical": 6,
 				"range": "Engaged",
 				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
@@ -1254,7 +1254,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR: 3", "General CR: 2"]
@@ -1302,7 +1302,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -1343,7 +1343,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Ensnare 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -1382,7 +1382,7 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Knockdown","Prepare 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 3", "General CR: 2"]
@@ -1420,7 +1420,7 @@
 				"critical": 2,
 				"range": "Short",
 				"qualities": ["Inaccurate 1","Knockdown","Prepare 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 2", "General CR: 1"]
@@ -1465,7 +1465,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Ensnare 4","Stun 4"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
@@ -1615,7 +1615,7 @@
 			"Runes": 3
 		},
 		"talents": ["Adversary 1"],
-		"abilities": [, 
+		"abilities": [ 
 			{"name": "Spells", "description": "A wizard can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
 			{"name": "Spells| Fireball", "description": "Choose one target at short or medium range and make a :hard: Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Blast 4 and Burn 4 qualities."}, 
 			{"name": "Spells| Magic Shield", "description": "Make a :hard: Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every :success::success:, and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."}],
@@ -1666,7 +1666,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -1711,7 +1711,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Knockdown"]
-			},
+			}
 		],
 		"gear": ["When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak."],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -1763,7 +1763,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR: 5", "General CR: 6"]
@@ -1804,7 +1804,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Stun 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -1847,13 +1847,13 @@
 				"qualities": ["Defensive 1","Pierce 3"]
 			},
 			{
-				"name": "large shield Melee: Light; Damage 5; Critical 5; Range (Engaged); Defensive 2, Deflection 2, Inaccurate 2, Knockdown.",
-				"skill": "arge shield Melee: Light",
+				"name": "Large shield",
+				"skill": "Melee: Light",
 				"damage": 5,
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Defensive 2","Deflection 2","Inaccurate 2","Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 2"]
@@ -1893,7 +1893,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": ["Smokebombs, vials of poison gas"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 3"]
@@ -1933,7 +1933,7 @@
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -1979,7 +1979,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Blast 4","Burn 2","Concussive 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 1"]
@@ -2016,7 +2016,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Pierce 2","Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
@@ -2055,7 +2055,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Accurate 1","Defensive 1"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak, Leonx see page 180"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", "General CR: 1"]
@@ -2106,7 +2106,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Ensnare 1","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Magic Staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 5", "General CR: 7"]
@@ -2139,7 +2139,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Defensive 1"]
-			},
+			}
 		],
 		"gear": ["Scale Breastplate: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -2178,7 +2178,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Defensive 1"]
-			},
+			}
 		],
 		"gear": ["Heraldic plate armor (+2 soak, +1 defense)"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", "General CR: 2"]
@@ -2258,7 +2258,7 @@
 				"critical": 4,
 				"range": "[Medium]",
 				"qualities": ["Disorient 2","Prepare 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -2303,7 +2303,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Slow-Firing 1","Pierce 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 1", "General CR: 1"]
@@ -2334,7 +2334,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1","Chill of Nordros","Dark Insight","Necromancy"],
-		"abilities": [, 
+		"abilities": [ 
 			{"name": "Spells", "description": "Mavaris Skain can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. His favored spells are:"}, 
 			{"name": "Spells| Death Knell", "description": "Choose one target at short or medium range and make an :average: Arcana check; if the check succeeds, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
 			{"name": "Spells| Wilt", "description": "Choose two targets within short range and make an :average: Arcana check; if the check succeeds, Skain can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."}, 
@@ -2404,7 +2404,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -2444,7 +2444,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Burn 1 (flame elemental only)","Ensnare 1 (quicksand elemental only)","Linked 1","Stun 5 (spring elemental only)."]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 2", "General CR: 2"]
@@ -2485,7 +2485,7 @@
 				"range": "Engaged",
 				"qualities": ["Pierce 1","Vicious 2"],
 				"notes": "A character wounded by this weapon by make a :hard: Resilience check or suffer 4 additional wounds, and must check again on their net turn if the check generates :despair:"
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 5", "General CR: 3"]
@@ -2516,22 +2516,22 @@
 			"Vigilance": 1
 		},
 		"talents": ["Adversary 1","Chill of Nordros","Necromancy"],
-		"abilities": [, 
+		"abilities": [ 
 			{"name": "Spells", "description": "Necromancers can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
 			{"name": "Spells| Death Knell", "description": "Choose one target at short or medium range and make an :average:Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
 			{"name": "Spells| Wilt", "description": "Choose two targets within short range and make an :average: Arcana check. If successful, the Necromancer can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of the necromancer’s next turn. If an affected character suffers strain for any reason, they suffer 1 additional strain. The necromancer can perform the concentrate maneuver to maintain all effects of this curse."}, 
 			{"name": "Spells| Wall of Bones", "description": "Make a :hard: Arcana check. If successful, the necromancer reduces the damage of all hits they suffer by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting the necromancer generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; the necromancer may perform the concentrate maneuver to maintain the effects of this barrier."}],
 		"weapons": [
-		],
-		"gear": ["Bone staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.",
 			{
 				"name": "Ceremonial Dagger",
 				"skill": "Melee: Light",
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Accurate 1","Vicious 1;"]
-			},"Ceremonial Dagger: Melee: Light; Damage 4; Critical 3; Range (Engaged); Accurate 1, Vicious 1;","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty"],
+				"qualities": ["Accurate 1","Vicious 1"]
+			}
+		],
+		"gear": ["Bone staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 6"]
 	},
 	{
@@ -2576,7 +2576,7 @@
 				"critical": 5,
 				"range": "Short",
 				"qualities": ["Ensnare 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Scavenged Armor: +2 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 1", "General CR: 2"]
@@ -2662,7 +2662,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak.","Extra spears.","Armored Gurak Tol mount"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -2727,7 +2727,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Defensive 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -2757,7 +2757,7 @@
 			"Vigilance": 1
 		},
 		"talents": ["Flames of Kellos"],
-		"abilities": [, 
+		"abilities": [ 
 			{"name": "Spells", "description": "Priests of Kellos can choose any magic action allowed for the Divine skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
 			{"name": "Spells| Healing Spark", "description": "Choose a target within short range and make an :average: Divine check. If the check succeeds, the target heals 1 wound per :success: and 1 strain per :advantage:."}, 
 			{"name": "Spells| Righteous Blaze", "description": "Choose one target within short range and make an :average: Divine check. If successful, this magic attack inflicts 3 damage +1 damage per uncanceled :success:, with the Burn 3 quality. Against an undead target, the attack inflicts +2 damage per :success: instead."}],
@@ -2768,7 +2768,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Heavy Robes: +1 defense"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 3", "General CR: 2"]
@@ -2814,7 +2814,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Stun 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
@@ -2854,7 +2854,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium"
-			},
+			}
 		],
 		"gear": ["Antique Mail: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -2903,7 +2903,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Concussive 1","Disorient 3","Linked 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 2", "General CR: 2"]
@@ -2941,7 +2941,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Burn 2","Sunder","Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
@@ -2978,7 +2978,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 3 strain."]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -3012,7 +3012,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Breach 1","Stun Damage"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 2", "General CR: 1"]
@@ -3053,7 +3053,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -3103,7 +3103,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 3", "General CR: 3"]
@@ -3143,7 +3143,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 3", "General CR: 2"]
@@ -3181,7 +3181,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium"
-				},
+				}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -3237,7 +3237,7 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Ensnare 2","Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 2"]
@@ -3277,7 +3277,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Inaccurate 1","Knockdown","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Stolen Patchwork Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 1", "General CR: 1"]
@@ -3351,7 +3351,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Defensive 1","Pierce 3"]
-			},
+			}
 		],
 		"gear": ["Fancy clothes"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", "General CR: 1"]
@@ -3389,7 +3389,7 @@
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged,"
-				},
+				}
 		],
 		"gear": ["Fine clothing"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 5", "General CR: 4"]
@@ -3436,7 +3436,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 2","Stun Damage"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 2", "General CR: 3"]
@@ -3490,7 +3490,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 4", "General CR: 6"]
@@ -3527,7 +3527,7 @@
 				"critical": 3,
 				"range": "Long",
 				"qualities": ["Unwieldy 3"]
-			},
+			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 4", "General CR: 6"]
@@ -3576,7 +3576,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Unwieldy 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -3626,7 +3626,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 4"]
@@ -3668,7 +3668,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": ["Bone Armor: +1 soak"],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", "General CR: 3"]
@@ -3716,7 +3716,7 @@
 				"critical": 5,
 				"range": "medium",
 				"qualities": ["Breach 1","Stun Damage"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 3"]
@@ -3764,7 +3764,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 3", "General CR: 3"]
@@ -3814,7 +3814,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 2", "General CR: 3"]
@@ -3866,7 +3866,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Burn 1","Prepare 1","Sunder"]
-			},
+			}
 		],
 		"gear": ["Sleeveless shirt, bandannas, silver crossed pistols on chain"],
 		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 5", "General CR: 4"]
@@ -3972,7 +3972,7 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Blast 7","Burn 3"]
-			},
+			}
 		],
 		"gear": ["Skulljack, Portable Terminal with Crypsis (SotB p. 137)-protected by Hadrian's Wall (SotB p. 133)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 7"]
@@ -4081,7 +4081,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Legal PAD, expensive suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", "General CR: 3"]
@@ -4191,7 +4191,7 @@
 				"critical": 6,
 				"range": "Short",
 				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Trenchcoat, NAPD badge, restraints"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 8", "General CR: 5"]
@@ -4224,7 +4224,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Stun 2"]
-			},
+			}
 		],
 		"gear": ["Hard Hat: +1 melee defense.","PAD, toolkit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -4266,7 +4266,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["PAD, bouncers"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
@@ -4302,7 +4302,7 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -4342,7 +4342,7 @@
 				"critical": 2,
 				"range": "Medium",
 				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 1"]
@@ -4483,7 +4483,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Auto-fire"]
-			},
+			}
 		],
 		"gear": ["Skulljack, fake IDs.","Portable Rig with Femme Fatale (SotB p. 137) and Corroder (SotB p. 136)-protected by Shinobi (SotB p. 135)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 3", "General CR: 7"]
@@ -4522,7 +4522,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Stun 4"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 2"]
@@ -4574,7 +4574,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 2", "General CR: 5"]
@@ -4640,7 +4640,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Disorient 2"]
-			},
+			}
 		],
 		"gear": ["Diesel can, PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -4671,7 +4671,7 @@
 				"damage": 3,
 				"critical": 4,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Backpack of personal goods"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 2"]
@@ -4713,7 +4713,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium, Inaccurate 1, Limited Ammo 4"
-				},
+				}
 		],
 		"gear": ["Backpack full of supplies, medical kit, rope, flashlight"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", "General CR: 4"]
@@ -4751,7 +4751,7 @@
 			{"name": "That's a Nice Home You Have There", "description": "Once per encounter, may make an opposed Coercion versus Vigilance check targeting one other character in the current encounter; if successful, the target suffers 2 strain per :success:; may spend :advantage::advantage: to affect one additional character in the current encounter and have them suffer and equal amount of strain, and spend :triumph: to stagger one affected target until the end of this character's next turn."}],
 		"weapons": [
 		],
-		"gear": ["Smart business suit, PAD loaded with contact information for "freelance contractors""],
+		"gear": ["Smart business suit, PAD loaded with contact information for 'freelance contractors'"],
 		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 8", "General CR: 6"]
 	},
 	{
@@ -4787,7 +4787,7 @@
 				"critical": 6,
 				"range": "Short",
 				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Medkit, medical scanner PAD, 2 slap-patches"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 3"]
@@ -4831,7 +4831,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Accurate 1","Burn 1"]
-			},
+			}
 		],
 		"gear": ["Skin Suit: 2 defense, +2 soak, +2 wound threshold.","Up to four drones of various types","Encrypted suit rig with BMI with Corroder (SotB p. 136) and Crypsis (SotB p 137)-protected by Archer (SotB p. 134) and Ice Wall (SotB p. 134)"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 2", "General CR: 7"]
@@ -4886,7 +4886,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour"],
 		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:TDB", "Social CR: 2", "General CR: 4"]
@@ -4920,7 +4920,7 @@
 			"Leading Question"],
 		"weapons": [
 		],
-		"gear": ["Light "Bulletproof" Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit"],
+		"gear": ["Light 'Bulletproof' Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", "General CR: 3"]
 	},
 	{
@@ -4962,7 +4962,7 @@
 				"critical": 6,
 				"range": "Short",
 				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Badge, rosary"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 3", "General CR: 4"]
@@ -5008,7 +5008,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Accurate 1","Burn 1"]
-			},
+			}
 		],
 		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
 		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 5"]
@@ -5056,7 +5056,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Stun 3"]
-			},
+			}
 		],
 		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD", "1 slap-patch"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", "General CR: 2"]
@@ -5093,7 +5093,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Ensare","Sunder"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 1", "General CR: 2"]
@@ -5165,7 +5165,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 3","Sunder"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 5"]
@@ -5223,7 +5223,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": ["Durable clothing: +1 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -5351,7 +5351,7 @@
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 2"],
 				"notes": "Gains Pierce 2 against prone targets."
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -5396,7 +5396,7 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium"
-				},
+				}
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","PAD, customized cyber rig, NAPD badge"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 2", "General CR: 9"]
@@ -5436,7 +5436,7 @@
 		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 10", "General CR: 3"]
 	},
 	{
-		"name": "Ji "Noise" Reilly",
+		"name": "Ji 'Noise' Reilly",
 		"type": "Nemesis",
 		"characteristics": {
 			"Brawn": 2,
@@ -5472,7 +5472,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Short"
-				},
+				}
 		],
 		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)"],
 		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 8"]
@@ -5686,7 +5686,7 @@
 				"critical": 3,
 				"range": "Medium",
 				"qualities": ["Burn 1","Inferior"]
-			},
+			}
 		],
 		"gear": ["Armored Space Suit: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 3", "General CR: 2"]
@@ -5726,7 +5726,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": ["Aviator glasses"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -5762,7 +5762,7 @@
 				"critical": 6,
 				"range": "Engaged",
 				"qualities": ["Inaccurate 1"]
-			},
+			}
 		],
 		"gear": ["Integrated construction and repair tools"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -5812,7 +5812,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Accurate 1","Burn 1"]
-			},
+			}
 		],
 		"gear": ["Reinforced Mining Space Suit: +2 soak","Lunar megarover, PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 2", "General CR: 2"]
@@ -5906,7 +5906,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Light Body Armor: +2 soak"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
@@ -5950,7 +5950,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Inaccurate 1"]
-			},
+			}
 		],
 		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside"],
 		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
@@ -6002,7 +6002,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 5","Vicious 3"]
-			},
+			}
 		],
 		"gear": ["Concealed buckyweave armor: +1 soak, 1 defense","One-way comm device"],
 		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 6", "General CR: 8"]
@@ -6048,7 +6048,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Accurate 1","Burn 1","Limited Ammo 2"]
-			},
+			}
 		],
 		"gear": ["Expensive suit, numerous members of 14k, smug expression"],
 		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 11", "General CR: 6"]
@@ -6146,7 +6146,7 @@
 				"critical": 4,
 				"range": "Medium",
 				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 4", "General CR: 4"]
@@ -6184,7 +6184,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Stun 5"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 3"]
@@ -6225,7 +6225,7 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -6483,7 +6483,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Accurate 1","Burn 1"]
-			},
+			}
 		],
 		"gear": ["Gold chains, nice suit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 5", "General CR: 6"]
@@ -7139,7 +7139,7 @@
 				"critical": 6,
 				"range": "Short",
 				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
-			},
+			}
 		],
 		"gear": ["Security PAD, 2 snap locks"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -7377,7 +7377,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Blast 4","Knockdown","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["4 Slap-patches","Various cybernetics, emergency medkit, portable toolkit"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 3"]
@@ -7474,7 +7474,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": ["Environmentally Sealed Plasteel carapace: 1 defense, +2 soak.","Disposable zero-G maneuvering pack"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -8043,8 +8043,8 @@
 			"Brawn": 2,
 			"Agility": 2,
 			"Intellect": 3,
-			"Cunning": ,3
-			"Willpower":3 ,
+			"Cunning": 3,
+			"Willpower": 3,
 			"Presence": 4
 		},
 		"derived": {
@@ -8102,7 +8102,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": ["Heavy Leather Clothing: +2 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:4", "Social CR: 2", "General CR: 1"]
@@ -8145,7 +8145,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Short"
-				},
+				}
 		],
 		"gear": ["Encrypted cell phone"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:5", "Social CR: 4", "General CR: 5"]
@@ -8211,7 +8211,7 @@
 				"critical": 3,
 				"range": "Long",
 				"qualities": ["Auto-fire"]
-			},
+			}
 		],
 		"gear": ["Fatigues: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -8250,7 +8250,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Heavy Clothing: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -8289,7 +8289,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Pierce 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:3", "Social CR: 1", "General CR: 2"]
@@ -8330,7 +8330,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Burn 3","Limited Ammo 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -8373,7 +8373,7 @@
 				"qualities": ["Knockdown", "Vicious 2"]
 			}
 		],
-		"gear": ["Ill-fitting clothing],
+		"gear": ["Ill-fitting clothing"],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:5", "Social CR: 3", "General CR: 2"]
 	},
 	{
@@ -8427,7 +8427,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": ["Hand-made leather clothing"],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:8", "Social CR: 3", "General CR: 5"]
@@ -8473,7 +8473,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 3"]
-			},
+			}
 		],
 		"gear": ["Heavy lab coat: +1 soak.","Galvanic device of terrifying potential", "Notebook filled with results of forbidden experiments"],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:6", "Social CR: 7", "General CR: 5"]
@@ -8517,7 +8517,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Concussive 1","Ensnare 1","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Enchanted bandages (+4 soak)"],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR: 5", "General CR: 7"]
@@ -8574,7 +8574,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 3"]
-			},
+			}
 		],
 		"gear": ["Ancient but well-preserved clothing, deeds to assorted estates"],
 		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR: 7", "General CR: 10"]
@@ -8615,7 +8615,7 @@
 				"critical": 4,
 				"range": "Short",
 				"qualities": ["Inferior","Limited Ammo 1"]
-			},
+			}
 		],
 		"gear": ["Sports pads: +1 soak, 1 defense"],
 		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -8656,7 +8656,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Blast 4","Knockdown","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Homespun armor: +2 soak.","Badge of office, ledger book"],
 		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -8689,7 +8689,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Rags, several pieces of scrap"],
 		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -8741,7 +8741,7 @@
 				"critical": 2,
 				"range": "Short",
 				"qualities": ["Burn 2","Pierce 4","Sunder"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:8", "Social CR: 2", "General CR: 3"]
@@ -8792,7 +8792,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 3"]
-			},
+			}
 		],
 		"gear": ["Spiky armor: +2 soak, when targeted by a melee combat check, may spend :threat::threat: or :despair: to have the attacker suffer 2 wounds.","Megaphone"],
 		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:6", "Social CR: 4", "General CR: 3"]
@@ -8830,7 +8830,7 @@
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Vest and Storm Coat: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:2", "Social CR: 1", "General CR: 1"]
@@ -8870,7 +8870,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Disorient 2 or Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -8921,7 +8921,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Defensive 1","Pierce 2"]
-			},
+			}
 		],
 		"gear": ["Fine clothing"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 6", "General CR: 3"]
@@ -8968,7 +8968,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged"
-				},
+				}
 		],
 		"gear": ["Armored Uniform: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 2", "General CR: 2"]
@@ -9010,7 +9010,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 2","Vicious 3","laser pistol Ranged: Light"]
-			},
+			}
 		],
 		"gear": ["Heavy Sealed Armor: +2 soak.","Platinum-Weave Cloak.","Crimson banner of glorious conquest, sniveling servant to carry banner of glorious conquest"],
 		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:8", "Social CR: 5", "General CR: 3"]
@@ -9047,7 +9047,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Pierce 3","add :boost::boost: if target is immobilized."]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:5", "Social CR: 1", "General CR: 1"]
@@ -9177,7 +9177,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Pierce 3","Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:6", "Social CR: 1", "General CR: 3"]
@@ -9218,7 +9218,7 @@
 				"critical": 3,
 				"range": "Short",
 				"qualities": ["Burn 1"]
-			},
+			}
 		],
 		"gear": ["Lab coat, goggles"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:4", "Social CR: 3", "General CR: 4"]
@@ -9250,7 +9250,7 @@
 				"critical": 3,
 				"range": "Long, bayonet Melee",
 				"qualities": ["Damage 4"]
-			},
+			}
 		],
 		"gear": ["Armor Vest: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -9301,7 +9301,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Pierce 3","Vicious 2"]
-			},
+			}
 		],
 		"gear": ["Combat Armor and Curiously Tough Skin: +2 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:5", "Social CR: 2", "General CR: 4"]
@@ -9348,7 +9348,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Ensnare 1","Pierce 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR: 1", "General CR: 2"]
@@ -9389,7 +9389,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR: 2", "General CR: 2"]
@@ -9426,7 +9426,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Pierce 2","Vicious 4"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -9466,7 +9466,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -9506,7 +9506,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:8", "Social CR: 3", "General CR: 3"]
@@ -9544,7 +9544,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -9576,7 +9576,7 @@
 				"critical": 4,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Stun 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 1", "General CR: 1"]
@@ -9625,7 +9625,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Breach 1","Vicious 3"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:16", "Social CR: 1", "General CR: 2"]
@@ -9664,7 +9664,7 @@
 				"critical": 2,
 				"range": "Engaged",
 				"qualities": ["Ensnare 1","Vicious 4"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR: 1", "General CR: 2"]
@@ -9702,7 +9702,7 @@
 				"critical": 5,
 				"range": "[Engaged",
 				"qualities": ["Pierce 2"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -9735,7 +9735,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Knockdown","Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 1", "General CR: 2"]
@@ -9892,11 +9892,11 @@
 			{
 				"name": "Fists",
 				"skill": "Damage 3",
-				"damage": Brawl,
+				"damage": "Brawl",
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 1","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Work clothes"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
@@ -10087,11 +10087,11 @@
 			{
 				"name": "Fists",
 				"skill": "Damage 3",
-				"damage": Brawl,
+				"damage": "Brawl",
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 2","Knockdown"]
-			},
+			}
 		],
 		"gear": ["Rugged clothes"],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 2", "General CR: 4"]
@@ -10327,7 +10327,7 @@
 		"derived": {
 			"soak": 3,
 			"wounds": 16,
-			"defence": [,]
+			"defence": [0,0]
 		},
 		"skills": {
 			"Athletics": 2,
@@ -10382,7 +10382,7 @@
 				"critical": 3,
 				"range": "Engaged",
 				"qualities": ["Vicious 1"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 1", "General CR: 4"]
@@ -10414,9 +10414,9 @@
 				"critical": 5,
 				"range": "Engaged",
 				"qualities": ["Disorient 1","Knockdown"]
-			},
+			}
 		],
 		"gear": [],
 		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
 	}
-}
+]
