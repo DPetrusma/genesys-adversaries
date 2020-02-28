@@ -3806,7 +3806,7 @@
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
-		"name": "Goblin",
+		"name": "Goblin (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "Weak but cunning, goblins value strength in numbers above all else (except living to fight another day).",
@@ -3824,8 +3824,8 @@
 			"defence": [2,1]
 		},
 		"skills": ["Athletics","Melee: Light","Ranged","Stealth","Survival"],
-		"abilities": [
-			{"name": "Silhouette 0, Discretion", "description": "a goblin may disengage as an incidental rather than a maneuver"}],
+		"abilities": [ "Silhouette 0",
+			{"name": "Discretion", "description": "A goblin may disengage as an incidental rather than a maneuver"}],
 		"weapons": [
 			{
 				"name": "Spear",

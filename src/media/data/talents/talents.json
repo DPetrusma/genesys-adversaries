@@ -1959,7 +1959,7 @@
 	},
 	{
 		"name": "Knack for It",
-		"description": "Remove {ranks|setback} from certain skill checks",
+		"description": "When acquired, choose 1 non-combat skill. Remove :setback::setback: when making that skill check. Choose 2 additional non-combat skills for each rank of Knack for It.",
 		"ranked": true
 	},
 	{
