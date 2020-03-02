@@ -1,7 +1,6 @@
+# Genesys: Adversaries
 
-# Star Wars: Adversaries
-
-A simple web app for looking up adversaries for the FFG's Star Wars RPG. See it in action here: http://swa.stoogoff.com/.
+A simple web app for looking up adversaries for the FFG's Genesys RPG. See it in action here: http://genesysadversaries.dylanpetrusma.com/. Credit for all of the hard work goes to Stoogoff: https://github.com/stoogoff. I only did some data entry for Genesys adversaries.
 
 Built using:
 
@@ -81,16 +80,15 @@ Main tasks:
 
 ## Completed Adversaries
 
-- 
+- Creature Catalogue
+- Core Rulebook
+- Expanded Player's Guide
+- Realms of Terrinoth
+- Shadow of the Beanstalk
 
 ### In-Progress Adversaries
 
-- Creature Catalogue
-
 ### Missing Adversaries
-
-- Core Rulebook
-- Expanded Player's Guide
 
 ### Changes from source
 
@@ -100,25 +98,20 @@ Main tasks:
 - CC Gnoll Night vision changed to Darkvision
 - CC Some abilities renamed to match existing Star Wars or Genesys
 - CC Lich removed Phylactery as it's mostly narrative
+- A few talents and abilities on official adversaries were re-worded slightly to fit better with generic talents and abilities
 
 ## TODO
 
 - Favicon
-- Lots of Genesys Adversaries
-- Change the reference to Star Wars Adversaries to Genesys Adversaries or something
 - Get the source link updated
 - Make it clear somehow that the credit goes to Stoo Goff for the design - I want it obvious that it was "Built by Stoo Goff, nlx3647, and SkyJedi", not me
 - Maybe fiddle with some of the colours and icons to make them less SW and more Genesys
-- Make spells work better somehow?
 - Make implement work better somehow?
 - Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
 - CC Dreadgazer to use opposed checks?
 - Spellchecks, capitilisation, and grammar
-- Double-check Science Fiction tags for Source: RC#X. They all got cut off
-- Think about how to do the Knack for It talent, since each instance chooses different skills
-- In fact, I will need to go through all of the SotB talents...most of them won't be in the file
-- Fix commas between } and ]
 - Young Ristie WT
+- Ruinous Repartee uses Presence x 2. How to implement that, similar to the ranks multiplier replacement?
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead

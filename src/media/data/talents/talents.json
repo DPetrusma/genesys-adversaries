@@ -253,7 +253,7 @@
 	},
 	{
 		"name": "Coordinated Assault",
-		"description": "As a maneuver, may grant {Leadership} allies in Engaged range :advantage: to all combat checks until the beginning of next turn; increase range per rank.",
+		"description": "As a maneuver, may grant {Leadership} allies in Engaged range :advantage: to all combat checks until the beginning of next turn; increase range by one range band per rank beyond the first.",
 		"ranked": true
 	},
 	{
@@ -457,7 +457,7 @@
 	},
 	{
 		"name": "Durable",
-		"description": "Subtract {ranks|multiply-10} from Critical Injury rolls made against the character.",
+		"description": "Subtract {ranks|multiply-10} from Critical Injury rolls made against the character, to a minimum of 01.",
 		"ranked": true
 	},
 	{
@@ -549,11 +549,11 @@
 	},
 	{
 		"name": "Field Commander",
-		"description": "As an action, may make an :average: Leadership check; {Presence} allies may immediately suffer 1 Strain to perform a free maneuver."
+		"description": "As an action, may make an :average: Leadership check; up to {Presence} allies may immediately suffer 1 Strain to perform a free maneuver."
 	},
 	{
 		"name": "Field Commander (Improved)",
-		"description": "As an action, may make an :average: Leadership check; {Presence} allies may immediately suffer 1 Strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
+		"description": "As an action, may make an :average: Leadership check; up to {Presence} allies may immediately suffer 1 Strain to perform a free maneuver; spend :triumph: to allow one ally to perform an action instead."
 	},
 	{
 		"name": "Fine Tuning",
@@ -670,7 +670,7 @@
 	},
 	{
 		"name": "Greased Palms",
-		"description": "Before making a social check, may spend up to {ranks|multiply-50} cred­its to upgrade the ability of the check once per 50 credits spent."
+		"description": "Before making a social check, may spend up to {ranks|multiply-50} credits to upgrade the ability of the check once per 50 credits spent."
 	},
 	{
 		"name": "Grit",
@@ -1254,12 +1254,12 @@
 	},
 	{
 		"name": "Parry",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}.",
+		"description": "When this character suffers a hit from a melee combat check, after damage is calculated but before soak is applied (so immediately after Step 3 of Perform a Combat check, page 102), this character may suffer 3 strain to use this talent to reduce the damage of the hit by {ranks|plus-2}. This talent can only be used once per hit, and this character needs to be wielding a Melee weapon.",
 		"ranked": true
 	},
 	{
 		"name": "Parry (Improved)",
-		"description": "When struck by a melee attack but before applying Soak, suffer 3 Strain to reduce damage by {ranks|plus-2}. When parrying a hit that generated :despair: or :threat::threat::threat:, may hit attacker once with a wielded Brawl, Melee, or Lightsaber weapon dealing base damage, after the original attack is resolved."
+		"description": "When this character suffers a hit from a melee combat check and uses Parry to reduce the damage from that hit, after the attack is resolved, you may spend :despair: or :threat::threat::threat: from the attacker’s check to use this talent. Then, this character automatically hits the attacker once with a Brawl or Melee weapon this character is wielding. The hit deals the weapon's base damage, plus any damage from applicable talents or abilities. This character can't use this talent if the original attack incapacitates them."
 	},
 	{
 		"name": "Parry (Supreme)",
@@ -1323,8 +1323,8 @@
 		"ranked": true
 	},
 	{
-		"name": "Precision Strike",
-		"description": ""
+		"name": "Precision Strikes",
+		"description": "Use Cunning in place of Brawn for Brawl and Melee: Light checks."
 	},
 	{
 		"name": "Preemptive Avoidance",
@@ -1358,7 +1358,7 @@
 	},
 	{
 		"name": "Quick Draw",
-		"description": "Once per round, may draw or holster a weapon as an incidental."
+		"description": "Once per round, may draw or holster an easily accessible weapon as an incidental."
 	},
 	{
 		"name": "Quick Draw (Improved)",
@@ -1383,7 +1383,7 @@
 	},
 	{
 		"name": "Rapid Reaction",
-		"description": "May suffer 1 Strain to add :success: to any Vigilance or Cool check to determine initia­tive order.",
+		"description": "May suffer up to {ranks} Strain to add an equal number of :success: to any Vigilance or Cool check to determine initiative order.",
 		"ranked": true
 	},
 	{
@@ -1964,6 +1964,208 @@
 	},
 	{
 		"name": "Proper Upbringing",
-		"description": "When making a social skill check in the company of fellow risties, may suffer up to 2 strain to add up to {ranks|advantage} to the check"
+		"description": "When making a social skill check in proper, polite company, may suffer up to 2 strain to add up to {ranks|advantage} to the check",
+		"ranked": true
+	},
+	{
+		"name": "Backstab",
+		"description": "May target an unaware target with a combat check using a Melee: Light weapon and the Skulduggery skill instead of the Melee: Light skill. If successful, the attack deals +2 damage per :success:, instead of +1."
+	},
+	{
+		"name": "Dark Insight",
+		"description": "Use Knowledge (Forbidden) to determine spell effects"
+	},
+	{
+		"name": "Dual Wielder",
+		"description": "May perform a maneuver to reduce the difficulty of this character's next combined check to attack with two weapons during their turn by one."
+	},
+	{
+		"name": "Ruinous Repartee",
+		"description": "As an action, target a character within medium range and make an opposed Charm or Coercion check versus Discipline; if successful, target suffers 2 times {Presence} strain, +1 strain per :success:, and this character heals an equal amount of strain.",
+		"ranked": true
+	},
+	{
+		"name": "Encouraging Song",
+		"description": "While using a musical instrument, select one target within medium range and make a :hard: Verse check. If the check is successful, for each :success: the target adds :boost: to their next skill check. For each :advantage, the target heals 1 strain."
+	},
+	{
+		"name": "Chill of Nordros",
+		"description": "Magic attacks gain the Ice effect with no increase in difficulty, but can never add the Fire effect."
+	},
+	{
+		"name": "Flames of Kellos",
+		"description": "Magic attacks gain the Fire effect with no increase in difficulty, but can never add the Ice effect."
+	},
+	{
+		"name": "Necromancy",
+		"description": "When this character uses the conjure magic action, it gains the Summon Ally effect with no increase in difficulty; all creatures the character summons must be undead."
+	},
+	{
+		"name": "Whirlwind",
+		"description": "May suffer 4 strain to use this talent to make a Brawl, Melee (Light), or Melee (Heavy) attack against the engaged adversary who is hardest to hit (as determined by the GM), increasing the difficulty by one. If the combat check succeeds, each adversary engaged with the character suffers one hit from the attack, that deals base damage plus damage equal to the total :success: scored on the check."
+	},
+	{
+		"name": "Duelist",
+		"description": "Add :boost: to Melee combat checks when engaged with a single opponent, but add :setback: when engaged with three or more opponents."
+	},
+	{
+		"name": "Distinctive Style",
+		"description": "May add :success::success::threat::threat: to any Computers (Hacking) check before rolling; :threat::threat: trigger the I Know You! result in Table 3-2 on SotB page 130."
+	},
+	{
+		"name": "Grenadier",
+		"description": "When making a combat check using a weapon with the Blast quality; may spend one Story Point to trigger Blast instead of spending :advantage: (even if the attack misses); in addition, treats grenades as having a range of medium."
+	},
+	{
+		"name": "Nethunter",
+		"description": "When this character successfully traces another character during a Network encounter, they gain one additional trace."
+	},
+	{
+		"name": "Snare",
+		"description": "Once per session, may spend an action and make a :hard: Computer (Sysops) check; if successful, once before end of the current Network encounter; the GM may spend a Story Point to force one character in the Network encounter to make a :daunting: Vigilance check as an incidental; if they fail, they are staggered until the end of their next turn, plus one additional turn per :threat::threat:."
+	},
+	{
+		"name": "Probing Question",
+		"description": "If this character knows her opponent's Flaw or Fear and inflicts strain on them using a social skill, the opponent suffers 3 additional strain."
+	},
+	{
+		"name": "Clever Retort",
+		"description": "Once per encounter, may add :threat::threat: to another character's social skill check."
+	},
+	{
+		"name": "Customer Service Experience",
+		"description": "After making a Charm check, may suffer up to {ranks|strain} to cancel an equal amount of :threat:.",
+		"ranked": true
+	},
+	{
+		"name": "Hamstring Shot",
+		"description": "Once per round, may perform a ranged combat check against one non-vehicle target within range; on a success, halve the damage inflicted (before applying soak); the target is immobilized until the end of its next turn."
+	},
+	{
+		"name": "Berserk",
+		"description": "As an incidental, until the end of the encounter, may add :success::advantage::advantage: to all melee combat checks, but cannot make Ranged attacks; enemies add :success: to all combat checks targeting this character; when this talent is used, suffer 6 strain at end of encounter."
+	},
+	{
+		"name": "Combat Medicine",
+		"description": "Before making a medicine check, may use this talent to add {ranks|success} to the results; after the check is resolved, the target suffers {ranks|multiply-2} strain.",
+		"ranked": true
+	},
+	{
+		"name": "Drone Master",
+		"description": "This character may control up to two drone rivals or a minion group of four drone minions; may spend a maneuver to allow each rival or minion group under their control to perform an action and a maneuver during this character's turn."
+	},
+	{
+		"name": "Laugh It Off",
+		"description": "When this character is targeted by a social skill check, they may spend :threat::threat::threat: or :despair: to reduce any strain the check inflicts by 5, then cause their opponent to suffer strain equal to the amount reduced."
+	},
+	{
+		"name": "Lucky Strike",
+		"description": "After making a successful combat check, may spend a Story Point to add 4 damage to one hit"
+	},
+	{
+		"name": "Indomitable",
+		"description": "Once per encounter when incapacitated, may spend a Story Point to use this talent; then, this character is no longer incapacitated (and cannot become incapacitate) until the end of their next turn."
+	},
+	{
+		"name": "Defensive Sysops",
+		"description": "When defending a computer system against intrusion, add :setback::setback: to opponents' checks."
+	},
+	{
+		"name": "Defensive Sysops (Improved)",
+		"description": "When defending a computer system against intrusion, add :failure::threat: to opponents' checks."
+	},
+	{
+		"name": "Determined Hunter",
+		"description": "After successfully tracing another character during a Network encounter, gains one additional trace."
+	},
+	{
+		"name": "Burn Through",
+		"description": "After making a successful check to override a piece of ice, may suffer 3 strain to attempt to override a second piece of ice on the same system as an incidental."
+	},
+	{
+		"name": "Net Warrior",
+		"description": "When using a BMI, may make an opposed Computers (Hacking) versus Computers (Sysops) check targeting one character accessing the system; the target suffers 1 strain per :success:, and if they are uising a BMI, they also suffer 1 wound per :success:."
+	},
+	{
+		"name": "Determined Driver",
+		"description": "When driving or piloting a vehicle, may spend a Story Point to have the vehicle heal 4 system strain."
+	},
+	{
+		"name": "Offensive Driving",
+		"description": "When driving or piloting, may make an opposed Driving or Piloting versus Driving or Piloting check versus the driver or pilot of one other vehicle in medium range. If successful, roll two Critical Hit results, choose one to apply to this character's vehicle and one to the target vehicle. :triumph: adds +20 to one result, :despair: adds +20 to both results."
+	},
+	{
+		"name": "Deadeye",
+		"description": "After inflicting a Critical Injury and rolling the result, may suffer 2 strain to select any Critical Injury of the same severity to apply to the target instead."
+	},
+	{
+		"name": "Unremarkable",
+		"description": "Other characters add :failure: to any checks made to find or identify this character in a crowd"
+	},
+	{
+		"name": "Good and Bad Cop",
+		"description": "May spend :advantage::advantage: from Charm, Coercion, Deception, or Negotiation check to upgrade the ability of an ally's social skill check targeting the same character once."
+	},
+	{
+		"name": "Code Slinger",
+		"description": "When performing the activate program maneuver in a hacking encounter, may choose not to deactivate one other active icebreaker; may have two icebreakers active at once."
+	},
+	{
+		"name": "You Owe Me One",
+		"description": "Once per session, you may spend one Story Point to have one other character in the encounter owe this character a small favor for past services performed by this character or their organization."
+	},
+	{
+		"name": "Forgot to Count?",
+		"description": "When targeted by a ranged attack, can spend :threat::threat: to cause attacker to run out of ammunition."
+	},
+	{
+		"name": "Street Fighter",
+		"description": "When disorienting or knocking a target prone, the target suffers 3 wounds."
+	},
+	{
+		"name": "Takedown",
+		"description": "May make an opposed Brawl vs. Resilience check targeting one engaged opponent. If successful, target is knocked prone and immobilized until end of this character's next turn."
+	},
+	{
+		"name": "Bad Habit",
+		"description": "May spend a maneuver and become disoriented until the end of the encounter; at the beginning of each subsequent turn during the encounter this character heals 2 strain."
+	},
+	{
+		"name": "Applied Research",
+		"description": "{ranks|times} per session may use Knowledge (Science) and Intellect when making a check instead of the skill and characteristic the check would normally require.",
+		"ranked": true
+	},
+	{
+		"name": "Big Guns",
+		"description": "This character has an encumbrance capacity of 12."
+	},
+	{
+		"name": "Haughty Demeanor",
+		"description": "Other characters add :threat: to social skill checks targeting this character."
+	},
+	{
+		"name": "Counteroffer",
+		"description": "Once per session may choose one opponent with in medium range and make an opposed Negotiation versus Discipline check. If successful, target becomes staggered until the end of their next turn (or for remainder of encounter if successful with :triumph:)."
+	},
+	{
+		"name": "Daring Aviator",
+		"description": "Before making a Driving or Piloting check, may add up to {ranks|threat} to the check to add an equal number of :success:.",
+		"ranked": true
+	},
+	{
+		"name": "Archaic Arms Master",
+		"description": "While armed with a Melee weapon, may make an :average: Melee check to force one engaged target to drop one weapon or move one range band in any direction."
+	},
+	{
+		"name": "Eagle Eyes",
+		"description": "Once per encounter before making a ranged combat check, this character may increase their weapon’s range by one range band (to a maximum of extreme range); this lasts for the duration of the combat check."
+	},
+	{
+		"name": "Animal Companion",
+		"description": "Has a silhouette 0 animal companion; once per round, may spend a maneuver to direct the animal to perform one action and one maneuver during this character's turn."
+	},
+	{
+		"name": "Barrel Roll",
+		"description": "When piloting a starfighter or air-plane of silhouette 3 or less, after suffering a hit, may suffer 3 system strain to reduce the damage by four as an incidental."
 	}
 ]

@@ -608,7 +608,7 @@
 		"description": "As an incidental, once per round, the GM may have the Kintan Strider reroll a Brawl or Melee check; if he does so, the Kintan Strider loses the benefits of the Adversary and Durable talents until the beginning of its next turn."
 	},
 	{
-		"name": "Regeneration",
+		"name": "Regeneration (Star Wars)",
 		"description": "When recovering from wounds via natural rest or in a bacta tank, recover 1 additional Wound; first-aid, medical treatment, and stimpacks do not result in recovery from an additional wound; Trandoshans can regrow lost limbs, though it usually takes at least a month before such limbs are usable."
 	},
 	{
@@ -1050,5 +1050,25 @@
 	{
 		"name": "Inconspicuous",
 		"description": "When in it's natural element or habitat, this creature appears indistinguishable from the environment; a character can make a :hard: Perception or Vigilance check to identify it"
+	},
+	{
+		"name": "Spells (Arcana)",
+		"description": "This character can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+	},
+	{
+		"name": "Spells (Divine)",
+		"description": "This character can choose any magic action allowed for the Divine skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+	},
+	{
+		"name": "Spells (Primal)",
+		"description": "This character can choose any magic action allowed for the Primal skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+	},
+	{
+		"name": "Spells (Verse)",
+		"description": "This character can choose any magic action allowed for the Verse skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+	},
+	{
+		"name": "Spells (Runes)",
+		"description": "This character can choose any magic action allowed for the Runes skill, and may select additional spell effects as normal. The spells they use most often are the following:"
 	}
 ]

@@ -441,7 +441,7 @@ class App extends React.Component {
 					: content
 				}
 			</div>
-			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></div>
+			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries">Source</a></div>
 		</div>;
 	}
 }

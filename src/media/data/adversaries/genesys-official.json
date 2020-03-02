@@ -32,10 +32,10 @@
 		"abilities": [
 			"Improved Sweep", 
 			"Flyer", "Silhouette 4", 
-			"Terrifying 4", 
-			{"name": "Spells", "description": "Ancient dragons can use any magic actions allowed for the Arcana and Runes skills, and may select additional effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Unbind Spell", "description": "The dragon chooses a target within short range that is under the effects of a spell and makes a :hard: Arcana check. If the check is successful, the spell effects on the target end."}, 
-			{"name": "Spells| Words of Unmaking", "description": "The dragon chooses one magic item (including a magic weapon and armor or runebound shard within medium range and make an :daunting: Arcana check. If successful, until the beginning of the dragon’s next turn that item loses its magical ability and becomes a mundane gem, suit of armor, sword, rock, etc. The dragon may maintain this spell by performing the concentrate maneuver."}],
+			"Terrifying 4",
+			"Spells (Arcana)",
+			{"name": "Spells: Unbind Spell", "description": "The dragon chooses a target within short range that is under the effects of a spell and makes a :hard: Arcana check. If the check is successful, the spell effects on the target end."}, 
+			{"name": "Spells: Words of Unmaking", "description": "The dragon chooses one magic item (including a magic weapon and armor or runebound shard within medium range and make an :daunting: Arcana check. If successful, until the beginning of the dragon’s next turn that item loses its magical ability and becomes a mundane gem, suit of armor, sword, rock, etc. The dragon may maintain this spell by performing the concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Fiery breath",
@@ -55,7 +55,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:17", "Social CR: 10", "General CR: 10"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:17", "Social CR:10", "General CR:10"]
 	},
 	{
 		"name": "Assassin",
@@ -126,7 +126,7 @@
 			}
 		],
 		"gear": ["A variety of concealing cloaks"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 6"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:6"]
 	},
 	{
 		"name": "Aymhelin Scion",
@@ -164,7 +164,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Bane Spider",
@@ -220,7 +220,7 @@
 				"range": "Short",
 				"qualities": ["Ensnare 3"]
 			},"Webbing: Ranged; Damage 1; Critical 6; Range (Short); Ensnare 3"],
-		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Barghest",
@@ -261,7 +261,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Baronial Knight",
@@ -317,7 +317,7 @@
 			}
 		],
 		"gear": ["Plate Armor: +2 soak, +1 defense.","War Mount: see RoT page 105"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Beastman",
@@ -349,7 +349,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Berserker",
@@ -382,7 +382,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Bloodsister And Nightseer",
@@ -413,13 +413,13 @@
 			{"name": "Telepathic Bond", "description": "A bloodsister can perform an incidental once per round to add :boost: to the next check made by all other Uthuk Y’llan in the encounter."}, 
 			{"name": "Telepathic Domination", "description": "A bloodsister or nightseer may attempt to telepathically dominate a foe once per encounter as an action, making an opposed Coercion vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per :success:, and the bloodsister may spend :triumph: to stagger the target for 1 round."}, 
 			{"name": "Dreamwalker", "description": "Once per session, a nightseer can spend a Story Point to either re-roll the dice pool after making a check, or to force a PC to re-roll the dice pool after the PC makes a check."}, 
-			{"name": "Spells", "description": "Bloodsisters and nightseers can choose any magic action allowed for the Divine skill, and may select additional spell effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Bone Eruption", "description": "Select one target at short or medium range make a :hard: Divine check. If the check is successful, this magic attack inflicts 8 damage, +1 damage per :success:, with the Pierce 4, Sunder, and Vicious 4 qualities, and with a Critical Rating of 2"}, 
-			{"name": "Spells| Exsanguinate", "description": "Select one target at short or medium range for this curse and make a :hard: Divine check. If the check is successful, until the end of the witch’s next turn, the target deceases the ability of any skill checks they make by one and suffers one additional wound each time they suffer wounds. The witch can maintain these effects with the concentrate maneuver."}],
+			"Spells (Divine)",
+			{"name": "Spells: Bone Eruption", "description": "Select one target at short or medium range make a :hard: Divine check. If the check is successful, this magic attack inflicts 8 damage, +1 damage per :success:, with the Pierce 4, Sunder, and Vicious 4 qualities, and with a Critical Rating of 2"}, 
+			{"name": "Spells: Exsanguinate", "description": "Select one target at short or medium range for this curse and make a :hard: Divine check. If the check is successful, until the end of the witch’s next turn, the target deceases the ability of any skill checks they make by one and suffers one additional wound each time they suffer wounds. The witch can maintain these effects with the concentrate maneuver."}],
 		"weapons": [
 		],
 		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Leather Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", "General CR: 4"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:5", "General CR:4"]
 	},
 	{
 		"name": "Brigand Leader",
@@ -472,7 +472,7 @@
 			}
 		],
 		"gear": ["Padded Armor: +1 soak"],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", "General CR: TDB"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Brigand",
@@ -503,7 +503,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TDB", "Social CR: TDB", "General CR: TDB"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Carnivorous Flora",
@@ -528,10 +528,10 @@
 		},
 		"talents": [],
 		"abilities": [
-			{"name": "Drag", "description": "a carnivorous flora can use a maneuver to move a target affected by its thorny vines’ Ensnare quality to engaged range."}, 
+			{"name": "Drag", "description": "A carnivorous flora can use a maneuver to move a target affected by its thorny vines’ Ensnare quality to engaged range."}, 
 			"Inconspicuous", 
-			{"name": "Rooted", "description": "a carnivorous flora cannot perform maneuvers to move."}, "Silhouette 2", 
-			{"name": "Unexpected Attack", "description": "a carnivorous flora that has not been yet been identified as a threat uses Stealth to determine initiative."}],
+			{"name": "Rooted", "description": "A carnivorous flora cannot perform maneuvers to move."}, "Silhouette 2", 
+			{"name": "Unexpected Attack", "description": "A carnivorous flora that has not been yet been identified as a threat uses Stealth to determine initiative."}],
 		"weapons": [
 			{
 				"name": "Thorny vines",
@@ -551,7 +551,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "City Guard",
@@ -596,7 +596,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Coachman",
@@ -632,7 +632,7 @@
 				}
 		],
 		"gear": ["Padded Armor: +1 soak"],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Danne Bulvert",
@@ -679,7 +679,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Death Knight",
@@ -706,7 +706,7 @@
 			"Resilience": 2,
 			"Riding": 3
 		},
-		"talents": ["Adversary 1","Parry 3","Improved Parry"],
+		"talents": ["Adversary 1","Parry 3","Parry (Improved)"],
 		"abilities": [
 			{"name": "Mounted Charge", "description": "A mounted death knight adds :boost::boost: to its first melee attack after performing a maneuver to engage the target in the same turn."}, 
 			"Terrifying 4", 
@@ -730,7 +730,7 @@
 			}
 		],
 		"gear": ["Battered Armor: +2 soak, +1 defense.","War mount (see page 105 of RoT)"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Deep Elf",
@@ -769,7 +769,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Deepwood Archer",
@@ -802,7 +802,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Dimora",
@@ -834,9 +834,9 @@
 			"Creature of the Aenlong", 
 			{"name": "Stonewalker", "description": "A Dimora moves normally through difficult or impassable terrain of stone, soil, or similar materials."}, 
 			"Terrifying 2", 
-			{"name": "Spells", "description": "The Dimora can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Tremor", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success: and the target and all characters engaged with the target are knocked prone. The Dimora can spend :advantage: on the check to move the target up to one range band in any direction."}, 
-			{"name": "Spells| Prison of Stone", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Blast 3 and Ensnare 3 qualities."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Tremor", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success: and the target and all characters engaged with the target are knocked prone. The Dimora can spend :advantage: on the check to move the target up to one range band in any direction."}, 
+			{"name": "Spells: Prison of Stone", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Blast 3 and Ensnare 3 qualities."}],
 		"weapons": [
 			{
 				"name": "Stone Blades",
@@ -856,7 +856,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Djinn",
@@ -891,9 +891,9 @@
 		"abilities": [
 			"Flyer", 
 			{"name": "Shapeshifter", "description": "Once per round as an incidental, a Djinn may increase or decrease its silhouette by 1 and change its appearance to that of any character or creature of its current silhouette."}, 
-			{"name": "Spells", "description": "Djinn may use any magic action permitted for the Arcana skill, and may add spell effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Cyclone", "description": "The Djinn chooses one target at up to medium range and make a :hard: Arcana check. If successful, this magic attack inflicts 4 damage +1 damage per :success:, with the Disorient 4 and Knockdown qualities. The Djinn can also spend :advantage: to move the target up to one range band in any direction."}, 
-			{"name": "Spells| Twisted Wish", "description": "The Djinn chooses one target within short range and make a :daunting: Arcana check. If successful, until the end of the Djinn’s next turn, each time the target makes a skill check, decrease the ability by one and the Djinn may choose to change any die in the pool not displaying :triumph: or :despair: to any other face. The Djinn may sustain these effects with the concentrate maneuver."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Cyclone", "description": "The Djinn chooses one target at up to medium range and make a :hard: Arcana check. If successful, this magic attack inflicts 4 damage +1 damage per :success:, with the Disorient 4 and Knockdown qualities. The Djinn can also spend :advantage: to move the target up to one range band in any direction."}, 
+			{"name": "Spells: Twisted Wish", "description": "The Djinn chooses one target within short range and make a :daunting: Arcana check. If successful, until the end of the Djinn’s next turn, each time the target makes a skill check, decrease the ability by one and the Djinn may choose to change any die in the pool not displaying :triumph: or :despair: to any other face. The Djinn may sustain these effects with the concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Conjured Scimitar",
@@ -912,7 +912,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 12", "General CR: 10"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:12", "General CR:10"]
 	},
 	{
 		"name": "Dragon Hybrid",
@@ -968,7 +968,7 @@
 			}
 		],
 		"gear": ["Scale Armor: +2 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Dwarf Ancestral Specter",
@@ -1008,7 +1008,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Dwarf Guilder",
@@ -1038,7 +1038,7 @@
 		"weapons": [
 		],
 		"gear": ["Guild tools and scrolls"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Dwarven Dragon Hunter",
@@ -1095,7 +1095,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Eliza Farrow",
@@ -1134,9 +1134,9 @@
 			{"name": "Sunlight Sensitivity", "description": "While exposed to sunlight, Eliza Farrow reduces all her characteristics by 2 and halves her Wound Threshold and Strain Threshold."}, 
 			{"name": "Undead", "description": "Does not need to breathe, eat, or drink (except blood), and can survive underwater; immune to poisons and toxins."}, 
 			{"name": "Vampiric Magic", "description": "Eliza Farrow reduces the difficulty of all magic skill checks one step."}, 
-			{"name": "Spells", "description": "Eliza Farrow can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. Her favored spells are:"}, 
-			{"name": "Spells| Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
-			{"name": "Spells| Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of Eliza Farrow’s next turn; she may maintain these effects by performing the Concentrate maneuver."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
+			{"name": "Spells: Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of Eliza Farrow’s next turn; she may maintain these effects by performing the Concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Fangs",
@@ -1148,7 +1148,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Farrow’s Guard",
@@ -1205,7 +1205,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
-		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR: TBD", "General CR: TBD"]
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Feral Dragon",
@@ -1257,7 +1257,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Ferrox",
@@ -1305,7 +1305,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Flesh Ripper",
@@ -1346,7 +1346,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Forest Guardian",
@@ -1385,7 +1385,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Giant",
@@ -1423,7 +1423,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Giant Snake",
@@ -1468,7 +1468,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Gnome Minstrel",
@@ -1497,13 +1497,13 @@
 		"talents": ["Encouraging Song"],
 		"abilities": [
 			{"name": "Haunting melodies", "description": "Gnome minstrels may spend :advantage: in a successful Charm check to inflict 1 strain on their target, and may do this multiple times."}, "Silhouette 0", 
-			{"name": "Spells", "description": "Gnome minstrels can choose any magic action allowed for the Verse skill, and may select additional spell effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Addling Tune", "description": "Make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, all other characters within medium range must first suffer one strain before using the concentrate maneuver. The minstrel can sustain this effect with the concentrate maneuver."}, 
-			{"name": "Spells| Demoralizing Stanza", "description": "Select one target within short range and make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, the target decreases the ability of any skill checks they make by one. The minstrel can sustain this effect with the concentrate maneuver."}],
+			"Spells (Verse)",
+			{"name": "Spells: Addling Tune", "description": "Make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, all other characters within medium range must first suffer one strain before using the concentrate maneuver. The minstrel can sustain this effect with the concentrate maneuver."}, 
+			{"name": "Spells: Demoralizing Stanza", "description": "Select one target within short range and make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, the target decreases the ability of any skill checks they make by one. The minstrel can sustain this effect with the concentrate maneuver."}],
 		"weapons": [
 		],
 		"gear": ["Lute, pipes, and other musical instruments.","Colorful garb"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name":  "Goblin (Official)",
@@ -1545,7 +1545,7 @@
 			}
 		],
 		"gear": ["Grimy Patchwork Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Goblin Witcher",
@@ -1574,9 +1574,9 @@
 		"abilities": [
 			"Darkvision",
 			{"name": "Spiteful Curse", "description": "Add :boost::boost: to magic actions that target a character who has previously inflicted wounds on the goblin witcher during this encounter."}, 
-			{"name": "Spells", "description": "Goblin witchers can choose any magic action allowed for the Arcana skill, and may select additional spell effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Agonizing Hex", "description": "Choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 6 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities."}, 
-			{"name": "Spells| Bad Luck", "description": "Choose a target at short or medium range and make a :hard: Arcana check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the goblin witcher’s next turn, and when the target makes a check, may change one :setback: to a face displaying f. The goblin witcher may maintain these effects by performing the concentrate maneuver."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Agonizing Hex", "description": "Choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 6 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities."}, 
+			{"name": "Spells: Bad Luck", "description": "Choose a target at short or medium range and make a :hard: Arcana check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the goblin witcher’s next turn, and when the target makes a check, may change one :setback: to a face displaying f. The goblin witcher may maintain these effects by performing the concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Pointy Teeth",
@@ -1588,7 +1588,7 @@
 			}
 		],
 		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Robed bone armor: +1 soak, +1 defense"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Greyhaven Wizard",
@@ -1616,12 +1616,12 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": [ 
-			{"name": "Spells", "description": "A wizard can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Fireball", "description": "Choose one target at short or medium range and make a :hard: Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Blast 4 and Burn 4 qualities."}, 
-			{"name": "Spells| Magic Shield", "description": "Make a :hard: Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every :success::success:, and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Fireball", "description": "Choose one target at short or medium range and make a :hard: Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Blast 4 and Burn 4 qualities."}, 
+			{"name": "Spells: Magic Shield", "description": "Make a :hard: Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every :success::success:, and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."}],
 		"weapons": [],
 		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty.","Heavy Robes: +1 defense"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 5"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:5"]
 	},
 	{
 		"name": "Grotesque",
@@ -1669,7 +1669,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Gurak Tol",
@@ -1714,7 +1714,7 @@
 			}
 		],
 		"gear": ["When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak."],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Ice Wyrm",
@@ -1766,7 +1766,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR: 5", "General CR: 6"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR:5", "General CR:6"]
 	},
 	{
 		"name": "Ice-Blood Warrior",
@@ -1807,7 +1807,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Ironbound",
@@ -1856,7 +1856,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Kennsir Dwarf",
@@ -1896,7 +1896,7 @@
 			}
 		],
 		"gear": ["Smokebombs, vials of poison gas"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Kobold",
@@ -1936,7 +1936,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Lava Elemental",
@@ -1982,7 +1982,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Leonx",
@@ -2019,7 +2019,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Leonx Rider",
@@ -2058,7 +2058,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak, Leonx see page 180"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:3", "General CR:1"]
 	},
 	{
 		"name": "Lord Of Bilehall",
@@ -2095,9 +2095,9 @@
 			"Terrifying 4", 
 			{"name": "Undead", "description": "Does not need to breathe, eat, or drink (except blood), and can survive underwater; immune to poisons and toxins."}, 
 			{"name": "Vampiric Magic", "description": "A Lord of Bilehall reduces the difficulty of all magic skill checks one step."}, 
-			{"name": "Spells", "description": "A Lord of Bilehall can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
-			{"name": "Spells| Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of the Lord of Bilehall’s next turn. The Lord of Bilehall may maintain these effects by performing the Concentrate maneuver."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
+			{"name": "Spells: Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of the Lord of Bilehall’s next turn. The Lord of Bilehall may maintain these effects by performing the Concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Bloodstained Fangs",
@@ -2109,7 +2109,7 @@
 			}
 		],
 		"gear": ["Magic Staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 5", "General CR: 7"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:5", "General CR:7"]
 	},
 	{
 		"name": "Lorimor Marine",
@@ -2142,7 +2142,7 @@
 			}
 		],
 		"gear": ["Scale Breastplate: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Lost Knight",
@@ -2181,7 +2181,7 @@
 			}
 		],
 		"gear": ["Heraldic plate armor (+2 soak, +1 defense)"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Magistrate Edmin Cawl",
@@ -2261,7 +2261,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Manticore",
@@ -2306,7 +2306,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Mavaris Skain, Necromancer",
@@ -2335,10 +2335,10 @@
 		},
 		"talents": ["Adversary 1","Chill of Nordros","Dark Insight","Necromancy"],
 		"abilities": [ 
-			{"name": "Spells", "description": "Mavaris Skain can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. His favored spells are:"}, 
-			{"name": "Spells| Death Knell", "description": "Choose one target at short or medium range and make an :average: Arcana check; if the check succeeds, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
-			{"name": "Spells| Wilt", "description": "Choose two targets within short range and make an :average: Arcana check; if the check succeeds, Skain can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."}, 
-			{"name": "Spells| Wall of Bones", "description": "Make a :hard: Arcana check; if the check succeeds, Skain reduces the damage of all hits he suffers by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting Skain generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; Skain may perform the concentrate maneuver to maintain the effects of this barrier."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Death Knell", "description": "Choose one target at short or medium range and make an :average: Arcana check; if the check succeeds, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
+			{"name": "Spells: Wilt", "description": "Choose two targets within short range and make an :average: Arcana check; if the check succeeds, Skain can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."}, 
+			{"name": "Spells: Wall of Bones", "description": "Make a :hard: Arcana check; if the check succeeds, Skain reduces the damage of all hits he suffers by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting Skain generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; Skain may perform the concentrate maneuver to maintain the effects of this barrier."}],
 		"weapons": [
 			{
 				"name": "Sacrificial Dagger",
@@ -2447,7 +2447,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Naga Priestess",
@@ -2488,7 +2488,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 5", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:5", "General CR:3"]
 	},
 	{
 		"name": "Necromancer",
@@ -2517,10 +2517,10 @@
 		},
 		"talents": ["Adversary 1","Chill of Nordros","Necromancy"],
 		"abilities": [ 
-			{"name": "Spells", "description": "Necromancers can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Death Knell", "description": "Choose one target at short or medium range and make an :average:Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
-			{"name": "Spells| Wilt", "description": "Choose two targets within short range and make an :average: Arcana check. If successful, the Necromancer can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of the necromancer’s next turn. If an affected character suffers strain for any reason, they suffer 1 additional strain. The necromancer can perform the concentrate maneuver to maintain all effects of this curse."}, 
-			{"name": "Spells| Wall of Bones", "description": "Make a :hard: Arcana check. If successful, the necromancer reduces the damage of all hits they suffer by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting the necromancer generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; the necromancer may perform the concentrate maneuver to maintain the effects of this barrier."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Death Knell", "description": "Choose one target at short or medium range and make an :average:Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
+			{"name": "Spells: Wilt", "description": "Choose two targets within short range and make an :average: Arcana check. If successful, the Necromancer can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of the necromancer’s next turn. If an affected character suffers strain for any reason, they suffer 1 additional strain. The necromancer can perform the concentrate maneuver to maintain all effects of this curse."}, 
+			{"name": "Spells: Wall of Bones", "description": "Make a :hard: Arcana check. If successful, the necromancer reduces the damage of all hits they suffer by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting the necromancer generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; the necromancer may perform the concentrate maneuver to maintain the effects of this barrier."}],
 		"weapons": [
 			{
 				"name": "Ceremonial Dagger",
@@ -2532,7 +2532,7 @@
 			}
 		],
 		"gear": ["Bone staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 6"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:6"]
 	},
 	{
 		"name": "Ogre",
@@ -2579,7 +2579,7 @@
 			}
 		],
 		"gear": ["Scavenged Armor: +2 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Onoit Shaman",
@@ -2607,9 +2607,9 @@
 		},
 		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 0", 
-			{"name": "Spells", "description": "Onoit shamans can choose any magic action allowed for the Primal skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Winter Gale", "description": "Choose one target at short or medium range and make a :hard: Primal check. If successful, this magic attack inflicts 7 damage +1 damage per :success:, with the Blast 3 and Ensnare 3 item qualities."}, 
-			{"name": "Spells| Healing Gust", "description": "Choose two targets at up to short range and make an :average: Primal check. If successful, the targets heal 1 wound per :success: and 1 strain per :advantage:; the shaman may affect additional targets by spending :advantage: per target."}],
+			"Spells (Primal)",
+			{"name": "Spells: Winter Gale", "description": "Choose one target at short or medium range and make a :hard: Primal check. If successful, this magic attack inflicts 7 damage +1 damage per :success:, with the Blast 3 and Ensnare 3 item qualities."}, 
+			{"name": "Spells: Healing Gust", "description": "Choose two targets at up to short range and make an :average: Primal check. If successful, the targets heal 1 wound per :success: and 1 strain per :advantage:; the shaman may affect additional targets by spending :advantage: per target."}],
 		"weapons": [
 			{
 				"name": "Hatchet",
@@ -2621,7 +2621,7 @@
 			}
 		],
 		"gear": ["Oaken staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty."],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Orc Outrider",
@@ -2665,7 +2665,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak.","Extra spears.","Armored Gurak Tol mount"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Orc Spiritspeaker",
@@ -2692,13 +2692,13 @@
 		"talents": ["Second Wind 5"],
 		"abilities": [
 			{"name": "Spiritual Focus", "description": "A spiritspeaker adds :boost: to Primal checks they make for each Orc ally within short range."}, 
-			{"name": "Spells", "description": "Spiritspeakers can choose any magic action allowed for the Primal skill, and may select additional spell effects as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Fury of the Spirits", "description": "The spiritspeaker chooses one target at short or medium range and makes a :hard: Primal check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Pierce 3 and Sunder qualities."}, 
-			{"name": "Spells| Ancestral Strength", "description": "The spiritspeaker chooses two allies within short range and makes a :hard: Primal check. If the check is successful, the spiritspeaker may affect additional targets in range by spending :advantage: for each additional target. Targets affected by this spell increase the ability of skill checks they make until the end of the spiritspeaker’s next turn by one. The spiritspeaker may sustain the effects of this spell by performing the concentrate maneuver."}],
+			"Spells (Primal)",
+			{"name": "Spells: Fury of the Spirits", "description": "The spiritspeaker chooses one target at short or medium range and makes a :hard: Primal check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Pierce 3 and Sunder qualities."}, 
+			{"name": "Spells: Ancestral Strength", "description": "The spiritspeaker chooses two allies within short range and makes a :hard: Primal check. If the check is successful, the spiritspeaker may affect additional targets in range by spending :advantage: for each additional target. Targets affected by this spell increase the ability of skill checks they make until the end of the spiritspeaker’s next turn by one. The spiritspeaker may sustain the effects of this spell by performing the concentrate maneuver."}],
 		"weapons": [
 		],
 		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty.","Beast-Hide Robes: +1 defense"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 5", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:5", "General CR:3"]
 	},
 	{
 		"name": "Pirate",
@@ -2730,7 +2730,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Priest Of Kellos",
@@ -2758,9 +2758,9 @@
 		},
 		"talents": ["Flames of Kellos"],
 		"abilities": [ 
-			{"name": "Spells", "description": "Priests of Kellos can choose any magic action allowed for the Divine skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Healing Spark", "description": "Choose a target within short range and make an :average: Divine check. If the check succeeds, the target heals 1 wound per :success: and 1 strain per :advantage:."}, 
-			{"name": "Spells| Righteous Blaze", "description": "Choose one target within short range and make an :average: Divine check. If successful, this magic attack inflicts 3 damage +1 damage per uncanceled :success:, with the Burn 3 quality. Against an undead target, the attack inflicts +2 damage per :success: instead."}],
+			"Spells (Divine)",
+			{"name": "Spells: Healing Spark", "description": "Choose a target within short range and make an :average: Divine check. If the check succeeds, the target heals 1 wound per :success: and 1 strain per :advantage:."}, 
+			{"name": "Spells: Righteous Blaze", "description": "Choose one target within short range and make an :average: Divine check. If successful, this magic attack inflicts 3 damage +1 damage per uncanceled :success:, with the Burn 3 quality. Against an undead target, the attack inflicts +2 damage per :success: instead."}],
 		"weapons": [
 			{
 				"name": "Mace",
@@ -2771,7 +2771,7 @@
 				}
 		],
 		"gear": ["Heavy Robes: +1 defense"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Razorwing",
@@ -2817,7 +2817,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Reanimate",
@@ -2857,7 +2857,7 @@
 			}
 		],
 		"gear": ["Antique Mail: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Rune Golem",
@@ -2906,7 +2906,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Salamander",
@@ -2944,7 +2944,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Scorpion Swarm",
@@ -2981,7 +2981,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Shade",
@@ -3015,7 +3015,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Singhara Hunter",
@@ -3056,7 +3056,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Singhara Pridelord",
@@ -3106,7 +3106,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Siren",
@@ -3146,7 +3146,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Skeleton",
@@ -3184,7 +3184,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Spined Thresher",
@@ -3240,7 +3240,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Splig, King Of All Golbins",
@@ -3280,7 +3280,7 @@
 			}
 		],
 		"gear": ["Stolen Patchwork Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Storm Sorceress",
@@ -3308,14 +3308,14 @@
 		"talents": ["Adversary 1"],
 		"abilities": [
 			{"name": "Elemental Mastery", "description": "The first effect that a storm sorceress adds to a spell does not increase the difficulty of the Arcana check."}, 
-			{"name": "Spells", "description": "Storm sorceresses can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Blizzard", "description": "The storm sorceress chooses a target within long range and makes a :daunting: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success: with the Blast 4, Disorient 4, Ensnare 4, and Knockdown qualities."}, 
-			{"name": "Spells| Stormbolt", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Auto-fire and Stun 4 qualities."}, 
-			{"name": "Spells| Squall", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:. The storm sorceress may spend :advantage: on the check to move the target or a character engaged with the target up to one range band in any direction."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Blizzard", "description": "The storm sorceress chooses a target within long range and makes a :daunting: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success: with the Blast 4, Disorient 4, Ensnare 4, and Knockdown qualities."}, 
+			{"name": "Spells: Stormbolt", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Auto-fire and Stun 4 qualities."}, 
+			{"name": "Spells: Squall", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:. The storm sorceress may spend :advantage: on the check to move the target or a character engaged with the target up to one range band in any direction."}],
 		"weapons": [
 		],
 		"gear": ["Magic Staff: The first Range effect added to a spell does not increase its difficulty; increase damage of Attack spells by +4","Robes: +1 defense"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 4", "General CR: 5"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Sword Poet",
@@ -3340,7 +3340,7 @@
 			"Deception": 2,
 			"Melee: Light": 3
 		},
-		"talents": ["Adversary 1","Duelist","Parry 3","Improved Parry"],
+		"talents": ["Adversary 1","Duelist","Parry 3","Parry (Improved)"],
 		"abilities": [
 			{"name": "Show Off", "description": "A sword poet may choose to inflict stun damage when resolving a successful melee combat check or using the Improved Parry ability."}],
 		"weapons": [
@@ -3354,7 +3354,7 @@
 			}
 		],
 		"gear": ["Fancy clothes"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:1"]
 	},
 	{
 		"name": "Tamalir Guildmaster",
@@ -3392,7 +3392,7 @@
 				}
 		],
 		"gear": ["Fine clothing"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR: 5", "General CR: 4"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:5", "General CR:4"]
 	},
 	{
 		"name": "Thieves Guild Cutpurse",
@@ -3439,7 +3439,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "True Fae",
@@ -3471,9 +3471,9 @@
 			"Creature of the Aenlong", 
 			"Flyer", 
 			"Terrifying 3", 
-			{"name": "Spells", "description": "The Fae can choose any magic action allowed for the Arcana skill, and may select additional spell effects, as normal. The spells they use most often are the following:"}, 
-			{"name": "Spells| Blinding Curse", "description": "The Fae chooses one target within short range and makes an :average: Arcana check. If the check is successful, the target decreases the ability of all checks they make and adds :setback::setback: to all checks involving sight until the end of the Fae’s next turn. The Fae can sustain these effects by performing the concentrate maneuver."}, 
-			{"name": "Spells| Shuddering Paralysis", "description": "The Fae chooses one target at short range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Ensnare 3 quality."}],
+			"Spells (Arcana)",
+			{"name": "Spells: Blinding Curse", "description": "The Fae chooses one target within short range and makes an :average: Arcana check. If the check is successful, the target decreases the ability of all checks they make and adds :setback::setback: to all checks involving sight until the end of the Fae’s next turn. The Fae can sustain these effects by performing the concentrate maneuver."}, 
+			{"name": "Spells: Shuddering Paralysis", "description": "The Fae chooses one target at short range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Ensnare 3 quality."}],
 		"weapons": [
 			{
 				"name": "Eldritch Blade",
@@ -3493,7 +3493,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 4", "General CR: 6"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:4", "General CR:6"]
 	},
 	{
 		"name": "Viper Legion Archer",
@@ -3530,7 +3530,7 @@
 			}
 		],
 		"gear": ["Leather Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR: 4", "General CR: 6"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:4", "General CR:6"]
 	},
 	{
 		"name": "Weik Warrior",
@@ -3579,7 +3579,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wendigo",
@@ -3629,7 +3629,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Witch And Warlock",
@@ -3657,9 +3657,9 @@
 		"abilities": [
 			{"name": "Telepathic Coordination", "description": "A witch or warlock can perform a maneuver to add :boost: to the next check made by all other Uthuk Y’llan in the encounter."}, 
 			{"name": "Sacrifice", "description": "After inflicting wounds on a living creature (whether an enemy or ally), a witch or warlock adds :boost: to their next magic skill check; after killing a living creature, a witch or warlock instead upgrades the ability of their next magic skill check once."}, 
-			{"name": "Spells", "description": "Witches and warlocks can choose any magic action allowed for the Divine skill, and may select additional spell effects as normal. The spells they use most often are:"}, 
-			{"name": "Spells| Boneshatter", "description": "Select one target at short range for this magic attack and make a :hard: Divine check. If the check is successful, the magic attack inflicts 5 damage, +1 damage per :success:, with the Pierce 3, Sunder, and Vicious 3 qualities, and with a Critical Rating of 2"}, 
-			{"name": "Spells| Boil Blood", "description": "Select one target at short range for this curse and make an :average: Divine check. If the check is successful, until the end of the witch or warlock’s next turn, the target decreases the ability of any skill checks they make by one and suffers one additional strain each time they suffer strain for any reason. The witch or warlock can maintain these effects with the concentrate maneuver."}],
+			"Spells (Divine)",
+			{"name": "Spells: Boneshatter", "description": "Select one target at short range for this magic attack and make a :hard: Divine check. If the check is successful, the magic attack inflicts 5 damage, +1 damage per :success:, with the Pierce 3, Sunder, and Vicious 3 qualities, and with a Critical Rating of 2"}, 
+			{"name": "Spells: Boil Blood", "description": "Select one target at short range for this curse and make an :average: Divine check. If the check is successful, until the end of the witch or warlock’s next turn, the target decreases the ability of any skill checks they make by one and suffers one additional strain each time they suffer strain for any reason. The witch or warlock can maintain these effects with the concentrate maneuver."}],
 		"weapons": [
 			{
 				"name": "Sacrificial blade",
@@ -3671,7 +3671,7 @@
 			}
 		],
 		"gear": ["Bone Armor: +1 soak"],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Wraith",
@@ -3714,12 +3714,12 @@
 				"skill": "Ranged",
 				"damage": 2,
 				"critical": 5,
-				"range": "medium",
+				"range": "Medium",
 				"qualities": ["Breach 1","Stun Damage"]
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Wyrm Of The Deep",
@@ -3767,7 +3767,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Young Dragon",
@@ -3817,7 +3817,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Aaron Marron",
@@ -3869,7 +3869,7 @@
 			}
 		],
 		"gear": ["Sleeveless shirt, bandannas, silver crossed pistols on chain"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 5", "General CR: 4"]
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:5", "General CR:4"]
 	},
 	{
 		"name": "Adam Industrial Labor Bioroid",
@@ -3894,7 +3894,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Adonis and Eve Pleasure Bioroid",
@@ -3920,13 +3920,17 @@
 			"Knowledge: Society": 3,
 			"Perception": 2
 		},
-		"talents": ["Natural"],
+		"talents": [
+			{
+				"name": "Natural",
+				"description": "Once per session, may reroll any one Charm or Cool check"
+			}],
 		"abilities": [
 			"Bioroid"],
 		"weapons": [
 		],
 		"gear": ["Fuzzy restraints"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 5", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:5", "General CR:3"]
 	},
 	{
 		"name": "Anarch Troublemaker",
@@ -3975,7 +3979,7 @@
 			}
 		],
 		"gear": ["Skulljack, Portable Terminal with Crypsis (SotB p. 137)-protected by Hadrian's Wall (SotB p. 133)"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 7"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:7"]
 	},
 	{
 		"name": "Ares Combat Bioroid",
@@ -4042,7 +4046,7 @@
 				"qualities": ["Concussive 1","Knockdown","Sunder"]
 			}
 		],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:15", "Social CR: 3", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:15", "Social CR:3", "General CR:4"]
 	},
 	{
 		"name": "Assistant District Attorney",
@@ -4070,7 +4074,10 @@
 			"Negotiation": 3,
 			"Perception": 2
 		},
-		"talents": ["Adversary 1","Natural"],
+		"talents": ["Adversary 1",{
+				"name": "Natural",
+				"description": "Once per session, may reroll any one Coercion or Negotiation check"
+			}],
 		"abilities": [
 			{"name": "Full Weight of the Law", "description": "When making a Coercion check to inflict strain during a social encounter, inflict 2 additional strain."}],
 		"weapons": [
@@ -4084,7 +4091,7 @@
 			}
 		],
 		"gear": ["Legal PAD, expensive suit"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:3"]
 	},
 	{
 		"name": "Bernice Mai",
@@ -4120,7 +4127,7 @@
 		"weapons": [
 		],
 		"gear": ["High-end encrypted rig with voice and haptic controls, business suit"],
-		"tags": ["source:RMC #2", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 9"]
+		"tags": ["source:RMC #2", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:9"]
 	},
 	{
 		"name": "Camdrone",
@@ -4148,7 +4155,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Caprice Nisei",
@@ -4194,7 +4201,7 @@
 			}
 		],
 		"gear": ["Trenchcoat, NAPD badge, restraints"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 8", "General CR: 5"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:8", "General CR:5"]
 	},
 	{
 		"name": "Civic Brigadier",
@@ -4227,7 +4234,7 @@
 			}
 		],
 		"gear": ["Hard Hat: +1 melee defense.","PAD, toolkit"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Club Owner",
@@ -4269,7 +4276,7 @@
 			}
 		],
 		"gear": ["PAD, bouncers"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
 	},
 	{
 		"name": "Combat Drone (SotB)",
@@ -4305,7 +4312,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Combat Drone (GCR)",
@@ -4345,7 +4352,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Corporate Bioroids",
@@ -4378,7 +4385,7 @@
 		"weapons": [
 		],
 		"gear": ["Corporate PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Corporate Manager",
@@ -4411,7 +4418,7 @@
 		"weapons": [
 		],
 		"gear": ["Smartsuit, PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Corporate Sysop",
@@ -4442,7 +4449,7 @@
 		"weapons": [
 		],
 		"gear": ["PAD, corporate ID, snacks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Criminal Runner",
@@ -4486,7 +4493,7 @@
 			}
 		],
 		"gear": ["Skulljack, fake IDs.","Portable Rig with Femme Fatale (SotB p. 137) and Corroder (SotB p. 136)-protected by Shinobi (SotB p. 135)"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 3", "General CR: 7"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:3", "General CR:7"]
 	},
 	{
 		"name": "Cyberdog",
@@ -4525,7 +4532,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Cybermod Bounty Hunter",
@@ -4577,7 +4584,7 @@
 			}
 		],
 		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 2", "General CR: 5"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:2", "General CR:5"]
 	},
 	{
 		"name": "Desai Tutor Clone",
@@ -4611,7 +4618,7 @@
 		"weapons": [
 		],
 		"gear": ["Bonsai tree, instructor's holodisplay with full suite of lessons"],
-		"tags": ["source:ADS #", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", "General CR: 5"]
+		"tags": ["source:ADS #8", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Diesel Bro",
@@ -4643,7 +4650,7 @@
 			}
 		],
 		"gear": ["Diesel can, PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Disenfrancisto",
@@ -4674,7 +4681,7 @@
 				}
 		],
 		"gear": ["Backpack of personal goods"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Disenfrancisto Survivalist",
@@ -4704,7 +4711,7 @@
 			"Survival": 2,
 			"Vigilance": 1
 		},
-		"talents": ["Battlefield Medicine 1"],
+		"talents": ["Combat Medicine 1"],
 		"abilities": [],
 		"weapons": [
 			{
@@ -4716,7 +4723,7 @@
 				}
 		],
 		"gear": ["Backpack full of supplies, medical kit, rope, flashlight"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Elizabeth Mills",
@@ -4752,7 +4759,7 @@
 		"weapons": [
 		],
 		"gear": ["Smart business suit, PAD loaded with contact information for 'freelance contractors'"],
-		"tags": ["source:RMC #", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 8", "General CR: 6"]
+		"tags": ["source:RMC #5", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:8", "General CR:6"]
 	},
 	{
 		"name": "EMS First Responder",
@@ -4790,7 +4797,7 @@
 			}
 		],
 		"gear": ["Medkit, medical scanner PAD, 2 slap-patches"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "EWS Raider",
@@ -4834,7 +4841,7 @@
 			}
 		],
 		"gear": ["Skin Suit: 2 defense, +2 soak, +2 wound threshold.","Up to four drones of various types","Encrypted suit rig with BMI with Corroder (SotB p. 136) and Crypsis (SotB p 137)-protected by Archer (SotB p. 134) and Ice Wall (SotB p. 134)"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 2", "General CR: 7"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:2", "General CR:7"]
 	},
 	{
 		"name": "Exosuit Trooper",
@@ -4889,7 +4896,7 @@
 			}
 		],
 		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour"],
-		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:TDB", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:TBD", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Field Anchor",
@@ -4921,7 +4928,7 @@
 		"weapons": [
 		],
 		"gear": ["Light 'Bulletproof' Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 4", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:3"]
 	},
 	{
 		"name": "Floyd 2X3A7C",
@@ -4965,7 +4972,7 @@
 			}
 		],
 		"gear": ["Badge, rosary"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 3", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:3", "General CR:4"]
 	},
 	{
 		"name": "Gabriel 'El Lobo' Santiago",
@@ -5011,7 +5018,7 @@
 			}
 		],
 		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
-		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 5"]
+		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:5"]
 	},
 	{
 		"name": "G-Mod Bodyguard",
@@ -5059,7 +5066,7 @@
 			}
 		],
 		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD", "1 slap-patch"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "G-Modstrocity",
@@ -5096,7 +5103,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Hacker",
@@ -5126,7 +5133,7 @@
 		"weapons": [
 		],
 		"gear": ["Custom computer terminal, energy drinks"],
-		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Hellion",
@@ -5168,7 +5175,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 5"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:5"]
 	},
 	{
 		"name": "Henry Labor Clone",
@@ -5193,7 +5200,7 @@
 		"weapons": [
 		],
 		"gear": ["Durable Clothing: +1 Soak"],
-		"tags": ["source:ADS #11", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:ADS #11", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Human First Extremist",
@@ -5226,7 +5233,7 @@
 			}
 		],
 		"gear": ["Durable clothing: +1 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Humanity Labor Rep",
@@ -5256,7 +5263,7 @@
 		"weapons": [
 		],
 		"gear": ["PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:1"]
 	},
 	{
 		"name": "Hunter-Killer Drone",
@@ -5313,7 +5320,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Hyperrat Swarm",
@@ -5354,7 +5361,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Inez Delgado",
@@ -5386,7 +5393,7 @@
 			"Streetwise": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 1","Determined Hunter","Improved Defensive Sysops"],
+		"talents": ["Adversary 1","Determined Hunter","Defensive Sysops (Improved)"],
 		"abilities": [
 			{"name": "Personalized Icebreaker Suit", "description": "Always considered to have a strength 4 icebreaker that can affect barriers, sentries, and code gates. If break ice action fails, may spend :advantage::advantage::advantage::advantage: or :triumph: to not suffer any effects of failing to break ice."}],
 		"weapons": [
@@ -5399,7 +5406,7 @@
 				}
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","PAD, customized cyber rig, NAPD badge"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 2", "General CR: 9"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:2", "General CR:9"]
 	},
 	{
 		"name": "Jackson Howard",
@@ -5433,7 +5440,7 @@
 		"weapons": [
 		],
 		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth"],
-		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 10", "General CR: 3"]
+		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:10", "General CR:3"]
 	},
 	{
 		"name": "Ji 'Noise' Reilly",
@@ -5475,7 +5482,7 @@
 				}
 		],
 		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 8"]
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:8"]
 	},
 	{
 		"name": "Kati Jones",
@@ -5512,7 +5519,7 @@
 		"weapons": [
 		],
 		"gear": ["Flight suit, leather jacket, custom hopper (use luxury hopper profile (page 113 SotB) with encumbrance capacity 40, hopperbike"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", "General CR: 6"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:6"]
 	},
 	{
 		"name": "Liberty Society Rep",
@@ -5543,7 +5550,7 @@
 		"weapons": [
 		],
 		"gear": ["Legal PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Lily Lockwell",
@@ -5578,7 +5585,7 @@
 		"weapons": [
 		],
 		"gear": ["Monocam eyepiece, sharp outfit, and sardonic demeanor"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
 	},
 	{
 		"name": "Lívia Teixeira",
@@ -5651,7 +5658,7 @@
 				}
 		],
 		"gear": ["Trenchcoat with hidden pockets and holsters: +1 soak.","Cocktail dress"],
-		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 7", "General CR: 4"]
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
 	},
 	{
 		"name": "Loonie Revolutionary",
@@ -5689,7 +5696,7 @@
 			}
 		],
 		"gear": ["Armored Space Suit: +2 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Los Scorpiones Cascares",
@@ -5729,7 +5736,7 @@
 			}
 		],
 		"gear": ["Aviator glasses"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Maintenance Drone",
@@ -5765,7 +5772,7 @@
 			}
 		],
 		"gear": ["Integrated construction and repair tools"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Melange Overseer",
@@ -5815,7 +5822,7 @@
 			}
 		],
 		"gear": ["Reinforced Mining Space Suit: +2 soak","Lunar megarover, PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Megacorp Exec",
@@ -5851,7 +5858,7 @@
 		"weapons": [
 		],
 		"gear": ["Expensive suit with built-in PAD, credstick with unlmited funds, teacup giraffe, personal assistant"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 11", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:11", "General CR:4"]
 	},
 	{
 		"name": "Mercenary Vet",
@@ -5909,7 +5916,7 @@
 			}
 		],
 		"gear": ["Light Body Armor: +2 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Miguel Moreno",
@@ -5953,7 +5960,7 @@
 			}
 		],
 		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside"],
-		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Monica Singh",
@@ -6005,7 +6012,7 @@
 			}
 		],
 		"gear": ["Concealed buckyweave armor: +1 soak, 1 defense","One-way comm device"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 6", "General CR: 8"]
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:6", "General CR:8"]
 	},
 	{
 		"name": "Mr. Li",
@@ -6036,7 +6043,7 @@
 			"Streetwise": 4,
 			"Vigilance": 3
 		},
-		"talents": ["Adversary 2","Improved Field Commander"],
+		"talents": ["Adversary 2","Field Commander (Improved)"],
 		"abilities": [
 			{"name": "...They Pull You Back In", "description": "After calling in a favor, this character may make an opposed Coercion versus Discipline check; if successful the target still owes this character a favor; :triumph: means the target now owes a favor of one magnitude great than before."}, 
 			{"name": "Unflappable", "description": "When targeted by a social skill check that inflicts strain, reduce the strain suffered by 2 to a minimum of 1"}],
@@ -6051,7 +6058,7 @@
 			}
 		],
 		"gear": ["Expensive suit, numerous members of 14k, smug expression"],
-		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 11", "General CR: 6"]
+		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:11", "General CR:6"]
 	},
 	{
 		"name": "Mr. Stone",
@@ -6108,7 +6115,7 @@
 				}
 		],
 		"gear": ["Suit with reinforced fiber weave: +1 soak","Camdrone, PAD, credstick with untraceable fund account"],
-		"tags": ["source:RMC #15", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR: 4", "General CR: 7"]
+		"tags": ["source:RMC #15", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR:4", "General CR:7"]
 	},
 	{
 		"name": "NAPD Detective",
@@ -6149,7 +6156,7 @@
 			}
 		],
 		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 4", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:4", "General CR:4"]
 	},
 	{
 		"name": "NAPD Hachi-Inu K8 Unit",
@@ -6187,7 +6194,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "NAPD Patrol Officer",
@@ -6228,7 +6235,7 @@
 			}
 		],
 		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "NAPD Riot Police",
@@ -6269,7 +6276,7 @@
 				}
 		],
 		"gear": ["Riot Armor: +2 soak.","Smoke grenades, 4 snap locks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "NAPD SWAT",
@@ -6326,7 +6333,7 @@
 			}
 		],
 		"gear": ["Body Armor: +2 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Olivia 'Chaos Theory' Ortiz",
@@ -6363,7 +6370,7 @@
 		"weapons": [
 		],
 		"gear": ["Tool kit","Dinosaurus rig with Corroder, Faerie, and Torch (pages 136-138 of SotB)-protected by Dinosaurus ice (use rules for Syn 22 on page 135 of SotB)"],
-		"tags": ["source:RMC #4", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 11"]
+		"tags": ["source:RMC #4", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:11"]
 	},
 	{
 		"name": "Omoi Security Clone",
@@ -6411,7 +6418,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:ADS #14", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:ADS #14", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Opticon Foundation Watchdog",
@@ -6442,7 +6449,7 @@
 		"weapons": [
 		],
 		"gear": ["Discrete monocam, camdrone, fake idents, encrypted PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Orgcrime Lieutenant",
@@ -6486,7 +6493,7 @@
 			}
 		],
 		"gear": ["Gold chains, nice suit"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 5", "General CR: 6"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:5", "General CR:6"]
 	},
 	{
 		"name": "Orgcrime Heavy",
@@ -6534,7 +6541,7 @@
 			}
 		],
 		"gear": ["Light Armor Vest: +2 soak.","Oversized suit with hidden holsters"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Orgcrime Muscle",
@@ -6575,7 +6582,7 @@
 			}
 		],
 		"gear": ["Cheap Padded Suit: +1 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Principled Runner",
@@ -6604,7 +6611,11 @@
 			"Perception": 3,
 			"Ranged: Light": 1
 		},
-		"talents": ["Burn Through","Natural"],
+		"talents": ["Burn Through",
+		{
+			"name": "Natural",
+			"desription": "Once per session may reroll one Computers (Hacking) or Knowledge (The Net) check."
+		}],
 		"abilities": [],
 		"weapons": [
 			{
@@ -6617,7 +6628,7 @@
 			}
 		],
 		"gear": ["Armored Utility Vest: +1 defense, +1 soak.","BMI.","Big rig with Athena (SotB p. 136) and Yog.0 (SotB p. 138)- protected by Hawk's Eye (SotB p. 134) and Fire Wall (SotB p. 133)"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 3", "General CR: 8"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:3", "General CR:8"]
 	},
 	{
 		"name": "Private Military Contractor",
@@ -6649,7 +6660,7 @@
 			}
 		],
 		"gear": ["Plasteel carapace: 1 defense, +2 soak"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Rachel Beckmann",
@@ -6698,7 +6709,7 @@
 			}
 		],
 		"gear": ["Ballistic Vest: +2 soak","Set of restraints"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Rashida Jaheem",
@@ -6761,7 +6772,7 @@
 			}
 		],
 		"gear": ["Plasteel Carapace Armor: +2 soak, 1 defense","Encrypted field radio"],
-		"tags": ["source:RMC #17", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 4", "General CR: 5"]
+		"tags": ["source:RMC #17", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Raymond Flint",
@@ -6808,7 +6819,7 @@
 			}
 		],
 		"gear": ["Heavy Trenchcoat: +1 soak","Smokes, PAD, fedora"],
-		"tags": ["source:RMC #18", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 5", "General CR: 11"]
+		"tags": ["source:RMC #18", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:5", "General CR:11"]
 	},
 	{
 		"name": "Regulator",
@@ -6840,7 +6851,7 @@
 		"weapons": [
 		],
 		"gear": ["Inspection PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Reina Roja",
@@ -6900,7 +6911,7 @@
 			}
 		],
 		"gear": ["Skin Suit: +2 soak, +2 defense, +2 wound threshold","Cybereyes, skulljack (allows Reina to 'go deep' during network encounters, p. 105 SotB)","Deep Red portable console with Athena and Garrote (p. 136-137 SotB)-protected by Archer and Enigma (p. 134-135 SotB)","Minion group of 4 camdrones, minion group of 4 combat drones (p. 233 SotB)"],
-		"tags": ["source:RMC #19", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR: 6", "General CR: 12"]
+		"tags": ["source:RMC #19", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:6", "General CR:12"]
 	},
 	{
 		"name": "Reporter",
@@ -6934,7 +6945,7 @@
 		"weapons": [
 		],
 		"gear": ["PAD, camdrone, monocam, press credentials"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:4"]
 	},
 	{
 		"name": "Researcher",
@@ -6965,7 +6976,7 @@
 		"weapons": [
 		],
 		"gear": ["Networked PAD, holodisplay, lab coat"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Retail Drone",
@@ -6992,7 +7003,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Rex Search and Rescue Bioroid",
@@ -7023,7 +7034,7 @@
 		"weapons": [
 		],
 		"gear": ["Spotlight, climbing gear, O2 tank, medkit, 2 slap patches"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Ristie Collector",
@@ -7057,7 +7068,7 @@
 		"weapons": [
 		],
 		"gear": ["Heavily encrypted PAD, several credsticks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 3", "General CR: 5"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:5"]
 	},
 	{
 		"name": "Rogue Nisei Clone",
@@ -7109,7 +7120,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR: 8", "General CR: 8"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:8", "General CR:8"]
 	},
 	{
 		"name": "SEA Yellow Jacket",
@@ -7142,7 +7153,7 @@
 			}
 		],
 		"gear": ["Security PAD, 2 snap locks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Seth Bioroidista",
@@ -7168,7 +7179,7 @@
 		"weapons": [
 		],
 		"gear": ["Order PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Sneaker Net Courier",
@@ -7211,7 +7222,7 @@
 			}
 		],
 		"gear": ["Good running shoes, encrypted datasticks"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 1", "General CR: 4"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Starlight Templar",
@@ -7251,7 +7262,7 @@
 			}
 		],
 		"gear": ["Heavy Jacket with Crusade logo: +1 soak.","PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Streetbanger",
@@ -7291,7 +7302,7 @@
 			}
 		],
 		"gear": ["Synthleather Jacket: +1 soak","Extensive tattoos and piercings"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Streetbanger Leader",
@@ -7341,7 +7352,7 @@
 			}
 		],
 		"gear": ["Leather Jacket with Gang Colors: +1 soak","PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Street Doc",
@@ -7380,7 +7391,7 @@
 			}
 		],
 		"gear": ["4 Slap-patches","Various cybernetics, emergency medkit, portable toolkit"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "SXC Exosuit Pilot",
@@ -7437,7 +7448,7 @@
 			}
 		],
 		"gear": ["SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "SXC Trooper",
@@ -7477,7 +7488,7 @@
 			}
 		],
 		"gear": ["Environmentally Sealed Plasteel carapace: 1 defense, +2 soak.","Disposable zero-G maneuvering pack"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "SYNC Globalsec Agent",
@@ -7510,7 +7521,7 @@
 		"weapons": [
 		],
 		"gear": ["PAD, BMI, and custom offensive rig with personal icebreakers (Gordian Blade [SotB p. 137], Battering Ram [SotB p. 136], and Garrote [SotB p. 137])"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 8"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:8"]
 	},
 	{
 		"name": "Teacup Giraffe",
@@ -7543,7 +7554,7 @@
 				}
 		],
 		"gear": ["Gentle doe eyes"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Tenma Driver Clone",
@@ -7579,7 +7590,7 @@
 		"weapons": [
 		],
 		"gear": ["Cybernetic eye implant"],
-		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 4"]
+		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Thomas Haas",
@@ -7616,7 +7627,7 @@
 		"weapons": [
 		],
 		"gear": ["Nice suit, encrypted PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR: 5", "General CR: 6"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:5", "General CR:6"]
 	},
 	{
 		"name": "Toy Drone",
@@ -7648,7 +7659,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Urban Peccary",
@@ -7681,7 +7692,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Urban Adventurer",
@@ -7711,7 +7722,11 @@
 			"Streetwise": 4,
 			"Survival": 4
 		},
-		"talents": ["Daring Aviator 2","Natural"],
+		"talents": ["Daring Aviator 2",
+			{
+				"name": "Natural",
+				"description": "Once per session, may reroll one Athletics or Coordination check."
+			}],
 		"abilities": [],
 		"weapons": [
 			{
@@ -7724,7 +7739,7 @@
 			}
 		],
 		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR: 1", "General CR: 7"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:7"]
 	},
 	{
 		"name": "Yakuza Assassin",
@@ -7779,7 +7794,7 @@
 			}
 		],
 		"gear": ["Optical Camouflage Suit: +2 Defense.","Pocket Rig with One-Shot Icebreakers: Spend a Story Point to add :success::success::success: to a successful check to break ice.","Climbing gear"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR: 3", "General CR: 8"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:8"]
 	},
 	{
 		"name": "Young Ristie",
@@ -7810,7 +7825,7 @@
 		"weapons": [
 		],
 		"gear": ["High-end wearable PAD"],
-		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Gorgon (Greek)",
@@ -7853,7 +7868,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["Monster", "Gorgon", "Official", "source:EPG", "Setting:Age of Myths", "Combat CR:8", "Social CR:4", "General CR:3"]
+		"tags": ["Monster", "Gorgon", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:8", "Social CR:4", "General CR:3"]
 	},
 	{
 		"name": "Jinn (Arabian)",
@@ -7886,7 +7901,7 @@
 		"talents": ["Adversary 2"],
 		"abilities": ["Flyer", "Ghostly", "Spirit",
             {
-                "name": "Spells",
+                "name": "Spells (Arcana)",
                 "description": "This character may choose any magic action allowed for by the Divine skill, and may select additional spell effects, as normal. The spell they use most often is the following unique spell."
             },
 			{
@@ -7905,7 +7920,7 @@
 			}
 		],
 		"gear": [ "Several enchanted trinkets"],
-		"tags": ["Spirit", "Genie", "Official", "source:EPG", "Setting:Age of Myths", "Combat CR:9", "Social CR:6", "General CR:9"]
+		"tags": ["Spirit", "Genie", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:9", "Social CR:6", "General CR:9"]
 	},
 	{
 		"name": "Korrigan (Breton)",
@@ -7938,7 +7953,7 @@
 				"description": "During the night, this character's presence is 5 instead of 1"
 			},
             {
-                "name": "Spells",
+                "name": "Spells (Primal)",
                 "description": "This character may choose any magic action allowed for by the Primal skill, and may select additional spell effects, as normal. The spell they use most often is the following unique spell."
             },
 			{
@@ -7947,7 +7962,7 @@
             }
         ],
 		"gear": [ "Piles of leaves or twine that appear to be valuable"],
-		"tags": ["Spirit", "Fairy", "Official", "source:EPG", "Setting:Age of Myths", "Combat CR:4", "Social CR:5", "General CR:2"]
+		"tags": ["Spirit", "Fairy", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:4", "Social CR:5", "General CR:2"]
 	},
 	{
 		"name": "Minotaur (Greek)",
@@ -7998,7 +8013,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["Monster", "Minotaur", "Official", "source:EPG", "Setting:Age of Myths", "Combat CR:8", "Social CR:1", "General CR:2"]
+		"tags": ["Monster", "Minotaur", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:8", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Siren (Greek)",
@@ -8039,7 +8054,7 @@
 				"qualities": ["Pierce 3", "Vicious 3"]
 			}
 		],
-		"tags": ["Monster", "Siren", "Official", "source:EPG", "Setting:Age of Myths", "Combat CR:3", "Social CR:4", "General CR:1"]
+		"tags": ["Monster", "Siren", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:3", "Social CR:4", "General CR:1"]
 	},
 	{
 		"name": "Corrupt Official",
@@ -8065,13 +8080,17 @@
 			"Negotiation": 2,
 			"Vigilance": 1
 		},
-		"talents": ["Natural"],
+		"talents": [
+			{
+				"name": "Natural",
+				"description": "Once per session, use this talent to reroll any one  Negotiation or Skulduggery check."
+			}],
 		"abilities": [
 			{"name": "Local Politics", "description": "Once per session, may choose one character operating in their area of influence (community, precinct, or county, for example); until the end of the session, the target must upgrade the difficulty of any social skill checks they make to interact with inhabitants of this area once."}],
 		"weapons": [
 		],
 		"gear": ["Cell phone, tablet"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:1", "Social CR: 5", "General CR: 3"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:1", "Social CR:5", "General CR:3"]
 	},
 	{
 		"name": "Gang Leader",
@@ -8110,7 +8129,7 @@
 			}
 		],
 		"gear": ["Heavy Leather Clothing: +2 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:4", "Social CR: 2", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:4", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Intelligence Agent",
@@ -8140,7 +8159,11 @@
 			"Streetwise": 3,
 			"Vigilance": 2
 		},
-		"talents": ["Adversary 2","Natural"],
+		"talents": ["Adversary 2",
+		{
+				"name": "Natural",
+				"description": "Once per session, use this talent to reroll any one  Skulduggery or Stealth check."
+			}],
 		"abilities": [
 			{"name": "One Step Ahead", "description": "Once per round, after an opponent performs an action or maneuver, may spend one Story Point to perform an action or a maneuver as an out-of-turn incidental."}],
 		"weapons": [
@@ -8153,7 +8176,7 @@
 				}
 		],
 		"gear": ["Encrypted cell phone"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:5", "Social CR: 4", "General CR: 5"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:5", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Local Official",
@@ -8181,13 +8204,13 @@
 			"Negotiation": 1,
 			"Vigilance": 3
 		},
-		"talents": ["Improved Scathing Tirade"],
+		"talents": ["Scathing Tirade (Improved)"],
 		"abilities": [
 			{"name": "Good at Needling", "description": "If this character knows an opponent’s Flaw Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain."}],
 		"weapons": [
 		],
 		"gear": ["Fine clothing, official credentials or badge of office"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 5", "General CR: 2"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:5", "General CR:2"]
 	},
 	{
 		"name": "Militia",
@@ -8219,7 +8242,7 @@
 			}
 		],
 		"gear": ["Fatigues: +1 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Street Tough",
@@ -8258,7 +8281,7 @@
 				}
 		],
 		"gear": ["Heavy Clothing: +1 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Ancestral Throwback",
@@ -8297,7 +8320,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:3", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:3", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Angry Villager",
@@ -8338,7 +8361,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Failed Experiment",
@@ -8379,7 +8402,7 @@
 			}
 		],
 		"gear": ["Ill-fitting clothing"],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:5", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:5", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Feral Lycanthrope",
@@ -8435,7 +8458,7 @@
 			}
 		],
 		"gear": ["Hand-made leather clothing"],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:8", "Social CR: 3", "General CR: 5"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:8", "Social CR:3", "General CR:5"]
 	},
 	{
 		"name": "Mad Scientist",
@@ -8481,7 +8504,7 @@
 			}
 		],
 		"gear": ["Heavy lab coat: +1 soak.","Galvanic device of terrifying potential", "Notebook filled with results of forbidden experiments"],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:6", "Social CR: 7", "General CR: 5"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:6", "Social CR:7", "General CR:5"]
 	},
 	{
 		"name": "Mummy",
@@ -8525,7 +8548,7 @@
 			}
 		],
 		"gear": ["Enchanted bandages (+4 soak)"],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR: 5", "General CR: 7"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR:5", "General CR:7"]
 	},
 	{
 		"name": "Vampire",
@@ -8582,7 +8605,7 @@
 			}
 		],
 		"gear": ["Ancient but well-preserved clothing, deeds to assorted estates"],
-		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR: 7", "General CR: 10"]
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR:7", "General CR:10"]
 	},
 	{
 		"name": "Apocalyptic Raider",
@@ -8623,7 +8646,7 @@
 			}
 		],
 		"gear": ["Sports pads: +1 soak, 1 defense"],
-		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Freeholder",
@@ -8664,7 +8687,7 @@
 			}
 		],
 		"gear": ["Homespun armor: +2 soak.","Badge of office, ledger book"],
-		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Irradiated Mutant",
@@ -8697,7 +8720,7 @@
 			}
 		],
 		"gear": ["Rags, several pieces of scrap"],
-		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Rad-Gator",
@@ -8749,7 +8772,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:8", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:8", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Warlord",
@@ -8800,7 +8823,7 @@
 			}
 		],
 		"gear": ["Spiky armor: +2 soak, when targeted by a melee combat check, may spend :threat::threat: or :despair: to have the attacker suffer 2 wounds.","Megaphone"],
-		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:6", "Social CR: 4", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:6", "Social CR:4", "General CR:3"]
 	},
 	{
 		"name": "Airship Pirate",
@@ -8838,7 +8861,7 @@
 				}
 		],
 		"gear": ["Vest and Storm Coat: +1 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:2", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Clockwork Animal Automaton",
@@ -8878,7 +8901,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Colonial Governor",
@@ -8929,7 +8952,7 @@
 			}
 		],
 		"gear": ["Fine clothing"],
-		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 6", "General CR: 3"]
+		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR:6", "General CR:3"]
 	},
 	{
 		"name": "Royal Marine",
@@ -8976,7 +8999,7 @@
 				}
 		],
 		"gear": ["Armored Uniform: +1 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Alien Warlord",
@@ -9018,7 +9041,7 @@
 			}
 		],
 		"gear": ["Heavy Sealed Armor: +2 soak.","Platinum-Weave Cloak.","Crimson banner of glorious conquest, sniveling servant to carry banner of glorious conquest"],
-		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:8", "Social CR: 5", "General CR: 3"]
+		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:8", "Social CR:5", "General CR:3"]
 	},
 	{
 		"name": "Nano-Swarm",
@@ -9055,7 +9078,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:5", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Space Pirate",
@@ -9105,7 +9128,7 @@
 			}
 		],
 		"gear": ["Armored Space Suit: +1 soak."],
-		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Telepath",
@@ -9139,7 +9162,7 @@
 		"weapons": [
 		],
 		"gear": ["Hoverchair, robes"],
-		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Xenomorph Horror",
@@ -9185,7 +9208,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:6", "Social CR: 1", "General CR: 3"]
+		"tags": ["source:GCRB", "Official", "setting:Space Opera", "Combat CR:6", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Arcane Scientist",
@@ -9226,7 +9249,7 @@
 			}
 		],
 		"gear": ["Lab coat, goggles"],
-		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:4", "Social CR: 3", "General CR: 4"]
+		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:4", "Social CR:3", "General CR:4"]
 	},
 	{
 		"name": "Infantry",
@@ -9258,7 +9281,7 @@
 			}
 		],
 		"gear": ["Armor Vest: +1 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Occult Commando",
@@ -9309,7 +9332,7 @@
 			}
 		],
 		"gear": ["Combat Armor and Curiously Tough Skin: +2 soak"],
-		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:5", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:5", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Bear",
@@ -9356,7 +9379,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Big Cat",
@@ -9397,7 +9420,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Bull",
@@ -9434,7 +9457,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Dog",
@@ -9474,7 +9497,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Elephant",
@@ -9514,7 +9537,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:8", "Social CR: 3", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:8", "Social CR:3", "General CR:3"]
 	},
 	{
 		"name": "Falcon",
@@ -9552,7 +9575,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Horse",
@@ -9584,7 +9607,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Kraken",
@@ -9633,7 +9656,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:16", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:16", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Shark",
@@ -9672,7 +9695,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Venomous Snake",
@@ -9710,7 +9733,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wolf",
@@ -9743,7 +9766,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Advisor",
@@ -9776,7 +9799,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 1", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Blueblood",
@@ -9808,7 +9831,7 @@
 		"weapons": [
 		],
 		"gear": ["Formal clothing, expensive jewelry, unlimited funds"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Healer",
@@ -9840,7 +9863,7 @@
 		"weapons": [
 		],
 		"gear": ["Healer’s garb, doctor’s tools"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Fixer",
@@ -9872,7 +9895,7 @@
 		"weapons": [
 		],
 		"gear": ["Toolkit"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Laborer",
@@ -9904,7 +9927,7 @@
 			}
 		],
 		"gear": ["Work clothes"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Leader",
@@ -9938,7 +9961,7 @@
 		"weapons": [
 		],
 		"gear": ["Formal clothing"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 8", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:8", "General CR:3"]
 	},
 	{
 		"name": "Manager",
@@ -9962,13 +9985,13 @@
 			"Operating": 1,
 			"Vigilance": 2
 		},
-		"talents": ["Improved Inspiring Rhetoric"],
+		"talents": ["Inspiring Rhetoric (Improved)"],
 		"abilities": [
 			"Corporate Oversight"],
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 3", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:3", "General CR:1"]
 	},
 	{
 		"name": "Paper Pusher",
@@ -9994,7 +10017,7 @@
 		"weapons": [
 		],
 		"gear": ["Attire appropriate to the place of work"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Seller",
@@ -10026,7 +10049,7 @@
 		"weapons": [
 		],
 		"gear": ["Rumpled and worn professional attire"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 5", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:5", "General CR:2"]
 	},
 	{
 		"name": "Tracker",
@@ -10056,7 +10079,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Wanderer",
@@ -10100,7 +10123,7 @@
 			}
 		],
 		"gear": ["Rugged clothes"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Ace",
@@ -10132,7 +10155,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Attacker",
@@ -10164,7 +10187,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Defender",
@@ -10196,7 +10219,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR: 3", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:3", "General CR:2"]
 	},
 	{
 		"name": "Field Leader",
@@ -10229,7 +10252,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR: 3", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:3", "General CR:1"]
 	},
 	{
 		"name": "General",
@@ -10262,7 +10285,7 @@
 		"weapons": [
 		],
 		"gear": ["Uniform"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR: 6", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:6", "General CR:3"]
 	},
 	{
 		"name": "Gunner",
@@ -10286,7 +10309,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", "General CR: 2"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Medic",
@@ -10317,7 +10340,7 @@
 		"weapons": [
 		],
 		"gear": ["2 painkillers (or setting equivalent)", "Medical supplies (can make Medicine checks without penalty)"],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 2", "General CR: 3"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:3"]
 	},
 	{
 		"name": "Ranger",
@@ -10349,7 +10372,7 @@
 		"weapons": [
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR: 2", "General CR: 4"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Sapper",
@@ -10391,7 +10414,7 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR: 1", "General CR: 4"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Warrior",
@@ -10423,6 +10446,6 @@
 			}
 		],
 		"gear": [],
-		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR: 1", "General CR: 1"]
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
 	}
 ]

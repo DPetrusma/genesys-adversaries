@@ -106,6 +106,11 @@ let bookMap = {
 	"book:aor": "Age of Rebellion",
 	"book:eote": "Edge of the Empire",
 	"book:fad": "Force and Destiny",
+	
+	"book:GCRB": "Genesys Core Rulebook",
+	"book:EPG": "Expanded Player's Guide",
+	"book:RoT": "Realms of Terrinoth",
+	"book:SotB": "Shadow of the Beanstalk",
 
 	// beginner games
 	"book:aorbg": "Age of Rebellion: Beginner’s Game",
