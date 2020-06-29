@@ -913,7 +913,7 @@
 	},
 	{
 		"name": "Improved Multiattack",
-		"description": "A brachyuru does not increase the difficulty of combined checks to attack with its claws, hands, and bite, and may spend 1 Advantage or Triumph to hit with each additional weapon"
+		"description": "The creature does not increase the difficulty of combined checks to attack with any number of its weapons, and may spend 1 Advantage or Triumph to hit with each additional weapon"
 	},
 	{
 		"name": "Destructive",

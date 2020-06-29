@@ -3108,7 +3108,7 @@
 			"Survival": 2
 		},
 		"abilities": [
-			{"name": "Death Sting", "description": "When incapacitated, a giant scorpion makes one out-of-turn Brawl attack with its stinger against an engaged opponent. This check gains 1 Boost, and +2 damage"}],
+			{"name": "Death Sting", "description": "When incapacitated, a giant scorpion makes one out-of-turn Brawl attack with its stinger against an engaged opponent. This check gains :boost:, and +2 damage"}],
 		"weapons": [
 			{
 				"name": "Claws",

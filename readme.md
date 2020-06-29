@@ -92,13 +92,14 @@ Main tasks:
 
 ### Changes from source
 
-- CC Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
+- Creature Catalogue Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
 - Spectre: Ability can raise more spectres
 - Instances of "Melee" fixed: CC Gorgul Demon claws changed to Brawl, CC Malithar Demon swords changed to Melee: Light and Tail lash changed to Brawl, CC Cyclops club changed to Melee: Light, CC Hill Giant club changed to Melee: Light, CC Fire Giant sword changed to Melee: Light, CC Frost Giant axe changed to Melee: Light
 - CC Gnoll Night vision changed to Darkvision
 - CC Some abilities renamed to match existing Star Wars or Genesys
 - CC Lich removed Phylactery as it's mostly narrative
 - A few talents and abilities on official adversaries were re-worded slightly to fit better with generic talents and abilities
+-- E.g. Merriod has Multiattack instead of Monstrous Limbs
 
 ## TODO
 
@@ -112,6 +113,7 @@ Main tasks:
 - Spellchecks, capitilisation, and grammar
 - Young Ristie WT
 - Ruinous Repartee uses Presence x 2. How to implement that, similar to the ranks multiplier replacement?
+- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the difficulty
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead
