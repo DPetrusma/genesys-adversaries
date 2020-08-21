@@ -1,0 +1,1898 @@
+B lACk S hArd r enderer (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 1 2
+Soak Value w. Threshold M/r Defense
+3 4 0 0
+Power Level:  c 2,  p -,  g 2
+Skills (group only): Brawl, Cool, Perception, Vigi-
+lance.
+Talents:
+• None.
+Abilities:
+• Corrupt Æmber: May spend :threat::threat::threat: or d from
+any Melee or Brawl check targeting this character
+to corrupt 1 Æmber the opponent carries (this es-
+sentially destroys the Æmber, with other effects as
+determined by the GM).
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Silhouette 0.
+Equipment:
+• Claws and teeth: Brawl; Damage 4; Critical 3; Range
+(Engaged); Vicious 1.
+Source: SotC p. 227
+B loodStAlker v ine (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 4 1 2 1 1
+Soak Value w. Threshold M/r Defense
+4 12 0 0
+Power Level:  c 5,  p 1,  g 1
+Skills: Brawl 3 (lll), Ranged 3 (lllk), Stealth 2
+(llkk).
+Talents:
+• Devourer 2: Once per encounter, if the vine is en-
+gaged with an incapacitated target that is compatible
+with its carbon-based diet, it may use this talent to
+heal 4 wounds.
+Abilities:
+• Dragged to Doom: May spend a maneuver to pull
+an immobilized foe within short range to engaged
+range.
+• Immobile: Cannot spend maneuvers to move.
+Equipment:
+• Feeding spikes: Melee; Damage 5; Critical 3; Range
+(Engaged); Pierce 3, Vicious 2.
+• Vines: Ranged; Damage 3, Critical 5; Ranged
+(Short); Accurate 1, Ensnare 3, Linked 3.
+Source: SotC p. 220
+B ounty h unter (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 2 3 2 2
+Soak Value w. Threshold M/r Defense
+4 11 0 0
+Power Level:  c 5,  p 2,  g 2
+Skills: Brawl 3 (lll), Coercion 2 (ll), Deception
+2 (llk), Negotiation 2 (ll), Perception 3 (lll),
+Ranged 3 (lll), Streetwise 2 (llk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Dubious of Authority: When targeted by a Coer-
+cion or Leadership check, may oppose this check
+with Deception and Cunning (instead of Discipline
+and Willpower).
+Equipment:
+• Lightning rifle: Ranged; Damage 8, Critical 3;
+Ranged (Long); Stun 3.
+• Shockgloves: Brawl; Damage 5; Critical 4; Range
+(Engaged); Concussive 1, Stun Damage.
+• Several "wanted" holoprints
+Source: SotC p. 229
+35
+Adversaries anthology
+GENESYS
+B ureAuCrAt (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+1 2 2 3 3 2
+Soak Value w. Threshold M/r Defense
+1 3 0 0
+Power Level:  c 1,  p 2,  g 2
+Skills (group only): Discipline, Negotiation, Vigi-
+lance.
+Talents:
+• Unremarkable: Add f to checks made to pick a bu-
+reaucrat out of a crowd.
+Abilities:
+• Here's a Tip: Other characters may spend :triumph: from
+social skill checks they make targeting this character
+to add :boost: to other social skill checks they make until
+the end of the session or until they leave this location.
+• Inured: Add :boost: to social skill check targeting this
+character.
+Equipment:
+• Rumpled clothing, endless stacks of holoscrolls,
+databooks, and forms-lots of forms.
+Source: SotC p. 233
+C AptAin v Al j eriCho (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 3 4 4 4
+3 18 21 1 1
+Power Level:  c 6,  p 7,  g 5
+Motivations: Desire (Knowledge), Fear (Humiliation),
+Strength (Curious), Flaw (Obsession).
+Skills: Athletics 2 (ll), Charm 2 (llkk), Discipline
+3 (lllk), Knowledge (Culture) 4 (llll), Lead-
+ership 3 (lllk), Negotiation 2 (llkk), Ranged 2
+(llk), Vigilance 2 (llkk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• For the Alliance!: When making a combat skill
+check, Captain Jericho may spend a to let a member
+of her crew in the current encounter immediately
+perform a maneuver as an out-of-turn incidental;
+she may instead spend :advantage::advantage::advantage: or :triumph: to let up to thee
+crew members in the current encounter perform an
+immediate action as an out-of-turn incidental.
+• Heroic Captain: May spend a Story Point to suffer 2
+strain and add :triumph: to the next combat or social skill
+check she makes.
+Equipment:
+• Blazer pistol: Ranged; Damage 6; Critical 4; Range
+(Medium); Stun 3.
+• Star Alliance captain's uniform: 1 defense, +1 soak.
+• Wrist module.
+Source: SotC p. 208
+C ArAvAn g uArd (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 2 1 1
+Soak Value w. Threshold M/r Defense
+4 4 0 0
+Power Level:  c 2,  p 1,  g 1
+Skills (group only): Melee, Perception, Vigilance.
+Talents:
+• None.
+Abilities:
+• Close Ranks: While within short range of another
+guard minion group, both groups gain 1 melee de-
+fense.
+Equipment:
+• Pole chainsaw: Melee; Damage 7; Critical 3; Range
+(Engaged); Inaccurate 1, Vicious 3.
+Source: SotC p. 229
+C ity e nForCer (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 2 1 1
+Soak Value w. Threshold M/r Defense
+4 4 0 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Brawl, Coercion, Melee, Ranged.
+Talents:
+• None.
+Abilities:
+• Force of Justice: Characters withing short range of
+this character add :boost: to their combat checks provided
+those characters are acting to uphold local laws.
+Equipment:
+• Stunner baton: Melee; Damage 4; Critical 3; Range
+(Engaged); Concussive 1, Stun Damage.
+• Stunner pistol: Ranged; Damage 6; Critical 4; Range
+(Short); Concussive 1, Stun Damage.
+• Uniform: +1 soak
+• Badge
+Source: SotC p. 234
+36
+Adversaries anthology
+GENESYS
+C yBer r At (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 1 3 1 1
+Soak Value w. Threshold M/r Defense
+3 3 1 2
+Power Level:  c 2,  p 1,  g 1
+Skills (group only): Brawl, Skulduggery, Stealth,
+Vigilance.
+Talents:
+• None.
+Abilities:
+• Cyberbyte: After making a combat check, may
+spend :triumph: to have the target suffer a hit dealing damage
+equal to the base damage of one powered weapon
+the target possesses of the cyber rat's choice.
+• Silhouette 0.
+Equipment:
+• Metal jaws: Brawl; Damage 3; Critical 3; Range (En-
+gaged); Pierce 1, Vicious 1.
+Source: SotC p. 220
+d ArkwAter t ree (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 2 1 1
+Soak Value w. Threshold M/r Defense
+6 15 0 0
+Power Level:  c 5,  p 1,  g 1
+Skills: Brawl 3 (lll).
+Talents:
+• None.
+Abilities:
+• Æmber Extractor: A character may make a Hard
+(kkk) Survival check to dig one Æmber out of a
+destroyed tree and may spend :triumph: to extract two Æm-
+ber per :triumph: spent this way.
+• Immobile: Cannot spend maneuvers to move
+Equipment:
+• Iron branches: Brawl; Damage 9; Critical 4; Range
+(Short); Concussive 2, Linked 3, the difficulty for
+this is always Average (kk).
+• Metal bark: +3 soak.
+Source: SotC p. 221
+d eipno S pymASter (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 3 3
+Soak Value w. Threshold M/r Defense
+3 12 2 2
+Power Level:  c 4,  p 4,  g 3
+Skills: Coercion 2 (llk), Deception 3 (lll),
+Knowledge (Crucible) 3 (llk), Knowledge (Culture)
+2 (ll), Melee 1 (lk), Negotiation 3 (lll), Percep-
+tion 3 (lll), Stealth 2 (ll), Streetwise 3 (lll).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Informed: When providing assistance to friendly
+character who are making a knowledge skill, Skul-
+duggery, or Streetwise check, this character instead
+adds ss:threat::threat: to the results of the check.
+Equipment:
+• Crystal dagger: Melee; Damage 6; Critical 3; Range
+(Engaged); Accurate 2, Stun 3, Superior.
+• Set of Deipno stealth emitters: 2 defense, +1 soak
+• Magnoscope (adds :boost: to Perception checks), several
+heavily encrypted micropads.
+Source: SotC p. 229
+37
+Adversaries anthology
+GENESYS
+d odger (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+3 4 3 4 2 3
+5 12 14 1 1
+Power Level:  c 8,  p 4,  g 7
+Motivations: Desire (Belonging), Fear (Isolation),
+Strength (Adaptable), Flaw (Greed).
+Skills: Cool 3 (lll), Coordination 3 (lllk),
+Discipline 3 (llk), Knowledge (Crucible) 3 (lll),
+Melee 3 (lll), Ranged 3 (lllk), Skulduggery 2
+(llkk), Stealth 4 (llll), Streetwise 3 (lllk),
+Vigilance 3 (llk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Dramatic Entrance: Once per session, may spend
+a Story Point to use this talent to enter a scene or
+encounter they are not currently participating in at
+an opportune time, no matter how unlikely their ar-
+rival. If the scene is a combat encounter or otherwise
+uses Initiative order, Dodger add a new NPC Initia-
+tive slot at the top of the Initiative order.
+Abilities:
+• Light Fingers: After making a melee combat check,
+may spend :triumph: to steal one item of encumbrance 1 or
+less from the target.
+Equipment:
+• Twin crystal blade: Melee; Damage 7; Critical 2; Range
+(Engaged); Accurate 2, Stun 3, Superior.
+• Throwing stars: Ranged; Damage 4; Critical 2;
+Range (Short); Accurate 1, Linked 2.
+• Stealth emitter-lined camo-clothing: 1 defense, +2
+soak.
+• Magnavistor, dimensional satchel (SotC page 153)
+filled with all sorts of interesting things.
+Source: SotC p. 241
+d ouBle -B eAked S pire B uzzArd (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 2 1 1
+Soak Value w. Threshold M/r Defense
+6 15 0 0
+Power Level:  c 4,  p 1,  g 2
+Skills: Brawl 3 (lll).
+Talents:
+• None.
+Abilities:
+• Aerial Thief: May spend :triumph: when making a check to
+determine Initiative to steal one randomly deter-
+mined item of encumbrance 2 or less from the char-
+acter who generated the least :success: on their check.
+• Flyer: Can fly; see the Flying sidebar on page 100 of
+the Genesys Core Rulebook.
+Equipment:
+• Beaks: Brawl; Damage 5; Critical 3; Range (En-
+gaged); Linked 1.
+Source: SotC p. 221
+e Ater oF the d eAd (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 3 2
+Soak Value w. Threshold M/r Defense
+3 10 1 1
+Power Level:  c 3,  p -,  g 2
+Skills: Brawl 2 (ll), Medicine 3 (llk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Feed on the Fallen: At the end of the eater of the
+dead's turn, if at short range of one or more non-de-
+mon characters suffering Critical Injuries, may heal
+a number of wounds that it is suffering equal to the
+total number of Critical Injuries.
+• Power from the Fallen: While engaged with a
+non-demon character, increase this character's
+Brawn by one for each Critical Injury the non-de-
+mon character is currently suffering to a maximum
+of 5 (this also increases the damage of this charac-
+ter's claws and teach and this character's soak value).
+Equipment:
+• Claw and teeth: Brawl; Damage 2; Critical 3; Range
+(Engaged); Vicious 1.
+Source: SotC p. 227
+38
+Adversaries anthology
+GENESYS
+e lder n yyon (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 4 4 3 3
+4 15 23 1 1
+Power Level:  c 6,  p 5,  g 7
+Motivations: Desire (Knowledge), Fear (Humiliation),
+Strength (Curious), Flaw (Obsession).
+Skills: Charm 2 (llk), Coercion 2 (llk), Com-
+puters 3 (lllk), Discipline 3 (lll), Knowledge
+(All) 4 (llll), Leadership 2 (llk), Mechanics
+3 (lllk), Operating 2 (llkk), Perception 3
+(lllk), Ranged 2 (ll).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Mad Inventor: Once per session, make a Mechanics
+check to cobble together the functional equivalent of
+any item using spare parts or salvage, as per Table
+1.4-1 Mad Inventor Item Rarity on page 80 of the
+Genesys Core Rulebook.
+Abilities:
+• Martian Command: As a maneuver, may order up
+to three allied martians in the encounter to take an
+immediate out-of-turn maneuver, or to order one
+allied martian in the encounter to take an immedi-
+ate out-of-turn action.
+• Obsessive Customizer: As a maneuver may spend
+a Story Point to add one of the following item qual-
+ities to their pistol or to an outpost weapon with
+which they are engaged: Accurate 3, Concussive 1,
+Guide 4, Stun Damage, Sunder. The weapon pos-
+ses this item quality until the end of this character's
+next turn.
+Equipment:
+• Customized ray gun: Ranged; Damage 6; Critical 3;
+Range (Medium).
+• Fine cloak: 1 defense +2 soak.
+• Martian communicator portable computer.
+Source: SotC p. 204
+e SCAped e xperiment (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 2 2 2 3 1
+Soak Value w. Threshold M/r Defense
+7 16 0 0
+Power Level:  c 3,  p 1,  g 3
+Skills: Brawl 3 (lllk), Perception 3 (llk), Resil-
+ience 2 (llkk).
+Talents:
+• None.
+Abilities:
+• Fragmented Memories: Add ll to social skill
+checks targeting this character.
+• Mutating: At the start of each encounter, may suf-
+fer 1 wound to gain one species feature generated at
+random from Table 1-8: Species Features on SotC
+page 47.
+Equipment:
+• Bioengineered talons: Brawl; Damage 7; Critical 3;
+Range (Engaged); Pierce 3, Vicious 2.
+• Altered flesh: +3 soak
+Source: SotC p. 236
+e ther S pider (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 4 1 3 1 3
+9 39 22 0 0
+Power Level:  c 14,  p 2,  g 1
+Skills: Athletics 2 (llkkk), Brawl 3 (lllkk),
+Cool 3 (lll), Ranged 3, (lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Æmber Eater: After making a successful Brawl
+combat check, may spend :advantage::advantage: or :triumph: to devour 1
+Æmber the target possesses.
+• Silhouette 3
+• Terrifying Appearance: At the start of the encoun-
+ter, all opponents must make an upgraded Hard
+(lkk) fear check as an out-of-turn incidental, as
+per page 243 of the Genesys Core Rulebook; if there
+are multiple sources of fear in the encounter, oppo-
+nents only make one fear check against the most
+fearsome enemy.
+Equipment:
+• Claws: Brawl; Damage 15; Critical 4; Range (Short);
+the difficulty for this check is always Average (kk).
+• Spinnerets: Ranged; Damage 5; Critical 2; Range
+(Short); Ensnare 3, Stun Damage.
+• Venomous jaws: Brawl; Damage 12; Critical 1;
+Range (Engaged); Disorient 2.
+• Chitinous skin: +4 soak.
+Source: SotC p. 220
+39
+Adversaries anthology
+GENESYS
+F AerieS And p ixieS (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+1 2 3 2 2 1
+Soak Value w. Threshold M/r Defense
+2 3 2 2
+Power Level:  c 2,  p 1,  g 2
+Skills (group only): Brawl, Mechanics, Perception,
+Survival.
+Talents:
+• None.
+Abilities:
+• Artificial: Does not need to breathe, eat, or drink,
+and can survive in vacuum and underwater; im-
+mune to poisons and toxins.
+• Flyer: Can fly; see the Flying sidebar on page 100 of
+the Genesys Core Rulebook.
+• Mischievous: as a maneuver, may distract one char-
+acter at short range; that character adds :boost: to their
+next check for each faerie or pixie in that minion
+group.
+• Silhouette 0.
+Equipment:
+• Stinger: Brawl; Damage 4; Critical 3; Range (En-
+gaged); Disorient 3.
+Source: SotC p. 222
+F uzzy g ruen (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 1 2 2 2
+Soak Value w. Threshold M/r Defense
+2 3 2 0
+Power Level:  c 1,  p 1,  g 1
+Skills (group only): Athletics, Brawl.
+Talents:
+• None.
+Abilities:
+• Amphibious: Can breathe underwater without pen-
+alty and never suffers movement penalties for travel-
+ing through water.
+• Painfully cute: When this character suffers wounds,
+all characters within short range suffer 2 strain.
+• Silhouette 0.
+Equipment:
+• Cuddly tentacles: Brawl; Damage 3; Critical 5;
+Range (Engaged); Ensnare 1.
+Source: SotC p. 222
+g loomwight (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 1 3 1 2
+Soak Value w. Threshold M/r Defense
+2 5 0 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Athletics, Brawl, Ranged.
+Talents:
+• None.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Phase: Can ignore terrain penalties and move
+through solid matter (but cannot end their turn in-
+side solid matter).
+• Silhouette 0.
+Equipment:
+• Overphased rocks: Ranged; Damage 3; Critical 1;
+Range (Short); Blast 6.
+• Phase bite: Brawl; Damage 2; Critical 4; Range (En-
+gaged); Breach 1.
+Source: SotC p. 237
+g reen w Alker (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 2 3 2 3 2
+8 36 20 2 0
+Power Level:  c 10,  p 3,  g 4
+Skills: Cool 1 (lk), Charm 2 (ll), Brawl 4
+(llllk), Knowledge (Crucible) 4 (lllk), Per-
+ception 2 (ll), Stealth 1 (lk), Survival 3 (llk),
+Vigilance 2 (llk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Woodlander: While in a forested area, green walk-
+ers upgrade the ability of Cool and Stealth checks
+they make twice.
+• Silhouette 3.
+Equipment:
+• Thorny fists: Brawl; Damage 10; Critical 3; Range
+(Short); Pierce 2, the difficulty for this attack is al-
+ways Average (kk).
+• Thick bark: +3 soak.
+Source: SotC p. 237
+40
+Adversaries anthology
+GENESYS
+g rey m onk (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 4 4 4 3
+3 16 20 0 0
+Power Level:  c 6,  p 6,  g 6
+Skills: Brawl 3 (lll), Cool 2 (llk), Discipline 2
+(llkk), Knowledge (Culture) 3 (lllk), Medicine
+3 (lllk), Vigilance 3 (lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Implacable 2: When this character is targeted by a
+social skill check, they reduce any strain they suffer
+as a result of that check by 2.
+Abilities:
+• Mystical Healing: Decrease the difficulty of all
+Medicine checks made within short range of a Grey
+Monk by one.
+• Protective Aura: Allies gain +1 soak while within
+short range of a Grey Monk; this stacks with multi-
+ple monks.
+Equipment:
+• Fists: Brawl; Damage 4; Critical 2; Range (Engaged);
+Disorient 2, Superior
+• Robes.
+Source: SotC p. 234
+g uArdiAn d emon (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 3 3 4 2 3
+Soak Value w. Threshold M/r Defense
+5 11 2 0
+Power Level:  c 6,  p -,  g 4
+Skills: Cool 2 (llk), Medicine 3 (lll), Melee 2
+(llkk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Regeneration: At the beginning of their turn turn,
+this character heals 3 wounds.
+• Shift the Pain: When this character heals wounds
+from itself or another demon character, may choose
+to have one non-demon character within short
+range suffer an equal amount of strain; when this
+character heals a Critical Injury that they or anoth-
+er demon character are currently suffering, may
+choose to have one non-demon character within
+short range suffer one Critical Injury.
+Equipment:
+• Blade of pain: Melee; Damage 6; Critical 3; Range
+(Engaged); Superior, Vicious 2.
+Source: SotC p. 227
+g urgle p ool (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 2 1 3 1 1
+Soak Value w. Threshold M/r Defense
+4 14 0 0
+Power Level:  c 4,  p 1,  g 1
+Skills: Brawl 2 (llkk).
+Talents:
+• Artificial: Does not suffer penalties for moving
+through difficult terrain.
+Abilities:
+• Drain Vigor: As an Incidental, at the start of their turn,
+characters engaged with a gurgle pool must make a
+Hard (kkk) Resilience check or suffer 3 strain.
+• Liquid Defenses: Halve the damage dealt to the
+pool before applying soak, unless the weapon has
+the Blast or Burn quality (regardless of whether the
+quality is activated).
+• Silhouette 2.
+Equipment:
+• Pseudopods: Brawl; Damage 8; Critical 3; Range
+(Engaged); Blast 8, Knockdown.
+Source: SotC p. 223
+41
+Adversaries anthology
+GENESYS
+h AlyArdS m Ate (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 2 2 1
+Soak Value w. Threshold M/r Defense
+2 4 0 0
+Power Level:  c 2,  p 1,  g 1
+Skills (group only): Gunnery, Mechanics, Melee,
+Operating, Perception
+Talents:
+• None.
+Abilities:
+• Airborne Expertise: May remove :boost::boost: from Operat-
+ing checks character in the encounter make to con-
+trol an airship or other flying vehicle.
+Equipment:
+• Æmberdrake fang dagger: Melee; Damage 3; Criti-
+cal 3; Range (Engaged); Pierce 4.
+Source: SotC p. 234
+i nkA the S pider (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+1 4 4 4 3 2
+2 8 12 2 2
+Power Level:  c 3,  p 6,  g 1
+Motivations: Desire (Fame), Fear (Poverty), Strength
+(Patient), Flaw (Pride).
+Skills: Charm 3 (llk), Cool 3 (llk), Coordination
+4 (llll), Discipline 4 (lllk), Knowledge (Cru-
+cible) 4 (llll), Knowledge (Culture) 4 (llll),
+Negotiation 3 (llk), Perception 4 (llll),
+Stealth 4 (llll), Streetwise 3 (lllk), Survival 4
+(llll), Vigilance 3 (lll).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+• Wallcrawler: Can move across vertical surface as
+easily as horizontal surfaces. In addition, when this
+character attempts to reduce the damage taken from
+falling, reduce the difficulty of the Athletics or Coor-
+dination check by one.
+Abilities:
+• Friends in Spy Places: A character must suffer 2
+strain in order to make a combat check targeting Inka.
+• Leverage Fame: After making a successful social
+skill check, this character heals 2 strain and may
+perform a second maneuver without spending strain
+(but cannot perform more than two maneuvers in
+their turn).
+Equipment:
+• Tiny quill and papers, miniaturized spy gear and
+comms.
+Source: SotC p. 242
+i nSpired A dept (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 3 2 3 2
+Soak Value w. Threshold M/r Defense
+3 10 1 0
+Power Level:  c 4,  p 3,  g 3
+Skills: Brawl 3 (lll), Cool 2 (lllk), Discipline
+3 (lll), Medicine 2 (llk), Perception 2 (ll),
+Vigilance 2 (llk).
+Talents:
+• Heightened Awareness: Allies at short range add :boost:
+to their Perception and Vigilance check; allies at en-
+gaged range add :boost::boost: instead.
+• Surgeon 2: When making a Medicine check to heal
+wounds, the target heals two additional wounds.
+Abilities:
+• Calm Center: May remove :boost: from Cool, Discipline,
+and Vigilance checks.
+Equipment:
+• Fists and feet: Brawl; Damage 4; Critical 2; Range
+(Engaged); Accurate 1, Superior
+• Simple garb, journal, Æmber amulet.
+Source: SotC p. 229
+42
+Adversaries anthology
+GENESYS
+k eliFi d rAgon (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 4 3 3 4 3
+10 42 24 0 0
+Power Level:  c 14,  p 5,  g 3
+Skills: Athletics 2 (llkkk), Brawl 4 (llllk),
+Coercion 3 (lllk), Knowledge (Æmber) 3 (lll),
+Perception 2 (llk), Ranged 3 (lllk), Vigilance 2
+(llkk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Flyer: Can fly; see the Flying sidebar on page 100 of
+the Genesys Core Rulebook.
+• Silhouette 4.
+• Supersonic: After spending two maneuvers to move
+through the air, as an action may make a Hard
+(kkk) Athletics check; if successful, all other char-
+acters within medium range of this character's final
+location suffer 5 strain.
+• Sweep Attack: May spend :triumph: on a successful Brawl
+check to inflict one hit dealing 10 damage on all oth-
+er characters within short range.
+Equipment:
+• Huge talons: Brawl; Damage 10; Critical 3; Range
+(Engaged); Pierce 4.
+• Plasma flames: Ranged; Damage 7; Critical 4; Range
+(Medium); Blast 6, Burn 3.
+• Plate armor: +5 soak.
+Source: SotC p. 237
+k indrith r Anger (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 4 2 3 2 2
+Soak Value w. Threshold M/r Defense
+4 5 0 0
+Power Level:  c 5,  p 1,  g 2
+Skills (group only): Athletics, Ranged, Stealth, Sur-
+vival, Vigilance.
+Talents:
+• None.
+Abilities:
+• Blend with the Wilds: In wilderness areas, Kindrith
+Rangers gain defense 1.
+• Handmade Weapons: When another being uses
+this character's bow, it loses the Superior item quali-
+ty and gains Inaccurate 3 and Unwieldy 5.
+Equipment:
+• Handcrafted Ranger's Bow: Ranged; Damage 7;
+Critical 3; Range (Medium); Burn 1, Pierce 3, Supe-
+rior.
+• Ranger garb: +1 soak.
+Source: SotC p. 238
+l AvA g iAnt (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 3 2 3 2 2
+7 20 20 0 0
+Power Level:  c 7,  p 2,  g 3
+Skills: Athletics 2 (llkkk), Brawl 3 (lllkk),
+Ranged 2 (llk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Heat Wave: At the start of the their turn, characters
+engaged with a lava giant suffer 2 strain unless they
+are immune to heat.
+• Loves the Heat: Ignores penalties imposed by high
+temperatures and ignores damage inflicted by fire or
+fire-based attacks.
+• Silhouette 2.
+Equipment:
+• Burning limbs: Brawl; Damage 6; Critical 2; Range
+(Engaged); Burn 3, Vicious 3.
+• Lava bomb: Ranged; Damage 8; Critical 3, Range
+(Medium); Blast 6, Burn 2, Inaccurate 1, Knockdown
+• Stony skin: +2 soak.
+Source: SotC p. 224
+43
+Adversaries anthology
+GENESYS
+l ogoS F ield r eSeArCher (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 1 3 2 3 2
+Soak Value w. Threshold M/r Defense
+4 11 2 2
+Power Level:  c 3,  p 2,  g 3
+Skills: Discipline 2 (llk), Knowledge (Science) 3
+(lll), Perception 2 (ll), Ranged 2 (llk).
+Talents:
+• Inventor 2: Add :boost::boost: to checks made to modify items
+or construct new ones.
+Abilities:
+• Can't Stop Experimenting!: While a Logos Re-
+searcher is present in an encounter, the GM may
+spend d from any check to force all other characters
+to make a Hard (kkk) Vigilance or Coordination
+check as an out-of-turn incidental; anyone who fails
+suffers 4 wounds and 4 strain.
+• Knowledge is Dangerous: Adds sh to the results
+of Knowledge (Science) checks other characters
+make in the encounter.
+Equipment:
+• Reality distorter: Ranged; Damage 7; Critical 3;
+Range (Short); Auto-fire, Prepare 1, Sunder, Supe-
+rior, combat check uses Intellect instead of Agility.
+• Phased hyperfield: 2 defense, +2 soak.
+• Assorted experimental items, communicator data-
+books, several recording drones.
+Source: SotC p. 230
+l ooter g oBlin (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 2 3 1 1
+Soak Value w. Threshold M/r Defense
+3 4 0 0
+Power Level:  c 1,  p 1,  g 2
+Skills (group only): Mechanics, Perception, Survival
+Talents:
+• None.
+Abilities:
+• Expert Scrounger: While this character is present in
+an encounter, add :boost::boost: to checks friendly characters
+make to search an area.
+• Dark Vision: On skill checks, this character re-
+moves up to :boost::boost: imposed due to darkness.
+Equipment:
+• Shiv: Melee; Damage 4; Critical 4; Range (Engaged).
+• Assorted tools, bags of scavenged items.
+Source: SotC p. 230
+m ACiS A Sp (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 4 1 3 1 1
+Soak Value w. Threshold M/r Defense
+5 10 1 2
+Power Level:  c 4,  p 1,  g 1
+Skills: Athletics 2 (llk), Brawl 3 (lll).
+Talents:
+• None.
+Abilities:
+• Artificial: Does not need to breathe, eat, or drink,
+and can survive in vacuum and underwater; im-
+mune to poisons and toxins.
+• Strike Back: May spend :threat::threat::threat: or d from an en-
+gaged opponent's failed combat check against this
+character to inflict 3 wounds on the opponent.
+• Swimmer: Never suffers movement penalties for
+traveling through water.
+Equipment:
+• Poisonous Fangs: Brawl; Damage 6; Critical 3;
+Range (Engaged); Disorient 3, Pierce 3, Vicious 3.
+• Metallic Microscales: +2 soak.
+Source: SotC p. 223
+44
+Adversaries anthology
+GENESYS
+m AkAi (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+3 4 4 3 4 3
+4 16 20 1 1
+Power Level:  c 8,  p 6,  g 6
+Motivations: Desire (Ascension), Fear (Failure),
+Strength (Courageous), Flaw (Carelessness).
+Skills: Athletics 2 (llk), Brawl 4 (lllk), Charm
+3 (lll), Cool 3 (lk), Coordination 3 (lllk),
+Discipline 3 (lllk), Survival 4 (lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Æmber-Do: Once per encounter, may spend a Sto-
+ry Point before making a skill check to double this
+character's Brawn value and require 1 fewer a to ac-
+tivate any item quality for that check.
+• The Path Provides: Whenever Makai assists on a
+check, the character making the check may spend :triumph:
+to heal all of their own strain.
+Equipment:
+• Fists and feet: Brawl; Damage 6; Critical 3; Range (En-
+gaged); Guided 4.
+• Traveling robes, necklace with Æmber amulet.
+Source: SotC p. 242
+m ArtiAn S Cout (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 2 2 1
+Soak Value w. Threshold M/r Defense
+4 9 1 1
+Power Level:  c 6,  p 1,  g 1
+Skills: Coercion 2 (ll), Ranged 2 (llk), Vigilance
+2 (ll).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Ka-boom!: May spend :triumph: on a combat check to acti-
+vate the Blast item quality and have the quality affect
+all characters within short range of the target.
+Equipment:
+• Ray rifle: Ranged; Damage 8; Critical 3; Range (Ex-
+treme); Pierce 2, Vicious 2.
+• Disintegration grenade: Ranged; Damage 7; Crit-
+ical 4; Range (Short); Blast 7, Knockdown, Limited
+Ammo 2, Vicious 4.
+• Scout armor: 1 defense, +2 soak.
+Source: SotC p. 230
+m ArtiAn z ookeeper (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+1 3 3 3 3 2
+Soak Value w. Threshold M/r Defense
+3 9 2 2
+Power Level:  c 4,  p 2,  g 3
+Skills: Coercion 2 (llk), Knowledge (Crucible) 2
+(llk), Negotiation 2 (ll), Perception 2 (llk),
+Ranged 2 (llk), Survival 3 (lll).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+• Animal Companion 4: May select a companion of
+up to silhouette 3, such as those from the Creatures
+section on SotC page 220.
+Abilities:
+• Animal Adversary: d may be spend on a failed
+check this character makes during a turn in which
+they direct their animal companion to have the com-
+panion make a combat check as an out-of-turn ac-
+tion targeting this character; :triumph: may be spent on this
+combat check to also have the animal run away.
+Equipment:
+• Energy webber: Ranged; Damage 8; Critical 3;
+Range (Medium); Ensnare 4, Stun Damage.
+• Armored exosuit: +2 soak.
+• Dimensional holding cage
+Source: SotC p. 238
+45
+Adversaries anthology
+GENESYS
+m iSS "o nyx " C enSoriuS (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+4 5 6 4 5 6
+– – 30 2 2
+Power Level:  c -,  p 14,  g 12
+Motivations: Desire (Acceptance), Fear (Rejection),
+Strength (Curious), Flaw (Inattention).
+Skills: Charm 5 (lllllk), Cool 5 (lllllk),
+Discipline 5 (lllll), Knowledge (All) 5
+(lllllk), Vigilance 3 (lllkk).
+Talents:
+• Adversary 3: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Archon (SotC page 260).
+• Ease Your Worries: Whenever allies at short range
+would suffer strain involuntarily, they suffer 2 less
+strain, to a minimum of 0.
+• Explains Things: Allies at short range add k to
+Knowledge (Æmber) checks they make.
+• Hoverer: May hover, as per Flying sidebar page 100
+of the Genesys Core Rulebook
+• Wondrous Aura: Allies within short range add :boost:
+to their Deception checks and :boost: to their Discipline
+checks.
+Equipment:
+• Mental whispers: Discipline; Damage 12; Critical -;
+Range (Long); Breach 1, Disorient 3, Stun Damage.
+• Subtle energy field: 2 defense, Reinforced.
+Source: SotC p. 261
+m uShroom p erSon (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 2 2 2 2
+Soak Value w. Threshold M/r Defense
+3 5 1 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Knowledge (Crucible), Melee,
+Survival
+Talents:
+• None.
+Abilities:
+• Fungal Form: Reduce any damage from hits target-
+ing this character by 3 unless the Burn item quality
+has been activated as a part of this attack.
+Equipment:
+• Dream staff: Melee; Damage 4; Critical 3; Range
+(Engaged); Disorient 2.
+• Herbs.
+Source: SotC p. 239
+n uCrAndACrA (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 2 2 3 2 2
+Soak Value w. Threshold M/r Defense
+7 18 0 0
+Power Level:  c 7,  p 1,  g 2
+Skills: Melee 3 (lllk), Knowledge (Æmber) 2
+(ll), Negotiaion 2 (ll), Resilience 3 (lllk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Amphibious: Can breathe underwater without pen-
+alty and never suffers movement penalties for travel-
+ing through water.
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Spiked Carapace: When targeted by a melee com-
+bat check, may spend :threat::threat::threat: or d from the results
+to have the attacker suffer 4 wounds.
+Equipment:
+• Coral glaive: Melee; Damage 6; Critical 4; Range
+(Engaged); Vicious 1.
+• Shell: +3 soak.
+Source: SotC p. 239
+46
+Adversaries anthology
+GENESYS
+n eutron S hArk (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 4 1 3 1 1
+8 24 19 0 0
+Power Level:  c 7,  p 2,  g 3
+Skills: Brawl 3 (lllkk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Flyer: Can fly; see the Flying sidebar on page 100 of
+the Genesys Core Rulebook.
+• Frenzied Hunger: After making a successful combat
+check, may spend :triumph: to inflict an additional hit on
+any number of other engaged opponents, dealing base
+damage +1 per s; after doing so the neutron shark
+suffers 3 strain for each additional opponent hit.
+Equipment:
+• Leptonic Jaws: Brawl; Damage 10; Critical 3; Range
+(Short); Vicious 4.
+• Baryon skin: +3 soak.
+Source: SotC p. 224
+p ilgrim (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 2 2 2 2
+Soak Value w. Threshold M/r Defense
+2 4 0 0
+Power Level:  c 1,  p 1,  g 1
+Skills (group only): Athletics, Charm, Discipline,
+Knowledge (Crucible), Knowledge (Culture), Survival.
+Talents:
+• None.
+Abilities:
+• Powerful Certainty: Whenever this character would
+inflict strain as the result of a social skill check, the
+target suffers 2 additional strain.
+• Someone Looking Over Them: Reduce any damage
+inflicted on this character by half before applying
+soak, and reduce any damage inflicted on friendly
+character within short range by two before applying
+soak.
+Equipment:
+• Sacred texts and icons.
+Source: SotC p. 231
+p ingle (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 4 2 4 3 3
+5 12 14 1 1
+Power Level:  c 9,  p 5,  g 5
+Motivations: Desire (Survival), Fear (Pain), Strength
+(Independent), Flaw (Annoying).
+Skills: Coercion 3 (lll), Deception 2 (llkk),
+Discipline 2 (llk), Mechanics 3 (llk), Perception
+2 (llkk), Ranged 4 (llll), Skulduggery 3 (lk),
+Streetwise 2 (llkk), Vigilance 4 (lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Annoying: Adds :boost: to Coercion checks.
+• Really, Really Annoying: Whenever anyone spends
+a Story Point during Pingle's turn, one character
+within short range of Pingle of the GM's choosing
+suffers 2 strain and becomes staggered until the end
+of their next turn.
+Equipment:
+• Eggthrower rifle: Ranged; Damage 7; Critical 3;
+Range (Extreme); Blast 5, Disorient 3, Stun Damage.
+• Scavenged armor: +2 soak.
+• Extra clip of rotten eggs and other foul ammunition,
+cybernetic monocle (ignores penalties to Pingle's
+combat checks due to concealment.
+Source: SotC p. 243
+47
+Adversaries anthology
+GENESYS
+p irAnhA m onkey (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 2 2 1 1
+Soak Value w. Threshold M/r Defense
+4 4 0 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Athletics, Brawl, Coordination.
+Talents:
+• None.
+Abilities:
+• Arboreal: Treats foliage as clear terrain
+• Critical Numbers: Adds a to combat checks if
+there are two or more members in the minion group.
+• Forest Predator: When in forest, may spend :advantage::advantage:
+from an Initiative check to make an immediate out-
+of-turn maneuver.
+Equipment:
+• Teeth: Brawl; Damage 6; Critical 3; Range (En-
+gaged); Pierce 3, Vicious 4.
+Source: SotC p. 224
+p it d emon (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 3 3 3 3 2
+Soak Value w. Threshold M/r Defense
+6 18 0 0
+Power Level:  c 6,  p -,  g 3
+Skills: Brawl 2 (llkk), Resilience 3 (lllk), Vigi-
+lance 2 (llk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Feel the Pain: When targeted by a melee combat
+check, may spend :threat::threat: or d from the results to
+cause the attacker to suffer 3 strain.
+• Shift the Pain: When this character heals wounds
+from itself or another demon character, may choose
+to have one non-demon character within short
+range suffer an equal amount of strain; when this
+character heals a Critical Injury that they or anoth-
+er demon character are currently suffering, may
+choose to have one non-demon character within
+short range suffer one Critical Injury.
+• Share the Pain: Whenever this character suffers
+wounds, one engaged non-demon character suffers
+half that amount of strain, rounding down.
+Equipment:
+• Barbed claws: Brawl; Damage 6; Critical 3; Range
+(Engaged); Linked 3.
+• Armor of pain: +2 soak.
+• Æmber imprint-devices.
+Source: SotC p. 228
+p itlord (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 2 1 2 1 2
+7 28 20 1 1
+Power Level:  c 13,  p -,  g 4
+Skills: Brawl 3 (lllkk), Cool 3 (llk), Resilience 3
+(lllkk), Vigilance 3 (lkk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Feel the Agony: When targeted by a melee combat
+check, may spend :threat::threat: or d to cause the attacker to
+suffer 4 strain.
+• Share the Agony: Whenever this character suffers
+wounds, one engaged non-demon character suffers
+half that amount of strain, rounding up.
+Equipment:
+• Barbed claws: Brawl; Damage 8; Critical 2; Range
+(Engaged); Linked 1, Vicious 4.
+• Armor of dust: +2 soak, Reinforced.
+• Æmber imprint-shards.
+Source: SotC p. 228
+48
+Adversaries anthology
+GENESYS
+q ueSting g iAnt (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 2 2 2 3 2
+Soak Value w. Threshold M/r Defense
+6 20 0 0
+Power Level:  c 7,  p 1,  g 2
+Skills: Brawl 3 (lllk), Melee 3 (lllk), Survival
+2 (ll), Vigilance 2 (llk).
+Talents:
+• Durable 3: Reduce Critical Injury results this char-
+acter suffers by 30, to a minimum of 1.
+Abilities:
+• Challenge Accepted!: Once per session, may spend
+a Story Point to count as having 3 ranks in any skill
+they do not posses until the end of the encounter.
+• Silhouette 2.
+Equipment:
+• Handmade axe: Melee; Damage 10; Critical 3;
+Range (Engaged); Cumbersome 4, Pierce 3.
+• Handmade armor: +2 soak.
+• Performing implements (horn, spices, paints, etc.)
+Source: SotC p. 239
+q uixo the "A dventurer " (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 3 4 2 3
+5 13 15 1 1
+Power Level:  c 6,  p 4,  g 9
+Motivations: Desire (Fame), Fear (Failure), Strength
+(Confidence), Flaw (Recklessness).
+Skills: Charm 3 (lll), Computers 4 (lllk), Cool
+3 (lll), Discipline 3 (llk), Knowledge (Crucible)
+3 (lll), Knowledge (Science) 4 (lllk), Mechan-
+ics 4 (lllk), Melee 2 (ll), Operating 3 (lll),
+Perception 1 (lkkk), Ranged 2 (ll), Survival 3
+(lllk), Vigilance 2 (ll).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Animal Companion 1: has animal companion (Ar-
+chimedes).
+Abilities:
+• Exploration Maven: While exploring (or telling
+stories of his explorations), whenever Quixo re-
+covers strain, he removes three additional strain
+and friendly characters within short range suffer 1
+strain.
+• Not in the Memoirs: Whenever Quixo would suffer
+a Critical Injury, he may spend a Story Point to have
+one of his assistants within short range be incapac-
+itated instead.
+Equipment:
+• Æmberhead staff: Melee; Damage 7; Critical 2; Range
+(Engaged); Pierce 4, Reinforced, Superior.
+• Cool cybercloak: 1 defense, +3 soak.
+• Assorted adoring assistants, selective recording de-
+vices, sciency gear.
+Source: SotC p. 244
+A rChimedeS (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+1 3 1 1 1 1
+Soak Value w. Threshold M/r Defense
+2 5 1 1
+Power Level:  c 3,  p 1,  g 1
+Skills: Perception 2 (lk), Ranged 2 (llk), Vigilance
+2 (lk).
+Talents:
+• None.
+Abilities:
+• Flyer: Can fly; see Genesys Core Rulebook, page
+100.
+• Silhouette 0.
+Equipment:
+• Laser eyes: Ranged; Damage 5; Critical 3; Range
+(Short); Pierce 2.
+• Illuminator.
+Source: SotC p. 245
+49
+Adversaries anthology
+GENESYS
+r AdiAnt A rguS the S upreme (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+6 4 4 4 6 5
+– – 26 1 1
+Power Level:  c -,  p 13,  g 10
+Motivations: Desire (Justice), Fear (Failure), Strength
+(Idealistic), Flaw (Certainty).
+Skills: Cool 3 (lllkk), Discipline 5 (lllllk)
+Knowledge (All) 5 (llllk), Leadership 4
+(llllk), Vigilance 5 (lllllk).
+Talents:
+• Adversary 3: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Archon (SotC page 260).
+• Belief through Power: Whenever an ally within
+short range makes a successful combat check, other
+allies in the encounter recover 2 strain.
+• Power through Belief: Allies within short range
+counter their Brawn as 2 higher, to a maximum of 6.
+• Symbol of Faith: While Argus assumes his armored
+knightly form, Sanctum allies at medium range gain
+defense 1.
+Equipment:
+• Energy mac: Discipline; Damage 10; Critical -;
+Range (Engaged); Pierce 8, Reinforced, Stun Dam-
+age, Sunder
+• Glowing armor: 1 defense, Reinforced.
+Source: SotC p. 261
+r ogue o gre (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+4 2 1 2 1 2
+Soak Value w. Threshold M/r Defense
+7 17 0 0
+Power Level:  c 8,  p 1,  g 1
+Skills: Brawl 2 (llkk), Coercion 3 (lkk), Resilience
+3 (lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice
+• Bowl Over: When making a melee attack after en-
+gaging a target, may activate the Knockdown item
+quality without spending a.
+Abilities:
+• Relentless: After making a successful combat check
+against a target, add :boost: to the next combat check this
+character makes against the same target.
+• Silhouette 2.
+Equipment:
+• Cybernetic augments: Brawl; Damage 11; Critical
+4; Range (Short); Burn 1, Knockdown, Linked 2, the
+difficulty for this check is always Average (kk).
+• Æmber-infused skin: +3 soak.
+Source: SotC p. 231
+S AnCtum k night (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 2 1 3 3
+Soak Value w. Threshold M/r Defense
+6 13 1 1
+Power Level:  c 5,  p 3,  g 1
+Skills: Discipline 2 (llk), Knowledge (Culture) 2
+(ll), Melee 3 (lll), Perception 1 (l), Vigilance 2
+(lk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Power from Faith: After making a combat check,
+may spend :advantage::advantage: to add 3 damage to one hit of the
+attack; after making an opposed social skill check
+may spend :advantage::advantage: to inflict 3 strain on the target.
+Equipment:
+• Blessed blade: Melee; Damage 7; Critical 3; Range
+(Engaged); Superior.
+• Knightly armor: 1 defense, +3 soak.
+Source: SotC p. 231
+50
+Adversaries anthology
+GENESYS
+S AuriAn m erChAnt (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 2 3 3 3
+Soak Value w. Threshold M/r Defense
+5 14 1 1
+Power Level:  c 4,  p 4,  g 3
+Skills: Charm 2 (llk), Discipline 3 (lll),
+Knowledge (Crucible) 3 (llk), Melee 2 (llk),
+Negotiation 3 (lll), Perception 2 (llk), Street-
+wise 1 (lkk).
+Talents:
+• Counteroffer: Once per session, may make an op-
+posed Negotiation versus Discipline check to stagger
+a non-nemesis target at medium range until the end
+of the target's next turn.
+Abilities:
+• Seasoned Negotiator: Whenever the merchant
+would suffer strain after making or opposing a Ne-
+gotiation skill check, they suffer 1 less, to a minimum
+of 0; when inflicting strain as part of a Negotiation
+skill check, they inflict one additional strain.
+Equipment:
+• Autoblade: Melee; Damage 6; Critical 3; Range (En-
+gaged); Guided 3, Pierce 1, Superior.
+• Night-phase field: 1 defense, +2 soak
+• Assortment of the most wonderous goods you've
+ever seen.
+Source: SotC p. 235
+S AuriAn r AnCher (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 2 2 2 2
+Soak Value w. Threshold M/r Defense
+4 15 0 0
+Power Level:  c 6,  p 1,  g 2
+Skills: Melee 2 (llk), Perception 2 (ll), Ranged 3
+(lll), Riding 3 (lll), Vigilance 2 (ll).
+Talents:
+• Let's Ride: Can mount or dismount from an animal
+as an incidental.
+Abilities:
+• Yee-hah!: May spend :advantage::advantage::advantage: or :triumph: from a success
+combat check using their liquid-metal lasso to in-
+flict one hit from the weapon on one other target
+within short range of the original target, inflicting
+base damage +1 per  :success: .
+Equipment:
+• Liquid-metal lasso: Ranged; Damage 6; Critical 2;
+Range (Medium); Ensnare 3, Stun Damage.
+• Stunstick: Melee; Damage 6; Critical 4; Ranged (En-
+gaged); Stun Damage.
+• Riding garb: +1 soak.
+• Large riding beast (SotC p151), big hat.
+Source: SotC p. 232
+S AuriAn h eArd B eASt (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+4 1 1 1 1 1
+Soak Value w. Threshold M/r Defense
+6 13 0 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Brawl, Perception
+Talents:
+• None.
+Abilities:
+• Encumbrance Capacity 20.
+• Silhouette 3.
+• Stampede: For every three minions in this minion
+group, add :boost: to any Brawl checks.
+Equipment:
+• Trample: Brawl; Damage 6; Critical 4; Range (En-
+gaged); Knockdown.
+• Scaly hide: +2 soak
+Source: SotC p. 232
+51
+Adversaries anthology
+GENESYS
+S hAdowS t hieF (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 2 2
+Soak Value w. Threshold M/r Defense
+2 10 2 2
+Power Level:  c 4,  p 1,  g 4
+Skills: Athletics 2 (ll), Coordination 1 (lkk), Melee
+1 (lk), Perception 2 (llk), Skulduggery 3 (lll),
+Stealth 3 (lll).
+Talents:
+• None.
+Abilities:
+• Natural Thief: Once per session, may reroll one
+Skulduggery or Stealth check.
+• Poof!: Once per encounter may make an opposes
+Stealth versus Vigilance check against an opponent
+within short range to vanish from the encounter;
+must reappear at long range of that opponent at the
+start of this character's next turn.
+Equipment:
+• Monoblade: Melee; Damage 5; Critical 3; Range
+(Medium); Pierce 4;
+• Set of customer stealth xxx: 2 defense
+• Cloak with dimensional satchel (page 153), thieves'
+tools.
+Source: SotC p. 232
+S nuFFlegAtor (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 2 1 2 1 2
+7 28 20 1 1
+Power Level:  c 9,  p 1,  g 1
+Skills: Athletics 2 (llkkk), Brawl 3 (lllkk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Æmberspines: A character may make a Hard
+(kkk) Survival check to extract one Æmber per  :success: 
+and two Æmber per :triumph: spent from a freshly defeated
+snufflegator's spines.
+• Crushing Bit: May spend :triumph: from a successful Brawl
+check to increase the base damage of its jaws to 14.
+Equipment:
+• Jaws: Brawl; Damage 8; Critical 3; Range (Engaged).
+• Spined hide: 1 defense, +3 soak.
+Source: SotC p. 224
+S teed (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 1 1 2 1
+Soak Value w. Threshold M/r Defense
+4 15 0 0
+Power Level:  c 3,  p 1,  g 1
+Skills: Athletics 1 (lkk), Brawl 2 (llk), Coordina-
+tion 1 (lkk).
+Talents:
+• None.
+Abilities:
+• Encumbrance Capacity 12.
+• Silhouette 2
+• Trained Mount 1: Adds :boost: to a character's Riding
+checks while mounted on steed.
+Equipment:
+• Kick: Brawl; Damage 7; Critical 4; Range (Engaged);
+Disorient 2, Knockdown.
+Source: SotC p. 151
+S yndiCAte i nSider (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 2 2
+Soak Value w. Threshold M/r Defense
+2 10 2 2
+Power Level:  c 3,  p 4,  g 3
+Skills: Coercion 2 (ll), Cool 2 (ll), Deception 3
+(lll), Negotiation 3 (llk), Perception 2 (llk),
+Ranged 1 (lkk), Vigilance 2 (ll).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Dangerous Connections: May spend :advantage::advantage::advantage: or :triumph:
+from a social skill check they make targeting a PC
+to move one Story Point from the player pool to the
+GM pool.
+Equipment:
+• Custom zapper: Ranged; Damage 7; Critical 2;
+Range (Short).
+• Bespoke clothing: +2 soak.
+• Array of communication devices, 4d100 Æmbits.
+Source: SotC p. 235
+52
+Adversaries anthology
+GENESYS
+t erritoriAl S Cout (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 3 2 3 2 2
+Soak Value w. Threshold M/r Defense
+4 12 0 1
+Power Level:  c 6,  p 2,  g 4
+Skills: Brawl 3 (lll), Melee 3 (lll), Survival 2
+(llk), Vigilance 2 (ll).
+Talents:
+• Forager: Remove up to :boost::boost: from checks to find
+food, water, or shelter; finding these items requires
+half the usual time.
+Abilities:
+• Never Alone: May spend :advantage::advantage::advantage: or :triumph: on checks
+this character makes to determine Initiative to have
+one additional scout appear at long range; this new
+scout also makes a check to determine Initiative.
+Equipment:
+• Hyper-collimated photon beamer: Ranged; Dam-
+age 7; Critical 4; Range (Extreme); Pierce 2.
+• Survival gear, collapsible telescope.
+Source: SotC p. 239
+t he t error (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+4 4 3 5 5 3
+7 24 16 1 1
+Power Level:  c 12,  p -,  g 7
+Motivations: Unknown.
+Skills: Coercion 4 (llllk), Deception 3
+(lllkk), Discipline 4 (llllk), Medicine 3
+(lll), Melee 4 (llll), Perception 3 (lllkk),
+Vigilance 4 (llllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Demon.
+• Cruel Empathy: When a character within short
+ranged makes a check that generates d, the Terror
+removes 1 strain.
+• For the Pain: When a non-demon within short
+range suffers a Critical Injury, may spend a Sto-
+ry Point to replace the result with an Agonizing
+Wound.
+• Silhouette 2.
+• Terrifying Aura: At the start of an encounter, all op-
+ponents must make an upgraded Hard (lkk) fear
+check as an out-of-turn incidental, as per page 243
+of the Genesys Core Rulebook; if there are multi-
+ple sources of fear in the encounter, the opponents
+only make on fear check against the most fearsome
+enemy.
+Equipment:
+• Blade of Despair: Melee; Damage 9; Critical 2; Range
+(Engaged); Burn 6, Sunder
+• Corrupted armor: 1 defense, +3 soak.
+• Æmber imprint-shards.
+Source: SotC p. 245
+t imehog (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 3 2 1
+Soak Value w. Threshold M/r Defense
+4 10 2 0
+Power Level:  c 3,  p 1,  g 2
+Skills: Brawl 2 (llkk), Perception 1 (lkk), Sur-
+vival 2 (llk), Vigilance 2 (ll).
+Talents:
+• Durable 2: Reduce Critical Injury results suffered by
+20, to a minimum of 01.
+Abilities:
+• Artificial: Does not need to breathe, eat, or drink,
+and can survive in vacuum and underwater; im-
+mune to poisons and toxins.
+• Chronal Absorption: For every round that passes
+in an encounter featuring a timehog, an hour passes
+outside of the encounter.
+• Eating Time: As an action, may make an opposed
+Survival versus Discipline check targeting one
+character at short range; if successful, the time-
+hog may perform one additional maneuver during
+its turns for the remainder of the encounter with-
+out suffering strain (it still may only perform two
+maneuvers during its turn); the target loses its free
+maneuver during its turn for the remainder of the
+encounter.
+Equipment:
+• Tusks: Brawl; Damage 4; Critical 3; Range (En-
+gaged); Vicious 1.
+Source: SotC p. 225
+53
+Adversaries anthology
+GENESYS
+t olAS (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+3 2 1 3 2 1
+Soak Value w. Threshold M/r Defense
+4 10 2 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Brawl, Stealth
+Talents:
+• None.
+Abilities:
+• Artificial: Does not need to breathe, eat, or drink,
+and can survive in vacuum and underwater; im-
+mune to poisons and toxins.
+• Critical Numbers: Adds a to combat checks if there
+are two or more minions in the minion group.
+• Scamper: When making a check to determine Ini-
+tiative, may spend :advantage::advantage: to upgrade the difficulty
+of combat checks made targeting them in the first
+round once.
+Equipment:
+• Claws and teeth: Brawl; Damage 3; Critical 2; Range
+(Engaged); Pierce 3.
+Source: SotC p. 225
+t roll (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+5 2 2 2 2 1
+5 21 15 0 0
+Power Level:  c 7,  p 2,  g 1
+Skills: Athletics 3 (lllkk), Brawl 3 (lllkk),
+Melee 3 (lllkk), Survival 1 (lk).
+Talents:
+• Adversary 1: Upgrade difficulty of all combat checks
+against this target once.
+Abilities:
+• Regeneration: At the beginning of their turn, this
+character heals 3 wounds.
+• Silhouette 2.
+• Tough to Convince: When another character targets
+this character with an opposed social skill check, the
+difficulty is set by this character's Brawn instead of
+the usual characteristic.
+Equipment:
+• Two hammer: Melee; Damage 7; Critical 4; Range
+(Engaged); Concussive 1, Knockdown.
+Source: SotC p. 232
+t rAShCrAB (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 1 3 1 1
+Soak Value w. Threshold M/r Defense
+4 5 2 0
+Power Level:  c 3,  p 1,  g 1
+Skills (group only): Brawl, Ranged, Stealth
+Talents:
+• None.
+Abilities:
+• Aquatic: May breathe underwater and never suffers
+movement penalties for traveling through water.
+• River's Embrace: May spend :triumph: from a check tar-
+geting a character who is engaged with a body of
+water make that character fall in.
+Equipment:
+• Claws: Brawl; Damage 4; Critical 3; Range (En-
+gaged); Linked 1.
+• Waterjet: Ranged; Damage 5; Critical 4; Ranged
+(Short); Concussive 1, Stun Damage.
+• Æmber encrusted shell: +2 soak.
+Source: SotC p. 225
+t rouBAdour (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 2 2 2 3
+Soak Value w. Threshold M/r Defense
+2 4 0 0
+Power Level:  c 2,  p 2,  g 1
+Skills (group only): Brawl, Charm, Cool, Coordina-
+tion, Deception
+Talents:
+• None.
+Abilities:
+• Soothing Melody: Once per encounter, may make
+an Average (kk) Charm or Coordination check;
+if successful, characters in the encounter remove 1
+strain per :success: and :triumph: his character adds :boost: to social
+skill checks they make until the end of the encounter.
+Equipment:
+• Customized musical instrument, books of poetry,
+journals.
+Source: SotC p. 225
+54
+Adversaries anthology
+GENESYS
+u rChin (m inion )
+Brawn Agility Intellect Cunning Willpower Presence
+2 3 2 3 1 1
+Soak Value w. Threshold M/r Defense
+2 3 0 0
+Power Level:  c 1,  p 1,  g 2
+Skills (group only): Charm, Knowledge (Crucible),
+Knowledge (Culture), Melee, Perception, Skuldug-
+gery, Stealth, Streetwise
+Talents:
+• Unremarkable: Add f to checks made to pick a bu-
+reaucrat out of a crowd.
+Abilities:
+•
+Equipment:
+• Improvised byperblade: Melee; Damage 4; Critical
+1; Range (Engaged); Inaccurate 1.
+• Mismatched clothing, pack of stolen goods.
+Source: SotC p. 235
+v eCt d eAlmAker (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 3 3 3 3
+Soak Value w. Threshold M/r Defense
+2 10 0 0
+Power Level:  c 1,  p 5,  g 3
+Skills: Charm 4, Computers 2, Cool 1, Knowledge
+(Culture) 3, Negotiation 4, Vigilance 2.
+Talents:
+• None.
+Abilities:
+• Friends Help Friends: Once per encounter as an ac-
+tion, may select a target within short range and one
+ally within medium range; the ally can make one im-
+mediate combat check against the target as an out-
+of-turn incidental.
+• Useful Advice: Once per session as an out-of-turn
+incidental, may spend a Story Point to allow one ally
+in the encounter to reroll a failed check.
+Equipment:
+• Hands-free comm device, several encrypted digital
+tablets.
+Source: SotC p. 212
+v orgAn h unter (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+4 3 3 3 3 2
+5 21 15 0 0
+Power Level:  c 11,  p 4,  g 5
+Skills: Knowledge (Æmber) 3 (lll), Knowl-
+edge (Crucible) 4 (lllk), Knowledge (Science) 4
+(lllk), Melee 3 (lllk), Negotiation 3 (llk),
+Ranged 3 (lll), Survival 3 (lll).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Sharp Tongue 2: May reduce the number of a they
+must spend to inflict a critical remark in a social en-
+counter by 2 to a minimum of one a.
+Abilities:
+• Dark Sight: Can see in the absence of light without
+penalty.
+• Silhouette 2.
+• Tail Smash: After making a successful melee combat
+check, may spend :triumph: to inflict one hit dealing 6 dam-
+age on one engaged character.
+Equipment:
+• Piezo-staff melee profile: Melee; Damage 8; Critical
+3; Range (Engaged); Stun Damage.
+• Piezo-staff ranged profile: Ranged; Damage 10;
+Critical 4; Range (Medium); Stun Damage.
+• Bone plating: +3 soak.
+• Databooks, cache of Æmber crystals, bag of chewing
+grubroots
+Source: SotC p. 240
+55
+Adversaries anthology
+GENESYS
+w itCh oF the e ye (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 3 3 4 4
+3 16 22 1 1
+Power Level:  c 5,  p 6,  g 6
+Skills: Æmbercraft 3 (lllk), Charm 1 (lkkk),
+Discipline 3 (lllk), Knowledge (All) 4 (lllk),
+Medicine 2 (llk), Ranged 2 (ll), Survival 4
+(lllk).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• Heightened Awareness: Allies withing short range
+add :boost: to Perception and Vigilance checks, engaged
+allies add :boost::boost: instead.
+Abilities:
+• Nepenthe Expert: Once per encounter as an action,
+instead of using its normal effects may ingest a ne-
+penthe seed to either remove 5 strain or ignore the
+effects of the next failed fear check.
+Æffects:
+• Cleansing: As a maneuver or as part of an action us-
+ing this Æffect may deplete this Æffect to remove all
+poisons, toxins, and similar afflictions from them-
+self or their target; if used as a maneuver, this power
+targets one character within short range.
+• Find: May use the effect to locate a particular crea-
+ture or object at a very great distance, potentially
+any where on the Crucible. The target must be a
+being, object, or creature that the Witch personal-
+ly encountered before. This power gives them an
+unerring sense of the direction and distance to the
+target while they are using the power, but not of any
+intervening obstacles, their surroundings, or other
+details. If the target does not want to be found (or
+if someone intentionally hid the object), this should
+require an opposed Æmbercraft check versus the
+target's Discipline or Stealth. The process of suing
+the power generally take too long to occur during
+structure gameplay.
+• Flare: As a maneuver, may use this Æffect o release
+a blinding flash of psychic light, disorienting all en-
+emy characters within medium range for one round
+and inflicting one strain on each of them.
+Equipment:
+• Æmbersap wand: Discipline; Damage 5; Critical 4;
+Range (Medium); Ensnare 2, Stun 4
+• World tree leaf garb: 1 defense, +1 soak.
+• Bag of nepenthe seeds, assorted Æmber-imbued
+items, first aid kit.
+Source: SotC p. 215
+w itCh oF the w ildS (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 4 4 3 3 3
+4 12 18 1 1
+Power Level:  c 2,  p 7,  g 3
+Skills: Æmbercraft 3 (lll), Athletics 2 (lk), Knowl-
+edge (Æmber) 3 (lllk), Knowledge (Crucible) 3
+(lllk), Perception 2 (llk), Ranged 3 (lllk),
+Stealth 2 (llkk), Survival 3 (lll).
+Talents:
+• Adversary 2: Upgrade difficulty of all combat checks
+against this target twice.
+• One With Nature: may make a Simple (-) Survival
+check to recover strain at the end of an encounter.
+• Swift: Does not suffer penalties for moving through
+difficult terrain.
+Abilities:
+• Ease of the Wilds: When a character within short
+range of this character removes strain at the end of
+an encounter, that character and this character both
+remove two additional strain.
+• Hybrid Physiology: In the wilds, does not need to
+make Survival checks to find acceptable food, water,
+or shelter.
+Æffects:
+• Wall of Thorns: May make a Hard (kkk) Æmber-
+craft check to have a hedge of dense thornbushes
+of silhouette 2 sprout from the ground at medium
+range; this counts as difficult terrain and inflicts 2
+strain on all who cross through it.
+• Weight of the Forest: Choose a target at medium
+range and make a Hard (kkk) Æmbercraft check
+to disorient that target until the end of the encoun-
+ter.
+Equipment:
+• Poxbug slingshot: Ranged; Damage 6; Critical 2;
+Range (Medium); Blast 4, Disorient 2.
+• Garb of natural fibers: 1 defense, +2 soak.
+• Satchel filled with assorted pieces of Æmber.
+Source: SotC p. 240
+56
+Adversaries anthology
+GENESYS
+x imilpix (n emeSiS )
+Soak Value w. Threshold S. Threshold M/r Defense
+Brawn Agility Intellect Cunning Willpower Presence
+2 5 3 4 5 4
+4 12 20 2 2
+Power Level:  c 11,  p 10,  g 8
+Motivations: Desire (Obscurity), Fear (Fame), Strength
+(Fearless), Flaw (Tired).
+Skills: Coercion 3 (lllkk), Cool 4 (llll), Dis-
+cipline 4 (llllk), Gunnery 3 (lllkk), Knowl-
+edge (Crucible) 3 (lll), Leadership 3 (lllk),
+Perception 4 (llll), Ranged 4 (llllk), Survival
+2 (llkk), Vigilance 4 (llllk).
+Talents:
+• Adversary 3: Upgrade difficulty of all combat checks
+against this target three times.
+• Quick Draw: May draw or holster an easily accessi-
+ble weapon or item as an incidental.
+Abilities:
+• The Legend: When making a skill check, may spend
+a Story Point to treat :advantage::advantage: as :triumph:.
+• Silhouette 0.
+• Veteran of a Thousand Battles: When Ximilpix
+makes a check to determine Initiative order, a on
+the check counts as  :success: .
+Equipment:
+• Ancient ray pistol: Ranged; Damage 7; Critical 3;
+Range (Medium); Auto-fire, Pierce 3.
+• Battered uniform: 2 defense, +2 soak.
+Source: SotC p. 245
+z eAlouS h ermit (r ivAl )
+Brawn Agility Intellect Cunning Willpower Presence
+2 2 3 2 3 3
+Soak Value w. Threshold M/r Defense
+2 9 1 0
+Power Level:  c 3,  p 3,  g 4
+Skills: Cool 2 (llk), Discipline 3 (llk), Knowl-
+edge (Æmber) 3 (lll), Melee 2 (ll), Perception 2
+(ll), Survival 3 (llk).
+Talents:
+• Heightened Awareness: Allies within short range
+add :boost: to their Perception and Vigilance checks; al-
+lies at engaged range add :boost::boost: instead.
+Abilities:
+• Philosophical Paradox: May make an opposed
+Knowledge (Æmber) versus Discipline check tar-
+geting a sentient being within short range to stagger
+the target until the end of their next turn.
+Equipment:
+• Æmber dagger: Melee; Damage 5; Critical 4; Range
+(Engaged); Breach 1.
+• Several Æmber icons, bedroll, religious icons, writ-
+ing supplies.
+Source: SotC p. 240
