@@ -169,7 +169,7 @@
 	{
 		"name": "Bane Spider",
 		"type": "Rival",
-		"description": "Choose either acide spit or webbing",
+		"description": "Choose either acid spit or webbing",
 		"characteristics": {
 			"Brawn": 4,
 			"Agility": 3,

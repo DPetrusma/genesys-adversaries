@@ -241,7 +241,7 @@ export default class CharacterView extends React.Component {
 						<span>{ character.type === CONFIG.MINION ? character.derived.wounds * this.state.minions : character.derived.wounds } |</span>
 						<form style={{display: 'inline'}} onSubmit={this.setCurrentWounds.bind(this)}><input type="text" placeholder={this.state.currentWounds} maxLength="2" ref="currentWounds" /></form>
 					</div>
-					{ character.type === CONFIG.NEMESIS || character.type === APEX_NEMESIS ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
+					{ character.type === CONFIG.NEMESIS || character.type === CONFIG.APEX_NEMESIS || character.type === CONFIG.PARAGON_NEMESIS ? <div><h3>Strain <small>Threshold | Current</small></h3><span>{ character.derived.strain } |</span><input type="text" defaultValue="0" maxLength="2" /></div> : null }
 					<div>
 						<h3>Defence <small>&nbsp; Melee | Ranged</small></h3>
 						<span>{ defence }</span>

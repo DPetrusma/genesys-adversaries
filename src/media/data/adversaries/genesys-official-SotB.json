@@ -1,0 +1,4010 @@
+[
+	{
+		"name": "Aaron Marron",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 17,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 2,
+			"Coercion": 4,
+			"Leadership": 3,
+			"Melee": 4,
+			"Ranged: Light": 3,
+			"Streetwise": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Field Commander","Quick Draw"],
+		"abilities": [
+			{"name": "Bad Rep", "description": "When another character fails a check targeting this character, that character suffers 2 strain."}, 
+			"Charismatic Menace"],
+		"weapons": [
+			{
+				"name": "Custom Six-shooter",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Pocket plasma knife",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 1","Prepare 1","Sunder"]
+			}
+		],
+		"gear": ["Sleeveless shirt, bandannas, silver crossed pistols on chain"],
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:5", "General CR:4"]
+	},
+	{
+		"name": "Adam Industrial Labor Bioroid",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Mechanics"],
+		"talents": [],
+		"abilities": [
+			"Bioroid"],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Adonis and Eve Pleasure Bioroid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 4,
+			"Coordination": 2,
+			"Deception": 3,
+			"Knowledge: Society": 3,
+			"Perception": 2
+		},
+		"talents": [
+			{
+				"name": "Natural",
+				"description": "Once per session, may reroll any one Charm or Cool check"
+			}],
+		"abilities": [
+			"Bioroid"],
+		"weapons": [
+		],
+		"gear": ["Fuzzy restraints"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Anarch Troublemaker",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Computers: Hacking": 2,
+			"Cool": 4,
+			"Knowledge: The Net": 2,
+			"Skulduggery": 4,
+			"Streetwise": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Distinctive Style"],
+		"abilities": [
+			{"name": "Burn It Down", "description": "This character adds :advantage::advantage: to the results of checks they make targeting authority figures."}],
+		"weapons": [
+			{
+				"name": "Fletcher Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Molotov Cocktail",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 7","Burn 3"]
+			}
+		],
+		"gear": ["Skulljack, Portable Terminal with Crypsis (SotB p. 137)-protected by Hadrian's Wall (SotB p. 133)"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:7"]
+	},
+	{
+		"name": "Ares Combat Bioroid",
+		"type": "Nemesis",
+		"note": "Choose either the Integrated Rotary Cannon or the Integrated Heavy Gauss Rifle",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 5,
+			"Coordination": 2,
+			"Discipline": 3,
+			"Gunnery": 4,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Grenadier"],
+		"abilities": [
+			"Mechanical", 
+			{"name": "Enhanced Auto-Bracing", "description": "Using the Auto-fire quality does not increase the difficulty of combat checks; each time the Ares triggers and additional hit, it suffers 1 strain."}],
+		"weapons": [
+			{
+				"name": "Integrated Rotary Cannon",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire"]
+			},
+			{
+				"name": "Integrated Heavy Gauss Rifle",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Breach 1","Slow-firing 1"]
+			},
+			{
+				"name": "Integrated Micro-missile Launcher",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Blast 10","Guided 3","Limited Ammo 3"]
+			},
+			{
+				"name": "Armored Fist",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Knockdown","Sunder"]
+			}
+		],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:15", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Assistant District Attorney",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 2,
+			"Deception": 1,
+			"Knowledge: Society": 2,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Perception": 2
+		},
+		"talents": ["Adversary 1",{
+				"name": "Natural",
+				"description": "Once per session, may reroll any one Coercion or Negotiation check"
+			}],
+		"abilities": [
+			{"name": "Full Weight of the Law", "description": "When making a Coercion check to inflict strain during a social encounter, inflict 2 additional strain."}],
+		"weapons": [
+			{
+				"name": "Concealed Stun Baton",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Legal PAD, expensive suit"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Bernice Mai",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 4,
+			"Computers: Hacking": 2,
+			"Computers: Sysops": 5,
+			"Knowledge: Society": 4,
+			"Knowledge: The Net": 4,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Nethunter","Snare"],
+		"abilities": [
+			{"name": "All Seeing Eye", "description": "If this character has access to a server, increase the strength of all sentry ice on that server by 2"}, 
+			{"name": "Datasniffers", "description": "May spend :threat::threat::threat: or :despair: from any character's check to have this character learn their present location."}],
+		"weapons": [
+		],
+		"gear": ["High-end encrypted rig with voice and haptic controls, business suit"],
+		"tags": ["source:RMC #2", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:9"]
+	},
+	{
+		"name": "Camdrone",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 2,
+			"defence": [0,2]
+		},
+		"skills": ["Perception","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Early Warning", "description": "Adds :boost: to its operator's checks to determine Initiative."}, 
+			"Flyer", 
+			"Construct", "Silhouette 0", 
+			"Telepresence"],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Caprice Nisei",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Computers: Sysops": 2,
+			"Deception": 2,
+			"Discipline": 4,
+			"Knowledge: Science": 2,
+			"Knowledge: Society": 2,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Streetwise": 1,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2","Probing Question"],
+		"abilities": [
+			"Apparent Precognition", 
+			"Psychic", 
+			{"name": "Nisei Line", "description": "As an action, may make a :hard: Discipline check targeting one character within medium range. If successful, this character learns the target's Strength, Flaw, Fear, and Desire motivations and all current goals (in addition to other information at the GM's discretion)."}],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
+		],
+		"gear": ["Trenchcoat, NAPD badge, restraints"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:8", "General CR:5"]
+	},
+	{
+		"name": "Civic Brigadier",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Driving","Knowledge: Society","Mechanics","Melee"],
+		"talents": [],
+		"abilities": [
+			{"name": "Community Volunteer", "description": "May use Knowledge (Society) instead of Charm, Coercion, Or negotiation during social interactions with undercity residents."}],
+		"weapons": [
+			{
+				"name": "Titanium Shovel",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 2"]
+			}
+		],
+		"gear": ["Hard Hat: +1 melee defense.","PAD, toolkit"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Club Owner",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Deception": 2,
+			"Knowledge: Society": 2,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Clever Retort","Customer Service"],
+		"abilities": [
+			{"name": "Threat of Ban", "description": "While in club owner's establishment, may spend :threat: from checks targeting club owner to have character making the check suffer 2 strain instead of 1"}],
+		"weapons": [
+			{
+				"name": "Stun Baton",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["PAD, bouncers"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
+	},
+	{
+		"name": "Combat Drone (SotB)",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,2]
+		},
+		"skills": ["Perception","Ranged: Light"],
+		"talents": [],
+		"abilities": [
+			"Flyer", 
+			{"name": "Focus Fire", "description": "When making a combat check, add :advantage: to the results for every other character in the minion group."}, 
+			"Construct", "Silhouette 0", 
+			"Telepresence"],
+		"weapons": [
+			{
+				"name": "Light Fletcher",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Combat Drone (GCR)",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Coordination": 1,
+			"Perception": 2,
+			"Ranged: Light": 1,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Flyer", 
+			"Construct", 
+			"Telepresence"],
+		"weapons": [
+			{
+				"name": "Rapid-fire Flechette Gun",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Corporate Bioroids",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers: Sysops": 2,
+			"Knowledge: Society": 2,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Bioroid", 
+			{"name": "Office Drone", "description": "When this character makes a social skill check, they add :advantage::threat: to the result."}],
+		"weapons": [
+		],
+		"gear": ["Corporate PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Corporate Manager",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers: Sysops": 1,
+			"Deception": 2,
+			"Knowledge: Society": 1,
+			"Leadership": 3,
+			"Negotiation": 2,
+			"Perception": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Corporate Oversight"],
+		"weapons": [
+		],
+		"gear": ["Smartsuit, PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Corporate Sysop",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Computers: Sysops": 2,
+			"Knowledge: The Net": 2,
+			"Mechanics": 1,
+			"Perception": 1,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Reinforce", "description": "As a maneuver, may increase the strength of one active piece of ice by 1 until the end of the corporate sysop's next turn."}],
+		"weapons": [
+		],
+		"gear": ["PAD, corporate ID, snacks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Criminal Runner",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Computers: Hacking": 4,
+			"Computers: Sysops": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge: The Net": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 3,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1","Distinctive Style"],
+		"abilities": [
+			{"name": "Direct Access", "description": "When jacking in from within the same building as the target server, automatically succeeds when making an access system check."}],
+		"weapons": [
+			{
+				"name": "Submachine Gun",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-fire"]
+			}
+		],
+		"gear": ["Skulljack, fake IDs.","Portable Rig with Femme Fatale (SotB p. 137) and Corroder (SotB p. 136)-protected by Shinobi (SotB p. 135)"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:3", "General CR:7"]
+	},
+	{
+		"name": "Cyberdog",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Cybereyes", "description": "May see in infrared and may remove up to :setback::setback: added to this character's check due to darkness."}, "Silhouette 0", 
+			{"name": "Takedown", "description": "As an action, may make an :average: Athletics check targeting one engaged opponent; if successful, target is knocked prone, suffers 4 strain, and may not stand from prone during their next turn."}],
+		"weapons": [
+			{
+				"name": "Electrified Metal Jaws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Cybermod Bounty Hunter",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 11,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Cool": 2,
+			"Coordination": 1,
+			"Deception": 3,
+			"Melee": 3,
+			"Ranged: Heavy": 4,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1","Hamstring Shot"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Shotgun Loaded with Stun Rounds",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Knockdown","Stun Damage"]
+			},
+			{
+				"name": "Stun Baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Concealed Buckyweave Clothing: 1 defense, +1 soak.","Sub-dermal armor, enhanced reflexes, cybernetic lungs, 2 snap locks, PAD full of warrants"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:2", "General CR:5"]
+	},
+	{
+		"name": "Desai Tutor Clone",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coordination": 2,
+			"Discipline": 3,
+			"Knowledge: Science": 3,
+			"Knowledge: Society": 3,
+			"Leadership": 3,
+			"Medicine": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Expert Instruction", "description": "When this character performs the assist maneuver, upgrade the ability of the check once instead of adding :boost:."}],
+		"weapons": [
+		],
+		"gear": ["Bonsai tree, instructor's holodisplay with full suite of lessons"],
+		"tags": ["source:ADS #8", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:5"]
+	},
+	{
+		"name": "Diesel Bro",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Coercion","Melee"],
+		"talents": ["Berserk"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Baseball bat",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Diesel can, PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Disenfrancisto",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [1,1]
+		},
+		"skills": ["Melee","Resilience","Streetwise","Survival","Vigilance"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Utility Knife",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged"
+				}
+		],
+		"gear": ["Backpack of personal goods"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Disenfrancisto Survivalist",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Mechanics": 3,
+			"Medicine": 2,
+			"Melee": 1,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 2,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Combat Medicine 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Hand Cannon",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium, Inaccurate 1, Limited Ammo 4"
+				}
+		],
+		"gear": ["Backpack full of supplies, medical kit, rope, flashlight"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Elizabeth Mills",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 5,
+			"Cool": 1,
+			"Discipline": 4,
+			"Deception": 2,
+			"Leadership": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Streetwise": 3
+		},
+		"talents": ["Second Wind 4"],
+		"abilities": [
+			{"name": "Better to Be Feared", "description": "May spend :threat::threat: from an opponent's check to give that opponent the Fear (Elizabeth Mills) Motivation until the end of the session in addition to their other motivations. This character always knows when other characters have the Fear (Elizabeth Mills) Motivation."}, 
+			{"name": "That's a Nice Home You Have There", "description": "Once per encounter, may make an opposed Coercion versus Vigilance check targeting one other character in the current encounter; if successful, the target suffers 2 strain per :success:; may spend :advantage::advantage: to affect one additional character in the current encounter and have them suffer and equal amount of strain, and spend :triumph: to stagger one affected target until the end of this character's next turn."}],
+		"weapons": [
+		],
+		"gear": ["Smart business suit, PAD loaded with contact information for 'freelance contractors'"],
+		"tags": ["source:RMC #5", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:8", "General CR:6"]
+	},
+	{
+		"name": "EMS First Responder",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Knowledge: Science": 2,
+			"Medicine": 3,
+			"Perception": 1,
+			"Piloting": 3
+		},
+		"talents": ["Combat Medicine 2"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
+		],
+		"gear": ["Medkit, medical scanner PAD, 2 slap-patches"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "EWS Raider",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 18,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Computers: Hacking": 3,
+			"Computers: Sysops": 3,
+			"Gunnery": 2,
+			"Knowledge: The Net": 3,
+			"Perception": 2,
+			"Piloting": 2,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2","Drone Master"],
+		"abilities": [
+			{"name": "Pit Trap Programs", "description": "May make an opposed Computers (Hacking) versus Computers (Sysops) check targeting another user on a system; if successful, that user is staggered for one round per :success:."}],
+		"weapons": [
+			{
+				"name": "Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1"]
+			}
+		],
+		"gear": ["Skin Suit: 2 defense, +2 soak, +2 wound threshold.","Up to four drones of various types","Encrypted suit rig with BMI with Corroder (SotB p. 136) and Crypsis (SotB p 137)-protected by Archer (SotB p. 134) and Ice Wall (SotB p. 134)"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:2", "General CR:7"]
+	},
+	{
+		"name": "Exosuit Trooper",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 1,
+			"Ranged Heavy": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Portable Laser Cannon",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1","Burn 1","Cumbersome 4"]
+			},
+			{
+				"name": "Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1"]
+			},
+			{
+				"name": "Exosuit Fists",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			}
+		],
+		"gear": ["Exosuit: +1 defense, +2 soak, +1 Brawn, +4 wound threshold; allows wearer to operate underwater and in vacuum for up to 1 hour"],
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:TBD", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Field Anchor",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 2,
+			"Cool": 4,
+			"Deception": 2,
+			"Knowledge: Society": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Clever Retort"],
+		"abilities": [
+			"Leading Question"],
+		"weapons": [
+		],
+		"gear": ["Light 'Bulletproof' Undervest: +1 soak","Camdrone, PAD, satellite uplink system, cheap and stain-resistant suit"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Floyd 2X3A7C",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers: Sysops": 2,
+			"Knowledge: Science": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Ranged: Light": 4,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Good Cop 2"],
+		"abilities": [
+			"Bioroid", 
+			{"name": "Non-Lethal Apprehension", "description": "Only needs to spend :advantage: to trigger Disorient, Knockdown, and Stun qualities."}],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
+		],
+		"gear": ["Badge, rosary"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Gabriel 'El Lobo' Santiago",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Charm": 4,
+			"Computers: Hacking": 3,
+			"Deception": 5,
+			"Knowledge: Society": 1,
+			"Perception": 3,
+			"Ranged: Light": 3,
+			"Streetwise": 5,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2","Laugh It Off","Lucky Strike"],
+		"abilities": [
+			"Direct Access", 
+			{"name": "Contingency Plan", "description": "During any encounter this character or allies may spend a Story Point when an opponent would learn their location or identity instead."}],
+		"weapons": [
+			{
+				"name": "Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1"]
+			}
+		],
+		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
+		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:5"]
+	},
+	{
+		"name": "G-Mod Bodyguard",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Medicine": 1,
+			"Piloting": 2,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Body Guard 1"],
+		"abilities": [
+			{"name": "Enhanced Strength", "description": "May suffer 1 strain to add :success: to Athletics or Brawl checks."}],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			},
+			{
+				"name": "Stun-knuckles",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD", "1 slap-patch"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "G-Modstrocity",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 25,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Indomitable"],
+		"abilities": [
+			{"name": "Bone-Chilling Roar", "description": "Once per encounter, may suffer 3 strain and spend a maneuver to force all other character within long range (or within earshot) to make a :daunting: Discipline check as an out-of-turn incidental. If they fail, they must use their maneuver to maove farther away; if they fail with :threat:, they must also downgrade their action to an additional maneuver to move even farther away. If you're using the fear rules found on page 243 of the Genesys Core Rulebook, this can be a fear check instead."}],
+		"weapons": [
+			{
+				"name": "Distended Jaws And Oversized Claws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensare","Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Hacker",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 11,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 3,
+			"Computers": 2,
+			"Mechanics": 1,
+			"Piloting": 2
+		},
+		"talents": ["Adversary 1","Defensive Sysops","Distinctive Style"],
+		"abilities": ["None"],
+		"weapons": [
+		],
+		"gear": ["Custom computer terminal, energy drinks"],
+		"tags": ["source:GCRB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Hellion",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 9,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 4,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 5,
+			"Vigilance": 4
+		},
+		"talents": [],
+		"abilities": [
+			"Construct", 
+			{"name": "Impressively Flexible", "description": "May spend a Story Point to gain access to a formerly secure room or other location through a previously unnoticed vent shaft, slightly open window, or similar entry point."}, 
+			{"name": "Catlike", "description": "May make a maneuver to move normally up and down vertical surfaces, across ropes, and over otherwise impassable structures."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Titanium claw",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:5"]
+	},
+	{
+		"name": "Henry Labor Clone",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 7,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Mechanics","Resilience"],
+		"talents": [],
+		"abilities": [
+			{"name": "Air Filter Implant", "description": "Immune to inhaled poisons and toxins."}],
+		"weapons": [
+		],
+		"gear": ["Durable Clothing: +1 Soak"],
+		"tags": ["source:ADS #11", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Human First Extremist",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Coercion","Melee","Vigilance"],
+		"talents": [],
+		"abilities": [
+			"Mob Mentality"],
+		"weapons": [
+			{
+				"name": "Sledgehammer",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Durable clothing: +1 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Humanity Labor Rep",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Negotiation": 2,
+			"Streetwise": 2
+		},
+		"talents": ["Scathing Tirade"],
+		"abilities": [
+			{"name": "Rile Them Up", "description": "Once per encounter, may make an :average: Charm check targeting a group of bystanders or other neutral NPCs at medium range; if the check is successful, one of the bystanders (plus one per additional :success:) becomes a Human First Extremist; these NPCs form a single minion group and join the ongoing encounter. These NPCs may have been regular people convinced by the rep or they may have been members of Human First all along."}],
+		"weapons": [
+		],
+		"gear": ["PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "Hunter-Killer Drone",
+		"type": "Rival",
+		"note": "May be armed with either a Micro-missile pod, or Armor-piercing Missiles",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Coordination": 1,
+			"Perception": 2,
+			"Gunnery": 1,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Flyer", 
+			"Construct", 
+			"Telepresence"],
+		"weapons": [
+			{
+				"name": "Light Machine Gun",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire"]
+			},
+			{
+				"name": "Micro-missile pod",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Blast 10","Guided 3","Limited Ammo 6"]
+			},
+			{
+				"name": "Armor-piercing Missiles",
+				"skill": "Gunnery",
+				"damage": 20,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Breach 2","Guided 4","Limited Ammo 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Hyperrat Swarm",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 30,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coordination": 2,
+			"Stealth": 1,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": [
+			"Swarm", 
+			{"name": "They're All Over Me!", "description": "Enemies who start their turn engaged with this character lose their free maneuver."}],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 2"],
+				"notes": "Gains Pierce 2 against prone targets."
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Inez Delgado",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Computers: Hacking": 3,
+			"Computers: Sysops": 3,
+			"Deception": 2,
+			"Knowledge: The Net": 3,
+			"Knowledge: Society": 3,
+			"Perception": 2,
+			"Ranged: Light": 2,
+			"Skulduggery": 2,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1","Determined Hunter","Defensive Sysops (Improved)"],
+		"abilities": [
+			{"name": "Personalized Icebreaker Suit", "description": "Always considered to have a strength 4 icebreaker that can affect barriers, sentries, and code gates. If break ice action fails, may spend :advantage::advantage::advantage::advantage: or :triumph: to not suffer any effects of failing to break ice."}],
+		"weapons": [
+			{
+				"name": "Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium"
+				}
+		],
+		"gear": ["Reinforced Uniform: +1 soak.","PAD, customized cyber rig, NAPD badge"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:2", "General CR:9"]
+	},
+	{
+		"name": "Jackson Howard",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"strain": 19,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 5,
+			"Cool": 4,
+			"Knowledge: Society": 3,
+			"Leadership": 3,
+			"Negotiation": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Laugh It Off"],
+		"abilities": [
+			{"name": "Flattery Gets You Everywhere", "description": "If this character knows an opponent's Strength Motivation, when this character inflicts strain on the opponent, the opponent suffers 3 additional strain."}, 
+			{"name": "Nice Guy", "description": "After targeting this character with a Coercion or Deception check, if the check generated uncancelled :threat:, double the amount of :threat: generated."}],
+		"weapons": [
+		],
+		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth"],
+		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:10", "General CR:3"]
+	},
+	{
+		"name": "Ji 'Noise' Reilly",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Computers: Hacking": 4,
+			"Computers: Sysops": 1,
+			"Cool": 2,
+			"Deception": 3,
+			"Operating": 2,
+			"Resilience": 3
+		},
+		"talents": ["Burn Through","Net Warrior"],
+		"abilities": [
+			{"name": "Causing Chaos", "description": "During a Network encounter, may spend an action to make a :hard: Knowledge (The Net) check; if successful, opponents must upgrade the difficulty of checks made on the system for the rest of the encounter twice, and allies must upgrade the difficulty of checks made on the system for the rest of the encounter once."}, 
+			{"name": "Boosted Intellect", "description": "May suffer 1 strain to add :success: to any Intellect-based check."}, 
+			{"name": "Virus Suite", "description": "When performing the burn system action, reduce difficulty of check by 2, and damage the system one additional step for every additional :success: (instead of :success::success:)."}],
+		"weapons": [
+			{
+				"name": "Light Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short"
+				}
+		],
+		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)"],
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:8"]
+	},
+	{
+		"name": "Kati Jones",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Coordination": 2,
+			"Computers: Sysops": 3,
+			"Driving": 4,
+			"Knowledge: Society": 2,
+			"Perception": 2,
+			"Piloting": 4,
+			"Stealth": 1,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1","Determined Driver","Offensive Driving"],
+		"abilities": [
+			{"name": "Max Throttle", "description": "When piloting or driving a vehicle, its max speed is increased by 1"}],
+		"weapons": [
+		],
+		"gear": ["Flight suit, leather jacket, custom hopper (use luxury hopper profile (page 113 SotB) with encumbrance capacity 40, hopperbike"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:6"]
+	},
+	{
+		"name": "Liberty Society Rep",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 1,
+			"Knowledge: Science": 2,
+			"Knowledge: Society": 3,
+			"Negotiation": 3,
+			"Streetwise": 1
+		},
+		"talents": ["Clever Retort"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["Legal PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Lily Lockwell",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 4,
+			"Cool": 3,
+			"Deception": 2,
+			"Knowledge: Society": 3,
+			"Leadership": 1,
+			"Perception": 3,
+			"Streetwise": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1","Probing Question","Ruinous Repartee"],
+		"abilities": [
+			{"name": "Famous", "description": "Once per encounter, may spend a Story Point to force one opponent with earshot to make a :hard: Discipline check as an out-of-turn incidental. If they fail they must fulfill one of this character's requests, such as let them past a checkpoint, stop attacking them, etc."}],
+		"weapons": [
+		],
+		"gear": ["Monocam eyepiece, sharp outfit, and sardonic demeanor"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
+	},
+	{
+		"name": "Lívia Teixeira",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 18,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coercion": 4,
+			"Cool": 2,
+			"Discipline": 4,
+			"Knowledge: Society": 3,
+			"Leadership": 3,
+			"Perception": 2,
+			"Ranged: Heavy": 4,
+			"Ranged: Light": 4,
+			"Resilience": 2,
+			"Streetwise": 5,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 3","Deadeye"],
+		"abilities": [
+			{"name": "Los Scorpiones Boss", "description": "May spend a maneuver to direct all Los Scorpiones characters in the current encounter; each may immediately perform a free maneuver or add :success: to the results of their next check."}, 
+			{"name": "Extreme G-modded Physique", "description": "Before making an Athletics, Brawl, Melee, or Resilience check, may suffer 1 strain to add :success::success: to the results."}],
+		"weapons": [
+			{
+				"name": "Skorpios Stalker V Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Guided 2","Pierce 4","Vicious 2"]
+			},
+			{
+				"name": "Skorpios Stalker V Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 4,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Guided 3","Pierce 4","Vicious 2"]
+			},
+			{
+				"name": "4 Monofilament grenades",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 7","Limited Ammo 1","Vicious 2"]
+			},
+			{
+				"name": "G-modded fists and feet",
+				"skill": "Brawl",
+				"Damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 1", "Knockdown", "Sunder"]
+				}
+		],
+		"gear": ["Trenchcoat with hidden pockets and holsters: +1 soak.","Cocktail dress"],
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:7", "General CR:4"]
+	},
+	{
+		"name": "Loonie Revolutionary",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Leadership": 3,
+			"Perception": 2,
+			"Ranged: Heav": 2,
+			"Skulduggery": 1
+		},
+		"talents": ["Inspiring Rhetoric"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Scavenged Industrial Laser Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Burn 1","Inferior"]
+			}
+		],
+		"gear": ["Armored Space Suit: +2 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Los Scorpiones Cascares",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7,
+			"defence": [0,0]
+		},
+		"skills": ["Coercion", "Melee","Ranged: Light","Streetwise","Vigilance"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Armor-piercing Submachine Gun",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Ranged Medium",
+				"qualities": ["Auto-fire","Pierce 2"]
+			},
+			{
+				"name": "Machete",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Aviator glasses"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Maintenance Drone",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Mechanics": 3
+		},
+		"talents": [],
+		"abilities": [
+			"Construct"],
+		"weapons": [
+			{
+				"name": "Manipulator Arms",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"gear": ["Integrated construction and repair tools"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Melange Overseer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Driving": 2,
+			"Knowledge: Science": 1,
+			"Leadership": 3,
+			"Mechanics": 2,
+			"Perception": 2,
+			"Ranged: Light": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Lunar Off-Roading", "description": "Add :boost::boost: to any Driving or Survival checks made on the lunar surface."}],
+		"weapons": [
+			{
+				"name": "Retrofitted strength-augmenting gauntlet",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Knockdown"]
+			},
+			{
+				"name": "Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1"]
+			}
+		],
+		"gear": ["Reinforced Mining Space Suit: +2 soak","Lunar megarover, PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Megacorp Exec",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 2,
+			"Leadership": 4,
+			"Negotiation": 4,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1","Proper Upbringing 2"],
+		"abilities": [
+			"Let's Make a Deal", 
+			{"name": "Ominous Reputation", "description": "When an opponent targets this character with a check, the opponent suffers 2 strain."}],
+		"weapons": [
+		],
+		"gear": ["Expensive suit with built-in PAD, credstick with unlmited funds, teacup giraffe, personal assistant"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:11", "General CR:4"]
+	},
+	{
+		"name": "Mercenary Vet",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 16,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Cool": 1,
+			"Melee": 3,
+			"Ranged: Heavy": 3,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Quick Draw","Rapid Reaction 2"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Bullpup carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1","Auto-fire"]
+			},
+			{
+				"name": "2 Monofilament Grenades",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 7","Limited Ammo 1","Vicious 1"]
+			},
+			{
+				"name": "Custom Combat Knife",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": ["Light Body Armor: +2 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Miguel Moreno",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 5,
+			"Cool": 1,
+			"Deception": 4,
+			"Leadership": 3,
+			"Negotiation": 4,
+			"Perception": 1,
+			"Ranged: Light": 2,
+			"Streetwise": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1","Laugh It Off"],
+		"abilities": [
+			{"name": "Fallen Figure of Faith", "description": "When making a social skill check to inflict strain, inflicts 2 additional strain, unless target knows this character's Fear or Flaw motivations."}],
+		"weapons": [
+			{
+				"name": "Snub Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"gear": ["Priest's robes, rosary, silver case of Lo-Fi capsules, personal Bible with snub-pistol-shaped hollow space inside"],
+		"tags": ["source:UC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Monica Singh",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coordination": 3,
+			"Cool": 5,
+			"Deception": 4,
+			"Melee": 2,
+			"Ranged: Light": 4,
+			"Skulduggery": 4,
+			"Stealth": 5,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2","Unremarkable"],
+		"abilities": [
+			{"name": "And Just Like That...", "description": "May spend :threat::threat::threat: or :despair: from checks made by enemy characters in the current encounter to hide of blend into the crowd; enemies must make a successful opposed Perception or Vigilance versus Stealth check to locate this character until she makes a combat check or otherwise reveals herself."}, 
+			{"name": "Quiet Killer", "description": "May use Stealth instead of Melee or Brawl when making combat checks against unaware targets."}],
+		"weapons": [
+			{
+				"name": "Fletcher pistol with razor ammo",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 4","Vicious 3"]
+			},
+			{
+				"name": "Monomolecular Stiletto",
+				"skill": "Melee",
+				"damage": 2,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 5","Vicious 3"]
+			}
+		],
+		"gear": ["Concealed buckyweave armor: +1 soak, 1 defense","One-way comm device"],
+		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:6", "General CR:8"]
+	},
+	{
+		"name": "Mr. Li",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 4,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Society": 4,
+			"Leadership": 4,
+			"Negotiation": 5,
+			"Perception": 3,
+			"Streetwise": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Field Commander (Improved)"],
+		"abilities": [
+			{"name": "...They Pull You Back In", "description": "After calling in a favor, this character may make an opposed Coercion versus Discipline check; if successful the target still owes this character a favor; :triumph: means the target now owes a favor of one magnitude great than before."}, 
+			{"name": "Unflappable", "description": "When targeted by a social skill check that inflicts strain, reduce the strain suffered by 2 to a minimum of 1"}],
+		"weapons": [
+			{
+				"name": "Concealed Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1","Limited Ammo 2"]
+			}
+		],
+		"gear": ["Expensive suit, numerous members of 14k, smug expression"],
+		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:11", "General CR:6"]
+	},
+	{
+		"name": "Mr. Stone",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Coercion": 4,
+			"Discipline": 3,
+			"Melee": 4,
+			"Perception": 3,
+			"Driving": 3,
+			"Ranged: Light": 5,
+			"Ranged: Heavy": 5,
+			"Skulduggery": 4,
+			"Stealth": 4,
+			"Streetwise": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3","Dual Wielder","Quick Draw"],
+		"abilities": [
+			{"name": "Cold Killer", "description": "Once per encounter when this character incapacitates a target, they may force all allies of the target to make an :average: Discipline check as an out-of-turn incidental. If they fail, they lose their free maneuver during their next turn; if you're using the fear rules (page 243 CRB), this counts as a fear check, and other effects may apply as well."}, 
+			{"name": "Prepared Battlefield", "description": "Once per session, when another character activates, as an out-of-turn incidental may spend a Story Point to knock that character and any characters engaged with them prone and inflict three wounds and three strain on them."}],
+		"weapons": [
+			{
+				"name": "Twin pistols with supercharger ammo",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Pierce 2"]
+			},
+			{
+				"name": "Scoped Gauss Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Cumbersome 3", "Pierce 5", "Slow-Firing 1"],
+				"notes": "Reduce difficulty of combat checks made at long and extreme range by 1"
+				}
+		],
+		"gear": ["Suit with reinforced fiber weave: +1 soak","Camdrone, PAD, credstick with untraceable fund account"],
+		"tags": ["source:RMC #15", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR:4", "General CR:7"]
+	},
+	{
+		"name": "NAPD Detective",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coercion": 3,
+			"Cool": 2,
+			"Knowledge: Science": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Good and Bad Cop"],
+		"abilities": [
+			"Lawful Authority"],
+		"weapons": [
+			{
+				"name": "HHI M-3 Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
+			}
+		],
+		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:4", "General CR:4"]
+	},
+	{
+		"name": "NAPD Hachi-Inu K8 Unit",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Discipline": 1,
+			"Perception": 4,
+			"Resilience": 2,
+			"Survival": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Fangs and Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Stun 5"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:3"]
+	},
+	{
+		"name": "NAPD Patrol Officer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Coercion","Leadership","Melee","Ranged: Light","Vigilance"],
+		"talents": [],
+		"abilities": [
+			"Lawful Authority"],
+		"weapons": [
+			{
+				"name": "HHI M-3 Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
+			},
+			{
+				"name": "Stun Baton",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Reinforced Uniform: +1 soak.","NAPD PAD, 4 snap locks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "NAPD Riot Police",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 7,
+			"defence": [2,2]
+		},
+		"skills": ["Athletics","Brawl","Coercion","Melee","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Disperse!", "description": "Once per encounter, as an action, may force all non-NAPD characters within medium range to make an :average: Discipline check as an out-of-turn incidental; those who fail must spend their next turn moving away from this character or minion group and attempting to leave the encounter if possible."}],
+		"weapons": [
+			{
+				"name": "Electrified Power Gauntlet",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 2","Knockdown","Prepare 1","Stun Damage"]
+			},
+			{
+				"name": "Riot Shield",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2", "Deflection 2", "Inaccurate 2"]
+				}
+		],
+		"gear": ["Riot Armor: +2 soak.","Smoke grenades, 4 snap locks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "NAPD SWAT",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 2,
+			"Ranged: Heavy": 2,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Lawful Authority"],
+		"weapons": [
+			{
+				"name": "HHI Scoped Gauss Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 10,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Cumbersome 2","Pierce 5","Slow-Firing 1"],
+				"notes": "Reduce difficulty of combat checks at long range or greater by 1"
+			},
+			{
+				"name": "HHI SP-10 Shotgun",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 5, Knockdown, Stun Damage , Vicious 2"]
+			},
+			{
+				"name": "Backup Fletcher Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": ["Body Armor: +2 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Olivia 'Chaos Theory' Ortiz",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 9,
+			"strain": 14,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Charm": 2,
+			"Computers: Hacking": 5,
+			"Computers: Sysops": 3,
+			"Cool": 3,
+			"Knowledge: The Net": 3,
+			"Mechanics": 3,
+			"Stealth": 1,
+			"Survival": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Code Slinger","Rapid Reaction 4"],
+		"abilities": [
+			{"name": "Exploratory Romp", "description": "May spend an action to make a :hard: Computer (Hacking) check; if successful this character and allies learn identity of one piece of ice on a server per :success:."}, 
+			{"name": "Wunderkind", "description": "Once per session may spend an action to make a :hard: Computer (Sysops) check; if successful all ice or icebreakers controlled by this character or one ally increase their strength by 2 for the remainder of the encounter."}],
+		"weapons": [
+		],
+		"gear": ["Tool kit","Dinosaurus rig with Corroder, Faerie, and Torch (pages 136-138 of SotB)-protected by Dinosaurus ice (use rules for Syn 22 on page 135 of SotB)"],
+		"tags": ["source:RMC #4", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:11"]
+	},
+	{
+		"name": "Omoi Security Clone",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 3,
+			"Cool": 3,
+			"Driving": 1,
+			"Perception": 2,
+			"Ranged: Light": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			},
+			{
+				"name": "Palm Stunner",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2", "Slow-firing 2", "Stun Damage"]
+				}
+		],
+		"gear": [],
+		"tags": ["source:ADS #14", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Opticon Foundation Watchdog",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Computers: Hacking": 1,
+			"Cool": 3,
+			"Deception": 2,
+			"Knowledge: Society": 1,
+			"Perception": 3,
+			"Skulduggery": 2
+		},
+		"talents": ["You Owe Me One"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["Discrete monocam, camdrone, fake idents, encrypted PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Orgcrime Lieutenant",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Society": 2,
+			"Leadership": 3,
+			"Ranged: Light": 3,
+			"Skulduggery": 2,
+			"Streetwise": 4
+		},
+		"talents": ["Adversary 2","Forgot to Count?"],
+		"abilities": [
+			"Tactical Direction", 
+			{"name": "You Thought You Were Out...", "description": "When making a Coercion check to maintain a favor after calling it in, the check is an :average: Coercion check instead of an opposed check."}],
+		"weapons": [
+			{
+				"name": "Gold-Plated Laser Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Burn 1"]
+			}
+		],
+		"gear": ["Gold chains, nice suit"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:5", "General CR:6"]
+	},
+	{
+		"name": "Orgcrime Heavy",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Discipline": 2,
+			"Ranged: Heavy": 2,
+			"Resilience": 1,
+			"Streetwise": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1","Street Fighter"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Fletcher",
+				"skill": "Ranged: Heavy",
+				"damage": 4,
+				"critical": 2,
+				"range": "Ranged Medium",
+				"qualities": ["Blast 4","Pierce 2","Vicious 3"]
+			},
+			{
+				"name": "Power Gauntlet",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 2","Knockdown","Prepare 1"]
+			}
+		],
+		"gear": ["Light Armor Vest: +2 soak.","Oversized suit with hidden holsters"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Orgcrime Muscle",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Coercion","Ranged: Light"],
+		"talents": [],
+		"abilities": [
+			"Threatening"],
+		"weapons": [
+			{
+				"name": "Brass Knuckles",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3"]
+			},
+			{
+				"name": "Fletcher Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": ["Cheap Padded Suit: +1 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Principled Runner",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"strain": 13,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 1,
+			"Computers: Hacking": 3,
+			"Computers: Sysops": 3,
+			"Cool": 2,
+			"Knowledge: Science": 3,
+			"Knowledge: The Net": 4,
+			"Perception": 3,
+			"Ranged: Light": 1
+		},
+		"talents": ["Burn Through",
+		{
+			"name": "Natural",
+			"desription": "Once per session may reroll one Computers (Hacking) or Knowledge (The Net) check."
+		}],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
+		],
+		"gear": ["Armored Utility Vest: +1 defense, +1 soak.","BMI.","Big rig with Athena (SotB p. 136) and Yog.0 (SotB p. 138)- protected by Hawk's Eye (SotB p. 134) and Fire Wall (SotB p. 133)"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:3", "General CR:8"]
+	},
+	{
+		"name": "Private Military Contractor",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5,
+			"defence": [1,1]
+		},
+		"skills": ["Discipline","Ranged: Heavy","Vigilance"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Assault Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire"]
+			}
+		],
+		"gear": ["Plasteel carapace: 1 defense, +2 soak"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Rachel Beckmann",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 2,
+			"Brawl": 3,
+			"Ranged: Light": 2,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Takedown"],
+		"abilities": [
+			{"name": "And Stay Down", "description": "When making a Brawl or Melee combat check targeting a prone opponent, add :success::advantage::advantage: to the results."}],
+		"weapons": [
+			{
+				"name": "Augmented Fists",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			},
+			{
+				"name": "Heavy Pistol with linked sight",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1"]
+			}
+		],
+		"gear": ["Ballistic Vest: +2 soak","Set of restraints"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Rashida Jaheem",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Cool": 3,
+			"Coordination": 2,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Leadership": 3,
+			"Ranged: Heavy": 3,
+			"Resilience": 2,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"talents": ["Adversary 2","Deadeye"],
+		"abilities": [
+			{"name": "Ruthless Efficiency", "description": "Before making a combat check, may spend one Story Point to reduce the number of :advantage: needed to activate item qualities or trigger effects by one, to a minimum of one."}, 
+			{"name": "Well Oiled Machine", "description": "While within medium range of this character, allies may perform a second maneuver without suffering strain."}],
+		"weapons": [
+			{
+				"name": "Bullpup carbine",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1","Auto-fire"]
+			},
+			{
+				"name": "Suit-mounted Micro-missle",
+				"skill": "Gunnery",
+				"damage": 12,
+				"critical": 4,
+				"range": "Long",
+				"qualities": ["Blast 10","Cumbersome 4","Guided 3","Limited Ammo 1","Prepare 1"]
+			},
+			{
+				"name": "Armored Gauntlets",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			}
+		],
+		"gear": ["Plasteel Carapace Armor: +2 soak, 1 defense","Encrypted field radio"],
+		"tags": ["source:RMC #17", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:4", "General CR:5"]
+	},
+	{
+		"name": "Raymond Flint",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Society": 5,
+			"Piloting": 2,
+			"Ranged: Light": 3,
+			"Skulduggery": 4,
+			"Stealth": 3,
+			"Streetwise": 5,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2","Bad Habit"],
+		"abilities": [
+			{"name": "In the Know", "description": "When another character makes an assisted Knowledge (Society) or Streetwise check with this character, add :success::advantage: to the results."}, 
+			{"name": "Spot the Connections", "description": "May spend :advantage: to learn one Motivation of any character in the current encounter."}, 
+			{"name": "Troubled Past", "description": "When a character who knows this character's Fear or Flaw targets this character with a successful social skill check, this character suffers 2 strain."}],
+		"weapons": [
+			{
+				"name": "Fletcher",
+				"skill": "Ranged: Heavy",
+				"damage": 4,
+				"critical": 2,
+				"range": "Ranged Medium",
+				"qualities": ["Blast 4","Pierce 2","Vicious 3"]
+			}
+		],
+		"gear": ["Heavy Trenchcoat: +1 soak","Smokes, PAD, fedora"],
+		"tags": ["source:RMC #18", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:5", "General CR:11"]
+	},
+	{
+		"name": "Regulator",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Science": 2,
+			"Knowledge: Society": 2,
+			"Negotiation": 2,
+			"Perception": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Red Tape", "description": "During social encounters, may spend :threat::threat::threat: generated by an opponent to discover (or invent) a legal violation that requires a fine, fee, or additional authorization form that the opponent must complete before accomplishing their goals."}],
+		"weapons": [
+		],
+		"gear": ["Inspection PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Reina Roja",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 16,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 2,
+			"Computers: Hacking": 4,
+			"Computers: Sysops": 2,
+			"Coordination": 4,
+			"Discipline": 5,
+			"Perception": 3,
+			"Piloting": 2,
+			"Ranged: Light": 4,
+			"Ranged: Heavy": 4,
+			"Gunnery": 4,
+			"Resilience": 4,
+			"Stealth": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3","Rapid Reaction 3"],
+		"abilities": [
+			{"name": "ESW Drone Master", "description": "May control two rival drones or minion groups of up to 5 drone minions; may spend a maneuver to direct all controlled drones to perform an action and maneuver during their turn."}, 
+			{"name": "Enhancecd Healing", "description": "May suffer 1 strain before making a Resilience check to heal a Critical Injury to add :success: to the result and increases the number of wounds healed by natural rest by 1"}, 
+			{"name": "Caissa Icebreaker Suite", "description": "When encountering ice, reduce that ice's strength by 2 and increase the :threat: require to activate negative effects by 1"}],
+		"weapons": [
+			{
+				"name": "Assault Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire"]
+			},
+			{
+				"name": "Fletcher Pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": ["Skin Suit: +2 soak, +2 defense, +2 wound threshold","Cybereyes, skulljack (allows Reina to 'go deep' during network encounters, p. 105 SotB)","Deep Red portable console with Athena and Garrote (p. 136-137 SotB)-protected by Archer and Enigma (p. 134-135 SotB)","Minion group of 4 camdrones, minion group of 4 combat drones (p. 233 SotB)"],
+		"tags": ["source:RMC #19", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:6", "General CR:12"]
+	},
+	{
+		"name": "Reporter",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 3,
+			"Cool": 3,
+			"Perception": 3,
+			"Skulduggery": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "In the Know", "description": "Whenever this character learns a Motivation of another character in the encounter, this character may have that character suffer 2 strain and may heal 2 strain."}, 
+			"Leading Question"],
+		"weapons": [
+		],
+		"gear": ["PAD, camdrone, monocam, press credentials"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Researcher",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Science": 3,
+			"Negotiation": 2,
+			"Medicine": 2,
+			"Perception": 3
+		},
+		"talents": ["Applied Research 1"],
+		"abilities": [
+			{"name": "Research Team Member", "description": "When providing skill assistance, may reroll up to two of the dice in the pool before resolving the check."}],
+		"weapons": [
+		],
+		"gear": ["Networked PAD, holodisplay, lab coat"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Retail Drone",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,1]
+		},
+		"skills": ["Perception","Vigilance"],
+		"talents": ["Big Guns"],
+		"abilities": [
+			"Flyer", 
+			"Construct", 
+			"Telepresence"],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Rex Search and Rescue Bioroid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Coordination": 2,
+			"Medicine": 3,
+			"Perception": 4,
+			"Resilience": 3
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			"Bioroid"],
+		"weapons": [
+		],
+		"gear": ["Spotlight, climbing gear, O2 tank, medkit, 2 slap patches"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Ristie Collector",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Knowledge: Society": 4,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Haughty Demeanor"],
+		"abilities": [
+			{"name": "Shrewd Negotiator", "description": "When making an opposed Negotiation or Streetwise check to purchase or sell and item may suffer 2 strain to add :success: to the results."}, 
+			"Let's Make a Deal"],
+		"weapons": [
+		],
+		"gear": ["Heavily encrypted PAD, several credsticks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:5"]
+	},
+	{
+		"name": "Rogue Nisei Clone",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 5,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 20,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 5,
+			"Coordination": 2,
+			"Discipline": 3,
+			"Gunnery": 4,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Apparent Precognition", 
+			"Psychic", 
+			{"name": "Broken Nisei Conditioning", "description": "When inflicting a Critical Injury or Critical Hit, roll twice and choose the more severe result."}],
+		"weapons": [
+			{
+				"name": "Auto-fletcher",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Micro-waterknife",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Prepare 1","Sunder","Unwieldy 3","Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:8", "Social CR:8", "General CR:8"]
+	},
+	{
+		"name": "SEA Yellow Jacket",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Coercion","Knowledge: Society","Ranged: Light","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Uncomfortable Inspection", "description": "When searching a character or their possessions, that character suffers 2 strain."}],
+		"weapons": [
+			{
+				"name": "Synap Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Disorient 4","Stun 3","Stun Damage"]
+			}
+		],
+		"gear": ["Security PAD, 2 snap locks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Seth Bioroidista",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Charm","Knowledge: Science","Perception"],
+		"talents": [],
+		"abilities": [
+			{"name": "Too Clever", "description": "When interacting with this character, characters may spend :advantage: to recover 2 strain, and GMs may spend :threat: to inflict 2 strain."}, 
+			"Bioroid"],
+		"weapons": [
+		],
+		"gear": ["Order PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Sneaker Net Courier",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Coordination": 2,
+			"Driving": 2,
+			"Piloting": 2,
+			"Ranged: Light": 2,
+			"Stealth": 2,
+			"Streetwise": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			{"name": "Catlike Agility", "description": "Once per turn, may spend a Story Point to move to any location within short range as an incidental, including locations that are vertically distant or have no easy access route."}],
+		"weapons": [
+			{
+				"name": "Palm Stunner",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Slow-Firing 2","Stun Damage"]
+			}
+		],
+		"gear": ["Good running shoes, encrypted datasticks"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:4"]
+	},
+	{
+		"name": "Starlight Templar",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Discipline": 3,
+			"Knowledge: Society": 1,
+			"Ranged: Light": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Values Enforcer", "description": "When making any social skill or combat check targeting an opponent of the church, add :success::threat: to the result."}, 
+			{"name": "Templar Cybernetic Implant", "description": "Once per encounter as a maneuver, may make a :simple: Discipline check to heal 1 wound per :success:."}],
+		"weapons": [
+			{
+				"name": "Fletcher pistol",
+				"skill": "Ranged: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": ["Heavy Jacket with Crusade logo: +1 soak.","PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Streetbanger",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Coercion","Melee","Ranged: Light","Streetwise"],
+		"talents": [],
+		"abilities": [
+			"Threatening"],
+		"weapons": [
+			{
+				"name": "Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium"
+				},
+			{
+				"name": "Mono-switchblade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Synthleather Jacket: +1 soak","Extensive tattoos and piercings"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Streetbanger Leader",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Melee": 2,
+			"Leadership": 2,
+			"Negotiation": 1,
+			"Ranged: Light": 1,
+			"Skulduggery": 3,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Charismatic Menace"],
+		"weapons": [
+			{
+				"name": "Custom six-shooter",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Plasma Cutter",
+				"skill": "Melee",
+				"damage": 12,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 1","Prepare 1","Sunder","Unwieldy 2"]
+			}
+		],
+		"gear": ["Leather Jacket with Gang Colors: +1 soak","PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Street Doc",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Deception": 2,
+			"Knowledge: Science": 3,
+			"Mechanics": 3,
+			"Medicine": 3,
+			"Negotiation": 2
+		},
+		"talents": ["Surgeon 3"],
+		"abilities": [
+			{"name": "Questionable Hygiene", "description": "When making a Medicine check, must spend :threat::threat::threat: or :despair: to decrease the target's strain and wound threshold by 2 each until the end of the current session."}],
+		"weapons": [
+			{
+				"name": "Shotgun",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 4","Knockdown","Vicious 2"]
+			}
+		],
+		"gear": ["4 Slap-patches","Various cybernetics, emergency medkit, portable toolkit"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "SXC Exosuit Pilot",
+		"type": "Rival",
+		"notes": "May choose either a Heavy fletcher or a Laser Cannon",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 1,
+			"Discipline": 3,
+			"Gunnery": 3,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "High-Altitude Drop", "description": "When falling any distance, may make an :easy: Discipline check as an incidental; on a success, this character does not suffer any damage from falling and lands on their feet."}],
+		"weapons": [
+			{
+				"name": "Heavy fletcher",
+				"skill": "Gunnery",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Blast 6","Pierce 4","Vicious 3"]
+			},
+			{
+				"name": "Laser Cannon",
+				"skill": "Gunnery",
+				"damage": 10,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Accurate 1","Burn 1","Cumbersome 4"]
+			},
+			{
+				"name": "Power-augmented Exosuit fists",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["SXF X1a exosuit: 1 defense, +3 soak, +1 Brawn, +5 wound threshold, allows wearer to operate underwater and in vacuum for up to 4 hours"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "SXC Trooper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 6,
+			"defence": [1,1]
+		},
+		"skills": ["Athletics","Discipline","Melee","Ranged: Heavy","Vigilance"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Laser Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1","Burn 1"]
+			},
+			{
+				"name": "Monoblade Combat Knife",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Environmentally Sealed Plasteel carapace: 1 defense, +2 soak.","Disposable zero-G maneuvering pack"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "SYNC Globalsec Agent",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Computers: Hacking": 2,
+			"Computer: Sysops": 3,
+			"Knowledge: The Net": 4,
+			"Mechanics": 2,
+			"Perception": 2
+		},
+		"talents": ["Net Warrior"],
+		"abilities": [
+			{"name": "Sniffer Programs", "description": "Add :setback::setback: to any opponent's checks made on a system the SYNC Globalsec agent has control of."}, 
+			{"name": "Swordbreaker Programs", "description": "May make a :hard: Computers (Sysops) check targeting one opponent on the system to damage one of their active icebreakers one step, plus one additional step per :advantage:."}],
+		"weapons": [
+		],
+		"gear": ["PAD, BMI, and custom offensive rig with personal icebreakers (Gordian Blade [SotB p. 137], Battering Ram [SotB p. 136], and Garrote [SotB p. 137])"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:8"]
+	},
+	{
+		"name": "Teacup Giraffe",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0,0]
+		},
+		"skills": ["Charm"],
+		"talents": [],
+		"abilities": [
+			{"name": "Too Cute", "description": "When any character makes a check to recover strain while engaged with this character, they recover 2 additional strain."}, 
+			{"name": "Way Too Cute", "description": "When an opponent targets this character with a combat check, they suffer 4 strain."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Tiny Head Nubs",
+				"skill": "Brawl",
+				"damage": 0,
+				"critical": 8,
+				"range": "Engaged"
+				}
+		],
+		"gear": ["Gentle doe eyes"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Tenma Driver Clone",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Driving": 3,
+			"Mechanics": 2,
+			"Operating": 3,
+			"Perception": 3,
+			"Piloting": 3,
+			"Vigilance": 3
+		},
+		"talents": [
+			{
+				"name": "Knack For It 2",
+				"description": "Remove :setback::setback: from any Driving, Operating, and Piloting checks."
+			}
+		],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["Cybernetic eye implant"],
+		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:4"]
+	},
+	{
+		"name": "Thomas Haas",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 11,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 3,
+			"Computers: Hacking": 2,
+			"Cool": 4,
+			"Deception": 3,
+			"Knowledge: Science": 2,
+			"Knowledge: Society": 3,
+			"Mechanics": 2,
+			"Negotiation": 3
+		},
+		"talents": ["Adversary 1","Clever Retort","Counteroffer"],
+		"abilities": [
+			{"name": "Golden Goose", "description": "Opponents must make a :hard: Discipline check as an action and succeed before being able to make combat checks targeting this character."}, 
+			{"name": "Tinkerer", "description": "With access to any sort of tools or parts, may make an :average: Mechanics check. If successful, creates an item with rarity equal to the number of :success:."}],
+		"weapons": [
+		],
+		"gear": ["Nice suit, encrypted PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:5", "General CR:6"]
+	},
+	{
+		"name": "Toy Drone",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Knowledge: Society": 3,
+			"Knowledge: Science": 3,
+			"Knowledge: The Net": 2,
+			"Medicine": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Edutainment", "description": "When assisting with or making a combine Knowledge check add :boost: to the check (information added typically comes in the form of a song)."}, 
+			"Construct"],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Urban Peccary",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 7,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Survival"],
+		"talents": [],
+		"abilities": [
+			"Mob Mentality"],
+		"weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Urban Adventurer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Coordination": 4,
+			"Cool": 3,
+			"Driving": 3,
+			"Knowledge: Society": 1,
+			"Piloting": 3,
+			"Ranged: Light": 1,
+			"Stealth": 1,
+			"Streetwise": 4,
+			"Survival": 4
+		},
+		"talents": ["Daring Aviator 2",
+			{
+				"name": "Natural",
+				"description": "Once per session, may reroll one Athletics or Coordination check."
+			}],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Auto-fletcher",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:1", "General CR:7"]
+	},
+	{
+		"name": "Yakuza Assassin",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 15,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Computers: Hacking": 3,
+			"Cool": 4,
+			"Coordination": 5,
+			"Discipline": 2,
+			"Melee": 4,
+			"Perception": 2,
+			"Skulduggery": 3,
+			"Stealth": 5,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Archaic Arms Master"],
+		"abilities": [
+			{"name": "Quiet Code", "description": "When making a Computer (Hacking) check, :threat: may not be spent to alert other users to the assassin's presence."}, 
+			{"name": "Subtle Death", "description": "When making a Brawl check, may spend :advantage::advantage: or :triumph: to apply a dose of contact poison to the target; the target must immediately make a :hard: Resilience check as an incidental; if they fail, they suffer 5 wounds plus 1 wound per :threat:; :despair: means they must make the check again at the start of their next turn, as the poison remains in their system."}],
+		"weapons": [
+			{
+				"name": "Charged Crystal Katana",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 3","Reinforced"]
+			},
+			{
+				"name": "Fists and feet",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 1","Knockdown","Stun 5","Stun Damage"]
+			}
+		],
+		"gear": ["Optical Camouflage Suit: +2 Defense.","Pocket Rig with One-Shot Icebreakers: Spend a Story Point to add :success::success::success: to a successful check to break ice.","Climbing gear"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:3", "General CR:8"]
+	},
+	{
+		"name": "Young Ristie",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 1,
+			"Cool": 1,
+			"Coordination": 2,
+			"Knowledge: Society": 2
+		},
+		"talents": ["Proper Upbringing 2"],
+		"abilities": [
+			{"name": "I'll Tell My Parents!", "description": "When this character inflicts strain using a social skill check, they inflict 2 additional strain."}],
+		"weapons": [
+		],
+		"gear": ["High-end wearable PAD"],
+		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:2", "General CR:1"]
+	}
+]

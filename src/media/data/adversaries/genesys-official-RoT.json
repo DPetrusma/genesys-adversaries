@@ -1,0 +1,3805 @@
+[
+	{
+		"name": "Ancient Dragon",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 5,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 45,
+			"strain": 34,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Arcana": 4,
+			"Brawl": 4,
+			"Charm": 3,
+			"Coercion": 4,
+			"Cool": 3,
+			"Discipline": 4,
+			"Ranged": 4,
+			"Resilience": 4,
+			"Runes": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Swift"],
+		"abilities": [
+			"Improved Sweep", 
+			"Flyer", "Silhouette 4", 
+			"Terrifying 4",
+			"Spells (Arcana)",
+			{"name": "Spells: Unbind Spell", "description": "The dragon chooses a target within short range that is under the effects of a spell and makes a :hard: Arcana check. If the check is successful, the spell effects on the target end."}, 
+			{"name": "Spells: Words of Unmaking", "description": "The dragon chooses one magic item (including a magic weapon and armor or runebound shard within medium range and make an :daunting: Arcana check. If successful, until the beginning of the dragon’s next turn that item loses its magical ability and becomes a mundane gem, suit of armor, sword, rock, etc. The dragon may maintain this spell by performing the concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Fiery breath",
+				"skill": "Ranged",
+				"damage": 16,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 16","Burn 3","Prepare 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 17,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Sunder","Vicious 5"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:17", "Social CR:10", "General CR:10"]
+	},
+	{
+		"name": "Assassin",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [4,3]
+		},
+		"skills": {
+			"Cool": 2,
+			"Coordination": 3,
+			"Deception": 3,
+			"Medicine": 2,
+			"Melee: Light": 2,
+			"Perception": 2,
+			"Ranged": 2,
+			"Skulduggery": 3,
+			"Stealth": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1","Backstab","Precision Strikes"],
+		"abilities": [
+			{"name": "Lightning Draw", "description": "May draw or sheathe a dagger or similar small weapon as an incidental; there is no limit to how many weapons an assassin can ready this way per turn."}, 
+			{"name": "Poisoner", "description": "As an incidental, may apply poison to all weapons. A character wounded by a poisoned weapon must make a :hard: Resilience check as an out-of-turn incidental or suffer 4 additional wounds, and must check again on their next turn if the check generates :despair:."}, 
+			{"name": "Vanish", "description": "After performing a check, may spend :advantage::advantage: or :triumph: to hide from all other characters in the encounter."}],
+		"weapons": [
+			{
+				"name": "Scimitar",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Two katars",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Three daggers",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Accurate 1","Limited Ammo 3"]
+			},
+			{
+				"name": "Bow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Unwieldy 2"]
+			}
+		],
+		"gear": ["A variety of concealing cloaks"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:6"]
+	},
+	{
+		"name": "Aymhelin Scion",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 2,
+			"Brawl": 3,
+			"Resilience": 4
+		},
+		"talents": ["Adversary 1","Swift"],
+		"abilities": [
+			{"name": "Cage of Roots", "description": "Once per round after a character moves within medium range of the Aymhelin Scion, the Aymhelin Scion may perform an out-of-turn incidental to immobilize that character for the remainder of the encounter. As an action an immobilized character can attempt a :hard: Athletics check on their turn to no longer be immobilized."}, "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Limbs",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Barghest",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Perception": 3,
+			"Resilience": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			"Maul", 
+			"Terrifying 3", 
+			"Undead"],
+		"weapons": [
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Baronial Knight",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 16,
+			"defence": [4,3]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Leadership": 1,
+			"Melee: Light": 3,
+			"Resilience": 2,
+			"Riding": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Lance",
+				"skill": "Melee: Light",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","a lance can only be used while mounted and can only be used to attack immediately after performing a maneuver to engage the target."]
+			},
+			{
+				"name": "Large Shield",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2","Deflection 2","Inaccurate 2","Knockdown"]
+			}
+		],
+		"gear": ["Plate Armor: +2 soak, +1 defense.","War Mount: see RoT page 105"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Beastman",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Perception","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Bestial Rage", "description": "A beastman or beastman minion group that has taken damage reduces the Critical rating of its attacks to 1"}],
+		"weapons": [
+			{
+				"name": "Fangs and Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged"
+				}
+		],
+		"gear": [],
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Berserker",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Melee: Light","Resilience","Survival"],
+		"talents": [],
+		"abilities": [
+			{"name": "Bone Spurs", "description": "A berserker who is targeted by a melee combat check may spend :threat::threat::threat: or :despair: to cause the attacker to suffer 3 wounds."}, 
+			{"name": "A Good Death", "description": "As an incidental, at the start of its turn a minion group of berserkers that is engaged with an enemy may remove a member of its group as a casualty to add +6 damage to the minion group’s attack in that turn."}],
+		"weapons": [
+			{
+				"name": "Two Bone Blades",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged"
+				}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Bloodsister And Nightseer",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 17,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Divine": 3,
+			"Coercion": 3,
+			"Cool": 2,
+			"Knowledge: Forbidden": 4,
+			"Melee: Light": 1
+		},
+		"talents": ["Adversary 1","Dark Insight"],
+		"abilities": [
+			{"name": "Telepathic Bond", "description": "A bloodsister can perform an incidental once per round to add :boost: to the next check made by all other Uthuk Y’llan in the encounter."}, 
+			{"name": "Telepathic Domination", "description": "A bloodsister or nightseer may attempt to telepathically dominate a foe once per encounter as an action, making an opposed Coercion vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per :success:, and the bloodsister may spend :triumph: to stagger the target for 1 round."}, 
+			{"name": "Dreamwalker", "description": "Once per session, a nightseer can spend a Story Point to either re-roll the dice pool after making a check, or to force a PC to re-roll the dice pool after the PC makes a check."}, 
+			"Spells (Divine)",
+			{"name": "Spells: Bone Eruption", "description": "Select one target at short or medium range make a :hard: Divine check. If the check is successful, this magic attack inflicts 8 damage, +1 damage per :success:, with the Pierce 4, Sunder, and Vicious 4 qualities, and with a Critical Rating of 2"}, 
+			{"name": "Spells: Exsanguinate", "description": "Select one target at short or medium range for this curse and make a :hard: Divine check. If the check is successful, until the end of the witch’s next turn, the target deceases the ability of any skill checks they make by one and suffers one additional wound each time they suffer wounds. The witch can maintain these effects with the concentrate maneuver."}],
+		"weapons": [
+		],
+		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Leather Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:5", "General CR:4"]
+	},
+	{
+		"name": "Brigand Leader",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Leadership": 1,
+			"Ranged": 2,
+			"Melee: Light": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Bow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Unwieldy 2"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
+			}
+		],
+		"gear": ["Padded Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Brigand",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Cool","Melee: Light","Ranged"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Mace",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged"
+				}
+		],
+		"gear": [],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Carnivorous Flora",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 2,
+			"Stealth": 4
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Drag", "description": "A carnivorous flora can use a maneuver to move a target affected by its thorny vines’ Ensnare quality to engaged range."}, 
+			"Inconspicuous", 
+			{"name": "Rooted", "description": "A carnivorous flora cannot perform maneuvers to move."}, "Silhouette 2", 
+			{"name": "Unexpected Attack", "description": "A carnivorous flora that has not been yet been identified as a threat uses Stealth to determine initiative."}],
+		"weapons": [
+			{
+				"name": "Thorny vines",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Auto-fire","Ensnare 3"]
+			},
+			{
+				"name": "Snapping jaws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "City Guard",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 13,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Discipline": 1,
+			"Melee: Light": 2,
+			"Perception": 1,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Militia Spear",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Coachman",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Ranged": 1,
+			"Riding": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Dagger",
+				"skill": "Melee: Light Damage 3",
+				"damage": 3,
+				"critical": "Engaged",
+				"range": "Accurate 1"
+				}
+		],
+		"gear": ["Padded Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Danne Bulvert",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Coordination": 2,
+			"Deception": 2,
+			"Melee: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 3
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Dagger",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Blackjack",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Death Knight",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 3,
+			"Melee: Heavy": 3,
+			"Melee: Light": 3,
+			"Resilience": 2,
+			"Riding": 3
+		},
+		"talents": ["Adversary 1","Parry 3","Parry (Improved)"],
+		"abilities": [
+			{"name": "Mounted Charge", "description": "A mounted death knight adds :boost::boost: to its first melee attack after performing a maneuver to engage the target in the same turn."}, 
+			"Terrifying 4", 
+			"Undead"],
+		"weapons": [
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Flail",
+				"skill": "Melee: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 3","Linked 1","Unwieldy 3"]
+			}
+		],
+		"gear": ["Battered Armor: +2 soak, +1 defense.","War mount (see page 105 of RoT)"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Deep Elf",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Forbidden": 3,
+			"Melee: Light": 3,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Dual Wielder"],
+		"abilities": [
+			{"name": "Shadow Training", "description": "Enemies add :setback: to magic checks targeting a Deep Elf"}],
+		"weapons": [
+			{
+				"name": "Two Freezing Blades",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Deepwood Archer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [1,1]
+		},
+		"skills": ["Cool","Ranged","Perception","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Point Blank Shot", "description": "When making a Ranged combat check targeting an opponent the Deepwood Archer is engaged with, increase the difficulty once (instead of twice)."}],
+		"weapons": [
+			{
+				"name": "Deepwood Longbow",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Accurate 1","Cumbersome 3","Superior","Unwieldy 3"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Dimora",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Brawl": 2,
+			"Cool": 3,
+			"Knowledge: Lore": 3,
+			"Melee: Light": 2,
+			"Stealth": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": [
+			"Creature of the Aenlong", 
+			{"name": "Stonewalker", "description": "A Dimora moves normally through difficult or impassable terrain of stone, soil, or similar materials."}, 
+			"Terrifying 2", 
+			"Spells (Arcana)",
+			{"name": "Spells: Tremor", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success: and the target and all characters engaged with the target are knocked prone. The Dimora can spend :advantage: on the check to move the target up to one range band in any direction."}, 
+			{"name": "Spells: Prison of Stone", "description": "The Dimora chooses one target at short range and makes an :average: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Blast 3 and Ensnare 3 qualities."}],
+		"weapons": [
+			{
+				"name": "Stone Blades",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Stone Fists",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Djinn",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 25,
+			"strain": 25,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 5,
+			"Brawl": 3,
+			"Charm": 3,
+			"Cool": 3,
+			"Deception": 4,
+			"Discipline": 4,
+			"Lore": 4,
+			"Melee: Light": 3,
+			"Negotiation": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3","Ruinous Repartee"],
+		"abilities": [
+			"Flyer", 
+			{"name": "Shapeshifter", "description": "Once per round as an incidental, a Djinn may increase or decrease its silhouette by 1 and change its appearance to that of any character or creature of its current silhouette."}, 
+			"Spells (Arcana)",
+			{"name": "Spells: Cyclone", "description": "The Djinn chooses one target at up to medium range and make a :hard: Arcana check. If successful, this magic attack inflicts 4 damage +1 damage per :success:, with the Disorient 4 and Knockdown qualities. The Djinn can also spend :advantage: to move the target up to one range band in any direction."}, 
+			{"name": "Spells: Twisted Wish", "description": "The Djinn chooses one target within short range and make a :daunting: Arcana check. If successful, until the end of the Djinn’s next turn, each time the target makes a skill check, decrease the ability by one and the Djinn may choose to change any die in the pool not displaying :triumph: or :despair: to any other face. The Djinn may sustain these effects with the concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Conjured Scimitar",
+				"skill": "Melee: Light",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged"
+				},
+			{
+				"name": "Illusionary Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:12", "General CR:10"]
+	},
+	{
+		"name": "Dragon Hybrid",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Melee: Heavy": 1,
+			"Ranged": 2,
+			"Resilience": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Draconic Heritage", "description": "Dragon hybrids reduce the damage they take from fire and similar sources by 3"},"Flyer"],
+		"weapons": [
+			{
+				"name": "Greatsword",
+				"skill": "Melee: Heavy",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 1","Unwieldy 3"]
+			},
+			{
+				"name": "Fiery Breath",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 6","Burn 1","Prepare 1","Slow-Firing 2"]
+			},
+			{
+				"name": "Talons",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Scale Armor: +2 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Dwarf Ancestral Specter",
+		"type": "Rival",
+		"notes": "Dwarf opponents are not affected by the Dwarf Ancestral Specter's Terrifying ability",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [3,2]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Melee: Light": 3
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Ancestral Gaze", "description": "While within short range of a Dwarf Ancestral Specter, living Dwarves add :success: to their combat checks and :triumph: if the opponent is a dragon."}, 
+			{"name": "Ghostly", "description": "Dwarf Ancestral Specters ignore the effects of terrain and darkness."}, 
+			"Terrifying 3", 
+			"Undead"],
+		"weapons": [
+			{
+				"name": "Ethereal Hammer",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Dwarf Guilder",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee: Light": 2,
+			"Ranged": 2,
+			"Resilience": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Darkvision", 
+			{"name": "Guild Member", "description": "When performing a check related to their specific guild, Dwarf Guilders upgrade the ability of the check twice."}],
+		"weapons": [
+		],
+		"gear": ["Guild tools and scrolls"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Dwarven Dragon Hunter",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 17,
+			"strain": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Discipline": 4,
+			"Melee: Light": 3,
+			"Ranged": 4,
+			"Resilience": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Dauntless", "description": "Dwarven Dragon Hunters upgrade the ability of Discipline checks they make to resist fear or intimidation once."}, 
+			"Darkvision"],
+		"weapons": [
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Portable Bolt Thrower",
+				"skill": "Ranged",
+				"damage": 9,
+				"critical": 2,
+				"range": "Extreme",
+				"qualities": ["Cumbersome 3","Pierce 2","Prepare 1"]
+			},
+			{
+				"name": "Dwarven Firebombs",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 6","Burn 2","Limited Ammo 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Eliza Farrow",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Brawl": 2,
+			"Charm": 3,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Forbidden": 4,
+			"Negotiation": 3,
+			"Ranged": 3,
+			"Riding": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Dark Insight"],
+		"abilities": [
+			{"name": "Blood Call", "description": "When Eliza Farrow damages a target using her fangs or a magic attack, she heals wounds equal to the wounds inflicted."}, 
+			{"name": "Blood Mist", "description": "If Eliza Farrow suffers damage in excess of her Wound Threshold, she is not incapacitated, but takes the form of a cloud of blood mist. While in this form, she can fly (see page 100 of the GENESYS Core Rulebook) and does not suffer damage from physical attacks. If she suffers additional damage from a magical attack, she becomes incapacitated as normal and resumes corporeal form."}, 
+			{"name": "Dominate", "description": "May use the Dominate action once per encounter, making an opposed Charm vs. Discipline check targeting one character in short range; if successful, the target is immobilized for 1 round per uncanceled :success:, and Eliza may spend :triumph: to stagger the target for 1 round."}, 
+			{"name": "Sunlight Sensitivity", "description": "While exposed to sunlight, Eliza Farrow reduces all her characteristics by 2 and halves her Wound Threshold and Strain Threshold."}, 
+			{"name": "Undead", "description": "Does not need to breathe, eat, or drink (except blood), and can survive underwater; immune to poisons and toxins."}, 
+			{"name": "Vampiric Magic", "description": "Eliza Farrow reduces the difficulty of all magic skill checks one step."}, 
+			"Spells (Arcana)",
+			{"name": "Spells: Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
+			{"name": "Spells: Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of Eliza Farrow’s next turn; she may maintain these effects by performing the Concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Farrow’s Guard",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 1,
+			"Ranged": 2,
+			"Riding": 1,
+			"Melee: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Quick Draw"],
+		"abilities": [
+			{"name": "Grapple", "description": "May take the Grapple incidental; until the start of the guard’s next turn, enemies must spend two maneuvers to disengage."}, 
+			{"name": "Stay Back!", "description": "When a character within short range attempts to move past the guard, the guard may, as an out-of-turn incidental, spend a Story Point from the GM pool and knock the character prone."}],
+		"weapons": [
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Crossbow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Pierce 2","Prepare 1"]
+			},
+			{
+				"name": "Shield",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 6,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Deflection 1","Inaccurate 2","Knockdown"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Feral Dragon",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 41,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 4,
+			"Cool": 3,
+			"Discipline": 4,
+			"Ranged": 4,
+			"Resilience": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Swift"],
+		"abilities": [
+			"Flyer", "Silhouette 4", 
+			"Improved Sweep", 
+			"Terrifying 4"],
+		"weapons": [
+			{
+				"name": "Fiery Breath",
+				"skill": "Ranged",
+				"damage": 12,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 12","Burn 3","Slow-Firing 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Ferrox",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Coordination": 1,
+			"Resilience": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Bloodthirst", "description": "When a ferrox inflicts wounds with its fangs, it heals an equal number of wounds."}, 
+			{"name": "Glider", "description": "Ferrox can fly, but cannot increase their altitude while doing so; see page 100 of the Genesys Core Rulebook."}, 
+			{"name": "Savage", "description": "A ferrox increases the damage of its attacks by 2 when targeting an immobilized foe."}],
+		"weapons": [
+			{
+				"name": "Hooked Claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			},
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Flesh Ripper",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [1,1]
+		},
+		"skills": ["Brawl","Cool","Resilience","Vigilance"],
+		"talents": ["Swift"],
+		"abilities": [
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Spiked Tail",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Forest Guardian",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 25,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 2,
+			"Brawl": 2,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Improved Sweep", "Silhouette 3"],
+		"weapons": [
+			{
+				"name": "Huge Limbs",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Knockdown","Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Giant",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 33,
+			"strain": 29,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Giant Stomp!", "description": "Brawl attacks that giants make have a Critical rating of 3, and if they inflict Critical Injuries +40 is added to the resulting Critical Injury result."}, "Silhouette 3", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Huge Club",
+				"skill": "Melee",
+				"damage": 12,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Inaccurate 1","Knockdown","Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Giant Snake",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 2,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 3", 
+			{"name": "Swallow", "description": "May make an opposed Brawl check to swallow an engaged target. If the check is successful, swallowed characters are immobilized and suffer 6 damage at the start of each round but can escape if the snake is killed or by making a successful :hard: Athletics check."}],
+		"weapons": [
+			{
+				"name": "Jaws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Constricting coils",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 4","Stun 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Gnome Minstrel",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 7,
+			"strain": 11,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Coordination": 1,
+			"Knowledge: Geography": 2,
+			"Stealth": 1,
+			"Verse": 2
+		},
+		"talents": ["Encouraging Song"],
+		"abilities": [
+			{"name": "Haunting melodies", "description": "Gnome minstrels may spend :advantage: in a successful Charm check to inflict 1 strain on their target, and may do this multiple times."}, "Silhouette 0", 
+			"Spells (Verse)",
+			{"name": "Spells: Addling Tune", "description": "Make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, all other characters within medium range must first suffer one strain before using the concentrate maneuver. The minstrel can sustain this effect with the concentrate maneuver."}, 
+			{"name": "Spells: Demoralizing Stanza", "description": "Select one target within short range and make an :average: Verse check. If the check is successful, until the end of the minstrel’s next turn, the target decreases the ability of any skill checks they make by one. The minstrel can sustain this effect with the concentrate maneuver."}],
+		"weapons": [
+		],
+		"gear": ["Lute, pipes, and other musical instruments.","Colorful garb"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name":  "Goblin (Official)",
+		"type": "Minion",
+		"note": "Choose either Jagged Blade or Crude Bow for their weapon",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1,0]
+		},
+		"skills": ["Brawl","Cool","Deception","Melee: Light","Ranged","Stealth"],
+		"talents": [],
+		"abilities": [
+			"Darkvision", 
+			{"name": "Opportunistic", "description": "Goblins inflict 1 additional damage with successful melee attacks on prone or immobilized targets."}],
+		"weapons": [
+			{
+				"name": "Jagged Blade",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			},
+			{
+				"name": "Crude Bow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Unwieldy 2"]
+			}
+		],
+		"gear": ["Grimy Patchwork Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Goblin Witcher",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Deception": 2,
+			"Arcana": 3,
+			"Knowledge: Forbidden": 2,
+			"Stealth": 1
+		},
+		"talents": ["Adversary 1","Dark Insight"],
+		"abilities": [
+			"Darkvision",
+			{"name": "Spiteful Curse", "description": "Add :boost::boost: to magic actions that target a character who has previously inflicted wounds on the goblin witcher during this encounter."}, 
+			"Spells (Arcana)",
+			{"name": "Spells: Agonizing Hex", "description": "Choose a target at short or medium range for this attack and make an :average: Arcana check. If successful, this magic attack inflicts 6 damage +1 damage per :success:, with the Disorient 2 and Knockdown qualities."}, 
+			{"name": "Spells: Bad Luck", "description": "Choose a target at short or medium range and make a :hard: Arcana check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the goblin witcher’s next turn, and when the target makes a check, may change one :setback: to a face displaying f. The goblin witcher may maintain these effects by performing the concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Pointy Teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Bone staff: +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Robed bone armor: +1 soak, +1 defense"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Greyhaven Wizard",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 4,
+			"Runes": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [ 
+			"Spells (Arcana)",
+			{"name": "Spells: Fireball", "description": "Choose one target at short or medium range and make a :hard: Arcana check; if successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Blast 4 and Burn 4 qualities."}, 
+			{"name": "Spells: Magic Shield", "description": "Make a :hard: Arcana check; if successful, until the end of the wizard’s next turn, reduce the damage of all hits against them by one, plus one for every :success::success:, and the wizard gains +3 defense. The wizard can maintain these effects with the concentrate maneuver."}],
+		"weapons": [],
+		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty.","Heavy Robes: +1 defense"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:5"]
+	},
+	{
+		"name": "Grotesque",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Melee: Light": 3,
+			"Ranged": 2,
+			"Resilience": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Bone Spurs", "description": "A grotesque may spend :threat::threat::threat: or :despair: on a melee combat check targeting them to inflict 6 damage on the attacker."}, 
+			{"name": "Killing Frenzy", "description": "A grotesque adds :boost::boost: to all melee combat checks, but attackers add :boost: to all combat checks targeting the grotesque."}],
+		"weapons": [
+			{
+				"name": "Massive Claw",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Knockdown"]
+			},
+			{
+				"name": "Hurled Bone Shards",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Gurak Tol",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Resilience": 2
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			{"name": "Tail Catapult", "description": "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown"}],
+		"weapons": [
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Tail",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Knockdown"]
+			}
+		],
+		"gear": ["When bonded with an Orc outrider, a Gurak Tol gains armor that adds +2 to its soak."],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Ice Wyrm",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 31,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Coercion": 4,
+			"Cool": 3,
+			"Discipline": 3,
+			"Ranged": 4,
+			"Resilience": 4,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2","Swift"],
+		"abilities": [
+			"Flyer", 
+			{"name": "Camouflaged Scales", "description": "An ice wyrm adds :boost::boost: to Stealth checks in icy or snowy surroundings."}, "Silhouette 4"],
+		"weapons": [
+			{
+				"name": "Freezing Blood Torrent",
+				"skill": "Ranged",
+				"damage": 10,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 8","Concussive 1","Ensnare 4"]
+			},
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:13", "Social CR:5", "General CR:6"]
+	},
+	{
+		"name": "Ice-Blood Warrior",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Cool","Brawl","Melee: Light","Resilience"],
+		"talents": [],
+		"abilities": [
+			{"name": "Ice Madness", "description": "Upgrade the difficulty of social skill checks targeting an ice-blood warrior once."}],
+		"weapons": [
+			{
+				"name": "Brittle Axe",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Freezing Touch",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Ironbound",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [3,2]
+		},
+		"skills": {
+			"Discipline": 3,
+			"Melee: Heavy": 3,
+			"Melee: Light": 3,
+			"Resilience": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Graven Wards", "description": "Increase the difficulty of all spells that target an ironbound twice."}, 
+			{"name": "Strength of Iron", "description": "An ironbound can wield a Melee: Heavy weapon in one hand."}, 
+			{"name": "Watchful", "description": "Ironbound add :boost::boost: to Perception and Vigilance checks to detect the use or effects of Magic skills."}],
+		"weapons": [
+			{
+				"name": "Halberd",
+				"skill": "Melee: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 3"]
+			},
+			{
+				"name": "Large shield",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Defensive 2","Deflection 2","Inaccurate 2","Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Kennsir Dwarf",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Melee: Light": 3,
+			"Resilience": 3,
+			"Skulduggery": 2,
+			"Stealth": 2,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Darkvision", 
+			{"name": "Tunnel Fighter", "description": "Add :boost::boost: to combat checks Kennsir Dwarves make in enclosed spaces."}],
+		"weapons": [
+			{
+				"name": "Brace of Dwarven Pickaxes",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Smokebombs, vials of poison gas"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:3"]
+	},
+	{
+		"name": "Kobold",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Melee: Light","Skulduggery"],
+		"talents": [],
+		"abilities": [
+			{"name": "Not Another!", "description": "In an encounter with any number of kobolds, the GM may spend :threat::threat: from any check made by a PC to add one kobold to an existing minion group, or spend :despair: to add a new minion group of three kobolds to the encounter."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Claws and Teeth",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Crude Blade",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged"
+				}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Lava Elemental",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Amorphous", 
+			"Inconspicuous"],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 2","Sunder"]
+			},
+			{
+				"name": "Lava Projectile",
+				"skill": "Ranged",
+				"damage": 9,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 4","Burn 2","Concussive 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Leonx",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			"Maul"],
+		"weapons": [
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Pierce 2","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Leonx Rider",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [2,1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Melee: Heavy": 2,
+			"Riding": 2,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Leonx Bond", "description": "When a Leonx Rider directs its mount, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move."}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Heavy",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Defensive 1"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak, Leonx see page 180"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "Lord Of Bilehall",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Brawl": 2,
+			"Charm": 3,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Forbidden": 5,
+			"Negotiation": 3,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Dark Insight"],
+		"abilities": [
+			{"name": "Blood Call", "description": "When a Lord of Bilehall damages a target using their fangs or a magic attack, they heal wounds equal to the wounds inflicted."}, 
+			{"name": "Sunlight Sensitivity", "description": "While exposed to sunlight, a Lord of Bilehall reduces all their characteristics by 2 and halves their Wound Threshold and Strain Threshold."}, 
+			"Terrifying 4", 
+			{"name": "Undead", "description": "Does not need to breathe, eat, or drink (except blood), and can survive underwater; immune to poisons and toxins."}, 
+			{"name": "Vampiric Magic", "description": "A Lord of Bilehall reduces the difficulty of all magic skill checks one step."}, 
+			"Spells (Arcana)",
+			{"name": "Spells: Blood Funnel", "description": "Choose one target at short range for the attack and make a :hard: Arcana check; if the magic combat check succeeds, the target suffers 4 damage + 1 damage per uncanceled :success:, with Critical Rating 2 and the Blast 4 and Vicious 4 qualities."}, 
+			{"name": "Spells: Curse of the Night", "description": "Choose one target within short range and make a :hard: Arcana check; if the check succeeds, the tar-get decreases the ability of any skill checks they make by one and reduce their strain and wound thresholds by 4 until the end of the Lord of Bilehall’s next turn. The Lord of Bilehall may maintain these effects by performing the Concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Bloodstained Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Vicious 2"]
+			}
+		],
+		"gear": ["Magic Staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:5", "General CR:7"]
+	},
+	{
+		"name": "Lorimor Marine",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [1,0]
+		},
+		"skills": ["Athletics","Cool","Melee: Light"],
+		"talents": [],
+		"abilities": [
+			{"name": "Sea Legs", "description": "A Lorimor marine does not add :setback: to checks due to unstable footing on a ship or boat, or in a similar environment."}],
+		"weapons": [
+			{
+				"name": "Saber",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			}
+		],
+		"gear": ["Scale Breastplate: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Lost Knight",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Melee: Light": 3,
+			"Resilience": 2,
+			"Survival": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Fatalistic Ferocity", "description": "A lost knight adds :success::threat: to any combat checks they make."}],
+		"weapons": [
+			{
+				"name": "Ancient Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			}
+		],
+		"gear": ["Heraldic plate armor (+2 soak, +1 defense)"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Magistrate Edmin Cawl",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 1,
+			"Discipline": 2,
+			"Negotiation": 2
+		},
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["Fine clothing, sash of office"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Makhim",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Ranged","Survival","Stealth","Vigilance"],
+		"talents": [],
+		"abilities": [
+			"Multiattack"],
+		"weapons": [
+			{
+				"name": "Dolochs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Linked 1"]
+			},
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Vicious 1"]
+			},
+			{
+				"name": "Sling",
+				"skill": "Ranged",
+				"damage": 4,
+				"critical": 4,
+				"range": "[Medium]",
+				"qualities": ["Disorient 2","Prepare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Manticore",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"strain": 19,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Flyer", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Claws and Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged"
+				},
+			{
+				"name": "Tail Stinger",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Slow-Firing 1","Pierce 2"],
+				"notes": "A character wounded by this weapon by make a :hard: Resilience check or suffer 4 additional wounds, and must check again on their next turn if the check generates :despair:"
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Mavaris Skain, Necromancer",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"strain": 17,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Forbidden": 3,
+			"Melee: Light": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1","Chill of Nordros","Dark Insight","Necromancy"],
+		"abilities": [ 
+			"Spells (Arcana)",
+			{"name": "Spells: Death Knell", "description": "Choose one target at short or medium range and make an :average: Arcana check; if the check succeeds, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
+			{"name": "Spells: Wilt", "description": "Choose two targets within short range and make an :average: Arcana check; if the check succeeds, Skain can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of Skain’s next turn; if an affected character suffers strain for any reason, they suffer 1 additional strain; Skain can perform the concentrate maneuver to maintain all effects of this curse."}, 
+			{"name": "Spells: Wall of Bones", "description": "Make a :hard: Arcana check; if the check succeeds, Skain reduces the damage of all hits he suffers by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting Skain generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; Skain may perform the concentrate maneuver to maintain the effects of this barrier."}],
+		"weapons": [
+			{
+				"name": "Sacrificial Dagger",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Vicious 1"]
+			}
+		],
+		"gear": ["One Staff: Add +4 damage to magic attacks and first Range effect does not increase difficulty; heal 1 wound after damaging a target with a spell.", "Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to curse spells with no increase in difficulty"],
+		"tags": ["source:HC", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Merriod",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 22,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 3,
+			"Stealth": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Amphibious", 
+			{"name": "Monstrous Limbs", "description": "A merriod does not increase the difficulty of combined checks to attack with its claws, tentacles, and jaws, and may spend :advantage::advantage: or :triumph: to hit with each additional weapon."}, "Multiattack","Silhouette 2", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Mawed Tentacles",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Ensnare 3","Linked 1"]
+			},
+			{
+				"name": "Jaws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
+		"name": "Minor Elemental (Fire)",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Amorphous", 
+			"Inconspicuous"],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Burn 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Minor Elemental (Quicksand)",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Amorphous", 
+			"Inconspicuous"],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Linked 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Minor Elemental (Spring)",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Cool": 2,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Amorphous", 
+			"Inconspicuous"],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Stun 5"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Naga Priestess",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"defence": [4,4]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 4,
+			"Leadership": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Hypnotic Gaze", "description": "A naga priestess may make an opposed Charm vs. Discipline check as an action targeting one character within short range. If successful, the target is immobilized for 1 round per :success:, and the naga may spend :triumph: to stagger the target for 1 round."}, 
+			{"name": "Opportunistic Predator", "description": "When making a combat check targeting an immobilized character, the naga deals +2 damage per :success: instead of +1"}],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 2"],
+				"notes": "A character wounded by this weapon by make a :hard: Resilience check or suffer 4 additional wounds, and must check again on their next turn if the check generates :despair:"
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Necromancer",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Forbidden": 3,
+			"Melee: Light": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1","Chill of Nordros","Necromancy"],
+		"abilities": [ 
+			"Spells (Arcana)",
+			{"name": "Spells: Death Knell", "description": "Choose one target at short or medium range and make an :average:Arcana check. If successful, this magic attack inflicts 8 damage +1 damage per uncanceled :success:, with Critical Rating 2 and the Ensnare 3 and Vicious 3 qualities."}, 
+			{"name": "Spells: Wilt", "description": "Choose two targets within short range and make an :average: Arcana check. If successful, the Necromancer can choose one additional target for each :advantage: and all targets reduce the ability of any skill checks they make by one until the end of the necromancer’s next turn. If an affected character suffers strain for any reason, they suffer 1 additional strain. The necromancer can perform the concentrate maneuver to maintain all effects of this curse."}, 
+			{"name": "Spells: Wall of Bones", "description": "Make a :hard: Arcana check. If successful, the necromancer reduces the damage of all hits they suffer by 1 plus 1 for every :success::success: beyond the first until the end of his next turn; in addition, if an attack targeting the necromancer generates :threat::threat::threat: or :despair:, the attacker suffers a hit inflicting damage equal to the total damage of the attack; the necromancer may perform the concentrate maneuver to maintain the effects of this barrier."}],
+		"weapons": [
+			{
+				"name": "Ceremonial Dagger",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1","Vicious 1"]
+			}
+		],
+		"gear": ["Bone staff: Add +4 damage to magic attacks; the first Range effect added does not increase difficulty; when used to cast a spell that inflicts 1 or more wounds, caster heals 1 wound.","Heavy Robes: +1 defense.","Forbidden Grimoire: A user with the Dark Insight talent can add the Additional Target and Enervate effects to Curse spells with no increase in difficulty"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:6"]
+	},
+	{
+		"name": "Ogre",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Melee: Heavy": 2,
+			"Perception": 1,
+			"Ranged": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Regeneration", "description": "At the beginning of its turn, this creature automatically heals 3 wounds."}, 
+			"Sweep Attack"],
+		"weapons": [
+			{
+				"name": "Cudgel",
+				"skill": "Melee",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged, Disorient 2, Knockdown."
+				},
+			{
+				"name": "Spiked Chain",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Ensnare 2","Knockdown"]
+			}
+		],
+		"gear": ["Scavenged Armor: +2 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Onoit Shaman",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Leadership": 2,
+			"Melee": 2,
+			"Knowledge: Lore": 3,
+			"Primal": 3,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 0", 
+			"Spells (Primal)",
+			{"name": "Spells: Winter Gale", "description": "Choose one target at short or medium range and make a :hard: Primal check. If successful, this magic attack inflicts 7 damage +1 damage per :success:, with the Blast 3 and Ensnare 3 item qualities."}, 
+			{"name": "Spells: Healing Gust", "description": "Choose two targets at up to short range and make an :average: Primal check. If successful, the targets heal 1 wound per :success: and 1 strain per :advantage:; the shaman may affect additional targets by spending :advantage: per target."}],
+		"weapons": [
+			{
+				"name": "Hatchet",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Oaken staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty."],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Orc Outrider",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee: Light": 2,
+			"Ranged": 2,
+			"Riding": 3
+		},
+		"talents": ["Quick Draw"],
+		"abilities": [
+			{"name": "Brutal Training", "description": "When an Orc outrider directs its mount, the mount may perform an action and a maneuver and is not limited to using its maneuvers to move"}],
+		"weapons": [
+			{
+				"name": "Orc Throwing Spear",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Accurate 1, Limited Ammo 1"
+				},
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak.","Extra spears.","Armored Gurak Tol mount"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Orc Spiritspeaker",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"strain": 17,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 2,
+			"Knowledge: Lore": 3,
+			"Primal": 4
+		},
+		"talents": ["Second Wind 5"],
+		"abilities": [
+			{"name": "Spiritual Focus", "description": "A spiritspeaker adds :boost: to Primal checks they make for each Orc ally within short range."}, 
+			"Spells (Primal)",
+			{"name": "Spells: Fury of the Spirits", "description": "The spiritspeaker chooses one target at short or medium range and makes a :hard: Primal check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Pierce 3 and Sunder qualities."}, 
+			{"name": "Spells: Ancestral Strength", "description": "The spiritspeaker chooses two allies within short range and makes a :hard: Primal check. If the check is successful, the spiritspeaker may affect additional targets in range by spending :advantage: for each additional target. Targets affected by this spell increase the ability of skill checks they make until the end of the spiritspeaker’s next turn by one. The spiritspeaker may sustain the effects of this spell by performing the concentrate maneuver."}],
+		"weapons": [
+		],
+		"gear": ["Magic staff: Add +4 damage to magic attacks; the first Range effect added to a spell does not increase its difficulty.","Beast-Hide Robes: +1 defense"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Pirate",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1,0]
+		},
+		"skills": ["Brawl","Cool","Coordination","Melee: Light"],
+		"talents": ["Quick Draw"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Cutlass",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Priest Of Kellos",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Discipline": 2,
+			"Divine": 2,
+			"Knowledge: Lore": 3,
+			"Melee: Light": 2,
+			"Vigilance": 1
+		},
+		"talents": ["Flames of Kellos"],
+		"abilities": [ 
+			"Spells (Divine)",
+			{"name": "Spells: Healing Spark", "description": "Choose a target within short range and make an :average: Divine check. If the check succeeds, the target heals 1 wound per :success: and 1 strain per :advantage:."}, 
+			{"name": "Spells: Righteous Blaze", "description": "Choose one target within short range and make an :average: Divine check. If successful, this magic attack inflicts 3 damage +1 damage per uncanceled :success:, with the Burn 3 quality. Against an undead target, the attack inflicts +2 damage per :success: instead."}],
+		"weapons": [
+			{
+				"name": "Mace",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged"
+				}
+		],
+		"gear": ["Heavy Robes: +1 defense"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Razorwing",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 13,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coordination": 2,
+			"Perception": 2,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": [
+			"Flyer", 
+			{"name": "Swoop Attack", "description": "After making a Brawl combat check, can move from engaged to short range of the target as an incidental."}],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged"
+			},
+			{
+				"name": "Buffeting Wings",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Reanimate",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [1,1]
+		},
+		"skills": ["Melee: Light","Perception","Ranged","Resilience","Vigilance"],
+		"talents": [],
+		"abilities": [
+			"Undead", 
+			{"name": "Undying", "description": "May spend :threat::threat::threat: from any check made by a PC to return one previously defeated Reanimate to an existing minion group, removing damage from the group accordingly. Spend :despair: to return two Reanimates to a minion group."}],
+		"weapons": [
+			{
+				"name": "Rusted Blade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+			},
+			{
+				"name": "Worn Bow",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium"
+			}
+		],
+		"gear": ["Antique Mail: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Rune Golem",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 25,
+			"strain": 22,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 2,
+			"Brawl": 3,
+			"Melee: Light": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Multiattack", 
+			{"name": "Elemental Runes", "description": "Each rune golem takes on different traits depending on its animating rune. Select one rune for each individual golem. Fire: add :success::success: to checks the rune golem makes to determine initiative. Ice: upgrade the difficulty of social skill checks targeting the golem once. Lightning: the rune golem may perform a second maneuver without suffering strain. Stone: the rune golem’s soak increases to 8 . Other runes can be used at the GM’s discretion."}, "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Massive Swords",
+				"skill": "Melee: Light",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Pierce 1"]
+			},
+			{
+				"name": "Stone Fists",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Disorient 3","Linked 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Salamander",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Resilience": 3,
+			"Survival": 2,
+			"Vigilance": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Flameborn", "description": "A salamander does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire."}],
+		"weapons": [
+			{
+				"name": "Burning Fangs",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Burn 2","Sunder","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Scorpion Swarm",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 36,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 1,
+			"Coordination": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 2", "Swarm"],
+		"weapons": [
+			{
+				"name": "Claws and Stingers",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"],
+				"notes": "May spend :advantage::advantage: to inflict 3 strain. A character wounded by this weapon by make a :hard: Resilience check or suffer 4 additional wounds, and must check again on their next turn if the check generates :despair:"
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Shade",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 6,
+			"defence": [2,2]
+		},
+		"skills": ["Brawl","Cool","Discipline"],
+		"talents": [],
+		"abilities": [
+			"Ghostly", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Spectral Hands",
+				"skill": "Brawl",
+				"damage": 1,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1","Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Singhara Hunter",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Cool","Brawl","Melee: Light","Ranged","Survival","Stealth"],
+		"talents": ["Swift"],
+		"abilities": [
+			{"name": "Pounce", "description": "May spend :advantage::advantage: from an initiative check to perform a free maneuver before the first round of combat."}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1 or Ranged"]
+			},
+			{
+				"name": "Claws and Teeth",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Singhara Pridelord",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 16,
+			"defence": [3,3]
+		},
+		"skills": {
+			"Cool": 2,
+			"Brawl": 4,
+			"Melee: Light": 3,
+			"Ranged": 3,
+			"Survival": 3,
+			"Stealth": 3
+		},
+		"talents": ["Adversary 2","Swift"],
+		"abilities": [
+			{"name": "Prideful Roar", "description": "As a maneuver, a Pridelord can unleash a prideful roar. All other Singhara in the encounter remove :setback: from checks until the end of the Pridelord’s next turn. In addition, enemies within medium range of the Pridelord must make an :average: fear check as per page 243 of the GENESYS Core Rulebook."}],
+		"weapons": [
+			{
+				"name": "Spear",
+				"skill": "Melee: Light",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1"],
+				"notes": "Can be thrown up to Short range, with an otherwise identical profile"
+			},
+			{
+				"name": "Claws and Teeth",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:11", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Siren",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Brawl": 2,
+			"Perception": 3
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Deadly Distraction", "description": "A siren decreases the difficulty of combat checks it makes that target a character immobilized or staggered by its Irresistible Song by one."}, 
+			"Flyer", 
+			{"name": "Irresistible Song", "description": "As an action, a siren may make an :average: Charm check. If the check is successful, all characters within long range who can hear the siren’s song suffer 1 strain per :success:. The siren may spend :advantage::advantage: to immobilize one affected character until the end of the following round, and spend :triumph: to stagger one affected character until the end of the following round. While a character is staggered by Irresistible Song must spend all of their maneuvers to move closer to the siren."}],
+		"weapons": [
+			{
+				"name": "Talons",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Spined Thresher",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 25,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Resilience": 4
+		},
+		"talents": ["Swift"],
+		"abilities": ["Silhouette 3", 
+			{"name": "Spine-tow", "description": "A spined thresher can use a maneuver to move a target affected by its tail’s Ensnare quality up to one range band."}, 
+			"Terrifying 3", 
+			{"name": "Too Many Mouths", "description": "A spined thresher can make a combined check to attack with any number of its weapons, and only needs to spend :advantage: to hit with each additional weapon."}],
+		"weapons": [
+			{
+				"name": "Two Fanged Claws",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 2"]
+			},
+			{
+				"name": "Slavering Maw",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Sunder"]
+			},
+			{
+				"name": "Spiny Tail",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Ensnare 2","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Splig, King Of All Golbins",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 11,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Melee: Heavy": 3,
+			"Leadership": 2,
+			"Resilience": 2
+		},
+		"talents": ["Whirlwind"],
+		"abilities": [ {"name": "King of the Goblins!", "description": "Upgrade the difficulty of combat checks targeting Splig once for each minion group of goblins within short range of him. If the check fails, one individual minion is defeated."}, 
+			{"name": "Lucky Escape", "description": "When Splig would be defeated due to exceeding his wound threshold or strain threshold, or for any reason, he may spend 1 Story Point to instead escape in a suitably fortunate and cowardly fashion. All other goblins in the encounter are immediately defeated."}],
+		"weapons": [
+			{
+				"name": "The Club of All Goblins",
+				"skill": "Melee: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1","Knockdown","Vicious 2"]
+			}
+		],
+		"gear": ["Stolen Patchwork Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Storm Sorceress",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 15,
+			"strain": 18,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Lore": 4
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Elemental Mastery", "description": "The first effect that a storm sorceress adds to a spell does not increase the difficulty of the Arcana check."}, 
+			"Spells (Arcana)",
+			{"name": "Spells: Blizzard", "description": "The storm sorceress chooses a target within long range and makes a :daunting: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success: with the Blast 4, Disorient 4, Ensnare 4, and Knockdown qualities."}, 
+			{"name": "Spells: Stormbolt", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Auto-fire and Stun 4 qualities."}, 
+			{"name": "Spells: Squall", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:. The storm sorceress may spend :advantage: on the check to move the target or a character engaged with the target up to one range band in any direction."}],
+		"weapons": [
+		],
+		"gear": ["Magic Staff: The first Range effect added to a spell does not increase its difficulty; increase damage of Attack spells by +4","Robes: +1 defense"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:4", "General CR:5"]
+	},
+	{
+		"name": "Sword Poet",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 18,
+			"strain": 16,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 2,
+			"Melee: Light": 3
+		},
+		"talents": ["Adversary 1","Duelist","Parry 3","Parry (Improved)"],
+		"abilities": [
+			{"name": "Show Off", "description": "A sword poet may choose to inflict stun damage when resolving a successful melee combat check or using the Improved Parry ability."}],
+		"weapons": [
+			{
+				"name": "Dueling Rapier",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1","Pierce 3"]
+			}
+		],
+		"gear": ["Fancy clothes"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "Tamalir Guildmaster",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Negotiation": 3
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Certain You Want To Do This?", "description": "When targeting a Guildmaster with a check, a character suffers 1 strain."}],
+		"weapons": [
+			{
+				"name": "Dagger",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged,"
+				}
+		],
+		"gear": ["Fine clothing"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:1", "Social CR:5", "General CR:4"]
+	},
+	{
+		"name": "Thieves Guild Cutpurse",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Coordination": 2,
+			"Deception": 2,
+			"Melee: Light": 2,
+			"Skulduggery": 3,
+			"Stealth": 3
+		},
+		"talents": ["Finesse"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Dagger",
+				"skill": "Melee: Light",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Blackjack",
+				"skill": "Melee: Light",
+				"damage": 5,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "True Fae",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 17,
+			"strain": 19,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Arcana": 3,
+			"Brawl": 2,
+			"Knowledge: Lore": 3,
+			"Melee: Light": 2,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Quick Strike 2"],
+		"abilities": [
+			"Creature of the Aenlong", 
+			"Flyer", 
+			"Terrifying 3", 
+			"Spells (Arcana)",
+			{"name": "Spells: Blinding Curse", "description": "The Fae chooses one target within short range and makes an :average: Arcana check. If the check is successful, the target decreases the ability of all checks they make and adds :setback::setback: to all checks involving sight until the end of the Fae’s next turn. The Fae can sustain these effects by performing the concentrate maneuver."}, 
+			{"name": "Spells: Shuddering Paralysis", "description": "The Fae chooses one target at short range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 7 damage, +1 damage per :success:, with the Ensnare 3 quality."}],
+		"weapons": [
+			{
+				"name": "Eldritch Blade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Pierce 4"]
+			},
+			{
+				"name": "Claws and Teeth",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:4", "General CR:6"]
+	},
+	{
+		"name": "Viper Legion Archer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Ranged": 3,
+			"Stealth": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Tailored Poison", "description": "Once per encounter before making a Ranged check, as a maneuver a viper legion archer can apply a tailored poison to an arrow; if the check succeeds, the attack inflicts additional damage equal to the target’s highest characteristic and gains the Disorient 3 quality."}],
+		"weapons": [
+			{
+				"name": "Viper bow",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Unwieldy 3"]
+			}
+		],
+		"gear": ["Leather Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:9", "Social CR:4", "General CR:6"]
+	},
+	{
+		"name": "Weik Warrior",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [1,0]
+		},
+		"skills": ["Cool","Brawl","Melee: Light","Resilience"],
+		"talents": [],
+		"abilities": [
+			{"name": "Aggressive Fighter", "description": "Weik warriors add :advantage: to combined checks they make to attack with two melee weapons."}],
+		"weapons": [
+			{
+				"name": "Axe",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Sword",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"]
+			},
+			{
+				"name": "Bow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Unwieldy 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Wendigo",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Coercion": 4,
+			"Resilience": 4,
+			"Stealth": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Blood Frenzy", "description": "While at least one opponent in an encounter is suffering a Critical Injury, a Wendigo increases the base damage of its attacks by 2"}, 
+			{"name": "Eyeless Sight", "description": "Wendigo do not add :setback: to checks due to darkness or concealment, and are immune to abilities or Critical Injuries that affect a creature’s sight."}, 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:7", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Witch And Warlock",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Divine": 3,
+			"Cool": 1,
+			"Knowledge: Forbidden": 3,
+			"Melee: Light": 1
+		},
+		"talents": ["Adversary 1","Dark Insight"],
+		"abilities": [
+			{"name": "Telepathic Coordination", "description": "A witch or warlock can perform a maneuver to add :boost: to the next check made by all other Uthuk Y’llan in the encounter."}, 
+			{"name": "Sacrifice", "description": "After inflicting wounds on a living creature (whether an enemy or ally), a witch or warlock adds :boost: to their next magic skill check; after killing a living creature, a witch or warlock instead upgrades the ability of their next magic skill check once."}, 
+			"Spells (Divine)",
+			{"name": "Spells: Boneshatter", "description": "Select one target at short range for this magic attack and make a :hard: Divine check. If the check is successful, the magic attack inflicts 5 damage, +1 damage per :success:, with the Pierce 3, Sunder, and Vicious 3 qualities, and with a Critical Rating of 2"}, 
+			{"name": "Spells: Boil Blood", "description": "Select one target at short range for this curse and make an :average: Divine check. If the check is successful, until the end of the witch or warlock’s next turn, the target decreases the ability of any skill checks they make by one and suffers one additional strain each time they suffer strain for any reason. The witch or warlock can maintain these effects with the concentrate maneuver."}],
+		"weapons": [
+			{
+				"name": "Sacrificial blade",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Bone Armor: +1 soak"],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Wraith",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 19,
+			"defence": [3,3]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Ranged": 1
+		},
+		"talents": [],
+		"abilities": [
+			"Ghostly", "Silhouette 2", 
+			"Terrifying 4", 
+			"Undead"],
+		"weapons": [
+			{
+				"name": "Spectral Claws",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Breach 1","Stun Damage"]
+			},
+			{
+				"name": "Wailing Cry",
+				"skill": "Ranged",
+				"damage": 2,
+				"critical": 5,
+				"range": "Medium",
+				"qualities": ["Breach 1","Stun Damage"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:6", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Wyrm Of The Deep",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 28,
+			"strain": 24,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 4,
+			"Discipline": 3,
+			"Resilience": 4,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Amphibious", "Silhouette 4", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Massive Jaws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2","Vicious 4"]
+			},
+			{
+				"name": "Tail and Fins",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:12", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Young Dragon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 23,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Arcana": 1,
+			"Brawl": 2,
+			"Cool": 3,
+			"Ranged": 2,
+			"Resilience": 2,
+			"Runes": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			"Flyer", "Silhouette 2", 
+			"Terrifying 3"],
+		"weapons": [
+			{
+				"name": "Fiery Breath",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 8","Burn 2","Prepare 1"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:RoT", "Official", "setting:Fantasy", "Combat CR:8", "Social CR:2", "General CR:3"]
+	}
+]
