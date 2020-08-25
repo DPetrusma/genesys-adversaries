@@ -268,5 +268,58 @@
 		],
 		"gear": ["Severeal 'wanted' holoprints"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Elder Nyyon",
+		"type": "Nemesis",
+		"description": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)"
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"strain": 23,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Computers": 3,
+			"Discipline": 3,
+			"Knowledge (All)": 4,
+			"Leadership": 2,
+			"Mechanics": 3,
+			"Operating": 2,
+			"Perception": 3,
+			"Ranged": 2
+		},
+		"talents": ["Adversary 2","Mad Inventor"],
+		"abilities": [
+			{
+				"name": "Martian Command",
+				"description": "As a maneuver, may order up to three allied martians in the encounter to take an immediate out-of-turn maneuver, or to order one allied martian in the encounter to take an immediate out-of-turn action."
+			}, 
+			{
+				"name": "Obsessive Customizer",
+				"description": "As a maneuver may spend a Story Point to add one of the following item qualities to their pistol or to an outpost weapon with which they are engaged: Accurate 3, Concussive 1, Guide 4, Stun Damage, Sunder. The weapon posses this item quality until the end of this character's next turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Customized Ray Gun",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Medium"
+			}
+		],
+		"gear": ["Fine cloak: 1 defense, +2 soak","Martian communicator","Portable computer"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:5", "General CR:7"]
 	}
 ]

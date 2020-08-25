@@ -248,49 +248,7 @@ Equipment:
 • Claw and teeth: Brawl; Damage 2; Critical 3; Range
 (Engaged); Vicious 1.
 Source: SotC p. 227
-38
-Adversaries anthology
-GENESYS
-e lder n yyon (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-2 2 4 4 3 3
-4 15 23 1 1
-Power Level:  c 6,  p 5,  g 7
-Motivations: Desire (Knowledge), Fear (Humiliation),
-Strength (Curious), Flaw (Obsession).
-Skills: Charm 2 (llk), Coercion 2 (llk), Com-
-puters 3 (lllk), Discipline 3 (lll), Knowledge
-(All) 4 (llll), Leadership 2 (llk), Mechanics
-3 (lllk), Operating 2 (llkk), Perception 3
-(lllk), Ranged 2 (ll).
-Talents:
-• Adversary 2: Upgrade difficulty of all combat checks
-against this target twice.
-• Mad Inventor: Once per session, make a Mechanics
-check to cobble together the functional equivalent of
-any item using spare parts or salvage, as per Table
-1.4-1 Mad Inventor Item Rarity on page 80 of the
-Genesys Core Rulebook.
-Abilities:
-• Martian Command: As a maneuver, may order up
-to three allied martians in the encounter to take an
-immediate out-of-turn maneuver, or to order one
-allied martian in the encounter to take an immedi-
-ate out-of-turn action.
-• Obsessive Customizer: As a maneuver may spend
-a Story Point to add one of the following item qual-
-ities to their pistol or to an outpost weapon with
-which they are engaged: Accurate 3, Concussive 1,
-Guide 4, Stun Damage, Sunder. The weapon pos-
-ses this item quality until the end of this character's
-next turn.
-Equipment:
-• Customized ray gun: Ranged; Damage 6; Critical 3;
-Range (Medium).
-• Fine cloak: 1 defense +2 soak.
-• Martian communicator portable computer.
-Source: SotC p. 204
+
 e SCAped e xperiment (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 4 2 2 2 3 1

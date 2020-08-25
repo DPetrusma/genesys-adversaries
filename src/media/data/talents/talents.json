@@ -2172,5 +2172,9 @@
 		"name": "Devourer",
 		"description": "Once per encounter, if the vine is engaged with an incapacitated target that is compatible with its carbon-based diet, it may use this talent to heal {ranks|plus-2}.",
 		"ranked": true
+	},
+	{
+		"name": "Mad Inventor",
+		"description": "Once per session, make a Mechanics check to cobble together the functional equivalent of any item using spare parts or salvage, as per Table 1.4-1 Mad Inventor Item Rarity on page 80 of the Genesys Core Rulebook"
 	}
 ]
