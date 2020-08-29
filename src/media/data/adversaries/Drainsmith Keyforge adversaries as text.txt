@@ -1,25 +1,3 @@
-B ureAuCrAt (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-1 2 2 3 3 2
-Soak Value w. Threshold M/r Defense
-1 3 0 0
-Power Level:  c 1,  p 2,  g 2
-Skills (group only): Discipline, Negotiation, Vigi-
-lance.
-Talents:
-• Unremarkable: Add f to checks made to pick a bu-
-reaucrat out of a crowd.
-Abilities:
-• Here's a Tip: Other characters may spend :triumph: from
-social skill checks they make targeting this character
-to add :boost: to other social skill checks they make until
-the end of the session or until they leave this location.
-• Inured: Add :boost: to social skill check targeting this
-character.
-Equipment:
-• Rumpled clothing, endless stacks of holoscrolls,
-databooks, and forms-lots of forms.
-Source: SotC p. 233
 C AptAin v Al j eriCho (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -52,47 +30,6 @@ Equipment:
 • Star Alliance captain's uniform: 1 defense, +1 soak.
 • Wrist module.
 Source: SotC p. 208
-C ArAvAn g uArd (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-3 2 1 2 1 1
-Soak Value w. Threshold M/r Defense
-4 4 0 0
-Power Level:  c 2,  p 1,  g 1
-Skills (group only): Melee, Perception, Vigilance.
-Talents:
-• None.
-Abilities:
-• Close Ranks: While within short range of another
-guard minion group, both groups gain 1 melee de-
-fense.
-Equipment:
-• Pole chainsaw: Melee; Damage 7; Critical 3; Range
-(Engaged); Inaccurate 1, Vicious 3.
-Source: SotC p. 229
-C ity e nForCer (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-3 2 1 2 1 1
-Soak Value w. Threshold M/r Defense
-4 4 0 0
-Power Level:  c 3,  p 1,  g 1
-Skills (group only): Brawl, Coercion, Melee, Ranged.
-Talents:
-• None.
-Abilities:
-• Force of Justice: Characters withing short range of
-this character add :boost: to their combat checks provided
-those characters are acting to uphold local laws.
-Equipment:
-• Stunner baton: Melee; Damage 4; Critical 3; Range
-(Engaged); Concussive 1, Stun Damage.
-• Stunner pistol: Ranged; Damage 6; Critical 4; Range
-(Short); Concussive 1, Stun Damage.
-• Uniform: +1 soak
-• Badge
-Source: SotC p. 234
-36
-Adversaries anthology
-GENESYS
 C yBer r At (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 2 2 1 3 1 1

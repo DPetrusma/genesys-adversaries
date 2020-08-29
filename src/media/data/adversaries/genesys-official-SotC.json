@@ -321,5 +321,74 @@
 		],
 		"gear": ["Fine cloak: 1 defense, +2 soak","Martian communicator","Portable computer"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:5", "General CR:7"]
+	},
+	{
+		"name": "Bureaucrat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 3,
+			"defence": [0,0]
+		},
+		"skills": ["Discipline","Negotiation","Vigilance"],
+		"talents": ["Unremarkable"],
+		"abilities": [
+			{
+				"name": "Here's a Tip",
+				"description": "Other characters may spend :triumph: from social skill checks they make targeting this character to add :boost: to other social skill checks they make until the end of the session or until they leave this location."
+			},
+			{
+				"name": "Inured",
+				"description": "Add :setback: to social skill check targeting this character."
+			}
+		],
+		"weapons": [],
+		"gear": ["Rumpled clothing","Endless stacks of holoscrolls","Databooks","Forms-lots of forms"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Caravan Guard",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Melee","Perception","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Close Ranks",
+				"description": "While within short range of another guard minion group, both groups gain 1 melee defense"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pole Chainsaw",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1","Vicious 3"]
+			}
+		],
+		"gear": ["Rumpled clothing","Endless stacks of holoscrolls","Databooks","Forms-lots of forms"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:2"]
 	}
 ]
