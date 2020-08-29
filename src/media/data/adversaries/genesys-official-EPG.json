@@ -1,0 +1,2114 @@
+[
+	{
+		"name": "Gorgon (Greek)",
+		"type": "Nemesis",
+		"description": "The gorgons appear as ageless women with snakes in place of hair, their skin gray-green and cracked. Already dangerous, they are also wrapped in such sacred majesty that any mortal who looks on one turns to stone.",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+            "strain": 12,
+			"defence": [2, 2]
+		},
+		"skills": {
+            "Cool": 4,
+			"Coercion": 2,
+			"Knowledge": 3,
+			"Melee: Light": 4
+		},
+		"talents": ["Parry 2"],
+		"abilities": ["Terrifying 4",
+            {
+                "name": "Petrifying Gaze",
+                "description": "As an action, may make an opposed Cool versus Coordination check targeting one character within medium range to immobilize the target until the end of this character's next turn, plus one additional turn for each :success::success:; may spend :advantage::advantage::advantage: to stagger target until the end of this character's next turn and may spend :triumph: to turn target to stone"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Gorgon blade",
+				"skill": "Melee: Light",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"tags": ["Monster", "Gorgon", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:8", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Jinn (Arabian)",
+		"type": "Nemesis",
+		"description": "Beings of smokeless fire, jinn are spirits in Arabian myth. They often appear as an upper torso or disembodied head dissolving into colored fumes below the belt or neck. Jinn are nearly immune to conventional weapons, and they can wield dangerous magics.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 5,
+			"Cunning": 5,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 20,
+            "strain": 20,
+			"defence": [2, 2]
+		},
+		"skills": {
+            "Charm": 3,
+			"Coercion": 3,
+			"Deception": 3,
+			"Divine": 4,
+			"Knowledge": 4,
+			"Perception": 3,
+			"Ranged": 4,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Flyer", "Ghostly", "Spirit",
+            {
+                "name": "Spells (Arcana)",
+                "description": "This character may choose any magic action allowed for by the Divine skill, and may select additional spell effects, as normal. The spell they use most often is the following unique spell."
+            },
+			{
+                "name": "Spells: Eye of the Jinn",
+                "description": "This character chooses one target within medium range and makes an :average: Divine check; if the check is successful, until the end of this character’s next turn, after the target makes a check, this character may choose one type of die in the pool and reroll all of the dice of that type; can sustain the effects of this spell by performing a concentrate maneuver"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Lightning and flame",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-fire", "Burn 4"]
+			}
+		],
+		"gear": [ "Several enchanted trinkets"],
+		"tags": ["Spirit", "Genie", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:9", "Social CR:6", "General CR:9"]
+	},
+	{
+		"name": "Korrigan (Breton)",
+		"type": "Nemesis",
+		"description": "In the dark, korrigan are ethereal, dancing around fountains and at crossroads. They delight in luring travelers into their dance, until their victims die of exhaustion. In daylight, their true shape is revealed: hunched and withered humanoids with red eyes and tangled white hair.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11,
+            "strain": 14,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Charm": 2,
+			"Primal": 3,
+			"Skulduggery": 2,
+			"Stealth": 3
+		},
+		"talents": ["Can't We Talk about This?"],
+		"abilities": [
+			{
+				"name": "Moonlit Glamor",
+				"description": "During the night, this character's presence is 5 instead of 1"
+			},
+            {
+                "name": "Spells (Primal)",
+                "description": "This character may choose any magic action allowed for by the Primal skill, and may select additional spell effects, as normal. The spell they use most often is the following unique spell."
+            },
+			{
+                "name": "Spells: Endless Dance",
+                "description": "This character chooses one target within short range and makes an :average:  Primal check; upon success, the target is immobilized, suffers 1 strain and 1 wound at the start of their turn, and adds :setback::setback: to all checks they make; on their turn, the target may make a :daunting: Discipline or Resilience check to end these effects; can sustain the effects of this spell by performing the concentrate maneuver"
+            }
+        ],
+		"gear": [ "Piles of leaves or twine that appear to be valuable"],
+		"tags": ["Spirit", "Fairy", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:4", "Social CR:5", "General CR:2"]
+	},
+	{
+		"name": "Minotaur (Greek)",
+		"type": "Nemesis",
+		"description": "The minotaur is a monstrous abomination who is half-man, half bull. The original minotaur lived in a labyrinth on Crete, eating all who were exiled into the maze. Though this monster was slain by Theseus, who knows if others lurk in the lightless corners of the earth?",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 18,
+            "strain": 9,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Athletics": 3,
+			"Brawl": 3,
+			"Melee: Heavy": 2,
+			"Perception": 3
+		},
+		"talents": ["Bullrush"],
+		"abilities": [
+            {
+                "name": "Gore",
+                "description": "After making a successful combat check using its vicious axe, this character may spend :advantage::advantage: or :triumph: to inflict one hit with its bloody horns on the target or another target this character is engaged with, dealing base damage +1 damage per :success:"
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Bloody horns",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown"]
+			},
+			{
+				"name": "Vicious axe",
+				"skill": "Melee: Heavy",
+				"damage": 9,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"tags": ["Monster", "Minotaur", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:8", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Siren (Greek)",
+		"type": "Rival",
+		"description": "These beings look like captivating women perched on rocks and treacherous shores, singing with great (and supernatural) skill to lure sailors to their deaths.",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0, 0]
+		},
+		"skills": {
+            "Brawl": 3,
+            "Charm": 3,
+			"Cool": 1,
+			"Deception": 4
+		},
+		"abilities": [
+			{
+				"name": "Siren's Song",
+				"description": "This character may make an opposed Charm versus Discipline check targeting one character within long range; if successful, the target must spend all of its available maneuvers [including spending an action to gain a second maneuver or suffering strain] to move into engaged range, and the target may not make combat checks targeting this character until after this character makes a combat check targeting them"
+			}
+        ],
+		"weapons": [
+			{
+				"name": "Vicious claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 3"]
+			}
+		],
+		"tags": ["Monster", "Siren", "Official", "source:EPG", "setting:Age of Myths", "Combat CR:3", "Social CR:4", "General CR:1"]
+	},
+	{
+		"name": "Corrupt Official",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Knowledge": 2,
+			"Negotiation": 2,
+			"Vigilance": 1
+		},
+		"talents": [
+			{
+				"name": "Natural",
+				"description": "Once per session, use this talent to reroll any one  Negotiation or Skulduggery check."
+			}],
+		"abilities": [
+			{"name": "Local Politics", "description": "Once per session, may choose one character operating in their area of influence (community, precinct, or county, for example); until the end of the session, the target must upgrade the difficulty of any social skill checks they make to interact with inhabitants of this area once."}],
+		"weapons": [
+		],
+		"gear": ["Cell phone, tablet"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:1", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Gang Leader",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 1,
+			"Cool": 1,
+			"Leadership": 1,
+			"Melee": 2,
+			"Streetwise": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Really Big and Sharp Knife",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Heavy Leather Clothing: +2 soak"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:4", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Intelligence Agent",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Coercion": 2,
+			"Deception": 2,
+			"Ranged Light": 2,
+			"Brawl": 2,
+			"Skulduggery": 3,
+			"Stealth": 3,
+			"Streetwise": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2",
+		{
+				"name": "Natural",
+				"description": "Once per session, use this talent to reroll any one  Skulduggery or Stealth check."
+			}],
+		"abilities": [
+			{"name": "One Step Ahead", "description": "Once per round, after an opponent performs an action or maneuver, may spend one Story Point to perform an action or a maneuver as an out-of-turn incidental."}],
+		"weapons": [
+			{
+				"name": "Silenced Pistol",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short"
+				}
+		],
+		"gear": ["Encrypted cell phone"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:5", "Social CR:4", "General CR:5"]
+	},
+	{
+		"name": "Local Official",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 1,
+			"Coercion": 3,
+			"Deception": 1,
+			"Leadership": 2,
+			"Negotiation": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Scathing Tirade (Improved)"],
+		"abilities": [
+			{"name": "Good at Needling", "description": "If this character knows an opponent’s Flaw Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain."}],
+		"weapons": [
+		],
+		"gear": ["Fine clothing, official credentials or badge of office"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:5", "General CR:2"]
+	},
+	{
+		"name": "Militia",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Coercion","Ranged: Heavy"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Assault Rifle",
+				"skill": "Ranged: Heavy",
+				"damage": 8,
+				"critical": 3,
+				"range": "Long",
+				"qualities": ["Auto-fire"]
+			}
+		],
+		"gear": ["Fatigues: +1 soak"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Street Tough",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Coercion","Melee"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Studded gloves",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Knockdown"]
+			},
+			{
+				"name": "Club",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged"
+				}
+		],
+		"gear": ["Heavy Clothing: +1 soak"],
+		"tags": ["source:GCRB", "Official", "setting:Modern", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Ancestral Throwback",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Stealth": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Evolutionary Niche", "description": "Before using this character, choose one of the following abilities: Arthropod: Has a thick exoskeleton and adds +2 to its soak value, Aquatic: Never treats water as difficult terrain and can breathe underwater, Arboreal: Treats vertical surfaces and forested areas as normal terrain, or Avian: May fly, as per page 100 of the Genesys Core Rulebook."}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:3", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Angry Villager",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Melee","Ranged: Light"],
+		"talents": [],
+		"abilities": [
+			{"name": "Flames of Fury", "description": "Increase the damage of a thrown torch by +1 for each additional minion in this minion group, to a maximum of +7"}],
+		"weapons": [
+			{
+				"name": "Pitchfork",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
+			},
+			{
+				"name": "Thrown torch",
+				"skill": "Ranged: Light",
+				"damage": 3,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Burn 3","Limited Ammo 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Failed Experiment",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 3,
+			"Resilience": 4,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Terrifying 3", 
+			{"name": "Unnatural Resilience", "description": "After suffering a Critical Injury, may spend one Story Point to reduce the Critical Injury result by -50; if this reduces the Critical Injury result to less than 01, the failed experiment does not suffer a Critical Injury."}, 
+			{"name": "We Belong Dead", "description": "Characters targeting this character with a social skill check suffer 3 strain."}],
+		"weapons": [
+			{
+				"name": "Huge fists",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown", "Vicious 2"]
+			}
+		],
+		"gear": ["Ill-fitting clothing"],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:5", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Feral Lycanthrope",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Charm": 2,
+			"Coercion": 2,
+			"Cool": 3,
+			"Coordination": 2,
+			"Deception": 2,
+			"Perception": 3,
+			"Ranged: Light": 2,
+			"Stealth": 3,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{"name": "Bite of the Wolf", "description": "When a feral lycanthrope in their animal form makes an unarmed attack and inflicts a Critical Injury result of 51 or higher on a human PC or human nemesis NPC [your GM has final say on what counts as human], the character gains the Bite of the Wolf and Call of the Moon abilities [if the target is a PC, use the abilities listed in the cursed shifter archetype found on page 20 instead])."}, 
+			{"name": "Call of the Moon", "description": "When the full moon rises, this character transforms into a monstrous wolf or giant hunting cat as an out-of-turn incidental; they heal all strain they are currently suffering, increase their Brawn and Agility by one to a maximum of 5, and reduce their Intellect and Willpower by one to a minimum of 1; all opponents must halve the damage dealt to this character while transformed before applying soak, unless their weapon is made of silver or uses silver ammunition; the transformation lasts until the following dawn or until this character is incapacitated due to exceeding their wound threshold."}, 
+			{"name": "Heart of Darkness", "description": "Once per session, spend a Story Point to have this character transform, no matter the circumstances; the transformation lasts until the following dawn."}],
+		"weapons": [
+			{
+				"name": "Pistol",
+				"skill": "Ranged: Light",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Accurate 1"]
+			},
+			{
+				"name": "Monstrous claws and fangs",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Hand-made leather clothing"],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:8", "Social CR:3", "General CR:5"]
+	},
+	{
+		"name": "Mad Scientist",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 5,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 14,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 3,
+			"Discipline": 2,
+			"Knowledge: Science": 4,
+			"Mechanics": 3,
+			"Medicine": 4,
+			"Melee": 2,
+			"Skulduggery": 1,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{"name": "Arterial Strike", "description": "When this character inflicts a Critical Injury with a Melee combat check, spend a Story Point to inflict the Bleeding Out Critical Injury in-stead of rolling a result."}, 
+			{"name": "Master of the Lightning", "description": "Once per encounter, may make a :hard: Knowledge (Science) check as an action; if successful, one target within long range suffers 10 damage to their strain threshold (+1 damage per :success:) and a Critical Injury; may spend :advantage::advantage: or :triumph: to inflict the same damage and a Critical Injury on an additional target within long range."}, 
+			{"name": "They Dare Call Me Mad?", "description": "Characters targeting this character with a social skill check suffer 2 strain)."}],
+		"weapons": [
+			{
+				"name": "Scalpels",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"gear": ["Heavy lab coat: +1 soak.","Galvanic device of terrifying potential", "Notebook filled with results of forbidden experiments"],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:6", "Social CR:7", "General CR:5"]
+	},
+	{
+		"name": "Mummy",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 4,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 25,
+			"strain": 22,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Discipline": 4,
+			"Knowledge: Supernatural": 4,
+			"Perception": 4,
+			"Stealth": 3,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3"],
+		"abilities": [
+			{"name": "Magical Reanimation", "description": "Does not need to breathe, eat, or drink; immune to poisons and toxins"}, 
+			{"name": "Vulnerable to Fire", "description": "Hits from fire or a weapon with the Burn item quality ignore this character’s soak."}],
+		"weapons": [
+			{
+				"name": "Grasping hands",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Ensnare 1","Knockdown"]
+			}
+		],
+		"gear": ["Enchanted bandages (+4 soak)"],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR:5", "General CR:7"]
+	},
+	{
+		"name": "Vampire",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 20,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Cool": 3,
+			"Coordination": 4,
+			"Deception": 3,
+			"Discipline": 4,
+			"Knowledge: Supernatural": 2,
+			"Perception": 3,
+			"Stealth": 4,
+			"Survival": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3"],
+		"abilities": [
+			{"name": "Blood Call", "description": "When this character inflicts wounds on a target using their fangs, they heal 4 strain and 4 wounds."}, 
+			{"name": "Sunlight Sensitivity", "description": "While exposed to direct sunlight, this character halves their strain threshold and wound threshold."}, 
+			{"name": "Undead", "description": "Does not need to breathe, eat, or drink [except blood], can survive underwater, and is immune to poisons and toxins."}, 
+			{"name": "Vulnerable Heart", "description": "When this character suffers a Critical Injury from a weapon made of wood, such as a stake or crossbow bolt, they add +40 to the Critical Injury result."}],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 3"]
+			}
+		],
+		"gear": ["Ancient but well-preserved clothing, deeds to assorted estates"],
+		"tags": ["source:EPG", "Official", "setting:Monsterworld", "Combat CR:9", "Social CR:7", "General CR:10"]
+	},
+	{
+		"name": "Apocalyptic Raider",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [1,1]
+		},
+		"skills": ["Athletics","Brawl","Driving","Melee","Ranged: Light"],
+		"talents": [],
+		"abilities": [
+			"Momentum"],
+		"weapons": [
+			{
+				"name": "Heavy blade",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			},
+			{
+				"name": "Zipgun",
+				"skill": "Ranged: Light",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Inferior","Limited Ammo 1"]
+			}
+		],
+		"gear": ["Sports pads: +1 soak, 1 defense"],
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Freeholder",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Discipline": 2,
+			"Leadership": 2,
+			"Medicine": 2,
+			"Ranged: Heavy": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Jack of All Trades", "description": "Once per session, may spend a Story Point to increase ranks in one skill by two for the remainder of the encounter."}],
+		"weapons": [
+			{
+				"name": "Old shotgun",
+				"skill": "Ranged: Heavy",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Blast 4","Knockdown","Vicious 2"]
+			}
+		],
+		"gear": ["Homespun armor: +2 soak.","Badge of office, ledger book"],
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Irradiated Mutant",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 7,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Resilience","Survival","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{"name": "Radioactive", "description": "At the end of an encounter in which a target was hit by a combat check from this character, that target must make a :hard: Resilience check or suffer one level of radiation (See A Certain Glow, EPG page 29)."}],
+		"weapons": [
+			{
+				"name": "Filthy claws",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 2"]
+			}
+		],
+		"gear": ["Rags, several pieces of scrap"],
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Rad-Gator",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 40,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 2,
+			"Cool": 4,
+			"Perception": 3,
+			"Ranged: Heavy": 1,
+			"Stealth": 3,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			"Amphibious", 
+			{"name": "Death Roll", "description": "When this character makes a successful Brawl combat check against an immobilized target, it may inflict a Critical Injury without spending :advantage: or :triumph:; it may still spend :advantage::advantage::advantage: or :triumph: to add +10 to the results."}, 
+			{"name": "Eight-legged", "description": "Cannot be knocked prone or immobilized."}, "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Huge crushing jaws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Ensnare 2","Vicious 2"]
+			},
+			{
+				"name": "Acid blast",
+				"skill": "Ranged: Heavy",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Burn 2","Pierce 4","Sunder"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:8", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Warlord",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Coercion": 4,
+			"Leadership": 2,
+			"Melee": 2,
+			"Ranged: Light": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{"name": "Might Makes Right", "description": "After this character inflicts a Critical Injury, decrease the difficulty of all Coercion and Leadership checks they make by one, to a minimum of :easy:, until the end of the encounter; this ability may be triggered multiple times)."}, 
+			{"name": "…And I’m Always Right", "description": "May make a :hard: Leadership check; if successful, allies within medium range may perform a second maneuver during their turn without suffering strain; this character may spend :advantage: to increase the damage of affected allies’ attacks by an amount equal to the :advantage: spent; both of these effects last until the end of this character’s next turn."}],
+		"weapons": [
+			{
+				"name": "Heavy revolver",
+				"skill": "Ranged: Light",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Accurate 1","Limited Ammo 5"]
+			},
+			{
+				"name": "Aluminum bat wrapped in barbed wire",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"gear": ["Spiky armor: +2 soak, when targeted by a melee combat check, may spend :threat::threat: or :despair: to have the attacker suffer 2 wounds.","Megaphone"],
+		"tags": ["source:EPG", "Official", "setting:Post Apocalypse", "Combat CR:6", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Bear",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 3,
+			"Coercion": 3,
+			"Perception": 2,
+			"Resilience": 2,
+			"Survival": 4
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Knockdown"]
+			},
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Big Cat",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Cool": 3,
+			"Coordination": 2,
+			"Perception": 2,
+			"Stealth": 2
+		},
+		"talents": ["Swift"],
+		"abilities": [
+			{"name": "Ambush Predator", "description": "When attacking a target that has not yet acted during the current encounter, this creature adds :boost::boost: to its combat checks."}, 
+			{"name": "Pounce", "description": "Once per turn, while at short range this creature may perform a move maneuver to engage a target as an incidental."}],
+		"weapons": [
+			{
+				"name": "Claws and fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Bull",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 1,
+			"Coercion": 2,
+			"Resilience": 3
+		},
+		"talents": ["Bullrush"],
+		"abilities": ["Encumbrance Capacity 18", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Horns",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Dog",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 1,
+			"Charm": 2,
+			"Perception": 1,
+			"Survival": 1,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Pack Fighter", "description": "If this creature makes a successful combat check, the next ally making a combat check against the same target during the same round adds :advantage::advantage: to the results."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Elephant",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 35,
+			"strain": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Discipline": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": ["Encumbrance Capacity 30", "Silhouette 3", 
+			{"name": "Toss", "description": "After making a combat check, this creature may spend :triumph: to move the target up to short range, inflict 4 strain, and knock the target prone."}],
+		"weapons": [
+			{
+				"name": "Tusks and trampling feet",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:8", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Falcon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Perception": 3,
+			"Vigilance": 3
+		},
+		"talents": [],
+		"abilities": [
+			"Flyer", "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Claws and beak",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Horse",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Resilience"],
+		"talents": [],
+		"abilities": ["Encumbrance Capacity 12", "Silhouette 2"],
+		"weapons": [
+			{
+				"name": "Hooves",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Stun 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Kraken",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 80,
+			"strain": 40,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 4,
+			"Brawl": 4,
+			"Perception": 2,
+			"Survival": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Amphibious", 
+			{"name": "Crush", "description": "While engaged with a vehicle, this creature may make a :hard: Athletics check as an action; if the check is successful, the vehicle suffers a Critical Hit and may not move during the following round."}, 
+			{"name": "Multitentacled", "description": "After making a successful combat check, this creature may spend 3 strain to inflict one additional hit with its thrashing tentacles against one other target within short range that is no more difficult to hit than original target, dealing base damage +1 per :success:; it may do so up to three times."}, "Silhouette 5"],
+		"weapons": [
+			{
+				"name": "Multiple thrashing tentacles",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 5,
+				"range": "Short",
+				"qualities": ["Ensnare 3","Knockdown"]
+			},
+			{
+				"name": "Piercing beak",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Breach 1","Vicious 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:16", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Shark",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 21,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Perception": 3,
+			"Stealth": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Aquatic Creature"],
+		"weapons": [
+			{
+				"name": "Powerful jaws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1","Vicious 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Venomous Snake",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 4,
+			"defence": [0,2]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 2,
+			"Perception": 2,
+			"Survival": 2
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Neurotoxin", "description": "If this creature inflicts wounds with a combat check, the target must make a :hard: Resilience check; upon failure, the target suffers 5 wounds, plus 1 strain per :threat:; :despair: means the target must make another Resilience check at the same difficulty at the start of their next turn or suffer the same effects."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Fangs",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 5,
+				"range": "[Engaged",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Wolf",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Coercion","Survival"],
+		"talents": [],
+		"abilities": [
+			{"name": "Pack Tactics", "description": "When this creature's minion group consists of at least two minions and is engaged with a target, they can spend a maneuver to prevent the target from disengaging from the minion group until the end of their next turn and to add :advantage::advantage: to their next combat check against that target."}, "Silhouette 0"],
+		"weapons": [
+			{
+				"name": "Bite",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Knockdown","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Advisor",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"strain": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 3,
+			"Deception": 3,
+			"Discipline": 3,
+			"Knowledge": 4,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Second Wind 3"],
+		"abilities": [
+			{"name": "Take a Breath", "description": "Once per encounter, may suffer 2 strain as an out-of-turn incidental during an ally’s turn; the ally loses a maneuver and either heals 6 strain or may reroll a fear check they just failed."}],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Blueblood",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Coercion": 3,
+			"Discipline": 1,
+			"Knowledge": 4,
+			"Leadership": 3,
+			"Perception": 1
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Let Me Get You Something", "description": "Once per encounter, this character may give another character 100 currency to downgrade the difficulty of the next social check they make targeting that character."}],
+		"weapons": [
+		],
+		"gear": ["Formal clothing, expensive jewelry, unlimited funds"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Healer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 1,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 2,
+			"Knowledge": 3,
+			"Medicine": 4,
+			"Negotiation": 1,
+			"Perception": 1
+		},
+		"talents": ["Surgeon 2"],
+		"abilities": [
+			{"name": "Time to Heal", "description": "If this character is caring for a character who is benefiting from natural rest, the resting character heals 2 wounds each night and decreases the difficulty of any Resilience checks they make to heal Critical Injuries by 1, to a minimum of :easy:."}],
+		"weapons": [
+		],
+		"gear": ["Healer’s garb, doctor’s tools"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Fixer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Computers": 3,
+			"Knowledge": 1,
+			"Mechanics": 3,
+			"Negotiation": 2,
+			"Perception": 3
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Many Hands Make Light the Load", "description": "If this character provides assistance when another character makes a Mechanics check to repair a vehicle, increase the hull trauma or system strain repaired by 2; if the check is being made to repair a Critical Hit, reduce the difficulty of the check by 1, to a minimum of :easy:; this is in addition to the other benefits of assistance."}],
+		"weapons": [
+		],
+		"gear": ["Toolkit"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:3"]
+	},
+	{
+		"name": "Laborer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 6,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Resilience"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Damage 3",
+				"damage": "Brawl",
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1","Knockdown"]
+			}
+		],
+		"gear": ["Work clothes"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Leader",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 12,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 2,
+			"Deception": 2,
+			"Discipline": 2,
+			"Knowledge": 3,
+			"Leadership": 3,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 1","Clever Retort","Ruinous Repartee"],
+		"abilities": [
+			{"name": "Let’s Make a Deal", "description": "If this character knows an opponent’s Desire Motivation, when this character inflicts strain on the opponent, the opponent suffers 4 additional strain."}],
+		"weapons": [
+		],
+		"gear": ["Formal clothing"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:8", "General CR:3"]
+	},
+	{
+		"name": "Manager",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Leadership": 3,
+			"Operating": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Inspiring Rhetoric (Improved)"],
+		"abilities": [
+			"Corporate Oversight"],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "Paper Pusher",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+
+		"derived": {
+			"soak": 1,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Cool", "Computers", "Knowledge", "Perception"],
+		"talents": [],
+		"abilities": [
+			{"name": "Red Tape", "description": "Once per encounter, as an action, make an opposed Knowledge versus Cool check targeting one character in the encounter; if successful, the target increases the difficulty of all social skill checks they make by two, to a maximum of :formidable:, until the end of the encounter."}],
+		"weapons": [
+		],
+		"gear": ["Attire appropriate to the place of work"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Seller",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 7,
+			"strain": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 2,
+			"Cool": 3,
+			"Deception": 3,
+			"Knowledge": 2,
+			"Negotiation": 3,
+			"Streetwise": 1
+		},
+		"talents": ["Indomitable","Second Wind 3"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["Rumpled and worn professional attire"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:5", "General CR:2"]
+	},
+	{
+		"name": "Tracker",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coercion": 1,
+			"Ranged": 3,
+			"Survival": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Hamstring Shot"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Wanderer",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Charm": 2,
+			"Cool": 1,
+			"Knowledge": 2,
+			"Mechanics": 1,
+			"Negotiation": 1,
+			"Resilience": 3,
+			"Streetwise": 2,
+			"Survival": 2,
+			"Vigilance": 3
+		},
+		"talents": ["Animal Companion"],
+		"abilities": [
+			{"name": "Been There, Done That", "description": "When providing assistance, this character adds :success::advantage: to the results in-stead of :boost:)"}],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Damage 3",
+				"damage": "Brawl",
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Knockdown"]
+			}
+		],
+		"gear": ["Rugged clothes"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Ace",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 1,
+			"Coordination": 2,
+			"Gunnery": 3,
+			"Mechanics": 1,
+			"Piloting": 4,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Barrel Roll","Defensive Driving 2"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Attacker",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 2,
+			"Coercion": 2,
+			"Coordination": 3,
+			"Discipline": 2,
+			"Melee": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{"name": "Momentum", "description": "If this character performed a move maneuver, they add 3 to the damage of one hit of any successful Brawl or Melee combat checks they make during the same turn."}],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Defender",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 12,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Cool": 1,
+			"Discipline": 3,
+			"Melee": 3,
+			"Ranged": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Body Guard 2","Rapid Reaction 2"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:5", "Social CR:3", "General CR:2"]
+	},
+	{
+		"name": "Field Leader",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Discipline": 1,
+			"Drive": 2,
+			"Leadership": 2,
+			"Melee": 2,
+			"Perception": 1,
+			"Ranged": 2,
+			"Survival": 1
+		},
+		"talents": ["Adversary 1","Field Commander"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:3", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "General",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 16,
+			"strain": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coercion": 4,
+			"Cool": 2,
+			"Knowledge": 3,
+			"Leadership": 5,
+			"Melee": 1,
+			"Ranged": 1
+		},
+		"talents": ["Adversary 2","Coordinated Assault 4"],
+		"abilities": [
+			{"name": "Strategic Coordination", "description": "Once per encounter, may make a :daunting: Leadership check; if successful, until the end of the encounter, all allies in the encounter may perform an additional move maneuver on their turn without downgrading their action or suffering strain—but they still may only perform two maneuvers during their turn."}],
+		"weapons": [
+		],
+		"gear": ["Uniform"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:6", "General CR:3"]
+	},
+	{
+		"name": "Gunner",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [0,1]
+		},
+		"skills": ["Athletics", "Discipline", "Gunnery", "Mechanics"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:2"]
+	},
+	{
+		"name": "Medic",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 11,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Cool": 3,
+			"Discipline": 2,
+			"Medicine": 2,
+			"Melee": 2,
+			"Ranged": 1
+		},
+		"talents": ["Combat Medicine 2","Painkiller Specialization 2"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": ["2 painkillers (or setting equivalent)", "Medical supplies (can make Medicine checks without penalty)"],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Ranger",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Cool": 3,
+			"Melee": 1,
+			"Perception": 3,
+			"Ranged": 3,
+			"Stealth": 3,
+			"Survival": 4
+		},
+		"talents": ["Adversary 2","Hamstring Shot","Heightened Awareness"],
+		"abilities": [],
+		"weapons": [
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:4", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "Sapper",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 13,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Discipline": 2,
+			"Mechanics": 4,
+			"Melee": 3,
+			"Perception": 2,
+			"Ranged": 2,
+			"Resilience": 4
+		},
+		"talents": [],
+		"abilities": [
+			{"name": "Destroy Terrain", "description": "When engaged with a silhouette 2 or smaller terrain feature that is providing cover or obstructs movement—such as a section of fence, foxhole, door, or sandbagged emplacement—this character may spend an action and make a :hard: Mechanics check; if the check succeeds the terrain feature is destroyed and no longer provides cover or obstructs movement."}, 
+			{"name": "Flush Target", "description": "After making a combat check targeting a character in cover, may spend :advantage::advantage: or :triumph: to force the character to immediately move out of cover as an out-of-turn incidental."}],
+		"weapons": [
+			{
+				"name": "Hatchet or similar tool",
+				"skill": "Melee: Light",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:2", "Social CR:1", "General CR:4"]
+	},
+	{
+		"name": "Warrior",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics", "Brawl", "Discipline", "Melee", "Ranged"],
+		"talents": [],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Disorient 1","Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:EPG", "Official", "setting:General", "Combat CR:1", "Social CR:1", "General CR:1"]
+	}
+]

@@ -25,5 +25,7 @@ export const SKILL_STORE = "swa-skills";
 export const MINION = "Minion";
 export const RIVAL = "Rival";
 export const NEMESIS = "Nemesis";
+export const APEX_NEMESIS = "Apex Nemesis";
+export const PARAGON_NEMESIS = "Paragon Nemesis";
 
 export const COLOURS = ["blue", "green", "yellow", "orange", "red", "purple", "gray", "black"];

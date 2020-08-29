@@ -56,7 +56,7 @@ class App extends React.Component {
 			stored.filter(a => a.id).forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
-			let tags = ["minion", "rival", "nemesis"];
+			let tags = ["minion", "rival", "nemesis", "apex nemesis"];
 
 			adversaries.forEach(a => {
 				if(favourites.indexOf(a.id) != -1) {

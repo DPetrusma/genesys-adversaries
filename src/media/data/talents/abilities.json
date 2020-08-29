@@ -1070,5 +1070,13 @@
 	{
 		"name": "Spells (Runes)",
 		"description": "This character can choose any magic action allowed for the Runes skill, and may select additional spell effects as normal. The spells they use most often are the following:"
+	},
+	{
+		"name": "Dark Sight",
+		"description": "Can see in the absence of light without penalty."
+	},
+	{
+		"name": "Demon",
+		"description": "This adversary is affected by abilities affecting demons."
 	}
 ]
