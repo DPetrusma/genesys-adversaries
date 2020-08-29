@@ -272,7 +272,7 @@
 	{
 		"name": "Elder Nyyon",
 		"type": "Nemesis",
-		"description": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)"
+		"description": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
