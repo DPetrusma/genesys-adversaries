@@ -1,55 +1,3 @@
-C AptAin v Al j eriCho (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-2 3 3 4 4 4
-3 18 21 1 1
-Power Level:  c 6,  p 7,  g 5
-Motivations: Desire (Knowledge), Fear (Humiliation),
-Strength (Curious), Flaw (Obsession).
-Skills: Athletics 2 (ll), Charm 2 (llkk), Discipline
-3 (lllk), Knowledge (Culture) 4 (llll), Lead-
-ership 3 (lllk), Negotiation 2 (llkk), Ranged 2
-(llk), Vigilance 2 (llkk).
-Talents:
-• Adversary 2: Upgrade difficulty of all combat checks
-against this target twice.
-Abilities:
-• For the Alliance!: When making a combat skill
-check, Captain Jericho may spend a to let a member
-of her crew in the current encounter immediately
-perform a maneuver as an out-of-turn incidental;
-she may instead spend :advantage::advantage::advantage: or :triumph: to let up to thee
-crew members in the current encounter perform an
-immediate action as an out-of-turn incidental.
-• Heroic Captain: May spend a Story Point to suffer 2
-strain and add :triumph: to the next combat or social skill
-check she makes.
-Equipment:
-• Blazer pistol: Ranged; Damage 6; Critical 4; Range
-(Medium); Stun 3.
-• Star Alliance captain's uniform: 1 defense, +1 soak.
-• Wrist module.
-Source: SotC p. 208
-C yBer r At (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-2 2 1 3 1 1
-Soak Value w. Threshold M/r Defense
-3 3 1 2
-Power Level:  c 2,  p 1,  g 1
-Skills (group only): Brawl, Skulduggery, Stealth,
-Vigilance.
-Talents:
-• None.
-Abilities:
-• Cyberbyte: After making a combat check, may
-spend :triumph: to have the target suffer a hit dealing damage
-equal to the base damage of one powered weapon
-the target possesses of the cyber rat's choice.
-• Silhouette 0.
-Equipment:
-• Metal jaws: Brawl; Damage 3; Critical 3; Range (En-
-gaged); Pierce 1, Vicious 1.
-Source: SotC p. 220
 d ArkwAter t ree (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 2 1 2 1 1
@@ -243,73 +191,6 @@ Source: SotC p. 220
 39
 Adversaries anthology
 GENESYS
-F AerieS And p ixieS (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-1 2 3 2 2 1
-Soak Value w. Threshold M/r Defense
-2 3 2 2
-Power Level:  c 2,  p 1,  g 2
-Skills (group only): Brawl, Mechanics, Perception,
-Survival.
-Talents:
-• None.
-Abilities:
-• Artificial: Does not need to breathe, eat, or drink,
-and can survive in vacuum and underwater; im-
-mune to poisons and toxins.
-• Flyer: Can fly; see the Flying sidebar on page 100 of
-the Genesys Core Rulebook.
-• Mischievous: as a maneuver, may distract one char-
-acter at short range; that character adds :boost: to their
-next check for each faerie or pixie in that minion
-group.
-• Silhouette 0.
-Equipment:
-• Stinger: Brawl; Damage 4; Critical 3; Range (En-
-gaged); Disorient 3.
-Source: SotC p. 222
-F uzzy g ruen (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-2 2 1 2 2 2
-Soak Value w. Threshold M/r Defense
-2 3 2 0
-Power Level:  c 1,  p 1,  g 1
-Skills (group only): Athletics, Brawl.
-Talents:
-• None.
-Abilities:
-• Amphibious: Can breathe underwater without pen-
-alty and never suffers movement penalties for travel-
-ing through water.
-• Painfully cute: When this character suffers wounds,
-all characters within short range suffer 2 strain.
-• Silhouette 0.
-Equipment:
-• Cuddly tentacles: Brawl; Damage 3; Critical 5;
-Range (Engaged); Ensnare 1.
-Source: SotC p. 222
-g loomwight (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-2 3 1 3 1 2
-Soak Value w. Threshold M/r Defense
-2 5 0 0
-Power Level:  c 3,  p 1,  g 1
-Skills (group only): Athletics, Brawl, Ranged.
-Talents:
-• None.
-Abilities:
-• Dark Sight: Can see in the absence of light without
-penalty.
-• Phase: Can ignore terrain penalties and move
-through solid matter (but cannot end their turn in-
-side solid matter).
-• Silhouette 0.
-Equipment:
-• Overphased rocks: Ranged; Damage 3; Critical 1;
-Range (Short); Blast 6.
-• Phase bite: Brawl; Damage 2; Critical 4; Range (En-
-gaged); Breach 1.
-Source: SotC p. 237
 g reen w Alker (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -419,24 +300,6 @@ Source: SotC p. 223
 41
 Adversaries anthology
 GENESYS
-h AlyArdS m Ate (m inion )
-Brawn Agility Intellect Cunning Willpower Presence
-2 3 2 2 2 1
-Soak Value w. Threshold M/r Defense
-2 4 0 0
-Power Level:  c 2,  p 1,  g 1
-Skills (group only): Gunnery, Mechanics, Melee,
-Operating, Perception
-Talents:
-• None.
-Abilities:
-• Airborne Expertise: May remove :boost::boost: from Operat-
-ing checks character in the encounter make to con-
-trol an airship or other flying vehicle.
-Equipment:
-• Æmberdrake fang dagger: Melee; Damage 3; Criti-
-cal 3; Range (Engaged); Pierce 4.
-Source: SotC p. 234
 i nkA the S pider (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence

@@ -2,7 +2,7 @@
 	{
 		"name": "Æmberdrake",
 		"type": "Nemesis",
-		"description": "Note to self: The fear check is upgraded twice. Show that somehow",
+		"notes": "Note to self: The fear check is upgraded twice. Show that somehow",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 3,
@@ -29,8 +29,14 @@
 		"abilities": [
 			"Flyer", "Silhouette 4", 
 			"Terrifying 4",
-			{"name": "Æmberbelly", "description": "A character may make a :hard: Survival check to open up a freshly slain Æmberdrake and remove two Æmber per :success: and five per :triumph: spent from the check in this way."}, 
-			{"name": "Tail Flick", "description": "May spend :triumph: on a successful Brawl combat check to inflict one Critical Hit on a vehicle of silhouette 3 or less at medium range."}
+			{
+				"name": "Æmberbelly",
+				"description": "A character may make a :hard: Survival check to open up a freshly slain Æmberdrake and remove two Æmber per :success: and five per :triumph: spent from the check in this way."
+			}, 
+			{
+				"name": "Tail Flick",
+				"description": "May spend :triumph: on a successful Brawl combat check to inflict one Critical Hit on a vehicle of silhouette 3 or less at medium range."
+			}
 		],
 		"weapons": [
 			{
@@ -272,7 +278,7 @@
 	{
 		"name": "Elder Nyyon",
 		"type": "Nemesis",
-		"description": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
+		"notes": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -388,7 +394,307 @@
 				"qualities": ["Inaccurate 1","Vicious 3"]
 			}
 		],
-		"gear": ["Rumpled clothing","Endless stacks of holoscrolls","Databooks","Forms-lots of forms"],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "City Enforcer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Melee","Coercion","Ranged"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Force of Justice",
+				"description": "Characters within short range of this character add :boost: to their combat checks provided those characters are acting to uphold local laws."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Stunner baton",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Stun damage"]
+			},
+			{
+				"name": "Stunner pistol",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Concussive 1","Stun damage"]
+			}
+		],
+		"gear": ["Uniform: +1 soak","Badge"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Cyber Rat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3,
+			"defence": [1,2]
+		},
+		"skills": ["Brawl","Skilduggery","Stealth","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Cyberbyte",
+				"description": "After making a combat check, may spend :triumph: to have the target suffer a hit dealing damage equal to the base damage of one powered weapon the target possesses of the cyber rat's choice."
+			},
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Metal jaws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Faeries and Pixies",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [2,2]
+		},
+		"skills": ["Brawl","Mechanics","Perception","Survival"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Mischievous",
+				"description": "As a maneuver, may distract one character at short range; that character adds :setback: to their next check for each faerie or pixie in that minion group."
+			},
+			"Artificial",
+			"Flyer",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Stinger",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3"]
+			}
+		],
+		"gear": [],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Fuzzy Gruen",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [2,0]
+		},
+		"skills": ["Brawl","Athletics"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Painfully cute",
+				"description": "When this character suffers wounds, all characters within short range suffer 2 strain."
+			},
+			"Amphibious",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Cuddly tentacles",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Gloomwight",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Athletics","Ranged"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Phase",
+				"description": "Can ignore terrain penalties and move through solid matter (but cannot end their turn inside solid matter)."
+			},
+			"Dark Sight",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Phase bite",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Breach 1"]
+			},
+			{
+				"name": "Overphased rocks",
+				"skill": "Ranged",
+				"damage": 3,
+				"critical": 1,
+				"range": "Short",
+				"qualities": ["Blast 6"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Halyards Mate",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Gunnery","Mechanics","Melee","Operating","Perception"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Airborne Expertise",
+				"description": "May remove :setback::setback: from Operating checks character in the encounter make to control an airship or other flying vehicle."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Æmberdrake fang dagger",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Captain Val Jericho",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 21,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 2,
+			"Discipline": 3,
+			"Knowledge (Culture)": 4,
+			"Leadership": 3,
+			"Negogiation": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Flyer", "Silhouette 4", 
+			"Terrifying 4",
+			{
+				"name": "For the Alliance!",
+				"description": "When making a combat skill check, Captain Jericho may spend a to let a member of her crew in the current encounter immediately perform a maneuver as an out-of-turn incidental; she may instead spend :advantage::advantage::advantage: or :triumph: to let up to three crew members in the current encounter perform an immediate action as an out-of-turn incidental."
+			}, 
+			{
+				"name": "Heroic Captain",
+				"description": "May spend a Story Point to suffer 2 strain and add :triumph: to the next combat or social skill check she makes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blazer pistol",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Star Alliance captain's uniform: 1 defense, +1 soak","Wrist module"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:7", "General CR:5"]
 	}
 ]
