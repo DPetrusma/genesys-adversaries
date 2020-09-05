@@ -673,8 +673,6 @@
 		},
 		"talents": ["Adversary 2"],
 		"abilities": [
-			"Flyer", "Silhouette 4", 
-			"Terrifying 4",
 			{
 				"name": "For the Alliance!",
 				"description": "When making a combat skill check, Captain Jericho may spend a to let a member of her crew in the current encounter immediately perform a maneuver as an out-of-turn incidental; she may instead spend :advantage::advantage::advantage: or :triumph: to let up to three crew members in the current encounter perform an immediate action as an out-of-turn incidental."
@@ -696,5 +694,324 @@
 		],
 		"gear": ["Star Alliance captain's uniform: 1 defense, +1 soak","Wrist module"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:7", "General CR:5"]
+	},
+	{
+		"name": "Dodger",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Belonging), Fear (Isolation), Strength (Adaptable), Flaw (Greed)",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Knowledge (Crucible)": 3,
+			"Melee": 3,
+			"Ranged": 3,
+			"Skuldugger": 2,
+			"Stealth": 4,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Dramatic Entrance"],
+		"abilities": [
+			{
+				"name": "Light Fingers",
+				"description": "After making a melee combat check, may spend :triumph: to steal one item of encumbrance 1 or less from the target."
+			}, 
+			{
+				"name": "Heroic Captain",
+				"description": "May spend a Story Point to suffer 2 strain and add :triumph: to the next combat or social skill check she makes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Twin crystal blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 2","Stun 3","Superior"]
+			},
+			{
+				"name": "Throwing stars",
+				"skill": "Ranged",
+				"damage": 4,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Accurate 1","Lnked 2"]
+			}
+		],
+		"gear": ["Stealth emitter-lined camo-clothing: 1 defense, +2 soak","Magnavistor","Dimensional satchel (SotC page 153) filled with all sorts of interesting things."],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:4", "General CR:7"]
+	},
+	{
+		"name": "Inka the Spider",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Fame), Fear (Poverty), Strength (Patient), Flaw (Pride)",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"strain": 12,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 4,
+			"Discipline": 4,
+			"Knowledge (Crucible)": 4,
+			"Knowledge (Culture)": 4,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Stealth": 4,
+			"Streetwise": 3,
+			"Survival": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Wallcrawler"],
+		"abilities": [
+			{
+				"name": "Friends in Spy Places",
+				"description": "A character must suffer 2 strain in order to make a combat check targeting Inka."
+			}, 
+			{
+				"name": "Leverage Fame",
+				"description": "After making a successful social skill check, this character heals 2 strain and may perform a second maneuver without spending strain (but cannot perform more than two maneuvers in their turn)."
+			}
+		],
+		"weapons": [],
+		"gear": ["Tiny quill and papers","Miniaturized spy gear","Comms"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:6", "General CR:1"]
+	},
+	{
+		"name": "Kelifi Dragon",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 42,
+			"strain": 24,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Knowledge (Æmber)": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Flyer","Silhouette 4"
+			{
+				"name": "Supersonic",
+				"description": "After spending two maneuvers to move through the air, as an action may make a :hard: Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
+			}, 
+			{
+				"name": "Sweep Attack",
+				"description": "May spend :triumph: on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Huge talons",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			},
+			{
+				"name": "Plasma flames",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 3"]
+			}
+		],
+		"gear": ["Plate armor: +5 soack"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Ether Spider",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 39,
+			"strain": 22,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 3,
+			"Ranged": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3"
+			{
+				"name": "Æmber Eater",
+				"description": "After making a successful Brawl combat check, may spend :advantage::advantage: or :triumph: to devour 1 Æmber the target possesses."
+			}, 
+			{
+				"name": "Terrifying Appearance",
+				"description": "At the start of the encounter, all opponents must make an :hard-1: fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook; if there are multiple sources of fear in the encounter, opponents only make one fear check against the most fearsome enemy."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 4,
+				"range": "Short",
+				"notes": "The difficulty for this check is always :average:"
+			},
+			{
+				"name": "Spinnerets",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Ensnare 3","Stun Damage"]
+			},
+			{
+				"name": "Venomous jaws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Chitinous skin: +4 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Green Walker",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 36,
+			"strain": 20,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Charm": 2,
+			"Brawl": 4,
+			"Knowledge (Crucible)": 4,
+			"Perception": 2,
+			"Stealth": 1,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3"
+			{
+				"name": "Woodlander",
+				"description": "While in a forested area, green walkers upgrade the ability of Cool and Stealth checks they make twice."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Thorny fists",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 2"],
+				"notes": "The difficulty for this check is always :average:"
+			}
+		],
+		"gear": ["Thick bark: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:10", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Guardian Demon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 11,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Medicine": 3,
+			"Melee": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Dark Sight","Demon","Regeneration",
+			{
+				"name": "Shift the Pain",
+				"description": "When this character heals wounds from itself or another demon character, may choose to have one non-demon character within short range suffer an equal amount of strain; when this character heals a Critical Injury that they or another demon character are currently suffering, may choose to have one non-demon character within short range suffer one Critical Injury."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blade of pain",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Superior","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:-", "General CR:4"]
 	}
 ]

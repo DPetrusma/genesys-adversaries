@@ -10,8 +10,7 @@ Talents:
 Abilities:
 • Æmber Extractor: A character may make a Hard
 (kkk) Survival check to dig one Æmber out of a
-destroyed tree and may spend :triumph: to extract two Æm-
-ber per :triumph: spent this way.
+destroyed tree and may spend :triumph: to extract two Æmber per :triumph: spent this way.
 • Immobile: Cannot spend maneuvers to move
 Equipment:
 • Iron branches: Brawl; Damage 9; Critical 4; Range
@@ -27,15 +26,13 @@ Soak Value w. Threshold M/r Defense
 Power Level:  c 4,  p 4,  g 3
 Skills: Coercion 2 (llk), Deception 3 (lll),
 Knowledge (Crucible) 3 (llk), Knowledge (Culture)
-2 (ll), Melee 1 (lk), Negotiation 3 (lll), Percep-
-tion 3 (lll), Stealth 2 (ll), Streetwise 3 (lll).
+2 (ll), Melee 1 (lk), Negotiation 3 (lll), Perception 3 (lll), Stealth 2 (ll), Streetwise 3 (lll).
 Talents:
 • Adversary 2: Upgrade difficulty of all combat checks
 against this target twice.
 Abilities:
 • Informed: When providing assistance to friendly
-character who are making a knowledge skill, Skul-
-duggery, or Streetwise check, this character instead
+character who are making a knowledge skill, Skulduggery, or Streetwise check, this character instead
 adds ss:threat::threat: to the results of the check.
 Equipment:
 • Crystal dagger: Melee; Damage 6; Critical 3; Range
@@ -47,43 +44,6 @@ Source: SotC p. 229
 37
 Adversaries anthology
 GENESYS
-d odger (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-3 4 3 4 2 3
-5 12 14 1 1
-Power Level:  c 8,  p 4,  g 7
-Motivations: Desire (Belonging), Fear (Isolation),
-Strength (Adaptable), Flaw (Greed).
-Skills: Cool 3 (lll), Coordination 3 (lllk),
-Discipline 3 (llk), Knowledge (Crucible) 3 (lll),
-Melee 3 (lll), Ranged 3 (lllk), Skulduggery 2
-(llkk), Stealth 4 (llll), Streetwise 3 (lllk),
-Vigilance 3 (llk).
-Talents:
-• Adversary 2: Upgrade difficulty of all combat checks
-against this target twice.
-• Dramatic Entrance: Once per session, may spend
-a Story Point to use this talent to enter a scene or
-encounter they are not currently participating in at
-an opportune time, no matter how unlikely their ar-
-rival. If the scene is a combat encounter or otherwise
-uses Initiative order, Dodger add a new NPC Initia-
-tive slot at the top of the Initiative order.
-Abilities:
-• Light Fingers: After making a melee combat check,
-may spend :triumph: to steal one item of encumbrance 1 or
-less from the target.
-Equipment:
-• Twin crystal blade: Melee; Damage 7; Critical 2; Range
-(Engaged); Accurate 2, Stun 3, Superior.
-• Throwing stars: Ranged; Damage 4; Critical 2;
-Range (Short); Accurate 1, Linked 2.
-• Stealth emitter-lined camo-clothing: 1 defense, +2
-soak.
-• Magnavistor, dimensional satchel (SotC page 153)
-filled with all sorts of interesting things.
-Source: SotC p. 241
 d ouBle -B eAked S pire B uzzArd (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 2 1 2 1 1
@@ -95,9 +55,7 @@ Talents:
 • None.
 Abilities:
 • Aerial Thief: May spend :triumph: when making a check to
-determine Initiative to steal one randomly deter-
-mined item of encumbrance 2 or less from the char-
-acter who generated the least :success: on their check.
+determine Initiative to steal one randomly determined item of encumbrance 2 or less from the character who generated the least :success: on their check.
 • Flyer: Can fly; see the Flying sidebar on page 100 of
 the Genesys Core Rulebook.
 Equipment:
@@ -119,8 +77,7 @@ Abilities:
 penalty.
 • Demon.
 • Feed on the Fallen: At the end of the eater of the
-dead's turn, if at short range of one or more non-de-
-mon characters suffering Critical Injuries, may heal
+dead's turn, if at short range of one or more non-demon characters suffering Critical Injuries, may heal
 a number of wounds that it is suffering equal to the
 total number of Critical Injuries.
 • Power from the Fallen: While engaged with a
@@ -156,68 +113,6 @@ Equipment:
 Range (Engaged); Pierce 3, Vicious 2.
 • Altered flesh: +3 soak
 Source: SotC p. 236
-e ther S pider (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-5 4 1 3 1 3
-9 39 22 0 0
-Power Level:  c 14,  p 2,  g 1
-Skills: Athletics 2 (llkkk), Brawl 3 (lllkk),
-Cool 3 (lll), Ranged 3, (lllk).
-Talents:
-• Adversary 2: Upgrade difficulty of all combat checks
-against this target twice.
-Abilities:
-• Æmber Eater: After making a successful Brawl
-combat check, may spend :advantage::advantage: or :triumph: to devour 1
-Æmber the target possesses.
-• Silhouette 3
-• Terrifying Appearance: At the start of the encoun-
-ter, all opponents must make an upgraded Hard
-(lkk) fear check as an out-of-turn incidental, as
-per page 243 of the Genesys Core Rulebook; if there
-are multiple sources of fear in the encounter, oppo-
-nents only make one fear check against the most
-fearsome enemy.
-Equipment:
-• Claws: Brawl; Damage 15; Critical 4; Range (Short);
-the difficulty for this check is always Average (kk).
-• Spinnerets: Ranged; Damage 5; Critical 2; Range
-(Short); Ensnare 3, Stun Damage.
-• Venomous jaws: Brawl; Damage 12; Critical 1;
-Range (Engaged); Disorient 2.
-• Chitinous skin: +4 soak.
-Source: SotC p. 220
-39
-Adversaries anthology
-GENESYS
-g reen w Alker (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-5 2 3 2 3 2
-8 36 20 2 0
-Power Level:  c 10,  p 3,  g 4
-Skills: Cool 1 (lk), Charm 2 (ll), Brawl 4
-(llllk), Knowledge (Crucible) 4 (lllk), Per-
-ception 2 (ll), Stealth 1 (lk), Survival 3 (llk),
-Vigilance 2 (llk).
-Talents:
-• Adversary 2: Upgrade difficulty of all combat checks
-against this target twice.
-Abilities:
-• Woodlander: While in a forested area, green walk-
-ers upgrade the ability of Cool and Stealth checks
-they make twice.
-• Silhouette 3.
-Equipment:
-• Thorny fists: Brawl; Damage 10; Critical 3; Range
-(Short); Pierce 2, the difficulty for this attack is al-
-ways Average (kk).
-• Thick bark: +3 soak.
-Source: SotC p. 237
-40
-Adversaries anthology
-GENESYS
 g rey m onk (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -244,36 +139,7 @@ Equipment:
 • Fists: Brawl; Damage 4; Critical 2; Range (Engaged);
 Disorient 2, Superior
 • Robes.
-Source: SotC p. 234
-g uArdiAn d emon (r ivAl )
-Brawn Agility Intellect Cunning Willpower Presence
-4 3 3 4 2 3
-Soak Value w. Threshold M/r Defense
-5 11 2 0
-Power Level:  c 6,  p -,  g 4
-Skills: Cool 2 (llk), Medicine 3 (lll), Melee 2
-(llkk).
-Talents:
-• Adversary 1: Upgrade difficulty of all combat checks
-against this target once.
-Abilities:
-• Dark Sight: Can see in the absence of light without
-penalty.
-• Demon.
-• Regeneration: At the beginning of their turn turn,
-this character heals 3 wounds.
-• Shift the Pain: When this character heals wounds
-from itself or another demon character, may choose
-to have one non-demon character within short
-range suffer an equal amount of strain; when this
-character heals a Critical Injury that they or anoth-
-er demon character are currently suffering, may
-choose to have one non-demon character within
-short range suffer one Critical Injury.
-Equipment:
-• Blade of pain: Melee; Damage 6; Critical 3; Range
-(Engaged); Superior, Vicious 2.
-Source: SotC p. 227
+
 g urgle p ool (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 4 2 1 3 1 1
@@ -296,44 +162,7 @@ quality is activated).
 Equipment:
 • Pseudopods: Brawl; Damage 8; Critical 3; Range
 (Engaged); Blast 8, Knockdown.
-Source: SotC p. 223
-41
-Adversaries anthology
-GENESYS
-i nkA the S pider (n emeSiS )
-Soak Value w. Threshold S. Threshold M/r Defense
-Brawn Agility Intellect Cunning Willpower Presence
-1 4 4 4 3 2
-2 8 12 2 2
-Power Level:  c 3,  p 6,  g 1
-Motivations: Desire (Fame), Fear (Poverty), Strength
-(Patient), Flaw (Pride).
-Skills: Charm 3 (llk), Cool 3 (llk), Coordination
-4 (llll), Discipline 4 (lllk), Knowledge (Cru-
-cible) 4 (llll), Knowledge (Culture) 4 (llll),
-Negotiation 3 (llk), Perception 4 (llll),
-Stealth 4 (llll), Streetwise 3 (lllk), Survival 4
-(llll), Vigilance 3 (lll).
-Talents:
-• Adversary 1: Upgrade difficulty of all combat checks
-against this target once.
-• Wallcrawler: Can move across vertical surface as
-easily as horizontal surfaces. In addition, when this
-character attempts to reduce the damage taken from
-falling, reduce the difficulty of the Athletics or Coor-
-dination check by one.
-Abilities:
-• Friends in Spy Places: A character must suffer 2
-strain in order to make a combat check targeting Inka.
-• Leverage Fame: After making a successful social
-skill check, this character heals 2 strain and may
-perform a second maneuver without spending strain
-(but cannot perform more than two maneuvers in
-their turn).
-Equipment:
-• Tiny quill and papers, miniaturized spy gear and
-comms.
-Source: SotC p. 242
+
 i nSpired A dept (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 3 2 3 2

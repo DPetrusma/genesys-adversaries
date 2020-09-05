@@ -732,7 +732,7 @@
 		"description": "Immune to the effects of heat and hot environments."
 	},
 	{
-		"name": "Su­premely Terrifying",
+		"name": "Supremely Terrifying",
 		"description": "Upon first seeing a sando aqua monster, an individual must make a :daunting-1: fear check to reflect the sheer dread the beast invokes."
 	},
 	{
@@ -1078,5 +1078,9 @@
 	{
 		"name": "Demon",
 		"description": "This adversary is affected by abilities affecting demons."
+	},
+	{
+		"name": "Regeneration",
+		"description": "At the beginning of its turn, this creature automatically heals 3 wounds."
 	}
 ]
