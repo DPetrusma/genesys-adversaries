@@ -2184,5 +2184,9 @@
 	{
 		"name": "Wallcrawler",
 		"description": "Can move across vertical surface as easily as horizontal surfaces. In addition, when this character attempts to reduce the damage taken from falling, reduce the difficulty of the Athletics or Coordination check by one."
+	},
+	{
+		"name": "Heightened Awareness",
+		"description": "Allies within short range add :boost: to Perception and Vigilance checks, engaged allies add :boost::boost: instead."
 	}
 ]
