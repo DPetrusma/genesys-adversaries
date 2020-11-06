@@ -2188,5 +2188,10 @@
 	{
 		"name": "Heightened Awareness",
 		"description": "Allies within short range add :boost: to Perception and Vigilance checks, engaged allies add :boost::boost: instead."
+	},
+	{
+		"name": "Implacable",
+		"description": "When this character is targeted by a social skill check, they reduce any strain they suffer as a result of that check by {ranks}.",
+		"ranked": true
 	}
 ]

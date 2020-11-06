@@ -1262,7 +1262,7 @@
 			"Survival": 4
 		},
 		"talents": ["Adversary 2","Heightened Awareness"],
-		"abilities": ["Dark Sight","Demon",
+		"abilities": [
 			{
 				"name": "Nepenthe Expert",
 				"description": "Once per encounter as an action, instead of using its normal effects may ingest a nepenthe seed to either remove 5 strain or ignore the effects of the next failed fear check." 
@@ -1419,5 +1419,143 @@
 		],
 		"gear": [],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Eater of the Dead",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Medicine": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Dark Sight", "Demon",
+			{
+				"name": "Feed on the Fallen",
+				"description": "At the end of the Eater of the Dead's turn, if at short range of one or more non-demon characters suffering Critical Injuries, may heal a number of wounds that it is suffering equal to the total number of Critical Injuries."
+			},
+			{
+				"name": "Power from the Fallen",
+				"description": "While engaged with a non-demon character, increase this character's Brawn by one for each Critical Injury the non-demon character is currently suffering to a maximum of 5 (this also increases the damage of this character's claws and teach and this character's soak value)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:-", "General CR:2"]
+	},
+	{
+		"name": "Escaped Experiment",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 3,
+			"Resilience": 2
+		},
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Fragmented Memories",
+				"description": "Add :proficiency::challenge: to social skill checks targeting this character."
+			},
+			{
+				"name": "Mutating",
+				"description": "At the start of each encounter, may suffer 1 wound to gain one species feature generated at random from Table 1-8: Species Features on SotC page 47"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bioengineered talons",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 2"]
+			}
+		],
+		"gear": ["Altered flesh: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:3"]
+	},
+	{
+		"name": "Grey Monk",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Culture": 3,
+			"Medicine": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Implacable 2"],
+		"abilities": [
+			{
+				"name": "Mystical Healing",
+				"description": "Decrease the difficulty of all Medicine checks made within short range of a Grey Monk by one." 
+			},
+			{
+				"name": "Protective Aura",
+				"description": "Allies gain +1 soak while within short range of a Grey Monk; this stacks with multiple monks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Superior"]
+			}
+		],
+		"gear": ["Robes"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:6", "General CR:6"]
 	}
 ]
