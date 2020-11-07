@@ -834,7 +834,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2"],
-		"abilities": ["Flyer","Silhouette 4"
+		"abilities": ["Flyer","Silhouette 4",
 			{
 				"name": "Supersonic",
 				"description": "After spending two maneuvers to move through the air, as an action may make a :hard: Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
@@ -889,7 +889,7 @@
 			"Ranged": 3
 		},
 		"talents": ["Adversary 2"],
-		"abilities": ["Silhouette 3"
+		"abilities": ["Silhouette 3",
 			{
 				"name": "Æmber Eater",
 				"description": "After making a successful Brawl combat check, may spend :advantage::advantage: or :triumph: to devour 1 Æmber the target possesses."
@@ -956,7 +956,7 @@
 			"Vigilance": 2
 		},
 		"talents": ["Adversary 2"],
-		"abilities": ["Silhouette 3"
+		"abilities": ["Silhouette 3",
 			{
 				"name": "Woodlander",
 				"description": "While in a forested area, green walkers upgrade the ability of Cool and Stealth checks they make twice."
@@ -1089,7 +1089,7 @@
 	{
 		"name": "Pingle",
 		"type": "Nemesis",
-		"notes": "Desire (Survival), Fear (Pain), Strength (Independent), Flaw (Annoying)"
+		"notes": "Desire (Survival), Fear (Pain), Strength (Independent), Flaw (Annoying)",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 4,
@@ -1557,5 +1557,92 @@
 		],
 		"gear": ["Robes"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:6", "General CR:6"]
+	},
+	{
+		"name": "Gurgle Pool",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2
+		},
+		"talents": ["Artificial"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Drain Vigor",
+				"description": "As an Incidental, at the start of their turn, characters engaged with a gurgle pool must make a :hard: Resilience check or suffer 3 strain."
+			},
+			{
+				"name": "Liquid Defenses",
+				"description": "Halve the damage dealt to the pool before applying soak, unless the weapon has the Blast or Burn quality (regardless of whether the quality is activated)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Blast 8", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Inspired Adept",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 3,
+			"Medicine": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Heightened Awareness","Surgeon 2"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Calm Center",
+				"description": "May remove :boost: from Cool, Discipline, and Vigilance checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists and feet",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Superior"]
+			}
+		],
+		"gear": ["Simple garb","Journal","Æmber amulet"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:3", "General CR:3"]
 	}
 ]

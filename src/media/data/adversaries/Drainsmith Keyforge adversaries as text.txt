@@ -1,51 +1,3 @@
-g urgle p ool (r ivAl )
-Brawn Agility Intellect Cunning Willpower Presence
-4 2 1 3 1 1
-Soak Value w. Threshold M/r Defense
-4 14 0 0
-Power Level:  c 4,  p 1,  g 1
-Skills: "Brawl": 2.
-Talents:
-Artificial: Does not suffer penalties for moving
-through difficult terrain.
-Abilities:
-Drain Vigor: As an Incidental, at the start of their turn,
-characters engaged with a gurgle pool must make a
-:hard: Resilience check or suffer 3 strain.
-Liquid Defenses: Halve the damage dealt to the
-pool before applying soak, unless the weapon has
-the Blast or Burn quality (regardless of whether the
-quality is activated).
-Silhouette 2.
-Equipment:
-Pseudopods: Brawl; Damage 8; Critical 3; Range
-(Engaged); Blast 8, Knockdown.
-
-i nSpired A dept (r ivAl )
-Brawn Agility Intellect Cunning Willpower Presence
-3 3 3 2 3 2
-Soak Value w. Threshold M/r Defense
-3 10 1 0
-Power Level:  c 4,  p 3,  g 3
-Skills: "Brawl": 3, "Cool": 2, Discipline
-3, "Medicine": 2,"Perception": 2,
-"Vigilance": 2.
-Talents:
-Heightened Awareness: Allies at short range add :boost:
-to their"Perception": and "Vigilance": check; allies at engaged range add :boost::boost: instead.
-Surgeon 2: When making a Medicine check to heal
-wounds, the target heals two additional wounds.
-Abilities:
-Calm Center: May remove :boost: from Cool, Discipline,
-and "Vigilance": checks.
-Equipment:
-Fists and feet: Brawl; Damage 4; Critical 2; Range
-(Engaged); Accurate 1, Superior
-Simple garb, journal, Æmber amulet.
-Source: SotC p. 229
-42
-Adversaries anthology
-GENESYS
 k eliFi d rAgon (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -74,6 +26,8 @@ Plasma flames: Ranged; Damage 7; Critical 4; Range
 (Medium); Blast 6, Burn 3.
 Plate armor: +5 soak.
 Source: SotC p. 237
+
+
 k indrith r Anger (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 3 4 2 3 2 2
@@ -93,6 +47,8 @@ Handcrafted Ranger's Bow: Ranged; Damage 7;
 Critical 3; Range (Medium); Burn 1, Pierce 3, Superior.
 Ranger garb: +1 soak.
 Source: SotC p. 238
+
+
 l AvA g iAnt (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -122,6 +78,8 @@ Source: SotC p. 224
 43
 Adversaries anthology
 GENESYS
+
+
 l ogoS F ield r eSeArCher (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 1 3 2 3 2
@@ -147,6 +105,8 @@ Range (Short); Auto-fire, Prepare 1, Sunder, Superior, combat check uses Intelle
 Phased hyperfield: 2 defense, +2 soak.
 Assorted experimental items, communicator databooks, several recording drones.
 Source: SotC p. 230
+
+
 l ooter g oBlin (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 2 2 2 3 1 1
@@ -165,6 +125,8 @@ Equipment:
 Shiv: Melee; Damage 4; Critical 4; Range (Engaged).
 Assorted tools, bags of scavenged items.
 Source: SotC p. 230
+
+
 m ACiS A Sp (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 4 1 3 1 1
@@ -189,6 +151,8 @@ Source: SotC p. 223
 44
 Adversaries anthology
 GENESYS
+
+
 m AkAi (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -213,6 +177,8 @@ Equipment:
 Fists and feet: Brawl; Damage 6; Critical 3; Range (Engaged); Guided 4.
 Traveling robes, necklace with Æmber amulet.
 Source: SotC p. 242
+
+
 m ArtiAn S Cout (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 3 2 2 2 1
@@ -233,6 +199,8 @@ Disintegration grenade: Ranged; Damage 7; Critical 4; Range (Short); Blast 7, Kn
 Ammo 2, Vicious 4.
 Scout armor: 1 defense, +2 soak.
 Source: SotC p. 230
+
+
 m ArtiAn z ookeeper (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 1 3 3 3 3 2
@@ -261,6 +229,8 @@ Source: SotC p. 238
 45
 Adversaries anthology
 GENESYS
+
+
 m iSS "o nyx " C enSoriuS (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -291,6 +261,8 @@ Mental whispers: Discipline; Damage 12; Critical -;
 Range (Long); Breach 1, Disorient 3, Stun Damage.
 Subtle energy field: 2 defense, Reinforced.
 Source: SotC p. 261
+
+
 n uCrAndACrA (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 4 2 2 3 2 2
@@ -315,6 +287,8 @@ Source: SotC p. 239
 46
 Adversaries anthology
 GENESYS
+
+
 n eutron S hArk (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -338,6 +312,8 @@ Leptonic Jaws: Brawl; Damage 10; Critical 3; Range
 (Short); Vicious 4.
 Baryon skin: +3 soak.
 Source: SotC p. 224
+
+
 p irAnhA m onkey (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 2 2 1 1
@@ -356,6 +332,8 @@ from an Initiative check to make an immediate outof-turn maneuver.
 Equipment:
 Teeth: Brawl; Damage 6; Critical 3; Range (Engaged); Pierce 3, Vicious 4.
 Source: SotC p. 224
+
+
 q ueSting g iAnt (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 4 2 2 2 3 2
@@ -377,6 +355,8 @@ Range (Engaged); Cumbersome 4, Pierce 3.
 Handmade armor: +2 soak.
 Performing implements (horn, spices, paints, etc.)
 Source: SotC p. 239
+
+
 q uixo the "A dventurer " (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -407,6 +387,8 @@ Equipment:
 Cool cybercloak: 1 defense, +3 soak.
 Assorted adoring assistants, selective recording devices, sciency gear.
 Source: SotC p. 244
+
+
 A rChimedeS (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 1 3 1 1 1 1
@@ -429,6 +411,8 @@ Source: SotC p. 245
 49
 Adversaries anthology
 GENESYS
+
+
 r AdiAnt A rguS the S upreme (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -457,6 +441,8 @@ Energy mac: Discipline; Damage 10; Critical -;
 Range (Engaged); Pierce 8, Reinforced, Stun Damage, Sunder
 Glowing armor: 1 defense, Reinforced.
 Source: SotC p. 261
+
+
 r ogue o gre (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 4 2 1 2 1 2
@@ -481,6 +467,8 @@ Cybernetic augments: Brawl; Damage 11; Critical
 difficulty for this check is always :average:.
 Æmber-infused skin: +3 soak.
 Source: SotC p. 231
+
+
 S AnCtum k night (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 2 1 3 3
@@ -504,6 +492,8 @@ Source: SotC p. 231
 50
 Adversaries anthology
 GENESYS
+
+
 S AuriAn m erChAnt (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 2 2 3 3 3
@@ -528,6 +518,8 @@ Night-phase field: 1 defense, +2 soak
 Assortment of the most wonderous goods you've
 ever seen.
 Source: SotC p. 235
+
+
 S AuriAn r AnCher (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 2 2 2 2
@@ -550,6 +542,8 @@ Stunstick: Melee; Damage 6; Critical 4; Ranged (Engaged); Stun Damage.
 Riding garb: +1 soak.
 Large riding beast (SotC p151), big hat.
 Source: SotC p. 232
+
+
 S AuriAn h eArd B eASt (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 4 1 1 1 1 1
@@ -571,6 +565,8 @@ Source: SotC p. 232
 51
 Adversaries anthology
 GENESYS
+
+
 S hAdowS t hieF (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 3 2 3 2 2
@@ -597,6 +593,8 @@ Set of customer"Stealth": xxx: 2 defense
 Cloak with dimensional satchel (page 153), thieves'
 tools.
 Source: SotC p. 232
+
+
 S nuFFlegAtor (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -617,6 +615,8 @@ Equipment:
 Jaws: Brawl; Damage 8; Critical 3; Range (Engaged).
 Spined hide: 1 defense, +3 soak.
 Source: SotC p. 224
+
+
 S teed (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 1 1 2 1
@@ -635,6 +635,8 @@ Equipment:
 Kick: Brawl; Damage 7; Critical 4; Range (Engaged);
 Disorient 2, Knockdown.
 Source: SotC p. 151
+
+
 S yndiCAte i nSider (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 3 2 3 2 2
@@ -660,6 +662,8 @@ Source: SotC p. 235
 52
 Adversaries anthology
 GENESYS
+
+
 t erritoriAl S Cout (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 3 2 3 2 2
@@ -680,6 +684,8 @@ Equipment:
 Hyper-collimated photon beamer: Ranged; Damage 7; Critical 4; Range (Extreme); Pierce 2.
 Survival gear, collapsible telescope.
 Source: SotC p. 239
+
+
 t he t error (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -714,6 +720,8 @@ Blade of Despair: Melee; Damage 9; Critical 2; Range
 Corrupted armor: 1 defense, +3 soak.
 Æmber imprint-shards.
 Source: SotC p. 245
+
+
 t imehog (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 3 2 1 3 2 1
@@ -743,6 +751,8 @@ Source: SotC p. 225
 53
 Adversaries anthology
 GENESYS
+
+
 t olAS (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 3 2 1 3 2 1
@@ -764,6 +774,8 @@ Equipment:
 Claws and teeth: Brawl; Damage 3; Critical 2; Range
 (Engaged); Pierce 3.
 Source: SotC p. 225
+
+
 t roll (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -787,6 +799,8 @@ Equipment:
 Two hammer: Melee; Damage 7; Critical 4; Range
 (Engaged); Concussive 1, Knockdown.
 Source: SotC p. 232
+
+
 t rAShCrAB (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 2 3 1 3 1 1
@@ -807,6 +821,8 @@ Waterjet: Ranged; Damage 5; Critical 4; Ranged
 (Short); Concussive 1, Stun Damage.
 Æmber encrusted shell: +2 soak.
 Source: SotC p. 225
+
+
 t rouBAdour (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 2 2 2 2 2 3
@@ -829,6 +845,8 @@ Source: SotC p. 225
 54
 Adversaries anthology
 GENESYS
+
+
 u rChin (m inion )
 Brawn Agility Intellect Cunning Willpower Presence
 2 3 2 3 1 1
@@ -846,6 +864,8 @@ Improvised byperblade: Melee; Damage 4; Critical
 1; Range (Engaged); Inaccurate 1.
 Mismatched clothing, pack of stolen goods.
 Source: SotC p. 235
+
+
 v eCt d eAlmAker (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 2 3 3 3 3
@@ -866,6 +886,8 @@ Equipment:
 Hands-free comm device, several encrypted digital
 tablets.
 Source: SotC p. 212
+
+
 v orgAn h unter (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -893,6 +915,8 @@ Critical 4; Range (Medium); Stun Damage.
 Bone plating: +3 soak.
 Databooks, cache of Æmber crystals, bag of chewing
 grubroots
+
+
 w itCh oF the w ildS (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -933,6 +957,8 @@ Source: SotC p. 240
 56
 Adversaries anthology
 GENESYS
+
+
 x imilpix (n emeSiS )
 Soak Value w. Threshold S. Threshold M/r Defense
 Brawn Agility Intellect Cunning Willpower Presence
@@ -960,6 +986,8 @@ Ancient ray pistol: Ranged; Damage 7; Critical 3;
 Range (Medium); Auto-fire, Pierce 3.
 Battered uniform: 2 defense, +2 soak.
 Source: SotC p. 245
+
+
 z eAlouS h ermit (r ivAl )
 Brawn Agility Intellect Cunning Willpower Presence
 2 2 3 2 3 3
