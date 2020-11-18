@@ -61,7 +61,7 @@
 				"qualities": ["Ensnare 3", "Pierce 2"]
 			}
 		],
-		"tags": ["Infernal", "Demon", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "setting:Fantasy"]
+		"tags": ["Infernal", "Demon", "source:Creature Catalogue", "Homebrew", "Combat CR:14", "Social CR:6", "General CR:6", "setting:Fantasy"]
 	},
 	{
 		"name": "Auroch",
@@ -1595,7 +1595,7 @@
 				"qualities": ["Inaccurate 1","Blast 6","Concussive 1","Knockdown","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:6", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
 		"name": "Fire Giant",

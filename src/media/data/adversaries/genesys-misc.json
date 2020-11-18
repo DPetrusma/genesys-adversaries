@@ -30,7 +30,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["species:Lemurian", "source:AngryGM", "homebrew"]
+		"tags": ["Lemurian", "source:AngryGM", "homebrew"]
 	},
 	{
 		"name": "Lemurian Behemoth",
@@ -85,6 +85,58 @@
                 "qualities": ["Pierce 1"]
 			}
 		],
-		"tags": ["species:Lemurian", "source:AngryGM", "homebrew"]
+		"tags": ["Lemurian", "source:AngryGM", "homebrew"]
+	},
+	{
+		"name": "Bodak",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+            "Brawl": 2,
+            "Ranged": 3,
+            "Stealth": 3,
+            "Vigilance": 2
+        },
+		"abilities": ["Undead","Darkvision","Sunlight Vulnerability",
+            {
+                "name": "Aura of Obliteration",
+                "description": "When a non-undead character ends its turn within short range of the Bodak, that character suffers 2 wounds."
+            },
+			{
+                "name": "Death Gaze",
+                "description": "When a character start its turn within medium range of the Bodak and can see its black, vacant eyes, that character must make a :hard-1: Resilience check. On a failed check, that character suffers 5 wounds plus 1 strain per :threat:. A :despair: means the character is Staggered for one round."
+            }
+        ],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"range": "Engaged",
+				"damage": 6,
+				"critical": 2,
+                "qualities": ["Pierce 2","Vicious 2"]
+			},
+            {
+				"name": "Withering Gaze",
+				"skill": "Ranged",
+				"range": "Medium",
+				"damage": 4,
+				"critical": 3,
+                "qualities": ["Breach 1","Stun 3"]
+			}
+		],
+		"tags": ["Undead", "source:Dipicacyx", "homebrew","setting:Fantasy"]
 	}
 ]

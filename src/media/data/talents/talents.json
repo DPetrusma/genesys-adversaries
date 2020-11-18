@@ -867,7 +867,7 @@
 	},
 	{
 		"name": "Inventor",
-		"description": "When constructing new items or modifying attachments, may choose to add {ranks|boost} or remove {ranks|setback} from the check.",
+		"description": "When constructing new items or modifying items or attachments, may choose to add {ranks|boost} to the check.",
 		"ranked": true
 	},
 	{
@@ -2162,7 +2162,8 @@
 	},
 	{
 		"name": "Animal Companion",
-		"description": "Has a silhouette 0 animal companion; once per round, may spend a maneuver to direct the animal to perform one action and one maneuver during this character's turn."
+		"description": "Has a silhouette {ranks|minus-1} animal companion; once per round, may spend a maneuver to direct the animal to perform one action and one maneuver during this character's turn.",
+		"ranked": true
 	},
 	{
 		"name": "Barrel Roll",
@@ -2193,5 +2194,9 @@
 		"name": "Implacable",
 		"description": "When this character is targeted by a social skill check, they reduce any strain they suffer as a result of that check by {ranks}.",
 		"ranked": true
+	},
+	{
+		"name": "Artificial",
+		"description": "Does not suffer penalties for moving through difficult terrain."
 	}
 ]

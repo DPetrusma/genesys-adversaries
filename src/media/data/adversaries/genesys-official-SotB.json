@@ -1245,7 +1245,7 @@
 				"qualities": ["Stun 3"]
 			}
 		],
-		"gear": ["Concealed Light Armor Weave: +1 soak.","Sunglasses with HUD", "1 slap-patch"],
+		"gear": ["Concealed Light Armor Weave: +1 soak","Sunglasses with HUD", "1 slap-patch"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:2", "General CR:2"]
 	},
 	{

@@ -160,7 +160,10 @@
 		"skills": ["Brawl","Cool","Perception","Vigilance"],
 		"talents": [],
 		"abilities": [
-			{"name": "Corrupt Æmber", "description": "May spend :threat::threat::threat: or :despair: from any Melee or Brawl check targeting this character to corrupt 1 Æmber the opponent carries (this essentially destroys the Æmber, with other effects as determined by the GM)."},
+			{
+				"name": "Corrupt Æmber",
+				"description": "May spend :threat::threat::threat: or :despair: from any Melee or Brawl check targeting this character to corrupt 1 Æmber the opponent carries (this essentially destroys the Æmber, with other effects as determined by the GM)."
+			},
 			"Dark Sight",
 			"Demon",
 			"Silhouette 0"
@@ -862,7 +865,7 @@
 				"qualities": ["Blast 6","Burn 3"]
 			}
 		],
-		"gear": ["Plate armor: +5 soack"],
+		"gear": ["Plate armor: +5 soak"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:3"]
 	},
 	{
@@ -1644,5 +1647,482 @@
 		],
 		"gear": ["Simple garb","Journal","Æmber amulet"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Kelifi Dragon",
+		"type": "Nemesis",
+		"notes": "Note to self: Sweep different to other sweep attack",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 42,
+			"strain": 24,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Knowledge: Æmber": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Flyer", "Silhouette 4", 
+			"Terrifying 4",
+			{
+				"name": "Supersonic",
+				"description": "After spending two maneuvers to move through the air, as an action may make a :hard:  Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
+			}, 
+			{
+				"name": "Sweep Attack",
+				"description": "May spend :triumph: on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Plasma flames",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 3"]
+			},
+			{
+				"name": "Huge talons",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			}
+		],
+		"gear": ["Plate armour: +5 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:."]
+	},
+	{
+		"name": "Kindrith Ranger",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics", "Ranged", "Stealth", "Survival", "Vigilance"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Blend with the Wilds",
+				"description": "In wilderness areas, Kindrith Rangers gain defense 1."
+			},
+			{
+				"name": "Handmade Weapons",
+				"description": "When another being uses this character's bow, it loses the Superior item quality and gains Inaccurate 3 and Unwieldy 5"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Handcrafted Ranger's Bow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Burn 1","Pierce 3","Superior"]
+			}
+		],
+		"gear": ["Ranger garb: +1 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Lava Giant",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Heat Wave",
+				"description": "At the start of the their turn, characters engaged with a lava giant suffer 2 strain unless they are immune to heat."
+			}, 
+			{
+				"name": "Loves the Heat",
+				"description": "Ignores penalties imposed by high temperatures and ignores damage inflicted by fire or fire-based attacks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Burning limbs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 3","Vicious 3"]
+			},
+			{
+				"name": "Lava bomb",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 2","Inaccurate 1","Knockdown"]
+			}
+		],
+		"gear": ["Stony skin: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Logos Field Researcher",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 11,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Science": 3,
+			"Perception": 2,
+			"Ranged": 2
+		},
+		"talents": ["Inventor 2"],
+		"abilities": [
+			{
+				"name": "Can't Stop Experimenting!",
+				"description": "While a Logos Researcher is present in an encounter, the GM may spend :despair: from any check to force all other characters to make a :hard: Vigilance: or Coordination check as an out-of-turn incidental; anyone who fails suffers 4 wounds and 4 strain."
+			},
+			{
+				"name": "Knowledge is Dangerous",
+				"description": "Adds :success::threat: to the results of Knowledge: Science checks other characters make in the encounter."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Reality distorter",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Auto-fire","Prepare 1","Sunder","Superior"],
+				"notes": "Comat check uses Intellect instead of Agility"
+			}
+		],
+		"gear": ["Phased hyperfield: 2 defense, +2 soak","Assorted experimental items", "Communicator", "Databooks","Several recording drones"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Looter Goblin",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Mechanics","Perception","Survival"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Expert Scrounger",
+				"description": "While this character is present in an encounter, add :boost::boost: to checks friendly characters make to search an area."
+			},
+			"Darkvision"
+		],
+		"weapons": [
+			{
+				"name": "Shiv",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Assorted tools","Bags of scavenged items"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Macis Asp",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [1,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3
+		},
+		"talents": [],
+		"abilities": ["Construct","Amphibious"
+			{
+				"name": "Strike Back",
+				"description": "May spend :threat::threat::threat: or :despair: from an engaged opponent's failed combat check against this character to inflict 3 wounds on the opponent."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Poisonous Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Pierce 3","Vicious 3"]
+			}
+		],
+		"gear": ["Metallic Microscales: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Makari",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Ascension), Fear (Failure), Strength (Courageous), Flaw (Carelessness)",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Survival": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Æmber-Do",
+				"description": "Once per encounter, may spend a Story Point before making a skill check to double this character's Brawn value and require 1 fewer :advantage: to activate any item quality for that check."
+			}, 
+			{
+				"name": "The Path Provides",
+				"description": "Whenever Makai assists on a check, the character making the check may spend :triumph: to heal all of their own strain."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists and feet",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Guided 4"]
+			}
+		],
+		"gear": ["Traveling robes","Necklace with Æmber amulet"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:6", "General CR:6"]
+	},
+	{
+		"name": "Martian Scout",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 9,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Ka-boom!",
+				"description": "May spend :triumph: on a combat check to activate the Blast item quality and have the quality affect all characters within short range of the target."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ray rifle",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Disintegration grenade",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 7","Knockdown","Limited Ammo 2","Vicious 4"]
+			}
+		],
+		"gear": ["Scout armour: 1 defense, +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Martian Zookeeper",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 9,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Knowledge: Crucible": 2,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Ranged": 2,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1","Animal Companion 4"],
+		"abilities": [
+			{
+				"name": "Animal Adversary",
+				"description": ":despair: may be spent on a failed check this character makes during a turn in which they direct their animal companion to have the companion make a combat check as an out-of-turn action targeting this character; :triumph: may be spent on this combat check to also have the animal run away."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Energy webber",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ensnare 4","Stun Damage"]
+			}
+		],
+		"gear": ["Armored exosuit: +2 soak","Dimensional holding cage"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Miss 'Onyx' Censorius",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Acceptance), Fear (Rejection), Strength (Curious), Flaw (Inattention)",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 6,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 6
+		},
+		"derived": {
+			"soak": -,
+			"wounds": -,
+			"strain": 30,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Charm": 5,
+			"Cool": 5,
+			"Discipline": 5,
+			"Knowledge: All": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Archon", "Hoverer",
+			{
+				"name": "Ease Your Worries",
+				"description": "Whenever allies at short range would suffer strain involuntarily, they suffer 2 less strain, to a minimum of 0"
+			},
+			{
+				"name": "Explains Things",
+				"description": "Allies at short range add :ability: to Knowledge: Æmber checks they make"
+			},
+			{
+				"name": "Wondrous Aura",
+				"description": "Allies within short range add :setback: to their Deception checks and :boost: to their Discipline checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Mental whispers",
+				"skill": "Discipline",
+				"damage": 12,
+				"critical": -,
+				"range": "Long",
+				"qualities": ["Breach 1","Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Subtle energy field: 2 defense, Reinforced"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:-", "Social CR:14", "General CR:12"]
 	}
 ]

@@ -405,7 +405,7 @@
 	},
 	{
 		"name": "Hoverer",
-		"description": "When hovering the character does not have to spend additional maneuvers when navigating difficult terrain."
+		"description": "Hovering creatures ignore difficult or impassable terrain as long as they can reasonably stay above it, and they ignore the penalties for moving through water. They generally have to stay relatively close to the ground (within medium range) unless noted otherwise."
 	},
 	{
 		"name": "Huttese",
@@ -1082,5 +1082,9 @@
 	{
 		"name": "Regeneration",
 		"description": "At the beginning of its turn, this creature automatically heals 3 wounds."
+	},
+	{
+		"name": "Archon",
+		"description": "See SotC page 260"
 	}
 ]
