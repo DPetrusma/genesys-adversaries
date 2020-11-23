@@ -1086,5 +1086,9 @@
 	{
 		"name": "Archon",
 		"description": "See SotC page 260"
+	},
+	{
+		"name": "Arboreal",
+		"description": "Treats foliage as clear terrain"
 	}
 ]

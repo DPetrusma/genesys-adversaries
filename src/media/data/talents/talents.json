@@ -2198,5 +2198,9 @@
 	{
 		"name": "Artificial",
 		"description": "Does not suffer penalties for moving through difficult terrain."
+	},
+	{
+		"name": "Bowl Over",
+		"description": "When making a melee attack after engaging a target, may activate the Knockdown item quality without spending :advantage:"
 	}
 ]

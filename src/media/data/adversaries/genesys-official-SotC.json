@@ -2124,5 +2124,359 @@
 		],
 		"gear": ["Subtle energy field: 2 defense, Reinforced"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:-", "Social CR:14", "General CR:12"]
+	},
+	{
+		"name": "Nucrandacra",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee": 3,
+			"Knowledge: Æmber": 2,
+			"Negotiaion": 2,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Amphibious","Dark Sight",
+			{
+				"name": "Spiked Carapace",
+				"description": "When targeted by a melee combat check, may spend :threat::threat::threat: or :despair: from the results to have the attacker suffer 4 wounds."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Coral glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Shell: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Neutron Shark",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 24,
+			"strain": 19,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Flyer",
+			{
+				"name": "Frenzied Hunger",
+				"description": "After making a successful combat check, may spend :triumph: to inflict an additional hit on any number of other engaged opponents, dealing base damage +1 per :success:; after doing so the neutron shark suffers 3 strain for each additional opponent hit."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Leptonic Jaws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Vicious 4"]
+			}
+		],
+		"gear": ["Baryon skin: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Piranha Monkey",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Coordination"],
+		"talents": [],
+		"abilities": ["Arboreal",
+			{
+				"name": "Critical Numbers",
+				"description": "Adds :advantage: to combat checks if there are two or more members in the minion group."
+			},
+			{
+				"name": "Forest Predator",
+				"description": "When in forest, may spend :advantage::advantage: from an Initiative check to make an immediate out-of-turn maneuver."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 4"]
+			}
+		],
+		"gear": ["Assorted tools","Bags of scavenged items"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Questing Giant",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 3"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Challenge Accepted!",
+				"description": "Once per session, may spend a Story Point to count as having 3 ranks in any skill they do not posses until the end of the encounter."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Handmade axe",
+				"skill": "Melee",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersom 4","Pierce 3"]
+			}
+		],
+		"gear": ["Handmade armor: +2 soak","Performing implements (horn, spices, paints, etc.)"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Quixo the 'Adventurer'",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Fame), Fear (Failure), Strength (Confidence), Flaw (Recklessness). Has animal companion Archimedes",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"strain": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 4,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Crucible": 3,
+			"Knowledge: Science": 4,
+			"Mechanics": 4,
+			"Melee": 2,
+			"Operating": 3,
+			"Perception": 1,
+			"Ranged": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Animal Companion 1"],
+		"abilities": [
+			{
+				"name": "Exploration Maven",
+				"description": "While exploring (or telling stories of his explorations), whenever Quixo recovers strain, he removes three additional strain and friendly characters within short range suffer 1 strain."
+			},
+			{
+				"name": "Not in the Memoirs",
+				"description": "Whenever Quixo would suffer a Critical Injury, he may spend a Story Point to have one of his assistants within short range be incapacitated instead."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Æmberhead staff",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 4","Reinforced","Superior"]
+			}
+		],
+		"gear": ["Cool cybercloak: 1 defense, +3 soak","Assorted adoring assistants","Selective recording devices","Sciency gear"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:4", "General CR:9"]
+	},
+	{
+		"name": "Archimedes",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Perception": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0","Flyer"],
+		"weapons": [
+			{
+				"name": "Laser eyes",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Illuminator"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Radiant Argus the Supreme",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Justice), Fear (Failure), Strength (Idealistic), Flaw (Certainty)",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 6,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": -,
+			"wounds": -,
+			"strain": 26,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 5,
+			"Knowledge: All": 5,
+			"Leadership": 4,
+			"Vigilance": 5
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Archon",
+			{
+				"name": "Belief through Power",
+				"description": "Whenever an ally within short range makes a successful combat check, other allies in the encounter recover 2 strain."
+			},
+			{
+				"name": "Power through Belief",
+				"description": "Allies within short range count their Brawn as 2 higher, to a maximum of 6."
+			},
+			{
+				"name": "Symbol of Faith",
+				"description": "While Argus assumes his armored knightly form, Sanctum allies at medium range gain defense 1."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Energy mac",
+				"skill": "Discipline",
+				"damage": 10,
+				"critical": -,
+				"range": "Engaged",
+				"qualities": ["Pierce 8", "Reinforced", "Stun Damage", Sunder"]
+			}
+		],
+		"gear": ["Glowing armor: 1 defense, Reinforced"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:-", "Social CR:14", "General CR:12"]
+	},
+	{
+		"name": "Rogue Ogre",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 17,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2","Bowl Over"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Relentless",
+				"description": "After making a successful combat check against a target, add :boost: to the next combat check this character makes against the same target."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Cybernetic augments",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 4,
+				"range": "Short",
+				"qualities": [""Burn 1","Knockdown","Linked 2"],
+				"notes": "The difficulty for this check is always :average:"
+			}
+		],
+		"gear": ["Æmber-infused skin: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:1", "General CR:1"]
 	}
 ]
