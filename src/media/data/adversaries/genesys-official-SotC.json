@@ -2,7 +2,6 @@
 	{
 		"name": "Æmberdrake",
 		"type": "Nemesis",
-		"notes": "Note to self: The fear check is upgraded twice. Show that somehow",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 3,
@@ -1706,67 +1705,6 @@
 		],
 		"gear": ["Simple garb","Journal","Æmber amulet"],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:3", "General CR:3"]
-	},
-	{
-		"name": "Kelifi Dragon",
-		"type": "Nemesis",
-		"notes": "Note to self: Sweep different to other sweep attack",
-		"characteristics": {
-			"Brawn": 5,
-			"Agility": 4,
-			"Intellect": 3,
-			"Cunning": 3,
-			"Willpower": 4,
-			"Presence": 3
-		},
-		"derived": {
-			"soak": 10,
-			"wounds": 42,
-			"strain": 24,
-			"defence": [0,0]
-		},
-		"skills": {
-			"Athletics": 3,
-			"Brawl": 4,
-			"Coercion": 3,
-			"Knowledge: Æmber": 3,
-			"Perception": 2,
-			"Ranged": 3,
-			"Vigilance": 2
-		},
-		"talents": ["Adversary 2"],
-		"abilities": [
-			"Flyer", "Silhouette 4", 
-			"Terrifying 4",
-			{
-				"name": "Supersonic",
-				"description": "After spending two maneuvers to move through the air, as an action may make a :hard:  Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
-			}, 
-			{
-				"name": "Sweep Attack",
-				"description": "May spend :triumph: on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range."
-			}
-		],
-		"weapons": [
-			{
-				"name": "Plasma flames",
-				"skill": "Ranged",
-				"damage": 7,
-				"critical": 4,
-				"range": "Medium",
-				"qualities": ["Blast 6","Burn 3"]
-			},
-			{
-				"name": "Huge talons",
-				"skill": "Brawl",
-				"damage": 10,
-				"critical": 3,
-				"range": "Engaged",
-				"qualities": ["Pierce 4"]
-			}
-		],
-		"gear": ["Plate armour: +5 soak"],
-		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:."]
 	},
 	{
 		"name": "Kindrith Ranger",

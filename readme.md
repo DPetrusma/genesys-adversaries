@@ -108,7 +108,7 @@ Main tasks:
 - Get the source link updated
 - Make it clear somehow that the credit goes to Stoo Goff for the design - I want it obvious that it was "Built by Stoo Goff, nlx3647, and SkyJedi", not me
 - Maybe fiddle with some of the colours and icons to make them less SW and more Genesys
-- Make implement work better somehow?
+- Make implements work better somehow?
 - Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
 - CC Dreadgazer to use opposed checks?
 - Spellchecks, capitilisation, and grammar
@@ -117,6 +117,8 @@ Main tasks:
 - Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the 
 - SotC Shadows Thief "set of customer stealth xxx: 2 defense" needs fixing
 - SotC Troubadour ability has strange text about triumph
+- SotC Æmberdrake: The fear check is upgraded twice. Show that somehow.
+- Add creature type tags to SotC and RoT adversaries
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead
