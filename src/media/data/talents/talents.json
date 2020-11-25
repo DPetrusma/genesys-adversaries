@@ -571,7 +571,7 @@
 	},
 	{
 		"name": "Forager",
-		"description": "Remove up to :setback::setback: from skill checks to find food, water, or shelter; Suvival checks take half the time."
+		"description": "Remove up to :setback::setback: from skill checks to find food, water, or shelter; finding these items requires half the usual time."
 	},
 	{
 		"name": "Force Assault",
@@ -2145,7 +2145,7 @@
 	},
 	{
 		"name": "Counteroffer",
-		"description": "Once per session may choose one opponent with in medium range and make an opposed Negotiation versus Discipline check. If successful, target becomes staggered until the end of their next turn (or for remainder of encounter if successful with :triumph:)."
+		"description": "Once per session may choose one non-nemesis opponent with in medium range and make an opposed Negotiation versus Discipline check. If successful, target becomes staggered until the end of their next turn (or for remainder of encounter if successful with :triumph:)."
 	},
 	{
 		"name": "Daring Aviator",
@@ -2202,5 +2202,9 @@
 	{
 		"name": "Bowl Over",
 		"description": "When making a melee attack after engaging a target, may activate the Knockdown item quality without spending :advantage:"
+	},
+	{
+		"name": "Let's Ride",
+		"description": "Can mount or dismount from an animal as an incidental."
 	}
 ]
