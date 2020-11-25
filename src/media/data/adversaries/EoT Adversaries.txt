@@ -1,29 +1,3 @@
-Past the Gates of Oblivion
-
-Auroran [Rival]
-The servants of Miridia, Auroran are Daedra of light. Wielding blinding magic, and adorned in shimmering golden armour, they vaguely resemble both Knights and Golden Saints. Defenders of Miridia’s Shrines, and inhabitants of the Coloured Rooms, they are rarely encountered by chance.
-
-Strength	Endurance	Agility	Intellect	Willpower	Personality
-3	4	3	3	2	3
-
-●	Soak: 8
-●	Wounds: 15
-●	Defense: 3/3
-●	Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Deception 2(Pers), Destruction 2(Will), Illusion 2(Pers), Intimidate 2 (Str), One-Handed 2(Agi), Two-Handed 2(Str), Search 1(Will), Vigilance 1(Will)
-●	Drops/Equipment:
-●	Attacks/Weapons:
-Gilded Daedric Sunblade - Skill: One-Handed (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Cumbersome 2, Versatile, Pierce 3, Vicious 2, Burn
-●	Magic Actions:
-Sunbeam- Skill: Destruction(Will)(YY) Difficulty: Average Range: Medium, Damage: 5, Crit: 3, Qualities: Burn
-●	Armour:
-Gilded Daedric Cuirass - Soak: +4, Defense: 3/3, Enc: 5, Qualities: None
-●	Talents:
-Adversary 2 - Upgrade 2 difficulty dice to all checks targeting this character.
-Daedra - Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons.
-Normal Weapon Immunity - Aurorans are immune to normal weapons.
-●	Special Abilities:
-Light of Meridia - Flip a Destiny point to activate Light of Meridia. All targets in visual range with the Auroran must pass a Hard Resilience check or be blinded for two rounds, as bright light emanates from it.
-
 Atronach, Fire [Minion]
 Elemental Daedra, commonly known as Atronachs, are highly intelligent daedra often most often summoned by conjurers. They have no kinship or loyalties with any of the Daedric Princes, and serve all of them as they please.
 

@@ -1,0 +1,58 @@
+[
+	{
+		"name": "Auroran",
+		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" },
+		"type": "Rival",
+		"description": "The servants of Miridia, Auroran are Daedra of light. Wielding blinding magic, and adorned in shimmering golden armour, they vaguely resemble both Knights and Golden Saints. Defenders of Miridia’s Shrines, and inhabitants of the Coloured Rooms, they are rarely encountered by chance.",
+		"characteristics": {
+			"Strength": 3,
+			"Endurance": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Willpower": 2,
+			"Personality": 3
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 15,
+			"defence": [3, 3]
+		},
+		"skills": {
+            "Athletics": 2,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Deception": 2,
+			"Destruction": 2,
+			"Illusion": 2,
+			"Intimidate": 2,
+			"One-Handed": 2,
+			"Two-Handed": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"talents": ["Adversary 2"],
+		"abilities":  ["Daedra","Normal Weapon Immunity",
+			{
+				"name": "Light of Meridia",
+				"description": "Flip a Destiny point to activate Light of Meridia. All targets in visual range with the Auroran must pass a :hard: Resilience check or be blinded for two rounds, as bright light emanates from it."
+			},
+            "Spells (Destruction)",
+            {
+                "name": "Spells: Sunbeam",
+                "description": "Difficulty :average: Range: Medium, Damage: 5, Crit: 3, Qualities: Burn"
+            }
+		],
+		"weapons": [
+			{
+				"name": "Gilded Daedric Sunblade",
+				"skill": "One-Handed",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersome 2","Versatile","Pierce 3","Vicious 2","Burn"]
+			}
+		],
+		"gear": ["Gilded Daedric Cuirass: Soak +4, 3/3 Defense, 5 Encumbrance"],
+		"tags": ["Daedra", "source:Edge of Tamriel", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}
+]

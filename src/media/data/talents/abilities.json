@@ -1094,5 +1094,13 @@
 	{
 		"name": "Critical Numbers",
 		"description": "Adds :advantage: to combat checks if there are two or more members in the minion group."
+	},
+	{
+		"name": "Daedra",
+		"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+	},
+	{
+		"name": "Normal Weapon Immunity",
+		"description": "This adversary is immune to normal weapons."
 	}
 ]
