@@ -1903,8 +1903,8 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Short",
-				"qualities": ["Auto-fire","Prepare 1","Sunder","Superior"],
-				"notes": "Comat check uses Intellect instead of Agility"
+				"qualities": ["Auto-Fire","Prepare 1","Sunder","Superior"],
+				"notes": "Combat check uses Intellect instead of Agility"
 			}
 		],
 		"gear": ["Phased hyperfield: 2 defense, +2 soak","Assorted experimental items", "Communicator", "Databooks","Several recording drones"],
@@ -2144,8 +2144,8 @@
 			"Presence": 6
 		},
 		"derived": {
-			"soak": -,
-			"wounds": -,
+			"soak": 0,
+			"wounds": 0,
 			"strain": 30,
 			"defence": [2,2]
 		},
@@ -2176,7 +2176,7 @@
 				"name": "Mental whispers",
 				"skill": "Discipline",
 				"damage": 12,
-				"critical": -,
+				"critical": 0,
 				"range": "Long",
 				"qualities": ["Breach 1","Disorient 3","Stun Damage"]
 			}
@@ -2451,8 +2451,8 @@
 			"Presence": 5
 		},
 		"derived": {
-			"soak": -,
-			"wounds": -,
+			"soak": 0,
+			"wounds": 0,
 			"strain": 26,
 			"defence": [1,1]
 		},
@@ -2483,7 +2483,7 @@
 				"name": "Energy mace",
 				"skill": "Discipline",
 				"damage": 10,
-				"critical": -,
+				"critical": 0,
 				"range": "Engaged",
 				"qualities": ["Pierce 8", "Reinforced", "Stun Damage", "Sunder"]
 			}
@@ -3413,7 +3413,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Auto-fire","Pierce 3"]
+				"qualities": ["Auto-Fire","Pierce 3"]
 			}
 		],
 		"gear": ["Battered uniform: 2 defense, +2 soak"],
