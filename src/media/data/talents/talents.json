@@ -1211,7 +1211,7 @@
 	},
 	{
 		"name": "One with Nature",
-		"description": ""
+		"description": "May make a :simple: Survival check to recover strain at the end of an encounter"
 	},
 	{
 		"name": "One With the Universe",
@@ -2206,5 +2206,9 @@
 	{
 		"name": "Let's Ride",
 		"description": "Can mount or dismount from an animal as an incidental."
+	},
+	{
+		"name": "Sharp Tongue",
+		"description": "May reduce the number of :advantage: they must spend to inflict a critical remark in a social encounter by {ranks} to a minimum of one :advantage:." 
 	}
 ]

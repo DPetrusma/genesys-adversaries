@@ -1090,5 +1090,9 @@
 	{
 		"name": "Arboreal",
 		"description": "Treats foliage as clear terrain"
+	},
+	{
+		"name": "Critical Numbers",
+		"description": "Adds :advantage: to combat checks if there are two or more members in the minion group."
 	}
 ]
