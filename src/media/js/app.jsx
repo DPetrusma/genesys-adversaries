@@ -405,8 +405,8 @@ class App extends React.Component {
 			<div className="overlay">
 				<div className="panel">
 					<h3>About</h3>
-					<p>Genesys Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Genesys Roleplaying Game.</p>
-					<p>Built by <a href="http://www.stoogoff.com/">Stoo Goff</a>, <a href="https://twitter.com/nlx3647">nlx3647</a>, and <a href="https://github.com/SkyJed">SkyJedi</a>. Some data entry by <a href="http://www.dylanpetrusma.com">Dipicacyx</a>.</p>
+					<p>Genesys Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/" target="_blank">Fantasy Flight Games’</a> Genesys Roleplaying Game.</p>
+					<p>Built by <a href="http://www.stoogoff.com/" target="_blank">Stoo Goff</a>, <a href="https://twitter.com/nlx3647" target="_blank">nlx3647</a>, and <a href="https://github.com/SkyJed" target="_blank">SkyJedi</a>. Some data entry by <a href="http://www.dylanpetrusma.com" target="_blank">Dipicacyx</a>.</p>
 					<p>This is a fork of Star Wars Adversaries, where most of the work was done. Want to support the future development of <em>Star Wars: Adversaries</em>?</p>
 					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
 					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
@@ -441,7 +441,7 @@ class App extends React.Component {
 					: content
 				}
 			</div>
-			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries">Source</a></div>
+			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries" target="_blank">Source</a></div>
 		</div>;
 	}
 }

@@ -184,7 +184,7 @@ export default class CharacterView extends React.Component {
 			source = `<p><em>${character.name} stats provided by ${owner} ${getSourceLink(sourceTag)}.`;
 
 			if(url) {
-				source += ` Click to <a href="${url}">view original stats and descriptions</a>.</em></p>`;
+				source += ` Click to <a href="${url}" target="_blank">view original stats and descriptions</a>.</em></p>`;
 			}
 		}
 
