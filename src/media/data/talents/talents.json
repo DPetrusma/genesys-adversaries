@@ -571,7 +571,7 @@
 	},
 	{
 		"name": "Forager",
-		"description": "Remove up to :setback::setback: from skill checks to find food, water, or shelter; Suvival checks take half the time."
+		"description": "Remove up to :setback::setback: from skill checks to find food, water, or shelter; finding these items requires half the usual time."
 	},
 	{
 		"name": "Force Assault",
@@ -867,7 +867,7 @@
 	},
 	{
 		"name": "Inventor",
-		"description": "When constructing new items or modifying attachments, may choose to add {ranks|boost} or remove {ranks|setback} from the check.",
+		"description": "When constructing new items or modifying items or attachments, may choose to add {ranks|boost} to the check.",
 		"ranked": true
 	},
 	{
@@ -1211,7 +1211,7 @@
 	},
 	{
 		"name": "One with Nature",
-		"description": ""
+		"description": "May make a :simple: Survival check to recover strain at the end of an encounter"
 	},
 	{
 		"name": "One With the Universe",
@@ -2145,7 +2145,7 @@
 	},
 	{
 		"name": "Counteroffer",
-		"description": "Once per session may choose one opponent with in medium range and make an opposed Negotiation versus Discipline check. If successful, target becomes staggered until the end of their next turn (or for remainder of encounter if successful with :triumph:)."
+		"description": "Once per session may choose one non-nemesis opponent with in medium range and make an opposed Negotiation versus Discipline check. If successful, target becomes staggered until the end of their next turn (or for remainder of encounter if successful with :triumph:)."
 	},
 	{
 		"name": "Daring Aviator",
@@ -2162,7 +2162,8 @@
 	},
 	{
 		"name": "Animal Companion",
-		"description": "Has a silhouette 0 animal companion; once per round, may spend a maneuver to direct the animal to perform one action and one maneuver during this character's turn."
+		"description": "Has a silhouette {ranks|minus-1} animal companion; once per round, may spend a maneuver to direct the animal to perform one action and one maneuver during this character's turn.",
+		"ranked": true
 	},
 	{
 		"name": "Barrel Roll",
@@ -2176,5 +2177,38 @@
 	{
 		"name": "Mad Inventor",
 		"description": "Once per session, make a Mechanics check to cobble together the functional equivalent of any item using spare parts or salvage, as per Table 1.4-1 Mad Inventor Item Rarity on page 80 of the Genesys Core Rulebook"
+	},
+	{
+		"name": "Dramatic Entrance",
+		"description": "Once per session, may spend a Story Point to use this talent to enter a scene or encounter they are not currently participating in at an opportune time, no matter how unlikely their arrival. If the scene is a combat encounter or otherwise uses Initiative order, add a new Initiative slot at the top of the Initiative order."
+	},
+	{
+		"name": "Wallcrawler",
+		"description": "Can move across vertical surface as easily as horizontal surfaces. In addition, when this character attempts to reduce the damage taken from falling, reduce the difficulty of the Athletics or Coordination check by one."
+	},
+	{
+		"name": "Heightened Awareness",
+		"description": "Allies within short range add :boost: to Perception and Vigilance checks, engaged allies add :boost::boost: instead."
+	},
+	{
+		"name": "Implacable",
+		"description": "When this character is targeted by a social skill check, they reduce any strain they suffer as a result of that check by {ranks}.",
+		"ranked": true
+	},
+	{
+		"name": "Artificial",
+		"description": "Does not suffer penalties for moving through difficult terrain."
+	},
+	{
+		"name": "Bowl Over",
+		"description": "When making a melee attack after engaging a target, may activate the Knockdown item quality without spending :advantage:"
+	},
+	{
+		"name": "Let's Ride",
+		"description": "Can mount or dismount from an animal as an incidental."
+	},
+	{
+		"name": "Sharp Tongue",
+		"description": "May reduce the number of :advantage: they must spend to inflict a critical remark in a social encounter by {ranks} to a minimum of one :advantage:." 
 	}
 ]

@@ -2,7 +2,7 @@
 	{
 		"name": "Æmberdrake",
 		"type": "Nemesis",
-		"description": "Note to self: The fear check is upgraded twice. Show that somehow",
+		"notes": "Note to self: The fear check is upgraded twice. Show that somehow",
 		"characteristics": {
 			"Brawn": 6,
 			"Agility": 3,
@@ -29,8 +29,14 @@
 		"abilities": [
 			"Flyer", "Silhouette 4", 
 			"Terrifying 4",
-			{"name": "Æmberbelly", "description": "A character may make a :hard: Survival check to open up a freshly slain Æmberdrake and remove two Æmber per :success: and five per :triumph: spent from the check in this way."}, 
-			{"name": "Tail Flick", "description": "May spend :triumph: on a successful Brawl combat check to inflict one Critical Hit on a vehicle of silhouette 3 or less at medium range."}
+			{
+				"name": "Æmberbelly",
+				"description": "A character may make a :hard: Survival check to open up a freshly slain Æmberdrake and remove two Æmber per :success: and five per :triumph: spent from the check in this way."
+			}, 
+			{
+				"name": "Tail Flick",
+				"description": "May spend :triumph: on a successful Brawl combat check to inflict one Critical Hit on a vehicle of silhouette 3 or less at medium range."
+			}
 		],
 		"weapons": [
 			{
@@ -154,7 +160,10 @@
 		"skills": ["Brawl","Cool","Perception","Vigilance"],
 		"talents": [],
 		"abilities": [
-			{"name": "Corrupt Æmber", "description": "May spend :threat::threat::threat: or :despair: from any Melee or Brawl check targeting this character to corrupt 1 Æmber the opponent carries (this essentially destroys the Æmber, with other effects as determined by the GM)."},
+			{
+				"name": "Corrupt Æmber",
+				"description": "May spend :threat::threat::threat: or :despair: from any Melee or Brawl check targeting this character to corrupt 1 Æmber the opponent carries (this essentially destroys the Æmber, with other effects as determined by the GM)."
+			},
 			"Dark Sight",
 			"Demon",
 			"Silhouette 0"
@@ -195,7 +204,10 @@
 		},
 		"talents": ["Devourer 2"],
 		"abilities": [
-			{"name": "Dragged to Doom", "description": "May spend a maneuver to pull an immobilized foe within short range to engaged range."},
+			{
+				"name": "Dragged to Doom",
+				"description": "May spend a maneuver to pull an immobilized foe within short range to engaged range."
+			},
 			"Immobile"
 		],
 		"weapons": [
@@ -272,7 +284,7 @@
 	{
 		"name": "Elder Nyyon",
 		"type": "Nemesis",
-		"description": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
+		"notes": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
 		"characteristics": {
 			"Brawn": 2,
 			"Agility": 2,
@@ -292,7 +304,7 @@
 			"Coercion": 2,
 			"Computers": 3,
 			"Discipline": 3,
-			"Knowledge (All)": 4,
+			"Knowledge: All": 4,
 			"Leadership": 2,
 			"Mechanics": 3,
 			"Operating": 2,
@@ -388,7 +400,3023 @@
 				"qualities": ["Inaccurate 1","Vicious 3"]
 			}
 		],
-		"gear": ["Rumpled clothing","Endless stacks of holoscrolls","Databooks","Forms-lots of forms"],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "City Enforcer",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Melee","Coercion","Ranged"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Force of Justice",
+				"description": "Characters within short range of this character add :boost: to their combat checks provided those characters are acting to uphold local laws."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Stunner baton",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Concussive 1","Stun damage"]
+			},
+			{
+				"name": "Stunner pistol",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Concussive 1","Stun damage"]
+			}
+		],
+		"gear": ["Uniform: +1 soak","Badge"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Cyber Rat",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 3,
+			"defence": [1,2]
+		},
+		"skills": ["Brawl","Skilduggery","Stealth","Vigilance"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Cyberbyte",
+				"description": "After making a combat check, may spend :triumph: to have the target suffer a hit dealing damage equal to the base damage of one powered weapon the target possesses of the cyber rat's choice."
+			},
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Metal jaws",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 1","Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Faeries and Pixies",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [2,2]
+		},
+		"skills": ["Brawl","Mechanics","Perception","Survival"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Mischievous",
+				"description": "As a maneuver, may distract one character at short range; that character adds :setback: to their next check for each faerie or pixie in that minion group."
+			},
+			"Artificial",
+			"Flyer",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Stinger",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3"]
+			}
+		],
+		"gear": [],
 		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Fuzzy Gruen",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [2,0]
+		},
+		"skills": ["Brawl","Athletics"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Painfully cute",
+				"description": "When this character suffers wounds, all characters within short range suffer 2 strain."
+			},
+			"Amphibious",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Cuddly tentacles",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 5,
+				"range": "Engaged",
+				"qualities": ["Ensnare 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Gloomwight",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Athletics","Ranged"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Phase",
+				"description": "Can ignore terrain penalties and move through solid matter (but cannot end their turn inside solid matter)."
+			},
+			"Dark Sight",
+			"Silhouette 0"
+		],
+		"weapons": [
+			{
+				"name": "Phase bite",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Breach 1"]
+			},
+			{
+				"name": "Overphased rocks",
+				"skill": "Ranged",
+				"damage": 3,
+				"critical": 1,
+				"range": "Short",
+				"qualities": ["Blast 6"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Halyards Mate",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Gunnery","Mechanics","Melee","Operating","Perception"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Airborne Expertise",
+				"description": "May remove :setback::setback: from Operating checks character in the encounter make to control an airship or other flying vehicle."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Æmberdrake fang dagger",
+				"skill": "Melee",
+				"damage": 3,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Captain Val Jericho",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Knowledge), Fear (Humiliation), Strength (Curious), Flaw (Obsession)",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 18,
+			"strain": 21,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Charm": 2,
+			"Discipline": 3,
+			"Knowledge: Culture": 4,
+			"Leadership": 3,
+			"Negogiation": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "For the Alliance!",
+				"description": "When making a combat skill check, Captain Jericho may spend a to let a member of her crew in the current encounter immediately perform a maneuver as an out-of-turn incidental; she may instead spend :advantage::advantage::advantage: or :triumph: to let up to three crew members in the current encounter perform an immediate action as an out-of-turn incidental."
+			}, 
+			{
+				"name": "Heroic Captain",
+				"description": "May spend a Story Point to suffer 2 strain and add :triumph: to the next combat or social skill check she makes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blazer pistol",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun 3"]
+			}
+		],
+		"gear": ["Star Alliance captain's uniform: 1 defense, +1 soak","Wrist module"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:7", "General CR:5"]
+	},
+	{
+		"name": "Dodger",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Belonging), Fear (Isolation), Strength (Adaptable), Flaw (Greed)",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Knowledge: Crucible": 3,
+			"Melee": 3,
+			"Ranged": 3,
+			"Skuldugger": 2,
+			"Stealth": 4,
+			"Streetwise": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Dramatic Entrance"],
+		"abilities": [
+			{
+				"name": "Light Fingers",
+				"description": "After making a melee combat check, may spend :triumph: to steal one item of encumbrance 1 or less from the target."
+			}, 
+			{
+				"name": "Heroic Captain",
+				"description": "May spend a Story Point to suffer 2 strain and add :triumph: to the next combat or social skill check she makes."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Twin crystal blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 2","Stun 3","Superior"]
+			},
+			{
+				"name": "Throwing stars",
+				"skill": "Ranged",
+				"damage": 4,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Accurate 1","Lnked 2"]
+			}
+		],
+		"gear": ["Stealth emitter-lined camo-clothing: 1 defense, +2 soak","Magnavistor","Dimensional satchel (SotC page 153) filled with all sorts of interesting things."],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:4", "General CR:7"]
+	},
+	{
+		"name": "Inka the Spider",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Fame), Fear (Poverty), Strength (Patient), Flaw (Pride)",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 8,
+			"strain": 12,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 4,
+			"Discipline": 4,
+			"Knowledge: Crucible": 4,
+			"Knowledge: Culture": 4,
+			"Negotiation": 3,
+			"Perception": 4,
+			"Stealth": 4,
+			"Streetwise": 3,
+			"Survival": 4,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 1", "Wallcrawler"],
+		"abilities": [
+			{
+				"name": "Friends in Spy Places",
+				"description": "A character must suffer 2 strain in order to make a combat check targeting Inka."
+			}, 
+			{
+				"name": "Leverage Fame",
+				"description": "After making a successful social skill check, this character heals 2 strain and may perform a second maneuver without spending strain (but cannot perform more than two maneuvers in their turn)."
+			}
+		],
+		"weapons": [],
+		"gear": ["Tiny quill and papers","Miniaturized spy gear","Comms"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:6", "General CR:1"]
+	},
+	{
+		"name": "Kelifi Dragon",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 42,
+			"strain": 24,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Knowledge: Æmber": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Flyer","Silhouette 4",
+			{
+				"name": "Supersonic",
+				"description": "After spending two maneuvers to move through the air, as an action may make a :hard: Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
+			}, 
+			{
+				"name": "Sweep Attack",
+				"description": "May spend :triumph: on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Huge talons",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			},
+			{
+				"name": "Plasma flames",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 3"]
+			}
+		],
+		"gear": ["Plate armor: +5 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Ether Spider",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 9,
+			"wounds": 39,
+			"strain": 22,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Cool": 3,
+			"Ranged": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3",
+			{
+				"name": "Æmber Eater",
+				"description": "After making a successful Brawl combat check, may spend :advantage::advantage: or :triumph: to devour 1 Æmber the target possesses."
+			}, 
+			{
+				"name": "Terrifying Appearance",
+				"description": "At the start of the encounter, all opponents must make an :hard-1: fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook; if there are multiple sources of fear in the encounter, opponents only make one fear check against the most fearsome enemy."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 15,
+				"critical": 4,
+				"range": "Short",
+				"notes": "The difficulty for this check is always :average:"
+			},
+			{
+				"name": "Spinnerets",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 2,
+				"range": "Short",
+				"qualities": ["Ensnare 3","Stun Damage"]
+			},
+			{
+				"name": "Venomous jaws",
+				"skill": "Brawl",
+				"damage": 12,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Chitinous skin: +4 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Green Walker",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 36,
+			"strain": 20,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Cool": 1,
+			"Charm": 2,
+			"Brawl": 4,
+			"Knowledge: Crucible": 4,
+			"Perception": 2,
+			"Stealth": 1,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 3",
+			{
+				"name": "Woodlander",
+				"description": "While in a forested area, green walkers upgrade the ability of Cool and Stealth checks they make twice."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Thorny fists",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 2"],
+				"notes": "The difficulty for this check is always :average:"
+			}
+		],
+		"gear": ["Thick bark: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:10", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Guardian Demon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 11,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Medicine": 3,
+			"Melee": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Dark Sight","Demon","Regeneration",
+			{
+				"name": "Shift the Pain",
+				"description": "When this character heals wounds from itself or another demon character, may choose to have one non-demon character within short range suffer an equal amount of strain; when this character heals a Critical Injury that they or another demon character are currently suffering, may choose to have one non-demon character within short range suffer one Critical Injury."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Blade of pain",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Superior","Vicious 2"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:-", "General CR:4"]
+	},
+	{
+		"name": "Mushroom person",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 5,
+			"defence": [1,0]
+		},
+		"skills": ["Knowledge: Crucible","Melee"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Fungal Form",
+				"description": "Reduce any damage from hits targeting this character by 3 unless the Burn item quality has been activated as a part of this attack."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Dream staff",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 2"]
+			}
+		],
+		"gear": ["Herbs"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Pilgrim",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [1,0]
+		},
+		"skills": ["Athletics","Charm","Discipline","Knowledge: Crucible","Knowledge: Culture", "Survival"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Powerful Certainty",
+				"description": "Whenever this character would inflict strain as the result of a social skill check, the target suffers 2 additional strain."
+			},
+			{
+				"name": "Someone Looking Over Them",
+				"description": "Reduce any damage inflicted on this character by half before applying soak, and reduce any damage inflicted on friendly character within short range by two before applying soak."
+			}
+		],
+		"weapons": [],
+		"gear": ["Sacred texts and icons"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Pingle",
+		"type": "Nemesis",
+		"notes": "Desire (Survival), Fear (Pain), Strength (Independent), Flaw (Annoying)",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 4,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 12,
+			"strain": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Deception": 2,
+			"Discipline": 2,
+			"Mechanics": 3,
+			"Perception": 2,
+			"Ranged": 4,
+			"Skulduggery": 3,
+			"Streetwise": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Annoying",
+				"description": "Adds :boost: to Coercion checks"
+			},
+			{
+				"name": "Really, Really Annoying",
+				"description": "Whenever anyone spends a Story Point during Pingle's turn, one character within short range of Pingle of the GM's choosing suffers 2 strain and becomes staggered until the end of their next turn."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Eggthrower rifle",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Blast 5","Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Scavenged armor: +2 soak","Extra clip of rotten eggs and other foul ammunition","Cybernetic monocle (ignores penalties to Pingle's combat checks due to concealment)"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:9", "Social CR:5", "General CR:5"]
+	},
+	{
+		"name": "Pit Demon",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Resilience": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Dark Sight","Demon",
+			{
+				"name": "Shift the Pain",
+				"description": "When this character heals wounds from itself or another demon character, may choose to have one non-demon character within short range suffer an equal amount of strain; when this character heals a Critical Injury that they or another demon character are currently suffering, may choose to have one non-demon character within short range suffer one Critical Injury."
+			},
+			{
+				"name": "Feel the Pain",
+				"description": "When targeted by a melee combat check, may spend :threat::threat: or :despair: from the results to cause the attacker to suffer 3 strain."
+			},
+			{
+				"name": "Share the Pain",
+				"description": "Whenever this character suffers wounds, one engaged non-demon character suffers half that amount of strain, rounding down."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Barbed claws",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 3"]
+			}
+		],
+		"gear": ["Armor of pain: +2 soak","Æmber imprint-devices"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:-", "General CR:3"]
+	},
+	{
+		"name": "Pitlord",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 28,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 3,
+			"Resilience": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Dark Sight","Demon",
+			{
+				"name": "Feel the Agony",
+				"description": "When targeted by a melee combat check, may spend :threat::threat: or :despair: to cause the attacker to suffer 4 strain."
+			},
+			{
+				"name": "Share the Agony",
+				"description": "Whenever this character suffers wounds, one engaged non-demon character suffers half that amount of strain, rounding up."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Barbed claws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Linked 1","Vicious 4"]
+			}
+		],
+		"gear": ["Armor of dust: +2 soak, Reinforced","Æmber imprint-shards"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:13", "Social CR:-", "General CR:4"]
+	},
+	{
+		"name": "Witch of the eye",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 22,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Æmbercraft": 3,
+			"Charm": 1,
+			"Discipline": 3,
+			"Knowledge: All": 4,
+			"Medicine": 2,
+			"Ranged": 2,
+			"Survival": 4
+		},
+		"talents": ["Adversary 2","Heightened Awareness"],
+		"abilities": [
+			{
+				"name": "Nepenthe Expert",
+				"description": "Once per encounter as an action, instead of using its normal effects may ingest a nepenthe seed to either remove 5 strain or ignore the effects of the next failed fear check." 
+			},
+			{
+				"name": "Æffects: Cleansing",
+				"description": "As a maneuver or as part of an action using this Æffect may deplete this Æffect to remove all poisons, toxins, and similar afflictions from themself or their target; if used as a maneuver, this power targets one character within short range."
+			},
+			{
+				"name": "Æffects: Find",
+				"description": "May use the effect to locate a particular creature or object at a very great distance, potentially any where on the Crucible. The target must be a being, object, or creature that the Witch personally encountered before. This power gives them an unerring sense of the direction and distance to the target while they are using the power, but not of any intervening obstacles, their surroundings, or other details. If the target does not want to be found (or if someone intentionally hid the object), this should require an opposed Æmbercraft check versus the target's Discipline or Stealth. The process of using the power generally take too long to occur during structure gameplay."
+			},
+			{
+				"name": "Æffects: Flare",
+				"description": "As a maneuver, may use this Æffect to release a blinding flash of psychic light, disorienting all enemy characters within medium range for one round and inflicting one strain on each of them."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Æmbersap wand",
+				"skill": "Discipline",
+				"damage": 5,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Ensnare 2","Stun 4"]
+			}
+		],
+		"gear": ["World tree leaf garb: 1 defense, +1 soak","Bag of nepenthe seeds","Assorted Æmber-imbued items","First aid kit."],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:6", "General CR:6"]
+	},
+	{
+		"name": "Witch of the wilds",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 18,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Æmbercraft": 3,
+			"Athletics": 2,
+			"Knowledge: Æmber": 3,
+			"Knowledge: Crucible": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Stealth": 2,
+			"Survival": 3
+		},
+		"talents": ["Adversary 2","One With Nature","Swift"],
+		"abilities": [
+			{
+				"name": "Ease of the Wilds",
+				"description": "When a character within short range of this character removes strain at the end of an encounter, that character and this character both remove two additional strain." 
+			},
+			{
+				"name": "Hybrid Physiology",
+				"description": "In the wilds, does not need to make Survival checks to find acceptable food, water, or shelter." 
+			},
+			{
+				"name": "Æffects: Wall of Thorns",
+				"description": "May make a :hard: Æmbercraft check to have a hedge of dense thornbushes of silhouette 2 sprout from the ground at medium range; this counts as difficult terrain and inflicts 2 strain on all who cross through it."
+			},
+			{
+				"name": "Æffects: Weight of the Forest",
+				"description": "Choose a target at medium range and make a :hard: Æmbercraft check to disorient that target until the end of the encounter." 
+			}
+		],
+		"weapons": [
+			{
+				"name": "Poxbug slingshot",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Blast 4","Disorient 2"]
+			}
+		],
+		"gear": ["Garb of natural fibers: 1 defense, +2 soak","Satchel filled with assorted pieces of Æmber"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:7", "General CR:3"]
+	},
+	{
+		"name": "Darkwater Tree",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3
+		},
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Æmber Extractor",
+				"description": "A character may make a :hard: Survival check to dig one Æmber out of a destroyed tree and may spend :triumph: to extract two Æmber per :triumph: spent this way."
+			},
+			"Immobile"
+		],
+		"weapons": [
+			{
+				"name": "Iron branches",
+				"skill": "Brawl",
+				"damage": 9,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Concussive 2","Linked 3"],
+				"notes": "The difficulty for this check is always :average:"
+			}
+		],
+		"gear": ["Metal bark: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Deipno Spymaster",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 12,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Deception": 3,
+			"Knowledge: Crucible": 3,
+			"Knowledge: Culture": 2,
+			"Melee": 1,
+			"Negotiation": 3,
+			"Perception": 3,
+			"Stealth": 2,
+			"Streetwise": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Informed",
+				"description": "When providing assistance to friendly character who are making a knowledge skill, Skulduggery, or Streetwise check, this character instead adds :success::success::threat::threat: to the results of the check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Crystal dagger",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Accurate 2","Stun 3","Superior"]
+			}
+		],
+		"gear": ["Set of Deipno stealth emitters: 2 defense, +1 soak","Magnoscope (adds :boost: to Perception checks)","Several heavily encrypted micropads"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Double-Beaked Spire Buzzard",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 15,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Brawl": 3
+		},
+		"talents": [],
+		"abilities": ["Flyer",
+			{
+				"name": "Aerial Thief",
+				"description": "May spend :triumph: when making a check to determine Initiative to steal one randomly determined item of encumbrance 2 or less from the character who generated the least :success: on their check."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Beaks",
+				"skill": "Brawl",
+				"damage": 5,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Eater of the Dead",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Medicine": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Dark Sight", "Demon",
+			{
+				"name": "Feed on the Fallen",
+				"description": "At the end of the Eater of the Dead's turn, if at short range of one or more non-demon characters suffering Critical Injuries, may heal a number of wounds that it is suffering equal to the total number of Critical Injuries."
+			},
+			{
+				"name": "Power from the Fallen",
+				"description": "While engaged with a non-demon character, increase this character's Brawn by one for each Critical Injury the non-demon character is currently suffering to a maximum of 5 (this also increases the damage of this character's claws and teach and this character's soak value)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 2,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:-", "General CR:2"]
+	},
+	{
+		"name": "Escaped Experiment",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 16,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Perception": 3,
+			"Resilience": 2
+		},
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Fragmented Memories",
+				"description": "Add :proficiency::challenge: to social skill checks targeting this character."
+			},
+			{
+				"name": "Mutating",
+				"description": "At the start of each encounter, may suffer 1 wound to gain one species feature generated at random from Table 1-8: Species Features on SotC page 47"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Bioengineered talons",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3", "Vicious 2"]
+			}
+		],
+		"gear": ["Altered flesh: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:3"]
+	},
+	{
+		"name": "Grey Monk",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 2,
+			"Knowledge: Culture": 3,
+			"Medicine": 3,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 2", "Implacable 2"],
+		"abilities": [
+			{
+				"name": "Mystical Healing",
+				"description": "Decrease the difficulty of all Medicine checks made within short range of a Grey Monk by one." 
+			},
+			{
+				"name": "Protective Aura",
+				"description": "Allies gain +1 soak while within short range of a Grey Monk; this stacks with multiple monks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Superior"]
+			}
+		],
+		"gear": ["Robes"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:6", "General CR:6"]
+	},
+	{
+		"name": "Gurgle Pool",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 14,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2
+		},
+		"talents": ["Artificial"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Drain Vigor",
+				"description": "As an Incidental, at the start of their turn, characters engaged with a gurgle pool must make a :hard: Resilience check or suffer 3 strain."
+			},
+			{
+				"name": "Liquid Defenses",
+				"description": "Halve the damage dealt to the pool before applying soak, unless the weapon has the Blast or Burn quality (regardless of whether the quality is activated)."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Pseudopods",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Blast 8", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Inspired Adept",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 10,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Cool": 2,
+			"Discipline": 3,
+			"Medicine": 2,
+			"Perception": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Heightened Awareness","Surgeon 2"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Calm Center",
+				"description": "May remove :boost: from Cool, Discipline, and Vigilance checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists and feet",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Accurate 1", "Superior"]
+			}
+		],
+		"gear": ["Simple garb","Journal","Æmber amulet"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:3", "General CR:3"]
+	},
+	{
+		"name": "Kelifi Dragon",
+		"type": "Nemesis",
+		"notes": "Note to self: Sweep different to other sweep attack",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 10,
+			"wounds": 42,
+			"strain": 24,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 4,
+			"Coercion": 3,
+			"Knowledge: Æmber": 3,
+			"Perception": 2,
+			"Ranged": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Flyer", "Silhouette 4", 
+			"Terrifying 4",
+			{
+				"name": "Supersonic",
+				"description": "After spending two maneuvers to move through the air, as an action may make a :hard:  Athletics check; if successful, all other characters within medium range of this character's final location suffer 5 strain."
+			}, 
+			{
+				"name": "Sweep Attack",
+				"description": "May spend :triumph: on a successful Brawl check to inflict one hit dealing 10 damage on all other characters within short range."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Plasma flames",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 3"]
+			},
+			{
+				"name": "Huge talons",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 4"]
+			}
+		],
+		"gear": ["Plate armour: +5 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:14", "Social CR:5", "General CR:."]
+	},
+	{
+		"name": "Kindrith Ranger",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics", "Ranged", "Stealth", "Survival", "Vigilance"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Blend with the Wilds",
+				"description": "In wilderness areas, Kindrith Rangers gain defense 1."
+			},
+			{
+				"name": "Handmade Weapons",
+				"description": "When another being uses this character's bow, it loses the Superior item quality and gains Inaccurate 3 and Unwieldy 5"
+			}
+		],
+		"weapons": [
+			{
+				"name": "Handcrafted Ranger's Bow",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Burn 1","Pierce 3","Superior"]
+			}
+		],
+		"gear": ["Ranger garb: +1 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Lava Giant",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 20,
+			"strain": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3,
+			"Ranged": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Heat Wave",
+				"description": "At the start of the their turn, characters engaged with a lava giant suffer 2 strain unless they are immune to heat."
+			}, 
+			{
+				"name": "Loves the Heat",
+				"description": "Ignores penalties imposed by high temperatures and ignores damage inflicted by fire or fire-based attacks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Burning limbs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 3","Vicious 3"]
+			},
+			{
+				"name": "Lava bomb",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Blast 6","Burn 2","Inaccurate 1","Knockdown"]
+			}
+		],
+		"gear": ["Stony skin: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Logos Field Researcher",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 1,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 11,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Science": 3,
+			"Perception": 2,
+			"Ranged": 2
+		},
+		"talents": ["Inventor 2"],
+		"abilities": [
+			{
+				"name": "Can't Stop Experimenting!",
+				"description": "While a Logos Researcher is present in an encounter, the GM may spend :despair: from any check to force all other characters to make a :hard: Vigilance: or Coordination check as an out-of-turn incidental; anyone who fails suffers 4 wounds and 4 strain."
+			},
+			{
+				"name": "Knowledge is Dangerous",
+				"description": "Adds :success::threat: to the results of Knowledge: Science checks other characters make in the encounter."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Reality distorter",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Auto-Fire","Prepare 1","Sunder","Superior"],
+				"notes": "Combat check uses Intellect instead of Agility"
+			}
+		],
+		"gear": ["Phased hyperfield: 2 defense, +2 soak","Assorted experimental items", "Communicator", "Databooks","Several recording drones"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Looter Goblin",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Mechanics","Perception","Survival"],
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Expert Scrounger",
+				"description": "While this character is present in an encounter, add :boost::boost: to checks friendly characters make to search an area."
+			},
+			"Darkvision"
+		],
+		"weapons": [
+			{
+				"name": "Shiv",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged"
+			}
+		],
+		"gear": ["Assorted tools","Bags of scavenged items"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Macis Asp",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 10,
+			"defence": [1,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3
+		},
+		"talents": [],
+		"abilities": ["Construct","Amphibious",
+			{
+				"name": "Strike Back",
+				"description": "May spend :threat::threat::threat: or :despair: from an engaged opponent's failed combat check against this character to inflict 3 wounds on the opponent."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Poisonous Fangs",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Disorient 3","Pierce 3","Vicious 3"]
+			}
+		],
+		"gear": ["Metallic Microscales: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Makari",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Ascension), Fear (Failure), Strength (Courageous), Flaw (Carelessness)",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 3,
+			"Willpower": 4,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 16,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 4,
+			"Charm": 3,
+			"Cool": 3,
+			"Coordination": 3,
+			"Discipline": 3,
+			"Survival": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Æmber-Do",
+				"description": "Once per encounter, may spend a Story Point before making a skill check to double this character's Brawn value and require 1 fewer :advantage: to activate any item quality for that check."
+			}, 
+			{
+				"name": "The Path Provides",
+				"description": "Whenever Makai assists on a check, the character making the check may spend :triumph: to heal all of their own strain."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Fists and feet",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Guided 4"]
+			}
+		],
+		"gear": ["Traveling robes","Necklace with Æmber amulet"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:6", "General CR:6"]
+	},
+	{
+		"name": "Martian Scout",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 9,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Ka-boom!",
+				"description": "May spend :triumph: on a combat check to activate the Blast item quality and have the quality affect all characters within short range of the target."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ray rifle",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Extreme",
+				"qualities": ["Pierce 2","Vicious 2"]
+			},
+			{
+				"name": "Disintegration grenade",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Blast 7","Knockdown","Limited Ammo 2","Vicious 4"]
+			}
+		],
+		"gear": ["Scout armour: 1 defense, +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Martian Zookeeper",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 3,
+			"wounds": 9,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Knowledge: Crucible": 2,
+			"Negotiation": 2,
+			"Perception": 2,
+			"Ranged": 2,
+			"Survival": 3
+		},
+		"talents": ["Adversary 1","Animal Companion 4"],
+		"abilities": [
+			{
+				"name": "Animal Adversary",
+				"description": ":despair: may be spent on a failed check this character makes during a turn in which they direct their animal companion to have the companion make a combat check as an out-of-turn action targeting this character; :triumph: may be spent on this combat check to also have the animal run away."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Energy webber",
+				"skill": "Ranged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Ensnare 4","Stun Damage"]
+			}
+		],
+		"gear": ["Armored exosuit: +2 soak","Dimensional holding cage"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Miss 'Onyx' Censorius",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Acceptance), Fear (Rejection), Strength (Curious), Flaw (Inattention)",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 5,
+			"Intellect": 6,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 6
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 0,
+			"strain": 30,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Charm": 5,
+			"Cool": 5,
+			"Discipline": 5,
+			"Knowledge: All": 5,
+			"Vigilance": 3
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Archon", "Hoverer",
+			{
+				"name": "Ease Your Worries",
+				"description": "Whenever allies at short range would suffer strain involuntarily, they suffer 2 less strain, to a minimum of 0"
+			},
+			{
+				"name": "Explains Things",
+				"description": "Allies at short range add :ability: to Knowledge: Æmber checks they make"
+			},
+			{
+				"name": "Wondrous Aura",
+				"description": "Allies within short range add :setback: to their Deception checks and :boost: to their Discipline checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Mental whispers",
+				"skill": "Discipline",
+				"damage": 12,
+				"critical": 0,
+				"range": "Long",
+				"qualities": ["Breach 1","Disorient 3","Stun Damage"]
+			}
+		],
+		"gear": ["Subtle energy field: 2 defense, Reinforced"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:-", "Social CR:14", "General CR:12"]
+	},
+	{
+		"name": "Nucrandacra",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 18,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee": 3,
+			"Knowledge: Æmber": 2,
+			"Negotiaion": 2,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Amphibious","Dark Sight",
+			{
+				"name": "Spiked Carapace",
+				"description": "When targeted by a melee combat check, may spend :threat::threat::threat: or :despair: from the results to have the attacker suffer 4 wounds."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Coral glaive",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": ["Shell: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Neutron Shark",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 4,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 8,
+			"wounds": 24,
+			"strain": 19,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Flyer",
+			{
+				"name": "Frenzied Hunger",
+				"description": "After making a successful combat check, may spend :triumph: to inflict an additional hit on any number of other engaged opponents, dealing base damage +1 per :success:; after doing so the neutron shark suffers 3 strain for each additional opponent hit."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Leptonic Jaws",
+				"skill": "Brawl",
+				"damage": 10,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Vicious 4"]
+			}
+		],
+		"gear": ["Baryon skin: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:2", "General CR:3"]
+	},
+	{
+		"name": "Piranha Monkey",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Athletics","Brawl","Coordination"],
+		"talents": [],
+		"abilities": ["Arboreal","Critical Numbers",
+			{
+				"name": "Forest Predator",
+				"description": "When in forest, may spend :advantage::advantage: from an Initiative check to make an immediate out-of-turn maneuver."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Teeth",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 4"]
+			}
+		],
+		"gear": ["Assorted tools","Bags of scavenged items"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Questing Giant",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 20,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 3"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Challenge Accepted!",
+				"description": "Once per session, may spend a Story Point to count as having 3 ranks in any skill they do not posses until the end of the encounter."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Handmade axe",
+				"skill": "Melee",
+				"damage": 10,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Cumbersom 4","Pierce 3"]
+			}
+		],
+		"gear": ["Handmade armor: +2 soak","Performing implements (horn, spices, paints, etc.)"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Quixo the 'Adventurer'",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Fame), Fear (Failure), Strength (Confidence), Flaw (Recklessness). Has animal companion Archimedes",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 13,
+			"strain": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 3,
+			"Computers": 4,
+			"Cool": 3,
+			"Discipline": 3,
+			"Knowledge: Crucible": 3,
+			"Knowledge: Science": 4,
+			"Mechanics": 4,
+			"Melee": 2,
+			"Operating": 3,
+			"Perception": 1,
+			"Ranged": 2,
+			"Survival": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2","Animal Companion 1"],
+		"abilities": [
+			{
+				"name": "Exploration Maven",
+				"description": "While exploring (or telling stories of his explorations), whenever Quixo recovers strain, he removes three additional strain and friendly characters within short range suffer 1 strain."
+			},
+			{
+				"name": "Not in the Memoirs",
+				"description": "Whenever Quixo would suffer a Critical Injury, he may spend a Story Point to have one of his assistants within short range be incapacitated instead."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Æmberhead staff",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 4","Reinforced","Superior"]
+			}
+		],
+		"gear": ["Cool cybercloak: 1 defense, +3 soak","Assorted adoring assistants","Selective recording devices","Sciency gear"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:4", "General CR:9"]
+	},
+	{
+		"name": "Archimedes",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 1,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 5,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Perception": 2,
+			"Ranged": 2,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": ["Silhouette 0","Flyer"],
+		"weapons": [
+			{
+				"name": "Laser eyes",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Short",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Illuminator"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Radiant Argus the Supreme",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Justice), Fear (Failure), Strength (Idealistic), Flaw (Certainty)",
+		"characteristics": {
+			"Brawn": 6,
+			"Agility": 4,
+			"Intellect": 4,
+			"Cunning": 4,
+			"Willpower": 6,
+			"Presence": 5
+		},
+		"derived": {
+			"soak": 0,
+			"wounds": 0,
+			"strain": 26,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Cool": 3,
+			"Discipline": 5,
+			"Knowledge: All": 5,
+			"Leadership": 4,
+			"Vigilance": 5
+		},
+		"talents": ["Adversary 3"],
+		"abilities": ["Archon",
+			{
+				"name": "Belief through Power",
+				"description": "Whenever an ally within short range makes a successful combat check, other allies in the encounter recover 2 strain."
+			},
+			{
+				"name": "Power through Belief",
+				"description": "Allies within short range count their Brawn as 2 higher, to a maximum of 6."
+			},
+			{
+				"name": "Symbol of Faith",
+				"description": "While Argus assumes his armored knightly form, Sanctum allies at medium range gain defense 1."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Energy mace",
+				"skill": "Discipline",
+				"damage": 10,
+				"critical": 0,
+				"range": "Engaged",
+				"qualities": ["Pierce 8", "Reinforced", "Stun Damage", "Sunder"]
+			}
+		],
+		"gear": ["Glowing armor: 1 defense, Reinforced"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:-", "Social CR:14", "General CR:12"]
+	},
+	{
+		"name": "Rogue Ogre",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 17,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Coercion": 3,
+			"Resilience": 3
+		},
+		"talents": ["Adversary 2","Bowl Over"],
+		"abilities": ["Silhouette 2",
+			{
+				"name": "Relentless",
+				"description": "After making a successful combat check against a target, add :boost: to the next combat check this character makes against the same target."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Cybernetic augments",
+				"skill": "Brawl",
+				"damage": 11,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Burn 1","Knockdown","Linked 2"],
+				"notes": "The difficulty for this check is always :average:"
+			}
+		],
+		"gear": ["Æmber-infused skin: +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:8", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Sanctum Knight",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 1,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 13,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Discipline": 2,
+			"Knowledge: Culture": 2,
+			"Melee": 3,
+			"Perception": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Power from Faith",
+				"description": "After making a combat check, may spend :advantage::advantage: to add 3 damage to one hit of the attack; after making an opposed social skill check may spend :advantage::advantage: to inflict 3 strain on the target."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Blessed blade",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Superior"]
+			}
+		],
+		"gear": ["Knightly armor: 1 defense, +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:5", "Social CR:3", "General CR:1"]
+	},
+	{
+		"name": "Saurian Merchant",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 14,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Charm": 2,
+			"Discipline": 3,
+			"Knowledge: Crucible": 3,
+			"Melee": 2,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Streetwise": 1
+		},
+		"talents": ["Counteroffer"],
+		"abilities": [
+			{
+				"name": "Seasoned Negotiator",
+				"description": "Whenever the merchant would suffer strain after making or opposing a Negotiation skill check, they suffer 1 less, to a minimum of 0; when inflicting strain as part of a Negotiation skill check, they inflict one additional strain."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Autoblade",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Guided 3","Pierce 1","Superior"]
+			}
+		],
+		"gear": ["Night-phase field: 1 defense, +2 soak","Assortment of the most wonderous goods you've ever seen"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Saurian Rancher",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Melee": 2,
+			"Perception": 2,
+			"Ranged": 3,
+			"Riding": 3,
+			"Vigilance": 2
+		},
+		"talents": ["Let's Ride"],
+		"abilities": [
+			{
+				"name": "Yee-hah!",
+				"description": "May spend :advantage::advantage::advantage: or :triumph: from a success combat check using their liquid-metal lasso to inflict one hit from the weapon on one other target within short range of the original target, inflicting base damage +1 per :success:."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Liquid-metal lasso",
+				"skill": "Ranged",
+				"damage": 6,
+				"critical": 2,
+				"range": "Medium",
+				"qualities": ["Ensnare 3","Stun Damage"]
+			},
+			{
+				"name": "Stunstick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Riding garb: +1 soak","Large riding beast (SotC p151)","Big hat"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Saurian Herd Beast",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 1,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 6,
+			"wounds": 13,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Perception"],
+		"talents": [],
+		"abilities": ["Silhouette 3","Beast of Burden 11",
+			{
+				"name": "Stampede",
+				"description": "For every three minions in this minion group, add :boost: to any Brawl checks."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Trample",
+				"skill": "Brawl",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
+			}
+		],
+		"gear": ["Scaly hide: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Shadows Thief",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Coordination": 1,
+			"Melee": 1,
+			"Perception": 2,
+			"Skulduggery": 3,
+			"Stealth": 3
+		},
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Natural Thief",
+				"description": "Once per session, may reroll one Skulduggery or Stealth check."
+			},
+			{
+				"name": "Poof!",
+				"description": "Once per encounter may make an opposed Stealth versus Vigilance check against an opponent within short range to vanish from the encounter; must reappear at long range of that opponent at the start of this character's next turn."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Monoblade",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Pierce 4"]
+			},
+			{
+				"name": "Stunstick",
+				"skill": "Melee",
+				"damage": 6,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Cloak with dimensional satchel (page 153)", "Thieves' tools","Set of customer stealth xxx: 2 defense"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:4", "Social CR:1", "General CR:4"]
+	},
+	{
+		"name": "Snufflegator",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 2,
+			"Willpower": 1,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 28,
+			"strain": 20,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 2,
+			"Brawl": 3
+		},
+		"talents": ["Adversary 2"],
+		"abilities": [
+			{
+				"name": "Æmberspines",
+				"description": "A character may make a :hard: Survival check to extract one Æmber per  :success: and two Æmber per :triumph: spent from a freshly defeated snufflegator's spines."
+			},
+			{
+				"name": "Crushing Bite",
+				"description": "May spend :triumph: from a successful Brawl check to increase the base damage of its jaws to 14."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Jaws",
+				"skill": "Brawl",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Pierce 8", "Reinforced", "Stun Damage", "Sunder"]
+			}
+		],
+		"gear": ["Spined hide: 1 defense, +3 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:9", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Steed",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 1,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Athletics": 1,
+			"Brawl": 2,
+			"Coordination": 1
+		},
+		"talents": [],
+		"abilities": ["Beast of Burden 4","Silhouette 2","Trained Mount 1"],
+		"weapons": [
+			{
+				"name": "Kick",
+				"skill": "Brawl",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Syndicate Insider",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Coercion": 2,
+			"Cool": 2,
+			"Deception": 3,
+			"Negotiation": 3,
+			"Perception": 2,
+			"Ranged": 1,
+			"Vigilance": 2
+		},
+		"talents": ["Adversary 1"],
+		"abilities": [
+			{
+				"name": "Dangerous Connections",
+				"description": "May spend :advantage::advantage::advantage: or :triumph: from a social skill check they make targeting a PC to move one Story Point from the player pool to the GM pool."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Custom zapper",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 2,
+				"range": "Short"
+			}
+		],
+		"gear": ["Bespoke clothing: +2 soak", "Array of communication devices","4d100 Æmbits"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:4", "General CR:3"]
+	},
+	{
+		"name": "Territorial Scout",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"defence": [0,1]
+		},
+		"skills": {
+			"Brawl": 3,
+			"Melee": 3,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Forager"],
+		"abilities": [
+			{
+				"name": "Never Alone",
+				"description": "May spend :advantage::advantage::advantage: or :triumph: on checks this character makes to determine Initiative to have one additional scout appear at long range; this new scout also makes a check to determine Initiative."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Hyper-collimated photon beamer",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Extreme",
+				"qualities": ["Pierce 2"]
+			}
+		],
+		"gear": ["Survival gear","Collapsible telescope"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:6", "Social CR:2", "General CR:4"]
+	},
+	{
+		"name": "The Terror",
+		"type": "Nemesis",
+		"notes": "Motivations: Unknown",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 4,
+			"Intellect": 3,
+			"Cunning": 5,
+			"Willpower": 5,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 7,
+			"wounds": 24,
+			"strain": 16,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Coercion": 4,
+			"Deception": 3,
+			"Discipline": 4,
+			"Medicine": 3,
+			"Melee": 4,
+			"Perception": 3,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 2"],
+		"abilities": ["Dark Sight","Demon","Silhouette 2",
+			{
+				"name": "Cruel Empathy",
+				"description": "When a character within short ranged makes a check that generates :despair:, the Terror removes 1 strain."
+			},
+			{
+				"name": "For the Pain",
+				"description": "When a non-demon within short range suffers a Critical Injury, may spend a Story Point to replace the result with an Agonizing Wound."
+			},
+			{
+				"name": "Terrifying Aura",
+				"description": "At the start of an encounter, all opponents must make a :hard-1: fear check as an out-of-turn incidental, as per page 243 of the Genesys Core Rulebook; if there are multiple sources of fear in the encounter, the opponents only make on fear check against the most fearsome enemy."
+			}			
+		],
+		"weapons": [
+			{
+				"name": "Blade of Despair",
+				"skill": "Melee",
+				"damage": 9,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Burn 6", "Sunder"]
+			}
+		],
+		"gear": ["Corrupted armor: 1 defense, +3 soak","Æmber imprint-shards"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:12", "Social CR:-", "General CR:7"]
+	},
+	{
+		"name": "Timehog",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [2,0]
+		},
+		"skills": {
+			"Brawl": 2,
+			"Perception": 1,
+			"Survival": 2,
+			"Vigilance": 2
+		},
+		"talents": ["Durable 2"],
+		"abilities": ["Construct",
+			{
+				"name": "Chronal Absorption",
+				"description": "For every round that passes in an encounter featuring a timehog, an hour passes outside of the encounter."
+			},
+			{
+				"name": "Eating Time",
+				"description": "As an action, may make an opposed Survival versus Discipline check targeting one character at short range; if successful, the timehog may perform one additional maneuver during its turns for the remainder of the encounter without suffering strain (it still may only perform two maneuvers during its turn); the target loses its free maneuver during its turn for the remainder of the encounter."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Tusks",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Vicious 1"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Vect Dealmaker",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 10,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Charm": 4,
+			"Computers": 2,
+			"Cool": 1,
+			"Knowledge: Culture": 3,
+			"Negotiation": 4,
+			"Vigilance": 2
+		},
+		"talents": [],
+		"abilities": [
+			{
+				"name": "Friends Help Friends",
+				"description": "Once per encounter as an action, may select a target within short range and one ally within medium range; the ally can make one immediate combat check against the target as an out-of-turn incidental."
+			},
+			{
+				"name": "Useful Advice",
+				"description": "Once per session as an out-of-turn incidental, may spend a Story Point to allow one ally in the encounter to reroll a failed check."
+			}
+		
+		],
+		"weapons": [],
+		"gear": ["Hands-free comm device","Several encrypted digital tablets"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:5", "General CR:3"]
+	},
+	{
+		"name": "Zealous Hermit",
+		"type": "Rival",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 3,
+			"Cunning": 2,
+			"Willpower": 3,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 9,
+			"defence": [1,0]
+		},
+		"skills": {
+			"Cool": 2,
+			"Discipline": 3,
+			"Knowledge: Æmber": 3,
+			"Melee": 2,
+			"Perception": 2,
+			"Survival": 3
+		},
+		"talents": ["Heightened Awareness"],
+		"abilities": [
+			{
+				"name": "Philosophical Paradox",
+				"description": "May make an opposed Knowledge: Æmber versus Discipline check targeting a sentient being within short range to stagger the target until the end of their next turn."
+			}
+		
+		],
+		"weapons": [
+			{
+				"name": "Æmber dagger",
+				"skill": "Melee",
+				"damage": 5,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Breach 1"]
+			}
+		],
+		"gear": ["Several Æmber icons","Bedroll","Religious icons","Writing supplies"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:3", "General CR:4"]
+	},
+	{
+		"name": "Tolas",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 3,
+			"Agility": 2,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 10,
+			"defence": [2,0]
+		},
+		"skills": ["Brawl","Stealth"],
+		"talents": [],
+		"abilities": ["Construct","Critical Numbers",
+			{
+				"name": "Scamper",
+				"description": "When making a check to determine Initiative, may spend :advantage::advantage: to upgrade the difficulty of combat checks made targeting them in the first round once."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws and teeth",
+				"skill": "Brawl",
+				"damage": 3,
+				"critical": 2,
+				"range": "Engaged",
+				"qualities": ["Pierce 3"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Trashcrab",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 1,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 5,
+			"defence": [2,0]
+		},
+		"skills": ["Brawl","Ranged","Stealth"],
+		"talents": [],
+		"abilities": ["Aquatic Creature",
+			{
+				"name": "River's Embrace",
+				"description": "May spend :triumph: from a check targeting a character who is engaged with a body of water to make that character fall in."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Brawl",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Linked 1"]
+			},
+			{
+				"name": "Water jet",
+				"skill": "Ranged",
+				"damage": 5,
+				"critical": 4,
+				"range": "Short",
+				"qualities": ["Concussive 1","Stun Damage"]
+			}
+		],
+		"gear": ["Æmber encrusted shell: +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
+	},
+	{
+		"name": "Troubadour",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 3
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 4,
+			"defence": [0,0]
+		},
+		"skills": ["Brawl","Charm","Cool","Coordination","Deception"],
+		"talents": [],
+		"abilities": ["Aquatic Creature",
+			{
+				"name": "Soothing Melody",
+				"description": "Once per encounter, may make an :average: Charm or Coordination check; if successful, characters in the encounter remove 1 strain per :success: and :triumph: this character adds :boost: to social skill checks they make until the end of the encounter."
+			}
+		],
+		"weapons": [],
+		"gear": ["Customized musical instrument","Books of poetry","Journals"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:2", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Urchin",
+		"type": "Minion",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 3,
+			"Intellect": 2,
+			"Cunning": 3,
+			"Willpower": 1,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 2,
+			"wounds": 3,
+			"defence": [0,0]
+		},
+		"skills": ["Charm","Knowledge: Crucible","Knowledge: Culture","Melee","Perception","Skulduggery","Stealth","Streetwise"],
+		"talents": ["Unremarkable"],
+		"abilities": [],
+		"weapons": [
+			{
+				"name": "Improvised byperblade",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 1,
+				"range": "Engaged",
+				"qualities": ["Inaccurate 1"]
+			}
+		],
+		"gear": ["Mismatched clothing","Pack of stolen goods"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:1", "Social CR:1", "General CR:2"]
+	},
+	{
+		"name": "Troll",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 5,
+			"Agility": 2,
+			"Intellect": 2,
+			"Cunning": 2,
+			"Willpower": 2,
+			"Presence": 1
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"strain": 15,
+			"defence": [1,1]
+		},
+		"skills": {
+			"Athletics": 3,
+			"Brawl": 3,
+			"Melee": 3,
+			"Survival": 1
+		},
+		"talents": ["Adversary 1"],
+		"abilities": ["Regeneration","Silhouette 2",
+			{
+				"name": "Tough to Convince",
+				"description": "When another character targets this character with an opposed social skill check, the difficulty is set by this character's Brawn instead of the usual characteristic."
+			}			
+		],
+		"weapons": [
+			{
+				"name": "Two hammer",
+				"skill": "Melee",
+				"damage": 7,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Concussive 1", "Knockdown"]
+			}
+		],
+		"gear": [],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:7", "Social CR:2", "General CR:1"]
+	},
+	{
+		"name": "Vorgan Hunter",
+		"type": "Nemesis",
+		"characteristics": {
+			"Brawn": 4,
+			"Agility": 3,
+			"Intellect": 3,
+			"Cunning": 3,
+			"Willpower": 3,
+			"Presence": 2
+		},
+		"derived": {
+			"soak": 5,
+			"wounds": 21,
+			"strain": 15,
+			"defence": [0,0]
+		},
+		"skills": {
+			"Knowledge: Æmber": 3,
+			"Knowledge: Crucible": 4,
+			"Knowledge: Science": 4,
+			"Melee": 3,
+			"Negotiation": 3,
+			"Ranged": 3,
+			"Survival": 3
+		},
+		"talents": ["Adversary 2","Sharp Tongue 2"],
+		"abilities": ["Dark Sight","Silhouette 2",
+			{
+				"name": "Tail Smash",
+				"description": "After making a successful melee combat check, may spend :triumph: to inflict one hit dealing 6 damage on one engaged character."
+			}			
+		],
+		"weapons": [
+			{
+				"name": "Piezo-staff (melee profile)",
+				"skill": "Melee",
+				"damage": 8,
+				"critical": 3,
+				"range": "Engaged",
+				"qualities": ["Stun Damage"]
+			},
+			{
+				"name": "Piezo-staff (ranged profile)",
+				"skill": "Ranged",
+				"damage": 10,
+				"critical": 4,
+				"range": "Medium",
+				"qualities": ["Stun Damage"]
+			}
+		],
+		"gear": ["Bone plating: +3 soak","Databooks","Cache of Æmber crystals","Bag of chewing grubroots"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:11", "Social CR:4", "General CR:5"]
+	},
+	{
+		"name": "Ximilpix",
+		"type": "Nemesis",
+		"notes": "Motivations: Desire (Obscurity), Fear (Fame), Strength (Fearless), Flaw (Tired)",
+		"characteristics": {
+			"Brawn": 2,
+			"Agility": 5,
+			"Intellect": 3,
+			"Cunning": 4,
+			"Willpower": 5,
+			"Presence": 4
+		},
+		"derived": {
+			"soak": 4,
+			"wounds": 12,
+			"strain": 20,
+			"defence": [2,2]
+		},
+		"skills": {
+			"Coercion": 3,
+			"Cool": 4,
+			"Discipline": 4,
+			"Gunnery": 3,
+			"Knowledge: Crucible": 3,
+			"Leadership": 3,
+			"Perception": 4,
+			"Ranged": 4,
+			"Survival": 2,
+			"Vigilance": 4
+		},
+		"talents": ["Adversary 3","Quick Draw"],
+		"abilities": ["Silhouette 0",
+			{
+				"name": "The Legend",
+				"description": "When making a skill check, may spend a Story Point to treat :advantage::advantage: as :triumph:."
+			},
+			{
+				"name": "Veteran of a Thousand Battles",
+				"description": "When Ximilpix makes a check to determine Initiative order, :advantage: on the check counts as :success:."
+			}
+		],
+		"weapons": [
+			{
+				"name": "Ancient ray pistol",
+				"skill": "Ranged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Auto-Fire","Pierce 3"]
+			}
+		],
+		"gear": ["Battered uniform: 2 defense, +2 soak"],
+		"tags": ["source:SotC", "Official", "setting:Science Fantasy", "Combat CR:11", "Social CR:10", "General CR:8"]
 	}
 ]

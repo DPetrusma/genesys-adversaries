@@ -85,6 +85,7 @@ Main tasks:
 - Expanded Player's Guide
 - Realms of Terrinoth
 - Shadow of the Beanstalk
+- Secrets of the Crucible
 
 ### In-Progress Adversaries
 
@@ -113,7 +114,9 @@ Main tasks:
 - Spellchecks, capitilisation, and grammar
 - Young Ristie WT
 - Ruinous Repartee uses Presence x 2. How to implement that, similar to the ranks multiplier replacement?
-- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the difficulty
+- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the 
+- SotC Shadows Thief "set of customer stealth xxx: 2 defense" needs fixing
+- SotC Troubadour ability has strange text about triumph
 
 ## Notes
 - DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead

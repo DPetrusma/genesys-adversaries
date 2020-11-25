@@ -405,7 +405,7 @@
 	},
 	{
 		"name": "Hoverer",
-		"description": "When hovering the character does not have to spend additional maneuvers when navigating difficult terrain."
+		"description": "Hovering creatures ignore difficult or impassable terrain as long as they can reasonably stay above it, and they ignore the penalties for moving through water. They generally have to stay relatively close to the ground (within medium range) unless noted otherwise."
 	},
 	{
 		"name": "Huttese",
@@ -732,7 +732,7 @@
 		"description": "Immune to the effects of heat and hot environments."
 	},
 	{
-		"name": "Su­premely Terrifying",
+		"name": "Supremely Terrifying",
 		"description": "Upon first seeing a sando aqua monster, an individual must make a :daunting-1: fear check to reflect the sheer dread the beast invokes."
 	},
 	{
@@ -1078,5 +1078,21 @@
 	{
 		"name": "Demon",
 		"description": "This adversary is affected by abilities affecting demons."
+	},
+	{
+		"name": "Regeneration",
+		"description": "At the beginning of its turn, this creature automatically heals 3 wounds."
+	},
+	{
+		"name": "Archon",
+		"description": "See SotC page 260"
+	},
+	{
+		"name": "Arboreal",
+		"description": "Treats foliage as clear terrain"
+	},
+	{
+		"name": "Critical Numbers",
+		"description": "Adds :advantage: to combat checks if there are two or more members in the minion group."
 	}
 ]

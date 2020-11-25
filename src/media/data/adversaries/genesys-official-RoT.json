@@ -2580,17 +2580,16 @@
 			"Ranged": 2
 		},
 		"talents": [],
-		"abilities": [
-			{"name": "Regeneration", "description": "At the beginning of its turn, this creature automatically heals 3 wounds."}, 
-			"Sweep Attack"],
+		"abilities": ["Regeneration","Sweep Attack"],
 		"weapons": [
 			{
 				"name": "Cudgel",
 				"skill": "Melee",
 				"damage": 10,
 				"critical": 4,
-				"range": "Engaged, Disorient 2, Knockdown."
-				},
+				"range": "Engaged",
+				"qualities": ["Disorient 2","Knockdown"]
+			},
 			{
 				"name": "Spiked Chain",
 				"skill": "Ranged",

@@ -168,6 +168,7 @@ export const statify = function(text, stats, ranks) {
 	text = text.replace(/\{ranks\|multiply-10\}/g,  () => ranks * 10);
 	text = text.replace(/\{ranks\|multiply-50\}/g,  () => ranks * 50);
 	text = text.replace(/\{ranks\|multiply-100\}/g, () => ranks * 100);
+	text = text.replace(/\{ranks\|minus-1\}/g,       () => ranks - 1);
 	text = text.replace(/\{ranks\|plus-2\}/g,       () => ranks + 2);
 
 	// add game symbols a number of times equal to ranks

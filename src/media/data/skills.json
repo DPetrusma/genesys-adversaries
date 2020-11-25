@@ -283,5 +283,40 @@
 		"name": "Knowledge: Geography",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Society",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: The Net",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Science",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Æmber",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Crucible",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Culture",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: All",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
 	}
 ]
