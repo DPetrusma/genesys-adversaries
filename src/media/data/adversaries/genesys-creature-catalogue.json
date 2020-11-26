@@ -139,7 +139,7 @@
 		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
-		"name": "Wraith",
+		"name": "Wraith (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "When a supremely evil person dies, they sometimes leave behind a malevolent echo of themselves, known as a wraith. Wraiths exist only to destroy life. Their incorporeal nature and life-draining attacks make them terrifying opponents.",
