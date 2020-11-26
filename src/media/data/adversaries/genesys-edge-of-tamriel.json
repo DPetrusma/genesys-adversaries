@@ -39,7 +39,7 @@
             "Spells (Destruction)",
             {
                 "name": "Spells: Sunbeam",
-                "description": "Difficulty :average: Range: Medium, Damage: 5, Crit: 3, Qualities: Burn"
+				"description": "Choose a target at short or medium range for this attack and make an :average: Destruction check. If successful, this magic attack inflicts 5 damage +1 damage per :success:, with the Burn quality, and a Critical Rating of 3."
             }
 		],
 		"weapons": [

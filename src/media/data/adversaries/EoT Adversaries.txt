@@ -23,6 +23,7 @@ Fiery Passions - Players suffer one Setback to all Cool or Leadership checks whe
 ●	Special Abilities:
 Stoke The Flames - If damaged with Fire-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round.
 Melted Weapons - If using Normal Weapons and a Despair or 5 Threat is rolled on an attack against a Fire Atronach, the weapon is consumed by the Atronach’s molten flesh, and destroyed.
+
 Atronach, Frost [Rival]
 Frost Atronachs are less common, but more imposing to mortals than their fiery rivals. Their form varies, typically depending on the intelligence of the individual Daedra. Some will resemble nothing more than an amalgamation of icy shards, while others resemble men made of ice. They share the Fire Atronach’s hatred, often responding to their threats with action.
 

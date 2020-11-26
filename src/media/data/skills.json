@@ -318,5 +318,44 @@
 		"name": "Knowledge: All",
 		"characteristic": "Intellect",
 		"type": "Knowledge"
+	},
+	
+	
+	
+	
+	{
+		"name": "Acrobatics",
+		"characteristic": "Agililty",
+		"type": "General"
+	},
+	{
+		"name": "Intimidate",
+		"characteristic": "Strength",
+		"type": "General"
+	},
+	{
+		"name": "Search",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "One-Handed",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Two-Handed",
+		"characteristic": "Strength",
+		"type": "Combat"
+	},
+	{
+		"name": "Destruction",
+		"characteristic": "Willpower",
+		"type": "Magic"
+	},
+	{
+		"name": "Illusion",
+		"characteristic": "Personality",
+		"type": "Magic"
 	}
 ]

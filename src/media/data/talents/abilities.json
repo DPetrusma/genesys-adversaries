@@ -1102,5 +1102,9 @@
 	{
 		"name": "Normal Weapon Immunity",
 		"description": "This adversary is immune to normal weapons."
+	},
+	{
+		"name": "Spells (Destruction)",
+		"description": "This character can choose any magic action allowed for the Destruction skill, and may select additional spell effects as normal. The spells they use most often are the following:"
 	}
 ]
