@@ -11,14 +11,84 @@
 			"Willpower": 3,
 			"Personality": 3
 		},
-		"derived": {
+		"derived": {,
 			"soak": 2,
-			"wounds": 6,	{
+			"wounds": 6
+		},
+		"skills": ["Charm","Deception","Destruction","Hand-to-Hand","Intimidate","Search","Vigilance"],
+		"abilities": [,
+		"gear": ["Fire Salts - Counts as Rare Herb"],
+		"weapons": [
+			{
+				"name": "Fiery Swipe ",
+				"skill": "Agi)(GG) Range: Engaged",
+				"damage": 7,
+				"critical": 4,
+				"range": "Qualities: Burn",
+				"qualities": ["alities: Burn
+"]
+			},
+			{
+				"name": "Stoke The Flames", 
+				"description": "If damaged with Fire-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Melted Weapons", 
+				"description": "If using Normal Weapons and a Despair or 5 Threat is rolled on an attack against a Fire Atronach, the weapon is consumed by the Atronach’s molten flesh, and destroyed."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Atronach, Frost",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Frost Atronachs are less common, but more imposing to mortals than their fiery rivals. Their form varies, typically depending on the intelligence of the individual Daedra. Some will resemble nothing more than an amalgamation of icy shards, while others resemble men made of ice. They share the Fire Atronach’s hatred, often responding to their threats with action.",
+		"description": "
+			{
+				"name": "Atronach, Frost [Rival]", 
+				"description": "ronach, Frost [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Frost Atronachs are less common, but more imposing to mortals than their fiery rivals. Their form varies, typically depending on the intelligence of the individual Daedra. Some will resemble nothing more than an amalgamation of icy shards, while others resemble men made of ice. They share the Fire Atronach’s hatred, often responding to their threats with action.",
 		"characteristics": {
+			{
+				"name": "Frost Atronachs are less common, but more imposing to mortals than their fiery rivals. Their form varies, typically depending on the intelligence of the individual Daedra. Some will resemble nothing more than an amalgamation of icy shards, while others resemble men made of ice. They share the Fire Atronach’s hatred, often responding to their threats with action.", 
+				"description": "ost Atronachs are less common, but more imposing to mortals than their fiery rivals. Their form varies, typically depending on the intelligence of the individual Daedra. Some will resemble nothing more than an amalgamation of icy shards, while others resemble men made of ice. They share the Fire Atronach’s hatred, often responding to their threats with action."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 4,
 			"Agility": 1,
@@ -27,13 +97,209 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 16,	{
+			{
+				"name": "3 4 1 2 3 2", 
+				"description": "4 1 2 3 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 16
+			{
+				"name": "Wounds: 16", 
+				"description": "unds: 16"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Charm": 1,
+			"Deception": 1,
+			"Destruction": 2,
+			"Hand-to-Hand": 3,
+			"Intimidate": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Charm 1 (Pers), Deception 1 (Pers), Destruction 2 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)", 
+				"description": "ills: Charm 1 (Pers), Deception 1 (Pers), Destruction 2 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Frost Salts - Counts as Rare Herb"],
+			{
+				"name": "Drops/Equipment: Frost Salts", 
+				"description": "Counts as Rare Herb"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Icy Crush ",
+				"skill": "Str)(YYY) Range: Engaged",
+				"damage": 5,
+				"critical": 4,
+				"range": "Qualities: Knockdow",
+				"qualities": ["alities: Knockdown"]
+			},
+			{
+				"name": "Icy Crush", 
+				"description": "Skill: Hand-to-Hand(Str)(YYY) Range: Engaged, Damage: 5, Crit: 4, Qualities: Knockdown, Disorient 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Ice Spike", 
+				"description": "Skill: Destruction(Will)(YYG) Difficulty: Average Range: Medium, Damage: 5, Crit: 3, Qualities: Ensnare"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Ice Creature", 
+				"description": "Frost Atronachs, appropriately, ignore all damage from Frost based magic. Damage dealt by Fire based magic, in contrast, deals double damage (after Soak applies)."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 1", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Stubborn", 
+				"description": "Players suffer one Setback to all Charm checks when trying to change a Frost Atronach’s mind."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Accumulation", 
+				"description": "If damaged with Frost-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Atronach, Storm",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "The rarest and most powerful of the Atronachs, Storm Atronachs feel themselves above the petty squabbling of lesser Daedra. They are hard to control, dangerous, and their form varies as they please it, though typically resembles a collection of stones, laced with stormclouds.",
+		"description": "
+			{
+				"name": "Atronach, Storm [Nemesis]", 
+				"description": "ronach, Storm [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The rarest and most powerful of the Atronachs, Storm Atronachs feel themselves above the petty squabbling of lesser Daedra. They are hard to control, dangerous, and their form varies as they please it, though typically resembles a collection of stones, laced with stormclouds.",
 		"characteristics": {
+			{
+				"name": "The rarest and most powerful of the Atronachs, Storm Atronachs feel themselves above the petty squabbling of lesser Daedra. They are hard to control, dangerous, and their form varies as they please it, though typically resembles a collection of stones, laced with stormclouds.", 
+				"description": "e rarest and most powerful of the Atronachs, Storm Atronachs feel themselves above the petty squabbling of lesser Daedra. They are hard to control, dangerous, and their form varies as they please it, though typically resembles a collection of stones, laced with stormclouds."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 4,
 			"Agility": 2,
@@ -42,14 +308,218 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 18,
-			"strain": 18,	{
+			{
+				"name": "3 4 2 5 6 2", 
+				"description": "4 2 5 6 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 18
+			{
+				"name": "Wounds: 18", 
+				"description": "unds: 18"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"strain": 18
+			{
+				"name": "Strain: 18", 
+				"description": "rain: 18"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Charm": 2,
+			"Deception": 3,
+			"Destruction": 5,
+			"Hand-to-Hand": 3,
+			"Intimidate": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Charm 2 (Pers), Deception 3 (Pers), Destruction 5 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)", 
+				"description": "ills: Charm 2 (Pers), Deception 3 (Pers), Destruction 5 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Void Salts - Counts as Exceptional Herb"],
+			{
+				"name": "Drops/Equipment: Void Salts", 
+				"description": "Counts as Exceptional Herb"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Fling Stormstone ",
+				"skill": "Str)(YYY) Range: Engaged",
+				"damage": 8,
+				"critical": 4,
+				"range": "Qualities: Knockdow",
+				"qualities": ["alities: Knockdown"]
+			},
+			{
+				"name": "Fling Stormstone", 
+				"description": "Skill: Hand-to-Hand(Str)(YYY) Range: Engaged, Damage: 8, Crit: 4, Qualities: Knockdown, Disorient 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Storm Spark", 
+				"description": "Skill: Destruction(Will)(YYYYYG) Difficulty: Average Range: Medium, Damage: 6, Crit: 4, Qualities: Stun 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Lightning Immunity", 
+				"description": "Storm Atronach are immune to Shock damage."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Indignant", 
+				"description": "Players suffer one Setback to all Charm checks when trying to convince a Storm Atronach to care."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Rolling Storm- If damaged with Shock-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round.", 
+				"description": "lling Storm- If damaged with Shock-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Stormcloak", 
+				"description": "Performs a Hard Destruction check to grant itself a Lightning Cloak for one round per success. Targets caught within Engaged ranged of the Atronach must pass a Hard Acrobatics check or suffer 8 Lightning damage."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Banekin",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "The smallest of all Daedric minions, Banekin resemble miniscule scamps. While they lack size and strength, Banekin seem to have a natural affinity for Shock magic, wielding more magic than the average lesser Daedra. This makes them easy to dispatch, but fairly lethal.",
+		"description": "
+			{
+				"name": "Banekin [Minion]", 
+				"description": "nekin [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The smallest of all Daedric minions, Banekin resemble miniscule scamps. While they lack size and strength, Banekin seem to have a natural affinity for Shock magic, wielding more magic than the average lesser Daedra. This makes them easy to dispatch, but fairly lethal.",
 		"characteristics": {
+			{
+				"name": "The smallest of all Daedric minions, Banekin resemble miniscule scamps. While they lack size and strength, Banekin seem to have a natural affinity for Shock magic, wielding more magic than the average lesser Daedra. This makes them easy to dispatch, but fairly lethal.", 
+				"description": "e smallest of all Daedric minions, Banekin resemble miniscule scamps. While they lack size and strength, Banekin seem to have a natural affinity for Shock magic, wielding more magic than the average lesser Daedra. This makes them easy to dispatch, but fairly lethal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 1,
 			"Endurance": 1,
 			"Agility": 1,
@@ -58,13 +528,169 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 1,
-			"wounds": 4,	{
+			{
+				"name": "1 1 1 1 3 1", 
+				"description": "1 1 1 3 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 1
+			{
+				"name": "Soak: 1", 
+				"description": "ak: 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 4
+			{
+				"name": "Wounds: 4", 
+				"description": "unds: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": ["Alteration","Destruction","Stealth"],
+		"abilities": [
+			{
+				"name": "Skills: Alteration(Will), Destruction (Will), Stealth(Agi)", 
+				"description": "ills: Alteration(Will), Destruction (Will), Stealth(Agi)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks:", 
+				"description": "tacks:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Claws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 4, Crit: 3, Qualities: Pierce 1", 
+				"description": "aws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 4, Crit: 3, Qualities: Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Spark- Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1", 
+				"description": "ark- Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Lightning Ball- Skill: Destruction(Will)(GGG) Difficulty: Hard Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1, Blast 4", 
+				"description": "ghtning Ball- Skill: Destruction(Will)(GGG) Difficulty: Hard Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1, Blast 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Lightning Immunity", 
+				"description": "Banekin are immune to Shock damage."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Clannfear",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Clannfears are dinosaur-like Daedra that resemble a lizard with a large, bony crest on their head and a sharp beak and talons. They may represent common, wild animals in Oblivion. Due to their great speed and considerable strength, they are fearsome opponents, especially to weaker travellers. All clannfears rely upon melee attacks using their heads, beaks, and/or claws.",
+		"description": "
+			{
+				"name": "Clannfear [Rival]", 
+				"description": "annfear [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Clannfears are dinosaur-like Daedra that resemble a lizard with a large, bony crest on their head and a sharp beak and talons. They may represent common, wild animals in Oblivion. Due to their great speed and considerable strength, they are fearsome opponents, especially to weaker travellers. All clannfears rely upon melee attacks using their heads, beaks, and/or claws.",
 		"characteristics": {
+			{
+				"name": "Clannfears are dinosaur-like Daedra that resemble a lizard with a large, bony crest on their head and a sharp beak and talons. They may represent common, wild animals in Oblivion. Due to their great speed and considerable strength, they are fearsome opponents, especially to weaker travellers. All clannfears rely upon melee attacks using their heads, beaks, and/or claws.", 
+				"description": "annfears are dinosaur-like Daedra that resemble a lizard with a large, bony crest on their head and a sharp beak and talons. They may represent common, wild animals in Oblivion. Due to their great speed and considerable strength, they are fearsome opponents, especially to weaker travellers. All clannfears rely upon melee attacks using their heads, beaks, and/or claws."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 3,
 			"Agility": 4,
@@ -73,13 +699,175 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 14,	{
+			{
+				"name": "2 3 4 1 1 2", 
+				"description": "3 4 1 1 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 14
+			{
+				"name": "Wounds: 14", 
+				"description": "unds: 14"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Athletics": 2,
+			"Hand-to-Hand": 2,
+			"Resilience": 1,
+			"Survival": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 2 (Str), Hand-to-Hand 2 (Agi), Resilience 1(End), Survival 1(Will) Vigilance 1 (Will)", 
+				"description": "ills: Athletics 2 (Str), Hand-to-Hand 2 (Agi), Resilience 1(End), Survival 1(Will) Vigilance 1 (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Clannfear Scales - counts as Rare Herb"],
+			{
+				"name": "Drops/Equipment: Clannfear Scales", 
+				"description": "counts as Rare Herb"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Beak and Claws ",
+				"skill": "Agi) (YYYG) Range: Engaged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Qualities: Pierce 1",
+				"qualities": ["alities: Pierce 1
+"]
+			},
+			{
+				"name": "Beak and Claws", 
+				"description": "Skill: Hand-to-Hand (Agi) (YYYG) Range: Engaged, Damage: 6, Crit: 3, Qualities: Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Shock Weakness", 
+				"description": "Increase damage taken from all Lightning effects by 1."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Jagged Hide", 
+				"description": "When struck with an Engaged melee attack, attacker must pass an Average (2) Acrobatics check, or suffer 1 Wound (ignoring soak)."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Clannfear, Runt",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "Simply smaller, younger, less intelligent Clannfear, who often attack in packs.",
+		"description": "
+			{
+				"name": "Clannfear, Runt [Minion]", 
+				"description": "annfear, Runt [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Simply smaller, younger, less intelligent Clannfear, who often attack in packs.",
 		"characteristics": {
+			{
+				"name": "Simply smaller, younger, less intelligent Clannfear, who often attack in packs.", 
+				"description": "mply smaller, younger, less intelligent Clannfear, who often attack in packs."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 2,
 			"Agility": 3,
@@ -88,13 +876,162 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 2,
-			"wounds": 7,	{
+			{
+				"name": "2 2 3 1 1 2", 
+				"description": "2 3 1 1 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 2
+			{
+				"name": "Soak: 2", 
+				"description": "ak: 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 7
+			{
+				"name": "Wounds: 7", 
+				"description": "unds: 7"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": ["Athletics","Hand-to-Hand","Resilience","Survival"],
+		"abilities": [
+			{
+				"name": "Skills: Athletics (Str), Hand-to-Hand (Agi), Resilience (End), Survival (Will) Vigilance (Will)", 
+				"description": "ills: Athletics (Str), Hand-to-Hand (Agi), Resilience (End), Survival (Will) Vigilance (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Clannfear Scales - counts as Rare Herb"],
+			{
+				"name": "Drops/Equipment: Clannfear Scales", 
+				"description": "counts as Rare Herb"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Beak and Claws ",
+				"skill": "Agi) (GGG) Range: Engaged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Qualities: Pierce 1",
+				"qualities": ["alities: Pierce 1
+"]
+			},
+			{
+				"name": "Beak and Claws", 
+				"description": "Skill: Hand-to-Hand (Agi) (GGG) Range: Engaged, Damage: 5, Crit: 3, Qualities: Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Shock Weakness", 
+				"description": "Increase damage taken from all Shock spell effects by 1."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Jagged Hide", 
+				"description": "When struck with an Engaged range attack, attacker must pass an Average (2) Acrobatics check, or suffer 1 Wound (ignoring soak)."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Cultist",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "Every Daedric Prince, Aedra, and even some mortals have cults dedicated to them. The members of these cults are tenacious, dedicated, and in some cases ruthless. This cultist profile should be used as a baseline for any cultists, with their highest and lowest attributes traded depending on their patron. (i.e. Personality for Sanguine, or Strength for Boethiah). Skills and equipment can stay the same.",
+		"description": "
+			{
+				"name": "Cultist [Minion]", 
+				"description": "ltist [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Every Daedric Prince, Aedra, and even some mortals have cults dedicated to them. The members of these cults are tenacious, dedicated, and in some cases ruthless. This cultist profile should be used as a baseline for any cultists, with their highest and lowest attributes traded depending on their patron. (i.e. Personality for Sanguine, or Strength for Boethiah). Skills and equipment can stay the same.",
 		"characteristics": {
+			{
+				"name": "Every Daedric Prince, Aedra, and even some mortals have cults dedicated to them. The members of these cults are tenacious, dedicated, and in some cases ruthless. This cultist profile should be used as a baseline for any cultists, with their highest and lowest attributes traded depending on their patron. (i.e. Personality for Sanguine, or Strength for Boethiah). Skills and equipment can stay the same.", 
+				"description": "ery Daedric Prince, Aedra, and even some mortals have cults dedicated to them. The members of these cults are tenacious, dedicated, and in some cases ruthless. This cultist profile should be used as a baseline for any cultists, with their highest and lowest attributes traded depending on their patron. (i.e. Personality for Sanguine, or Strength for Boethiah). Skills and equipment can stay the same."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 2,
 			"Agility": 1,
@@ -103,13 +1040,145 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 2,
-			"wounds": 5,	{
+			{
+				"name": "3 2 1 2 2 2", 
+				"description": "2 1 2 2 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 2
+			{
+				"name": "Soak: 2", 
+				"description": "ak: 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 5
+			{
+				"name": "Wounds: 5", 
+				"description": "unds: 5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": ["Athletics","Charm","Intimidate","Deception","One-Handed","Destruction","Conjuration","Restoration","Mysticism"],
+		"abilities": [
+			{
+				"name": "Skills: Athletics (Str), Charm (Pers), Intimidate (Str), Deception (Pers), One-Handed (Agi), Destruction (Will), Conjuration (Int), Restoration (Will), Mysticism (Will)", 
+				"description": "ills: Athletics (Str), Charm (Pers), Intimidate (Str), Deception (Pers), One-Handed (Agi), Destruction (Will), Conjuration (Int), Restoration (Will), Mysticism (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Clothes/Robes matching their cause. Weapons below. Misc gold."],
+			{
+				"name": "Drops/Equipment: Clothes/Robes matching their cause. Weapons below. Misc gold.", 
+				"description": "ops/Equipment: Clothes/Robes matching their cause. Weapons below. Misc gold."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Sharpened Iron Dagger ",
+				"skill": "Agi) (G) Range: Engaged",
+				"damage": 2,
+				"critical": 2,
+				"range": "Qualities: Normal Weapo",
+				"qualities": ["alities: Normal Weapon"]
+			},
+			{
+				"name": "Sharpened Iron Dagger", 
+				"description": "Skill: One-Handed (Agi) (G) Range: Engaged, Damage: 2, Crit: 2, Qualities: Normal Weapon, Enchanted, Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "None", 
+				"description": "ne"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Daedroth",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "Daedroths are another type of beast-like Daedra in service to Molag Bal, though are oftentimes found patrolling the realms of Oblivion as wild beasts. They resemble large crocodiles who walk upright. They are vicious, aggressive, and deadly, sporting massive teeth, claws, and powerful fire breath.",
+		"description": "
+			{
+				"name": "Daedroth [Nemesis]", 
+				"description": "edroth [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Daedroths are another type of beast-like Daedra in service to Molag Bal, though are oftentimes found patrolling the realms of Oblivion as wild beasts. They resemble large crocodiles who walk upright. They are vicious, aggressive, and deadly, sporting massive teeth, claws, and powerful fire breath.",
 		"characteristics": {
+			{
+				"name": "Daedroths are another type of beast-like Daedra in service to Molag Bal, though are oftentimes found patrolling the realms of Oblivion as wild beasts. They resemble large crocodiles who walk upright. They are vicious, aggressive, and deadly, sporting massive teeth, claws, and powerful fire breath.", 
+				"description": "edroths are another type of beast-like Daedra in service to Molag Bal, though are oftentimes found patrolling the realms of Oblivion as wild beasts. They resemble large crocodiles who walk upright. They are vicious, aggressive, and deadly, sporting massive teeth, claws, and powerful fire breath."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 5,
 			"Endurance": 5,
 			"Agility": 4,
@@ -118,14 +1187,280 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 5/4,
-			"wounds": Number,
-			"strain": Number,	{
+			{
+				"name": "5 5 4 1 3 2", 
+				"description": "5 4 1 3 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 5/4
+			{
+				"name": "Soak: 5/4", 
+				"description": "ak: 5/4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": Number
+			{
+				"name": "Wounds: Number", 
+				"description": "unds: Number"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"strain": Number
+			{
+				"name": "Strain: Number", 
+				"description": "rain: Number"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magick: Number", 
+				"description": "gick: Number"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Athletics": 4,
+			"Hand-to-Hand": 2,
+			"Resilience": 5,
+			"Survival": 2,
+			"Destruction": 4
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 4 (Str), Hand-to-Hand 2 (Str/Agi), Resilience 5 (End), Survival 2 (Will) Vigilance 2 (Will), Destruction 4 (Will)", 
+				"description": "ills: Athletics 4 (Str), Hand-to-Hand 2 (Str/Agi), Resilience 5 (End), Survival 2 (Will) Vigilance 2 (Will), Destruction 4 (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Rending Talons ",
+				"skill": "Agi) (YYGG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 2"]
+			},
+			{
+				"name": "Rending Talons", 
+				"description": "Skill: Hand-to-Hand(Agi) (YYGG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 2, Vicious 2, Bleed 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Bite ",
+				"skill": "Str) (YYGGG) Range: Range",
+				"damage": 6,
+				"critical": 2,
+				"range": "Qualities: Pi",
+				"qualities": ["alities: Pin"]
+			},
+			{
+				"name": "Bite", 
+				"description": "Skill: Hand-to-Hand(Str) (YYGGG) Range: Range, Damage: 6, Crit: 2, Qualities: Pin, Sunder"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Fire Breath", 
+				"description": "School: Destruction(Will)(YYYG), Difficulty: Average(PP), Range: Short, Damage: 5, Crit: 3,Qualities: Burn 3, Blast (Engaged) 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Shock Weakness", 
+				"description": "Increase damage taken from all Lightning effects by 1."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Regeneration", 
+				"description": "Daedroths restore 1 Wound per round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Dark Seducers", 
+				"description": "rk Seducers"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Possessing dusky blue-grey skin, full figured, voluptuous forms, and very little armour to cover them, the Dark Seducers stop resembling their namesake when spoken to. Perhaps as part of some cruel joke on the part of their creator Sheogorath, Dark Seducers (in stark contrast to their alluring appearance) are aggressive, dismissive and arrogant Daedra in service to the Mad God.", 
+				"description": "ssessing dusky blue-grey skin, full figured, voluptuous forms, and very little armour to cover them, the Dark Seducers stop resembling their namesake when spoken to. Perhaps as part of some cruel joke on the part of their creator Sheogorath, Dark Seducers (in stark contrast to their alluring appearance) are aggressive, dismissive and arrogant Daedra in service to the Mad God."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Called the Mazken in their own tongue, the Dark Seducers act as the military for one half of Sheogorath’s split.. Well.. Everything. In constant rivalry with the Golden Saints who also serve their Lord, Mazken are ever eager to prove themselves capable. And they regularly succeed in that cause.", 
+				"description": "lled the Mazken in their own tongue, the Dark Seducers act as the military for one half of Sheogorath’s split.. Well.. Everything. In constant rivalry with the Golden Saints who also serve their Lord, Mazken are ever eager to prove themselves capable. And they regularly succeed in that cause."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "A matriarchal society, some male Mazken do exist, though they are looked down upon by their female superiors, and rarely, if ever, hold positions of power.", 
+				"description": "matriarchal society, some male Mazken do exist, though they are looked down upon by their female superiors, and rarely, if ever, hold positions of power."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dark Seducer, Kiskengo",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the Shivering Isles, and as such few mortals are aware that Dark Seducers are anything but the more powerful, better trained Mazken typically encountered on Mundus.",
+		"description": "
+			{
+				"name": "Dark Seducer, Kiskengo [Minion]", 
+				"description": "rk Seducer, Kiskengo [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the Shivering Isles, and as such few mortals are aware that Dark Seducers are anything but the more powerful, better trained Mazken typically encountered on Mundus.",
 		"characteristics": {
+			{
+				"name": "The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the Shivering Isles, and as such few mortals are aware that Dark Seducers are anything but the more powerful, better trained Mazken typically encountered on Mundus.", 
+				"description": "e rank and file of the Mazken forces, Kiskengos are rarely seen outside of the Shivering Isles, and as such few mortals are aware that Dark Seducers are anything but the more powerful, better trained Mazken typically encountered on Mundus."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 2,
 			"Agility": 3,
@@ -134,16 +1469,210 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 4,
+			{
+				"name": "2 2 3 2 3 1", 
+				"description": "2 3 2 3 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [1,1]
+			{
+				"name": "Defense: 1/1", 
+				"description": "fense: 1/1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 10
+			{
+				"name": "Wounds: 10", 
+				"description": "unds: 10"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 
-			"wounds": 10,	{
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
+		"abilities": [
+			{
+				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
+				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Shortsword",
+				"skill": "Agi) (GG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "zken Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Shortbow",
+				"skill": "Agi) (GG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "zken Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Light Mazken Wrappings", 
+				"description": "Soak: +2, Defense: 1/1, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 2", 
+				"description": "Mazken reduce the difficulty of Fear checks by 2."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal.."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dark Seducer, Autkendo",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "What cultists and adventurers are more likely to meet is an Autkendo. A mid-level Mazken Sergeant, Autkendos are well trained, well equipped and powerful. Sheogorath often sends them to Mundus to perform errands, and allows them to be summoned.",
+		"description": "
+			{
+				"name": "Dark Seducer, Autkendo [Rival]", 
+				"description": "rk Seducer, Autkendo [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+What cultists and adventurers are more likely to meet is an Autkendo. A mid-level Mazken Sergeant, Autkendos are well trained, well equipped and powerful. Sheogorath often sends them to Mundus to perform errands, and allows them to be summoned.",
 		"characteristics": {
+			{
+				"name": "What cultists and adventurers are more likely to meet is an Autkendo. A mid-level Mazken Sergeant, Autkendos are well trained, well equipped and powerful. Sheogorath often sends them to Mundus to perform errands, and allows them to be summoned.", 
+				"description": "at cultists and adventurers are more likely to meet is an Autkendo. A mid-level Mazken Sergeant, Autkendos are well trained, well equipped and powerful. Sheogorath often sends them to Mundus to perform errands, and allows them to be summoned."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 3,
 			"Agility": 3,
@@ -152,16 +1681,265 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 5,
+			{
+				"name": "3 3 3 3 4 2", 
+				"description": "3 3 3 4 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 5
+			{
+				"name": "Soak: 5", 
+				"description": "ak: 5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [3,3]
+			{
+				"name": "Defense: 3/3", 
+				"description": "fense: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 21
+			{
+				"name": "Wounds: 21", 
+				"description": "unds: 21"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 
-			"wounds": 21,	{
+		"skills": {
+			"Athletics": 2,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Conjuration": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Illusion": 2,
+			"Intimidate": 2,
+			"Marksman": 1,
+			"One-Handed": 2,
+			"Two-Handed": 2,
+			"Resilience": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
+				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Longsword",
+				"skill": "Agi) (YYG) Range: Engaged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "zken Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Long Spear",
+				"skill": "Str) (YYG) Range: Engaged",
+				"damage": 9,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
+				"description": "zken Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Shortbow",
+				"skill": "Agi) (YGG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "zken Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mazken Wrappings", 
+				"description": "Soak: +2, Defense: 3/3, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 3", 
+				"description": "Mazken Autkendo reduce the difficulty of Fear checks by 3."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 1", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks.."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Autkendo can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dark Seducer, Grakendo",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad God himself. Having earned their position by climbing a ladder of merit (And a ladder filled with immortals), Grakendos are incredibly powerful, fierce, and well equipped. If an adventurer somehow earns the ire of a Grakendo, they had best be prepared to run.",
+		"description": "
+			{
+				"name": "Dark Seducer, Grakendo [Nemesis]", 
+				"description": "rk Seducer, Grakendo [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad God himself. Having earned their position by climbing a ladder of merit (And a ladder filled with immortals), Grakendos are incredibly powerful, fierce, and well equipped. If an adventurer somehow earns the ire of a Grakendo, they had best be prepared to run.",
 		"characteristics": {
+			{
+				"name": "The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad God himself. Having earned their position by climbing a ladder of merit (And a ladder filled with immortals), Grakendos are incredibly powerful, fierce, and well equipped. If an adventurer somehow earns the ire of a Grakendo, they had best be prepared to run.", 
+				"description": "e Generals and Lords of the Mazken forces, Grakendos answer only to the Mad God himself. Having earned their position by climbing a ladder of merit (And a ladder filled with immortals), Grakendos are incredibly powerful, fierce, and well equipped. If an adventurer somehow earns the ire of a Grakendo, they had best be prepared to run."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 4,
 			"Endurance": 4,
 			"Agility": 4,
@@ -170,16 +1948,289 @@
 			"Personality": 3
 		},
 		"derived": {
-			"soak": 8,
-			"wounds": 26,
+			{
+				"name": "4 4 4 3 5 3", 
+				"description": "4 4 3 5 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 8
+			{
+				"name": "Soak: 8", 
+				"description": "ak: 8"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 26
+			{
+				"name": "Wounds: 26", 
+				"description": "unds: 26"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [3,3]
+			{
+				"name": "Defense: 3/3", 
+				"description": "fense: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 	{
+		"skills": {
+			"Athletics": 3,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Conjuration": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Illusion": 3,
+			"Intimidate": 4,
+			"Marksman": 2,
+			"One-Handed": 3,
+			"Two-Handed": 4,
+			"Resilience": 2,
+			"Search": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
+				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart, All Weapons/Armour below"],
+			{
+				"name": "Drops/Equipment: Daedra Heart, All Weapons/Armour below", 
+				"description": "ops/Equipment: Daedra Heart, All Weapons/Armour below"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Longsword",
+				"skill": "Agi) (YYYG) Range: Engaged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "zken Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Mazken Claymore",
+				"skill": "Str) (YYYY) Range: Engaged",
+				"damage": 10,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Mazken Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
+				"description": "zken Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mazken Platemail", 
+				"description": "Soak: +4, Defense: 3/3, Enc: 5, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 4", 
+				"description": "Mazken Grakendo reduce the difficulty of Fear checks by 4."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks.."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Grakendo can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aura of Dementia- When in sight of a Grakendo, targets suffer one Setback to resist any Illusion spell effects.", 
+				"description": "ra of Dementia- When in sight of a Grakendo, targets suffer one Setback to resist any Illusion spell effects."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Dremora", 
+				"description": "emora"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Dremora are Daedra of above average size, typically appearing with black-and-red faces, and sometimes small stubs of horns. They are fully sentient and most are powerful warriors or spellcasters. They are the most powerful and intelligent of the lesser daedra, to the point of governing over other daedra on behalf of their Lord. Higher-ranking Dremora are often larger in physique than a Nord male. Dremora are always heavily armored and even the spellcaster's robes provide heavy armor protection.", 
+				"description": "emora are Daedra of above average size, typically appearing with black-and-red faces, and sometimes small stubs of horns. They are fully sentient and most are powerful warriors or spellcasters. They are the most powerful and intelligent of the lesser daedra, to the point of governing over other daedra on behalf of their Lord. Higher-ranking Dremora are often larger in physique than a Nord male. Dremora are always heavily armored and even the spellcaster's robes provide heavy armor protection."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Dremora are one of the rare species of Daedra which are not only sentient, but capable of human speech. Unlike other sentient species, such as Golden Saints or Dark Seducers, the Dremora primarily speak in their own language and use Nibenese only for taunting human opponents.", 
+				"description": "emora are one of the rare species of Daedra which are not only sentient, but capable of human speech. Unlike other sentient species, such as Golden Saints or Dark Seducers, the Dremora primarily speak in their own language and use Nibenese only for taunting human opponents."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dremora, Caitiff",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest ranking of all Dremora, armed with simple Bound armour and weapons, and given basic training. Despite this, a Caitiff is a serious threat to a mortal combatant, and should not be taken lightly.",
+		"description": "
+			{
+				"name": "Dremora, Caitiff [Minion]", 
+				"description": "emora, Caitiff [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest ranking of all Dremora, armed with simple Bound armour and weapons, and given basic training. Despite this, a Caitiff is a serious threat to a mortal combatant, and should not be taken lightly.",
 		"characteristics": {
+			{
+				"name": "Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest ranking of all Dremora, armed with simple Bound armour and weapons, and given basic training. Despite this, a Caitiff is a serious threat to a mortal combatant, and should not be taken lightly.", 
+				"description": "pically used as rank and file in any Dremora outfit, Caitiffs are the lowest ranking of all Dremora, armed with simple Bound armour and weapons, and given basic training. Despite this, a Caitiff is a serious threat to a mortal combatant, and should not be taken lightly."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 2,
 			"Agility": 2,
@@ -188,16 +2239,202 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 10,
+			{
+				"name": "3 2 2 3 2 2", 
+				"description": "2 2 3 2 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 10
+			{
+				"name": "Wounds: 10", 
+				"description": "unds: 10"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [2,2]
+			{
+				"name": "Defense: 2/2", 
+				"description": "fense: 2/2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 	{
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Destruction","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
+		"abilities": [
+			{
+				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Destruction (Will), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
+				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Destruction (Will), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Shortsword",
+				"skill": "Agi) (GG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "edric Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Shortbow",
+				"skill": "Agi) (GG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "edric Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Light Daedric Cuirass", 
+				"description": "Soak: +2, Defense: 2/2, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 2", 
+				"description": "Dremora reduce the difficulty of Fear checks by 2."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Determination", 
+				"description": "Summoned Dremora are exceptionally opposed to returning to Oblivion, and thus gain 2 Boost to all Banish spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dremora, Kynreeve",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dremora into battle. Still armed with Bound weapons, they are given more range in abilities, and are better trained. When a Kynreeve takes the field, mortal combatants should consider retreat.",
+		"description": "
+			{
+				"name": "Dremora, Kynreeve [Rival]", 
+				"description": "emora, Kynreeve [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dremora into battle. Still armed with Bound weapons, they are given more range in abilities, and are better trained. When a Kynreeve takes the field, mortal combatants should consider retreat.",
 		"characteristics": {
+			{
+				"name": "The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dremora into battle. Still armed with Bound weapons, they are given more range in abilities, and are better trained. When a Kynreeve takes the field, mortal combatants should consider retreat.", 
+				"description": "e basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dremora into battle. Still armed with Bound weapons, they are given more range in abilities, and are better trained. When a Kynreeve takes the field, mortal combatants should consider retreat."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 4,
 			"Endurance": 3,
 			"Agility": 3,
@@ -206,13 +2443,248 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 8,
-			"wounds": 21,	{
+			{
+				"name": "4 3 3 3 2 2", 
+				"description": "3 3 3 2 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 8
+			{
+				"name": "Soak: 8", 
+				"description": "ak: 8"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 21
+			{
+				"name": "Wounds: 21", 
+				"description": "unds: 21"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Athletics": 2,
+			"Acrobatics": 2,
+			"Charm": 1,
+			"Conjuration": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Destruction": 2,
+			"Intimidate": 2,
+			"Marksman": 1,
+			"One-Handed": 2,
+			"Two-Handed": 2,
+			"Resilience": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 1(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Destruction 2(Will), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
+				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 1(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Destruction 2(Will), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Longsword",
+				"skill": "Agi) (YYG) Range: Engaged",
+				"damage": 9,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "edric Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Greataxe",
+				"skill": "Str) (YYGG) Range: Engaged",
+				"damage": 10,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Greataxe- Skill: Two-Handed(Str) (YYGG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
+				"description": "edric Greataxe- Skill: Two-Handed(Str) (YYGG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Shortbow",
+				"skill": "Agi) (YGG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "edric Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedric Platemail", 
+				"description": "Soak: +4, Defense: 3/3, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 3", 
+				"description": "Dremora Kynreeve reduce the difficulty of Fear checks by 3."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 1", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Determination", 
+				"description": "Summoned Dremora are exceptionally opposed to returning to Oblivion, and thus gain 2 Boost to all Banish spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Kynreeve can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Dremora, Valyknaz",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded in pure, hate-forged Daedric Platemail, and wielding jagged, fierce weaponry, a Valyknaz signals the end for most mortals. When a true Lord enters a battle, it has likely already declared victory.",
+		"description": "
+			{
+				"name": "Dremora, Valyknaz [Nemesis]", 
+				"description": "emora, Valyknaz [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded in pure, hate-forged Daedric Platemail, and wielding jagged, fierce weaponry, a Valyknaz signals the end for most mortals. When a true Lord enters a battle, it has likely already declared victory.",
 		"characteristics": {
+			{
+				"name": "A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded in pure, hate-forged Daedric Platemail, and wielding jagged, fierce weaponry, a Valyknaz signals the end for most mortals. When a true Lord enters a battle, it has likely already declared victory.", 
+				"description": "true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded in pure, hate-forged Daedric Platemail, and wielding jagged, fierce weaponry, a Valyknaz signals the end for most mortals. When a true Lord enters a battle, it has likely already declared victory."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 5,
 			"Endurance": 4,
 			"Agility": 4,
@@ -221,16 +2693,290 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 8,
-			"wounds": 31,
+			{
+				"name": "5 4 4 4 3 2", 
+				"description": "4 4 4 3 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 8
+			{
+				"name": "Soak: 8", 
+				"description": "ak: 8"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 31
+			{
+				"name": "Wounds: 31", 
+				"description": "unds: 31"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [3,3]
+			{
+				"name": "Defense: 3/3", 
+				"description": "fense: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 	{
+		"skills": {
+			"Athletics": 3,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Conjuration": 3,
+			"Cool": 2,
+			"Discipline": 5,
+			"Deception": 3,
+			"Destruction": 3,
+			"Intimidate": 4,
+			"Marksman": 2,
+			"One-Handed": 3,
+			"Two-Handed": 4,
+			"Resilience": 2,
+			"Search": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Discipline 5(Will), Deception 3(Pers), Destruction 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
+				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Discipline 5(Will), Deception 3(Pers), Destruction 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart, All Weapons/Armour below"],
+			{
+				"name": "Drops/Equipment: Daedra Heart, All Weapons/Armour below", 
+				"description": "ops/Equipment: Daedra Heart, All Weapons/Armour below"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Longsword",
+				"skill": "Agi) (YYYG) Range: Engaged",
+				"damage": 10,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 10, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "edric Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 10, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Claymore",
+				"skill": "Str) (YYYYG) Range: Engaged",
+				"damage": 11,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Claymore- Skill: Two-Handed(Str) (YYYYG) Range: Engaged, Damage: 11, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
+				"description": "edric Claymore- Skill: Two-Handed(Str) (YYYYG) Range: Engaged, Damage: 11, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedric Plate Suit", 
+				"description": "Soak: +4, Defense: 3/3, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 4", 
+				"description": "Dremora Valyknaz reduce the difficulty of Fear checks by 4."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Determination", 
+				"description": "Summoned Dremora are exceptionally opposed to returning to Oblivion, and thus gain 2 Boost to all Banish spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Valyknaz can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aura of Terror", 
+				"description": "When a Valyknaz enters combat, all characters who are aware of him, must pass a Hard (3) Cool Fear check."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Golden Saints", 
+				"description": "lden Saints"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "The Aureal (or Aureals), more commonly known as Golden Saints, are Daedric humanoids who appear as men or half-clad women with golden-hued skin wearing golden armor and a winged helmet. They serve under the command of the Daedric Prince Sheogorath. Their home is Brellach in the Shivering Isles, but despite their name, they have little love for mortals. The Aureal are a proud, arrogant race, quick to anger and cruel in their punishment. There is no question that they view all others as inferior, and make no effort to hide this in their interactions.", 
+				"description": "e Aureal (or Aureals), more commonly known as Golden Saints, are Daedric humanoids who appear as men or half-clad women with golden-hued skin wearing golden armor and a winged helmet. They serve under the command of the Daedric Prince Sheogorath. Their home is Brellach in the Shivering Isles, but despite their name, they have little love for mortals. The Aureal are a proud, arrogant race, quick to anger and cruel in their punishment. There is no question that they view all others as inferior, and make no effort to hide this in their interactions."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "They are a matriarchal society, tending to look down upon all males. Even male Golden Saints consider themselves and other males to be lesser. The Aureal make up one half of Sheogorath's army, along with the Mazken. The two groups have a great rivalry, each believing they are Sheogorath's favored. The Aureal are charged with guarding Mania.", 
+				"description": "ey are a matriarchal society, tending to look down upon all males. Even male Golden Saints consider themselves and other males to be lesser. The Aureal make up one half of Sheogorath's army, along with the Mazken. The two groups have a great rivalry, each believing they are Sheogorath's favored. The Aureal are charged with guarding Mania."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Golden Saint, Auren",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest grade equipment and training. Auren are rarely, if ever, seen outside of the Shivering Isles. Most males in Aureal society occupy this role.",
+		"description": "
+			{
+				"name": "Golden Saint, Auren [Minion]", 
+				"description": "lden Saint, Auren [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest grade equipment and training. Auren are rarely, if ever, seen outside of the Shivering Isles. Most males in Aureal society occupy this role.",
 		"characteristics": {
+			{
+				"name": "Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest grade equipment and training. Auren are rarely, if ever, seen outside of the Shivering Isles. Most males in Aureal society occupy this role.", 
+				"description": "ren are the lowest ranking Aureal. Serving as rank and file, with the lowest grade equipment and training. Auren are rarely, if ever, seen outside of the Shivering Isles. Most males in Aureal society occupy this role."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 2,
 			"Agility": 3,
@@ -239,16 +2985,210 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 4,
+			{
+				"name": "2 2 3 2 3 1", 
+				"description": "2 3 2 3 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [1,1]
+			{
+				"name": "Defense: 1/1", 
+				"description": "fense: 1/1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 10
+			{
+				"name": "Wounds: 10", 
+				"description": "unds: 10"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 
-			"wounds": 10,	{
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
+		"abilities": [
+			{
+				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
+				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Shortsword",
+				"skill": "Agi) (GG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "real Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Shortbow",
+				"skill": "Agi) (GG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "real Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Light Aureal Maile", 
+				"description": "Soak: +2, Defense: 1/1, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 2", 
+				"description": "Auren reduce the difficulty of Fear checks by 2."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Golden Saint, Aurmokel",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send an agent to Mundus, an Aurmokel is among his options. Well equipped, trained, and highly autonomous, Aurmokel are proud agents of the Mad God.",
+		"description": "
+			{
+				"name": "Golden Saint, Aurmokel [Rival]", 
+				"description": "lden Saint, Aurmokel [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send an agent to Mundus, an Aurmokel is among his options. Well equipped, trained, and highly autonomous, Aurmokel are proud agents of the Mad God.",
 		"characteristics": {
+			{
+				"name": "Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send an agent to Mundus, an Aurmokel is among his options. Well equipped, trained, and highly autonomous, Aurmokel are proud agents of the Mad God.", 
+				"description": "rmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send an agent to Mundus, an Aurmokel is among his options. Well equipped, trained, and highly autonomous, Aurmokel are proud agents of the Mad God."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 3,
 			"Endurance": 3,
 			"Agility": 3,
@@ -257,16 +3197,265 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 5,
+			{
+				"name": "3 3 3 3 4 2", 
+				"description": "3 3 3 4 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 5
+			{
+				"name": "Soak: 5", 
+				"description": "ak: 5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [3,3]
+			{
+				"name": "Defense: 3/3", 
+				"description": "fense: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 21
+			{
+				"name": "Wounds: 21", 
+				"description": "unds: 21"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 
-			"wounds": 21,	{
+		"skills": {
+			"Athletics": 2,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Conjuration": 2,
+			"Cool": 2,
+			"Deception": 2,
+			"Illusion": 2,
+			"Intimidate": 2,
+			"Marksman": 1,
+			"One-Handed": 2,
+			"Two-Handed": 2,
+			"Resilience": 2,
+			"Search": 1,
+			"Vigilance": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
+				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)", 
+				"description": "ops/Equipment: Daedra Heart (Weapons/Armour considered “Bound” and non-lootable)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Longsword",
+				"skill": "Agi) (YYG) Range: Engaged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "real Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Long Spear",
+				"skill": "Str) (YYG) Range: Engaged",
+				"damage": 9,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
+				"description": "real Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Shortbow",
+				"skill": "Agi) (YGG) Range: Medium",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "real Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aureal Maile", 
+				"description": "Soak: +2, Defense: 3/3, Enc: 2, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 3", 
+				"description": "Aureal Aurmokel reduce the difficulty of Fear checks by 3."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 1", 
+				"description": "Upgrade 1 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks.."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Aurmokel can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Golden Saint, Pelaurig",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest golden armour, weapons, and training. Having earned their position and desirous of keeping it, they refuse to be defeated in battle. Ever self-confident, and perhaps more arrogant than any other Aureals, Pelaurig are easy to anger, and easier to fall to.",
+		"description": "
+			{
+				"name": "Golden Saint, Pelaurig [Nemesis]", 
+				"description": "lden Saint, Pelaurig [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest golden armour, weapons, and training. Having earned their position and desirous of keeping it, they refuse to be defeated in battle. Ever self-confident, and perhaps more arrogant than any other Aureals, Pelaurig are easy to anger, and easier to fall to.",
 		"characteristics": {
+			{
+				"name": "The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest golden armour, weapons, and training. Having earned their position and desirous of keeping it, they refuse to be defeated in battle. Ever self-confident, and perhaps more arrogant than any other Aureals, Pelaurig are easy to anger, and easier to fall to.", 
+				"description": "e great Generals and Lords of the Aureal, Pelaurig are adorned with the finest golden armour, weapons, and training. Having earned their position and desirous of keeping it, they refuse to be defeated in battle. Ever self-confident, and perhaps more arrogant than any other Aureals, Pelaurig are easy to anger, and easier to fall to."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 4,
 			"Endurance": 4,
 			"Agility": 4,
@@ -275,16 +3464,257 @@
 			"Personality": 3
 		},
 		"derived": {
-			"soak": 8,
-			"wounds": 26,
+			{
+				"name": "4 4 4 3 5 3", 
+				"description": "4 4 3 5 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 8
+			{
+				"name": "Soak: 8", 
+				"description": "ak: 8"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 26
+			{
+				"name": "Wounds: 26", 
+				"description": "unds: 26"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [3,3]
+			{
+				"name": "Defense: 3/3", 
+				"description": "fense: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills": 	{
+		"skills": {
+			"Athletics": 3,
+			"Acrobatics": 2,
+			"Charm": 2,
+			"Conjuration": 3,
+			"Cool": 2,
+			"Deception": 3,
+			"Illusion": 3,
+			"Intimidate": 4,
+			"Marksman": 2,
+			"One-Handed": 3,
+			"Two-Handed": 4,
+			"Resilience": 2,
+			"Search": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
+				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart, All Weapons/Armour below"],
+			{
+				"name": "Drops/Equipment: Daedra Heart, All Weapons/Armour below", 
+				"description": "ops/Equipment: Daedra Heart, All Weapons/Armour below"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Longsword",
+				"skill": "Agi) (YYYG) Range: Engaged",
+				"damage": 8,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": "real Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Aureal Claymore",
+				"skill": "Str) (YYYY) Range: Engaged",
+				"damage": 10,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Aureal Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
+				"description": "real Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Armour:", 
+				"description": "mour:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aureal Platemail", 
+				"description": "Soak: +4, Defense: 3/3, Enc: 5, Qualities: None"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 4", 
+				"description": "Aureal Pelaurig reduce the difficulty of Fear checks by 4."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Arrogance", 
+				"description": "Players suffer one Setback to all Cool or Leadership checks when attempting to sway a Mazken or Aureal."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Mad God’s Visage", 
+				"description": "Mazken and Aureals gain two Boost to all Illusion spell checks.."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Pelaurig can grant Boost dice to the next action performed by an ally."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aura of Mania- When in sight of a Pelaurig, allies may suffer 1 Strain to gain a Boost to their next action.", 
+				"description": "ra of Mania- When in sight of a Pelaurig, allies may suffer 1 Strain to gain a Boost to their next action."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Harvester",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "From the waist up, these servants of Molag Bal resemble four-armed women, adorned in jagged black plate. Their lower half, however, resembles a giant snake, about 8 feet long. Tasked with the gathering the souls Molag Bal feels he has earned, these dangerous Daedra wield blue flame magic, razor sharp claws, and vicious weapons.",
+		"description": "
+			{
+				"name": "Harvester [Rival]", 
+				"description": "rvester [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+From the waist up, these servants of Molag Bal resemble four-armed women, adorned in jagged black plate. Their lower half, however, resembles a giant snake, about 8 feet long. Tasked with the gathering the souls Molag Bal feels he has earned, these dangerous Daedra wield blue flame magic, razor sharp claws, and vicious weapons.",
 		"characteristics": {
+			{
+				"name": "From the waist up, these servants of Molag Bal resemble four-armed women, adorned in jagged black plate. Their lower half, however, resembles a giant snake, about 8 feet long. Tasked with the gathering the souls Molag Bal feels he has earned, these dangerous Daedra wield blue flame magic, razor sharp claws, and vicious weapons.", 
+				"description": "om the waist up, these servants of Molag Bal resemble four-armed women, adorned in jagged black plate. Their lower half, however, resembles a giant snake, about 8 feet long. Tasked with the gathering the souls Molag Bal feels he has earned, these dangerous Daedra wield blue flame magic, razor sharp claws, and vicious weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 4,
 			"Endurance": 4,
 			"Agility": 4,
@@ -293,13 +3723,223 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 5,
-			"wounds": 16,	{
+			{
+				"name": "4 4 4 2 3 2", 
+				"description": "4 4 2 3 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 5
+			{
+				"name": "Soak: 5", 
+				"description": "ak: 5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 16
+			{
+				"name": "Wounds: 16", 
+				"description": "unds: 16"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magicka: 10", 
+				"description": "gicka: 10"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Intimidate": 2,
+			"Athletics": 2,
+			"Two-Handed": 3,
+			"One-Handed": 4,
+			"Destruction": 1
+		},
+		"abilities": [
+			{
+				"name": "Skills: Intimidate 2(Str), Athletics 2(Str), Two-Handed 3(Str), One-Handed 4(Agi), Destruction 1(Will)", 
+				"description": "ills: Intimidate 2(Str), Athletics 2(Str), Two-Handed 3(Str), One-Handed 4(Agi), Destruction 1(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "2x Daedric Shortsword",
+				"skill": "Agi) (YYYY) Range: Engaged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "2x Daedric Shortsword- Skill: One-Handed(Agi) (YYYY) Range: Engaged, Damage: 6, Crit: 3, Qualities: Pierce 3, Vicious 2", 
+				"description": " Daedric Shortsword- Skill: One-Handed(Agi) (YYYY) Range: Engaged, Damage: 6, Crit: 3, Qualities: Pierce 3, Vicious 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Daedric Greataxe",
+				"skill": "Str) (YYYG) Range: Engaged",
+				"damage": 10,
+				"critical": 2,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Daedric Greataxe- Skill: Two-Handed(Str) (YYYG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
+				"description": "edric Greataxe- Skill: Two-Handed(Str) (YYYG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Blueflame", 
+				"description": "Skill: Destruction(Will)(YGG) Difficulty: Average Range: Medium, Damage: 6, Crit: 4, Qualities: Burn 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Rapid Reactions", 
+				"description": "Gain 1 automatic success for all initiative rolls."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Many Armed", 
+				"description": "Harvesters ignore the Difficulty increase applied to making offhand attacks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Rapid Strikes", 
+				"description": "Spend 1 Story Point to gain an additional action for one round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Hunger",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Hungers are thin skinned Daedra, almost anorexic looking. They have a long tongue, sticking out of an always open round mouth. Typically regarded as minion of Boethiah, Hungers are often found in the service of Sheogorath, as he regards them fondly as pets. Hungers attempt to feed on their prey while they are alive, latching on with their sucker-like mouth and draining them.",
+		"description": "
+			{
+				"name": "Hunger [Rival]", 
+				"description": "nger [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Hungers are thin skinned Daedra, almost anorexic looking. They have a long tongue, sticking out of an always open round mouth. Typically regarded as minion of Boethiah, Hungers are often found in the service of Sheogorath, as he regards them fondly as pets. Hungers attempt to feed on their prey while they are alive, latching on with their sucker-like mouth and draining them.",
 		"characteristics": {
+			{
+				"name": "Hungers are thin skinned Daedra, almost anorexic looking. They have a long tongue, sticking out of an always open round mouth. Typically regarded as minion of Boethiah, Hungers are often found in the service of Sheogorath, as he regards them fondly as pets. Hungers attempt to feed on their prey while they are alive, latching on with their sucker-like mouth and draining them.", 
+				"description": "ngers are thin skinned Daedra, almost anorexic looking. They have a long tongue, sticking out of an always open round mouth. Typically regarded as minion of Boethiah, Hungers are often found in the service of Sheogorath, as he regards them fondly as pets. Hungers attempt to feed on their prey while they are alive, latching on with their sucker-like mouth and draining them."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 4,
 			"Agility": 3,
@@ -308,13 +3948,168 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 13,	{
+			{
+				"name": "2 4 3 3 2 2", 
+				"description": "4 3 3 2 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 13
+			{
+				"name": "Wounds: 13", 
+				"description": "unds: 13"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Hand-to-Hand": 2,
+			"Intimidate": 2,
+			"Charm": 1,
+			"Acrobatics": 1,
+			"Athletics": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Hand-to-Hand 2(Agi), Intimidate 2(Str), Charm 1 (Pers), Acrobatics 1(Agi), Athletics 2(Str)", 
+				"description": "ills: Hand-to-Hand 2(Agi), Intimidate 2(Str), Charm 1 (Pers), Acrobatics 1(Agi), Athletics 2(Str)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Draining Bite ",
+				"skill": "YYGG) Range: Engaged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Qualities: +5 Drain 3",
+				"qualities": ["alities: +5 Drain 3
+"]
+			},
+			{
+				"name": "Draining Bite", 
+				"description": "Skill: Hand-to-Hand (YYGG) Range: Engaged, Damage: 5, Crit: 3, Qualities: +5 Drain 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Insatiable", 
+				"description": "Every successful Drain effect cast or inflicted by the Hunger grants it a Boost for the next round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Devour", 
+				"description": "Should a Hunger successfully bite a target, it can spend an action on its next round consuming the life force of the victim, draining 3 Wounds per round. It must remain attached to the target, and cannot attack anyone else, or the effect ends."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Lurker",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora's realm of Apocrypha. They appear as amphibious humanoids who serve their Prince by guarding forbidden knowledge. Lurkers use their long legs for stomping attacks, and can attack from afar by spewing tentacles from their mouths.",
+		"description": "
+			{
+				"name": "Lurker [Nemesis]", 
+				"description": "rker [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora's realm of Apocrypha. They appear as amphibious humanoids who serve their Prince by guarding forbidden knowledge. Lurkers use their long legs for stomping attacks, and can attack from afar by spewing tentacles from their mouths.",
 		"characteristics": {
+			{
+				"name": "Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora's realm of Apocrypha. They appear as amphibious humanoids who serve their Prince by guarding forbidden knowledge. Lurkers use their long legs for stomping attacks, and can attack from afar by spewing tentacles from their mouths.", 
+				"description": "rkers are large daedric creatures that guard the murky waters of Hermaeus Mora's realm of Apocrypha. They appear as amphibious humanoids who serve their Prince by guarding forbidden knowledge. Lurkers use their long legs for stomping attacks, and can attack from afar by spewing tentacles from their mouths."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 5,
 			"Endurance": 5,
 			"Agility": 3,
@@ -323,13 +4118,202 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 6,
-			"wounds": 33,	{
+			{
+				"name": "5 5 3 2 3 1", 
+				"description": "5 3 2 3 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 6
+			{
+				"name": "Soak: 6", 
+				"description": "ak: 6"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 33
+			{
+				"name": "Wounds: 33", 
+				"description": "unds: 33"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Hand-to-Hand": 4,
+			"Athletics": 3,
+			"Resilience": 5,
+			"Intimidate": 3,
+			"Vigilance": 3,
+			"Marksman": 3
+		},
+		"abilities": [
+			{
+				"name": "Skills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will), Marksman 3(Agi)", 
+				"description": "ills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will), Marksman 3(Agi)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Jagged Boots",
+				"skill": "Str) (YYYYG) Range: Engaged",
+				"damage": 9,
+				"critical": 3,
+				"range": "Qualities: Knockdown",
+				"qualities": ["alities: Knockdown
+"]
+			},
+			{
+				"name": "Jagged Boots- Skill: Hand-to-Hand(Str) (YYYYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Knockdown", 
+				"description": "gged Boots- Skill: Hand-to-Hand(Str) (YYYYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Knockdown"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Tentacle Spew",
+				"skill": "Agi) (YYY) Range: Medium",
+				"damage": 6,
+				"critical": 2,
+				"range": "Qualities: Disorient 1",
+				"qualities": ["alities: Disorient 1
+"]
+			},
+			{
+				"name": "Tentacle Spew- Skill: Marksman(Agi) (YYY) Range: Medium, Damage: 6, Crit: 2, Qualities: Disorient 1", 
+				"description": "ntacle Spew- Skill: Marksman(Agi) (YYY) Range: Medium, Damage: 6, Crit: 2, Qualities: Disorient 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Large", 
+				"description": "Lurkers possess a Silhouette of 3."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Submerge", 
+				"description": "When out of combat, a Lurker can submerge itself fully into any body of water, no matter how deep. As a maneuver, it can emerge again."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Ogrim",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "These are enormous Daedra with very little intellect, but which are chiefly sent into the mortal world to menace living things for the amusement of the Daedric Prince Malacath. Hefty, with thick hide and an immunity to Normal Weapons, Ogrim are rightfully feared.",
+		"description": "
+			{
+				"name": "Ogrim [Nemesis]", 
+				"description": "rim [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+These are enormous Daedra with very little intellect, but which are chiefly sent into the mortal world to menace living things for the amusement of the Daedric Prince Malacath. Hefty, with thick hide and an immunity to Normal Weapons, Ogrim are rightfully feared.",
 		"characteristics": {
+			{
+				"name": "These are enormous Daedra with very little intellect, but which are chiefly sent into the mortal world to menace living things for the amusement of the Daedric Prince Malacath. Hefty, with thick hide and an immunity to Normal Weapons, Ogrim are rightfully feared.", 
+				"description": "ese are enormous Daedra with very little intellect, but which are chiefly sent into the mortal world to menace living things for the amusement of the Daedric Prince Malacath. Hefty, with thick hide and an immunity to Normal Weapons, Ogrim are rightfully feared."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 5,
 			"Endurance": 6,
 			"Agility": 2,
@@ -338,13 +4322,183 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 10/6,
-			"wounds": 32,	{
+			{
+				"name": "5 6 2 1 2 1", 
+				"description": "6 2 1 2 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 10/6
+			{
+				"name": "Soak: 10/6", 
+				"description": "ak: 10/6"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 32
+			{
+				"name": "Wounds: 32", 
+				"description": "unds: 32"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Hand-to-Hand": 4,
+			"Athletics": 3,
+			"Resilience": 5,
+			"Intimidate": 3,
+			"Vigilance": 3
+		},
+		"abilities": [
+			{
+				"name": "Skills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will)", 
+				"description": "ills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart (Exceptional Herb)"],
+			{
+				"name": "Drops/Equipment: Daedra Heart (Exceptional Herb)", 
+				"description": "ops/Equipment: Daedra Heart (Exceptional Herb)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Bludgeoning Fists ",
+				"skill": "Str) (YYYYG) Range: Engaged",
+				"damage": 8,
+				"critical": 4,
+				"range": "Qualities: Knockdow",
+				"qualities": ["alities: Knockdown"]
+			},
+			{
+				"name": "Bludgeoning Fists", 
+				"description": "Skill: Hand-to-Hand(Str) (YYYYG) Range: Engaged, Damage: 8, Crit: 4, Qualities: Knockdown, Disorient 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Large", 
+				"description": "Ogrim possess a Silhouette of 3."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Body Slam", 
+				"description": "Spend 1 Story Point to add Endurance to the damage of one melee attack."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Scamp",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Minion",
-		"description": "One of the lesser sentient Daedra of Oblivion, Scamps often enter into the mortal world to cause mischief and carry out errands for their Princes. They are weak, rather unintelligent, cowardly, and are easily defeated except in large numbers. They are most commonly associated with Mehrunes Dagon.",
+		"description": "
+			{
+				"name": "Scamp [Minion]", 
+				"description": "amp [Minion]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+One of the lesser sentient Daedra of Oblivion, Scamps often enter into the mortal world to cause mischief and carry out errands for their Princes. They are weak, rather unintelligent, cowardly, and are easily defeated except in large numbers. They are most commonly associated with Mehrunes Dagon.",
 		"characteristics": {
+			{
+				"name": "One of the lesser sentient Daedra of Oblivion, Scamps often enter into the mortal world to cause mischief and carry out errands for their Princes. They are weak, rather unintelligent, cowardly, and are easily defeated except in large numbers. They are most commonly associated with Mehrunes Dagon.", 
+				"description": "e of the lesser sentient Daedra of Oblivion, Scamps often enter into the mortal world to cause mischief and carry out errands for their Princes. They are weak, rather unintelligent, cowardly, and are easily defeated except in large numbers. They are most commonly associated with Mehrunes Dagon."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 1,
 			"Endurance": 2,
 			"Agility": 3,
@@ -353,13 +4507,170 @@
 			"Personality": 1
 		},
 		"derived": {
-			"soak": 3/3,
-			"wounds": 7,	{
+			{
+				"name": "1 2 3 1 2 1", 
+				"description": "2 3 1 2 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 3/3
+			{
+				"name": "Soak: 3/3", 
+				"description": "ak: 3/3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 7
+			{
+				"name": "Wounds: 7", 
+				"description": "unds: 7"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": ["Hand-to-Hand","Athletics","Destruction","Resilience","Intimidate","Vigilance"],
+		"abilities": [
+			{
+				"name": "Skills: Hand-to-Hand (Agi), Athletics (Str), Destruction (Will), Resilience (End), Intimidate (Str), Vigilance (Will)", 
+				"description": "ills: Hand-to-Hand (Agi), Athletics (Str), Destruction (Will), Resilience (End), Intimidate (Str), Vigilance (Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Claws",
+				"skill": "Agi) (GGG) Range: Engaged",
+				"damage": 5,
+				"critical": 3,
+				"range": "Qualities: Pierce 1",
+				"qualities": ["alities: Pierce 1
+"]
+			},
+			{
+				"name": "Claws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 5, Crit: 3, Qualities: Pierce 1", 
+				"description": "aws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 5, Crit: 3, Qualities: Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Firebolt", 
+				"description": "Skill: Destruction(Will)(GG) Difficulty: Average Range: Medium, Damage: 5, Crit: 4, Qualities: Burn 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Pack", 
+				"description": "Scamps work well in groups. All actions gain Boost when Grouped."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Seeker",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usually guarding tomes of forbidden knowledge. Seekers have the power to banish prey with sound attacks. They are rarely seen outside the Apocrypha.",
+		"description": "
+			{
+				"name": "Seeker [Rival]", 
+				"description": "eker [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usually guarding tomes of forbidden knowledge. Seekers have the power to banish prey with sound attacks. They are rarely seen outside the Apocrypha.",
 		"characteristics": {
+			{
+				"name": "Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usually guarding tomes of forbidden knowledge. Seekers have the power to banish prey with sound attacks. They are rarely seen outside the Apocrypha.", 
+				"description": "ekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usually guarding tomes of forbidden knowledge. Seekers have the power to banish prey with sound attacks. They are rarely seen outside the Apocrypha."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 1,
 			"Endurance": 1,
 			"Agility": 3,
@@ -368,13 +4679,194 @@
 			"Personality": 2
 		},
 		"derived": {
-			"soak": 2/5,
-			"wounds": 12,	{
+			{
+				"name": "1 1 3 5 3 2", 
+				"description": "1 3 5 3 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 2/5
+			{
+				"name": "Soak: 2/5", 
+				"description": "ak: 2/5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 12
+			{
+				"name": "Wounds: 12", 
+				"description": "unds: 12"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magicka: 16", 
+				"description": "gicka: 16"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Hand-to-Hand": 1,
+			"Marksman": 2,
+			"Illusion": 3,
+			"Destruction": 2,
+			"Mysticism": 2,
+			"Conjuration": 3,
+			"Necromancy": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Hand-to-Hand 1(Agi), Marksman 2(Agi), Illusion 3(Pers), Destruction 2(Will), Mysticism 2(Will), Conjuration 3(Int), Necromancy 2(Int)", 
+				"description": "ills: Hand-to-Hand 1(Agi), Marksman 2(Agi), Illusion 3(Pers), Destruction 2(Will), Mysticism 2(Will), Conjuration 3(Int), Necromancy 2(Int)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Tentacle Strike",
+				"skill": "YGG) Range: Engaged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Qualities: +6 Poison Damage",
+				"qualities": ["alities: +6 Poison Damage
+"]
+			},
+			{
+				"name": "Tentacle Strike- Skill: Hand-to-Hand (YGG) Range: Engaged, Damage: 6, Crit: 3, Qualities: +6 Poison Damage", 
+				"description": "ntacle Strike- Skill: Hand-to-Hand (YGG) Range: Engaged, Damage: 6, Crit: 3, Qualities: +6 Poison Damage"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Voice of Apocrypha ",
+				"skill": "YYG) Range: Medium",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Disorient ",
+				"qualities": ["alities: Disorient 1"]
+			},
+			{
+				"name": "Voice of Apocrypha", 
+				"description": "Skill: Marksman (YYG) Range: Medium, Damage: 7, Crit: 3, Qualities: Disorient 1, Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Submerge", 
+				"description": "When out of combat, a Seeker can submerge itself fully into any body of water, no matter how deep. As a maneuver, it can emerge again."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Horror Story", 
+				"description": "Once per round, Seeker may choose to use the Horror Story Action. A target within Medium range must pass a competing Fear check against the Seeker’s Illusion skill, or suffer fear effects."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Spider Daedra",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "These Daedra appear as giant spiders with human torsos, and are associated with Mephala. They are so fiercely independent, deceptive and irrational that not even Mephala's worshippers will often summon them, for fear that they will disobey orders. They are some of the more powerful Daedra, with high intelligence, combat prowess, and magical ability.",
+		"description": "
+			{
+				"name": "Spider Daedra [Rival]", 
+				"description": "ider Daedra [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+These Daedra appear as giant spiders with human torsos, and are associated with Mephala. They are so fiercely independent, deceptive and irrational that not even Mephala's worshippers will often summon them, for fear that they will disobey orders. They are some of the more powerful Daedra, with high intelligence, combat prowess, and magical ability.",
 		"characteristics": {
+			{
+				"name": "These Daedra appear as giant spiders with human torsos, and are associated with Mephala. They are so fiercely independent, deceptive and irrational that not even Mephala's worshippers will often summon them, for fear that they will disobey orders. They are some of the more powerful Daedra, with high intelligence, combat prowess, and magical ability.", 
+				"description": "ese Daedra appear as giant spiders with human torsos, and are associated with Mephala. They are so fiercely independent, deceptive and irrational that not even Mephala's worshippers will often summon them, for fear that they will disobey orders. They are some of the more powerful Daedra, with high intelligence, combat prowess, and magical ability."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 3,
 			"Agility": 4,
@@ -383,13 +4875,188 @@
 			"Personality": 4
 		},
 		"derived": {
-			"soak": 4,
-			"wounds": 16,	{
+			{
+				"name": "2 3 4 4 3 4", 
+				"description": "3 4 4 3 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 4
+			{
+				"name": "Soak: 4", 
+				"description": "ak: 4"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 16
+			{
+				"name": "Wounds: 16", 
+				"description": "unds: 16"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Acrobatics": 2,
+			"Charm": 3,
+			"Deception": 2,
+			"One-Handed": 2,
+			"Hand-to-Hand": 2,
+			"Necromancy": 1,
+			"Destruction": 1,
+			"Conjuration": 2,
+			"Illusion": 3
+		},
+		"abilities": [
+			{
+				"name": "Skills: Acrobatics 2(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Necromancy 1(Int), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)", 
+				"description": "ills: Acrobatics 2(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Necromancy 1(Int), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Razor Nails ",
+				"skill": "Agi) (YYGG) Range: Engaged",
+				"damage": 6,
+				"critical": 3,
+				"range": "Qualities: Pierce 2",
+				"qualities": ["alities: Pierce 2
+"]
+			},
+			{
+				"name": "Razor Nails", 
+				"description": "Skill: Hand-to-Hand(Agi) (YYGG) Range: Engaged, Damage: 6, Crit: 3, Qualities: Pierce 2"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Magic Actions:", 
+				"description": "gic Actions:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Stunning Gaze", 
+				"description": "Skill: Destruction(Will)(YGG) Difficulty: Average Range: Medium, Effects: Target is Staggered for one round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Summon Lesser Daedra", 
+				"description": "Skill: Conjuration(Int)(YYGG) Difficulty: Average Range: Medium, Effects: Summon 1 Minion Daedra within Medium range, persisting for one round per Success, unless a maneuver is spent on Concentration."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Unpredictable", 
+				"description": "Gain Boost to all Charm and Deception checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Winged Twilight",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Rival",
-		"description": "Described as both beautiful and grotesque, Winged Twilight resemble an attractive woman with long, bat-like wings in place of arms, and dusky blue-grey skin. Oftentimes mistaken as Harpies, Twilights serve Azura as messengers and agents.",
+		"description": "
+			{
+				"name": "Winged Twilight [Rival]", 
+				"description": "nged Twilight [Rival]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Described as both beautiful and grotesque, Winged Twilight resemble an attractive woman with long, bat-like wings in place of arms, and dusky blue-grey skin. Oftentimes mistaken as Harpies, Twilights serve Azura as messengers and agents.",
 		"characteristics": {
+			{
+				"name": "Described as both beautiful and grotesque, Winged Twilight resemble an attractive woman with long, bat-like wings in place of arms, and dusky blue-grey skin. Oftentimes mistaken as Harpies, Twilights serve Azura as messengers and agents.", 
+				"description": "scribed as both beautiful and grotesque, Winged Twilight resemble an attractive woman with long, bat-like wings in place of arms, and dusky blue-grey skin. Oftentimes mistaken as Harpies, Twilights serve Azura as messengers and agents."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 2,
 			"Endurance": 2,
 			"Agility": 4,
@@ -398,13 +5065,171 @@
 			"Personality": 3
 		},
 		"derived": {
-			"soak": 3,
-			"wounds": 14,	{
+			{
+				"name": "2 2 4 2 2 3", 
+				"description": "2 4 2 2 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 3
+			{
+				"name": "Soak: 3", 
+				"description": "ak: 3"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 14
+			{
+				"name": "Wounds: 14", 
+				"description": "unds: 14"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+		},
+		"skills": {
+			"Acrobatics": 3,
+			"Charm": 3,
+			"Deception": 2,
+			"One-Handed": 2,
+			"Hand-to-Hand": 2,
+			"Destruction": 1,
+			"Conjuration": 2,
+			"Illusion": 3
+		},
+		"abilities": [
+			{
+				"name": "Skills: Acrobatics 3(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)", 
+				"description": "ills: Acrobatics 3(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": [""],
+			{
+				"name": "Drops/Equipment:", 
+				"description": "ops/Equipment:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Talons ",
+				"skill": "Agi)(YYGG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce 1",
+				"qualities": ["alities: Pierce 1
+"]
+			},
+			{
+				"name": "Talons", 
+				"description": "Skill: Hand-to-Hand(Agi)(YYGG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Glide", 
+				"description": "Winged Twilights can use their wings to glide from one location to another, increasing their movement speed while falling to a 3, and making them immune to fall damage."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Soar", 
+				"description": "Once per encounter, a Winged Twilight adopts the Flier attribute, with a speed of 3. This lasts for one round."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+	{
 		"name": "Xivilai",
 		"source": { "owner": "MyriadPro", "url": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/" }, 
 		"type": "Nemesis",
-		"description": "Xivilai are highly intelligent Daedra that look like tall and muscular gray-skinned warriors. They are similar in many points to the Dremora, but do not have a caste system. Their lack of a caste system fits perfectly with their hatred of subordination and tendency for betrayal. They are immensely strong, and gifted with magic.",
+		"description": "
+			{
+				"name": "Xivilai [Nemesis]", 
+				"description": "vilai [Nemesis]"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+Xivilai are highly intelligent Daedra that look like tall and muscular gray-skinned warriors. They are similar in many points to the Dremora, but do not have a caste system. Their lack of a caste system fits perfectly with their hatred of subordination and tendency for betrayal. They are immensely strong, and gifted with magic.",
 		"characteristics": {
+			{
+				"name": "Xivilai are highly intelligent Daedra that look like tall and muscular gray-skinned warriors. They are similar in many points to the Dremora, but do not have a caste system. Their lack of a caste system fits perfectly with their hatred of subordination and tendency for betrayal. They are immensely strong, and gifted with magic.", 
+				"description": "vilai are highly intelligent Daedra that look like tall and muscular gray-skinned warriors. They are similar in many points to the Dremora, but do not have a caste system. Their lack of a caste system fits perfectly with their hatred of subordination and tendency for betrayal. They are immensely strong, and gifted with magic."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Strength Endurance Agility Intellect Willpower Personality", 
+				"description": "rength Endurance Agility Intellect Willpower Personality"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 			"Strength": 5,
 			"Endurance": 4,
 			"Agility": 4,
@@ -413,9 +5238,175 @@
 			"Personality": 6
 		},
 		"derived": {
-			"soak": 5,
-			"wounds": 31,
-			"strain": 26,
+			{
+				"name": "5 4 4 6 3 6", 
+				"description": "4 4 6 3 6"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "", 
+				"description": ""
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"soak": 5
+			{
+				"name": "Soak: 5", 
+				"description": "ak: 5"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"wounds": 31
+			{
+				"name": "Wounds: 31", 
+				"description": "unds: 31"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+			"strain": 26
+			{
+				"name": "Strain: 26", 
+				"description": "rain: 26"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
 			"defence": [1,1]
+			{
+				"name": "Defense: 1/1", 
+				"description": "fense: 1/1"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
 		},
-		"skills"
+		"skills": {
+			"Athletics": 3,
+			"Acrobatics": 2,
+			"Charm": 4,
+			"Conjuration": 4,
+			"Cool": 4,
+			"Deception": 4,
+			"Destruction": 4,
+			"Intimidate": 4,
+			"Illusion": 4,
+			"Resilience": 2,
+			"Search": 2,
+			"Vigilance": 2
+		},
+		"abilities": [
+			{
+				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 4(Pers), Conjuration 4(Int), Cool 4 (Will), Deception 4(Pers), Destruction 4(Will), Intimidate 4 (Str), Illusion 4(Pers), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
+				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 4(Pers), Conjuration 4(Int), Cool 4 (Will), Deception 4(Pers), Destruction 4(Will), Intimidate 4 (Str), Illusion 4(Pers), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+,
+		"gear": ["Daedra Heart, All Weapons/Armour below"],
+			{
+				"name": "Drops/Equipment: Daedra Heart, All Weapons/Armour below", 
+				"description": "ops/Equipment: Daedra Heart, All Weapons/Armour below"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Attacks/Weapons:", 
+				"description": "tacks/Weapons:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}],
+		"weapons": [
+			{
+				"name": "Burning Claws ",
+				"skill": "Agi) (YYYG) Range: Engaged",
+				"damage": 7,
+				"critical": 3,
+				"range": "Qualities: Pierce ",
+				"qualities": ["alities: Pierce 3"]
+			},
+			{
+				"name": "Burning Claws", 
+				"description": "Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2, +6 Fire Damage"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Talents:", 
+				"description": "lents:"
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Confidence 4", 
+				"description": "Dremora Valyknaz reduce the difficulty of Fear checks by 4."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Adversary 2", 
+				"description": "Upgrade 2 difficulty dice to all checks targeting this character."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Daedra", 
+				"description": "Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Normal Weapon Immunity", 
+				"description": "Takes no damage from Normal Weapons."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Determination", 
+				"description": "Summoned Dremora are exceptionally opposed to returning to Oblivion, and thus gain 2 Boost to all Banish spell checks."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Command", 
+				"description": "As a maneuver, Valyknaz can grant Boost dice to the next action performed by an allied Caitiff or Kynreeve."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	},
+
+			{
+				"name": "Aura of Terror", 
+				"description": "When a Valyknaz enters combat, all characters who are aware of him, must pass a Hard (3) Cool Fear check."
+			},
+		],
+		"tags": ["source:EoT", "Homebrew", "Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+	}
