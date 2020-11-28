@@ -13,8 +13,8 @@ Strength	Endurance	Agility	Intellect	Willpower	Personality
 ●	Attacks/Weapons:
 Fiery Swipe - Skill: Hand-to-Hand(Agi)(GG) Range: Engaged, Damage: 7, Crit: 4, Qualities: Burn
 ●	Magic Actions:
-Ember - Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 5, Crit: 3, Qualities: Burn
-Effity - Skill: Destruction(Will)(GGG) Difficulty: Average Range: Engaged, Damage: 5, Crit: 3, Qualities: Burn, Blast 5
+Ember- Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 5, Crit: 3, Qualities: Burn
+Effity- Skill: Destruction(Will)(GGG) Difficulty: Average Range: Engaged, Damage: 5, Crit: 3, Qualities: Burn, Blast 5
 ●	Talents:
 Daedra - Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons.
 Fire Creature - Fire Atronachs, appropriately, ignore all damage from Fire based magic. Damage dealt by Frost based magic, in contrast, deals double damage (after Soak applies).
@@ -68,7 +68,7 @@ Daedra - Unit is a Daedra for the purpose of spellcasting, and gains a 50% damag
 Adversary 2 - Upgrade 2 difficulty dice to all checks targeting this character.
 Indignant - Players suffer one Setback to all Charm checks when trying to convince a Storm Atronach to care.
 ●	Special Abilities:
-Rolling Storm - If damaged with Shock-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round.
+Rolling Storm- If damaged with Shock-based magic, the inflicted damage instead heals for the dealt amount. Any wounds healed in excess of the threshold, become temporary for the next round.
 Stormcloak - Performs a Hard Destruction check to grant itself a Lightning Cloak for one round per success. Targets caught within Engaged ranged of the Atronach must pass a Hard Acrobatics check or suffer 8 Lightning damage.
 
 Banekin [Minion]
@@ -82,10 +82,10 @@ Strength	Endurance	Agility	Intellect	Willpower	Personality
 ●	Skills: Alteration(Will), Destruction (Will), Stealth(Agi)
 ●	Drops/Equipment:
 ●	Attacks/Weapons:
-Claws - Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 4, Crit: 3, Qualities: Pierce 1
+Claws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 4, Crit: 3, Qualities: Pierce 1
 ●	Magic Actions:
-Spark - Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1
-Lightning Ball - Skill: Destruction(Will)(GGG) Difficulty: Hard Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1, Blast 4
+Spark- Skill: Destruction(Will)(GGG) Difficulty: Average Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1
+Lightning Ball- Skill: Destruction(Will)(GGG) Difficulty: Hard Range: Medium, Damage: 6, Crit: 3, Qualities: Stun 1, Blast 4
 ●	Talents:
 Daedra - Unit is a Daedra for the purpose of spellcasting, and gains a 50% damage reduction from Normal Weapons.
 	Lightning Immunity - Banekin are immune to Shock damage.
