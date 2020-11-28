@@ -202,7 +202,7 @@ let sourceMap = {
 
 export const getSourceLink = function(source) {
 	if(source in sourceMap) {
-		return `<a href="${sourceMap[source]}">${source.replace("source:", "")}</a>`;
+		return `<a href="${sourceMap[source]}" target="_blank">${source.replace("source:", "")}</a>`;
 	}
 
 	return null;
