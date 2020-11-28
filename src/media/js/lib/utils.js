@@ -17,7 +17,7 @@ export const minionSkill = function(minions, skill, skills) {
 }
 
 
-export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence"];
+export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Willpower", "Presence", "Strength", "Endurance", "Personality"];
 
 
 // convert marked text into dice and return in a React dangerouslySetInnerHTML format
@@ -196,7 +196,8 @@ let sourceMap = {
 	"source:Never Tell Me the Odds": "http://www.starwarsrpgpodcast.com/",
 	"source:D20Radio.com": "http://www.d20radio.com/main/",
 	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view",
-	"source:Creature Catalogue": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/"
+	"source:Creature Catalogue": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/",
+	"source:Edge of Tamriel": "https://community.fantasyflightgames.com/topic/269367-myriadpros-edge-of-tamriel-second-edition-name-change/"
 };
 
 export const getSourceLink = function(source) {

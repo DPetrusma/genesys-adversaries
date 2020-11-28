@@ -16,17 +16,15 @@
 			"wounds": 6
 		},
 		"skills": ["Charm","Deception","Destruction","Hand-to-Hand","Intimidate","Search","Vigilance"],
-		"abilities": [,
 		"gear": ["Fire Salts - Counts as Rare Herb"],
 		"weapons": [
 			{
 				"name": "Fiery Swipe ",
-				"skill": "Agi)(GG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 7,
 				"critical": 4,
-				"range": "Qualities: Burn",
-				"qualities": ["alities: Burn
-"]
+				"range": "Engaged",
+				"qualities": ["Burn"]
 			},
 			{
 				"name": "Stoke The Flames", 
@@ -141,7 +139,6 @@ Frost Atronachs are less common, but more imposing to mortals than their fiery r
 			"Search": 1,
 			"Vigilance": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Charm 1 (Pers), Deception 1 (Pers), Destruction 2 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)", 
 				"description": "ills: Charm 1 (Pers), Deception 1 (Pers), Destruction 2 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)"
@@ -169,11 +166,11 @@ Frost Atronachs are less common, but more imposing to mortals than their fiery r
 		"weapons": [
 			{
 				"name": "Icy Crush ",
-				"skill": "Str)(YYY) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 5,
 				"critical": 4,
-				"range": "Qualities: Knockdow",
-				"qualities": ["alities: Knockdown"]
+				"range": "Engaged",
+				"qualities": ["Knockdown","Disorient 2"]
 			},
 			{
 				"name": "Icy Crush", 
@@ -361,7 +358,6 @@ The rarest and most powerful of the Atronachs, Storm Atronachs feel themselves a
 			"Search": 1,
 			"Vigilance": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Charm 2 (Pers), Deception 3 (Pers), Destruction 5 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)", 
 				"description": "ills: Charm 2 (Pers), Deception 3 (Pers), Destruction 5 (Will), Hand-to-Hand 3 (Str), Intimidate 2 (Str), Search 1 (Will), Vigilance 1 (Will)"
@@ -389,11 +385,11 @@ The rarest and most powerful of the Atronachs, Storm Atronachs feel themselves a
 		"weapons": [
 			{
 				"name": "Fling Stormstone ",
-				"skill": "Str)(YYY) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 8,
 				"critical": 4,
-				"range": "Qualities: Knockdow",
-				"qualities": ["alities: Knockdown"]
+				"range": "Engaged",
+				"qualities": ["Knockdown","Disorient 2"]
 			},
 			{
 				"name": "Fling Stormstone", 
@@ -563,8 +559,7 @@ The smallest of all Daedric minions, Banekin resemble miniscule scamps. While th
 	},
 
 		},
-		"skills": ["Alteration","Destruction","Stealth"],
-		"abilities": [
+		"skills": ["Alteration","Destruction","Stealth"]
 			{
 				"name": "Skills: Alteration(Will), Destruction (Will), Stealth(Agi)", 
 				"description": "ills: Alteration(Will), Destruction (Will), Stealth(Agi)"
@@ -740,7 +735,6 @@ Clannfears are dinosaur-like Daedra that resemble a lizard with a large, bony cr
 			"Resilience": 1,
 			"Survival": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 2 (Str), Hand-to-Hand 2 (Agi), Resilience 1(End), Survival 1(Will) Vigilance 1 (Will)", 
 				"description": "ills: Athletics 2 (Str), Hand-to-Hand 2 (Agi), Resilience 1(End), Survival 1(Will) Vigilance 1 (Will)"
@@ -768,12 +762,11 @@ Clannfears are dinosaur-like Daedra that resemble a lizard with a large, bony cr
 		"weapons": [
 			{
 				"name": "Beak and Claws ",
-				"skill": "Agi) (YYYG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 6,
 				"critical": 3,
-				"range": "Qualities: Pierce 1",
-				"qualities": ["alities: Pierce 1
-"]
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
 			},
 			{
 				"name": "Beak and Claws", 
@@ -911,8 +904,7 @@ Simply smaller, younger, less intelligent Clannfear, who often attack in packs."
 	},
 
 		},
-		"skills": ["Athletics","Hand-to-Hand","Resilience","Survival"],
-		"abilities": [
+		"skills": ["Athletics","Hand-to-Hand","Resilience","Survival"]
 			{
 				"name": "Skills: Athletics (Str), Hand-to-Hand (Agi), Resilience (End), Survival (Will) Vigilance (Will)", 
 				"description": "ills: Athletics (Str), Hand-to-Hand (Agi), Resilience (End), Survival (Will) Vigilance (Will)"
@@ -940,12 +932,11 @@ Simply smaller, younger, less intelligent Clannfear, who often attack in packs."
 		"weapons": [
 			{
 				"name": "Beak and Claws ",
-				"skill": "Agi) (GGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 5,
 				"critical": 3,
-				"range": "Qualities: Pierce 1",
-				"qualities": ["alities: Pierce 1
-"]
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
 			},
 			{
 				"name": "Beak and Claws", 
@@ -1075,8 +1066,7 @@ Every Daedric Prince, Aedra, and even some mortals have cults dedicated to them.
 	},
 
 		},
-		"skills": ["Athletics","Charm","Intimidate","Deception","One-Handed","Destruction","Conjuration","Restoration","Mysticism"],
-		"abilities": [
+		"skills": ["Athletics","Charm","Intimidate","Deception","One-Handed","Destruction","Conjuration","Restoration","Mysticism"]
 			{
 				"name": "Skills: Athletics (Str), Charm (Pers), Intimidate (Str), Deception (Pers), One-Handed (Agi), Destruction (Will), Conjuration (Int), Restoration (Will), Mysticism (Will)", 
 				"description": "ills: Athletics (Str), Charm (Pers), Intimidate (Str), Deception (Pers), One-Handed (Agi), Destruction (Will), Conjuration (Int), Restoration (Will), Mysticism (Will)"
@@ -1104,11 +1094,11 @@ Every Daedric Prince, Aedra, and even some mortals have cults dedicated to them.
 		"weapons": [
 			{
 				"name": "Sharpened Iron Dagger ",
-				"skill": "Agi) (G) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 2,
 				"critical": 2,
-				"range": "Qualities: Normal Weapo",
-				"qualities": ["alities: Normal Weapon"]
+				"range": "Engaged",
+				"qualities": ["Normal Weapon","Enchanted","Pierce 1"]
 			},
 			{
 				"name": "Sharpened Iron Dagger", 
@@ -1246,7 +1236,6 @@ Daedroths are another type of beast-like Daedra in service to Molag Bal, though 
 			"Survival": 2,
 			"Destruction": 4
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 4 (Str), Hand-to-Hand 2 (Str/Agi), Resilience 5 (End), Survival 2 (Will) Vigilance 2 (Will), Destruction 4 (Will)", 
 				"description": "ills: Athletics 4 (Str), Hand-to-Hand 2 (Str/Agi), Resilience 5 (End), Survival 2 (Will) Vigilance 2 (Will), Destruction 4 (Will)"
@@ -1274,11 +1263,11 @@ Daedroths are another type of beast-like Daedra in service to Molag Bal, though 
 		"weapons": [
 			{
 				"name": "Rending Talons ",
-				"skill": "Agi) (YYGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 2"]
+				"range": "Engaged",
+				"qualities": ["Pierce 2","Vicious 2","Bleed 2"]
 			},
 			{
 				"name": "Rending Talons", 
@@ -1290,11 +1279,11 @@ Daedroths are another type of beast-like Daedra in service to Molag Bal, though 
 		"weapons": [
 			{
 				"name": "Bite ",
-				"skill": "Str) (YYGGG) Range: Range",
+				"skill": "Hand-to-Hand",
 				"damage": 6,
 				"critical": 2,
-				"range": "Qualities: Pi",
-				"qualities": ["alities: Pin"]
+				"range": "Range",
+				"qualities": ["Pin","Sunder"]
 			},
 			{
 				"name": "Bite", 
@@ -1513,8 +1502,7 @@ The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the
 	},
 
 		},
-		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
-		"abilities": [
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"]
 			{
 				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
 				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
@@ -1542,11 +1530,11 @@ The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the
 		"weapons": [
 			{
 				"name": "Mazken Shortsword",
-				"skill": "Agi) (GG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Mazken Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -1558,11 +1546,11 @@ The rank and file of the Mazken forces, Kiskengos are rarely seen outside of the
 		"weapons": [
 			{
 				"name": "Mazken Shortbow",
-				"skill": "Agi) (GG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Mazken Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -1741,7 +1729,6 @@ What cultists and adventurers are more likely to meet is an Autkendo. A mid-leve
 			"Search": 1,
 			"Vigilance": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
 				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
@@ -1769,11 +1756,11 @@ What cultists and adventurers are more likely to meet is an Autkendo. A mid-leve
 		"weapons": [
 			{
 				"name": "Mazken Longsword",
-				"skill": "Agi) (YYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Mazken Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -1785,11 +1772,11 @@ What cultists and adventurers are more likely to meet is an Autkendo. A mid-leve
 		"weapons": [
 			{
 				"name": "Mazken Long Spear",
-				"skill": "Str) (YYG) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 9,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 4"]
 			},
 			{
 				"name": "Mazken Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
@@ -1801,11 +1788,11 @@ What cultists and adventurers are more likely to meet is an Autkendo. A mid-leve
 		"weapons": [
 			{
 				"name": "Mazken Shortbow",
-				"skill": "Agi) (YGG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Mazken Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2008,7 +1995,6 @@ The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad Go
 			"Search": 2,
 			"Vigilance": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
 				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
@@ -2036,11 +2022,11 @@ The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad Go
 		"weapons": [
 			{
 				"name": "Mazken Longsword",
-				"skill": "Agi) (YYYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Mazken Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2052,11 +2038,11 @@ The Generals and Lords of the Mazken forces, Grakendos answer only to the Mad Go
 		"weapons": [
 			{
 				"name": "Mazken Claymore",
-				"skill": "Str) (YYYY) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 10,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 3"]
 			},
 			{
 				"name": "Mazken Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
@@ -2283,8 +2269,7 @@ Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest r
 	},
 
 		},
-		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Destruction","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
-		"abilities": [
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Destruction","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"]
 			{
 				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Destruction (Will), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
 				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Destruction (Will), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
@@ -2312,11 +2297,11 @@ Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest r
 		"weapons": [
 			{
 				"name": "Daedric Shortsword",
-				"skill": "Agi) (GG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Daedric Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2328,11 +2313,11 @@ Typically used as rank and file in any Dremora outfit, Caitiffs are the lowest r
 		"weapons": [
 			{
 				"name": "Daedric Shortbow",
-				"skill": "Agi) (GG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Daedric Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2494,7 +2479,6 @@ The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dr
 			"Search": 1,
 			"Vigilance": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 1(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Destruction 2(Will), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
 				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 1(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Destruction 2(Will), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
@@ -2522,11 +2506,11 @@ The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dr
 		"weapons": [
 			{
 				"name": "Daedric Longsword",
-				"skill": "Agi) (YYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 9,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Daedric Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2538,11 +2522,11 @@ The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dr
 		"weapons": [
 			{
 				"name": "Daedric Greataxe",
-				"skill": "Str) (YYGG) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 10,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 4"]
 			},
 			{
 				"name": "Daedric Greataxe- Skill: Two-Handed(Str) (YYGG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
@@ -2554,11 +2538,11 @@ The basic Officer rank in a Dremora military outfit, Kynreeves lead groups of Dr
 		"weapons": [
 			{
 				"name": "Daedric Shortbow",
-				"skill": "Agi) (YGG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Daedric Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2754,7 +2738,6 @@ A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded
 			"Search": 2,
 			"Vigilance": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Discipline 5(Will), Deception 3(Pers), Destruction 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
 				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Discipline 5(Will), Deception 3(Pers), Destruction 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
@@ -2782,11 +2765,11 @@ A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded
 		"weapons": [
 			{
 				"name": "Daedric Longsword",
-				"skill": "Agi) (YYYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 10,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Daedric Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 10, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -2798,11 +2781,11 @@ A true Dremora Lord, Valyknaz are the supreme Lords of Dremora society. Shrouded
 		"weapons": [
 			{
 				"name": "Daedric Claymore",
-				"skill": "Str) (YYYYG) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 11,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 3"]
 			},
 			{
 				"name": "Daedric Claymore- Skill: Two-Handed(Str) (YYYYG) Range: Engaged, Damage: 11, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
@@ -3021,8 +3004,7 @@ Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest g
 	},
 
 		},
-		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"],
-		"abilities": [
+		"skills": ["Athletics","Acrobatics","Charm","Cool","Conjuration","Deception","Illusion","Marksman","One-Handed","Two-Handed","Resilience","Search","Vigilance"]
 			{
 				"name": "Skills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)", 
 				"description": "ills: Athletics (Str), Acrobatics (Agi), Charm (Pers), Cool(Will), Conjuration (Int), Deception (Pers), Illusion (Pers), Marksman (Agi), One-Handed (Agi), Two-Handed (Str), Resilience(End), Search (Will), Vigilance (Will)"
@@ -3050,11 +3032,11 @@ Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest g
 		"weapons": [
 			{
 				"name": "Aureal Shortsword",
-				"skill": "Agi) (GG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Aureal Shortsword- Skill: One-Handed(Agi) (GG) Range: Engaged, Damage: 7, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3066,11 +3048,11 @@ Auren are the lowest ranking Aureal. Serving as rank and file, with the lowest g
 		"weapons": [
 			{
 				"name": "Aureal Shortbow",
-				"skill": "Agi) (GG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Aureal Shortbow- Skill: Marksman(Agi) (GG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3257,7 +3239,6 @@ Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send
 			"Search": 1,
 			"Vigilance": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)", 
 				"description": "ills: Athletics 2(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 2(Int), Cool 2 (Will), Deception 2(Pers), Illusion 2(Pers), Intimidate 2 (Str), Marksman 1(Agi), One-Handed 2(Agi), Two-Handed 2(Str), Resilience 2 (End), Search 1(Will), Vigilance 1(Will)"
@@ -3285,11 +3266,11 @@ Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send
 		"weapons": [
 			{
 				"name": "Aureal Longsword",
-				"skill": "Agi) (YYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Aureal Longsword- Skill: One-Handed(Agi) (YYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3301,11 +3282,11 @@ Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send
 		"weapons": [
 			{
 				"name": "Aureal Long Spear",
-				"skill": "Str) (YYG) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 9,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 4"]
 			},
 			{
 				"name": "Aureal Long Spear- Skill: Two-Handed(Str) (YYG) Range: Engaged, Damage: 9, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
@@ -3317,11 +3298,11 @@ Aurmokel are the mid-tier Sergeants of the Aureal. When Sheogorath needs to send
 		"weapons": [
 			{
 				"name": "Aureal Shortbow",
-				"skill": "Agi) (YGG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Medium",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Aureal Shortbow- Skill: Marksman(Agi) (YGG) Range: Medium, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3524,7 +3505,6 @@ The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest
 			"Search": 2,
 			"Vigilance": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
 				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 2(Pers), Conjuration 3(Int), Cool 2 (Will), Deception 3(Pers), Illusion 3(Will), Intimidate 4 (Str), Marksman 2(Agi), One-Handed 3(Agi), Two-Handed 4(Str), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
@@ -3552,11 +3532,11 @@ The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest
 		"weapons": [
 			{
 				"name": "Aureal Longsword",
-				"skill": "Agi) (YYYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 8,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "Aureal Longsword- Skill: One-Handed(Agi) (YYYG) Range: Engaged, Damage: 8, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3568,11 +3548,11 @@ The great Generals and Lords of the Aureal, Pelaurig are adorned with the finest
 		"weapons": [
 			{
 				"name": "Aureal Claymore",
-				"skill": "Str) (YYYY) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 10,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 3"]
 			},
 			{
 				"name": "Aureal Claymore- Skill: Two-Handed(Str) (YYYY) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 3", 
@@ -3773,7 +3753,6 @@ From the waist up, these servants of Molag Bal resemble four-armed women, adorne
 			"One-Handed": 4,
 			"Destruction": 1
 		},
-		"abilities": [
 			{
 				"name": "Skills: Intimidate 2(Str), Athletics 2(Str), Two-Handed 3(Str), One-Handed 4(Agi), Destruction 1(Will)", 
 				"description": "ills: Intimidate 2(Str), Athletics 2(Str), Two-Handed 3(Str), One-Handed 4(Agi), Destruction 1(Will)"
@@ -3801,11 +3780,11 @@ From the waist up, these servants of Molag Bal resemble four-armed women, adorne
 		"weapons": [
 			{
 				"name": "2x Daedric Shortsword",
-				"skill": "Agi) (YYYY) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 6,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2"]
 			},
 			{
 				"name": "2x Daedric Shortsword- Skill: One-Handed(Agi) (YYYY) Range: Engaged, Damage: 6, Crit: 3, Qualities: Pierce 3, Vicious 2", 
@@ -3817,11 +3796,11 @@ From the waist up, these servants of Molag Bal resemble four-armed women, adorne
 		"weapons": [
 			{
 				"name": "Daedric Greataxe",
-				"skill": "Str) (YYYG) Range: Engaged",
+				"skill": "Two-Handed",
 				"damage": 10,
 				"critical": 2,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","Cumbersome 4"]
 			},
 			{
 				"name": "Daedric Greataxe- Skill: Two-Handed(Str) (YYYG) Range: Engaged, Damage: 10, Crit: 2, Qualities: Pierce 3, Vicious 2, Cumbersome 4", 
@@ -3990,7 +3969,6 @@ Hungers are thin skinned Daedra, almost anorexic looking. They have a long tongu
 			"Acrobatics": 1,
 			"Athletics": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Hand-to-Hand 2(Agi), Intimidate 2(Str), Charm 1 (Pers), Acrobatics 1(Agi), Athletics 2(Str)", 
 				"description": "ills: Hand-to-Hand 2(Agi), Intimidate 2(Str), Charm 1 (Pers), Acrobatics 1(Agi), Athletics 2(Str)"
@@ -4018,12 +3996,11 @@ Hungers are thin skinned Daedra, almost anorexic looking. They have a long tongu
 		"weapons": [
 			{
 				"name": "Draining Bite ",
-				"skill": "YYGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 5,
 				"critical": 3,
-				"range": "Qualities: +5 Drain 3",
-				"qualities": ["alities: +5 Drain 3
-"]
+				"range": "Engaged",
+				"qualities": ["+5 Drain 3"]
 			},
 			{
 				"name": "Draining Bite", 
@@ -4161,7 +4138,6 @@ Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora
 			"Vigilance": 3,
 			"Marksman": 3
 		},
-		"abilities": [
 			{
 				"name": "Skills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will), Marksman 3(Agi)", 
 				"description": "ills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will), Marksman 3(Agi)"
@@ -4189,12 +4165,11 @@ Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora
 		"weapons": [
 			{
 				"name": "Jagged Boots",
-				"skill": "Str) (YYYYG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 9,
 				"critical": 3,
-				"range": "Qualities: Knockdown",
-				"qualities": ["alities: Knockdown
-"]
+				"range": "Engaged",
+				"qualities": ["Knockdown"]
 			},
 			{
 				"name": "Jagged Boots- Skill: Hand-to-Hand(Str) (YYYYG) Range: Engaged, Damage: 9, Crit: 3, Qualities: Knockdown", 
@@ -4206,12 +4181,11 @@ Lurkers are large daedric creatures that guard the murky waters of Hermaeus Mora
 		"weapons": [
 			{
 				"name": "Tentacle Spew",
-				"skill": "Agi) (YYY) Range: Medium",
+				"skill": "Marksman",
 				"damage": 6,
 				"critical": 2,
-				"range": "Qualities: Disorient 1",
-				"qualities": ["alities: Disorient 1
-"]
+				"range": "Medium",
+				"qualities": ["Disorient 1"]
 			},
 			{
 				"name": "Tentacle Spew- Skill: Marksman(Agi) (YYY) Range: Medium, Damage: 6, Crit: 2, Qualities: Disorient 1", 
@@ -4364,7 +4338,6 @@ These are enormous Daedra with very little intellect, but which are chiefly sent
 			"Intimidate": 3,
 			"Vigilance": 3
 		},
-		"abilities": [
 			{
 				"name": "Skills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will)", 
 				"description": "ills: Hand-to-Hand 4(Str), Athletics 3(Str), Resilience 5(End), Intimidate 3(Str), Vigilance 3(Will)"
@@ -4392,11 +4365,11 @@ These are enormous Daedra with very little intellect, but which are chiefly sent
 		"weapons": [
 			{
 				"name": "Bludgeoning Fists ",
-				"skill": "Str) (YYYYG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 8,
 				"critical": 4,
-				"range": "Qualities: Knockdow",
-				"qualities": ["alities: Knockdown"]
+				"range": "Engaged",
+				"qualities": ["Knockdown","Disorient 2"]
 			},
 			{
 				"name": "Bludgeoning Fists", 
@@ -4542,8 +4515,7 @@ One of the lesser sentient Daedra of Oblivion, Scamps often enter into the morta
 	},
 
 		},
-		"skills": ["Hand-to-Hand","Athletics","Destruction","Resilience","Intimidate","Vigilance"],
-		"abilities": [
+		"skills": ["Hand-to-Hand","Athletics","Destruction","Resilience","Intimidate","Vigilance"]
 			{
 				"name": "Skills: Hand-to-Hand (Agi), Athletics (Str), Destruction (Will), Resilience (End), Intimidate (Str), Vigilance (Will)", 
 				"description": "ills: Hand-to-Hand (Agi), Athletics (Str), Destruction (Will), Resilience (End), Intimidate (Str), Vigilance (Will)"
@@ -4571,12 +4543,11 @@ One of the lesser sentient Daedra of Oblivion, Scamps often enter into the morta
 		"weapons": [
 			{
 				"name": "Claws",
-				"skill": "Agi) (GGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 5,
 				"critical": 3,
-				"range": "Qualities: Pierce 1",
-				"qualities": ["alities: Pierce 1
-"]
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
 			},
 			{
 				"name": "Claws- Skill: Hand-to-Hand(Agi) (GGG) Range: Engaged, Damage: 5, Crit: 3, Qualities: Pierce 1", 
@@ -4731,7 +4702,6 @@ Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usua
 			"Conjuration": 3,
 			"Necromancy": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Hand-to-Hand 1(Agi), Marksman 2(Agi), Illusion 3(Pers), Destruction 2(Will), Mysticism 2(Will), Conjuration 3(Int), Necromancy 2(Int)", 
 				"description": "ills: Hand-to-Hand 1(Agi), Marksman 2(Agi), Illusion 3(Pers), Destruction 2(Will), Mysticism 2(Will), Conjuration 3(Int), Necromancy 2(Int)"
@@ -4759,12 +4729,11 @@ Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usua
 		"weapons": [
 			{
 				"name": "Tentacle Strike",
-				"skill": "YGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 6,
 				"critical": 3,
-				"range": "Qualities: +6 Poison Damage",
-				"qualities": ["alities: +6 Poison Damage
-"]
+				"range": "Engaged",
+				"qualities": ["+6 Poison Damage"]
 			},
 			{
 				"name": "Tentacle Strike- Skill: Hand-to-Hand (YGG) Range: Engaged, Damage: 6, Crit: 3, Qualities: +6 Poison Damage", 
@@ -4776,11 +4745,11 @@ Seekers are grotesque tentacled daedra. They are servants of Hermaeus Mora, usua
 		"weapons": [
 			{
 				"name": "Voice of Apocrypha ",
-				"skill": "YYG) Range: Medium",
+				"skill": "Marksman",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Disorient ",
-				"qualities": ["alities: Disorient 1"]
+				"range": "Medium",
+				"qualities": ["Disorient 1","Pierce 1"]
 			},
 			{
 				"name": "Voice of Apocrypha", 
@@ -4921,7 +4890,6 @@ These Daedra appear as giant spiders with human torsos, and are associated with 
 			"Conjuration": 2,
 			"Illusion": 3
 		},
-		"abilities": [
 			{
 				"name": "Skills: Acrobatics 2(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Necromancy 1(Int), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)", 
 				"description": "ills: Acrobatics 2(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Necromancy 1(Int), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)"
@@ -4949,12 +4917,11 @@ These Daedra appear as giant spiders with human torsos, and are associated with 
 		"weapons": [
 			{
 				"name": "Razor Nails ",
-				"skill": "Agi) (YYGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 6,
 				"critical": 3,
-				"range": "Qualities: Pierce 2",
-				"qualities": ["alities: Pierce 2
-"]
+				"range": "Engaged",
+				"qualities": ["Pierce 2"]
 			},
 			{
 				"name": "Razor Nails", 
@@ -5110,7 +5077,6 @@ Described as both beautiful and grotesque, Winged Twilight resemble an attractiv
 			"Conjuration": 2,
 			"Illusion": 3
 		},
-		"abilities": [
 			{
 				"name": "Skills: Acrobatics 3(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)", 
 				"description": "ills: Acrobatics 3(Agi), Charm 3(Pers), Deception 2(Pers), One-Handed 2(Agi), Hand-to-Hand 2(Agi), Destruction 1(Will), Conjuration 2(Int), Illusion 3(Pers)"
@@ -5138,12 +5104,11 @@ Described as both beautiful and grotesque, Winged Twilight resemble an attractiv
 		"weapons": [
 			{
 				"name": "Talons ",
-				"skill": "Agi)(YYGG) Range: Engaged",
+				"skill": "Hand-to-Hand",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce 1",
-				"qualities": ["alities: Pierce 1
-"]
+				"range": "Engaged",
+				"qualities": ["Pierce 1"]
 			},
 			{
 				"name": "Talons", 
@@ -5305,7 +5270,6 @@ Xivilai are highly intelligent Daedra that look like tall and muscular gray-skin
 			"Search": 2,
 			"Vigilance": 2
 		},
-		"abilities": [
 			{
 				"name": "Skills: Athletics 3(Str), Acrobatics 2(Agi), Charm 4(Pers), Conjuration 4(Int), Cool 4 (Will), Deception 4(Pers), Destruction 4(Will), Intimidate 4 (Str), Illusion 4(Pers), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)", 
 				"description": "ills: Athletics 3(Str), Acrobatics 2(Agi), Charm 4(Pers), Conjuration 4(Int), Cool 4 (Will), Deception 4(Pers), Destruction 4(Will), Intimidate 4 (Str), Illusion 4(Pers), Resilience 2 (End), Search 2(Will), Vigilance 2(Will)"
@@ -5333,11 +5297,11 @@ Xivilai are highly intelligent Daedra that look like tall and muscular gray-skin
 		"weapons": [
 			{
 				"name": "Burning Claws ",
-				"skill": "Agi) (YYYG) Range: Engaged",
+				"skill": "One-Handed",
 				"damage": 7,
 				"critical": 3,
-				"range": "Qualities: Pierce ",
-				"qualities": ["alities: Pierce 3"]
+				"range": "Engaged",
+				"qualities": ["Pierce 3","Vicious 2","+6 Fire Damage"]
 			},
 			{
 				"name": "Burning Claws", 

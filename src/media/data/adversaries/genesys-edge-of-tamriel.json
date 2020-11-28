@@ -18,15 +18,15 @@
 			"defence": [3, 3]
 		},
 		"skills": {
-            "Athletics": 2,
+            "Athletics (Strength)": 2,
 			"Acrobatics": 2,
-			"Charm": 2,
-			"Deception": 2,
+			"Charm (Personality)": 2,
+			"Deception (Personality)": 2,
 			"Destruction": 2,
 			"Illusion": 2,
 			"Intimidate": 2,
-			"One-Handed": 2,
-			"Two-Handed": 2,
+			"One-Handed (Agility)": 2,
+			"Two-Handed (Strength)": 2,
 			"Search": 1,
 			"Vigilance": 1
 		},

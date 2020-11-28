@@ -320,16 +320,43 @@
 		"type": "Knowledge"
 	},
 	
-	
-	
-	
 	{
 		"name": "Acrobatics",
-		"characteristic": "Agililty",
+		"characteristic": "Agility",
 		"type": "General"
 	},
 	{
-		"name": "Intimidate",
+		"name": "Athletics (Strength)",
+		"characteristic": "Strength",
+		"type": "General"
+	},
+	{
+		"name": "Enchant",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Engineering",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Handle Animal",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Rumours",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Resilience (Endurance)",
+		"characteristic": "Endurance",
+		"type": "General"
+	},
+	{
+		"name": "Smithing",
 		"characteristic": "Strength",
 		"type": "General"
 	},
@@ -339,14 +366,67 @@
 		"type": "General"
 	},
 	{
-		"name": "One-Handed",
+		"name": "Sneak",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Security",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Block",
+		"characteristic": "Endurance",
+		"type": "Combat"
+	},
+	{
+		"name": "Hand-to-Hand (Strength)",
+		"characteristic": "Strength",
+		"type": "Combat"
+	},
+	{
+		"name": "Hand-to-Hand (Agility)",
+		"characteristic": "Agility",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Marksman",
 		"characteristic": "Agility",
 		"type": "Combat"
 	},
 	{
-		"name": "Two-Handed",
+		"name": "One-Handed (Strength)",
 		"characteristic": "Strength",
 		"type": "Combat"
+	},
+	{
+		"name": "One-Handed (Agility)",
+		"characteristic": "Agility",
+		"type": "Combat",
+		"hidden": true
+	},
+	{
+		"name": "Two-Handed (Strength)",
+		"characteristic": "Strength",
+		"type": "Combat"
+	},
+	{
+		"name": "Two-Handed (Agility)",
+		"characteristic": "Agility",
+		"type": "Combat",
+		"hidden": true
+	},	
+	{
+		"name": "Alteration",
+		"characteristic": "Intellect",
+		"type": "Magic"
+	},
+	{
+		"name": "Conjuration",
+		"characteristic": "Intellect",
+		"type": "Magic"
 	},
 	{
 		"name": "Destruction",
@@ -357,5 +437,55 @@
 		"name": "Illusion",
 		"characteristic": "Personality",
 		"type": "Magic"
+	},
+	{
+		"name": "Mysticism",
+		"characteristic": "Personality",
+		"type": "Magic"
+	},
+	{
+		"name": "Necromancy",
+		"characteristic": "Intellect",
+		"type": "Magic"
+	},
+	{
+		"name": "Restoration",
+		"characteristic": "Willpower",
+		"type": "Magic"
+	},
+	{
+		"name": "Intimidate",
+		"characteristic": "Strength",
+		"type": "General"
+	},
+	{
+		"name": "Charm (Personality)",
+		"characteristic": "Personality",
+		"type": "General"
+	},
+	{
+		"name": "Deception (Personality)",
+		"characteristic": "Personality",
+		"type": "General"
+	},
+	{
+		"name": "Leadership (Personality)",
+		"characteristic": "Personality",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Divines",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: History",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: All",
+		"characteristic": "Daedra",
+		"type": "Knowledge"
 	}
 ]
