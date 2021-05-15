@@ -88,7 +88,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Auto-fire", "Burn 4"]
+				"qualities": ["Auto-Fire", "Burn 4"]
 			}
 		],
 		"gear": [ "Several enchanted trinkets"],
@@ -410,7 +410,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			}
 		],
 		"gear": ["Fatigues: +1 soak"],

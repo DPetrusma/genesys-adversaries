@@ -1189,7 +1189,8 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 2 additional wounds."]
+				"qualities": ["Pierce 3"]
+				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -1959,7 +1960,7 @@
 				"damage": 8,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Defensive 1","Pierce 1","Auto-fire"]
+				"qualities": ["Defensive 1","Pierce 1","Auto-Fire"]
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -2088,7 +2089,7 @@
 				"damage": 6,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Auto-fire","Burn 2","Sunder"]
+				"qualities": ["Auto-Fire","Burn 2","Sunder"]
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -2984,7 +2985,7 @@
 				"damage": 4,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Ensnare 4","Auto-fire"]
+				"qualities": ["Ensnare 4","Auto-Fire"]
 			},
 			{
 				"name": "Bite",
@@ -3031,16 +3032,14 @@
 				"skill": "Brawl",
 				"damage": 4,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": [""]
+				"range": "Engaged"
 			},
 			{
 				"name": "Antenna Strike",
 				"skill": "Brawl",
 				"damage": 2,
 				"critical": 6,
-				"range": "Engaged",
-				"qualities": [""]
+				"range": "Engaged"
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -3078,7 +3077,8 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3","may spend :advantage::advantage: to inflict 3 strain.",""]
+				"qualities": ["Pierce 3"],
+				"note": "May spend :advantage::advantage: to inflict 3 strain."
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -3115,8 +3115,7 @@
 				"skill": "Brawl",
 				"damage": 5,
 				"critical": 4,
-				"range": "Engaged",
-				"qualities": [""]
+				"range": "Engaged"
 			},
 			{
 				"name": "Poisonous Stinger",
@@ -3171,7 +3170,15 @@
 				"damage": 4,
 				"critical": 4,
 				"range": "Short",
-				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
+				"qualities": ["Burn 2","Pierce 3"],
+			{
+				"name": "Webbing",
+				"skill": "Ranged",
+				"damage": 1,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 3"]
+			}
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -3261,7 +3268,15 @@
 				"damage": 6,
 				"critical": 3,
 				"range": "Short",
-				"qualities": ["Burn 2","Pierce 3 or webbing (Ranged"]
+				"qualities": ["Burn 2","Pierce 3"]
+			},
+			{
+				"name": "Webbing",
+				"skill": "Ranged",
+				"damage": 2,
+				"critical": 6,
+				"range": "Short",
+				"qualities": ["Ensnare 3"]
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -4414,7 +4429,7 @@
 				"damage": 0,
 				"critical": 6,
 				"range": "Short",
-				"qualities": ["Ensnare 4","Disorient 4. Limited Ammo 1"]
+				"qualities": ["Ensnare 4","Disorient 4", "Limited Ammo 1"]
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Humanoid", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -4894,7 +4909,7 @@
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
 	},
 	{
-		"name": "Skeleton",
+		"name": "Skeleton (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "The most common form of undead, animated skeletons are found in crypts, tombs, dungeons, and anywhere that necromancers are active. They are silent, tenacious, and dangerous in large numbers.",
@@ -4922,16 +4937,14 @@
 				"skill": "Melee",
 				"damage": 5,
 				"critical": 3,
-				"range": "Engaged",
-				"qualities": [""]
+				"range": "Engaged"
 			},
 			{
 				"name": "Worn bow",
 				"skill": "Ranged",
 				"damage": 6,
 				"critical": 3,
-				"range": "Medium",
-				"qualities": [""]
+				"range": "Medium"
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
@@ -4963,8 +4976,14 @@
 		"abilities": [
 			"Death Sight", 
 			"Undead", 
-			{"name": "Enervating Curse", "description": "A skeleton mage may make a :hard: Arcana check against a target, if successful, the target reduces its Ability for all checks by one until the end of its next turn. In addition, if the target suffers strain for any reason, they suffer 1 additional strain"}, 
-			{"name": "Ghostly Barrier", "description": "A skeleton mage is surrounded by a misty barrier that increases Defense by one and adds +1 Soak"}],
+			{
+				"name": "Spells: Enervating Curse",
+				"description": "A skeleton mage may make a :hard: Arcana check against a target, if successful, the target reduces its Ability for all checks by one until the end of its next turn. In addition, if the target suffers strain for any reason, they suffer 1 additional strain"
+			}, 
+			{
+				"name": "Spells: Ghostly Barrier",
+				"description": "A skeleton mage is surrounded by a misty barrier that increases Defense by one and adds +1 Soak"}
+			],
 		"weapons": [
 			{
 				"name": "Ice Spear",
@@ -4980,7 +4999,16 @@
 				"damage": 7,
 				"critical": 2,
 				"range": "Medium",
-				"qualities": ["Blast 3","Ensnare 3 Staff (+4 to magic attacks"]
+				"qualities": ["Blast 3","Ensnare 3"]
+			},
+			{
+				"name": "Staff",
+				"skill": "Melee: Heavy",
+				"damage": 4,
+				"critical": 4,
+				"range": "Engaged",
+				"qualities": ["Defensive 1"],
+				"notes": "+4 damage to magic attack spells"
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Undead", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
