@@ -49,7 +49,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Cumbersome 2","Versatile","Pierce 3","Vicious 2","Burn"]
+				"qualities": ["Cumbersome 2","Pierce 3","Vicious 2","Burn"]
 			}
 		],
 		"gear": ["Gilded Daedric Cuirass: Soak +4, 3/3 Defense, 5 Encumbrance"],
