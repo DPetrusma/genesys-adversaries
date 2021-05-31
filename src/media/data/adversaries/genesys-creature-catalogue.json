@@ -97,7 +97,7 @@
 				"qualities": ["Inaccurate 1", "Knockdown"]
 			}
 		],
-		"tags": ["Beast", "Auroch", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Beast", "Auroch", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Zombie",
@@ -174,7 +174,7 @@
 				"qualities": ["Breach 1", "Knockdown", "Special"]
 			}
 		],
-		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:6", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Wight",
@@ -220,7 +220,7 @@
 			}
 		],
 		"gear": ["Ancient Platemail (+1 Defense, +2 Soak)"],
-		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Corporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:5", "Social CR:0", "General CR:4"]
 	},
 	{
 		"name": "Will O'Wisp",
@@ -269,7 +269,7 @@
 				"qualities": ["Stun 4", "Vicious 1"]
 			}
 		],
-		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Incorporeal Undead", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:5"]
 	},
 	{
 		"name": "Vampire, Dracul",
@@ -338,7 +338,7 @@
 				"qualities": ["Accurate 1", "Defensive 1"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:10", "Social CR:5", "General CR:6"]
 	},
 	{
 		"name": "Vampire, Orlok",
@@ -401,7 +401,7 @@
 				"qualities": ["Pierce 3", "Vicious 3"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:7", "Social CR:3", "General CR:7"]
 	},
 	{
 		"name": "Vampire Spawn",
@@ -441,7 +441,7 @@
 				"qualities": ["Ensnare 2", "Vicious 1"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Spectre",
@@ -473,7 +473,7 @@
 				"qualities": ["Breach 1", "Special"]
 			}
 		],
-		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Vampire", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:4", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Mummy Lord",
@@ -533,7 +533,7 @@
 			}
 		],
 		"gear": ["Pharaoh's Crown (Implement; when the mummy lord casts the Conjure spell to summon an ally, adding the Summon Ally effect does not increase its difficulty. In addition, the creature(s) remain summoned until the end of the encounter without the mummy lord having to use the concentrate maneuver)", "Pharaoh's Crook (Implement; functions as a magical staff)"],
-		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Undead", "Mummy", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "setting:Monsterworld", "Combat CR:10", "Social CR:2", "General CR:6"]
 	},
 	{
 		"name": "Bugbear",
