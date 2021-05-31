@@ -566,7 +566,7 @@
 			}
 		],
 		"gear": ["Oiled chainmail (+2 soak, no stealth penalty)"],
-		"tags": ["Humanoid", "Goblinoid", "Bugbear", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["Humanoid", "Goblinoid", "Bugbear", "source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Ancient Wurm",
@@ -620,10 +620,10 @@
 				"qualities": ["Blast 10", "Concussive 1", "Stun Damage", "Slow-Firing 3"]
 			}
 		],
-		"tags": ["Monster", "Wurm", "source:Creature Catalogue", "Homebrew", "Combat CR:12", "Social CR:8", "General CR:8", "setting:Fantasy"]
+		"tags": ["Monster", "Wurm", "source:Creature Catalogue", "Homebrew", "Combat CR:13", "Social CR:3", "General CR:2", "setting:Fantasy"]
 	},
 		{
-		"name": "Bear",
+		"name": "Bear (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile can be used to represent any large bear, like a grizzly or polar bear (add cold immunity for polar bears).",
@@ -664,7 +664,7 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Camel",
@@ -703,7 +703,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Crocodile",
@@ -741,7 +741,7 @@
 				"qualities": ["Ensnare 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Elk",
@@ -786,10 +786,10 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
-		"name": "Horse",
+		"name": "Horse (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "This profile represents a typical work or riding horse.",
@@ -821,7 +821,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Rhinoceros",
@@ -865,7 +865,7 @@
 				"qualities": ["Knockdown","Disorient 3","Inaccurate 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Riding Elephant",
@@ -912,7 +912,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Tiger",
@@ -961,10 +961,10 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
-		"name": "Warhorse",
+		"name": "Warhorse (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Rival",
 		"description": "Bred and trained for military use, a warhorse is a powerful asset to any fighting force, and a reliable companion to a soldier or knight.",
@@ -996,7 +996,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wolf",
@@ -1076,7 +1076,7 @@
 				"qualities": ["Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 		{
 		"name": "Lost Souls",
@@ -1110,7 +1110,7 @@
 				"qualities": [""]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Lesser Demon",
@@ -1153,7 +1153,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Hell Bat Swarm",
@@ -1193,7 +1193,7 @@
 				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:3", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Barbakul Demon",
@@ -1242,7 +1242,7 @@
 				"qualities": ["Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:8", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Narcarex Demon",
@@ -1270,10 +1270,12 @@
 			"Ranged": 3,
 			"Vigilance": 2
 		},
-		"abilities": ["Flyer", 
-			"Demonic", 
-			{"name": "Hellfire Aura", "description": "A creature that begins its turn in Engaged range with a narcarex suffers 2 wounds from the demon's blazing aura"}, 
-			"Multiattack"],
+		"abilities": ["Flyer", "Demonic", "Multiattack",
+			{
+				"name": "Hellfire Aura",
+				"description": "A creature that begins its turn in Engaged range with a Narcarex suffers 2 wounds from the demon's blazing aura"
+			}
+			],
 		"weapons": [
 			{
 				"name": "Demonic Trident",
@@ -1300,7 +1302,7 @@
 				"qualities": ["Burn 2","Blast 6"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:9", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Antenoran Demon",
@@ -1328,11 +1330,15 @@
 			"Melee: Heavy": 3,
 			"Resilience": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Demonic", 
-			"Iceborn", 
-			{"name": "Icy Barrier", "description": "An antenoran may spend a Story Point to summon a barrier of ice within Short range to separate its enemies, or to enclose them. This can take the form of a wall up to 60 feet long, 10 feet high, and a foot thick, or a hemispherical dome 20 feet in height. The wall can be breached with a :daunting: Athletics check, or by dealing 10 or more points of damage in a single attack. The barrier is unnaturally frigid: non-demonic creatures in Engaged range of the barrier, or enclosed within it, suffer 3 wounds per turn from the brutal cold"}, 
-			"Multiattack"],
+			"Iceborn", "Multiattack",
+			{
+				"name": "Icy Barrier",
+				"description": "An antenoran may spend a Story Point to summon a barrier of ice within Short range to separate its enemies, or to enclose them. This can take the form of a wall up to 60 feet long, 10 feet high, and a foot thick, or a hemispherical dome 20 feet in height. The wall can be breached with a :daunting: Athletics check, or by dealing 10 or more points of damage in a single attack. The barrier is unnaturally frigid: non-demonic creatures in Engaged range of the barrier, or enclosed within it, suffer 3 wounds per turn from the brutal cold"
+			}
+			],
 		"weapons": [
 			{
 				"name": "Frigid Polearm",
@@ -1351,7 +1357,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:9", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Brachyuru Demon",
@@ -1377,11 +1383,18 @@
 			"Cool": 2,
 			"Resilience": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Demonic", 
-			{"name": "Fearless", "description": "A brachyuru is immune to Coercion and fear from any source"}, 
+			{
+				"name": "Fearless",
+				"description": "A brachyuru is immune to Coercion and fear from any source"
+			}, 
 			"Magic Resistance 1", 
-			{"name": "Power Word: Stun", "description": "As a maneuver, a brachyuru may spend a Story Point to target an enemy in Short range with a blasphemous word of power. The target must succeed at a :hard: Discipline check or be staggered until the end of its next turn. If the target succeeds, it is immobilized instead. In either case, the target suffers 4 strain"}, 
+			{
+				"name": "Power Word: Stun",
+				"description": "As a maneuver, a brachyuru may spend a Story Point to target an enemy in Short range with a blasphemous word of power. The target must succeed at a :hard: Discipline check or be staggered until the end of its next turn. If the target succeeds, it is immobilized instead. In either case, the target suffers 4 strain"
+			}, 
 			"Improved Multiattack"],
 		"weapons": [
 			{
@@ -1409,7 +1422,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:11", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Gorgul Demon",
@@ -1436,14 +1449,31 @@
 			"Resilience": 4,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Demonic", 
 			"Magic Resistance 1", 
-			{"name": "Corpulent", "description": "If a gorgul suffers a Critical Injury, subtract -30 from the Critical Injury result"}, 
-			{"name": "Pest Control", "description": "A gorgul does not increase the difficulty of combat checks made against smaller targets"}, 
-			{"name": "Swallow Whole", "description": "If a gorgul Ensnares a target of Silhouette 2 or smaller with its claw attack, it may spend :advantage::advantage::advantage: or :triumph: to swallow the target. While swallowed, the target is immobilized and begins to suffocate, and suffers 4 wounds at the start of its turn each round until it escapes or is Incapacitated. A target Incapacitated this way is digested and unrecoverable. A target may be freed by dealing at least 5 wounds to the gorgul with a bladed or piercing weapon in a single attack, allowing the target to escape the demon’s belly. A gorgul’s belly will reseal itself at the start of its turn. A gorgul can swallow up to two Silhouette 2 creatures, 8 Silhouette 1 creatures, or any number of Silhouette 0 creatures at one time. Anyone seeing a friend or ally trapped within the belly of a gorgul must make an :average: Fear check as an out-of-turn incidental"}, 
-			{"name": "Giggle Fit", "description": "While a gorgul has one or more targets swallowed, it emits a hideous, high-pitched giggling sound. All non-demonic creatures within Medium range must make a :hard: Discipline check at the start of their turn as an incidental, or suffer 2 strain from the unnerving sound"}, 
-			{"name": "Ponderous", "description": "A gorgul can spend no more than one maneuver per turn to move"}],
+			{
+				"name": "Corpulent",
+				"description": "If a gorgul suffers a Critical Injury, subtract -30 from the Critical Injury result"
+			}, 
+			{
+				"name": "Pest Control",
+				"description": "A gorgul does not increase the difficulty of combat checks made against smaller targets"
+			}, 
+			{
+				"name": "Swallow Whole",
+				"description": "If a gorgul Ensnares a target of Silhouette 2 or smaller with its claw attack, it may spend :advantage::advantage::advantage: or :triumph: to swallow the target. While swallowed, the target is immobilized and begins to suffocate, and suffers 4 wounds at the start of its turn each round until it escapes or is Incapacitated. A target Incapacitated this way is digested and unrecoverable. A target may be freed by dealing at least 5 wounds to the gorgul with a bladed or piercing weapon in a single attack, allowing the target to escape the demon’s belly. A gorgul’s belly will reseal itself at the start of its turn. A gorgul can swallow up to two Silhouette 2 creatures, 8 Silhouette 1 creatures, or any number of Silhouette 0 creatures at one time. Anyone seeing a friend or ally trapped within the belly of a gorgul must make an :average: Fear check as an out-of-turn incidental"
+			}, 
+			{
+				"name": "Giggle Fit",
+				"description": "While a gorgul has one or more targets swallowed, it emits a hideous, high-pitched giggling sound. All non-demonic creatures within Medium range must make a :hard: Discipline check at the start of their turn as an incidental, or suffer 2 strain from the unnerving sound"
+			}, 
+			{
+				"name": "Ponderous",
+				"description": "A gorgul can spend no more than one maneuver per turn to move"
+			}
+		],
 		"weapons": [
 			{
 				"name": "Claws",
@@ -1454,7 +1484,7 @@
 				"qualities": ["Accurate 1","Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:7", "Social CR:2", "General CR:4"]
 	},
 	{
 		"name": "Malithar Demon",
@@ -1482,6 +1512,7 @@
 			"Melee: Light": 4,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Demonic", 
 			"Magic Resistance 1", 
@@ -1506,7 +1537,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Demon", "Infernal", "Combat CR:14", "Social CR:1", "General CR:4"]
 	},
 		{
 		"name": "Cyclops",
@@ -1535,6 +1566,7 @@
 			"Survival": 2,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 2"],
 		"abilities": ["Silhouette 3", 
 			"Devastating", 
 			"Terrifying 3"],
@@ -1545,10 +1577,10 @@
 				"damage": 12,
 				"critical": 2,
 				"range": "Short",
-				"qualities": ["Inaccurate 1","Knockdown","Prepare 1",""]
+				"qualities": ["Inaccurate 1","Knockdown","Prepare 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:10", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Hill Giant",
@@ -1575,6 +1607,7 @@
 			"Melee: Light": 2,
 			"Ranged": 1
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Destructive",
 			"Terrifying 3"],
