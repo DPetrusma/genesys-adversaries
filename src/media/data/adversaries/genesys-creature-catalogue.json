@@ -1629,7 +1629,7 @@
 				"qualities": ["Inaccurate 1","Blast 6","Concussive 1","Knockdown","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:6", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Fire Giant",
@@ -1656,10 +1656,17 @@
 			"Melee: Light": 3,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Destructive",
-			{"name": "Fireborn", "description": "A fire giant does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire"}, 
-			{"name": "Greatsword Sweep", "description": "On a successful Melee check, a fire giant can spend :advantage::advantage: per target to hit additional targets within Short range"}, 
+			{
+				"name": "Fireborn",
+				"description": "A fire giant does not suffer damage from natural heat or flame, and doubles its soak for purposes of reducing damage from magical fire"
+			}, 
+			{
+				"name": "Greatsword Sweep",
+				"description": "On a successful Melee check, a fire giant can spend :advantage::advantage: per target to hit additional targets within Short range"
+			}, 
 			"Terrifying 3"],
 		"weapons": [
 			{
@@ -1671,7 +1678,7 @@
 				"qualities": ["Defensive 2","Pierce 2","Unwieldy 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:11", "Social CR:2", "General CR:1"]
 	},
 	{
 		"name": "Frost Giant",
@@ -1700,10 +1707,14 @@
 			"Survival": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Destructive",
 			"Iceborn", 
-			{"name": "Berserk", "description": "A frost giant that suffers five or more wounds goes berserk, dealing +2 damage. If a frost giant suffers a Critical Injury, the bonus damage increases to +4 for the rest of the combat"}, 
+			{
+				"name": "Berserk",
+				"description": "A frost giant that suffers five or more wounds goes berserk, dealing +2 damage. If a frost giant suffers a Critical Injury, the bonus damage increases to +4 for the rest of the combat"
+			}, 
 			"Terrifying 3"],
 		"weapons": [
 			{
@@ -1715,7 +1726,7 @@
 				"qualities": ["Pierce 3","Vicious 2","Cumbersome 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:8", "Social CR:2", "General CR:2"]
 	},
 	{
 		"name": "Stone Giant",
@@ -1742,9 +1753,13 @@
 			"Ranged": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Devastating", 
-			{"name": "Stony Skin", "description": "If a stone giant suffers a Critical Injury, subtract -20 from the Critical Injury result"}, 
+			{
+				"name": "Stony Skin",
+				"description": "If a stone giant suffers a Critical Injury, subtract -20 from the Critical Injury result"
+			}, 
 			"Terrifying 3"],
 		"weapons": [
 			{
@@ -1764,7 +1779,7 @@
 				"qualities": ["Blast 10","Concussive 1","Knockdown","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Giant", "Combat CR:9", "Social CR:1", "General CR:1"]
 	},
 		{
 		"name": "Bone Golem",
