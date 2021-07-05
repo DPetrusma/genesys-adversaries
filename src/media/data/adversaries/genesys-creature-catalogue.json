@@ -1189,7 +1189,7 @@
 				"damage": 1,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Pierce 3"]
+				"qualities": ["Pierce 3"],
 				"notes": "May spend :advantage::advantage: to inflict 2 additional wounds."
 			}
 		],
@@ -2835,7 +2835,7 @@
 			"Perception": 2,
 			"Stealth": 3
 		},
-		"talents": ["Rapid Reaction 1"]
+		"talents": ["Rapid Reaction 1"],
 		"abilities": [
 			"Nightvision", 
 			{"name": "False Appearance", "description": "As an action, a mimic may perfectly imitate an inanimate object of silhouette 0 to 2. While it remains motionless, a mimic is indistinguishable from an ordinary object"}, 
@@ -3297,7 +3297,8 @@
 				"damage": 4,
 				"critical": 4,
 				"range": "Short",
-				"qualities": ["Burn 2","Pierce 3"],
+				"qualities": ["Burn 2","Pierce 3"]
+			},
 			{
 				"name": "Webbing",
 				"skill": "Ranged",
@@ -3305,7 +3306,6 @@
 				"critical": 6,
 				"range": "Short",
 				"qualities": ["Ensnare 3"]
-			}
 			}
 		],
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]

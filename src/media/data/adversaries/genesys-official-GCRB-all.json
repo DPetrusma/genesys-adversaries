@@ -213,7 +213,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Disorient 2,"Vicious 1"],
+				"qualities": ["Disorient 2","Vicious 1"],
 				"notes": "May choose either Disorient 2 or Vicious 1 when creating the adversary, but not both"
 			}
 		],
@@ -606,14 +606,14 @@
 				"range": "Long",
 				"qualities": ["Damage 4"]
 			},
-			
+			{
 				"name": "Bayonet",
 				"skill": "Melee",
 				"damage": 4,
 				"critical": 3,
 				"range": "Engaged",
 				"notes": "If attached to the end of a rifle, gains Defensive 1"
-			},
+			}
 		],
 		"gear": ["Armour Vest: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR:1", "General CR:1"]
