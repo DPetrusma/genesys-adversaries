@@ -691,7 +691,7 @@
 		},
 		"abilities": ["Silhouette 2", 
 			"Trained Mount 1", 
-			{"name": "Sand Walker", "description": "Remove 1 Setback from any checks made to traverse sandy or desert terrain"}, 
+			{"name": "Sand Walker", "description": "Remove :setback: from any checks made to traverse sandy or desert terrain"}, 
 			"Beast of Burden 5"],
 		"weapons": [
 			{
@@ -999,7 +999,7 @@
 		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
-		"name": "Wolf",
+		"name": "Wolf (Creature Catalogue)",
 		"source": { "owner": "Direach", "url": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/" },
 		"type": "Minion",
 		"description": "This profile can be used for many types of pack-hunting creatures.",
@@ -1029,7 +1029,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Beast", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Wooly Mammoth",
@@ -1181,7 +1181,7 @@
 			"Demonic", 
 			{"name": "Teeming Threat", "description": "As a maneuver, a swarm may engage all living targets within Short range, and take an attack action against each target"}, 
 			{"name": "Swarm", "description": "Halve the damage dealt to the swarm before applying soak, unless the weapon has the Blast or Burn quality [regardless of whether the quality is activated]"}, 
-			{"name": "Blinding Swarm", "description": "Enemies who are Engaged with a hell bat swarm suffer 2 Setback on all checks"}],
+			{"name": "Blinding Swarm", "description": "Enemies who are Engaged with a hell bat swarm suffer :setback::setback: on all checks"}],
 		"weapons": [
 			{
 				"name": "Piercing Bites",
@@ -1805,6 +1805,7 @@
 			"Ranged": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Construct", 
 			"Magic Resistance 1", 
@@ -1829,7 +1830,7 @@
 				"qualities": ["Pierce 1","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Brass Golem",
@@ -1854,6 +1855,7 @@
 			"Melee: Heavy": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Construct", 
 			"Magic Resistance 1", 
@@ -1870,7 +1872,7 @@
 				"qualities": ["Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Flesh Golem",
@@ -1896,11 +1898,12 @@
 			"Brawl": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Construct", 
 			"Magic Resistance 1", 
 			{"name": "Lightning Absorption", "description": "A flesh golem takes no damage for magical or non-magical fire. If attacked with lightning, resolve the attack as normal, but the flesh golem heals a number of wounds equal to the damage dealt"}, 
-			{"name": "Aversion to Fire", "description": "If a flesh golem is damaged by fire, it suffers 2 Setback on its next skill check"}, 
+			{"name": "Aversion to Fire", "description": "If a flesh golem is damaged by fire, it suffers :setback::setback: on its next skill check"}, 
 			{"name": "Berserk", "description": "A flesh that suffers five or more wounds goes berserk, dealing +2 damage. If a flesh golem suffers a Critical Injury, the bonus damage increases to +4 for the rest of the combat"}, 
 			{"name": "Fists of Fury", "description": "A flesh golem does not increase the difficulty of combined checks to attack with both fists"}],
 		"weapons": [
@@ -1913,7 +1916,7 @@
 				"qualities": ["Disorient 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Iron Golem",
@@ -1940,6 +1943,7 @@
 			"Ranged": 3,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Construct", 
 			{"name": "Greater Magic Resistance", "description": "An iron golem upgrades the difficulty of any magic skill check targeting it by two. Any offensive spell targeting an iron golem that generates :threat::threat::threat: or :despair: reflects back on the caster"}, 
@@ -1971,7 +1975,7 @@
 				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Stone Golem",
@@ -1996,6 +2000,7 @@
 			"Melee: Light": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Construct", 
 			"Magic Resistance 1", 
@@ -2011,7 +2016,7 @@
 				"qualities": ["Defensive 1","Pierce 1","Auto-Fire"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Construct", "Golem", "Combat CR:9", "Social CR:1", "General CR:1"]
 	},
 		{
 		"name": "Basilisk",
@@ -2039,7 +2044,7 @@
 		},
 		"abilities": [
 			"Nightvision", 
-			{"name": "Petrifying Gaze", "description": "As a maneuver, a basilisk can force a target within Medium range to meet its deadly gaze. The basilisk makes an opposed Perception vs. Discipline check. If the target has not yet acted this turn, downgrade the difficulty by one. If the check succeeds, the target is immobilized and disoriented until the end of its next turn, when it may make a :hard: Resilience check as an incidental. If it succeeds, the effect ends. If it fails, the target is turned to stone and indefinitely Incapacitated. This may be dispelled by an ally with a successful :hard: Arcana check, or the character may be restored by a successful :hard: Heal check (using Divine or Primal"}],
+			{"name": "Petrifying Gaze", "description": "As a maneuver, a basilisk can force a target within Medium range to meet its deadly gaze. The basilisk makes an opposed Perception vs. Discipline check. If the target has not yet acted this turn, downgrade the difficulty by one. If the check succeeds, the target is immobilized and disoriented until the end of its next turn, when it may make a :hard: Resilience check as an incidental. If it succeeds, the effect ends. If it fails, the target is turned to stone and indefinitely Incapacitated. This may be dispelled by an ally with a successful :hard: Arcana check, or the character may be restored by a successful :hard: Heal check (using Divine or Primal)"}],
 		"weapons": [
 			{
 				"name": "Bite",
@@ -2050,7 +2055,7 @@
 				"qualities": ["Pierce 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Bat, Giant",
@@ -2099,7 +2104,7 @@
 				"qualities": ["Pierce 2","Stun Damage","Stun 3","Slow-Firing 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:3", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Black Slime",
@@ -2124,6 +2129,7 @@
 			"Perception": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Abilities:", 
 			"Slime", 
 			{"name": "Amorphous", "description": "As an incidental, a black slime may increase or decrease its silhouette by 1"}, 
@@ -2140,7 +2146,7 @@
 				"qualities": ["Auto-Fire","Burn 2","Sunder"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Cave Fisher",
@@ -2191,7 +2197,7 @@
 				"qualities": ["Ensnare 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Chimera",
@@ -2245,7 +2251,7 @@
 				"qualities": ["Blast 6","Burn 2","Slow-Firing 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:5", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Coeurl",
@@ -2295,7 +2301,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:7", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Eagle, Giant",
@@ -2334,7 +2340,7 @@
 				"qualities": ["Linked 1","Pierce 2","Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:7", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Ettin",
@@ -2385,7 +2391,7 @@
 				"qualities": ["Pierce 2","Sunder"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Gargoyle",
@@ -2423,7 +2429,7 @@
 				"qualities": ["Pierce 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Griffon",
@@ -2479,7 +2485,7 @@
 				"qualities": ["Stun 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Griffon, Owl",
@@ -2509,6 +2515,7 @@
 			"Stealth": 3,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Nightvision", 
 			"Flyer", 
@@ -2540,7 +2547,7 @@
 				"qualities": ["Stun 3","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:7", "Social CR:1", "General CR:3"]
 	},
 	{
 		"name": "Hellhound",
@@ -2574,7 +2581,7 @@
 				"qualities": ["Vicious 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Hydra",
@@ -2602,14 +2609,38 @@
 			"Resilience": 2,
 			"Vigilance": 4
 		},
-		"abilities": ["Silhouette 4", 
-			{"name": "Amphibious", "description": "A hydra may remain submerged for up to one hour, and suffers no movement penalties in water"}, 
-			{"name": "Terrifying", "description": "At the start of the encounter, all of their opponents must make a :hard: fear check as an out-of-turn incidental. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy"}, 
-			{"name": "Colossal", "description": "If a hydra suffers a Critical Injury, subtract -20 from the Critical Injury result"}, 
-			{"name": "Pest Control", "description": "A hydra does not increase the difficulty of combat checks made against smaller targets"}, 
-			{"name": "Regeneration", "description": "A hydra regenerates 8 wounds at the end of its turn. If the hydra suffered damage from fire or acid since its last turn, reduce the regeneration to four wounds"}, 
-			{"name": "Many Heads", "description": "A hydra attacks with its many heads, biting any targets within reach. A hydra does not increase the difficulty of the combat check, to use auto-fire, and only requires :advantage: to activate auto-fire, but it cannot assign more than three hits to a single target each round. :triumph: is treated as :advantage::advantage: for the purposes of activating auto-fire"}, 
-			{"name": "Tail Sweep", "description": "Once per round, a hydra may spend :threat::threat::threat: or :despair: generated by an opponent's melee attack check to automatically hit the opponent with a tail sweep attack for base damage"}],
+		"talents": ["Adversary 2"],
+		"abilities": [
+			"Silhouette 4", 
+			{
+				"name": "Amphibious",
+				"description": "A hydra may remain submerged for up to one hour, and suffers no movement penalties in water"
+			}, 
+			{
+				"name": "Terrifying",
+				"description": "At the start of the encounter, all of their opponents must make a :hard: fear check as an out-of-turn incidental. If there are multiple sources of fear in the encounter, the opponents only make one fear check against the most terrifying enemy"
+				}, 
+			{
+				"name": "Colossal",
+				"description": "If a hydra suffers a Critical Injury, subtract -20 from the Critical Injury result"
+				}, 
+			{
+				"name": "Pest Control",
+				"description": "A hydra does not increase the difficulty of combat checks made against smaller targets"
+				}, 
+			{
+				"name": "Regeneration",
+				"description": "A hydra regenerates 8 wounds at the end of its turn. If the hydra suffered damage from fire or acid since its last turn, reduce the regeneration to 4 wounds"
+				}, 
+			{
+				"name": "Many Heads",
+				"description": "A hydra attacks with its many heads, biting any targets within reach. A hydra does not increase the difficulty of the combat check to use auto-fire, and only requires :advantage: to activate auto-fire, but it cannot assign more than three hits to a single target each round. :triumph: is treated as :advantage::advantage: for the purposes of activating auto-fire"
+				}, 
+			{
+				"name": "Tail Sweep",
+				"description": "Once per round, a hydra may spend :threat::threat::threat: or :despair: generated by an opponent's melee attack check to automatically hit the opponent with a tail sweep attack for base damage"
+			}
+		],
 		"weapons": [
 			{
 				"name": "Bite",
@@ -2617,7 +2648,7 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Short",
-				"qualities": [""]
+				"qualities": ["Auto-fire","Pierce 1","Vicious 2"]
 			},
 			{
 				"name": "Tail Sweep",
@@ -2625,10 +2656,10 @@
 				"damage": 10,
 				"critical": 4,
 				"range": "Short",
-				"qualities": [""]
+				"qualities": ["Concussive 1","Knockdown"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:14", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Landshark",
@@ -2655,6 +2686,7 @@
 			"Resilience": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Tremorsense", 
 			"Tunneling", 
@@ -2678,7 +2710,7 @@
 				"qualities": ["Blast 6","Concussive 1","Knockdown","Prepare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Landshark, Ancient",
@@ -2706,6 +2738,7 @@
 			"Resilience": 2,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Tremorsense", 
 			"Tunneling", 
@@ -2729,7 +2762,7 @@
 				"qualities": ["Blast 8","Concussive 1","Knockdown","Prepare 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:8", "Social CR:1", "General CR:2"]
 	},
 	{
 		"name": "Manticore",
@@ -2776,7 +2809,7 @@
 				"qualities": ["Slow-Firing 1","Pierce 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Age of Myths", "setting:Fantasy", "Monster", "Combat CR:6", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Mimic",
@@ -2802,9 +2835,10 @@
 			"Perception": 2,
 			"Stealth": 3
 		},
+		"talents": ["Rapid Reaction 1"]
 		"abilities": [
 			"Nightvision", 
-			{"name": "False Appearance", "description": "As an action, a mimic may perfectly imitate an inanimate object of silhouette 0-2. While it remains motionless, a mimic is indistinguishable from an ordinary object"}, 
+			{"name": "False Appearance", "description": "As an action, a mimic may perfectly imitate an inanimate object of silhouette 0 to 2. While it remains motionless, a mimic is indistinguishable from an ordinary object"}, 
 			{"name": "Adhesive", "description": "A mimic is highly adhesive. Increase the difficulty of any check to escape its Ensnare by 1"}],
 		"weapons": [
 			{
@@ -2824,7 +2858,7 @@
 				"qualities": ["Burn 1","Pierce 1"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:6", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Mind Slayer",
@@ -2857,14 +2891,34 @@
 			"Perception": 4,
 			"Stealth": 3
 		},
+		"talents": ["Adversary 2","Finesse"],
 		"abilities": [
 			"Nightvision",
-			{"name": "Magic Resistance", "description": "Increase the difficulty of any spell or magical effect targeting a mind slayer by one"}, 
-			{"name": "Psionic Awareness", "description": "A mind slayer is aware of any living, thinking creature within Medium range. Attempts by a living, thinking creature to hide from a mind slayer automatically fail"}, 
-			{"name": "Sacrifice Thrall", "description": "If a mind slayer is struck by an attack, it may spend 2 Setback to cause an unengaged, active thrall within Short range to suffer the attack instead"}, 
-			{"name": "Domination", "description": "As an action, a mind flayer may spend a Story Point to dominate a living, thinking target. This is an Arcana check opposed by the target's Discipline. If the target fails, the mind slayer may choose the target's next maneuver and action, but the target is disoriented"}, 
-			{"name": "Devour Brain", "description": "As an action, a mind slayer may use Devour Brain against an engaged target Ensnared by its tentacles, or staggered by its Mind Blast. A target incapacitated by this attack is killed, and its brain devoured by the mind slayer. When a mind slayer devours a brain, it heals 5 Wounds and recovers 10 Strain"}, 
-			{"name": "Mind Blast", "description": "As an action, a mind slayer may use Mind Blast. The mind slayer may target any number of living, thinking creatures within range. A target successfully hit by Mind Blast must make a :daunting: Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of the encounter. It may make another :daunting: Discipline check at the end of each of its turns to recover from the effect"}],
+			{
+				"name": "Magic Resistance",
+				"description": "Increase the difficulty of any spell or magical effect targeting a mind slayer by one"
+			}, 
+			{
+				"name": "Psionic Awareness",
+				"description": "A mind slayer is aware of any living, thinking creature within Medium range. Attempts by a living, thinking creature to hide from a mind slayer automatically fail"
+			}, 
+			{
+				"name": "Sacrifice Thrall",
+				"description": "If a mind slayer is struck by an attack, it may spend :threat::threat: to cause an unengaged, active thrall within Short range to suffer the attack instead"
+			}, 
+			{
+				"name": "Domination",
+				"description": "As an action, a mind flayer may spend a Story Point to dominate a living, thinking target. This is an Arcana check opposed by the target's Discipline. If the target fails, the mind slayer may choose the target's next maneuver and action, but the target is disoriented"
+			}, 
+			{
+				"name": "Devour Brain",
+				"description": "As an action, a mind slayer may use Devour Brain against an engaged target Ensnared by its tentacles, or staggered by its Mind Blast. A target incapacitated by this attack is killed, and its brain devoured by the mind slayer. When a mind slayer devours a brain, it heals 5 Wounds and recovers 10 Strain"
+			}, 
+			{
+				"name": "Mind Blast", 
+				"description": "As an action, a mind slayer may use Mind Blast. The mind slayer may target any number of living, thinking creatures within range. A target successfully hit by Mind Blast must make a :daunting: Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of the encounter. It may make another :daunting: Discipline check at the end of each of its turns to recover from the effect"
+			}
+		],
 		"weapons": [
 			{
 				"name": "Tentacles",
@@ -2891,7 +2945,7 @@
 				"qualities": ["Pierce 5","Vicious 5"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:8", "Social CR:6", "General CR:4"]
 	},
 	{
 		"name": "Owlbear",
@@ -2919,7 +2973,10 @@
 		},
 		"abilities": ["Silhouette 2", 
 			"Nightvision", 
-			{"name": "Berserker", "description": "When an owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"}, 
+			{
+				"name": "Berserker",
+				"description": "When an owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"
+			}, 
 			"Fearless", 
 			"Multiattack"],
 		"weapons": [
@@ -2940,7 +2997,7 @@
 				"qualities": ["Vicious 2"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:7", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Owlbear, Dire",
@@ -2968,9 +3025,13 @@
 			"Resilience": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Nightvision", 
-			{"name": "Berserker", "description": "When a dire owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"}, 
+			{
+				"name": "Berserker",
+				"description": "When a Dire Owlbear suffers one or more wounds, it deals +2 damage with all attacks. If it suffers a Critical Injury, it deals +4 damage with all attacks"
+			}, 
 			"Fearless", 
 			"Multiattack"],
 		"weapons": [
@@ -2991,7 +3052,7 @@
 				"qualities": ["Pierce 2","Vicious 3"]
 			}
 		],
-		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:TBD", "Social CR:TBD", "General CR:TBD"]
+		"tags": ["source:Creature Catalogue", "Homebrew", "setting:Fantasy", "Monster", "Combat CR:9", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Roper",
@@ -3019,13 +3080,31 @@
 			"Stealth": 3,
 			"Vigilance": 2
 		},
-		"abilities": ["Silhouette 2", 
+		"talents": ["Adversary 1"],
+		"abilities": [
+			"Silhouette 2", 
 			"Nightvision",
-			{"name": "Anchored", "description": "A roper is immune to forced movement and knockdown. It can anchor itself to a floor, wall, or ceiling. It cannot move from its location during an encounter"}, 
-			{"name": "Perfect Mimic", "description": "When a roper is inactive, it cannot be discerned from a normal cave formation"}, 
-			{"name": "Flailing Tendrils", "description": "A roper does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"}, 
-			{"name": "Tendrils", "description": "A roper may have six active tendrils at a time. A roper can't use the same tendril on more than one target at a time. A tendril can be escaped with a :hard: Athletics check, or severed by dealing 6 wounds to it [Soak 4]. Severing a tendril does not injure a roper. A roper can extrude a replacement tendril on its turn as a maneuver"}, 
-			{"name": "Reel", "description": "If a roper Ensnares a target with a tentacle, it may use a maneuver to drag the target to its jaws and make a free Bite attack"}],
+			{
+				"name": "Anchored",
+				"description": "A roper is immune to forced movement and knockdown. It can anchor itself to a floor, wall, or ceiling. It cannot move from its location during an encounter"
+			}, 
+			{
+				"name": "Perfect Mimic",
+				"description": "When a roper is inactive, it cannot be discerned from a normal cave formation"
+			}, 
+			{
+				"name": "Flailing Tendrils",
+				"description": "A roper does not increase the difficulty of its attacks to activate auto-fire, and its initial target does not need to be the target with the highest difficulty and defense"
+			}, 
+			{
+				"name": "Tendrils",
+				"description": "A roper may have six active tendrils at a time. A roper can't use the same tendril on more than one target at a time. A tendril can be escaped with a :hard: Athletics check, or severed by dealing 6 wounds to it [Soak 4]. Severing a tendril does not injure a roper. A roper can extrude a replacement tendril on its turn as a maneuver"
+			}, 
+			{
+				"name": "Reel",
+				"description": "If a roper Ensnares a target with a tentacle, it may use a maneuver to drag the target to its jaws and make a free Bite attack"
+			}
+		],
 		"weapons": [
 			{
 				"name": "Tendrils",
@@ -3072,7 +3151,7 @@
 		},
 		"abilities": [
 			{"name": "Scent Iron", "description": "A rust monster can determine the location and volume of any ferrous metal within Short range. It is attracted to quantity over quality"}, 
-			{"name": "Eyes on the Prize", "description": "A rust monster suffers no Setback for targeting specific items with its Antenna Strike"}, 
+			{"name": "Eyes on the Prize", "description": "A rust monster suffers no :setback: for targeting specific items with its Antenna Strike"}, 
 			{"name": "Rust Metal", "description": "Any ferrous metal item struck by a rust monster's Antenna Strike is immediately damage by one step. The rust monster can spend :advantage: to damage it an additional step. It can do this as many times as it has Advantage to do so, until the item is destroyed"}],
 		"weapons": [
 			{
@@ -3298,6 +3377,7 @@
 			"Stealth": 3,
 			"Vigilance ": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", "Wall Crawler", 
 			{"name": "Hatch Broodlings", "description": "A giant spider matriarch may spend a maneuver to hatch a clutch of its eggs, adding a spider broodling minion group to the encounter. The broodlings may act immediately"}, 
 			{"name": "Paralytic Venom", "description": "A target wounded by a giant spider matriarch's fangs must make a :hard: Resilience check or be staggered until the end of its next turn. The giant spider matriarch may expend :threat::threat: or :despair: to extend the duration of the paralysis by one round"}],
@@ -3427,6 +3507,7 @@
 			"Survival": 3,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 3", 
 			"Nightvision", 
 			{"name": "Sweep Attack", "description": "(on a successful Brawl check, a cave troll can spend :advantage::advantage: per target to hit additional targets engaged with the first target"}, 
@@ -3526,9 +3607,10 @@
 			"Resilience": 2,
 			"Stealth": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Tremorsense", 
-			{"name": "Confusing Gaze", "description": "As a maneuver, a tunnel hulk can force a target within Short range to meet its potent gaze. If the target has not yet acted during the encounter, it cannot avoid the tunnel hulk's gaze. The target must make a :hard: Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of its next turn. A tunnel hulk may use 2 Setback generated by the target to cause the target to see the closest ally as an enemy, whom it must attack when it can next act. A creature may avoid the tunnel hulk's gaze by tightly closing its eyes or averting its gaze. In either case, while avoiding the tunnel hulk's gaze, the creature is treated as if it is suffering the Blinded Critical Injury"}, 
+			{"name": "Confusing Gaze", "description": "As a maneuver, a tunnel hulk can force a target within Short range to meet its potent gaze. If the target has not yet acted during the encounter, it cannot avoid the tunnel hulk's gaze. The target must make a :hard: Discipline check. If it succeeds, the target is disoriented until the end of its next turn. If it fails, the target is staggered until the end of its next turn. A tunnel hulk may use :threat::threat: generated by the target to cause the target to see the closest ally as an enemy, whom it must attack when it can next act. A creature may avoid the tunnel hulk's gaze by tightly closing its eyes or averting its gaze. In either case, while avoiding the tunnel hulk's gaze, the creature is treated as if it is suffering the Blinded Critical Injury"}, 
 			"Multiattack"],
 		"weapons": [
 			{
@@ -3687,6 +3769,7 @@
 			"Skulduggery": 2,
 			"Stealth": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Ambusher",
 			{"name": "Brutal Opportunist", "description": "A bugbear chief gains 1 Boost on its attack roll and +1 damage when it attacks a target that has not yet acted in the turn"}, 
@@ -3724,7 +3807,7 @@
 		"skills": ["Coordination","Melee: Light","Survival"],
 		"abilities": [
 			{"name": "Amphibious", "description": "A Boglok may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}, 
-			{"name": "Poisoned Weapons", "description": "If a boglok wounds a target, the target must immediately make a :hard: Resilence check. Failure means the target is immobilized for one round, plus one round per Setback generated. :despair: on a successful or failed check means the target is staggered for one round"}],
+			{"name": "Poisoned Weapons", "description": "If a boglok wounds a target, the target must immediately make a :hard: Resilence check. Failure means the target is immobilized for one round, plus one round per :threat: generated. :despair: on a successful or failed check means the target is staggered for one round"}],
 		"weapons": [
 			{
 				"name": "Spear",
@@ -3763,7 +3846,7 @@
 		"abilities": [
 			{"name": "Amphibious", "description": "A Boglok boss may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}, 
 			"Pack Instincts", 
-			{"name": "Poisoned Weapons", "description": "If a boglok boss wounds a target, the target must immediately make a :hard: Resilence check. Failure means the target is immobilized for one round, plus one round per Setback generated. :despair: on a successful or failed check means the target is staggered for one round"}],
+			{"name": "Poisoned Weapons", "description": "If a boglok boss wounds a target, the target must immediately make a :hard: Resilence check. Failure means the target is immobilized for one round, plus one round per :threat: generated. :despair: on a successful or failed check means the target is staggered for one round"}],
 		"weapons": [
 			{
 				"name": "Spear",
@@ -3841,6 +3924,7 @@
 			"Perception": 2,
 			"Survival": 1
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Darkvision", 
 			"Rampage",
@@ -3941,7 +4025,7 @@
 		},
 		"abilities": ["Silhouette 0", 
 			{"name": "Discretion", "description": "A goblin boss may disengage as an incidental rather than a maneuver"}, 
-			{"name": "Die For Me!", "description": "If struck by an attack, a goblin boss may spend 2 Setback to cause an unengaged goblin within Short range to be hit by the attack instead"}],
+			{"name": "Die For Me!", "description": "If struck by an attack, a goblin boss may spend :threat::threat: to cause an unengaged goblin within Short range to be hit by the attack instead"}],
 		"weapons": [
 			{
 				"name": "Spear",
@@ -4095,7 +4179,7 @@
 			},
             {
                 "name": "Spells: Bad Luck",
-                "description": "Choose a target at short or medium range and make a :hard: Divine check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the kobold shamans’s next turn, and when the target makes a check, may change one Setback die to a face displaying Failure. The kobold shaman may maintain these effects by performing the concentrate maneuver."
+                "description": "Choose a target at short or medium range and make a :hard: Divine check. If successful, the target decreases the ability of any skill checks they make by 1 until the end of the kobold shamans’s next turn, and when the target makes a check, may change one :setback: die to a face displaying Failure. The kobold shaman may maintain these effects by performing the concentrate maneuver."
 			},
             {
                 "name": "Spells: Restore the Pack",
@@ -4206,6 +4290,7 @@
 			"Stealth": 2,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": ["Silhouette 2", 
 			"Pack Instincts", 
 			{"name": "Leader of the Pack", "description": "A greater kobold is immune to fear or Coercion"}],
@@ -4256,6 +4341,7 @@
 			"defence": [2,1]
 		},
 		"skills": ["Athletics","Melee: Light","Ranged","Stealth","Survival"],
+		"talents": ["Adversary 1"],
 		"abilities": [
 			{"name": "Amphibious", "description": "A Tae Ew Sauran may hold its breath underwater for an hour, and never suffers movement penalties for moving through water"}],
 		"weapons": [
@@ -4508,6 +4594,7 @@
 			"Ranged": 1,
 			"Stealth": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Amphibious", 
 			{"name": "Blood in the Water", "description": "A sea devil myrmidon gains +2 damage against any target that has suffered one or more Wounds"}, 
@@ -4606,6 +4693,7 @@
 			"Stealth": 1,
 			"Survival": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Nightvision", 
 			{"name": "Nauseating Stench", "description": "Any character that begins their turn engaged with a troglodyte berserker must make a :hard: Resilence check. On a success, they are disoriented for one round. On a failure, they are staggered for one round. A :triumph: on this check means they do not have to make the check again during this encounter"}, 
@@ -4749,6 +4837,7 @@
 			"Ranged": 2,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 2"],
 		"abilities": ["Silhouette 4", 
 			"Death Sight", 
 			"Undead", 
@@ -4930,6 +5019,7 @@
 			"Ranged": 2,
 			"Vigilance": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Death Sight", 
 			"Undead", 
@@ -4978,7 +5068,7 @@
 		"abilities": [
 			"Death Sight", 
 			"Undead", 
-			{"name": "Undying", "description": "May spend 3 Setback from any check made by a PC to return one previously defeated skeleton to an existing minion group, removing damage from the group accordingly. Spend :despair: to return two skeletons to a minion group"}],
+			{"name": "Undying", "description": "May spend :threat::threat::threat: from any check made by a PC to return one previously defeated skeleton to an existing minion group, removing damage from the group accordingly. Spend :despair: to return two skeletons to a minion group"}],
 		"weapons": [
 			{
 				"name": "Rusted blade",
@@ -5021,6 +5111,7 @@
 			"Knowledge: Lore": 3,
 			"Perception": 2
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Death Sight", 
 			"Undead", 
@@ -5086,6 +5177,7 @@
 			"Resilience": 2,
 			"Vigilance": 3
 		},
+		"talents": ["Adversary 1"],
 		"abilities": [
 			"Death Sight", 
 			"Undead", 
@@ -5214,7 +5306,7 @@
             },
             {
                 "name": "Eye Blast 04: Slowing Ray",
-                "description": "The target takes no damage, but must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, on its next turn the target may only use one maneuver, cannot downgrade its action to a maneuver, and cannot change range bands. The target also suffers three Setback on any actions it takes."
+                "description": "The target takes no damage, but must make a :daunting: Resilence check as an out-of-turn incidental. If it fails, on its next turn the target may only use one maneuver, cannot downgrade its action to a maneuver, and cannot change range bands. The target also suffers :setback::setback::setback: on any actions it takes."
             },
             {
                 "name": "Eye Blast 05: Enervation Ray",
