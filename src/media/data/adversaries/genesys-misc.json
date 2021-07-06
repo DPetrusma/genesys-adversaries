@@ -30,7 +30,7 @@
 				"range": "Engaged"
 			}
 		],
-		"tags": ["Lemurian", "source:AngryGM", "homebrew"]
+		"tags": ["Lemurian", "source:AngryGM", "Homebrew", "setting:Fantasy", "Combat CR:1", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Lemurian Behemoth",
@@ -85,7 +85,7 @@
                 "qualities": ["Pierce 1"]
 			}
 		],
-		"tags": ["Lemurian", "source:AngryGM", "homebrew"]
+		"tags": ["Lemurian", "source:AngryGM", "Homebrew", "setting:Fantasy", "Combat CR:4", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Bodak",
@@ -137,6 +137,6 @@
                 "qualities": ["Breach 1","Stun 3"]
 			}
 		],
-		"tags": ["Undead", "source:Dipicacyx", "homebrew","setting:Fantasy"]
+		"tags": ["Undead", "source:Dipicacyx", "Homebrew", "setting:Fantasy", "Combat CR:7", "Social CR:1", "General CR:3"]
 	}
 ]

@@ -249,7 +249,8 @@
 				"damage": 9,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Knockdown","a lance can only be used while mounted and can only be used to attack immediately after performing a maneuver to engage the target."]
+				"qualities": ["Knockdown"],
+				"notes": "A lance can only be used while mounted and can only be used to attack immediately after performing a maneuver to engage the target."
 			},
 			{
 				"name": "Large Shield",
@@ -483,7 +484,7 @@
 				"damage": 4,
 				"critical": 4,
 				"range": "Short",
-				"qualities": ["Auto-fire","Ensnare 3"]
+				"qualities": ["Auto-Fire","Ensnare 3"]
 			},
 			{
 				"name": "Snapping jaws",
@@ -1638,7 +1639,11 @@
 		},
 		"talents": ["Swift"],
 		"abilities": [
-			{"name": "Tail Catapult", "description": "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown"}],
+			{
+				"name": "Tail Catapult",
+				"description": "When engaged with a Gurak Tol that the Orc outrider is bonded with, the Orc outrider may use the steed to perform a Ranged attack with the following profile: Ranged; Damage 8; Critical 4; Range (Medium); Concussive 1, Inaccurate 1, Knockdown"
+			}
+		],
 		"weapons": [
 			{
 				"name": "Claws and Fangs",
@@ -2674,7 +2679,8 @@
 				"skill": "Ranged",
 				"damage": 7,
 				"critical": 3,
-				"range": "Accurate 1, Limited Ammo 1"
+				"range": "Short",
+				"qualities": ["Accurate 1", "Limited Ammo 1"]
 				},
 			{
 				"name": "Axe",
@@ -3013,12 +3019,13 @@
 			{"name": "Pounce", "description": "May spend :advantage::advantage: from an initiative check to perform a free maneuver before the first round of combat."}],
 		"weapons": [
 			{
-				"name": "Spear",
+				"name": "Spear (melee)",
 				"skill": "Melee: Light",
 				"damage": 6,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Accurate 1 or Ranged"]
+				"qualities": ["Accurate 1"],
+				"notes": "Can be thrown up to Short range, with an otherwise identical profile"
 			},
 			{
 				"name": "Claws and Teeth",
@@ -3246,7 +3253,7 @@
 			{"name": "Elemental Mastery", "description": "The first effect that a storm sorceress adds to a spell does not increase the difficulty of the Arcana check."}, 
 			"Spells (Arcana)",
 			{"name": "Spells: Blizzard", "description": "The storm sorceress chooses a target within long range and makes a :daunting: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success: with the Blast 4, Disorient 4, Ensnare 4, and Knockdown qualities."}, 
-			{"name": "Spells: Stormbolt", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Auto-fire and Stun 4 qualities."}, 
+			{"name": "Spells: Stormbolt", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:, with the Auto-Fire and Stun 4 qualities."}, 
 			{"name": "Spells: Squall", "description": "The storm sorceress chooses a target within medium range and makes an :easy: Arcana check. If the check is successful, this magic attack inflicts 8 damage +1 damage per :success:. The storm sorceress may spend :advantage: on the check to move the target or a character engaged with the target up to one range band in any direction."}],
 		"weapons": [
 		],

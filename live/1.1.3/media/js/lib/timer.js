@@ -1,0 +1,1 @@
+"use strict";System.register([],function(_export,_context){"use strict";var throttle;return{setters:[],execute:function(){_export("throttle",throttle=function throttle(callback){var t=null;return function(value){if(t!=null){window.clearTimeout(t)}t=window.setTimeout(function(){callback(value)},250)}});_export("throttle",throttle)}}});

@@ -58,7 +58,7 @@
 		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:5", "Social CR:1", "General CR:2"]
 	},
 	{
-		"name": "Skeleton",
+		"name": "Skeleton (Official)",
 		"type": "Minion",
 		"characteristics": {
 			"Brawn": 2,
@@ -83,14 +83,14 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Engaged"
-				},
+			},
 			{
 				"name": "Old Bow",
 				"skill": "Ranged",
 				"damage": 6,
 				"critical": 3,
 				"range": "Medium"
-				}
+			}
 		],
 		"gear": [],
 		"tags": ["source:GCRB", "Official", "setting:Fantasy", "Combat CR:2", "Social CR:1", "General CR:1"]
@@ -213,7 +213,8 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Disorient 2 or Vicious 1"]
+				"qualities": ["Disorient 2","Vicious 1"],
+				"notes": "May choose either Disorient 2 or Vicious 1 when creating the adversary, but not both"
 			}
 		],
 		"gear": [],
@@ -312,7 +313,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Engaged"
-				}
+			}
 		],
 		"gear": ["Armored Uniform: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Steampunk", "Combat CR:5", "Social CR:2", "General CR:2"]
@@ -353,7 +354,15 @@
 				"damage": 6,
 				"critical": 2,
 				"range": "Engaged",
-				"qualities": ["Pierce 2","Vicious 3","laser pistol Ranged: Light"]
+				"qualities": ["Pierce 2","Vicious 3"]
+			},
+			{
+				"name": "Laser Pistol",
+				"skill": "Ranged (Light)",
+				"damage": 5,
+				"critical": 3,
+				"range": "Medium",
+				"qualities": ["Pierce 2"]
 			}
 		],
 		"gear": ["Heavy Sealed Armor: +2 soak.","Platinum-Weave Cloak.","Crimson banner of glorious conquest, sniveling servant to carry banner of glorious conquest"],
@@ -513,7 +522,8 @@
 				"damage": 8,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Knockdown","may spend :advantage::advantage: to knock all other characters engaged with the target prone."]
+				"qualities": ["Knockdown"],
+				"notes": "May spend :advantage::advantage: to knock all other characters engaged with the target prone."
 			},
 			{
 				"name": "Vicious Maw",
@@ -593,11 +603,19 @@
 				"skill": "Ranged: Heavy",
 				"damage": 8,
 				"critical": 3,
-				"range": "Long, bayonet Melee",
+				"range": "Long",
 				"qualities": ["Damage 4"]
+			},
+			{
+				"name": "Bayonet",
+				"skill": "Melee",
+				"damage": 4,
+				"critical": 3,
+				"range": "Engaged",
+				"notes": "If attached to the end of a rifle, gains Defensive 1"
 			}
 		],
-		"gear": ["Armor Vest: +1 soak"],
+		"gear": ["Armour Vest: +1 soak"],
 		"tags": ["source:GCRB", "Official", "setting:Weird War", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{

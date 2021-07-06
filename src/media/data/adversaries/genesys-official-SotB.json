@@ -191,7 +191,7 @@
 		"talents": ["Adversary 2","Grenadier"],
 		"abilities": [
 			"Mechanical", 
-			{"name": "Enhanced Auto-Bracing", "description": "Using the Auto-fire quality does not increase the difficulty of combat checks; each time the Ares triggers and additional hit, it suffers 1 strain."}],
+			{"name": "Enhanced Auto-Bracing", "description": "Using the Auto-Fire quality does not increase the difficulty of combat checks; each time the Ares triggers and additional hit, it suffers 1 strain."}],
 		"weapons": [
 			{
 				"name": "Integrated Rotary Cannon",
@@ -199,7 +199,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			},
 			{
 				"name": "Integrated Heavy Gauss Rifle",
@@ -528,7 +528,7 @@
 				"damage": 4,
 				"critical": 2,
 				"range": "Medium",
-				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+				"qualities": ["Auto-Fire","Pierce 2","Vicious 2"]
 			}
 		],
 		"gear": [],
@@ -669,7 +669,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			}
 		],
 		"gear": ["Skulljack, fake IDs.","Portable Rig with Femme Fatale (SotB p. 137) and Corroder (SotB p. 136)-protected by Shinobi (SotB p. 135)"],
@@ -899,8 +899,9 @@
 				"skill": "Ranged: Light",
 				"damage": 7,
 				"critical": 3,
-				"range": "Medium, Inaccurate 1, Limited Ammo 4"
-				}
+				"range": "Medium",
+				"qualities": ["Inaccurate 1","Limited Ammo 4"]
+			}
 		],
 		"gear": ["Backpack full of supplies, medical kit, rope, flashlight"],
 		"tags": ["source:SotB", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:2", "General CR:4"]
@@ -1279,7 +1280,7 @@
 				"damage": 12,
 				"critical": 4,
 				"range": "Engaged",
-				"qualities": ["Ensare","Sunder"]
+				"qualities": ["Ensare 1","Sunder"]
 			}
 		],
 		"gear": [],
@@ -1480,7 +1481,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			},
 			{
 				"name": "Micro-missile pod",
@@ -1904,7 +1905,7 @@
 				"damage": 5,
 				"critical": 3,
 				"range": "Ranged Medium",
-				"qualities": ["Auto-fire","Pierce 2"]
+				"qualities": ["Auto-Fire","Pierce 2"]
 			},
 			{
 				"name": "Machete",
@@ -2076,7 +2077,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Accurate 1","Auto-fire"]
+				"qualities": ["Accurate 1","Auto-Fire"]
 			},
 			{
 				"name": "2 Monofilament Grenades",
@@ -2332,7 +2333,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Medium",
-				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
+				"notes": "As an incidental may choose to apply one of the following qualities before making an attack: Blast 4, Pierce 2, Stun Damage"
 			}
 		],
 		"gear": ["2 snap locks, pocket flask, NAPD PAD"],
@@ -2403,7 +2404,7 @@
 				"damage": 5,
 				"critical": 4,
 				"range": "Medium",
-				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 4","Pierce 2","Stun Damage"]
+				"notes": "As an incidental may choose to apply one of the following qualities before making an attack: Blast 4, Pierce 2, Stun Damage"
 			},
 			{
 				"name": "Stun Baton",
@@ -2501,7 +2502,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Short",
-				"notes": ["as an incidental may choose to apply one of the following qualities before making an attack: Blast 5, Knockdown, Stun Damage , Vicious 2"]
+				"notes": "As an incidental may choose to apply one of the following qualities before making an attack: Blast 5, Knockdown, Stun Damage, Vicious 2"
 			},
 			{
 				"name": "Backup Fletcher Pistol",
@@ -2836,7 +2837,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			}
 		],
 		"gear": ["Plasteel carapace: 1 defense, +2 soak"],
@@ -2932,7 +2933,7 @@
 				"damage": 7,
 				"critical": 3,
 				"range": "Medium",
-				"qualities": ["Accurate 1","Auto-fire"]
+				"qualities": ["Accurate 1","Auto-Fire"]
 			},
 			{
 				"name": "Suit-mounted Micro-missle",
@@ -3079,7 +3080,7 @@
 				"damage": 8,
 				"critical": 3,
 				"range": "Long",
-				"qualities": ["Auto-fire"]
+				"qualities": ["Auto-Fire"]
 			},
 			{
 				"name": "Fletcher Pistol",
@@ -3288,7 +3289,7 @@
 				"damage": 3,
 				"critical": 2,
 				"range": "Medium",
-				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+				"qualities": ["Auto-Fire","Pierce 2","Vicious 2"]
 			},
 			{
 				"name": "Micro-waterknife",
@@ -3915,7 +3916,7 @@
 				"damage": 3,
 				"critical": 2,
 				"range": "Medium",
-				"qualities": ["Auto-fire","Pierce 2","Vicious 2"]
+				"qualities": ["Auto-Fire","Pierce 2","Vicious 2"]
 			}
 		],
 		"gear": ["Powered Wingsuit: +1 soak, can fly; see the Flying sidebar on page 100 of the Genesys Core Rulebook.","Climbing gear, flashlight"],

@@ -756,7 +756,7 @@
 				"damage": 4,
 				"critical": 2,
 				"range": "Short",
-				"qualities": ["Accurate 1","Lnked 2"]
+				"qualities": ["Accurate 1","Linked 2"]
 			}
 		],
 		"gear": ["Stealth emitter-lined camo-clothing: 1 defense, +2 soak","Magnavistor","Dimensional satchel (SotC page 153) filled with all sorts of interesting things."],
@@ -2277,7 +2277,7 @@
 				"damage": 10,
 				"critical": 3,
 				"range": "Engaged",
-				"qualities": ["Cumbersom 4","Pierce 3"]
+				"qualities": ["Cumbersome 4","Pierce 3"]
 			}
 		],
 		"gear": ["Handmade armor: +2 soak","Performing implements (horn, spices, paints, etc.)"],
