@@ -25,23 +25,23 @@ console.log(`\nBuilding version: ${VERSION}.\n`);
 let isDev = true;
 const TARGET = {
 	src: function(p) {
-		return path.join("../src", p);
+		return "../src/" + p;
 	},
 	dest: function(p) {
 		let target = isDev ? "../dev" : "../live";
 
 		if(p != "" && p != "**") {
-			target = path.join(target, VERSION);
+			target = target + "/" + VERSION;
 		}
 
-		return path.join(target, p);
+		return target + "/" + p;
 	},
 	module: function(p) {
-		return TARGET.root(path.join("node_modules", p));
-	},
+		return "node_modules/" + p;
+	}/*,
 	root: function(p) {
-		return path.join(__dirname, p);
-	}
+		return __dirname + "/" + p;
+	}*/
 };
 
 
@@ -69,8 +69,7 @@ gulp.task("sass", () => {
 gulp.task("transpile-js", () => {
 	return gulp.src(TARGET.src("media/js/**/*.*"))
 		.pipe(babel({
-			presets: [TARGET.module("babel-preset-es2015"), TARGET.module("babel-preset-react")],
-			plugins: [TARGET.module("babel-plugin-transform-es2015-modules-systemjs")],
+			presets: ["@babel/preset-env", "@babel/preset-react"],
 			minified: !isDev
 		}))
 		.pipe(gulp.dest(TARGET.dest("media/js")));
@@ -78,7 +77,7 @@ gulp.task("transpile-js", () => {
 
 // merge folders of json data into a single file
 gulp.task("merge-data", () => {
-	let mapped = ["adversaries", "qualities", "talents"].map(function(m) {
+	let mapped = ["adversaries", "qualities", "talents", "vehicles"].map(function(m) {
 		return gulp.src(TARGET.src("media/data/" + m + "/*.json")).pipe(combine(m + ".json", function(data, metaData) {
 			// add the file the adversary is in in dev mode only
 			if(isDev && m == "adversaries") {
@@ -140,19 +139,21 @@ gulp.task("merge-data", () => {
 gulp.task("copy-vendor", () => {
 	let modules = [
 		TARGET.module("systemjs/dist/system.js"),
-		TARGET.module("babel-polyfill/dist/polyfill.js"),
+		TARGET.module("@babel/polyfill/dist/polyfill.js"),
 		TARGET.module("react/umd/react.production.min.js"),
 		TARGET.module("react-dom/umd/react-dom.production.min.js"),
-		TARGET.module("remarkable/dist/remarkable.min.js")
+		TARGET.module("remarkable/dist/remarkable.min.js"),
+		TARGET.module("prop-types/prop-types.min.js"),
+		TARGET.module("react-dropzone/dist/index.js")
 	];
 
 	return gulp.src(modules).pipe(gulp.dest(TARGET.dest("media/js/vendor")));
 });
 
 
-gulp.task("copy-data", ["merge-data"], () => {
+gulp.task("copy-data", gulp.series("merge-data", () => {
 	return gulp.src(TARGET.src("media/data/*.json")).pipe(gulp.dest(TARGET.dest("media/data")));
-});
+}));
 
 // copy static html files and font files
 gulp.task("copy-static", () => {
@@ -170,29 +171,35 @@ gulp.task("copy-font", () => {
 	return gulp.src(TARGET.src("media/fonts/**")).pipe(gulp.dest(TARGET.dest("media/fonts")));
 });
 
-gulp.task("live", () => {
+gulp.task("copy-icon", () => {
+	return gulp.src(TARGET.src("favicon.ico")).pipe(gulp.dest(TARGET.dest("")));
+});
+
+gulp.task("live", (done) => {
 	console.log("Running in LIVE context");
 	isDev = false;
+	done();
 });
 
 // for completeness, dev is the default
-gulp.task("dev", () => {
+gulp.task("dev", (done) => {
 	console.log("Running in DEV context");
 	isDev = true;
+	done();
 });
 
 // build everyting, dev or live should've been run first but dev is the default
-gulp.task("build", ["transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "sass"]);
+gulp.task("build", gulp.series("transpile-js", "copy-vendor", "copy-data", "copy-static", "copy-font", "copy-icon", "sass", (done) => done()));
 
-gulp.task("watch", ["dev"], () => {
-	gulp.watch(TARGET.src("/index.html"), ["copy-static"]);
-	gulp.watch(TARGET.src("/media/sass/**"), ["sass"]);
-	gulp.watch(TARGET.src("/media/data/**"), ["copy-data"]);
-	gulp.watch(TARGET.src("/media/js/**"), ["transpile-js"]);
-});
+gulp.task("watch", gulp.series("dev", () => {
+	gulp.watch(TARGET.src("index.html"), gulp.series("copy-static"));
+	gulp.watch(TARGET.src("media/sass/**"), gulp.series("sass"));
+	gulp.watch(TARGET.src("media/data/**"), gulp.series("copy-data"));
+	gulp.watch(TARGET.src("media/js/**"), gulp.series("transpile-js"));
+}));
 
 // deploy everything to an Amazon S3 bucket
-gulp.task("deploy", ["live"], () => {
+gulp.task("deploy", gulp.series("live", () => {
 	const LAST_VERSION_PATH = path.join(__dirname, "LAST_VERSION");
 	const LAST_VERSION = fs.existsSync(LAST_VERSION_PATH) ? fs.readFileSync(LAST_VERSION_PATH, "utf8") : "1.0.0";
 
@@ -214,4 +221,4 @@ gulp.task("deploy", ["live"], () => {
 		.pipe(s3(aws, {
 			gzippedOnly: true
 		}));
-});
+}));

@@ -6,13 +6,14 @@ import dispatcher from "lib/dispatcher";
 import Tab from "lib/tab";
 import CharacterView from "components/character-view";
 import CharacterEdit from "components/character-edit";
+import PanelImport from "components/panel-import";
 import LinkList from "components/link-list";
-import { Filter } from "components/input/filter";
+import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
 import * as Store from "lib/local-store";
-import { sortByProperty, findByProperty, unique } from "lib/list";
+import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
 
 
@@ -29,15 +30,16 @@ class App extends React.Component {
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
-			editMode: false,
-			editAdversary: null
+			mode: CONFIG.MODE_NORMAL,
+			editAdversary: null,
+			canExport: Store.local.has(CONFIG.ADVERSARY_STORE) ? Store.local.get(CONFIG.ADVERSARY_STORE).length > 0 : false
 		};
 		this.events = {};
 		this.stores = {};
 		this.loadedTotal = 0;
 
-		["skills", "adversaries", "weapons", "talents", "qualities"].forEach(key => {
-			this.stores[key] = new DataStore(`/${ENV_VERSION}/media/data/${key}.json`);
+		["skills", "adversaries", "vehicles", "weapons", "talents", "qualities"].forEach(key => {
+			this.stores[key] = new DataStore(`${ENV_VERSION}/media/data/${key}.json`);
 			this.stores[key].load(() => this.loadedTotal++);
 		});
 	}
@@ -49,11 +51,11 @@ class App extends React.Component {
 
 			// load up stored adversaries and either replace them or add them
 			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
-			let ids = stored.map(a => a.id);
+			let ids = pluck(stored, "id");
 
 			adversaries = adversaries.filter(a => ids.indexOf(a.id) == -1);
 
-			stored.filter(a => a.id).forEach(a => adversaries.push(a));
+			stored.forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
 			let tags = ["minion", "rival", "nemesis", "apex nemesis"];
@@ -105,7 +107,7 @@ class App extends React.Component {
 
 			// load up stored skills and either replace them or add them
 			let stored = Store.local.get(CONFIG.SKILL_STORE) || [];
-			let names = stored.map(a => a.name);
+			let names = pluck(stored, "name");
 
 			skills = skills.filter(a => names.indexOf(a.name) == -1);
 
@@ -123,7 +125,7 @@ class App extends React.Component {
 
 		// view object from menu
 		dispatcher.register(CONFIG.OBJECT_VIEW, id => {
-			this.setState({ menuOpen: false });
+			this.setState({ menuOpen: false, mode: CONFIG.MODE_NORMAL });
 			this.selectAdversary(this.stores.adversaries.findBy("id", id));
 		});
 
@@ -139,25 +141,10 @@ class App extends React.Component {
 
 		// remove the tab specified by the index
 		dispatcher.register(CONFIG.TAB_REMOVE, index => {
-			if(index < 0 || this.state.selected.length <= 1) {
-				return;
-			}
-
-			let selectedIndex = this.state.selectedIndex;
-			let selected = this.state.selected;
-
-			selected.splice(index, 1);
-
-			if(this.state.selectedIndex > this.state.selected.length - 1) {
-				--selectedIndex;
-			}
-
-			this.setState({
-				selected: selected,
-				selectedIndex: selectedIndex
-			});
+			this.removeTab(index);
 		});
 
+		// update a property of a tab
 		let updateTab = property => {
 			return (index, text) => {
 				if(index < 0 || index >= this.state.selected.length) {
@@ -238,30 +225,29 @@ class App extends React.Component {
 
 		// add, edit, and delete custom adversaries
 		dispatcher.register(CONFIG.ADVERSARY_ADD, () => {
-			this.setState({ editMode: true, editAdversary: {} });
+			this.setState({ mode: CONFIG.MODE_EDIT, editAdversary: {} });
 		});
+		// TODO currently, if you've copied an adversary it's ID gets a "my-" prefix
+		// TODO this means copying the same adversary AGAIN, just edits your existing adversary so you can only have one copy ever
 		dispatcher.register(CONFIG.ADVERSARY_COPY, id => {
 			// make a clone of the character for editing purposes
 			let adversary = this.stores.adversaries.findBy("id", id);
 
-			this.setState({ editMode: true, editAdversary: adversary });
+			this.setState({ mode: CONFIG.MODE_EDIT, editAdversary: adversary });
 		});
 		dispatcher.register(CONFIG.ADVERSARY_CANCEL, () => {
 			this.setState({
-				editMode: false,
+				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null
 			});
 		});
 		dispatcher.register(CONFIG.ADVERSARY_SAVE, adversary => {
-			let tags = this.state.tags;
+			// store the modified date
+			adversary.modified = Date.now();
 
 			// add a tag to indicate that it's user defined
 			if(adversary.tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
 				adversary.tags.push(CONFIG.ADVERSARY_TAG);
-
-				if(tags.indexOf(CONFIG.ADVERSARY_TAG) == -1) {
-					tags.push(CONFIG.ADVERSARY_TAG);
-				}
 			}
 
 			// add the adversary's type as a tag
@@ -295,14 +281,19 @@ class App extends React.Component {
 			this.stores.adversaries.data = adversaries;
 
 			this.setState({
-				editMode: false,
+				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: tags
+				tags: this.updateTags(),
+				canExport: true
 			});
 
+			// refilter the list so this adversary will be added (if it should be) then select it
+			this.filter(this.state.filter);
 			this.selectAdversary(adversary);
 		});
 		dispatcher.register(CONFIG.ADVERSARY_DELETE, id => {
+			// TODO if the deleted item is the only item in the list
+			// then it's still displayed
 			this.stores.adversaries.data = this.stores.adversaries.filter(f => f.id != id);
 
 			// remove from local store
@@ -312,29 +303,39 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.ADVERSARY_STORE, stored);
 
-			// remove from filtered navigation list
-			let list = this.state.list.filter(f => f.id != id);
+			// remove any tabs with the deleted character in and add a new one if necessary
+			// reset the selected index, if it's greater than the tab length
+			// remove the character from the filtered list, if it's there
+			let filter = this.state.filter;
+			let list = this.state.list.filter(a => a.id != id);
+			let selectedIndex = this.state.selectedIndex;
+			let tabs = this.state.selected.filter(t => t.character.id != id);
 
 			if(list.length === 0) {
-				// empty list so remove the filter
+				// reset filter
 				list = this.stores.adversaries.all();
-
-				// TODO this should be managed in App and passed as a prop to Filter
-				dispatcher.dispatch(CONFIG.MENU_FILTER, "");
+				filter = "";
 			}
 
-			// update tags in case there are no more characters with the ADVERSARY_TAG tag
-			let tags = unique(this.stores.adversaries.map(a => a.tags).flat());
+			// no tabs open so add a new one
+			if(tabs.length == 0) {
+				selectedIndex = 0;
+				tabs.push(new Tab(list[0]));
+			}
+			else if(selectedIndex >= tabs.length) {
+				selectedIndex = tabs.length - 1;
+			}
 
 			this.setState({
-				editMode: false,
-				editAdversary: null,
-				selected: this.state.selected,
+				filter: filter,
 				list: list,
-				tags: tags
+				selectedIndex: selectedIndex,
+				selected: tabs,
+				mode: CONFIG.MODE_NORMAL,
+				editAdversary: null,
+				tags: this.updateTags(),
+				canExport: stored.length > 0
 			});
-
-			this.selectAdversary(list[0]);
 		});
 
 		// add customm skills
@@ -351,6 +352,90 @@ class App extends React.Component {
 
 			Store.local.set(CONFIG.SKILL_STORE, stored);
 		});
+
+		// export data
+		dispatcher.register(CONFIG.EXPORT, () => {
+			let stored = Store.local.get(CONFIG.ADVERSARY_STORE) || [];
+
+			if(stored && stored.length) {
+				// add a modified timestamp if one doesn't exist
+				stored = stored.map(s => ({ modified: Date.now(), ...s }));
+
+				let url = URL.createObjectURL(new Blob([JSON.stringify(stored)], { type: CONFIG.JSON_MIMETYPE }));
+				let link = document.createElement("a");
+
+				link.setAttribute("href", url);
+				link.setAttribute("download", "swa-data.json");
+				link.click();
+			}
+		});
+
+		// open import screen
+		dispatcher.register(CONFIG.IMPORT, () => {
+			this.setState({
+				mode: CONFIG.MODE_IMPORT
+			});
+		});
+
+		// close import screen and cancel importing data
+		dispatcher.register(CONFIG.IMPORT_CLOSE, () => {
+			this.setState({
+				mode: CONFIG.MODE_NORMAL
+			});
+		});
+
+		// the import screens handle adding and deleting from local storage
+		// so 
+		dispatcher.register(CONFIG.IMPORT_UPLOAD, newAdversaries => {
+			const newAdversaryIds = pluck(newAdversaries, "id");
+
+			// update the existing adversaries with the new ones, but remove anything which is already in the existing adversaries
+			this.stores.adversaries.data = [...this.stores.adversaries.data.filter(f => newAdversaryIds.indexOf(f.id) == -1), ...newAdversaries];
+
+			// go through all of the tabs and reset any characters on them
+			// this is because we may have a situation where a merge conflict was fixed by overwriting the old
+			// custom character with a new one, which means it will have the same ID
+			this.state.selected.forEach((tab, index) => {
+				const newAdversary = this.stores.adversaries.findBy("id", tab.character.id);
+
+				if(newAdversary) {
+					tab.character = newAdversary;
+					tab.tabName = newAdversary.name;
+				}
+			});
+
+			this.setState({
+				selected: this.state.selected,
+				tags: this.updateTags()
+			});
+
+			// refilter the current list
+			this.filter(this.state.filter);
+		});
+	}
+
+	removeTab(index) {
+		if(index < 0 || this.state.selected.length <= 1) {
+			return;
+		}
+
+		let selectedIndex = this.state.selectedIndex;
+		let selected = this.state.selected;
+
+		selected.splice(index, 1);
+
+		if(this.state.selectedIndex > this.state.selected.length - 1) {
+			--selectedIndex;
+		}
+
+		this.setState({
+			selected: selected,
+			selectedIndex: selectedIndex
+		});
+	}
+
+	updateTags() {
+		return unique(pluck(this.stores.adversaries, "tags").flat());
 	}
 
 	toggleMenu() {
@@ -364,7 +449,7 @@ class App extends React.Component {
 	selectAdversary(adversary) {
 		let selected = this.state.selected;
 
-		selected[this.state.selectedIndex] = new Tab(adversary);
+		selected[this.state.selectedIndex] = new Tab(adversary || this.state.list[0]);
 
 		this.setState({ selected: selected });
 
@@ -394,6 +479,7 @@ class App extends React.Component {
 		this.setState({ list: adversaries, filter: text });
 
 		if(adversaries.length == 1) {
+			this.setState({ menuOpen: false });
 			this.selectAdversary(adversaries[0]);
 		}
 	}
@@ -414,13 +500,21 @@ class App extends React.Component {
 			</div>
 			: null;
 
+		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></span>;
+
 		let content = [<div>
-			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } visible={ index == this.state.selectedIndex } />)}
+			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } vehicles={ this.stores.vehicles } visible={ index == this.state.selectedIndex } />)}
 			<Tabs tabs={ this.state.selected } selectedIndex={ this.state.selectedIndex } />
 		</div>];
 
-		if(this.state.editMode) {
-			content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
+		// add modal overlays to the rendered components
+		switch(this.state.mode) {
+			case CONFIG.MODE_EDIT:
+				content.push(<div className="overlay"><CharacterEdit character={ this.state.editAdversary } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } tags={ this.state.tags } qualities={ this.stores.qualities } /></div>);
+				break;
+			case CONFIG.MODE_IMPORT:
+				content.push(<div className="overlay"><PanelImport /></div>);
+				break;
 		}
 
 		return <div>
@@ -429,11 +523,11 @@ class App extends React.Component {
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
 				<em>Genesys: Adversaries</em>
 			</div>
-			<TagMenu tags={ this.state.tags } />
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
+				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
 				<p><small>Showing { x } of { y }.</small></p>
-				<LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } />
+				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
 			<div id="content" className="column large">
 				{ !this.state.isLoaded

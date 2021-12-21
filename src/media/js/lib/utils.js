@@ -1,4 +1,7 @@
 
+import { findByProperty } from "./list"
+
+
 export const minionSkill = function(minions, skill, skills) {
 	let value = 0;
 	let skillsHash = {};
@@ -21,17 +24,28 @@ export const characteristics = ["Brawn", "Agility", "Intellect", "Cunning", "Wil
 
 
 // convert marked text into dice and return in a React dangerouslySetInnerHTML format
-export const dice = function dice(stat, skill) {
+export const dice = function dice(stat, skill, boost, setback) {
 	let total = Math.max(stat, skill);
 	let upgrade = Math.min(stat, skill);
 	let symbols = [];
 
+	// build dice pool
 	for(let j = 0; j < upgrade; ++j) {
 		symbols.push(diceMap["proficiency"]);
 	}
 
 	for(let j = upgrade; j < total; ++j) {
 		symbols.push(diceMap["ability"]);
+	}
+
+	// add boost
+	for(let j = 0; j < boost; ++j) {
+		symbols.push(diceMap["boost"]);
+	}
+
+	// add setback
+	for(let j = 0; j < setback; ++j) {
+		symbols.push(diceMap["setback"]);
 	}
 
 	return { __html: symbols.join("") };
@@ -93,6 +107,16 @@ export const diceMap = {
 
 	// upgraded daunting difficulties
 	"daunting-1": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-2": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"daunting-3": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"daunting-4": "<strong>Daunting</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)",
+
+	// upgraded formidable difficulties
+	"formidable-1": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-2": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-3": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span><span class='icon difficulty'></span>)",
+	"formidable-4": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon difficulty'></span>)",
+	"formidable-5": "<strong>Formidable</strong> (<span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span><span class='icon challenge'></span>)"
 };
 
 
@@ -125,6 +149,8 @@ let bookMap = {
 	"book:dor": "Dawn of Rebellion",
 	"book:rots": "Rise of the Separatists",
 	"book:aaa": "Allies and Adversaries",
+	"book:cotr": "Collapse of the Republic",
+	"book:gag": "Gadgets and Gear",
 
 	// career books
 	"book:dc": "Dangerous Covenants", // no stats
@@ -199,10 +225,62 @@ let sourceMap = {
 	"source:Creature Catalogue": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/"
 };
 
-export const getSourceLink = function(source) {
+export const getSourceLink = function getSourceLink(source) {
 	if(source in sourceMap) {
 		return `<a href="${sourceMap[source]}" target="_blank">${source.replace("source:", "")}</a>`;
 	}
 
 	return null;
+}
+
+
+// return true if the character is a pilot
+export const isPilot = function isPilot(character) {
+	return "tags" in character && character.tags.indexOf("pilot") != -1;
+}
+
+
+// convert a hash of characteristics to an array of name/values
+export const hashToArray = function hashToArray(hash) {
+	let array = [];
+
+	for(let i in hash) {
+		array.push({
+			"name": i,
+			"value": hash[i]
+		});
+	}
+
+	return array;
+}
+
+
+export const createQuality = function createQuality(qualities, name, rank) {
+	// strip any ranks from the quality name
+	let created = {
+		name: name.replace(/\s\d+$/, ""),
+		ranked: false
+	};
+
+	let quality = qualities.find(findByProperty("name", created.name));
+
+	// if the quality is ranked, mark it as so and apply any ranks to it
+	if(quality && quality.ranked) {
+		created.ranked = true;
+
+		// rank could be at the end of the name or it could be a separate argument
+		// the separate argument takes the priority
+		if(rank) {
+			created.rank = rank;
+		}
+		else {
+			let match = name.match(/\d+$/);
+
+			if(match) {
+				created.rank = match[0];
+			}
+		}
+	}
+
+	return created;
 }

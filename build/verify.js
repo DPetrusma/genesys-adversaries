@@ -1,9 +1,11 @@
+#!/usr/local/bin/node
 
 "use strict";
 
 const fs = require("fs"); 
 const path = require("path"); 
 
+const MINION = "Minion";
 
 // warn if multiple talents with the same key are found
 const addToHash = (talent, key) => {
@@ -55,7 +57,7 @@ require(path.join(BASE_PATH, "weapons.json")).forEach(w => weapons[w.name] = w);
 // load and merge all adversaries
 const FILES = fs.readdirSync(ADV_PATH);
 
-let adversaries = [], errors = 0;
+let adversaries = [], errors = 0, duplicateNames = {};
 
 FILES.forEach(f => {
 	let adv = require(path.join(ADV_PATH, f));
@@ -76,8 +78,41 @@ adversaries.forEach(a => {
 		console.log(`MISSING from: ${a.name} (${a.file}):`);
 		console.log("\t" + missing.join("\n\t"));
 
-		errors++;
+		++errors;
 	}
+
+	if(a.type === MINION && !Array.isArray(a.skills)) {
+		console.log(`MINION SKILL HASH: ${a.name} (${a.file})`);
+
+		++errors;
+	}
+	else if(a.type !== MINION && Array.isArray(a.skills)) {
+		console.log(`SKILL ARRAY (${a.type}): ${a.name} (${a.file})`);
+	}
+
+	if(!(a.name in duplicateNames)) {
+		duplicateNames[a.name] = {
+			count: 0,
+			files: []
+		};
+	}
+
+	++duplicateNames[a.name].count;
+	duplicateNames[a.name].files.push(a.file);
 });
+
+
+// check duplicate names
+Object.keys(duplicateNames).forEach(key => {
+	let item = duplicateNames[key];
+
+	if(item.count > 1) {
+		console.log(`DUPLICATES: ${key} (${item.count}):`);
+		console.log("\t" + item.files.join("\n\t"));
+
+		++errors;
+	}
+})
+
 
 console.warn(`Found ${errors} errors.`);

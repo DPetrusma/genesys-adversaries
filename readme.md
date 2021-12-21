@@ -39,7 +39,7 @@ For Windows:
 - Add C:\Program Files\nodejs\ to your path.
 - I needed to change some version for gulp saas. Open your package.json file and in that you will see gulp-saas in the dev dependencies. Change "gulp-sass": "^2.0.4" to "gulp-sass": "^3.1.0", run npm install
 - Switch to your build directory and run `npm install`.
-- Then run `npm install react@15.6.1`, and then `npm install react-dom@15.6.1`.
+- Then run `npm install react@16.12.0`, and then `npm install react-dom@16.12.0`.
 - To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
 - I had to copy react.min.js and react-dom.min.js from build/node_modules/react (or react-dom)/dist to the dev/[VERSION]/media/js/vendor folder, and rename to react.production.min.js and react-dom.production.min.js
 
@@ -51,6 +51,8 @@ For Windows:
 - Run `http-server ../dev -c-1 -p 8010` to start a local server on port 8010 with no caching. In your browser, navigate to http://localhost:8010
 - If you want to see changes reflected immediately, open a new Powershell/CMD window and run `gulp dev watch` in the build directory
 - Change any of the watched files (including the JSON data files) and refresh the browser to see the changes
+
+Alternatively, if you have python installed run `npm run server` from the build directory. This will start a web server using `python -m SimpleHTTPServer` with the ../dev directory as the root.
 
 ## Gulp
 
@@ -77,6 +79,8 @@ Main tasks:
 }
 
 ```
+
+This is only useful if you have your own AWS setup and are planning on hosting a copy yourself.
 
 ## Completed Adversaries
 
