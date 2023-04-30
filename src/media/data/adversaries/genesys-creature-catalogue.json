@@ -5025,7 +5025,7 @@
 			"Undead", 
 			{"name": "Magic Resistance", "description": "A reanimated hand upgrades the difficulty of any magic skill check targeting it by one"}, 
 			{"name": "Flying Punch", "description": "A reanimated hand may ball into a fist and launch itself at an enemy. If it hits, it becomes Engaged with that enemy as an incidental"}, 
-			{"name": "Death Grip", "description": "If a reanimated hand Ensnares a target with its Smack attack, it grips the target tightly and begins to squeeze, while ferociously biting at the same time. The target suffers 4 additional wounds, and is immobilized. The target suffers another 4 wounds each turn that the hand continues its Death Grip. Either the target (or an ally"}],
+			{"name": "Death Grip", "description": "If a reanimated hand Ensnares a target with its Smack attack, it grips the target tightly and begins to squeeze, while ferociously biting at the same time. The target suffers 4 additional wounds, and is immobilized. The target suffers another 4 wounds each turn that the hand continues its Death Grip. Either the target (or an ally) must succeed at an opposed Athletics check as an action on their turn to free the target from the hand. A reanimated hand cannot attack other targets while using its Death Grip, but may release its target as an incidental."}],
 		"weapons": [
 			{
 				"name": "Punch",
