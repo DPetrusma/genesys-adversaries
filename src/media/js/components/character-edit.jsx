@@ -8,6 +8,7 @@ import PanelTalentEdit from "./panel-talent-edit";
 import PanelWeaponEdit from "./panel-weapon-edit";
 import PanelCode from "./panel-code";
 import PanelSkillEdit from "./panel-skill-edit";
+import PanelTagsEdit from "./panel-tags-edit";
 
 import dispatcher from "lib/dispatcher";
 import * as CONFIG from "lib/config";
@@ -43,7 +44,16 @@ export default class CharacterEdit extends React.Component {
 		let editingCharacter = JSON.parse(JSON.stringify(Object.assign(baseCharacter, props.character)));
 
 		editingCharacter.derived.defence = editingCharacter.derived.defence || [0, 0];
-		editingCharacter.tags = []; // for now remove any tags as only "source:Mine" will be set
+
+		const excludeTags = [
+			CONFIG.ADVERSARY_TAG,
+			CONFIG.MINION.toLowerCase(),
+			CONFIG.RIVAL.toLowerCase(),
+			CONFIG.NEMESIS.toLowerCase(),
+		]
+
+		editingCharacter.tags = editingCharacter.tags.filter(tag => excludeTags.indexOf(tag) === -1) // remove adversary type tags and source:Mine
+
 		this.escapeFields.forEach(key => editingCharacter[key] = unescapeHTML(editingCharacter[key]));
 
 		this.state = {
@@ -51,6 +61,7 @@ export default class CharacterEdit extends React.Component {
 			editingWeapons: null,
 			editingTalents: null,
 			editingAbilities: null,
+			editingTags: null,
 			showAddSkill: false
 		};
 	}
@@ -92,6 +103,18 @@ export default class CharacterEdit extends React.Component {
 			let character = this.state.character;
 
 			character[attr1][attr2] = value;
+
+			this.setState({
+				character: character
+			});
+		}
+	}
+
+	setIntegerDerivedValue(attr1, attr2) {
+		return value => {
+			let character = this.state.character;
+
+			character[attr1][attr2] = parseInt(value);
 
 			this.setState({
 				character: character
@@ -286,7 +309,7 @@ export default class CharacterEdit extends React.Component {
 
 				<div className="edit-panel">
 					<h2>Characteristics</h2>
-					{ characteristics.map(c => <TextInput label={ c } value={ character.characteristics[c] } handler={ this.setDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
+					{ characteristics.map(c => <TextInput label={ c } value={ character.characteristics[c] } handler={ this.setIntegerDerivedValue("characteristics", c).bind(this) } required={ true } numeric={ true } />) }
 				</div>
 
 				<div className="edit-panel">
@@ -315,6 +338,9 @@ export default class CharacterEdit extends React.Component {
 				</PanelListEdit>
 				<PanelListEdit title="Abilities" list={ character.abilities } remove={ this.removeHandler("abilities").bind(this) } edit={ this.editHandler("abilities").bind(this) } onClose={ () => this.setState({ editingAbilities: null }) }>
 					<PanelTalentEdit list={ abilities } title="Ability" editing={ this.state.editingAbilities } handler={ this.addHandler("abilities").bind(this) } />
+				</PanelListEdit>
+				<PanelListEdit title="Tags" list={ character.tags } remove={ this.removeHandler("tags").bind(this) } edit={ this.editHandler("tags").bind(this) } onClose={ () => this.setState({ editingTags: null }) }>
+					<PanelTagsEdit list={ this.props.tags } title="Tag" editing={ this.state.editingTags } handler={ this.addHandler("tags").bind(this) } />
 				</PanelListEdit>
 
 				<div className="edit-panel gear">

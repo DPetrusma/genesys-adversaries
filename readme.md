@@ -35,13 +35,10 @@ In the build directory run `npm install`. Once everything has installed run any 
 For Windows:
 
 - Download npm from https://nodejs.org/en/download/.
-- I needed to downgrade node.js to 10.x
 - Add C:\Program Files\nodejs\ to your path.
-- I needed to change some version for gulp saas. Open your package.json file and in that you will see gulp-saas in the dev dependencies. Change "gulp-sass": "^2.0.4" to "gulp-sass": "^3.1.0", run npm install
 - Switch to your build directory and run `npm install`.
 - Then run `npm install react@16.12.0`, and then `npm install react-dom@16.12.0`.
 - To build from the build directory, run node_modules\.bin\gulp dev build, or node_modules\.bin\gulp live build.
-- I had to copy react.min.js and react-dom.min.js from build/node_modules/react (or react-dom)/dist to the dev/[VERSION]/media/js/vendor folder, and rename to react.production.min.js and react-dom.production.min.js
 
 ## Host Locally
 
@@ -108,17 +105,13 @@ This is only useful if you have your own AWS setup and are planning on hosting a
 
 ## TODO
 
-- Favicon
-- Get the source link updated
-- Make it clear somehow that the credit goes to Stoo Goff for the design - I want it obvious that it was "Built by Stoo Goff, nlx3647, and SkyJedi", not me
-- Maybe fiddle with some of the colours and icons to make them less SW and more Genesys
 - Make implements work better somehow?
 - Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
 - CC Dreadgazer to use opposed checks?
 - Spellchecks, capitilisation, and grammar
 - Young Ristie WT
 - Ruinous Repartee uses Presence x 2. How to implement that, similar to the ranks multiplier replacement?
-- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the 
+- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the difficulty
 - SotC Shadows Thief "set of customer stealth xxx: 2 defense" needs fixing
 - SotC Troubadour ability has strange text about triumph
 - SotC Æmberdrake: The fear check is upgraded twice. Show that somehow.

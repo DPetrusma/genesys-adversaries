@@ -127,58 +127,10 @@ export const book = function book(name) {
 
 let bookMap = {
 	// core books
-	"book:aor": "Age of Rebellion",
-	"book:eote": "Edge of the Empire",
-	"book:fad": "Force and Destiny",
-	
 	"book:GCRB": "Genesys Core Rulebook",
 	"book:EPG": "Expanded Player's Guide",
 	"book:RoT": "Realms of Terrinoth",
 	"book:SotB": "Shadow of the Beanstalk",
-
-	// beginner games
-	"book:aorbg": "Age of Rebellion: Beginner’s Game",
-	"book:eotebg": "Edge of the Empire: Beginner’s Game",
-	"book:tfabg": "The Force Awakens: Beginner’s Game",
-
-	// source books
-	"book:lonh": "Lords of Nal Hutta",
-	"book:sor": "Strongholds of Resistance",
-	"book:sof": "Suns of Fortune",
-	"book:nop": "Nexus of Power",
-	"book:dor": "Dawn of Rebellion",
-	"book:rots": "Rise of the Separatists",
-	"book:aaa": "Allies and Adversaries",
-	"book:cotr": "Collapse of the Republic",
-	"book:gag": "Gadgets and Gear",
-
-	// career books
-	"book:dc": "Dangerous Covenants", // no stats
-	"book:da": "Desparate Allies",
-	"book:doh": "Disciples of Harmony",
-	"book:ev": "Endless Vigil",
-	"book:fh": "Far Horizons",
-	"book:fc": "Fly Casual",          // no stats
-	"book:ktp": "Keeping the Peace",
-	"book:lbe": "Lead by Example",
-	"book:sm": "Special Modifications",
-	"book:sot": "Stay on Target",
-	"book:ss": "Savage Spirits",
-	"book:eto": "Enter the Unknown",
-	"book:kof": "Knights of Fate",
-	"book:fo": "Fully Operational",
-	"book:cam": "Cyphers and Masks",
-
-	// adventures
-	"book:oaa": "Onslaught at Arda I",
-	"book:cotgk": "Chronicles of the Gatekeeper",
-	"book:ragp": "Rescue at Glare Peak",
-	"book:uabs": "Under a Black Sun",
-	"book:flt": "Friends Like These",
-	"book:btr": "Beyond the Rim",
-	"book:motpq": "Mask of the Pirate Queen",
-	"book:joy": "Jewel of Yavin",
-	"book:god": "Ghosts of Dathomir"
 };
 
 
@@ -222,7 +174,7 @@ let sourceMap = {
 	"source:Never Tell Me the Odds": "http://www.starwarsrpgpodcast.com/",
 	"source:D20Radio.com": "http://www.d20radio.com/main/",
 	"source:Heroes on Both Sides": "https://drive.google.com/file/d/1kz3ZK_Pmxf6HneRCOwY_0lzwmk0GZL1N/view",
-	"source:Creature Catalogue": "https://community.fantasyflightgames.com/topic/265621-genesys-creature-catalogue-formerly-bestiary/"
+	"source:For Light and Life": "https://drive.google.com/file/d/1UqlPAo3cWwHKlTHV8lBIG8Wyk1BKTTRP/view?usp=sharing",
 };
 
 export const getSourceLink = function getSourceLink(source) {
