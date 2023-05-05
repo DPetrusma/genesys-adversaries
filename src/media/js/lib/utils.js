@@ -127,53 +127,10 @@ export const book = function book(name) {
 
 let bookMap = {
 	// core books
-	"book:aor": "Age of Rebellion",
-	"book:eote": "Edge of the Empire",
-	"book:fad": "Force and Destiny",
-
-	// beginner games
-	"book:aorbg": "Age of Rebellion: Beginner’s Game",
-	"book:eotebg": "Edge of the Empire: Beginner’s Game",
-	"book:tfabg": "The Force Awakens: Beginner’s Game",
-
-	// source books
-	"book:lonh": "Lords of Nal Hutta",
-	"book:sor": "Strongholds of Resistance",
-	"book:sof": "Suns of Fortune",
-	"book:nop": "Nexus of Power",
-	"book:dor": "Dawn of Rebellion",
-	"book:rots": "Rise of the Separatists",
-	"book:aaa": "Allies and Adversaries",
-	"book:cotr": "Collapse of the Republic",
-	"book:gag": "Gadgets and Gear",
-
-	// career books
-	"book:dc": "Dangerous Covenants", // no stats
-	"book:da": "Desparate Allies",
-	"book:doh": "Disciples of Harmony",
-	"book:ev": "Endless Vigil",
-	"book:fh": "Far Horizons",
-	"book:fc": "Fly Casual",          // no stats
-	"book:ktp": "Keeping the Peace",
-	"book:lbe": "Lead by Example",
-	"book:sm": "Special Modifications",
-	"book:sot": "Stay on Target",
-	"book:ss": "Savage Spirits",
-	"book:eto": "Enter the Unknown",
-	"book:kof": "Knights of Fate",
-	"book:fo": "Fully Operational",
-	"book:cam": "Cyphers and Masks",
-
-	// adventures
-	"book:oaa": "Onslaught at Arda I",
-	"book:cotgk": "Chronicles of the Gatekeeper",
-	"book:ragp": "Rescue at Glare Peak",
-	"book:uabs": "Under a Black Sun",
-	"book:flt": "Friends Like These",
-	"book:btr": "Beyond the Rim",
-	"book:motpq": "Mask of the Pirate Queen",
-	"book:joy": "Jewel of Yavin",
-	"book:god": "Ghosts of Dathomir"
+	"book:GCRB": "Genesys Core Rulebook",
+	"book:EPG": "Expanded Player's Guide",
+	"book:RoT": "Realms of Terrinoth",
+	"book:SotB": "Shadow of the Beanstalk",
 };
 
 
@@ -189,6 +146,7 @@ export const statify = function(text, stats, ranks) {
 	text = text.replace(/\{ranks\|multiply-10\}/g,  () => ranks * 10);
 	text = text.replace(/\{ranks\|multiply-50\}/g,  () => ranks * 50);
 	text = text.replace(/\{ranks\|multiply-100\}/g, () => ranks * 100);
+	text = text.replace(/\{ranks\|minus-1\}/g,       () => ranks - 1);
 	text = text.replace(/\{ranks\|plus-2\}/g,       () => ranks + 2);
 
 	// add game symbols a number of times equal to ranks
@@ -221,7 +179,7 @@ let sourceMap = {
 
 export const getSourceLink = function getSourceLink(source) {
 	if(source in sourceMap) {
-		return `<a href="${sourceMap[source]}">${source.replace("source:", "")}</a>`;
+		return `<a href="${sourceMap[source]}" target="_blank">${source.replace("source:", "")}</a>`;
 	}
 
 	return null;

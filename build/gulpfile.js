@@ -184,7 +184,7 @@ gulp.task("copy-font", () => {
 });
 
 gulp.task("copy-icon", () => {
-	return gulp.src(TARGET.src("favicon.ico")).pipe(gulp.dest(TARGET.dest("")));
+	return gulp.src(TARGET.src("favicon.png")).pipe(gulp.dest(TARGET.dest("")));
 });
 
 gulp.task("live", (done) => {

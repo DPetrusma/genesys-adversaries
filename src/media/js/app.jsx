@@ -60,7 +60,7 @@ class App extends React.Component {
 			stored.forEach(a => adversaries.push(a));
 
 			let favourites = Store.local.get(CONFIG.FAVOURITE_STORE) || [];
-			let tags = ["minion", "rival", "nemesis"];
+			let tags = ["minion", "rival", "nemesis", "apex nemesis"];
 
 			adversaries.forEach(a => {
 				if(favourites.indexOf(a.id) != -1) {
@@ -529,16 +529,18 @@ class App extends React.Component {
 			<div className="overlay">
 				<div className="panel">
 					<h3>About</h3>
-					<p>Star Wars Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/">Fantasy Flight Games’</a> Star Wars Roleplaying Game.</p>
-					<p>Built by <a href="http://www.stoogoff.com/">Stoo Goff</a>, <a href="https://twitter.com/nlx3647">nlx3647</a>, and <a href="https://github.com/SkyJed">SkyJedi</a>.</p>
-					<p>Want to support the future development of <em>Star Wars: Adversaries</em>? Checkout my other RPG products on <a href="https://www.drivethrurpg.com/browse/pub/14996/we-evolve">DriveThruRPG</a> or <a href="https://we-evolve.itch.io/">itch.io</a> or use the button below to donate.</p>
+					<p>Genesys Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/" target="_blank">Fantasy Flight Games’</a> Genesys Roleplaying Game.</p>
+					<p>Built by <a href="http://www.stoogoff.com/" target="_blank">Stoo Goff</a>, <a href="https://twitter.com/nlx3647" target="_blank">nlx3647</a>, and <a href="https://github.com/SkyJed" target="_blank">SkyJedi</a>. Some data entry by <a href="http://www.dylanpetrusma.com" target="_blank">Dipicacyx</a>.</p>
+					<p>This is a fork of Star Wars Adversaries, where most of the work was done. Want to support the future development of <em>Star Wars: Adversaries</em>? Checkout Stoogoff's other RPG products on <a href="https://www.drivethrurpg.com/browse/pub/14996/we-evolve">DriveThruRPG</a> or <a href="https://we-evolve.itch.io/">itch.io</a> or use the button below to donate.</p>
+					
 					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
 					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
+					<p><a target="_blank" href="https://icons8.com/icon/42763/book">Book</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
 				</div>
 			</div>
 			: null;
 
-		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></span>;
+		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries/tree/GenesysVersion/main" target="_blank">Source</a></span>;
 
 		let content = [<div>
 			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } vehicles={ this.stores.vehicles } visible={ index == this.state.selectedIndex } />)}
@@ -561,7 +563,7 @@ class App extends React.Component {
 			{ overlay }
 			<div id="mobile-menu">
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
-				<em>Star Wars: Adversaries</em>
+				<em>Genesys: Adversaries</em>
 				{ builtBy }
 			</div>
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>

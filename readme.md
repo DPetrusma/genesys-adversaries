@@ -1,7 +1,6 @@
+# Genesys: Adversaries
 
-# Star Wars: Adversaries
-
-A simple web app for looking up adversaries for the FFG's Star Wars RPG. See it in action here: http://swa.stoogoff.com/.
+A simple web app for looking up adversaries for the FFG's Genesys RPG. See it in action here: http://genesysadversaries.dylanpetrusma.com/. Credit for all of the hard work goes to Stoogoff: https://github.com/stoogoff. I only did some data entry for Genesys adversaries.
 
 Built using:
 
@@ -82,111 +81,42 @@ This is only useful if you have your own AWS setup and are planning on hosting a
 
 ## Completed Adversaries
 
-- core books
-	- Age of Rebellion
-	- Edge of the Empire
-	- Force and Destiny
-- gm kits
-	- EotE (Debts to Pay)
-	- AoR (Dead in the water)
-	- Fad (Hidden Depths)
-- source books
-	- Lords of Nal Hutta
-	- Strongholds of Resistance
-	- Suns of Fortune
-	- Nexus of Power
-	- Dawn of Rebellion
-	- Rise of the Separatists
-	- Collapse of the Republic
-- collected source books
-	- Allies and Adversaries
-	- Gadgets and Gear
-- career books
-	- *Dangerous Covenants (no stats)*
-	- Enter the Unknown (5 droids)
-	- Desparate Allies
-	- Endless Vigil
-	- Far Horizons
-	- *Fly Casual (no stats)*
-	- *Forged in Battle (no stats)*
-	- Keeping the Peace
-	- Knights of Fate
-	- Lead by Example
-	- *No Disintegrations (no stats)*
-	- Savage Spirits
-	- Special Modifications
-	- Stay on Target
-	- *Unlimited Power (no stats)*
-	- Fully Operational
-	- Cyphers and Masks
-	- Disciples of Harmony
-- beginner's games
-	- Age of Rebellion (Takeover at Whisper Base)
-	- Edge of the Empire (Escape from Mos Shuuta)
-	- Force and Destiny (Mountaintop Rescue)
-	- The Force Awakens (Discovery on Jakku)
-- adventure books
-	- Beyond the Rim
-	- Chronicles of the Gatekeeper
-	- Jewel of Yavin
-	- Friends Like These
-	- Ghosts of Dathomir
-	- Mask of the Pirate Queen
-	- Onslaught at Arda I
-	- Rescue at Glare Peak
-	- Under a Black Sun
-- adventures
-	- A Call for Heroes (TFA follow on adventure)
-	- A Deal Gone Wrong
-	- A Quick Stopover
-	- Beyond the Boiling Sea
-	- Beyond the Rim
-	- Crates of Krayts (EotE Beta adventure)
-	- Chronicles of the Gatekeeper
-	- Claustrophobia
-	- Conical Six Summit
-	- Dead in the Water (AoR GM Kit)
-	- Debts to Pay (EotE GM Kit)
-	- Escape from Mos Shuuta
-	- Exploring the Acablas Ruins
-	- Friends Like These
-	- Ghosts of Dathomir
-	- Hard Bargain
-	- Hidden Depths (FaD GM Kit)
-	- If It Sounds too Good to be True...
-	- In Too Deep
-	- Jewel of Yavin
-	- Lessons from the Past
-	- Long Arm of the Law
-	- Lost Knowledge (FaD Beta adventure)
-	- Mask of the Pirate Queen
-	- Onslaught at Arda I
-	- Operation Shadowpoint (AoR follow on adventure)
-	- Operation: Shell Game (AoR Beta game)
-	- Perlemian Haul
-	- Phantoms in the Dark
-	- Rescue at Glare Peak
-	- Rubbing Slimy Elbows
-	- Sabacc Game on the Row
-	- Taming the Dragon
-	- Takeover at Whisper Base
-	- The Corellian Shuffle
-	- The Dead Road
-	- The Geharr Incident
-	- The Long Arm of the Hutt (EotE follow on adventure)
-	- The Light Within
-	- The Menagerie
-	- The Trial of Skill
-	- Toydarian Grocery Shopping
-	- Trouble Brewing
-	- Tunnel Delving
-	- Under a Black Sun
-	- Vault of Justice
-	- Welcome Aboard
-	- Witch’s Wrath
-	- Lure of the Lost (FaD follow on adventure)
+- Creature Catalogue
+- Core Rulebook
+- Expanded Player's Guide
+- Realms of Terrinoth
+- Shadow of the Beanstalk
+- Secrets of the Crucible
+
+### In-Progress Adversaries
+
+### Missing Adversaries
+
+### Changes from source
+
+- Creature Catalogue Ancient Wurm: Resilience instead of ranged. Added auto-fire and different ability (maybe make a new item quality?)
+- Spectre: Ability can raise more spectres
+- Instances of "Melee" fixed: CC Gorgul Demon claws changed to Brawl, CC Malithar Demon swords changed to Melee: Light and Tail lash changed to Brawl, CC Cyclops club changed to Melee: Light, CC Hill Giant club changed to Melee: Light, CC Fire Giant sword changed to Melee: Light, CC Frost Giant axe changed to Melee: Light
+- CC Gnoll Night vision changed to Darkvision
+- CC Some abilities renamed to match existing Star Wars or Genesys
+- CC Lich removed Phylactery as it's mostly narrative
+- A few talents and abilities on official adversaries were re-worded slightly to fit better with generic talents and abilities
+-- E.g. Merriod has Multiattack instead of Monstrous Limbs
 
 ## TODO
 
-- Print multiple tabs
-- Collapse of the Republic
+- Make implements work better somehow?
+- Some tweaked and keyworded (maybe ranked) abilities: lesser amphibious, regeneration
+- CC Dreadgazer to use opposed checks?
+- Spellchecks, capitilisation, and grammar
+- Young Ristie WT
+- Ruinous Repartee uses Presence x 2. How to implement that, similar to the ranks multiplier replacement?
+- Change Spined Thresher Too Many Mouths to Improved Multiattack? Though RAW it still needs to increase the difficulty
+- SotC Shadows Thief "set of customer stealth xxx: 2 defense" needs fixing
+- SotC Troubadour ability has strange text about triumph
+- SotC Æmberdrake: The fear check is upgraded twice. Show that somehow.
+- Add creature type tags to SotC and RoT adversaries
+
+## Notes
+- DnD creature types: Aberration, Beast, Celestial, Construct, Dragon, Elemental, Fey, Fiend, Giant, Humanoid, Monstrosity, Ooze, Plant, Swarm, Undead
+

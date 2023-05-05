@@ -105,7 +105,7 @@ export default class TagMenu extends React.Component {
 
 	render() {
 		return <div id="menu">
-			<em>Star Wars: Adversaries</em>
+			<em>Genesys: Adversaries</em>
 			<ul>
 			{ Object.keys(this.menu).sort().map(m => {
 				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }>
