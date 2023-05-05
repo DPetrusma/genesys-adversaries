@@ -2,7 +2,7 @@
 import React from "react";
 import { TextInput, TextArea } from "./input/text";
 import Checkbox from "./input/checkbox";
-import Select from "./input/select";
+import { Select } from "./input/select";
 import PanelListEdit from "./panel-list-edit";
 import PanelTalentEdit from "./panel-talent-edit";
 import PanelWeaponEdit from "./panel-weapon-edit";
@@ -269,7 +269,7 @@ export default class CharacterEdit extends React.Component {
 		});
 		let weapons = this.props.weapons.all().sort(sortByProperty("name"));
 
-		return <div id="edit">
+		return <div className="screen">
 			<h1>
 				Edit Character
 				<svg title="Cancel edit" onClick={ this.cancel.bind(this) }><use xlinkHref="#icon-cross"></use></svg>

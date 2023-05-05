@@ -7,6 +7,8 @@ import { id } from "lib/string";
 import { book } from "lib/utils";
 
 function titlecase(s) {
+	s = s.replace("_", "");
+
 	return s[0].toUpperCase() + s.substring(1).toLowerCase();
 }
 
@@ -47,6 +49,12 @@ export default class TagMenu extends React.Component {
 		});
 
 		Object.keys(this.menu).forEach(m => this.menu[m].sort(sortByProperty("text")));
+
+		// add import / export menu
+		this.menu[CONFIG.MENU_SAVE] = [
+			{ text: "Import", tag: CONFIG.IMPORT },
+			{ text: "Export", tag: CONFIG.EXPORT, disabled: !nextProps.canExport }
+		];
 	}
 
 	componentDidMount() {
@@ -64,13 +72,22 @@ export default class TagMenu extends React.Component {
 	handler(evt) {
 		let tag = evt.target.getAttribute("data-href");
 
-		if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
+		if(tag === CONFIG.IMPORT || tag === CONFIG.EXPORT) {
+			dispatcher.dispatch(tag);
+		}
+		else if(tag.startsWith(CONFIG.FAVOURITE_KEY)) {
 			dispatcher.dispatch(CONFIG.OBJECT_VIEW, id(tag.replace(CONFIG.FAVOURITE_KEY, "")));
 		}
 		else {
 			dispatcher.dispatch(CONFIG.MENU_FILTER, tag.toLowerCase());
 		}
 
+		this.setState({
+			active: null
+		});
+	}
+
+	closeMenu() {
 		this.setState({
 			active: null
 		});
@@ -93,9 +110,15 @@ export default class TagMenu extends React.Component {
 			<em>Genesys: Adversaries</em>
 			<ul>
 			{ Object.keys(this.menu).sort().map(m => {
-				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }><div data-menu={ m } onClick={ this.openMenu.bind(this) }>{ titlecase(m) } <svg data-menu={ m }><use xlinkHref="#icon-circle-down"></use></svg></div>
+				return <li className={ this.state.active ==  m ? "active" : "" } key={ m }>
+					<div data-menu={ m } onClick={ this.openMenu.bind(this) }>
+						{ titlecase(m) }
+						<svg className="down" data-menu={ m }><use xlinkHref="#icon-circle-down"></use></svg>
+						<svg className="right" data-menu={ m }><use xlinkHref="#icon-circle-right"></use></svg>
+					</div>
 					<ul>
-						{ this.menu[m].map(t => <li key={ t.tag }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
+						<li onClick={ this.closeMenu.bind(this) } className="close"><svg><use xlinkHref="#icon-cross"></use></svg> Close</li>
+						{ this.menu[m].map(t => <li key={ t.tag } className={ t.disabled ? "disabled" : "" }><span className="link" onClick={ this.handler.bind(this) } data-href={ t.tag }>{ t.text }</span></li>)}
 					</ul>
 				</li>;
 			})}

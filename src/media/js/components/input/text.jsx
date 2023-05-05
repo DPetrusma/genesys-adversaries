@@ -31,6 +31,7 @@ class BaseText extends React.Component {
 	}
 
 	hasError(value) {
+		// TODO this treats a value of 0 as false so thinks it's an error
 		value = value || "";
 
 		let requiredError = this.props.required && value == "";
@@ -46,10 +47,10 @@ class BaseText extends React.Component {
 
 export class TextInput extends BaseText {
 	render() {
-		let inputId = "input_" + id(this.props.label);
+		let inputId = this.props.label ? "input_" + id(this.props.label) : null;
 
 		return <div className={ this.getClassName() }>
-			<label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label>
+			{ this.props.label ? <label htmlFor={ inputId }>{ this.props.label } { this.props.required ? <span className="required">*</span> : null }</label> : null }
 			<input id={ inputId } type="text" value={ this.props.value } onChange={ this.handleChange.bind(this) } onBlur={ this.handleBlur.bind(this) } />
 			{ this.props.note ? <div><small>{ this.props.note }</small></div> : null }
 		</div>;

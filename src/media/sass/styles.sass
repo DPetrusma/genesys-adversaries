@@ -13,9 +13,16 @@ h1
 	color: white
 	background-color: $derived
 	padding: 1rem 3rem 1rem 1rem
+	z-index: 5
 
 	&.dev
-		background-color: rgb(42,79,127)
+		background-color: $heading
+
+	&.mine
+		background-color: map-get($dice, "difficulty")
+
+	&.unofficial
+		background-color: $btnColour
 
 	svg
 		position: relative
@@ -56,12 +63,29 @@ h2.subtitle
 
 	.nemesis
 		color: $stat
+h4
+	margin-top: 0
+	margin-left: 
+
+	&.expander
+		padding: 0.2em
+		cursor: pointer
+
+		svg
+			position: relative
+			top: 0.2em
+
+		&:hover
+			background-color: $fadeInput !important
 
 .text
 	margin: 0 1rem
 
 .star-filled
 	color: map-get($dice, "proficiency")
+
+.mine:not(h1)
+	color: map-get($dice, "difficulty")
 
 .pre-js-loading
 	h1
@@ -98,13 +122,17 @@ h2.subtitle
 	border-bottom: 2px solid $derived
 
 #menu
-	display: none
+	top: 0.5em
+
+	em
+		display: none
+		padding-top: 0.5em
 
 	&>ul
 		margin: 0
 
 	&>ul>li
-		display: inline-block
+		display: block
 		padding: 0.5em
 		cursor: pointer
 		border: 1px solid $tabBgColour
@@ -117,35 +145,74 @@ h2.subtitle
 			position: relative
 			top: 0.2em
 
-	&>ul>li.active ul
-		display: block
-		opacity: 1
+			&.down
+				display: none
+
+		// first child is now the save menu
+		&:first-child
+			background-color: $link
+			color: rgba(255,255,255,0.7)
+
+			&>ul>li
+				display: block
+
+				&>.link
+					display: block
 
 	&>ul>li>ul
-		position: absolute
-		margin: 0
-		padding: 0.5em
-		border-radius: 0 0 $borderRadius $borderRadius
+		position: fixed
+		top: 0.5em
 		left: -1px
-		display: none
-		opacity: 0
-		z-index: 10
-		box-shadow: 0 6px 12px rgba($font, 0.5)
+		bottom: 0.5em
+		right: 0
+		overflow-y: scroll
+		margin: 0
+		padding: 0.5em 0.5em 3em
+		border-radius: 0 0 $borderRadius $borderRadius
+		display: block
+		z-index: 200
 		background-color: $tabBgColour
+		border-right: 2px solid $derived
 
 		li
 			padding: 0.3em
 			margin: 0.2em
 			border-radius: $borderRadius
 			display: inline-block
-			background-color: rgba(255,255,255,0.5)
+			background-color: $menuBgHover
 			@include hover()
 
 			&:hover
 				background-color: $tabBgColour
 
+			&.close
+				color: darken($font, 20%)
+				display: block
+				text-align: center
+				font-weight: bold
+				background-color: transparent
+
+				&:hover
+					background-color: $menuBgHover
+
+			&.disabled
+				background-color: $tabBgColour
+				cursor: default
+
+				&:hover
+					background-color: $tabBgColour
+
+				.link
+					color: $font
+					cursor: default
+
+					&:hover
+						color: $font
+
 			.link
 				text-decoration: none
+
+
 
 #mobile-menu
 	padding: 0.5em 0.2em
@@ -154,58 +221,55 @@ h2.subtitle
 	left: 0
 	right: 0
 
-#mobile-menu, #menu
 	em
 		float: right
 		display: inline-block
 		margin-right: 1em
 
-#menu em
-	padding-top: 0.5em
-
 #navigation
 	margin: 0
-	height: 100%
 	position: fixed
 	background-color: $body
 	border-right: 2px solid $derived
 	z-index: 100
 	max-width: 20em
+	display: flex
+	flex-direction: column
 
 	p
 		padding-left: 1.5em
 
-	#adversaries
-		position: absolute
-		top: 7em
-		left: 0
-		right: 0
-		bottom: 2em
-		padding-left: 1.5em
-		margin: 0
-		overflow-y: auto
-		padding-bottom: 2em
+#adversaries
+	top: 7em
+	left: 0
+	right: 0
+	bottom: 2em
+	padding-left: 1.5em
+	margin: 0
+	overflow-y: auto
+	padding-bottom: 2em
 
-		li
-			padding: 0.2em 0
-			@include hover()
+.link-list
+	li
+		padding: 0.2em 0
+		@include hover()
 
-			&:hover, &.selected
-				background-color: white
+		&:hover, &.selected
+			background-color: white
 
-			&.selected
-				font-weight: bold
-				padding: 0.3em
+		&.selected
+			font-weight: bold
+			padding: 0.3em
 
-				svg
-					position: relative
-					top: 0.1em
+			svg
+				position: relative
+				top: 0.1em
 
-				.link
-					text-decoration: none
+			.link
+				text-decoration: none
 
 #tabs
-	display: none
+	display: block
 	margin: 0
 	padding: 0 0 0.5em
 	background-color: $tabBgColour
@@ -250,6 +314,13 @@ h2.subtitle
 
 		svg
 			font-size: 0.7em
+
+		.tab-name
+			display: inline-block
+			white-space: nowrap
+			text-overflow: ellipsis
+			max-width: 10vw
+			overflow: hidden
 
 		.btn:hover
 			color: $link
@@ -306,6 +377,7 @@ h2.subtitle
 
 #content
 	margin-top: 2em
+	padding-bottom: 3em
 
 	.loading
 		margin: 2em
@@ -316,6 +388,9 @@ h2.subtitle
 	margin: 0
 	font-size: 0.9em
 	padding: 0 1rem
+
+	form
+		display: inline
 
 	div
 		text-align: center
@@ -337,7 +412,7 @@ h2.subtitle
 		font-weight: normal
 		font-family: 'Source Sans Pro', sans-serif
 
-#characteristics
+#characteristics, #vehicle .stats
 	margin: auto
 	width: 15.118rem
 
@@ -403,23 +478,49 @@ h2.subtitle
 		&:hover
 			background-color: #eee
 
+	&.vehicle h3
+		background-color: rgb(40,52,68)
+
+	.small span
+		font-size: 1.8em
+
+#vehicle
+	.stats
+		width: 19rem
+
+		div
+			background-color: $vehicle
+			display: inline-block
+			font-size: 0.8em
+
+		span
+			background-color: white
+			font-size: 2em
+			border-width: 2px
+			border-radius: 0.2em !important
+
+		h3
+			background-color: $vehicleStat
 
 // SKILLS
 .info
 	clear: both
 	margin: 0 0 1.5em
+	position: relative
 
-	ul, .directory, p, h2
-		margin-left: 1em
-		margin-right: 1em
+	ul, .directory, p, h2, h4, .row-input
+		margin-left: 1rem
+		margin-right: 1rem
 
 	h2
 		margin-top: 0
 		color: $derived
-		text-align: center
 
-.skills td
+.skills	td
 	vertical-align: middle
+
+.weapons td.small-rows small
+	display: block
 
 .damage
 	display: inline
@@ -447,6 +548,7 @@ h2.subtitle
 #show-all
 	text-align: right
 	margin-bottom: 1em
+	margin-top: -2.5em
 
 #menu-character
 	position: relative
@@ -479,8 +581,8 @@ h2.subtitle
 				background-color: white
 
 
-// EDIT MODE
-#edit
+// EDIT / IMPORT MODE
+.screen
 	box-sizing: border-box
 	background-color: $body
 	width: 100%
@@ -565,6 +667,9 @@ h2.subtitle
 				&:hover
 					background-color: $fadeInput !important
 
+			&.btn-full
+				display: block
+				width: 100%
 
 			&.btn-save
 				color: white
@@ -575,7 +680,7 @@ h2.subtitle
 				background-color: $tabBgColour
 				border-radius: 0 $borderRadius $borderRadius 0
 
-	.input-select-multi
+	.input-select-quality
 		li
 			display: inline-block
 			padding: 0.5em
@@ -591,6 +696,15 @@ h2.subtitle
 			svg
 				position: relative
 				top: 0.1em
+
+			.row-input
+				display: inline-block
+				padding: 0
+				border-bottom: 0
+
+				input[type="text"]
+					width: 2em !important
+					font-size: 0.9em
 
 	.input-checkbox
 		svg
@@ -608,6 +722,29 @@ h2.subtitle
 		position: absolute
 		right: 0.5em
 		bottom: 0.5em
+
+	.input-radiolist
+		color: orange
+		font-size: 0.8rem
+
+		label
+			display: inline-block
+			margin: 0 0.1em
+			background-color: $btnColour
+			background-color: $tabBgColour
+			color: black
+			padding: 0.1em 0.5em
+			border-radius: 0.2em
+			cursor: pointer
+
+			&.checked
+				color: white
+				background-color: $btnColour
+
+			svg
+				margin-right: 0.3em
+				position: relative
+				top: 0.1em
 
 	.edit-panel
 		padding-left: 1rem
@@ -653,14 +790,17 @@ h2.subtitle
 			padding: 0.1em 1em
 			background-color: $body
 
+	td span small
+		display: block
+
 .btn-full
 	display: block
 	width: 100%
 	box-sizing: border-box
 	font-size: 1.1em
-	padding: 0.2em
+	padding: 0.2em 1em
 	margin: 0.5em 0
-	background-color: lighten($link, 20%)
+	background-color: $btnColour
 	font-weight: bold
 	color: white
 	border-radius: $borderRadius
@@ -679,6 +819,19 @@ h2.subtitle
 	&:hover
 		background-color: $link
 
+
+// VEHICLE PANEL
+#vehicle
+	background-color: white
+	border-top: 1px solid lighten($heading, 30%)
+	border-bottom: 1px solid lighten($heading, 30%)
+	padding-top: 0.5rem
+	padding-bottom: 0.5rem
+
+#vehicle-close
+	svg
+		position: relative
+		top: 0.1em
 
 
 // OVERLAY
@@ -722,6 +875,34 @@ h2.subtitle
 		&:hover
 			background-color: darken(map-get($dice, "boost"), 20%)
 
+// import related
+.drop-zone
+	background-color: white
+	border-radius: 4px
+	padding: 0.5rem
+	border: 1px solid rgb(219,219,219)
+	margin-bottom: 1rem
+
+	svg
+		margin: 2em 0
+		width: 5em
+		height: 5em
+
+.error
+	color: $stat
+
+.file-list
+	li
+		padding: 0.3em 0 0.3em 24px
+
+		&.error
+			padding-left: 4px
+
+			svg
+				margin-right: 4px
+				position: relative
+				top: 2px
+
 
 // MEDIA OVERRIDES
 @media print, screen and (min-width: $screen-small)
@@ -737,34 +918,33 @@ h2.subtitle
 		float: left
 		margin-right: 1rem
 
+
+@media print, screen and (min-width: $screen-medium)
+	.info h2
+		text-align: left
+
 	.damage
 		display: block
 
 		&:first-of-type:after
 			content: ""
 
+	#vehicle-close
+		position: absolute
+		top: 0.5rem
+		right: 0.5rem
 
-@media print, screen and (min-width: $screen-medium)
-	.info h2
-		text-align: left
+		.btn-full
+			margin: 0
 
-	#tabs
-		display: block
-
-	#show-all
-		margin-top: -2.5em
-
-	#content.large
-		padding-bottom: 3em
-
-	.stats
+	#characteristics
 		padding: 0
-		width: 100% !important
-		margin: 0 1em !important
+		width: 100%
+		margin: 0 1em
 
 
 @media screen and (min-width: $screen-large)
-	#edit
+	.screen
 		width: 90%
 		height: 90%
 		margin: 1em auto
@@ -801,17 +981,60 @@ h2.subtitle
 			padding: 1em
 			margin: 0
 
+	#built-by
+		position: fixed
+		bottom: 0
+		left: 0
+		padding: 0.2em 1em 0.2em
+		z-index: 150
+
+	#tabs
+		padding-left: 20rem
+
 	h1
 		display: inline-block
 		border-radius: 0 3rem 3rem 0
 		position: fixed
-		top: 1em
+		top: 1.2em
 
 	h2.subtitle
 		margin: 1.6em 3em 1.5em 0
 
+	#vehicle .stats
+		margin: 0 !important
+
+	#vehicle
+		padding-left: 1rem
+		padding-right: 1rem
+
+	#show-all
+		margin-right: 0.5em
+
+	#content
+		float: left
+		overflow: hidden
+		width: 40em
+		margin-left: 19em
+
+	#navigation
+		//float: left
+		overflow: hidden
+		//display: block
+		margin-top: 2em
+		width: 19em
+		max-width: none
+		height: 100%
+
 	#characteristics
-		margin: 0
+		width: 25.3em
+
+	#adversaries
+		position: absolute
+
+
+@media screen and (min-width: $screen-xlarge)
+	#tabs
+		padding-left: 23rem
 
 	.column
 		float: left
@@ -820,50 +1043,36 @@ h2.subtitle
 		&.small
 			width: 20em
 
-	#content
-		.column.large
-			width: 37.5em
-
-		.column.small
-			width: 16em
-			margin-left: 1.5em
-
-	.info
-		ul, .directory, p, h2
-			margin-left: 0
-			margin-right: 0
-
-
-@media screen and (min-width: $screen-xlarge)
-	#tabs
-		padding-left: 23rem
-
-	#built-by
-		position: fixed
-		bottom: 0
-		left: 0
-		padding: 0.2em 1em 0.2em
-		z-index: 150
-
-	#navigation
-		display: block
-		margin-top: 2em
-		width: 21.5em
-		max-width: none
+	#characteristics
+		margin: 0 !important
+		width: auto
 
 	#content
 		margin-left: 21.5em
 		width: 58em
 
-		.large
+		.column.large
+			width: 37.5em
 			padding-bottom: 5em
 
 		.column.small
+			width: 16em
 			margin-left: 1.5em
 
 	#characteristics div:nth-child(even)
 		margin-right: 0
 
+	#navigation
+		width: 21.5em
+
+	.info
+		ul, .directory, p, h2, h4, .row-input
+			margin-left: 0
+			margin-right: 0
+
+
+// DISPLAY TOP NAVIGATION MENU
+@media screen and (min-width: $screen-large)
 	#menu
 		display: block
 		position: fixed
@@ -871,27 +1080,60 @@ h2.subtitle
 		left: 0
 		right: 0
 
+		em
+			float: right
+			display: inline-block
+			margin-right: 1em
+
+
 		&>ul>li
 			position: relative
+			display: inline-block
+			padding: 0.5em
+			cursor: pointer
+
+			svg
+				&.right
+					display: none
+
+				&.down
+					display: inline
 
 			&:hover, &.active
 				border-left-color: $derived
 				border-right-color: $derived
 
+			&:first-child
+				border-bottom: 0
+				border-right: 1px solid $font
+
+		&>ul>li.active ul
+			display: block
+			opacity: 1
+
 		&>ul>li>ul
-			width: 25em
+			position: absolute
+			bottom: auto
+			right: auto
+			padding-bottom: 0.5em
+			width: 30em
 			top: 2.33em
 			border-width: 0 1px 1px 1px
 			border-style: solid
 			border-color: $derived
+			opacity: 0
+			display: none
+			box-shadow: 0 6px 12px rgba($font, 0.5)
 
+			li.close
+				display: none
 
 	#mobile-menu
 		display: none
 
 
 // SMALLER SCREEN SLIDING MENU
-@media screen and (max-width: $screen-xlarge)
+@media screen and (max-width: $screen-large)
 	#navigation
 		top: 2em
 		left: 0
@@ -905,6 +1147,15 @@ h2.subtitle
 		&.menu-open
 			transform: translateX(0)
 			animation: slide-in 1s ease
+
+	#menu>ul>li.active ul
+		transform: translateX(0)
+		animation: slide-in 1s ease
+
+	#menu>ul>li>ul
+		transform: translateX(-100%)
+		animation: slide-out 0.5s ease
+
 
 @keyframes slide-in
 	from

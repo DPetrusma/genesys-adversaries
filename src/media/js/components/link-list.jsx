@@ -18,13 +18,16 @@ export default class LinkList extends React.Component {
 			return null;
 		}
 
-		return <ul id="adversaries">
+		return <ul className="link-list">
 			{ list.sort(sortByProperty("name")).map(l => {
 				let isSelected = l.id == (this.props.selected || "");
 				let icon = null;
 
 				if(l.favourite) {
 					icon = <svg className="outline star-filled"><use xlinkHref="#icon-star-full"></use></svg>;
+				}
+				else if(l.tags.indexOf(CONFIG.ADVERSARY_TAG) != -1) {
+					icon = <svg className="mine"><use xlinkHref="#icon-edit"></use></svg>;
 				}
 				else if(isSelected) {
 					icon = <svg><use xlinkHref="#icon-circle-right"></use></svg>;
