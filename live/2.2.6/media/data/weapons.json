@@ -1,0 +1,602 @@
+[
+	{
+		"name": "Holdout blaster",
+		"skill": "Ranged: Light",
+		"damage": 5,
+		"critical": 4,
+		"range": "Short",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Light blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 5,
+		"critical": 4,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Heavy blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 7,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"],
+		"notes": "Spend :threat::threat::threat: or :despair: to force a heavy blaster pistol to run out of ammo."
+	},
+	{
+		"name": "Built-in blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Blaster carbine",
+		"skill": "Ranged: Heavy",
+		"damage": 9,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 9,
+		"critical": 3,
+		"range": "Long",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Heavy blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Long",
+		"qualities": ["Auto-Fire", "Cumbersome 3"]
+	},
+	{
+		"name": "DC-15 blaster rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Long",
+		"qualities": ["Pierce 1", "Stun Setting"]
+	},
+	{
+		"name": "DC-17 blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 7,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Accurate 1", "Stun Setting"]
+	},
+	{
+		"name": "Light repeating blaster",
+		"skill": "Ranged: Heavy",
+		"damage": 11,
+		"critical": 3,
+		"range": "Long",
+		"qualities": ["Auto-Fire", "Cumbersome 4", "Pierce 1"]
+	},
+	{
+		"name": "Heavy repeating blaster",
+		"skill": "Gunnery",
+		"damage": 15,
+		"critical": 2,
+		"range": "Long",
+		"qualities": ["Auto-Fire", "Cumbersome 5", "Pierce 2", "Vicious 1"]
+	},
+	{
+		"name": "TT24 Holdout blaster",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Relby-k23 blaster pistol",
+		"skill": "Ranged: Light",
+		"damage": 6,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Stun Setting", "Pierce 2"]
+	},
+	{
+		"name": "Bowcaster",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Cumbersome 3", "Knockdown"],
+		"notes": "A bowcaster requires the user to spend a maneuver cocking the weapon before each shot."
+	},
+	{
+		"name": "Ion blaster",
+		"skill": "Ranged: Light",
+		"damage": 10,
+		"critical": 5,
+		"range": "Short",
+		"qualities": ["Disorient 5", "Ion"]
+	},
+	{
+		"name": "Disruptor pistol",
+		"skill": "Ranged: Light",
+		"damage": 10,
+		"critical": 2,
+		"range": "Short",
+		"qualities": ["Vicious 4"],
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse."
+	},
+	{
+		"name": "Disruptor rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 10,
+		"critical": 2,
+		"range": "Long",
+		"qualities": ["Cumbersome 2","Vicious 5"],
+		"notes": "When the disruptor inflicts a Critical Injury, the minimum result is 96-100, “Crippled”, unless it would be worse."
+	},
+	{
+		"name": "Riot gun",
+		"skill": "Ranged: Heavy",
+		"damage": 7,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Auto-Fire","Stun Setting"]
+	},
+	{
+		"name": "Slugthrower pistol",
+		"skill": "Ranged: Light",
+		"damage": 4,
+		"critical": 5,
+		"range": "Short",
+		"qualities": []
+	},
+	{
+		"name": "Slugthrower rifle",
+		"skill": "Ranged: Heavy",
+		"damage": 7,
+		"critical": 5,
+		"range": "Medium",
+		"qualities": ["Cumbersome 2"]
+	},
+	{
+		"name": "Bolas",
+		"skill": "Ranged: Light",
+		"damage": 2,
+		"critical": null,
+		"range": "Short",
+		"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+	},
+	{
+		"name": "Net",
+		"skill": "Ranged: Light",
+		"damage": 2,
+		"critical": null,
+		"range": "Short",
+		"qualities": ["Ensnare 3", "Knockdown", "Limited Ammo 1"]
+	},
+	{
+		"name": "Flame projector",
+		"skill": "Ranged: Heavy",
+		"damage": 8,
+		"critical": 2,
+		"range": "Short",
+		"qualities": ["Burn 3", "Blast 8"]
+	},
+	{
+		"name": "Micro-grenade launcher",
+		"skill": "Gunnery",
+		"damage": 10,
+		"critical": 3,
+		"range": "Medium",
+		"qualities": ["Blast 8"]
+	},
+	{
+		"name": "Missile tube",
+		"skill": "Gunnery",
+		"damage": 20,
+		"critical": 2,
+		"range": "Extreme",
+		"qualities": ["Blast 10", "Cumbersome 3", "Guided 3", "Breach 1", "Prepare 1", "Limited Ammo 6"]
+	},
+	{
+		"name": "Frag grenade",
+		"skill": "Ranged: Light",
+		"damage": 8,
+		"critical": 4,
+		"range": "Short",
+		"qualities": ["Blast 6", "Limited Ammo 1"]
+	},
+	{
+		"name": "Armour-piercing grenade",
+		"skill": "Ranged: Light",
+		"damage": 13,
+		"critical": 3,
+		"range": "Short",
+		"qualities": ["Blast 4", "Limited Ammo 1", "Pierce 3"]
+	},
+	{
+		"name": "Stun grenade",
+		"skill": "Ranged: Light",
+		"damage": 8,
+		"critical": null,
+		"range": "Short",
+		"qualities": ["Disorient 3", "Stun Damage", "Blast 8", "Limited Ammo 1"]
+	},
+	{
+		"name": "Anti-vehicle mine",
+		"skill": "Mechanics",
+		"damage": 25,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Blast 2", "Breach 4", "Limited Ammo 1"]
+	},
+	{
+		"name": "Anti-personnel mine",
+		"skill": "Mechanics",
+		"damage": 12,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Blast 4", "Vicious 4", "Limited Ammo 1"]
+	},
+	{
+		"name": "Thermal detonator",
+		"skill": "Ranged: Light",
+		"damage": 20,
+		"critical": 2,
+		"range": "Short",
+		"qualities": ["Blast 15", "Breach 1", "Vicious 4", "Limited Ammo 1"]
+	},
+	{
+		"name": "Brass knuckles",
+		"skill": "Brawl",
+		"plus-damage": 1,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Disorient 3"]
+	},
+	{
+		"name": "Cortosis gauntlets",
+		"skill": "Brawl",
+		"plus-damage": 1,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Cortosis"]
+	},
+	{
+		"name": "Shock gloves",
+		"skill": "Brawl",
+		"plus-damage": 0,
+		"critical": 5,
+		"range": "Engaged",
+		"qualities": ["Stun 3"]
+	},
+	{
+		"name": "Stun baton",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Stun Setting"]
+	},
+	{
+		"name": "Stun club",
+		"skill": "Melee",
+		"damage": 5,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Disorient 2"]
+	},
+	{
+		"name": "Ancient sword",
+		"skill": "Lightsaber",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1"]
+	},
+	{
+		"name": "Combat knife",
+		"skill": "Melee",
+		"plus-damage": 0,
+		"critical": 6,
+		"range": "Engaged"
+	},
+	{
+		"name": "Cortosis shield",
+		"skill": "Melee",
+		"plus-damage": 1,
+		"critical": 6,
+		"range": "Engaged",
+		"qualities": ["Cortosis", "Cumbersome 3", "Defensive 2", "Deflection 2"]
+	},
+	{
+		"name": "Cortosis staff",
+		"skill": "Melee",
+		"plus-damage": 3,
+		"critical": 5,
+		"range": "Engaged",
+		"qualities": ["Cortosis"]
+	},
+	{
+		"name": "Cortosis sword",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Cortosis", "Defensive 1"]
+	},
+	{
+		"name": "Diiro",
+		"skill": "Melee",
+		"plus-damage": 1,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1"]
+	},
+	{
+		"name": "Electrostaff",
+		"skill": "Melee",
+		"plus-damage": 4,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Cortosis", "Cumbersome 3", "Linked 1", "Stun Setting", "Unwieldy 3"]
+	},
+	{
+		"name": "Gaffi stick",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Defensive 1", "Disorient 3"]
+	},
+	{
+		"name": "Force pike",
+		"skill": "Melee",
+		"plus-damage": 3,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 2", "Stun Setting"]
+	},
+	{
+		"name": "Heavy hydrospanner",
+		"skill": "Melee",
+		"damage": 5,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Inaccurate 1"]
+	},
+	{
+		"name": "Lightsaber",
+		"skill": "Lightsaber",
+		"damage": 10,
+		"critical": 1,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder", "Vicious 2"]
+	},
+	{
+		"name": "Basic lightsaber",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder"]
+	},
+	{
+		"name": "Riot shield",
+		"skill": "Melee",
+		"plus-damage": 0,
+		"critical": 6,
+		"range": "Engaged",
+		"qualities": ["Cumbersome 3", "Defensive 2", "Deflection 2", "Disorient 1"]
+	},
+	{
+		"name": "Truncheon",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 5,
+		"range": "Engaged",
+		"qualities": ["Disorient 2"]
+	},
+	{
+		"name": "Vibro-ax",
+		"skill": "Melee",
+		"plus-damage": 3,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 2", "Sunder", "Vicious 3"]
+	},
+	{
+		"name": "Vibroknife",
+		"skill": "Melee",
+		"plus-damage": 1,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 2", "Vicious 1"]
+	},
+	{
+		"name": "Vibrosword",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Defensive 1", "Pierce 2", "Vicious 1"]
+	},
+	{
+		"name": "Arc welder",
+		"skill": "Melee",
+		"damage": 3,
+		"critical": null,
+		"range": "Engaged",
+		"qualities": ["Stun Damage"]
+	},
+	{
+		"name": "Fusion cutter",
+		"skill": "Melee",
+		"damage": 5,
+		"critical": 3,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Burn 3", "Sunder", "Vicious 3"]
+	},
+	{
+		"name": "Wizard’s staff",
+		"skill": "Melee",
+		"damage": 4,
+		"critical": 4,
+		"range": "Engaged",
+		"qualities": ["Disorient 2"]
+	},
+	{
+		"name": "Hidden razor-dagger",
+		"skill": "Melee",
+		"damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 3", "Vicious 3"]
+	},
+	{
+		"name": "Vibroknucklers",
+		"skill": "Brawl",
+		"plus-damage": 1,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Pierce 1", "Vicious 1"]
+	},
+	{
+		"name": "Vibrorapier",
+		"skill": "Melee",
+		"plus-damage": 2,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Defensive 1", "Pierce 5"]
+	},
+	{
+		"name": "Inquisitor lightsaber",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder"]
+	},
+	{
+		"name": "Inquisitor lightsaber (dual-blade)",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder", "Linked 1", "Unwieldy 2"]
+	},
+	{
+		"name": "Inquisitor lightsaber (spin)",
+		"skill": "Lightsaber",
+		"damage": 6,
+		"critical": 2,
+		"range": "Engaged",
+		"qualities": ["Breach 1", "Sunder", "Defensive 1", "Deflection 1"],
+		"notes": "When making a Saber Throw action add :boost: to the check and increase damage by +1. If the character has the Enhance Force Power they may use the sabre to fly."
+	},
+	{
+		"name": "DC-17m blaster (rifle mode)",
+		"skill": "Ranged: Heavy",
+		"damage": "9",
+		"critical": "3",
+		"range": "Long",
+		"qualities": ["Auto-Fire", "Pierce 1", "Stun Setting"]
+	},
+		{
+		"name": "DC-17m blaster (anti-armour mode)",
+		"skill": "Gunnery",
+		"damage": "10",
+		"critical": "2",
+		"range": "Short",
+		"qualities": ["Breach 1", "Blast 3", "Limited Ammo 4", "Prepare 1"]
+	},
+	{
+		"name": "DC-17m blaster (sniper mode)",
+		"skill": "Ranged: Heavy",
+		"damage": "10",
+		"critical": "3",
+		"range": "Extreme",
+		"qualities": ["Accurate 1", "Pierce 2", "Slow-Firing 1"],
+		"notes": "Add :setback::setback: if used at Engaged or Short range."
+	},
+	{
+		"name": "BT X-42 heavy flame projector",
+		"skill": "Gunnery",
+		"damage": "10",
+		"critical": "2",
+		"range": "Medium",
+		"qualities": ["Blast 6", "Burn 4", "Vicious 1"]
+	},
+	{
+		"name": "Z-6 rotary cannon",
+		"skill": "Ranged: Heavy",
+		"damage": "12",
+		"critical": "4",
+		"range": "Long",
+		"qualities": ["Auto-Fire", "Cumbersome 3", "Prepare 1"],
+		"notes": "Must use the Auto-Fire quality."
+	},
+	{
+		"name": "RPS-6 rocket launcher",
+		"skill": "Gunnery",
+		"damage": "22",
+		"critical": "2",
+		"range": "Extreme",
+		"qualities": ["Blast 14", "Breach 1", "Cumbersome 4", "Guided 2", "Limited Ammo 7"],
+		"notes": "Add :boost: if attacking a target of Silhouette 2 or greater with an aim Maneuver."
+	},
+	{
+		"name": "TZ-97 shock baton",
+		"skill": "Melee",
+		"damage": "5",
+		"critical": "4",
+		"range": "Engaged",
+		"qualities": ["Concussive 1", "Stun Damage"]
+	},
+	{
+		"name": "M3 bulwark blast shield",
+		"skill": "Melee",
+		"damage": "4",
+		"critical": "6",
+		"range": "Engaged",
+		"qualities": ["Cumbersome 3", "Defensive 2", "Deflection 2"]
+	},
+	{
+		"name": "DC-12u beam rifle",
+		"skill": "Ranged: Heavy",
+		"damage": "7",
+		"critical": "3",
+		"range": "Medium",
+		"qualities": ["Linked 1", "Inaccurate 2"],
+		"notes": "Only gains Innacurate 2 if used outside an aquatic environment.\n\nRemove :setback: due to darkness."
+	},
+	{
+		"name": "DC-15x sniper rifle",
+		"skill": "Ranged: Heavy",
+		"damage": "10",
+		"critical": "3",
+		"range": "Extreme",
+		"qualities": ["Accurate 1", "Cumbersome 3", "Pierce 2", "Slow-Firing 1"]
+	},
+	{
+		"name": "DC-15A blaster carbine",
+		"skill": "Ranged: Heavy",
+		"damage": "9",
+		"critical": "3",
+		"range": "Medium",
+		"qualities": ["Auto-Fire", "Pierce 1", "Stun Setting"]
+	}
+]

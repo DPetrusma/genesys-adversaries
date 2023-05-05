@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:true});exports.parent=void 0;var parent=function parent(node,parent){parent=parent.toLowerCase();while((node=node.parentNode)!=null){if(node.nodeName.toLowerCase()===parent){return node}}return null};exports.parent=parent;

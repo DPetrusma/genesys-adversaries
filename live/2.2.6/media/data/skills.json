@@ -1,0 +1,322 @@
+[
+	{
+		"name": "Alchemy",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+    {
+		"name": "Arcana",
+		"characteristic": "Intellect",
+		"type": "Magic"
+	},
+    {
+		"name": "Astrocartography",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Athletics",
+		"characteristic": "Brawn",
+		"type": "General"
+	},
+	{
+		"name": "Brawl",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Charm",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Coercion",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Computers",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Cool",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Coordination",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Cybernetics",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Deception",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Discipline",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Divine",
+		"characteristic": "Willpower",
+		"type": "Magic"
+	},
+	{
+		"name": "Driving",
+		"characteristic": "Agility",
+        "type": "General"
+    },		
+	{
+		"name": "Gunnery",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Leadership",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Lightsaber",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Lightsaber (Agility)",
+		"characteristic": "Agility",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Intellect)",
+		"characteristic": "Intellect",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Cunning)",
+		"characteristic": "Cunning",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Willpower)",
+		"characteristic": "Willpower",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Lightsaber (Presence)",
+		"characteristic": "Presence",
+		"type": "Combat",
+		"hide": true
+	},
+	{
+		"name": "Mechanics",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Medicine",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Melee",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Melee: Light",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Melee: Heavy",
+		"characteristic": "Brawn",
+		"type": "Combat"
+	},
+	{
+		"name": "Negotiation",
+		"characteristic": "Presence",
+		"type": "General"
+	},
+	{
+		"name": "Operating",
+		"characteristic": "Intellect",
+		"type": "General"
+	},
+	{
+		"name": "Negotiation (Cunning)",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Perception",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Piloting: Planetary",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Piloting: Space",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Primal",
+		"characteristic": "Cunning",
+		"type": "Magic"
+	},
+	{
+		"name": "Ranged",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Ranged: Heavy",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Ranged: Light",
+		"characteristic": "Agility",
+		"type": "Combat"
+	},
+	{
+		"name": "Resilience",
+		"characteristic": "Brawn",
+		"type": "General"
+	},
+	{
+		"name": "Riding",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Skulduggery",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Stealth",
+		"characteristic": "Agility",
+		"type": "General"
+	},
+	{
+		"name": "Streetwise",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Survival",
+		"characteristic": "Cunning",
+		"type": "General"
+	},
+	{
+		"name": "Vigilance",
+		"characteristic": "Willpower",
+		"type": "General"
+	},
+	{
+		"name": "Knowledge: Core Worlds",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Education",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Lore",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Outer Rim",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Underworld",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Underworld (Cunning)",
+		"characteristic": "Cunning",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Warfare",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Xenology",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Lore",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Forbidden",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Geography",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Society",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: The Net",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Science",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Æmber",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Crucible",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: Culture",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	},
+	{
+		"name": "Knowledge: All",
+		"characteristic": "Intellect",
+		"type": "Knowledge"
+	}
+]
