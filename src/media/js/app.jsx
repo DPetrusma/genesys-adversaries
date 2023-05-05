@@ -12,6 +12,7 @@ import Filter from "components/input/filter";
 import Loader from "components/loader";
 import Tabs from "components/tabs";
 import TagMenu from "components/tag-menu";
+import Checkbox from "components/input/checkbox";
 import * as Store from "lib/local-store";
 import { sortByProperty, findByProperty, unique, pluck, indexOfByProperty } from "lib/list";
 import * as CONFIG from "lib/config";
@@ -27,6 +28,7 @@ class App extends React.Component {
 			list: null,
 			filter: "",
 			tags: [],
+			sources: [],
 			isLoaded: false,
 			menuOpen: false,
 			showAbout: false,
@@ -96,7 +98,8 @@ class App extends React.Component {
 
 			this.setState({
 				list: adversaries,
-				tags: tags
+				tags,
+				sources: this.getSources(tags),
 			});
 			this.selectAdversary(adversary);
 			this.setLoaded();
@@ -196,7 +199,7 @@ class App extends React.Component {
 
 				Store.local.set(CONFIG.FAVOURITE_STORE, favourites);
 
-				this.setState({ tags: tags });
+				this.setState({ tags });
 				this.selectAdversary(adversary);
 			}
 		});
@@ -326,14 +329,16 @@ class App extends React.Component {
 				selectedIndex = tabs.length - 1;
 			}
 
+			const tags = this.updateTags()
+
 			this.setState({
-				filter: filter,
-				list: list,
+				filter,
+				list,
+				tags,
 				selectedIndex: selectedIndex,
 				selected: tabs,
 				mode: CONFIG.MODE_NORMAL,
 				editAdversary: null,
-				tags: this.updateTags(),
 				canExport: stored.length > 0
 			});
 		});
@@ -462,13 +467,46 @@ class App extends React.Component {
 		this.setState({ showAbout: !this.state.showAbout });
 	}
 
+	getSources(tags) {
+		return (tags || this.state.tags).filter(t => t.startsWith(CONFIG.SOURCE_TAG))
+	}
+
+	isSourceChecked(source) {
+		return this.state.sources.includes(source)
+	}
+
+	toggleSource(source) {
+		source = CONFIG.SOURCE_TAG + source
+
+		let sources = this.state.sources
+
+		if(this.isSourceChecked(source)) {
+			sources = sources.filter(s => s !== source)
+		}
+		else {
+			sources = [...sources, source]
+		}
+
+		this.setState({ sources }, () => {
+			if(this.state.filter !== '') this.filter(this.state.filter)
+		})
+	}
+
 	componentWillUnmount() {
 		Object.keys(this.stores).forEach(key => this.stores[key].off(this.events[key]));
 	}
 
 	// filter text from menu
 	filter(text) {
-		let adversaries = this.stores.adversaries.all();
+		const sources = this.state.sources
+		console.log('filter', sources)
+		let adversaries = this.stores.adversaries.all().filter(({ tags }) => {
+			for(let i = 0, ilen = sources.length; i < ilen; ++i) {
+				if(tags.includes(sources[i])) return true
+			}
+
+			return false
+		});
 
 		if(text != "") {
 			text = text.toLowerCase();
@@ -493,14 +531,16 @@ class App extends React.Component {
 					<h3>About</h3>
 					<p>Genesys Adversaries is an easily searchable database of adversaries for <a href="https://www.fantasyflightgames.com/" target="_blank">Fantasy Flight Games’</a> Genesys Roleplaying Game.</p>
 					<p>Built by <a href="http://www.stoogoff.com/" target="_blank">Stoo Goff</a>, <a href="https://twitter.com/nlx3647" target="_blank">nlx3647</a>, and <a href="https://github.com/SkyJed" target="_blank">SkyJedi</a>. Some data entry by <a href="http://www.dylanpetrusma.com" target="_blank">Dipicacyx</a>.</p>
-					<p>This is a fork of Star Wars Adversaries, where most of the work was done. Want to support the future development of <em>Star Wars: Adversaries</em>?</p>
+					<p>This is a fork of Star Wars Adversaries, where most of the work was done. Want to support the future development of <em>Star Wars: Adversaries</em>? Checkout Stoogoff's other RPG products on <a href="https://www.drivethrurpg.com/browse/pub/14996/we-evolve">DriveThruRPG</a> or <a href="https://we-evolve.itch.io/">itch.io</a> or use the button below to donate.</p>
+					
 					<div id="donation"><a href="https://paypal.me/weevolve" target="_blank" className="btn">Donate</a></div>
 					<div className="btn pull-right" onClick={ this.toggleAbout.bind(this) }><svg><use xlinkHref="#icon-cross"></use></svg> <span>Close</span></div>
+					<p><a target="_blank" href="https://icons8.com/icon/42763/book">Book</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
 				</div>
 			</div>
 			: null;
 
-		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/stoogoff/sw-adversaries">Source</a></span>;
+		let builtBy = <span><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries/tree/GenesysVersion/main" target="_blank">Source</a></span>;
 
 		let content = [<div>
 			{ this.state.selected.map((selected, index) => <CharacterView key={ index } character={ selected.character } skills={ this.stores.skills }  weapons={ this.stores.weapons } talents={ this.stores.talents } qualities={ this.stores.qualities } vehicles={ this.stores.vehicles } visible={ index == this.state.selectedIndex } />)}
@@ -517,16 +557,23 @@ class App extends React.Component {
 				break;
 		}
 
+		const sources = this.getSources()
+
 		return <div>
 			{ overlay }
 			<div id="mobile-menu">
 				<span className="btn" onClick={ this.toggleMenu.bind(this) }><svg><use xlinkHref="#icon-menu"></use></svg></span>
 				<em>Genesys: Adversaries</em>
+				{ builtBy }
 			</div>
 			<div id="navigation" className={ (this.state.menuOpen ? "menu-open" : "menu-closed") + " column small" }>
 				<TagMenu canExport={ this.state.canExport } tags={ this.state.tags } />
 				<Filter text={ this.state.filter } handler={ this.filter.bind(this) } />
-				<p><small>Showing { x } of { y }.</small></p>
+				<p>Showing { x } of { y }.</p>
+				<p>Search { sources.length } source{ sources.length === 1 ? '' : 's' }.</p>
+				<div className="source-filter">
+					{ sources.map(t => <Checkbox label={ t.replace(CONFIG.SOURCE_TAG, '') } checked={ this.isSourceChecked(t) } handler={ this.toggleSource.bind(this) } before={ true } />) }
+				</div>
 				<div id="adversaries"><LinkList data={ this.state.list } selected={ this.state.selected.length > 0 ? this.state.selected[this.state.selectedIndex].character.id : "" } /></div>
 			</div>
 			<div id="content" className="column large">
@@ -535,7 +582,7 @@ class App extends React.Component {
 					: content
 				}
 			</div>
-			<div id="built-by"><span className="link" onClick={ this.toggleAbout.bind(this) }>About</span> | <a href="https://github.com/DPetrusma/genesys-adversaries" target="_blank">Source</a></div>
+			<div id="built-by">{ builtBy }</div>
 		</div>;
 	}
 }

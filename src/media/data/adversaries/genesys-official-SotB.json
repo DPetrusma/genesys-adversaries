@@ -49,7 +49,7 @@
 			}
 		],
 		"gear": ["Sleeveless shirt, bandannas, silver crossed pistols on chain"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:5", "General CR:4"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:5", "General CR:4"]
 	},
 	{
 		"name": "Adam Industrial Labor Bioroid",
@@ -307,7 +307,7 @@
 		"weapons": [
 		],
 		"gear": ["High-end encrypted rig with voice and haptic controls, business suit"],
-		"tags": ["source:RMC #2", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:9"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:9"]
 	},
 	{
 		"name": "Camdrone",
@@ -798,7 +798,7 @@
 		"weapons": [
 		],
 		"gear": ["Bonsai tree, instructor's holodisplay with full suite of lessons"],
-		"tags": ["source:ADS #8", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:5"]
+		"tags": ["source:ADS", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Diesel Bro",
@@ -940,7 +940,7 @@
 		"weapons": [
 		],
 		"gear": ["Smart business suit, PAD loaded with contact information for 'freelance contractors'"],
-		"tags": ["source:RMC #5", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:8", "General CR:6"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:8", "General CR:6"]
 	},
 	{
 		"name": "EMS First Responder",
@@ -1199,7 +1199,7 @@
 			}
 		],
 		"gear": ["Reinforced Suit: +1 soak","Cybernetic arm, cybernetic eye","Desperado custom rig with Battering Ram, Femme Fatale, and Remore (pages 136-138 SotB)-may spend a Story Point to disconnect from any system as an out-of-turn incidental"],
-		"tags": ["source:RMC #7", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:5"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:7", "Social CR:3", "General CR:5"]
 	},
 	{
 		"name": "G-Mod Bodyguard",
@@ -1381,7 +1381,7 @@
 		"weapons": [
 		],
 		"gear": ["Durable Clothing: +1 Soak"],
-		"tags": ["source:ADS #11", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
+		"tags": ["source:ADS", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Human First Extremist",
@@ -1621,7 +1621,7 @@
 		"weapons": [
 		],
 		"gear": ["Colorful but tasteful suit, wrist-PAD with link to NBN mainframe, prototype smart toy, perfect white teeth"],
-		"tags": ["source:RMC #9", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:10", "General CR:3"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:10", "General CR:3"]
 	},
 	{
 		"name": "Ji 'Noise' Reilly",
@@ -1663,7 +1663,7 @@
 				}
 		],
 		"gear": ["Turntable portable console with Corroder and Yog.0 (pages 136-138 of SotB)-protected by Archer and Ice Wall (page 134 of SotB)"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:8"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:2", "Social CR:2", "General CR:8"]
 	},
 	{
 		"name": "Kati Jones",
@@ -2193,7 +2193,7 @@
 			}
 		],
 		"gear": ["Concealed buckyweave armor: +1 soak, 1 defense","One-way comm device"],
-		"tags": ["source:RMC #1", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:6", "General CR:8"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:9", "Social CR:6", "General CR:8"]
 	},
 	{
 		"name": "Mr. Li",
@@ -2239,7 +2239,7 @@
 			}
 		],
 		"gear": ["Expensive suit, numerous members of 14k, smug expression"],
-		"tags": ["source:RMC #14", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:11", "General CR:6"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:4", "Social CR:11", "General CR:6"]
 	},
 	{
 		"name": "Mr. Stone",
@@ -2296,7 +2296,7 @@
 				}
 		],
 		"gear": ["Suit with reinforced fiber weave: +1 soak","Camdrone, PAD, credstick with untraceable fund account"],
-		"tags": ["source:RMC #15", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR:4", "General CR:7"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:11", "Social CR:4", "General CR:7"]
 	},
 	{
 		"name": "NAPD Detective",
@@ -2551,7 +2551,7 @@
 		"weapons": [
 		],
 		"gear": ["Tool kit","Dinosaurus rig with Corroder, Faerie, and Torch (pages 136-138 of SotB)-protected by Dinosaurus ice (use rules for Syn 22 on page 135 of SotB)"],
-		"tags": ["source:RMC #4", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:11"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:3", "General CR:11"]
 	},
 	{
 		"name": "Omoi Security Clone",
@@ -2599,7 +2599,7 @@
 				}
 		],
 		"gear": [],
-		"tags": ["source:ADS #14", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
+		"tags": ["source:ADS", "Official", "setting:Science Fiction", "Combat CR:3", "Social CR:1", "General CR:1"]
 	},
 	{
 		"name": "Opticon Foundation Watchdog",
@@ -2953,7 +2953,7 @@
 			}
 		],
 		"gear": ["Plasteel Carapace Armor: +2 soak, 1 defense","Encrypted field radio"],
-		"tags": ["source:RMC #17", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:4", "General CR:5"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:4", "General CR:5"]
 	},
 	{
 		"name": "Raymond Flint",
@@ -3000,7 +3000,7 @@
 			}
 		],
 		"gear": ["Heavy Trenchcoat: +1 soak","Smokes, PAD, fedora"],
-		"tags": ["source:RMC #18", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:5", "General CR:11"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:6", "Social CR:5", "General CR:11"]
 	},
 	{
 		"name": "Regulator",
@@ -3092,7 +3092,7 @@
 			}
 		],
 		"gear": ["Skin Suit: +2 soak, +2 defense, +2 wound threshold","Cybereyes, skulljack (allows Reina to 'go deep' during network encounters, p. 105 SotB)","Deep Red portable console with Athena and Garrote (p. 136-137 SotB)-protected by Archer and Enigma (p. 134-135 SotB)","Minion group of 4 camdrones, minion group of 4 combat drones (p. 233 SotB)"],
-		"tags": ["source:RMC #19", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:6", "General CR:12"]
+		"tags": ["source:RMC", "Official", "setting:Science Fiction", "Combat CR:12", "Social CR:6", "General CR:12"]
 	},
 	{
 		"name": "Reporter",
@@ -3771,7 +3771,7 @@
 		"weapons": [
 		],
 		"gear": ["Cybernetic eye implant"],
-		"tags": ["source:ADS #1", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:4"]
+		"tags": ["source:ADS", "Official", "setting:Science Fiction", "Combat CR:1", "Social CR:1", "General CR:4"]
 	},
 	{
 		"name": "Thomas Haas",
